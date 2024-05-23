@@ -1,0 +1,146 @@
+{
+    "message": "data get successfully !",
+    "collectdata": [
+        {
+            "_id": "65c5d80eda5648ffd43c3e8f",
+            "name": "Hitesh rana",
+            "postProperty": []
+        },
+        {
+            "_id": "65d1bdfef49d5a06220e538c",
+            "name": "Ranbir K Chhabra ",
+            "postProperty": []
+        },
+        {
+            "_id": "65d751df234eb83efc7edf36",
+            "name": "Tushar Raghav",
+            "postProperty": [
+                {
+                    "frontImage": {
+                        "public_id": "100acre/Postproperty/qpycetympwxvdnqippop",
+                        "url": "https://res.cloudinary.com/dm5yrsqdc/image/upload/v1710773481/100acre/Postproperty/qpycetympwxvdnqippop.jpg"
+                    },
+                    "otherImage": [],
+                    "propertyType": "Plot / Land",
+                    "propertyName": "9811997543",
+                    "price": "35000",
+                    "area": "4459",
+                    "availableDate": "",
+                    "furnishing": "UnFurnishing",
+                    "amenities": [
+                        "On road property in front of signature flats/projects"
+                    ],
+                    "landMark": "Near school",
+                    "type": "",
+                    "city": "Gurgaon",
+                    "state": "HR",
+                    "address": "Bhondsi gurgoan",
+                    "email": "raghavtushar710@gmail.com",
+                    "number": "9811997543",
+                    "verify": "verified",
+                    "propertyLooking": "rent",
+                    "_id": "65f854ea8f9c07384cfcfe3a"
+                }
+            ]
+        },
+        {
+            "_id": "65dabaf0ce869f766aac9337",
+            "name": "ajeesh gopi",
+            "postProperty": [
+                {
+                    "frontImage": {
+                        "public_id": "100acre/Postproperty/jrdegepp72dyaznyo3p0",
+                        "url": "https://res.cloudinary.com/dm5yrsqdc/image/upload/v1708929802/100acre/Postproperty/jrdegepp72dyaznyo3p0.jpg"
+                    },
+                    "otherImage": [],
+                    "propertyType": "Plot / Land",
+                    "propertyName": "LAND FOR LEASE IN NEW DELHI",
+                    "price": "65cr",
+                    "area": "2.5 ACRES",
+                    "availableDate": "",
+                    "furnishing": "NOT APPLICABLE",
+                    "amenities": [
+                        "Road ",
+                        "Market",
+                        "School",
+                        "Hospital"
+                    ],
+                    "landMark": "CR PARK, KALIMANDIR",
+                    "type": "",
+                    "city": "NEW DELHI",
+                    "state": "Delhi",
+                    "address": "CHITRANJAN PARK, NEW DELHI",
+                    "email": "ajeeshkalathil@ymail.com",
+                    "number": "9971870778",
+                    "verify": "verified",
+                    "propertyLooking": "rent",
+                    "_id": "65dc330a7170afdd351428c0"
+                }
+            ]
+        },
+        {
+            "_id": "65ddd5fa7170afdd35151396",
+            "name": "GANESH ",
+            "postProperty": [
+                {
+                    "frontImage": {
+                        "public_id": "100acre/Postproperty/gouazeqovaemopus6f1i",
+                        "url": "https://res.cloudinary.com/dm5yrsqdc/image/upload/v1709037336/100acre/Postproperty/gouazeqovaemopus6f1i.jpg"
+                    },
+                    "otherImage": [],
+                    "propertyType": "",
+                    "propertyName": "SPRINT COWORKING ",
+                    "price": "80,000",
+                    "area": "",
+                    "availableDate": "",
+                    "furnishing": "Fully ",
+                    "amenities": [
+                        ""
+                    ],
+                    "landMark": "Beside Google building & TCS",
+                    "type": "",
+                    "city": "Hyderabad ",
+                    "state": "Telangana ",
+                    "address": "Hi-tech City ",
+                    "email": "nenavathgani129@gmail.com",
+                    "number": "9010497353",
+                    "verify": "verified",
+                    "propertyLooking": "rent",
+                    "_id": "65ddd7187170afdd35151697"
+                }
+            ]
+        },
+        {
+            "_id": "65de08a87170afdd35156ae1",
+            "name": "Bhuvan Khatri",
+            "postProperty": [
+                {
+                    "frontImage": {
+                        "public_id": "100acre/Postproperty/osnrydzbyibixgkfrsbg",
+                        "url": "https://res.cloudinary.com/dm5yrsqdc/image/upload/v1709054623/100acre/Postproperty/osnrydzbyibixgkfrsbg.jpg"
+                    },
+                    "otherImage": [],
+                    "propertyType": "Independent / Builder Floor",
+                    "propertyName": "",
+                    "price": "65000",
+                    "area": "1200 sq ft",
+                    "availableDate": "",
+                    "furnishing": "Semifurnishing",
+                    "amenities": [
+                        ""
+                    ],
+                    "landMark": "",
+                    "type": "",
+                    "city": "Central Delhi",
+                    "state": "DL",
+                    "address": "New rajinder nagar ",
+                    "email": "Bhuwankhatri@gmail.com",
+                    "number": "+919871993338",
+                    "verify": "verified",
+                    "propertyLooking": "rent",
+                    "_id": "65de1a9f7170afdd3515788e"
+                }
+            ]
+        }
+    ]
+}
