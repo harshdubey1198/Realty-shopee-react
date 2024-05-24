@@ -1,18 +1,18 @@
 import React from 'react';
 import ProjectsCard from './ProjectsCard';
 import '../App.css';
-
+import trending from "../Images/Icons/trending.png"
 const projectData = [
   {
     "projectName": "Signature Global 71",
     "projectAddress": "Sector 71, Southern Peripheral Road",
-    "city": "Gurugram",
+    "city": "Gurgaon",
     "frontImage": {
       "url": "https://signature-newlaunch71.info/wp-content/uploads/2024/04/banner.jpg"
-    }
+    },"possession":"2029",
   },
-
   {
+    "possession":"2029",
     "frontImage": {
         "public_id": "100acre/project/f4si8cfqile0q0oiv4ub",
         "url": "https://res.cloudinary.com/dm5yrsqdc/image/upload/v1715601354/100acre/project/f4si8cfqile0q0oiv4ub.jpg"
@@ -65,14 +65,14 @@ const projectData = [
         "Just 30 minute drive from Delhi International Airport"
     ],
     "meta_description": "M3M Altitude Apartments in Sector 65 were designed to be visually appealing, captivating the senses and enhancing the living experience of its residents",
-    "meta_title": "M3M Altitude Sector 65 Gurugram | Luxury Apartments",
+    "meta_title": "M3M Altitude Sector 65 Gurgaon | Luxury Apartments",
     "Amenities": [
         "Car Parking"
     ],
     "projectBgContent": "M3M Altitude - Luxury Residences in Sector 65 Gurgaon",
     "projectReraNo": "Applied",
     "type": "Residential Flats",
-    "city": "Gurugram",
+    "city": "Gurgaon",
     "builderName": "M3M India",
     "AboutDeveloper": "M3M India means 'Superbness in the Trinity Of Men, Materials and Money'. The aphorism of the organization is \"quality, opportune conveyance and greatness\". Recognizing highlights of M3M inside the business are its inventive, remarkable and unrivaled ideas, multi-dimensional realty arrangements and unparalleled high help norms. Demonstrating its responsibility towards creating cutting edge land works of art, M3M has consistently strived to gather the best ability in the business. The organization has increased important involvement with the land area with different and complimentary gifts from a rich organization of first class go-betweens, monetary establishments, high-total assets people and probably the most rumored designers in India.",
     "projectOverview": "trending",
@@ -111,8 +111,9 @@ const projectData = [
     "createdAt": "2024-05-05T09:34:36.735Z",
     "updatedAt": "2024-05-13T12:00:00.096Z",
     "__v": 0
-},
-{
+  },
+  {
+    "possession":"2029",
     "frontImage": {
         "public_id": "100acre/project/wp8mt1qazvejn1vsi5or",
         "url": "https://res.cloudinary.com/dm5yrsqdc/image/upload/v1715154693/100acre/project/wp8mt1qazvejn1vsi5or.jpg"
@@ -172,7 +173,7 @@ const projectData = [
     "projectBgContent": "Ganga Realty Sector 85 Gurgaon - New Launch",
     "projectReraNo": "Applied",
     "type": "Residential Flats",
-    "city": "Gurugram",
+    "city": "Gurgaon",
     "builderName": "Ganga Realty",
     "AboutDeveloper": "Purity begins at home. It starts with those little joys and simple acts of love that make home our favourite corner of the earth. Explore wholesome living complemented by modern amenities with Ganga Realty. A lifestyle you dreamt of. A lifestyle you deserve. The perfect space for all those memorable moments. Come, love beckons you here at Ganga Realty.",
     "projectOverview": "trending",
@@ -252,28 +253,192 @@ const projectData = [
     "updatedAt": "2024-05-08T07:51:34.383Z",
     "__v": 0,
     "project_Status": "comingsoon"
-},
-{
+  },
+  {
     "projectName": "Krisumi Waterside Residencies",
     "projectAddress": "Sector 36A, Dwarka Expressway",
-    "city": "Gurugram",
+    "city": "Gurgaon",
+    "possession":"2029",
     "frontImage": {
       "url": "https://res.cloudinary.com/dm5yrsqdc/image/upload/v1710335188/100acre/project/rjbyezexaazo80wih4nt.jpg"
     }
-  }
+  },
+  {
+    "frontImage": {
+        "public_id": "100acre/project/r9ogecjzjckzyzkonezl",
+        "url": "https://res.cloudinary.com/dgplzytrq/image/upload/v1716555467/Omaxe19B/fsshjjpg4asp21r0b3bn.jpg_piwyjg.jpg"
+    },
+    "logo": {
+        "public_id": "100acre/project/fu2ugzvbiniqe9sbm66c",
+        "url": "https://res.cloudinary.com/dm5yrsqdc/image/upload/v1712833222/100acre/project/fu2ugzvbiniqe9sbm66c.png"
+    },
+    "project_locationImage": {
+        "public_id": "100acre/project/tjoqjtmsbivylso2x6qr",
+        "url": "https://res.cloudinary.com/dm5yrsqdc/image/upload/v1714995608/100acre/project/tjoqjtmsbivylso2x6qr.jpg"
+    },
+    "highlightImage": {
+        "public_id": "100acre/project/dzutjo3rnhwkxckrsgws",
+        "url": "https://res.cloudinary.com/dm5yrsqdc/image/upload/v1714995808/100acre/project/dzutjo3rnhwkxckrsgws.jpg"
+    },
+    "projectMaster_plan": {
+        "public_id": "100acre/project/sejlormwdamgrki8pw6w",
+        "url": "http://res.cloudinary.com/dm5yrsqdc/image/upload/v1714995676/100acre/project/sejlormwdamgrki8pw6w.jpg"
+    },
+    "_id": "6617c2cf0dbd2ab11644eb96",
+    "project_floorplan_Image": [
+        {
+            "public_id": "100acre/project/ewcxkste4vt1padwkb27",
+            "url": "https://res.cloudinary.com/dm5yrsqdc/image/upload/v1714995740/100acre/project/ewcxkste4vt1padwkb27.jpg"
+        },
+        {
+            "public_id": "100acre/project/tahkwq4dpop6skqzyahy",
+            "url": "https://res.cloudinary.com/dm5yrsqdc/image/upload/v1714995741/100acre/project/tahkwq4dpop6skqzyahy.jpg"
+        },
+        {
+            "public_id": "100acre/project/rkteafhac1w6xruexw4p",
+            "url": "https://res.cloudinary.com/dm5yrsqdc/image/upload/v1714995742/100acre/project/rkteafhac1w6xruexw4p.jpg"
+        },
+        {
+            "public_id": "100acre/project/fcvnndikplcb99dumqml",
+            "url": "https://res.cloudinary.com/dm5yrsqdc/image/upload/v1714995744/100acre/project/fcvnndikplcb99dumqml.jpg"
+        },
+        {
+            "public_id": "100acre/project/vonnpg211nsg9atnsxc8",
+            "url": "https://res.cloudinary.com/dm5yrsqdc/image/upload/v1714995745/100acre/project/vonnpg211nsg9atnsxc8.jpg"
+        }
+    ],
+    "state": "New Delhi",
+    "projectName": "Omaxe State",
+    "projectAddress": "Sector 19B, Dwarka",
+    "project_discripation": "Expanding Commercial Prospects in the Center of Delhi! Omaxe Dwarka Shopping Center Delhi Business Project offers top-notch dining establishments, retail outlets, office spaces, and multi-level parking. It aims to offer state-of-the-art amenities and chances for business expansion in Delhi’s business district.\r\nOmaxe Group, a pioneering real estate developer, has secured the signature commercial project of Omaxe Dwarka Delhi. With a budget of INR 2100 crore, the project entails the development of a sports complex and retail center in the strategic location of Dwarka, the national capital.",
+    "projectRedefine_Connectivity": [
+        "15 minutes drive from Indira Gandhi International (IGI) Airport."
+    ],
+    "projectRedefine_Entertainment": [
+        "5 minutes form Nearest Metro Station"
+    ],
+    "projectRedefine_Business": [
+        "6 km away from the Gurgaon border"
+    ],
+    "projectRedefine_Education": [
+        "Located within 5 km from Vegas Mall And hospitals like Ayushman Hospital, and Aakash Healthcare Super Speciality Hospital."
+    ],
+    "meta_description": "Omaxe State Dwarka Delhi is an impending luxury commercial project that features premium quality retail shops, offices & sports arena with top-class niceties.",
+    "meta_title": "Omaxe State Dwarka Delhi - Commercial Property in Sector 19B New Delhi",
+    "Amenities": [
+        "24x7 Power Backup",
+        "Dedicated Lifts And Escalators",
+        " Swimming Pool With Jacuzzi",
+        "Advanced Security",
+        "3 Level Carr Parking",
+        "Jogging Track",
+        "Beautifully Designed Glass Facade",
+        "Surrounded By Developed Sectors"
+    ],
+    "projectBgContent": "OMAXE DWARKA",
+    "projectReraNo": "Applied",
+    "type": "Commercial Property",
+    "city": "Delhi",
+    "builderName": "Omaxe",
+    "AboutDeveloper": "Since 1987, Omaxe has been relentless in its approach to providing world-class services in real estate and has a varied portfolio comprising Integrated and High-Tech Townships, Group Housing, SCOs, Shopping malls, and Hotels to name a select few.",
+    "projectOverview": "commercial",
+    "project_Status": "newlunch",
+    "schema_type": "project",
+    "project_url": "omaxe-dwarka",
+    "projectGallery": [
+        {
+            "public_id": "100acre/project/fsshjjpg4asp21r0b3bn",
+            "url": "https://res.cloudinary.com/dm5yrsqdc/image/upload/v1714995896/100acre/project/fsshjjpg4asp21r0b3bn.jpg"
+        },
+        {
+            "public_id": "100acre/project/ivytzbdn2rrnkkacypdz",
+            "url": "https://res.cloudinary.com/dm5yrsqdc/image/upload/v1714995897/100acre/project/ivytzbdn2rrnkkacypdz.jpg"
+        },
+        {
+            "public_id": "100acre/project/sht9adqpmgsdqneepykn",
+            "url": "https://res.cloudinary.com/dm5yrsqdc/image/upload/v1714995898/100acre/project/sht9adqpmgsdqneepykn.jpg"
+        },
+        {
+            "public_id": "100acre/project/kedunsdqmpj2hvefq3eo",
+            "url": "https://res.cloudinary.com/dm5yrsqdc/image/upload/v1714995899/100acre/project/kedunsdqmpj2hvefq3eo.jpg"
+        }
+    ],
+    "BhK_Details": [
+        {
+            "bhk_type": "Office Space",
+            "price": "Call for Price",
+            "bhk_Area": "On Request",
+            "_id": "6638c5b2df6f5a16378ef08e"
+        },
+        {
+            "bhk_type": "Retail Shops",
+            "price": "Call for Price",
+            "bhk_Area": "On Request",
+            "_id": "6638c5c2df6f5a16378ef09c"
+        }
+    ],
+    "highlight": [
+        {
+            "highlight_Point": "Land Parcel - 50.4 acres",
+            "_id": "6617c4f60dbd2ab11644f194"
+        },
+        {
+            "highlight_Point": "Opposite Bharat Vandana 220 Acres",
+            "_id": "6617c4fc0dbd2ab11644f198"
+        },
+        {
+            "highlight_Point": "70,000 Ft FAC Area",
+            "_id": "6617c5040dbd2ab11644f19d"
+        },
+        {
+            "highlight_Point": "100+ Room Hotel Above Banquet",
+            "_id": "6617c50d0dbd2ab11644f1a3"
+        },
+        {
+            "highlight_Point": "80 Seater Auditorium",
+            "_id": "6617c5140dbd2ab11644f1aa"
+        },
+        {
+            "highlight_Point": "40,000 Seater With Hydraulic Pitch",
+            "_id": "6617c51b0dbd2ab11644f1b2"
+        },
+        {
+            "highlight_Point": "6/7 Screen Multiplex",
+            "_id": "6617c5220dbd2ab11644f1bb"
+        },
+        {
+            "highlight_Point": "80% Retail - Ground",
+            "_id": "6617c5290dbd2ab11644f1c5"
+        },
+        {
+            "highlight_Point": "Opposite Bharat Vandana 220 Acres",
+            "_id": "6617c5410dbd2ab11644f1ea"
+        },
+        {
+            "highlight_Point": "42 Restaurants In The Whole Project",
+            "_id": "6617c5490dbd2ab11644f1f6"
+        }
+    ],
+    "createdAt": "2024-04-11T11:00:31.052Z",
+    "updatedAt": "2024-05-06T11:57:54.805Z",
+    "__v": 0,
+    "possession":"2029"
+},
 ];
 
 function Trending() {
   return (
-    <div className="trending-section">
-      <h4>Trending</h4>
+    <div className="trending-section bt">
+      <h4><img src={trending} alt="trending" className='section-icon'/>Trending Projects <img src={trending} alt="trending" className='section-icon'/></h4>
+      <hr />
       <div className="projects-container">
-        {projectData.map((project, index) => (
+        {projectData.map((project, index) => (  
           <ProjectsCard
             key={index}
             projectName={project.projectName}
             projectAddress={project.projectAddress}
             city={project.city}
+            possession={project.possession}
             frontImage={project.frontImage}
           />
         ))}
