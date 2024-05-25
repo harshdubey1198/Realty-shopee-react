@@ -26,9 +26,9 @@ function Navbar() {
       </div>
       
       <div className='navigators'>
-        <Link to="home" smooth={true} duration={1500} offset={-navbarHeight}    ><button>Home</button></Link>
+        <Link to="home"     smooth={true} duration={1500} offset={-navbarHeight}><button>Home</button></Link>
         <Link to="trending" smooth={true} duration={1500} offset={-navbarHeight}><button>Trending</button></Link>
-        <Link to="upcoming" smooth={true} duration={1500} offset={-navbarHeight}><button>Upcoming Projects</button></Link>
+        <Link to="upcoming" smooth={true} duration={1500} offset={-navbarHeight}><button>Upcoming</button></Link>
         <select onChange={handleDropdownChange} className="dropdown-select">
           <option value=""           > Categories</option>
           <option value="residential"> Residential</option>

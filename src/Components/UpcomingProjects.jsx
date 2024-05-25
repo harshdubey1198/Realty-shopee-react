@@ -307,7 +307,7 @@ function UpcomingProjects() {
   return (
     <div className="upcoming-section bt">
       <h4> <img src={comingsoon} alt="Coming Soon" className='section-icon' />Upcoming Projects <img src={comingsoon} alt="Coming Soon" className='section-icon' /></h4>
-      <hr />
+      {/* <hr /> */}
       <div className="projects-container">
          {projectData.map((project, index) => (
           <ProjectsCard

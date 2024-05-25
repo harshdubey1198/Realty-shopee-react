@@ -913,7 +913,7 @@ function Trending() {
   return (
     <div className="trending-section bt">
       <h4><img src={trending} alt="trending" className='section-icon'/>Trending Projects <img src={trending} alt="trending" className='section-icon'/></h4>
-      <hr />
+      {/* <hr /> */}
       <div className="projects-container">
         {projectData.map((project, index) => (  
           <ProjectsCard

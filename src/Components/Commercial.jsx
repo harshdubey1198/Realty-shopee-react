@@ -24,7 +24,7 @@ const projectData=[
     }
   },{
     projectName: "M3M Paragon 57",
-    projectAddress: "Sector 57,GOlf Course Ext. Rd",
+    projectAddress: "Sector 57,Golf Course Ext. Rd",
     possession: "2026",
     city: "Gurgaon",
     frontImage: {
