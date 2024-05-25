@@ -205,29 +205,12 @@ a {
 }
 .city{
   font-weight: 800;
-  color: black !important;
+  color: rgb(0, 75, 214) !important;
   font-size: 14px;
 }
-/* trending */
-.trending-section {
-  position: relative;
-  padding: 20px;
-  background: #f1f7fd;
-  h4{
-    font-size: 24px;
-    margin: 10px 40px 5px 60px;
-    font-weight: 600;
-    white-space: nowrap;
-    overflow: hidden;
-    text-overflow: ellipsis;
-    display: flex;
-    gap: 20px;
-    align-items: center;
-    justify-content: center;
-  }
-}
-/* upcoming */
-.upcoming-section {
+
+/* upcoming  and trending css*/
+.upcoming-section, .trending-section{
   position: relative;
   padding: 20px;
   background: #f1f7fd;
@@ -235,7 +218,7 @@ a {
   h4{
     font-size: 24px;
     justify-content: center;
-    margin: 10px 40px 5px 60px;
+    margin: 10px 0px 5px 0px;
     font-weight: 600;
     white-space: nowrap;
     overflow: hidden;
@@ -273,7 +256,7 @@ a {
 
 
 .bt{
-  border-top: 2px solid white;
+  border-top: 1px solid #2e539f;
 }
 @media (width < 951px) {
   /* smaller device css */
@@ -292,4 +275,7 @@ a {
     justify-content: space-around;
     align-items: center;
   }
+
 }
+
+

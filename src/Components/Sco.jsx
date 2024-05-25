@@ -2,7 +2,7 @@ import React from 'react'
 
 function Sco() {
   return (
-    <div className="home-components">
+    <div className="home-components bt">
       SCO
     </div>
   )
