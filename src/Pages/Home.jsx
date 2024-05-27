@@ -7,7 +7,8 @@ import Residential from '../Components/Residential';
 import Commercial from '../Components/Commercial';
 import Sco from '../Components/Sco';
 import Featured from '../Components/Featured';
-// import LocationWise from '../Components/LocationWise';
+import LocationWise from '../Components/LocationWise';
+import ContactUs from '../Components/ContactUs';
 
 function Home() {
   return (
@@ -19,9 +20,8 @@ function Home() {
       <div id="commercial"><Commercial /></div>
       <div id="sco"><Sco /></div>
       <div id="featured"><Featured /></div>
-      {/* <div id="location-wise"><LocationWise /></div> */}
-      
-
+      <div id="location-wise"><LocationWise /></div>
+      <div id='contact-us'><ContactUs/></div>
     </div>
   );
 }

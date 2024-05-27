@@ -1,11 +1,8 @@
-import React from 'react';
-import '../App.css';
+import "../App.css";
 import { HiLocationMarker } from "react-icons/hi";
 import CountUp from "react-countup";
 import { motion } from "framer-motion";
-import heroImage from "../Images/SideHustle/hero-image.png"
-
-const Banner=() =>{
+const Hero = () => {
   return (
     <section className="hero-wrapper">
       <div className="paddings innerWidth flexCenter hero-container">
@@ -27,8 +24,8 @@ const Banner=() =>{
             </motion.h1>
           </div>
           <div className="flexColStart secondaryText flexhero-des">
-            <span>Find a variety of properties that suit you very easilty </span>
-            <span> Forget all difficulties in finding a residence for you</span>
+            <span>Find a variety of properties that suit you very easilty</span>
+            <span>Forget all difficulties in finding a residence for you</span>
           </div>
 
           <div className="flexCenter search-bar">
@@ -42,7 +39,7 @@ const Banner=() =>{
               <span>
                 <CountUp start={8800} end={9000} duration={4} /> <span>+</span>
               </span>
-              <span className="secondaryText">Properties Sold</span>
+              <span className="secondaryText">Premium Product</span>
             </div>
 
             <div className="flexColCenter stat">
@@ -72,12 +69,12 @@ const Banner=() =>{
             }}
             className="image-container"
           >
-            <img src={heroImage} alt="houses" />
+            <img src="./hero-image.png" alt="houses" />
           </motion.div>
         </div>
       </div>
     </section>
   );
-}
+};
 
-export default Banner;
+export default Hero;

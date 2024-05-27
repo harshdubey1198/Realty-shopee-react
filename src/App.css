@@ -25,6 +25,9 @@ nav {
   justify-content: space-between;
   align-items: center;
   background: #c3e2ff;
+  /* backdrop-filter: blur(30px);
+  box-shadow: 0px 0px 30px rgba(227, 228,237 , 0.37);
+  border: 2px solid rgba(255, 255, 255, 0.18); */
   z-index: 999;
 }
 
@@ -277,6 +280,238 @@ a {
    
   }
 }
+
+/* contact us  */
+
+footer {
+  background: #143063;
+  border-top: #efefef solid 1px;
+  overflow: hidden;
+  position: relative;
+  z-index: 0;
+  font-size: 13px;
+  height: 450px;
+  color: white;
+}
+footer:after {
+  content: '';
+  background: url(./Images/SideHustle/pattern-white.png) repeat left top;
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  top: 0;
+  left: 0;
+  opacity: .1;
+  z-index: -1;
+}
+footer .overviewSection {
+  padding: 20px 20px;
+  display: flex;
+  border-top: #232323 solid 1px;
+  align-items: center;
+  justify-content: space-between;
+  height: 100%;
+}
+footer .overviewSection .col.col1 {
+  width: 35%;
+  height: 100%;
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+footer .heading {
+  margin-bottom: 10px;
+  display: block;
+  font-size: 24px;
+  position: absolute;
+  top: 0;
+}
+footer .overviewSection .about {
+  display: block;
+}
+footer .overviewSection .about p {
+  color: #fff;
+  font-size: 14px;
+  line-height: 22px;
+}
+
+footer .overviewSection .col.col3  {
+  /* width: 30%; */
+  height: 100%;
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+.col{
+  width: 30vw;
+}
+.col2{
+/* width: 30%; */
+backdrop-filter: blur(1px) ;
+height: 100%;
+position: relative;
+display: flex;
+flex-direction: column;
+align-items: center;
+justify-content: center;
+}
+.form-container {
+    padding: 25px !important;
+    border-radius: 5px;
+    /* position: relative; */
+    /* width: 90%;
+    max-width: 400px; */
+    display: flex;
+    
+    justify-content: center;
+    align-items: center;
+
+}
+#main-form{
+  width: 25vw;
+}
+
+.form-container input , 
+.form-container select {
+  width: 25vw;
+  padding: 10px 0;
+  margin: 10px 0;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}
+
+.form-container h4 {
+  margin-top: 0;
+  text-align: center;
+  color: blue;
+}
+.form-container button {
+  width: 25vw !important;
+  padding: 10px 0;
+  background: #007bff;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+/* hero */
+
+.flexCenter {
+  display: flex;
+  row-gap: 2rem;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+  margin-top: 60px;
+}
+.hero-wrapper {
+  color: white;
+  position: relative;
+  z-index: 1;
+  padding-bottom: 2rem;
+  background: #1e2d4d;
+}
+
+
+.hero-container {
+  justify-content: space-around;
+  align-items: flex-end; 
+}
+
+
+/* left side */
+.hero-left {
+  gap: 3rem;
+}
+.hero-title {
+  position: relative;
+  z-index: 1;
+}
+.hero-title > h1 {
+  font-weight: 600;
+  font-size: 3.8rem;
+  line-height: 4rem;
+}
+.orange-circle {
+  height: 4rem;
+  width: 4rem;
+  background: var(--orange-gradient);
+  border-radius: 999px;
+  position: absolute;
+  right: 28%;
+  top: -10%;
+  z-index: -1;
+}
+.search-bar {
+  background-color: white;
+  border-radius: 5px;
+  border: 3px solid rgba(120, 120, 120, 0.374);
+  padding: 0.5rem 1rem;
+  width: 100%;
+  justify-content: space-between;
+}
+.search-bar > input {
+  border: none;
+  outline: none;
+}
+.stats{
+    width: 100%;
+    justify-content: space-between;
+}
+.stat>:nth-child(1)
+{
+    font-size: 2rem;
+}
+.stat>:nth-child(1)>:last-child{
+    color: orange;
+}
+/* right side */
+
+.image-container {
+  width: 30rem;
+  height: 35rem;
+  overflow: hidden;
+  border-radius: 15rem 15rem 0 0;
+  border: 8px solid rgba(0, 0, 0, 0.301);
+}
+.image-container>img{
+    width: 100%;
+    height: 100%;
+}
+
+/* mobile screens */
+@media  (max-width: 640px){
+  .hero-container{
+    margin-top: 2rem;
+  }
+  .hero-title>h1{
+    font-size: 2.5rem;
+    line-height: 3rem;
+  }
+  .image-container{
+    width: 95%;
+    height: 25rem;
+  }
+  .stats{
+    justify-content: center;
+    gap: 1.5rem;
+    font-weight: wrap;
+  }
+  .stat>:nth-child(1){
+    font-size: 1.5rem;
+  }
+  .stat>:nth-child(2)
+  {
+    font-size: 0.8rem;
+  }
+}
+
 @media (width < 951px) {
   /* smaller device css */
   .banner-div{
