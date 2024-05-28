@@ -93,7 +93,9 @@ nav {
   color: white;
   box-shadow: 1px 1px 20px rgba(255, 255, 255, 0.452);
 }
-
+a{
+ font-family: 'Roboto', sans-serif !important;
+}
 .social-media {
   z-index: 998;
   position: fixed;
@@ -203,6 +205,7 @@ a {
   align-items: flex-start;
   h5{
     font-size: 15px;
+    color: black !important;
   }
   p{
     font-size: .875rem;
@@ -530,7 +533,7 @@ justify-content: center;
 }
 
 .location-card:hover {
-  border-color: #555; /* Change border color on hover */
+  border-color: #555; 
 }
 
 .location-card .location-image {
@@ -547,14 +550,16 @@ justify-content: center;
   text-align: center;
   width: 100%;
   font-size: 24px;
-  transition: bottom 2.3s; /* Smooth transition for bottom position */
+  transition: bottom 2.3s; 
   font-family: 'Cormorant', serif;
   -webkit-font-smoothing: antialiased;
 }
 
 .location-card:hover h5 {
-  bottom: 45%; /* Move text to center on hover */
-  transition: bottom 1s;
+  bottom: 45%; 
+  transition: bottom 2s;
+  /* transform: rotateZ(-45deg); */
+  transform: scale(1.3);
 }
 
 

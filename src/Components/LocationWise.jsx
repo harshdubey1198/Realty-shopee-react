@@ -6,21 +6,20 @@ import LocationCard from './LocationCard';
 const locations = [
   {
     locationName: 'Dwarka Expressway',
-    image: 'https://www.100acress.com/OtherImages/capture1.PNG', // External image URL
+    image: 'https://www.100acress.com/OtherImages/capture1.PNG', 
   }, 
   {
     locationName: 'Southern Peripheral Road',
-    image: 'https://www.100acress.com/OtherImages/bgseven.PNG', // Import local image
+    image: 'https://www.100acress.com/OtherImages/bgseven.PNG', 
   },
   {
     locationName: 'Golf Course Road',
-    image: 'https://www.100acress.com/OtherImages/golfCourse.jpg', // Import local image
+    image: 'https://www.100acress.com/OtherImages/golfCourse.jpg', 
   },
   {
     locationName: 'Northern Peripheral Road',
-    image: 'https://www.100acress.com/OtherImages/sikanderpur.jpg', // Import local image
+    image: 'https://www.100acress.com/OtherImages/sikanderpur.jpg', 
   },
-  // Add more locations as needed
 ];
 
 function LocationWise() {

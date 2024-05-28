@@ -9,10 +9,14 @@ import Sco from '../Components/Sco';
 import Featured from '../Components/Featured';
 import LocationWise from '../Components/LocationWise';
 import ContactUs from '../Components/ContactUs';
+import Navbar from '../Components/Navbar';
+import SocialBar from "../Components/SocialBar"
 
 function Home() {
   return (
     <div className='home-main'>
+      <Navbar/>
+      <SocialBar />
       <div id="home"><Banner /></div>
       <div id="trending"><Trending /></div>
       <div id="upcoming"><UpcomingProjects /></div>
