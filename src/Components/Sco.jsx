@@ -2,6 +2,7 @@ import React from 'react'
 import scoIcon from "../Images/Icons/land.png"
 import '../App.css'
 import ProjectsCard from './ProjectsCard'
+import { Link } from 'react-router-dom';
 
 const projectData =[
   {
@@ -44,7 +45,7 @@ const projectData =[
 
 function Sco() {
   return (
-    <div className=" bt">
+    <div className="bt">
       <h4>
         <img src={scoIcon} alt="trending" className='section-icon'/>
             SCO Plots
@@ -53,6 +54,7 @@ function Sco() {
 
       <div className="projects-container">
         {projectData.map((project, index) => (  
+        <Link key={project.projectName} to={`/projects/${project.projectName}`}>
           <ProjectsCard
             key={index}
             projectName={project.projectName}
@@ -60,8 +62,9 @@ function Sco() {
             city={project.city}
             possession={project.possession}
             frontImage={project.frontImage}
-          />
-        ))}
+          />    
+        </Link>
+                    ))}
       </div>
 
     </div>

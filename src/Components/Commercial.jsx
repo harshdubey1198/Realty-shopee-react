@@ -2,6 +2,7 @@ import React from 'react'
 import '../App.css';
 import comIcon from "../Images/Icons/company.png"
 import ProjectsCard from './ProjectsCard';
+import { Link } from 'react-router-dom';
 
 const projectData=[
   {
@@ -51,6 +52,7 @@ function Commercial() {
       </h4>
       <div className="projects-container">
          {projectData.map((project, index) => (
+          <Link key={project.projectName} to={`/projects/${project.projectName}`}>
           <ProjectsCard
             key={index}
             projectName={project.projectName}
@@ -59,6 +61,7 @@ function Commercial() {
             city={project.city}
             frontImage={project.frontImage}
           />
+          </Link>
         ))}
       </div>
 

@@ -6,11 +6,11 @@ import UpcomingProjects from '../Components/UpcomingProjects';
 import Residential from '../Components/Residential';
 import Commercial from '../Components/Commercial';
 import Sco from '../Components/Sco';
-import Featured from '../Components/Featured';
 import LocationWise from '../Components/LocationWise';
 import ContactUs from '../Components/ContactUs';
 import Navbar from '../Components/Navbar';
 import SocialBar from "../Components/SocialBar"
+import MidForm from '../Components/MidForm';
 
 function Home() {
   return (
@@ -20,10 +20,10 @@ function Home() {
       <div id="home"><Banner /></div>
       <div id="trending"><Trending /></div>
       <div id="upcoming"><UpcomingProjects /></div>
+      <div id="midform"><MidForm /></div>
       <div id="residential"><Residential /></div>
       <div id="commercial"><Commercial /></div>
       <div id="sco"><Sco /></div>
-      <div id="featured"><Featured /></div>
       <div id="location-wise"><LocationWise /></div>
       <div id='contact-us'><ContactUs/></div>
     </div>

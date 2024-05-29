@@ -2,6 +2,7 @@ import React from 'react';
 import ProjectsCard from './ProjectsCard';
 import '../App.css';
 import comingsoon from "../Images/Icons/coming-soon.png"
+import { Link } from 'react-router-dom';
 
 const projectData = [
   {
@@ -309,7 +310,8 @@ function UpcomingProjects() {
       <h4> <img src={comingsoon} alt="Coming Soon" className='section-icon' />Upcoming Projects <img src={comingsoon} alt="Coming Soon" className='section-icon' /></h4>
       {/* <hr /> */}
       <div className="projects-container">
-         {projectData.map((project, index) => (
+         {projectData.map((project, index) => (          
+         <Link key={project.projectName} to={`/projects/${project.projectName}`}>
           <ProjectsCard
             key={index}
             projectName={project.projectName}
@@ -317,7 +319,8 @@ function UpcomingProjects() {
             possession={project.possession}
             city={project.city}
             frontImage={project.frontImage}
-          />
+          />        
+            </Link>
         ))}
       </div>
     </div>

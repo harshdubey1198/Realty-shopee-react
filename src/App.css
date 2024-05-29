@@ -59,7 +59,7 @@ nav {
 .dropdown-select {
   background-color: none;
   margin: 0 10px;
-  padding: 10px 5px !important;
+  /* padding: 10px 5px !important; */
   border-radius: 4px;
   padding: 5px;
   border: 1px solid white;
@@ -174,7 +174,10 @@ a {
   display: flex;
   flex-direction: column;
 }
-
+.project-card:hover{
+  transform: scale(1.08);
+  transition: 0.6s;
+}
 .project-image {
   width: 100%;
   height:10rem;
@@ -276,8 +279,8 @@ a {
     font-size: 24px;
     margin: 10px 40px 5px 40px;
     font-weight: 600;
-    padding: 15px 0;
-    border-radius: 10px;
+    padding: 4px 0;
+    /* border-radius: 10px; */
     white-space: nowrap;
     overflow: hidden;
     text-overflow:ellipsis;
@@ -426,7 +429,7 @@ justify-content: center;
   position: relative;
   z-index: 1;
   padding-bottom: 2rem;
-  background: #1e2d4d;
+  background: linear-gradient(135deg, #1e2d4d, #1877ad);
 }
 
 
@@ -450,6 +453,7 @@ justify-content: center;
   font-weight: 600;
   font-size: 3.8rem;
   line-height: 4rem;
+  
 }
 .orange-circle {
   height: 4rem;
@@ -465,14 +469,26 @@ justify-content: center;
   background-color: white;
   border-radius: 5px;
   border: 3px solid rgba(120, 120, 120, 0.374);
-  padding: 0.5rem 1rem;
+  padding: 0rem 1rem;
   width: 100%;
   justify-content: space-between;
+  align-items: center;
 }
 .search-bar > input {
   border: none;
+  width: 32vw;
+  background: none;
+  height: 40px;
   outline: none;
+  text-align: center;
+  font-weight: 600;
+  font-size: 1rem;
 }
+.flexhero-des{
+  display: flex;
+  flex-direction: column;
+}  
+
 .stats{
     width: 100%;
     justify-content: space-between;
@@ -511,6 +527,23 @@ justify-content: center;
     height: 100%;
 }
 
+/* midform */
+.midform{
+  background: #fff;
+}
+
+.div-form{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  align-items: center;
+  min-height: 400px;
+}
+.img-container img{
+  width: 390px;
+}
+
+
 /* location card css */
 .location-container{
   display: grid;
@@ -534,6 +567,7 @@ justify-content: center;
 
 .location-card:hover {
   border-color: #555; 
+  
 }
 
 .location-card .location-image {
@@ -573,6 +607,7 @@ justify-content: center;
   .hero-title>h1{
     font-size: 2.5rem;
     line-height: 3rem;
+    text-align: center;
   }
   .image-container{
     width: 95%;
@@ -609,6 +644,93 @@ justify-content: center;
     justify-content: space-around;
     align-items: center;
   }
+  
+  .search-bar{
+    width: max-content;
+    flex-direction: row !important;
+  }
+  .search-bar > input {
+    width: 190px;
+  }
+  .upcoming-section, .trending-section , .bt{
+    position: relative;
+    
+    padding: 20px 0 ;
+    background: #f1f7fd;
+    h4{
+      margin: 10px 15px 5px 15px;
+      font-size: 16px;
+    }
+  }  
+  .section-icon{
+    height: 35px;
+  }
+
+  .flexCenter {
+    display: flex;
+    flex-direction: column;
+    row-gap: 2rem;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    margin-top: 60px;
+  }
+  .hero-right{
+    margin-top: 0 !important;
+  }
+  .flexhero-des{
+    display: flex;
+    flex-direction: column;
+    
+
+    span:nth-child(2){
+      display: none;
+    }
+  }  
+.location-container{
+  grid-template-columns: repeat(1 , 0fr);
+}
+.location-card{
+  width: 300px;
+}
+.overviewSection{
+  flex-direction: column;
+}
+footer .overviewSection .about p {
+  padding:20px 20px 0;
+}
+
+.col1{
+width: 100% !important;
+}
+.col{
+  width: 100% !important;
+}
+footer{
+  min-height: 450px;
+  height: 100%;
+}
+#main-form{
+  display: flex !important;
+  flex-direction: column;
+  align-items: center;
+  width: 100% !important;
+}
+.form-container{
+  width: 100% !important;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+
+  input,select{
+    width: 80% !important;
+  }
+
+
+
+}
+
+
 
 }
 

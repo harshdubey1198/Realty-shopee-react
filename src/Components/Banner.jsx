@@ -33,21 +33,21 @@ const Banner=() =>{
 
           <div className="flexCenter search-bar">
             <HiLocationMarker className='blue' size={25} />
-            <input type="text" />
+            <input type="text" placeholder='Search For Properties' />
             <button className="button">Search</button>
           </div>
 
           <div className="flexCenter stats">
             <div className="flexColCenter stat">
               <span>
-                <CountUp start={8800} end={9000} duration={4} /> <span>+</span>
+                <CountUp start={4000} end={4900} duration={4} /> <span>+</span>
               </span>
               <span className="secondaryText">Properties Sold</span>
             </div>
 
             <div className="flexColCenter stat">
               <span>
-                <CountUp start={1950} end={2000} duration={4} /> <span>+</span>
+                <CountUp start={1650} end={1800} duration={4} /> <span>+</span>
               </span>
               <span className="secondaryText">Happy Customer</span>
             </div>
