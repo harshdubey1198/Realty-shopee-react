@@ -1,0 +1,109 @@
+/* App.css */
+
+.contact-us-page {
+    padding: 50px;
+    background-color: #f9f9f9;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    min-height: 100vh;
+    width: auto;
+}
+  
+.contact-us-page h1 {
+    margin-bottom: 20px;
+}
+  
+.div-form {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    background: white;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    width: 80vw;
+}
+  
+.svg-container {
+    margin-bottom: 20px;
+}
+  
+.contact-form {
+    width: 28rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 0 10px;
+}
+  
+.form-group {
+    margin-bottom: 15px;
+    width: 100%;
+}
+  
+.form-group label {
+    display: block;
+    margin-bottom: 5px;
+    font-weight: bold;
+}
+  
+.form-group input,
+.form-group select,
+.form-group textarea {
+    width: 100%; 
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    box-sizing: border-box;
+}
+  
+.submit-button {
+    padding: 10px 20px;
+    background-color: #007bff;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    width: 50%;
+}
+  
+.submit-button:hover {
+    background-color: #0056b3;
+}
+
+.explore{
+    margin-top: 20px;
+    padding: 10px 20px;
+    background: #6dabee;
+    border-radius: 10px;
+    outline: none;
+    border: 1px solid #000000 ;
+}
+
+
+@media (width<990px) {
+    .contact-us-page {
+        padding: 10px 20px;
+    }
+    .contact-us-page h1 {
+        font-size: 1.5rem;
+    }
+    .div-form {
+        flex-direction: column;
+    }
+    .contact-form {
+        width: 100%;
+    }
+    .submit-button {
+        width: 100%;
+    }
+    .svg-container{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        img{
+            width: 80%;
+        }
+    }
+}
