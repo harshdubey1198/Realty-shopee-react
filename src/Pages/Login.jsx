@@ -1,128 +1,91 @@
-// import React, { useState } from 'react';
-// // import './Login.css';
-
-// const Login = () => {
-//   const [rightPanelActive, setRightPanelActive] = useState(false);
-
-//   const handleSignUpClick = () => {
-//     setRightPanelActive(true);
-//   };
-
-//   const handleSignInClick = () => {
-//     setRightPanelActive(false);
-//   };
-
-//   return (
-//     <div className={`container ${rightPanelActive ? 'right-panel-active' : ''}`} id="container">
-//       <div className="form-container sign-up-container">
-//         <form action="#">
-//           <h1>Create Account</h1>
-//           {/* <div className="social-container">
-//             <a href="#" className="social"><i className="fab fa-facebook-f"></i></a>
-//             <a href="#" className="social"><i className="fab fa-google-plus-g"></i></a>
-//             <a href="#" className="social"><i className="fab fa-linkedin-in"></i></a>
-//           </div> */}
-//           <span>or use your email for registration</span>
-//           <input type="text" placeholder="Name" />
-//           <input type="email" placeholder="Email" />
-//           <input type="password" placeholder="Password" />
-//           <button>Sign Up</button>
-//         </form>
-//       </div>
-//       <div className="form-container sign-in-container">
-//         <form action="#">
-//           <h1>Sign in</h1>
-//           {/* <div className="social-container">
-//             <a href="#" className="social"><i className="fab fa-facebook-f"></i></a>
-//             <a href="#" className="social"><i className="fab fa-google-plus-g"></i></a>
-//             <a href="#" className="social"><i className="fab fa-linkedin-in"></i></a>
-//           </div> */}
-//           <span>or use your account</span>
-//           <input type="email" placeholder="Email" />
-//           <input type="password" placeholder="Password" />
-//           {/* <a href="#">Forgot your password?</a> */}
-//           <button>Sign In</button>
-//         </form>
-//       </div>
-//       <div className="overlay-container">
-//         <div className="overlay">
-//           <div className="overlay-panel overlay-left">
-//             <h1>Welcome Back!</h1>
-//             <p>To keep connected with us please login with your personal info</p>
-//             <button className="ghost" id="signIn" onClick={handleSignInClick}>Sign In</button>
-//           </div>
-//           <div className="overlay-panel overlay-right">
-//             <h1>Hello, Friend!</h1>
-//             <p>Enter your personal details and start journey with us</p>
-//             <button className="ghost" id="signUp" onClick={handleSignUpClick}>Sign Up</button>
-//           </div>
-//         </div>
-//       </div>
-//     </div>
-//   );
-// };
-
-// export default Login;
-
-import React, { useState } from "react";
-import '../App.css'
+import React, { useState } from 'react';
+import '../App.css';
+import fpImage from "../Images/Icons/forgot.png"
 
 const Login = () => {
-  const [rightPanelActive, setRightPanelActive] = useState(false);
+  const [overlayActive, setOverlayActive] = useState(false);
+  const [isSignUp, setIsSignUp] = useState(false);
 
   const handleSignUpClick = () => {
-    setRightPanelActive(true);
+    setOverlayActive(true);
   };
 
   const handleSignInClick = () => {
-    setRightPanelActive(false);
+    setOverlayActive(false);
   };
+
+  const handleToggle = (isSignUp) => {
+    setIsSignUp(isSignUp);
+  };
+
   return (
-    <div className="main-login">
-      <div className={`container ${rightPanelActive ? "right-panel-active" : ""}`} id="container">
-        <div className="form-container sign-up-container">
-          <form action="#">
-            <h1>Create Account</h1>
-            <span>Use your email for registration</span>
+    <>
+      
+      <div className="main-login">
+        <div className={`login-c ${overlayActive ? 'overlay-active' : ''}`}>
+          <div className="signin-div">
+            <h1>Sign In</h1>
+            <form action="#">
+              <input type="email" placeholder="Email" />
+              <input type="password" placeholder="Password" />
+              <button>Sign In</button>
+            </form>
+          </div>
+          <div className="signup-div">
+            <h1>Sign Up</h1>
+            <form action="#">
+              <input type="text" placeholder="Name" />
+              <input type="email" placeholder="Email" />
+              <input type="password" placeholder="Password" />
+              <button>Sign Up</button>
+            </form>
+          </div>
+        <div className={`hidden-overflow ${overlayActive ? 'active' : ''}`}>
+          {overlayActive ? (
+            <>
+              <h1>Welcome Back!</h1>
+              <p>To keep connected with us, please login with your personal info</p>
+              <button onClick={handleSignInClick} className='switch-overlay'>SIGN IN</button>
+            </>
+          ) : (
+            <>
+              <h1>Hello, Friend!</h1>
+              <p>Enter your personal details and start journey with us</p>
+              <button onClick={handleSignUpClick} className='switch-overlay'>SIGN UP</button>
+            </>
+          )}
+        </div>
+        </div>
+      </div>
+      
+      <div className="m-login-c">
+        <div className="mobile-overlay">
+          <button onClick={() => handleToggle(false)} className={!isSignUp ? 'active' : ''}>
+            Sign In
+          </button>
+          <button onClick={() => handleToggle(true)} className={isSignUp ? 'active' : ''}>
+            Sign Up
+          </button>
+        </div>
+        <div className="mobile-container">
+          <form className={!isSignUp ? 'active' : ''}>
+            <h1>Sign In</h1>
+            <input type="email" placeholder="Email" />
+            <input type="password" placeholder="Password" />
+            <button>Sign In</button>
+            <img src={fpImage} alt='' className='fp-image'/>
+          </form>
+          <form className={isSignUp ? 'active' : ''}>
+            <h1>Sign Up</h1>
             <input type="text" placeholder="Name" />
             <input type="email" placeholder="Email" />
             <input type="password" placeholder="Password" />
+            <input type="password" placeholder="Confirm Password" />
             <button>Sign Up</button>
           </form>
-        </div> 
-
-       <div className="form-container sign-in-container">
-         <form action="#">
-           <h1>Sign in</h1>
-           {/* <div className="social-container">
-             <a href="#" className="social"><i className="fab fa-facebook-f"></i></a>
-             <a href="#" className="social"><i className="fab fa-google-plus-g"></i></a>
-             <a href="#" className="social"><i className="fab fa-linkedin-in"></i></a>
-           </div> */}
-           <span>or use your account</span>
-           <input type="email" placeholder="Email" />
-           <input type="password" placeholder="Password" />
-           {/* <a href="#">Forgot your password?</a> */}
-           <button>Sign In</button>
-         </form>
-       </div>
-      </div>
-      
-      <div className="overlay-container">
-        <div className="overlay">
-          <div className="overlay-panel overlay-left">
-            <h1>Welcome Back!</h1>
-            <p>To keep connected with us please login with your personal info</p>
-            <button className="ghost" id="signIn" onClick={handleSignInClick}>Sign In</button>
-          </div>
-          <div className="overlay-panel overlay-right">
-            <h1>Hello, Friend!</h1>
-            <p>Enter your personal details and start journey with us</p>
-            <button className="ghost" id="signUp" onClick={handleSignUpClick}>Sign Up</button>
-          </div>
         </div>
       </div>
-    </div>
+    </>
   );
 };
 

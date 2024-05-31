@@ -3,7 +3,7 @@ import '../App.css';
 import { HiLocationMarker } from "react-icons/hi";
 import CountUp from "react-countup";
 import { motion } from "framer-motion";
-import heroImage from "../Images/SideHustle/hero-image.png"
+// import heroImage from "../Images/ProjectImages/M3M-Altitude/m3m-altitude-4.jpg"
 
 const Banner=() =>{
   return (
@@ -72,7 +72,7 @@ const Banner=() =>{
             }}
             className="image-container"
           >
-            <img src={heroImage} alt="houses" />
+            <img src="https://propertyingurugram.in/wp-content/uploads/2024/05/M3M-Altitude-image-1.jpg" alt="houses" />
           </motion.div>
         </div>
       </div>

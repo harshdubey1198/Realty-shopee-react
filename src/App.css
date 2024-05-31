@@ -536,14 +536,15 @@ justify-content: center;
 
 .image-container {
   width: 30rem;
-  height: 35rem;
+  height: 29.8rem;
   overflow: hidden;
-  border-radius: 15rem 15rem 0 0;
+  border-radius: 10rem 0 10rem  0;
   border: 8px solid rgba(0, 0, 0, 0.301);
 }
 .image-container>img{
     width: 100%;
     height: 100%;
+    object-fit: contain;
 }
 
 /* midform */
@@ -672,7 +673,232 @@ justify-content: center;
 
 
 /* login and signup */
-@import url('https://fonts.googleapis.com/css?family=Montserrat:400,800');
+
+/* Existing styles for desktop */
+.main-login {
+  background: url('./Images/bg2.jpg');
+  background-size: cover;
+  background-attachment: fixed;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  font-family: 'Montserrat', sans-serif;
+  height: 100vh;
+  overflow: hidden;
+  position: relative;
+}
+
+.login-c {
+  display: flex;
+  width: 70vw;
+  height: 60vh;
+  background: rgba(255, 255, 255, 0.329);
+  justify-content: space-around;
+  align-items: center;
+  position: relative;
+  border-radius: 0px 100px 0 100px;
+  border:none;
+  outline: 2px solid lightblue;
+  h1{
+    color: #eeeeee;
+  }
+  p{
+    font-size: 1.1rem;
+    color: #eeeeee;
+    text-align: center;
+  }
+}
+
+.login-c form {
+  display: flex;
+  flex-direction: column;
+  /* height: 400px; */
+  justify-content: center;
+  align-items: center;
+  gap: 30px;
+  width: 100%;
+}
+
+.login-c input, .login-c button {
+  width: 90%;
+  padding: 10px;
+  border-radius: 15px;
+  border: 1px solid lightgrey;
+  margin-left: 2.5%;
+  background: rgba(248, 247, 244, 0.92);
+  
+}
+.login-c button{
+  background: #91cdff;
+  width: 300px;
+  cursor: pointer;
+}
+.switch-overlay{
+  width: 100px;
+}
+.signin-div,
+.signup-div {
+  width: 50%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.hidden-overflow {
+  position: absolute;
+  background: linear-gradient(-45deg, #91cdff, #3365cf);
+  height: 60vh;
+  width: 50%;
+  top: 0;
+  right: 0;
+  transition: all 0.9s ease-in-out;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  border-radius: 0px 100px 0 0;
+}
+
+.hidden-overflow.active {
+  transform: translateX(-100%);
+  border-radius: 0 0 0 100px;
+}
+
+/* Styles for mobile */
+.m-login-c {
+  display: none;
+}
+
+@media (max-width: 951px) {
+  .main-login {
+    display: none;
+  }
+
+  .m-login-c {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 100vw;
+    height: 100vh;
+    background: #f6f5f7;
+    font-family: 'Montserrat', sans-serif;
+    position: relative;
+  
+    background: linear-gradient(-45deg, #7452ee, #e73c7e, #23a6d5, #23d5ab,rgb(0, 102, 255) , white);
+    background-size: 400% 400%;
+    animation: gradient 10s ease infinite;
+    height: 100vh;
+  }
+  
+  @keyframes gradient {
+    0% {
+      background-position: 0% 50%;
+    }
+    50% {
+      background-position: 100% 50%;
+    }
+    100% {
+      background-position: 0% 50%;
+    }
+  }
+
+  .toggle-buttons {
+    display: flex;
+    justify-content: space-around;
+    width: 100%;
+    margin-bottom: 20px;
+  }
+
+  .toggle-buttons button {
+    width: 45%;
+    padding: 10px;
+    border: none;
+    border-radius: 15px;
+    background: #fff;
+    cursor: pointer;
+    font-size: 16px;
+  }
+
+  .toggle-buttons button.active {
+    background: grey;
+    color: #fff;
+  }
+
+  .mobile-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 80%;
+    background: white;
+    padding: 20px;
+    border-radius: 15px;
+    position: relative;
+    min-height: 270px;
+  }
+
+  .mobile-container form {
+    display: none;
+    width: 100%;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .mobile-container form.active {
+    display: flex;
+  }
+
+  .mobile-container input,
+  .mobile-container button {
+    width: 90%;
+    padding: 10px;
+    border-radius: 15px;
+    border: 1px solid lightgrey;
+    margin: 10px 0;
+  }
+
+  .mobile-overlay {
+    display: flex;
+    justify-content: space-around;
+    width: 50%;
+    background: #1c418c;
+    padding: 10px;
+    position: absolute;
+    top: 20%;
+    border-radius: 15px;
+  }
+
+  .mobile-overlay button {
+    background: none;
+    border: none;
+    color: white;
+    cursor: pointer;
+    font-size: 16px;
+    border-radius: 5px;
+    transition: background .1s linear;
+    margin-left: 0;
+  }
+  .mobile-overlay button.active{
+    background: #91cdff;
+  }
+}
+.fp-image{
+  height: 20px;
+  position: absolute  ;
+  right: 20px;
+  bottom: 10px;
+  cursor: pointer;
+  background: none;
+  padding: 5px;
+  border-radius: 5px;
+}
+.fp-image:hover{
+  background: #f1f7fd;
+}
+
+/* @import url('https://fonts.googleapis.com/css?family=Montserrat:400,800');
 
 .main-login{
   background: #f6f5f7;
@@ -682,7 +908,8 @@ justify-content: center;
 	flex-direction: column;
 	font-family: 'Montserrat', sans-serif;
 	height: 100vh;
-	margin: -20px 0 50px;
+  overflow: hidden;
+  position: relative;
 }
 .container {
 	background-color: #fff;
@@ -780,7 +1007,6 @@ button.ghost {
 .overlay {
 	background: #bebabb38;
 	
-	/* background: linear-gradient(to right, #FF4B2B, #FF416C); */
 	background-repeat: no-repeat;
 	background-size: cover;
 	background-position: 0 0;
@@ -827,7 +1053,7 @@ button.ghost {
 
 .container.right-panel-active .overlay-right {
 	transform: translateX(20%);
-}
+} */
 
 
 /* mobile screens */
