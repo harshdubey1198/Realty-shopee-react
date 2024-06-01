@@ -941,6 +941,9 @@ justify-content: center;
     border-radius: 40px;
     cursor: pointer;
   }
+  a span:nth-child(2){
+    display: none;
+  }
   button{
     color: #eeeeee;
     background: #00000094;
@@ -948,6 +951,9 @@ justify-content: center;
     border-radius: 40px;
     border: none;
     cursor: pointer;
+  }
+  button span:nth-child(2){
+    display: none;
   }
 }
 .pd-div{
@@ -997,38 +1003,59 @@ justify-content: center;
   }
 }
 .pd-l-image{
-  max-width: 45%;
+  width: 45%;
   border-radius: 20px;
 }
 
-.pd-p3{
+.pd-p3 {
   display: flex;
   flex-direction: row;
   align-items: center;
-  justify-content: space-around ;
+  justify-content: space-around;
   min-height: 300px;
-  div{
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    min-width: 40%;
-    h2{
-      width: 100%;
-      text-align: center;
-    }
-    ul{
-      min-height: 100px;
-      display: flex;
-      flex-direction: column;
-      justify-content: space-around;
-    }
-  }
+  border-top: 2px solid lightblue;
+  border-bottom: 2px solid lightblue;
 }
+
+.pd-p3 div {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  min-width: 40%;
+}
+
+.pd-p3 div h2 {
+  width: 100%;
+  text-align: center;
+}
+
+.pd-p3 div ul {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 10px;
+  list-style: none;
+  padding: 0;
+  /* min-height: 100px; */
+}
+
+.pd-p3 div ul li {
+  background: linear-gradient(-45deg , rgb(139, 203, 255) ,rgb(91, 148, 255) );
+  padding: 10px 20px;
+  text-align: center;
+  border-radius: 20px;
+  font-weight: bold;
+  color: #000000bb;
+}
+.pd-p3 div:nth-child(2) ul {
+  grid-template-columns: repeat(1,1fr);
+}
+
 .pd-carousel{
   display: flex;
   flex-direction: row;
   align-items: center;
   justify-content: space-around;
+  padding: 20px;
   .carousel-image{
     height: 500px;;
   }
@@ -1231,7 +1258,106 @@ footer{
     border-radius: 10px;
   }
 
-
+/* pd  */
+.pd-nav{
+  z-index: 999;
+}
+.pd-nav button{
+  padding: 0;
+}
+.pd-nav button span:nth-child(1){
+  display: none;
+}
+.pd-nav button span:nth-child(2){
+  display: block;
+  font-size: 25px;
+  border: none;
+}
+.pd-nav a span:nth-child(1){
+  display: none;
+}
+.pd-nav a span:nth-child(2){
+  display: block;
+  font-size: 25px;
+  border: none;
+}
+.pd-nav a{
+  background: none;
+}
+.pd-nav button{
+  background: none;
+  }
+.phone{
+  transform: rotate(-90deg);
+}
+.pd-p1{
+  flex-direction: column;
+  .pd-banner{
+    width: 85%;
+  }
+}
+.pd-location{
+  flex-direction: column-reverse;
+  div{
+    width: 100%;
+    ul{
+      margin-left: -10px;
+    }
+  }
+  p{
+    font-size: 14px;
+  }
+  li{
+    font-size: 14px;
+  }
+  .pd-l-image{
+    width: 85%;
+  }
 }
 
+.pd-about{
+  font-size: 14px;
+  width: 100%;
+}
+.pd-logo{
+  height: 45px;
+}
+.pd-p3{
+  flex-direction: column;
+}
+.pd-p3 div ul {
+  grid-template-columns: repeat(1, 1fr);
+}
+.pd-p3 div ul li{
+  font-size: 12px;
+}
+.pd-p3 div ul li:nth-child(odd) {
+  transform: translate(-20px , 0);
+}
+.pd-p3 div ul li:nth-child(even) {
+  transform: translate(20px , 0);
+}
+
+.pd-carousel{
+  .carousel-button{
+    display: none;
+  }
+  .carousel-image{
+    height: 230px;
+  }
+}
+.pd-enquiry {
+  width: 100%;
+  h1{
+    font-size: 18px;
+  }
+  input, button {
+      width: 100%;
+      margin-bottom: 3rem !important;
+  }
+  form{
+    width: 50%;
+  }
+}
+}
 

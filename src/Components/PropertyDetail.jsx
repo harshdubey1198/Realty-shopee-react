@@ -2,6 +2,9 @@ import React, { useState, useEffect } from 'react';
 import PropTypes from 'prop-types';
 import { useNavigate } from 'react-router-dom';
 import "../App.css";
+import { FcHome } from "react-icons/fc";
+import { FcPhone } from "react-icons/fc";
+import { FcQuestions } from "react-icons/fc";
 
 function PropertyDetail({ property }) {
   const navigate = useNavigate();
@@ -12,7 +15,7 @@ function PropertyDetail({ property }) {
       setCurrentImageIndex((prevIndex) => 
         prevIndex === property.project_floorplan_Image.length - 1 ? 0 : prevIndex + 1
       );
-    }, 3000); 
+    }, 2000); 
 
     return () => clearInterval(interval); 
   }, [property.project_floorplan_Image.length]);
@@ -41,9 +44,9 @@ function PropertyDetail({ property }) {
     <div className='pd-main'>
       <header className='pd-nav'>
         <h2><img src={property.logo.url} className='pd-logo' alt={property.projectName} /></h2>
-        <button onClick={handleHomeClick}>Home</button>
-        <button onClick={handleContactUsClick}>Contact Us</button>
-        <a href="tel:+919289252999">+91 9289252999</a>
+        <button onClick={handleHomeClick}><span>Home</span><span><FcHome/></span></button>
+        <button onClick={handleContactUsClick}><span>Contact Us</span><span><FcQuestions/></span></button>
+        <a href="tel:+919289252999"><span>+91 9289252999</span><span><FcPhone className='phone'/></span></a>
       </header>
       <div className='pd-div'>
         <div className='pd-p1'>
