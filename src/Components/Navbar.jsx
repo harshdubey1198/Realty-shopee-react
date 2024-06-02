@@ -35,7 +35,7 @@ function Navbar() {
           <option value="commercial" > Commercial</option>
           <option value="sco"        > SCO</option>
         </select>
-        <Link to="featured" smooth={true} duration={1500} offset={-navbarHeight}     ><button>Featured</button></Link>
+        {/* <Link to="featured" smooth={true} duration={1500} offset={-navbarHeight}     ><button>Featured</button></Link> */}
         <Link to="location-wise" smooth={true} duration={1500} offset={-navbarHeight}><button>Location Wise</button></Link>
       </div>
 
