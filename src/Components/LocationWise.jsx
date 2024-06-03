@@ -19,6 +19,9 @@ const locations = [
   {
     locationName: 'Northern Peripheral Road',
     image: 'https://www.100acress.com/OtherImages/sikanderpur.jpg', 
+  },{
+    locationName: 'Golf Course Extn Road',
+    image: 'https://www.100acress.com/OtherImages/sikanderpur.jpg', 
   },
 ];
 

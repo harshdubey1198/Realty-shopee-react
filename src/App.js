@@ -4,6 +4,7 @@ import Home from './Pages/Home';
 import PropertyPage from './Pages/PropertyPage';
 import ContactUs from './Pages/ContactUs';
 import Login from './Pages/Login';
+import LocationDetail from './Components/LocationList';
 
 function App() {
   return (
@@ -15,6 +16,7 @@ function App() {
             <Route path="/projects/:projectName" element={<PropertyPage />} />
             <Route path="/contactus" element={<ContactUs />}/>
             <Route path="/login" element={<Login />}/>
+            <Route path="/location/:locationName" element={<LocationDetail />} />
           </Routes>
         </div>
       </div>
