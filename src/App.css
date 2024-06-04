@@ -739,7 +739,7 @@ justify-content: center;
   border-radius: 20px;
   font-size: 14px;
   font-weight: 700;
-  box-shadow: 2px 2px 9px #a3c1df; /* Neuromorphism effect */
+  box-shadow: 2px 2px 9px #a3c1df;
 }
 .ld-btn:hover,.ld-vd:hover{
   transform: scale(1.1);

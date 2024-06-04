@@ -21,7 +21,19 @@ const locations = [
     image: 'https://www.100acress.com/OtherImages/sikanderpur.jpg', 
   },{
     locationName: 'Golf Course Extn Road',
-    image: 'https://www.100acress.com/OtherImages/sikanderpur.jpg', 
+    image: 'https://www.100acress.com/OtherImages/capture6.PNG', 
+  },
+  {
+    locationName: 'MG Road',
+    image: 'https://www.100acress.com/OtherImages/mgRoad.PNG', 
+  },
+  {
+    locationName: 'New Gurgaon',
+    image: 'https://www.100acress.com/OtherImages/capture2.PNG', 
+  },
+  {
+    locationName: 'NH-48',
+    image: 'https://www.100acress.com/OtherImages/capture5.PNG', 
   },
 ];
 
