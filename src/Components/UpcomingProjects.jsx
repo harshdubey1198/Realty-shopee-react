@@ -257,33 +257,33 @@ const projectData = [
     "__v": 0,
     "project_Status": "comingsoon"
   },
-  {    
-    "possession":"2028",
-    "projectName": "Krisumi Waterside Residencies",
-    "projectAddress": "Sector 36A, Dwarka Expressway",
-    "city": "Gurgaon",
-    "frontImage": {
-      "url": "https://res.cloudinary.com/dm5yrsqdc/image/upload/v1710335188/100acre/project/rjbyezexaazo80wih4nt.jpg"
-    }
-  },
+  {
+      "possession":"2029",
+      "projectName": "Godrej 103",
+      "projectAddress": "Sector 71, Southern Peripheral Road",
+      "city": "Gurgaon",
+      "frontImage": {
+          "url": "https://www.noidacommercial.com/wp-content/uploads/2024/05/godrej-sector-103-gurgaon-photos.png"
+        }
+    },
+    {    
+      "possession":"2028",
+      "projectName": "Krisumi Waterside Residencies",
+      "projectAddress": "Sector 36A, Dwarka Expressway",
+      "city": "Gurgaon",
+      "frontImage": {
+        "url": "https://res.cloudinary.com/dm5yrsqdc/image/upload/v1710335188/100acre/project/rjbyezexaazo80wih4nt.jpg"
+      }
+    },
   {
     "possession":"2029",
     "projectName": "TARC 63",
     "projectAddress": "Sector 71, Southern Peripheral Road",
     "city": "Gurgaon",
     "frontImage": {
-      "url": "https://www.tarcishvasector63a.com/tarc-ishva/images/g-1.jpeg"
+        "url": "https://www.tarcishvasector63a.com/tarc-ishva/images/g-1.jpeg"
     }
-  },
-  {
-    "possession":"2029",
-    "projectName": "Godrej 103",
-    "projectAddress": "Sector 71, Southern Peripheral Road",
-    "city": "Gurgaon",
-    "frontImage": {
-      "url": "https://www.noidacommercial.com/wp-content/uploads/2024/05/godrej-sector-103-gurgaon-photos.png"
-    }
-  },
+    },
   {
     "possession":"2029",
     "projectName": "Central Park 103",

@@ -667,6 +667,7 @@ justify-content: center;
   border-radius: 10px;
   position: relative;
   overflow: hidden;
+  cursor: pointer;
   transition: border-color 0.3s;
 }
 
@@ -686,6 +687,7 @@ justify-content: center;
   bottom: 0;
   margin: 0;
   color: white;
+  background: #0000009a;
   text-align: center;
   width: 100%;
   font-size: 24px;
@@ -1082,7 +1084,7 @@ button{
   align-items: center;
 }
 .pd-banner{
-  width: 45%;
+  width: 40%;
   border-radius: 20px;
   
 
@@ -1096,6 +1098,8 @@ button{
   width: 45%;
   p{
     width: 70%;
+    font-family: math;
+    text-align: center;
   }
 }
 .pd-location{

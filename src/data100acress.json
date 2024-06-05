@@ -6401,7 +6401,7 @@
             "meta_description": "Sobha City Gurgaon- Buy 2/3 BHK Luxury Flats in Sector 108, Gurgaon. Sobha City Gurgaon is a luxury lifestyle residential project in Dwarka expressway",
             "meta_title": "Sobha City Gurgaon, Property in Sector 108 Dwarka Expressway",
             "Amenities": [
-                "GYMNASIUM","Swimming Pool",
+                "Gymnasium","Swimming Pool",
                 "Volley Ball Court",
                 "Aerobics Centre",
                 "Card Room",
@@ -19295,7 +19295,7 @@
             "meta_description": "Ganga Realty Fusion 85 in Sector 85, New Launch in Sector 85 Gurgaon",
             "meta_title": "Ganga Realty Fusion 85 in Sector 85, New Launch in Sector 85 Gurgaon",
             "Amenities": [
-                "Car Parking,Golf Course,Swimming Pool,Multipurpose Court,Bike Patrolling Squad,Vaastu Compliant,Cricket,Gym,Kids Pool,4 Tier Security"
+                "Car Parking","Golf Course","Swimming Pool","Multipurpose Court","Bike Patrolling Squad","Vaastu Compliant","Cricket","Gym","Kids Pool","4 Tier Security"
             ],
             "projectBgContent": "Ganga Realty Sector 85 Gurgaon - New Launch",
             "projectReraNo": "Applied",
@@ -20119,6 +20119,107 @@
           "updatedAt": "2024-05-13T12:00:00.096Z",
           "__v": 0
         
+          },
+          {
+            "frontImage": {
+                "public_id": "100acre/project/f4si8cfqile0q0oiv4ub",
+                "url": "https://res.cloudinary.com/dgplzytrq/image/upload/v1716557243/Trevoc56/bannerTrevoc56_ks2yc7.jpg"
+            },
+            "logo": {
+                "public_id": "100acre/project/r40ya2h42wugr0wkgux1",
+                "url": "https://res.cloudinary.com/dm5yrsqdc/image/upload/v1715601318/100acre/project/r40ya2h42wugr0wkgux1.png"
+            },
+            "project_locationImage": {
+                "public_id": "100acre/project/cyhxhs7mcjawuhtp7rda",
+                "url": "https://res.cloudinary.com/dm5yrsqdc/image/upload/v1715601288/100acre/project/cyhxhs7mcjawuhtp7rda.jpg"
+            },
+            "highlightImage": {
+                "public_id": "100acre/project/dbla5rbmnnqmqpa9jjsv",
+                "url": "https://res.cloudinary.com/dm5yrsqdc/image/upload/v1715601599/100acre/project/dbla5rbmnnqmqpa9jjsv.jpg"
+            },
+            "projectMaster_plan": {
+                "public_id": "100acre/project/khfgyucvghcjmhbrdhhe",
+                "url": "http://res.cloudinary.com/dm5yrsqdc/image/upload/v1715601383/100acre/project/khfgyucvghcjmhbrdhhe.jpg"
+            },
+            "_id": "663752acdf6f5a16378c95a5",
+            "project_floorplan_Image": [
+                {
+                    "public_id": "100acre/project/bswmkcc37btprqrqj6qv",
+                    "url": "https://res.cloudinary.com/dm5yrsqdc/image/upload/v1714901671/100acre/project/bswmkcc37btprqrqj6qv.jpg"
+                },
+                {
+                    "public_id": "100acre/project/j7zxk8spkuniouxeou5d",
+                    "url": "https://res.cloudinary.com/dm5yrsqdc/image/upload/v1714901672/100acre/project/j7zxk8spkuniouxeou5d.jpg"
+                },
+                {
+                    "public_id": "100acre/project/wmyqravz8eplntvlagyf",
+                    "url": "https://res.cloudinary.com/dm5yrsqdc/image/upload/v1714901673/100acre/project/wmyqravz8eplntvlagyf.jpg"
+                }
+            ],
+            "state": "Haryana",
+            "projectName": "Trevoc 56",
+            "projectAddress": "Sector 56, Golf Course Road",
+            "project_discripation": "TREVOC Group has come up with a residential complex in Sector 56, Gurgaon. And we develop this project on Golf Course Road where it ensures a perfect connectivity with major parts of the city. Therefore, it offers 3, 4 and 5 BHK apartments that will redefine the concept of luxury and convenience.    Located in the heart of Sector 56, these apartments offer a lifestyle that is a blend of luxurious surroundings and pinnacle of technology. Furthermore, Residents can enjoy an open and comfortable environment situated in lush green areas. Also, floor plans designed as per condition of fresh air.",
+            "projectRedefine_Connectivity": [
+                "Situated on 60 metre wide main arterial Sector road"
+            ],
+            "projectRedefine_Entertainment": [
+                "Prominently located on Southern Peripheral Road (Golf Course Extension Road) one of the widest roads in Gurgaon (90 meters wide) and recently announced as NH 236"
+            ],
+            "projectRedefine_Business": [
+                "Strategically linked to all major Business Hubs & Retail destinations"
+            ],
+            "projectRedefine_Education": [
+                "Just 30 minute drive from Delhi International Airport"
+            ],
+            "meta_description": "M3M Altitude Apartments in Sector 65 were designed to be visually appealing, captivating the senses and enhancing the living experience of its residents",
+            "meta_title": "M3M Altitude Sector 65 Gurgaon | Luxury Apartments",
+            "Amenities": [
+                "Car Parking"
+            ],
+            "projectBgContent": "M3M Altitude - Luxury Residences in Sector 65 Gurgaon",
+            "projectReraNo": "Applied",
+            "type": "Residential Flats",
+            "city": "Gurgaon",
+            "possession":"2029",
+            "builderName": "M3M India",
+            "AboutDeveloper": "M3M India means 'Superbness in the Trinity Of Men, Materials and Money'. The aphorism of the organization is \"quality, opportune conveyance and greatness\". Recognizing highlights of M3M inside the business are its inventive, remarkable and unrivaled ideas, multi-dimensional realty arrangements and unparalleled high help norms. Demonstrating its responsibility towards creating cutting edge land works of art, M3M has consistently strived to gather the best ability in the business. The organization has increased important involvement with the land area with different and complimentary gifts from a rich organization of first class go-betweens, monetary establishments, high-total assets people and probably the most rumored designers in India.",
+            "projectOverview": "trending",
+            "project_Status": "newlunch",
+            "schema_type": "project",
+            "project_url": "m3m-altitude",
+            "projectGallery": [
+                {
+                    "public_id": "100acre/project/jtveoh1dzgwgeai05s8n",
+                    "url": "https://res.cloudinary.com/dm5yrsqdc/image/upload/v1715601506/100acre/project/jtveoh1dzgwgeai05s8n.jpg"
+                },
+                {
+                    "public_id": "100acre/project/znqldmnn2ghf4vwveth6",
+                    "url": "https://res.cloudinary.com/dm5yrsqdc/image/upload/v1715601507/100acre/project/znqldmnn2ghf4vwveth6.jpg"
+                },
+                {
+                    "public_id": "100acre/project/rj3utomwptzpznbftqyz",
+                    "url": "https://res.cloudinary.com/dm5yrsqdc/image/upload/v1715601508/100acre/project/rj3utomwptzpznbftqyz.jpg"
+                }
+            ],
+            "BhK_Details": [
+                {
+                    "bhk_type": "3 BHK + SR",
+                    "price": "Call for Price",
+                    "bhk_Area": "3755 SQ.FT.",
+                    "_id": "66375706df6f5a16378c9ca6"
+                },
+                {
+                    "bhk_type": "4 BHK + SR",
+                    "price": "Call for Price",
+                    "bhk_Area": "4270 SQ.FT.",
+                    "_id": "66375717df6f5a16378c9caa"
+                }
+            ],
+            "highlight": [],
+            "createdAt": "2024-05-05T09:34:36.735Z",
+            "updatedAt": "2024-05-13T12:00:00.096Z",
+            "__v": 0
           }
     ]
 }
