@@ -1024,6 +1024,7 @@ button{
   display: flex;
   flex-direction: column;
   align-items: center;
+  font-family: math;
 }
 .pd-logo{
   background: white;

@@ -353,7 +353,7 @@ const projectData =
     "project_Status": "comingsoon"
   },
   {
-    "projectName": "Krisumi Waterside Residencies",
+    "projectName": "Krisumi Waterside Residences",
     "projectAddress": "Sector 36A, Dwarka Expressway",
     "city": "Gurgaon",
     "possession":"2029",

@@ -268,7 +268,7 @@ const projectData = [
     },
     {    
       "possession":"2028",
-      "projectName": "Krisumi Waterside Residencies",
+      "projectName": "Krisumi Waterside Residences",
       "projectAddress": "Sector 36A, Dwarka Expressway",
       "city": "Gurgaon",
       "frontImage": {
@@ -277,8 +277,8 @@ const projectData = [
     },
   {
     "possession":"2029",
-    "projectName": "TARC 63",
-    "projectAddress": "Sector 71, Southern Peripheral Road",
+    "projectName": "Tarc Ishva",
+    "projectAddress": "Sector 63A, Southern Peripheral Road",
     "city": "Gurgaon",
     "frontImage": {
         "url": "https://www.tarcishvasector63a.com/tarc-ishva/images/g-1.jpeg"
