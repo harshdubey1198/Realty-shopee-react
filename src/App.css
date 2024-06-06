@@ -517,7 +517,7 @@ justify-content: center;
   background-color: white;
   border-radius: 5px;
   border: 3px solid rgba(120, 120, 120, 0.374);
-  padding: 0rem 1rem;
+  padding: 0;
   /* width: 100%; */
   justify-content: space-between;
   align-items: center;
@@ -1076,9 +1076,19 @@ button{
   }
 }
 .pd-div{
-  margin-top: 80px;
+  margin-top: 0px;
 }
-.pd-p1{
+.pd-div-main {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  img{
+    width: 100%;
+    height: 90%;
+  }
+}
+  .pd-p1{
   display: flex;
   flex-direction: row;
   justify-content: center;
@@ -1087,8 +1097,6 @@ button{
 .pd-banner{
   width: 40%;
   border-radius: 20px;
-  
-
 }
 .pd-about{
   display: flex;
@@ -1137,7 +1145,12 @@ button{
   border-top: 2px solid lightblue;
   border-bottom: 2px solid lightblue;
 }
-
+.amenity-image {
+  width: 100px;  
+  height: 100px; 
+  object-fit: cover;  
+  margin-right: 10px;  
+}
 .pd-p3 div {
   display: flex;
   flex-direction: column;
@@ -1157,8 +1170,7 @@ button{
   list-style: none;
   padding: 0;
   /* min-height: 100px; */
-}
-
+}x
 .pd-p3 div ul li {
   background: linear-gradient(-45deg , rgb(139, 203, 255) ,rgb(91, 148, 255) );
   padding: 10px 20px;
@@ -1231,6 +1243,56 @@ button{
   width: 150px;
 }
 }
+/* page not found  */
+.not-found-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: flex-start;
+  text-align: center;
+  /* padding: 50px; */
+  height: 100vh;
+  background-color: #ffffff;
+  .a-home{
+    color: white;
+    background: #000;
+    padding: 10px 20px;
+    border-radius: 5px;
+  }
+  h1 {
+    font-size: 3rem;
+    margin-top: 20px;
+    color: #333;
+  }
+  
+  p {
+    font-size: 1.2rem;
+    margin: 10px 0;
+    color: #555;
+  }
+}
+
+.not-found-image {
+  max-width: 50%;
+  height: auto;
+}
+
+
+.home-button {
+  margin-top: 20px;
+  padding: 15px 30px;
+  font-size: 1.2rem;
+  color: #fff;
+  background-color: #007bff;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.home-button:hover {
+  background-color: #0056b3;
+}
 
 
 /* mobile screens */
@@ -1283,6 +1345,8 @@ button{
   .search-bar{
     width: max-content;
     flex-direction: row !important;
+    width: 70%;
+    transform: translate(20% , 0);
   }
   .search-bar > input {
     width: 190px;
@@ -1480,5 +1544,16 @@ footer{
     width: 50%;
   }
 }
+.not-found-container{
+  padding-top: 200px;
+}
+.not-found-container h1{
+  font-size: 2rem;
+}
+.not-found-container p{
+  font-size: 1rem;
+  padding: 0 20px;
+}
+
 }
 

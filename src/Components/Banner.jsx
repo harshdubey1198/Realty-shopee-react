@@ -93,7 +93,7 @@ const Banner = () => {
               <span>
                 <CountUp start={1650} end={1800} duration={4} /> <span>+</span>
               </span>
-              <span className="secondaryText">Happy Customer</span>
+              <span className="secondaryText">Happy Customer </span>
             </div>
 
             <div className="flexColCenter stat">

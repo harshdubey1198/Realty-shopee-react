@@ -2,13 +2,27 @@ import React, { useState, useEffect } from 'react';
 import PropTypes from 'prop-types';
 import { useNavigate } from 'react-router-dom';
 import "../App.css";
-import { FcHome } from "react-icons/fc";
-import { FcPhone } from "react-icons/fc";
-import { FcQuestions } from "react-icons/fc";
+import { FcHome, FcPhone, FcQuestions } from "react-icons/fc";
 
 function PropertyDetail({ property }) {
   const navigate = useNavigate();
   const [currentImageIndex, setCurrentImageIndex] = useState(0);
+
+  const amenityImages = {
+    "Car Parking": "https://res.cloudinary.com/dgplzytrq/image/upload/v1717655908/Amenities/Car%20parking.jpg",
+    "Swimming Pool": "https://res.cloudinary.com/dgplzytrq/image/upload/v1717658995/Amenities/swimming%20pool.jpg",
+    "Golf Course": "https://res.cloudinary.com/dgplzytrq/image/upload/v1717659091/Amenities/Golf%20Course.jpg",
+    "ATM": "https://res.cloudinary.com/dgplzytrq/image/upload/v1717659304/Amenities/Atm.jpg",
+    "Restaurant": "https://res.cloudinary.com/dgplzytrq/image/upload/v1717659387/Amenities/Restaurant.jpg",
+    "Waiting Lounge": "https://res.cloudinary.com/dgplzytrq/image/upload/v1717659460/Amenities/waiting%20area.jpg",
+    "Shopping Centre": "https://res.cloudinary.com/dgplzytrq/image/upload/v1717659531/Amenities/Shopping-Center.jpg",
+    "Video Door Security": "https://res.cloudinary.com/dgplzytrq/image/upload/v1717659783/Amenities/video-door-security.jpg",
+    "Park": "https://res.cloudinary.com/dgplzytrq/image/upload/v1717659989/Amenities/Park.jpg",
+    "Meditation Area": "https://res.cloudinary.com/dgplzytrq/image/upload/v1717659989/Amenities/Park.jpg",
+    "CCTV Camera Security":"https://res.cloudinary.com/dgplzytrq/image/upload/v1717659989/Amenities/Park.jpg",
+    "Basketball Court":"https://res.cloudinary.com/dgplzytrq/image/upload/v1717659989/Amenities/Park.jpg",
+    "Yoga Room":"https://res.cloudinary.com/dgplzytrq/image/upload/v1717666053/Amenities/Yoga%20Room.jpg"
+  };
 
   useEffect(() => {
     const interval = setInterval(() => {
@@ -49,6 +63,10 @@ function PropertyDetail({ property }) {
         <a href="tel:+919289252999"><span>+91 9289252999</span><span><FcPhone className='phone'/></span></a>
       </header>
       <div className='pd-div'>
+        <div className='pd-div-main'>
+          <img src={property.highlightImage.url} alt='highlight'/>
+        </div>
+
         <div className='pd-p1'>
           <img src={property.frontImage.url} className='pd-banner' alt={property.projectName} />
           <div className='pd-about'>
@@ -76,7 +94,10 @@ function PropertyDetail({ property }) {
             <h2>Amenities</h2>
             <ul>
               {property.Amenities.map((amenity, index) => (
-                <li key={index}>{amenity}</li>
+                <p key={index}>
+                  <img src={amenityImages[amenity]} alt={amenity} className='amenity-image' />
+                  {/* {amenity} */} 
+                </p>
               ))}
             </ul>
           </div>
