@@ -12,7 +12,7 @@ const projectData =
     "projectAddress": "Sector 71, Southern Peripheral Road",
     "city": "Gurgaon",
     "frontImage": {
-      "url": "https://signature-newlaunch71.info/wp-content/uploads/2024/04/banner.jpg"
+      "url": "https://res.cloudinary.com/dgplzytrq/image/upload/v1716552333/Signature-71/slider-71_fvbnfg.jpg"
     },"possession":"2029",
     
         "logo": {

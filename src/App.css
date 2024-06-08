@@ -5,6 +5,10 @@ body, html {
   padding: 0 !important;
   font-family: 'Roboto', sans-serif;
   background-color: #f4f4f4 !important;
+  overflow-x: hidden;
+}
+body{
+  position: relative;
 }
 /* body {
   background: linear-gradient(-45deg, #ee7752, #e73c7e, #23a6d5, #23d5ab);
@@ -47,11 +51,19 @@ nav {
   border: 2px solid rgba(255, 255, 255, 0.18); */
   z-index: 999;
 }
-
+.relative{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  position: relative;
+  width: 100%;
+}
 .navigators {
   display: flex;
   flex-direction: row;
   align-items: center;
+
 }
 
 .navigators button, .dropdown-select {
@@ -67,10 +79,13 @@ nav {
   border-radius: 4px;
   font-family: 'Cormorant', serif;
   -webkit-font-smoothing: antialiased;
+  /* box-shadow: 1px 1px 20px rgba(255, 255, 255, 0.852); */
 }
 
 .navigators button:hover, .dropdown-select:hover {
+  /* box-shadow: 1px 1px 20px rgba(255, 255, 255, 0.252); */
   color: #000000;
+  background: #b8dcff;
 }
 
 .dropdown-select {
@@ -153,7 +168,6 @@ a {
   border-top: 1px solid white;
   /* Add this CSS to your App.css or a similar file */
 
-  
 }
 .search-bar {
   position: relative;
@@ -230,7 +244,9 @@ a {
   height:10rem;
   object-fit: cover;
 }
-
+.mob-nav-dropdown{
+  display: none;
+}
 .project-details {
   display: flex;
   flex-direction: column;
@@ -342,6 +358,23 @@ a {
 }
 
 /* contact us  */
+.suggestion-container{
+  width: 80%;
+}
+.suggestions{
+  position: absolute;
+  max-height: 100px;
+  overflow-y: scroll;
+  background: white;
+  color: black;
+  margin-top: -10px;
+  padding: 0;
+  width: 25vw;
+  li{
+    list-style-type: none;
+    cursor: pointer;
+  }
+}
 
 footer {
   background: #143063;
@@ -539,7 +572,7 @@ justify-content: center;
 }  
 
 .stats{
-    width: 100%;
+    width: 110%;
     justify-content: space-between;
 }
 .stat>:nth-child(1)
@@ -1028,8 +1061,9 @@ button{
 }
 .pd-logo{
   background: white;
-  height: 50px;
+  height: 40px;
   border-radius: 10px;
+  padding: 5px;
 }
 .pd-nav{
   position: fixed;
@@ -1088,14 +1122,16 @@ button{
     height: 90%;
   }
 }
-  .pd-p1{
+.pd-p1{
   display: flex;
   flex-direction: row;
   justify-content: center;
   align-items: center;
+  margin-top: 40px;
 }
 .pd-banner{
   width: 40%;
+  object-fit: cover;
   border-radius: 20px;
 }
 .pd-about{
@@ -1138,7 +1174,7 @@ button{
 
 .pd-p3 {
   display: flex;
-  flex-direction: row;
+  flex-direction: column;
   align-items: center;
   justify-content: space-around;
   min-height: 300px;
@@ -1146,8 +1182,8 @@ button{
   border-bottom: 2px solid lightblue;
 }
 .amenity-image {
-  width: 100px;  
-  height: 100px; 
+  width:  10vw;  
+  height: 160px; 
   object-fit: cover;  
   margin-right: 10px;  
 }
@@ -1155,7 +1191,7 @@ button{
   display: flex;
   flex-direction: column;
   align-items: center;
-  min-width: 40%;
+  min-width: 80%;
 }
 
 .pd-p3 div h2 {
@@ -1165,22 +1201,31 @@ button{
 
 .pd-p3 div ul {
   display: grid;
-  grid-template-columns: repeat(2, 1fr);
+  grid-template-columns: repeat(6, 1fr);
   gap: 10px;
   list-style: none;
   padding: 0;
   /* min-height: 100px; */
-}x
-.pd-p3 div ul li {
-  background: linear-gradient(-45deg , rgb(139, 203, 255) ,rgb(91, 148, 255) );
-  padding: 10px 20px;
-  text-align: center;
-  border-radius: 20px;
-  font-weight: bold;
-  color: #000000bb;
 }
+
 .pd-p3 div:nth-child(2) ul {
   grid-template-columns: repeat(1,1fr);
+  width: 100%;
+  gap: 0;
+  background: lightblue;
+  padding: 10px 0;
+  border-radius: 10px;
+}
+.pd-p3 div:nth-child(2) ul li{
+  text-align: center;
+  padding: 10px 0;
+}
+.pd-p3 div:nth-child(2) ul li:nth-child(2){
+border-top: 1px solid #000;
+}
+.amenity-box{
+  display: flex;
+  flex-direction: column;
 }
 
 .pd-carousel{
@@ -1325,6 +1370,20 @@ button{
 }
 
 @media (width < 951px) {
+  nav{
+    height: 50px;
+  }
+  .navigators{
+    display: none;
+  }
+  .logo-div img{
+    height: 40px;
+  }
+  .right-panel-icons{
+    height: 20px;
+    padding: 4px 0;
+  }
+
   /* smaller device css */
   .banner-div{
     background-image: url('./Images/banner\ image.webp');
@@ -1336,12 +1395,15 @@ button{
   .projects-container {
     display: grid;
     grid-template-columns: repeat(1, 0fr);
-    gap: 5px; /* Adjust the gap as needed */
+    gap: 5px; 
     width: 100%;
     justify-content: space-around;
     align-items: center;
   }
-  
+  .right-panel{
+    justify-content: center;
+    gap: 10px;
+  }
   .search-bar{
     width: max-content;
     flex-direction: row !important;
@@ -1372,7 +1434,42 @@ button{
     justify-content: center;
     align-items: center;
     flex-wrap: wrap;
-    margin-top: 60px;
+    margin-top: 50px;
+  }
+  .right-panel a{
+    display: none;
+  }
+  .mob-nav-dropdown{
+    display: block;
+  }
+  .mob-dropdown{
+    background: #c3e2ff;
+    position: fixed;
+    top: 52px;
+    right: 2px;
+    display: flex;
+    flex-direction: column;
+    border-radius: 10px;
+    overflow: hidden;
+  }
+  .mob-dropdown button,
+  .mob-dropdown select {
+    padding: 10px 20px;
+    text-align: left;
+    width: 100%;
+    background: none;
+    border:1px solid white;
+  }
+  .mob-dropdown select {
+    border: none;
+    width: 100%;
+    border-radius: 0;
+    margin: 0;
+    border: 0;
+    appearance: none;
+  }
+  .stats{
+    width: 100%;
   }
   .hero-right{
     margin-top: 0 !important;
@@ -1424,6 +1521,17 @@ footer{
   input,select{
     width: 80% !important;
   }
+}
+.suggestion-container{
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  input{
+    width: 100%;
+  }
+}
+.suggestions{
+  width: 80%;
 }
 .contact-midform{
   min-width: 300px;
@@ -1504,8 +1612,9 @@ footer{
   font-size: 14px;
   width: 100%;
 }
-.pd-logo{
-  height: 45px;
+.pd-logo {
+    padding: 5px;
+    height: 25px;
 }
 .pd-p3{
   flex-direction: column;
@@ -1513,15 +1622,16 @@ footer{
 .pd-p3 div ul {
   grid-template-columns: repeat(1, 1fr);
 }
+.amenity-image {
+  width: 300px;
+  height: 200px;
+  object-fit: cover;
+  margin-right: 10px;
+}
 .pd-p3 div ul li{
   font-size: 12px;
 }
-.pd-p3 div ul li:nth-child(odd) {
-  transform: translate(-20px , 0);
-}
-.pd-p3 div ul li:nth-child(even) {
-  transform: translate(20px , 0);
-}
+
 
 .pd-carousel{
   .carousel-button{

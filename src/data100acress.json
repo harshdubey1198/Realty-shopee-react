@@ -8171,41 +8171,19 @@
             "meta_description": "Step into a home that manifests all things that bring you joy. Verdant landscapes and cleaner air welcome you to a quintessential urban life in Sector 84.",
             "meta_title": "Ganga Realty Nandaka - New Projects in Sector 84 Gurgaon",
             "Amenities": [
-                "Air Conditioning",
-                "Bar/Chill-Out Lounge"
-                ,"Medical Centre"
-                ,"Volley Ball Court"
-                ,"Salon"
-                ,"Aerobics Centre"
-                ,"Visitors Parking"
-                ,"Spa"
-                ,"Pool Table"
-                ,"Cafeteria"
-                ,"Fountain"
-                ,"Cricket Pitch"
-                ,"Lawn Tennis Court"
-                ,"Multipurpose Court"
-                ,"Power Back up Lift"
-                ,"Community Hall"
-                ,"Table "
-                ,"Vastu Compliant"
+                "Restaurant"
                 ,"Basketball Court"
-                ,"Badminton Court"
-                ,"Multipurpose "
-                ,"Yoga/Meditation Area"
-                ,"Indoor Games"
-                ,"CCTV Camera Security"
-                ,"Jogging Track"
-                ,"24x7 Security"
-                ,"Club House"
-                ,"24/7 Power Backup"
+                ,"Salon"
+                ,"Yoga Room"
+                ,"Visitors Parking"
                 ,"Gymnasium"
-                ,"24/7 Water Supply"
-                ,"Landscape Garden"
-                ,"Children's Play Area"
-                ,"Security Cabin"
-                ,"Senior Citizen Sitout"
-                ,"Fire Fighting Systems"
+                ,"Fountain"
+                ,"Community Hall"
+                ,"Vastu Compliant"
+                ,"Meditation Area"
+                ,"Indoor Games"
+                ,"Jogging Track"
+                
             ],
             "projectBgContent": "Ganga Realty Nandaka - New Projects in Sector 84 Gurgaon",
             "projectReraNo": "Applied",
@@ -8770,147 +8748,7 @@
             "updatedAt": "2024-03-14T08:56:31.527Z",
             "__v": 0
         },
-        {
-            "frontImage": {
-                "public_id": "100acre/project/wp8mt1qazvejn1vsi5or",
-                "url": "https://res.cloudinary.com/dm5yrsqdc/image/upload/v1715154693/100acre/project/wp8mt1qazvejn1vsi5or.jpg"
-            },
-            "logo": {
-                "public_id": "100acre/project/f0pay9xr6tfepvq73pls",
-                "url": "https://res.cloudinary.com/dm5yrsqdc/image/upload/v1710408084/100acre/project/f0pay9xr6tfepvq73pls.svg"
-            },
-            "project_locationImage": {
-                "public_id": "100acre/project/vwg4lfvw4xjntd9ce8m2",
-                "url": "https://res.cloudinary.com/dm5yrsqdc/image/upload/v1710408088/100acre/project/vwg4lfvw4xjntd9ce8m2.jpg"
-            },
-            "highlightImage": {
-                "public_id": "100acre/project/slxw0equmpmktfsswffe",
-                "url": "https://res.cloudinary.com/dm5yrsqdc/image/upload/v1714540222/100acre/project/slxw0equmpmktfsswffe.jpg"
-            },
-            "projectMaster_plan": {
-                "public_id": "100acre/project/yupsuttstatn6hid97tx",
-                "url": "http://res.cloudinary.com/dm5yrsqdc/image/upload/v1714540568/100acre/project/yupsuttstatn6hid97tx.jpg"
-            },
-            "_id": "65f2c19f7e1280ea133fc457",
-            "project_floorplan_Image": [
-                {
-                    "public_id": "100acre/project/ny5kuo6gaqeugmyjnnyc",
-                    "url": "https://res.cloudinary.com/dgplzytrq/image/upload/v1717585460/Floor%20plan%20image/Background_1_lqqpwe.png"
-                },
-                {
-                    "public_id": "100acre/project/vhh3ijhk9g9wqxi7a4we",
-                    "url": "https://res.cloudinary.com/dgplzytrq/image/upload/v1717586036/Floor%20plan%20image/Background_2_rbunqm.png"
-                },
-                {
-                    "public_id": "100acre/project/y7u3njkqibvbaztee5ri",
-                    "url": "https://res.cloudinary.com/dgplzytrq/image/upload/v1717586036/Floor%20plan%20image/Background_2_rbunqm.png"
-                }
-            ],
-            "state": "Haryana",
-            "projectName": "Ganga Realty Fusion 85",
-            "projectAddress": "Sector 85, Dwarka Expressway",
-            "project_discripation": "Ganga Realty Fusion 85 in Sector 85 Gurgaon is a modern architectural brilliance and innovative design. The project features multiple high-rise towers set amidst lush greenery and landscaped gardens, creating a serene and peaceful environment for its residents. The apartments are meticulously crafted to provide ample natural light and ventilation while offering stunning views of the surrounding landscapes.  One of the primary motives for the popularity of Ganga Apartments is its strategic location in Sector 85, Gurgaon. The sector is well-connected to major roads and highways, including the National Highway 48 and the Dwarka Expressway, which provides seamless connectivity to Delhi and other important areas of Gurgaon.",
-            "projectRedefine_Connectivity": [
-                "Ganga Realty Sector 85 Luxury Apartments have located in Sector 85. And we know that it is a growing area."
-            ],
-            "projectRedefine_Entertainment": [
-                "And Multiplexes located within walk-in distances."
-            ],
-            "projectRedefine_Business": [
-                "You can catch prime locations from Ganga Realty Sector 85 Luxury Apartments Gurgaon."
-            ],
-            "projectRedefine_Education": [
-                "Our luxurious property is away from noisy palaces as well as populated areas."
-            ],
-            "meta_description": "Ganga Realty Fusion 85 in Sector 85, New Launch in Sector 85 Gurgaon",
-            "meta_title": "Ganga Realty Fusion 85 in Sector 85, New Launch in Sector 85 Gurgaon",
-            "Amenities": [
-                "Car Parking,Golf Course,Swimming Pool,Multipurpose Court,Bike Patrolling Squad,Vaastu Compliant,Cricket,Gym,Kids Pool,4 Tier Security"
-            ],
-            "projectBgContent": "Ganga Realty Sector 85 Gurgaon - New Launch",
-            "projectReraNo": "Applied",
-            "type": "Residential Flats",
-            "city": "Gurgaon",
-            "builderName": "Ganga Realty",
-            "AboutDeveloper": "Purity begins at home. It starts with those little joys and simple acts of love that make home our favourite corner of the earth. Explore wholesome living complemented by modern amenities with Ganga Realty. A lifestyle you dreamt of. A lifestyle you deserve. The perfect space for all those memorable moments. Come, love beckons you here at Ganga Realty.",
-            "projectOverview": "trending",
-            "schema_type": "project",
-            "project_url": "ganga-realty-sector-85",
-            "projectGallery": [
-                {
-                    "public_id": "100acre/project/sduo7uujzewyq7slqvrs",
-                    "url": "https://res.cloudinary.com/dm5yrsqdc/image/upload/v1714540448/100acre/project/sduo7uujzewyq7slqvrs.jpg"
-                },
-                {
-                    "public_id": "100acre/project/zad1omiuzeobnzlms5vy",
-                    "url": "https://res.cloudinary.com/dm5yrsqdc/image/upload/v1714540450/100acre/project/zad1omiuzeobnzlms5vy.jpg"
-                },
-                {
-                    "public_id": "100acre/project/kbw4ziixyeqcnfhnaads",
-                    "url": "https://res.cloudinary.com/dm5yrsqdc/image/upload/v1714540451/100acre/project/kbw4ziixyeqcnfhnaads.jpg"
-                },
-                {
-                    "public_id": "100acre/project/vypywindklaeflbt20de",
-                    "url": "https://res.cloudinary.com/dm5yrsqdc/image/upload/v1714540452/100acre/project/vypywindklaeflbt20de.jpg"
-                }
-            ],
-            "BhK_Details": [
-                {
-                    "bhk_type": "3 BHK + S + Ut",
-                    "price": "Call for Price",
-                    "bhk_Area": "2390 SQ.FT",
-                    "_id": "65f2c3247e1280ea133fd6c8"
-                },
-                {
-                    "bhk_type": "4 BHK + S + Ut",
-                    "price": "Call for Price",
-                    "bhk_Area": "3101 SQ.FT",
-                    "_id": "65f2c3417e1280ea133fd9e4"
-                }
-            ],
-            "highlight": [
-                {
-                    "highlight_Point": "3 ICONIC towers 4-core",
-                    "_id": "66125e2d23b368c6911fd7ba"
-                },
-                {
-                    "highlight_Point": "TALLEST TOWERS in the vicinity with 55-57 Stories",
-                    "_id": "66125e3d23b368c6911fd7c9"
-                },
-                {
-                    "highlight_Point": "8 lifts in single tower with 2 dedicated lifts for each apartment plus 2 service lifts separate",
-                    "_id": "66125e4623b368c6911fd7d1"
-                },
-                {
-                    "highlight_Point": "A massive state-of-the-art Clubhouse.",
-                    "_id": "66125e5123b368c6911fd7da"
-                },
-                {
-                    "highlight_Point": "Sun facing units",
-                    "_id": "66125e5d23b368c6911fd7e4"
-                },
-                {
-                    "highlight_Point": "Principle architect: UHA LONDON",
-                    "_id": "66125e6923b368c6911fd7ef"
-                },
-                {
-                    "highlight_Point": "Masterplan designer:  SCAPE DESIGN",
-                    "_id": "66125e7023b368c6911fd7fb"
-                },
-                {
-                    "highlight_Point": "⁠Landscape architect : MACFURLANE & Associate",
-                    "_id": "66125e8c23b368c6911fd816"
-                },
-                {
-                    "highlight_Point": "Structure audit : SGS",
-                    "_id": "66125ebb23b368c6911fd8d7"
-                }
-            ],
-            "createdAt": "2024-03-14T09:21:35.707Z",
-            "updatedAt": "2024-05-08T07:51:34.383Z",
-            "__v": 0,
-            "project_Status": "comingsoon"
-        },
+       
         {
             "frontImage": {
                 "public_id": "100acre/project/lq3kzlu7sifywqrrzqjh",
@@ -11664,7 +11502,7 @@
             "meta_description": "Smart World Orchard in Sector 61 Gurgaon. New launch Low Rise Floors 2.5 &amp; 3 BHK Luxury Floors by M3M & Smartworld Developer | Visit Website for Project Price & Free Site Visit",
             "meta_title": "Smartworld Orchard, Sector 61 Gurgaon, Low Rise Floors",
             "Amenities": [
-                "Car Parking"
+                "Car Parking","Meditation Area","Gymnasium","Indoor Games","Yoga Room","Swimming Pool"
             ],
             "projectBgContent": "Smart World Orchard Sector 61 Gurgaon",
             "projectReraNo": "Applied",
@@ -11894,7 +11732,7 @@
             "meta_description": "Welcome to The Antalyas An exquisite residential project by Navraj offering a luxurious and spacious living experience like no other",
             "meta_title": "Navraj The Antalyas, Sector 37D Gurgaon, Dwarka Expressway",
             "Amenities": [
-                "Car Parking"
+                "Car Parking","Meditation Area","Gymnasium","Indoor Games","Yoga Room","Swimming Pool"
             ],
             "projectBgContent": "Navraj The Antalyas - Sector 37D Gurgaon",
             "projectReraNo": "Applied",
@@ -12414,7 +12252,7 @@
             "meta_description": "Landmark Avana, Luxury Builder Floors Sector 95 Gurgaon",
             "meta_title": "Landmark Avana, Luxury Builder Floors Sector 95 Gurgaon",
             "Amenities": [
-                "Car Parking"
+                "Car Parking","Meditation Area","Gymnasium","Indoor Games","Yoga Room","Swimming Pool"
             ],
             "projectBgContent": "Landmark Avana - Luxury Builder Floors Sector 95 Gurgaon",
             "projectReraNo": "Applied",
@@ -13755,7 +13593,7 @@
             "meta_description": "SS Group SCO Plots - Sector 90 Gurgaon",
             "meta_title": "SS Group SCO Plots - Sector 90 Gurgaon",
             "Amenities": [
-                "Car Parking"
+                "Car Parking","Vastu Compliant"
             ],
             "projectBgContent": "SS GROUP SCO PLOTS, SECTOR 90 - GURGAON",
             "projectReraNo": "Applied",
@@ -13876,7 +13714,7 @@
             "meta_description": "3B Homes Estate 95 - Deen Dayal Plots in Sector 95 Gurgaon",
             "meta_title": "3B Homes Estate 95 - Deen Dayal Plots in Sector 95 Gurgaon",
             "Amenities": [
-                "Car Parking"
+                "Car Parking","Meditation Area","Gymnasium","Indoor Games","Yoga Room","Swimming Pool"
             ],
             "projectBgContent": "3B Homes Estate 95 - Plots in Sector 95 Gurgaon",
             "projectReraNo": "Applied",
@@ -13979,7 +13817,7 @@
             "meta_description": "Aarize Mall 114 Gurgaon – Premium Retail & Food Court in Gurgaon",
             "meta_title": "Aarize Mall 114 Gurgaon – Premium Retail & Food Court in Gurgaon",
             "Amenities": [
-                "Car Parking"
+                "Car Parking","Restaurant","CCTV Camera Security","Shopping Centre"
             ],
             "projectBgContent": "Aarize Market 114 Gurgaon – Retail Shops & Food Court in Gurgaon",
             "projectReraNo": "Applied",
@@ -14692,7 +14530,7 @@
             "meta_description": "Spiti Homes Sector 99A Gurgaon - Deen Dayal Plots",
             "meta_title": "Spiti Homes Sector 99A Gurgaon - Deen Dayal Plots",
             "Amenities": [
-                "Car Parking"
+                "Car Parking","Meditation Area","Gymnasium","Indoor Games","Yoga Room","Swimming Pool"
             ],
             "projectBgContent": "Spiti Homes Sector 99A Gurgaon",
             "projectReraNo": "Applied",
@@ -14778,7 +14616,7 @@
             "meta_description": "Capital Developers Launching Soon Capital One Global Shop Cum Office (SCO) Plots in Sector 73 Nearby SPR Road Gurgaon",
             "meta_title": "Capital One Global - Capital One Global in Sector 73 Gurgaon",
             "Amenities": [
-                "Car Parking"
+                "Car Parking","Meditation Area","Gymnasium","Indoor Games","Yoga Room","Swimming Pool"
             ],
             "projectBgContent": "Capital One Global - SCO Plots Sector 73 Gurgaon",
             "projectReraNo": "Applied",
@@ -15152,7 +14990,7 @@
             "meta_description": "Adore The Select Premia is a Residential Project that Redefines Luxury and Comfort in the bustling city of Gurgaon. With its impeccable design, top-notch amenities, and strategic location",
             "meta_title": "Adore The Select Premia - New Residential Projects in Gurgaon",
             "Amenities": [
-                "Car Parking"
+                "Car Parking","Meditation Area","Gymnasium","Indoor Games","Yoga Room","Swimming Pool"
             ],
             "projectBgContent": "Adore The Select Premia - Sector 77, Gurgaon",
             "projectReraNo": "Applied",
@@ -15460,7 +15298,7 @@
             "meta_description": "Neo Centra, Commercial Property in Sector 103 Gurgaon",
             "meta_title": "Neo Centra, Commercial Property in Sector 103 Gurgaon",
             "Amenities": [
-                "Car Parking"
+                "Car Parking","Meditation Area","Gymnasium","Indoor Games","Yoga Room","Swimming Pool"
             ],
             "projectBgContent": "Neo Centra - Commercial Project in Sector 103 Gurgaon",
             "projectReraNo": "Applied",
@@ -15724,7 +15562,7 @@
             "meta_description": "Orris Atulyam 83, Orris DDJAY Plots in Gurgaon",
             "meta_title": "Orris Atulyam 83, Orris DDJAY Plots in Gurgaon",
             "Amenities": [
-                "Car Parking"
+                "Car Parking","Meditation Area","Gymnasium","Indoor Games","Yoga Room","Swimming Pool"
             ],
             "projectBgContent": "Orris Atulyam 83 - Sector 83 Gurgaon",
             "projectReraNo": "Applied",
@@ -15845,7 +15683,7 @@
             "meta_description": "Orris Anandam Ora, Orris DDJAY Plots Sector 93 Gurgaon",
             "meta_title": "Orris Anandam Ora, Orris DDJAY Plots Sector 93 Gurgaon",
             "Amenities": [
-                "Car Parking"
+                "Car Parking","Meditation Area","Gymnasium","Indoor Games","Yoga Room","Swimming Pool"
             ],
             "projectBgContent": "Orris Anandam Ora - Deen Dayal Plots Sector 93 Gurgaon",
             "projectReraNo": "RC/REP/HARERA/GGM/711/443/2023/55",
@@ -16611,7 +16449,7 @@
             "meta_description": "DLF Privana West offers ultra-luxury apartments & penthouses in Sector 76 & 77 Gurgaon with modern amenities & panoramic views of the Aravalli",
             "meta_title": "DLF Privana West- Luxury Apartments Sector 76 Gurgaon",
             "Amenities": [
-                "Car Parking"
+                "Car Parking","Meditation Area","Gymnasium","Indoor Games","Yoga Room","Swimming Pool"
             ],
             "projectBgContent": "DLF PRIVANA WEST SECTOR 76 GURGAON",
             "projectReraNo": "Applied",
@@ -17148,7 +16986,7 @@
             "meta_description": "M3M Jewel Spread across 1.3 acres with a mix of Retail, Dining Options, Multiplex, Anchors, and Offices, M3M Jewel will revolutionize the Retail Experience of Gurgaon",
             "meta_title": "M3M Jewel - M3M Commercial Property MG Road Gurgaon",
             "Amenities": [
-                "Car Parking"
+                "Car Parking","Meditation Area","Gymnasium","Indoor Games","Yoga Room","Swimming Pool"
             ],
             "projectBgContent": "M3M Jewel - Commercial Property in MG Road, Sector 25 Gurgaon",
             "projectReraNo": "Applied",
@@ -17307,7 +17145,7 @@
             "meta_description": "BPTP The Oval at Astaire Gardens - SCO Plots Sector 70A Gurgaon",
             "meta_title": "BPTP The Oval at Astaire Gardens - SCO Plots Sector 70A Gurgaon",
             "Amenities": [
-                "Car Parking"
+                "Car Parking","Meditation Area","Gymnasium","Indoor Games","Yoga Room","Swimming Pool"
             ],
             "projectBgContent": "BPTP The Oval - BPTP SCO at Astaire Gardens Sector 70A Gurgaon",
             "projectReraNo": "Applied",
@@ -17397,7 +17235,7 @@
             "meta_description": "Krisumi Waterfall Residences Offers 2/3 LDK with World Class Amenities in Sector 36A Gurgaon. Krisumi Corporation is the First Indo-Japanese Real Estate Project",
             "meta_title": "Krisumi Waterfall Residences - Sector 36A Dwarka Expressway Gurgaon",
             "Amenities": [
-                "Car Parking"
+                "Car Parking","Meditation Area","Gymnasium","Indoor Games","Yoga Room","Swimming Pool"
             ],
             "projectBgContent": "KRISUMI WATERFALL RESIDENCES SECTOR 36A GURGAON",
             "projectReraNo": "HARERA/GGM/2018/03",
@@ -17536,7 +17374,7 @@
             "meta_description": "M3M Altitude Apartments in Sector 65 were designed to be visually appealing, captivating the senses and enhancing the living experience of its residents",
             "meta_title": "M3M Altitude Sector 65 Gurgaon | Luxury Apartments",
             "Amenities": [
-                "Car Parking","meditation area"
+                "Car Parking","Meditation Area","Gymnasium","Indoor Games","Yoga Room","Swimming Pool"
             ],
             "projectBgContent": "M3M Altitude - Luxury Residences in Sector 65 Gurgaon",
             "projectReraNo": "Applied",
@@ -17664,7 +17502,7 @@
             "meta_description": "Adani Oyster Arcade, Adani Oyster Arcade SCO Plots, Adani Oyster Arcade Gurgaon",
             "meta_title": "Adani Oyster Arcade, Adani Oyster Arcade SCO Plots",
             "Amenities": [
-                "Car Parking"
+                "Car Parking","Meditation Area","Gymnasium","Indoor Games","Yoga Room","Swimming Pool"
             ],
             "projectBgContent": "Adani Oyster Arcade SCO Plots Sector 102 Gurgaon",
             "projectReraNo": "HARERA No. 44 of 2021 dated 24.08.2021",
@@ -18929,7 +18767,7 @@
             "meta_description": "M3M Capital Walk, New Commercial Property in Sector 113 Gurgaon",
             "meta_title": "M3M Capital Walk, New Commercial Property in Sector 113 Gurgaon",
             "Amenities": [
-                "Car Parking"
+                "Car Parking","Meditation Area","Gymnasium","Indoor Games","Yoga Room","Swimming Pool"
             ],
             "projectBgContent": "M3M Capital Walk - New Commercial Project in Sector 113 Gurgaon",
             "projectReraNo": "RC/REP/HARERA/GGM/605/337/2022/80",
@@ -19066,7 +18904,7 @@
             "meta_description": "M3M Route 65 offers commercial retail shops and hypermarkets at Sector 65, Golf Course Extension Road Gurgaon. This is a primary location in Gurgaon",
             "meta_title": "M3M Route 65, Luxury Commercial Project at Sector 65 Gurgaon",
             "Amenities": [
-                "Car Parking"
+                "Car Parking","Meditation Area","Gymnasium","Indoor Games","Yoga Room","Swimming Pool"
             ],
             "projectBgContent": "M3M ROUTE 65 SECTOR 65 GURGAON",
             "projectReraNo": "RC/REP/HARERA/GGM/605/337/2022/80",
@@ -19141,7 +18979,7 @@
             "projectAddress": "Sector 71, Southern Peripheral Road",
             "city": "Gurgaon",
             "frontImage": {
-              "url": "https://signature-newlaunch71.info/wp-content/uploads/2024/04/banner.jpg"
+              "url": "https://res.cloudinary.com/dgplzytrq/image/upload/v1716552333/Signature-71/slider-71_fvbnfg.jpg"
             },"possession":"2029",
             
                 "logo": {
@@ -19193,7 +19031,7 @@
                 "meta_description": "M3M Altitude Apartments in Sector 65 were designed to be visually appealing, captivating the senses and enhancing the living experience of its residents",
                 "meta_title": "M3M Altitude Sector 65 Gurgaon | Luxury Apartments",
                 "Amenities": [
-                    "Car Parking"
+                    "Car Parking","Meditation Area","Gymnasium","Indoor Games","Yoga Room","Swimming Pool"
                 ],
                 "projectBgContent": "M3M Altitude - Luxury Residences in Sector 65 Gurgaon",
                 "projectReraNo": "Applied",
@@ -19769,7 +19607,7 @@
           "meta_description": "M3M Altitude Apartments in Sector 65 were designed to be visually appealing, captivating the senses and enhancing the living experience of its residents",
           "meta_title": "M3M Altitude Sector 65 Gurgaon | Luxury Apartments",
           "Amenities": [
-              "Car Parking"
+              "Car Parking","Meditation Area","Gymnasium","Indoor Games","Yoga Room","Swimming Pool"
           ],
           "projectBgContent": "M3M Altitude - Luxury Residences in Sector 65 Gurgaon",
           "projectReraNo": "Applied",
@@ -19872,7 +19710,7 @@
           "meta_description": "M3M Altitude Apartments in Sector 65 were designed to be visually appealing, captivating the senses and enhancing the living experience of its residents",
           "meta_title": "M3M Altitude Sector 65 Gurgaon | Luxury Apartments",
           "Amenities": [
-              "Car Parking"
+              "Car Parking","Meditation Area","Gymnasium","Indoor Games","Yoga Room","Swimming Pool"
           ],
           "projectBgContent": "M3M Altitude - Luxury Residences in Sector 65 Gurgaon",
           "projectReraNo": "Applied",
@@ -19916,108 +19754,8 @@
           "updatedAt": "2024-05-13T12:00:00.096Z",
           "__v": 0
         
-          },{
-            "projectName": "Godrej Zenith",
-            "projectAddress": "Sector 89, Dwarka Expressway",
-            "possession": "2027",
-            "city": "Gurgaon",
-            "frontImage": {
-              "url": "https://res.cloudinary.com/dgplzytrq/image/upload/v1716627555/Godrej-Zenith/image_z6cytu.jpg"
-            },
-            "logo": {
-              "public_id": "100acre/project/r40ya2h42wugr0wkgux1",
-              "url": "https://res.cloudinary.com/dm5yrsqdc/image/upload/v1715601318/100acre/project/r40ya2h42wugr0wkgux1.png"
           },
-          "project_locationImage": {
-              "public_id": "100acre/project/cyhxhs7mcjawuhtp7rda",
-              "url": "https://res.cloudinary.com/dm5yrsqdc/image/upload/v1715601288/100acre/project/cyhxhs7mcjawuhtp7rda.jpg"
-          },
-          "highlightImage": {
-              "public_id": "100acre/project/dbla5rbmnnqmqpa9jjsv",
-              "url": "https://res.cloudinary.com/dm5yrsqdc/image/upload/v1715601599/100acre/project/dbla5rbmnnqmqpa9jjsv.jpg"
-          },
-          "projectMaster_plan": {
-              "public_id": "100acre/project/khfgyucvghcjmhbrdhhe",
-              "url": "http://res.cloudinary.com/dm5yrsqdc/image/upload/v1715601383/100acre/project/khfgyucvghcjmhbrdhhe.jpg"
-          },
-          "_id": "663752acdf6f5a16378c95a5",
-          "project_floorplan_Image": [
-              {
-                  "public_id": "100acre/project/bswmkcc37btprqrqj6qv",
-                  "url": "https://res.cloudinary.com/dgplzytrq/image/upload/v1717582876/Floor%20plan%20image/Background_cpb7aq.png"
-              },
-              {
-                  "public_id": "100acre/project/j7zxk8spkuniouxeou5d",
-                  "url": "https://res.cloudinary.com/dgplzytrq/image/upload/v1717585460/Floor%20plan%20image/Background_1_lqqpwe.png"
-              },
-              {
-                  "public_id": "100acre/project/wmyqravz8eplntvlagyf",
-                  "url": "https://res.cloudinary.com/dgplzytrq/image/upload/v1717586036/Floor%20plan%20image/Background_2_rbunqm.png"
-              }
-          ],
-          "state": "Haryana",
-        
-          "project_discripation": "M3M Altitude, an outstanding residential property situated in the heart of Sector 65, Gurgaon. This premium residential development sets new standards of opulence with its exquisite luxury apartments and an extensive array of world-class facilities and amenities. Designed to cater to the discerning tastes of modern homeowners, this development redefines luxury living with its unparalleled blend of elegance, comfort, and convenience.",
-          "projectRedefine_Connectivity": [
-              "Situated on 60 metre wide main arterial Sector road"
-          ],
-          "projectRedefine_Entertainment": [
-              "Prominently located on Southern Peripheral Road (Golf Course Extension Road) one of the widest roads in Gurgaon (90 meters wide) and recently announced as NH 236"
-          ],
-          "projectRedefine_Business": [
-              "Strategically linked to all major Business Hubs & Retail destinations"
-          ],
-          "projectRedefine_Education": [
-              "Just 30 minute drive from Delhi International Airport"
-          ],
-          "meta_description": "M3M Altitude Apartments in Sector 65 were designed to be visually appealing, captivating the senses and enhancing the living experience of its residents",
-          "meta_title": "M3M Altitude Sector 65 Gurgaon | Luxury Apartments",
-          "Amenities": [
-              "Car Parking"
-          ],
-          "projectBgContent": "M3M Altitude - Luxury Residences in Sector 65 Gurgaon",
-          "projectReraNo": "Applied",
-          "type": "Residential Flats",
-          "builderName": "M3M India",
-          "AboutDeveloper": "M3M India means 'Superbness in the Trinity Of Men, Materials and Money'. The aphorism of the organization is \"quality, opportune conveyance and greatness\". Recognizing highlights of M3M inside the business are its inventive, remarkable and unrivaled ideas, multi-dimensional realty arrangements and unparalleled high help norms. Demonstrating its responsibility towards creating cutting edge land works of art, M3M has consistently strived to gather the best ability in the business. The organization has increased important involvement with the land area with different and complimentary gifts from a rich organization of first class go-betweens, monetary establishments, high-total assets people and probably the most rumored designers in India.",
-          "projectOverview": "trending",
-          "project_Status": "newlunch",
-          "schema_type": "project",
-          "project_url": "m3m-altitude",
-          "projectGallery": [
-              {
-                  "public_id": "100acre/project/jtveoh1dzgwgeai05s8n",
-                  "url": "https://res.cloudinary.com/dm5yrsqdc/image/upload/v1715601506/100acre/project/jtveoh1dzgwgeai05s8n.jpg"
-              },
-              {
-                  "public_id": "100acre/project/znqldmnn2ghf4vwveth6",
-                  "url": "https://res.cloudinary.com/dm5yrsqdc/image/upload/v1715601507/100acre/project/znqldmnn2ghf4vwveth6.jpg"
-              },
-              {
-                  "public_id": "100acre/project/rj3utomwptzpznbftqyz",
-                  "url": "https://res.cloudinary.com/dm5yrsqdc/image/upload/v1715601508/100acre/project/rj3utomwptzpznbftqyz.jpg"
-              }
-          ],
-          "BhK_Details": [
-              {
-                  "bhk_type": "3 BHK + SR",
-                  "price": "Call for Price",
-                  "bhk_Area": "3755 SQ.FT.",
-                  "_id": "66375706df6f5a16378c9ca6"
-              },
-              {
-                  "bhk_type": "4 BHK + SR",
-                  "price": "Call for Price",
-                  "bhk_Area": "4270 SQ.FT.",
-                  "_id": "66375717df6f5a16378c9caa"
-              }
-          ],
-          "highlight": [],
-          "createdAt": "2024-05-05T09:34:36.735Z",
-          "updatedAt": "2024-05-13T12:00:00.096Z",
-          "__v": 0
-        
-          },{
+          {
             
             "projectName": "Smart World 1 DXP",
             "projectAddress": "Sector 113 , Dwarka Expressway",
@@ -20075,7 +19813,7 @@
           "meta_description": "M3M Altitude Apartments in Sector 65 were designed to be visually appealing, captivating the senses and enhancing the living experience of its residents",
           "meta_title": "M3M Altitude Sector 65 Gurgaon | Luxury Apartments",
           "Amenities": [
-              "Car Parking"
+              "Car Parking","Meditation Area","Gymnasium","Indoor Games","Yoga Room","Swimming Pool"
           ],
           "projectBgContent": "M3M Altitude - Luxury Residences in Sector 65 Gurgaon",
           "projectReraNo": "Applied",
@@ -20175,7 +19913,7 @@
             "meta_description": "M3M Altitude Apartments in Sector 65 were designed to be visually appealing, captivating the senses and enhancing the living experience of its residents",
             "meta_title": "M3M Altitude Sector 65 Gurgaon | Luxury Apartments",
             "Amenities": [
-                "Car Parking"
+                "Car Parking","Meditation Area","Gymnasium","Indoor Games","Yoga Room","Swimming Pool"
             ],
             "projectBgContent": "M3M Altitude - Luxury Residences in Sector 65 Gurgaon",
             "projectReraNo": "Applied",

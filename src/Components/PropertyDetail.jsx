@@ -18,11 +18,19 @@ function PropertyDetail({ property }) {
     "Shopping Centre": "https://res.cloudinary.com/dgplzytrq/image/upload/v1717659531/Amenities/Shopping-Center.jpg",
     "Video Door Security": "https://res.cloudinary.com/dgplzytrq/image/upload/v1717659783/Amenities/video-door-security.jpg",
     "Park": "https://res.cloudinary.com/dgplzytrq/image/upload/v1717659989/Amenities/Park.jpg",
-    "Meditation Area": "https://res.cloudinary.com/dgplzytrq/image/upload/v1717659989/Amenities/Park.jpg",
-    "CCTV Camera Security":"https://res.cloudinary.com/dgplzytrq/image/upload/v1717659989/Amenities/Park.jpg",
-    "Basketball Court":"https://res.cloudinary.com/dgplzytrq/image/upload/v1717659989/Amenities/Park.jpg",
-    "Yoga Room":"https://res.cloudinary.com/dgplzytrq/image/upload/v1717666053/Amenities/Yoga%20Room.jpg"
-  };
+    "Meditation Area": "https://res.cloudinary.com/dgplzytrq/image/upload/v1717742436/Amenities/Meditation%20Area.jpg",
+    "CCTV Camera Security":"https://res.cloudinary.com/dgplzytrq/image/upload/v1717742544/Amenities/CCTV.jpg",
+    "Basketball Court":"https://res.cloudinary.com/dgplzytrq/image/upload/v1717742622/Amenities/Basketball%20Court.jpg",
+    "Yoga Room":"https://res.cloudinary.com/dgplzytrq/image/upload/v1717666053/Amenities/Yoga%20Room.jpg",
+    "Salon":"https://res.cloudinary.com/dgplzytrq/image/upload/v1717747518/Amenities/Salon.jpg",
+    "Fountain":"https://res.cloudinary.com/dgplzytrq/image/upload/v1717747665/Amenities/Fountain.jpg",
+    "Visitors Parking":"https://res.cloudinary.com/dgplzytrq/image/upload/v1717747763/Amenities/Visitors%20Parking.jpg",
+    "Community Hall":"https://res.cloudinary.com/dgplzytrq/image/upload/v1717747866/Amenities/Community-center.jpg",
+    "Indoor Games":"https://res.cloudinary.com/dgplzytrq/image/upload/v1717748048/Amenities/Indoor%20Games.jpg",
+    "Vastu Compliant":"https://res.cloudinary.com/dgplzytrq/image/upload/v1717748210/Amenities/Vastu-compliant.jpg",
+    "Jogging Track":"https://res.cloudinary.com/dgplzytrq/image/upload/v1717748678/Amenities/Jogging.jpg",
+    "Gymnasium": "https://res.cloudinary.com/dgplzytrq/image/upload/v1717749855/Amenities/gymnasium.jpg"
+   };
 
   useEffect(() => {
     const interval = setInterval(() => {
@@ -94,9 +102,9 @@ function PropertyDetail({ property }) {
             <h2>Amenities</h2>
             <ul>
               {property.Amenities.map((amenity, index) => (
-                <p key={index}>
+                <p key={index} className='amenity-box'>
                   <img src={amenityImages[amenity]} alt={amenity} className='amenity-image' />
-                  {/* {amenity} */} 
+                  {amenity} 
                 </p>
               ))}
             </ul>
