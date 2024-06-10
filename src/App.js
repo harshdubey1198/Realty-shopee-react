@@ -6,6 +6,7 @@ import ContactUs from './Pages/ContactUs';
 import Login from './Pages/Login';
 import LocationDetail from './Components/LocationList';
 import NotFound from './Pages/NotFound';
+import AddProject from './Pages/AddProject';
 
 function App() {
   return (
@@ -18,6 +19,7 @@ function App() {
             <Route path="/contactus" element={<ContactUs />}/>
             <Route path="/login" element={<Login />}/>
             <Route path="/location/:locationName" element={<LocationDetail />} />
+            <Route path="/addproperties" element={<AddProject/>} />
             <Route path="/*" element={<NotFound />}/>
           </Routes>
         </div>

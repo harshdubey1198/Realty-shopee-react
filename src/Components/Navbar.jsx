@@ -1,12 +1,33 @@
-import React, { useState } from 'react';
+import React, { useState, useEffect } from 'react';
 import logo from "../Images/Realty shopee main logo.png";
 import '../App.css';
 import { TfiHeadphoneAlt } from "react-icons/tfi";
-import { FaWhatsapp } from "react-icons/fa6";
 import { Link, scroller } from 'react-scroll';
 import { AiOutlineMenu } from "react-icons/ai";
+import { useNavigate } from 'react-router-dom';
+import menIcon from "../Images/Icons/man.png";
+import womenIcon from "../Images/Icons/woman.png";
 
 function Navbar() {
+  const navigate = useNavigate();
+  const handleAddProject = () => {
+    const username = localStorage.getItem('username');
+    if (username) {
+      navigate('/addproperties');
+    } else {
+      navigate('/login');
+    }
+  };
+  const [currentIcon, setCurrentIcon] = useState(womenIcon);
+
+  useEffect(() => {
+    const interval = setInterval(() => {
+      setCurrentIcon((prevIcon) => (prevIcon === womenIcon ? menIcon : womenIcon));
+    }, 2000);
+
+    return () => clearInterval(interval); 
+  }, []);
+
   const navbarHeight = 60; 
   const [isDropdownVisible, setDropdownVisible] = useState(false);
 
@@ -19,6 +40,10 @@ function Navbar() {
         offset: -navbarHeight,
       });
     }
+  };
+
+  const handleAuth = () => {
+    navigate('/login');
   };
 
   const toggleDropdown = () => {
@@ -46,10 +71,11 @@ function Navbar() {
         </div>
 
         <div className='right-panel'>
+          <button className='add-p-nav' onClick={handleAddProject}>Add Properties</button>
           <TfiHeadphoneAlt className='right-panel-icons'/>
-          <a href="https://wa.me/919289252999" target="_blank" rel="noreferrer">
-            <FaWhatsapp className='right-panel-icons'/>    
-          </a>
+          <div className='s-l'>
+            <img src={currentIcon} alt="Icon" onClick={handleAuth} />
+          </div>
           <div className='mob-nav-dropdown' onClick={toggleDropdown}>
             <AiOutlineMenu className='right-panel-icons'/>
           </div>

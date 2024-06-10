@@ -1,6 +1,6 @@
 import React from 'react';
 import "./Contact.css";
-import formImage from "../Images/SideHustle/Contact us.gif"; // Update the path to your SVG file
+import formImage from "../Images/SideHustle/Contact us.gif"; 
 import { useNavigate } from 'react-router-dom';
 function ContactUs() {
     const navigate =useNavigate();
