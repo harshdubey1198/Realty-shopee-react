@@ -14,7 +14,7 @@ const Login = () => {
 
   const handleSignIn = async (e) => {
     e.preventDefault();
-    const url = 'http://localhost:10/signin';
+    const url = 'https://realty-react-backend.onrender.com/signin';
     try {
       const response = await fetch(url, {
         method: 'POST',
@@ -37,7 +37,7 @@ const Login = () => {
 
   const handleSignUp = async (e) => {
     e.preventDefault();
-    const url = 'http://localhost:10/signup';
+    const url = 'https://realty-react-backend.onrender.com/signup';
     try {
       const response = await fetch(url, {
         method: 'POST',

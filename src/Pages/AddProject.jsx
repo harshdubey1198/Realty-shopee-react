@@ -29,7 +29,7 @@ function AddProject() {
     const handleSubmit = async (e) => {
         e.preventDefault();
         try {
-            const response = await fetch('http://localhost:10/add-property', {
+            const response = await fetch('https://realty-react-backend.onrender.com/add-property', {
                 method: 'POST',
                 headers: { 'Content-Type': 'application/json' },
                 body: JSON.stringify(form),
