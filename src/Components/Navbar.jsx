@@ -2,7 +2,7 @@ import React, { useState, useEffect } from 'react';
 import logo from "../Images/Realty shopee main logo.png";
 import '../App.css';
 import { TfiHeadphoneAlt } from "react-icons/tfi";
-import { Link, scroller } from 'react-scroll';
+import { Link as ScrollLink, scroller } from 'react-scroll';
 import { AiOutlineMenu } from "react-icons/ai";
 import { useNavigate } from 'react-router-dom';
 import menIcon from "../Images/Icons/man.png";
@@ -10,6 +10,8 @@ import womenIcon from "../Images/Icons/woman.png";
 
 function Navbar() {
   const navigate = useNavigate();
+  const [username, setUsername] = useState(null);
+
   const handleAddProject = () => {
     const username = localStorage.getItem('username');
     if (username) {
@@ -18,18 +20,39 @@ function Navbar() {
       navigate('/login');
     }
   };
+
+  const handleLogout = () => {
+    localStorage.removeItem('username');
+    setUsername(null);
+    navigate('/login');
+    fetch('https://realty-react-backend.onrender.com/logout', {
+      method: 'POST',
+    })
+      .then(response => response.json())
+      .then(data => {
+        console.log(data.message);
+      })
+      .catch(error => {
+        console.error('Error:', error);
+      });
+  };
+
   const [currentIcon, setCurrentIcon] = useState(womenIcon);
 
   useEffect(() => {
     const interval = setInterval(() => {
       setCurrentIcon((prevIcon) => (prevIcon === womenIcon ? menIcon : womenIcon));
-    }, 2000);
+    }, 4000);
 
-    return () => clearInterval(interval); 
+    return () => clearInterval(interval);
   }, []);
 
-  const navbarHeight = 60; 
-  const [isDropdownVisible, setDropdownVisible] = useState(false);
+  useEffect(() => {
+    const storedUsername = localStorage.getItem('username');
+    setUsername(storedUsername);
+  }, []);
+
+  const navbarHeight = 60;
 
   const handleDropdownChange = (event) => {
     const selectedSection = event.target.value;
@@ -42,11 +65,8 @@ function Navbar() {
     }
   };
 
-  const handleAuth = () => {
-    navigate('/login');
-  };
-
-  const toggleDropdown = () => {
+  const [isDropdownVisible, setDropdownVisible] = useState(false);
+  const toggleMobileDropdown = () => {
     setDropdownVisible(!isDropdownVisible);
   };
 
@@ -56,43 +76,55 @@ function Navbar() {
         <div className='logo-div'>
           <img src={logo} alt='Realty Shopee' />
         </div>
-        
-        <div className={`navigators ${isDropdownVisible ? 'visible' : ''}`}>
-          <Link to="home" smooth={true} duration={1500} offset={-navbarHeight}><button>Home</button></Link>
-          <Link to="trending" smooth={true} duration={1500} offset={-navbarHeight}><button>Trending</button></Link>
-          <Link to="upcoming" smooth={true} duration={1500} offset={-navbarHeight}><button>Upcoming</button></Link>
+
+        <div className='navigators'>
+          <ScrollLink to="home" smooth={true} duration={1500} offset={-navbarHeight}><button>Home</button></ScrollLink>
+          <ScrollLink to="trending" smooth={true} duration={1500} offset={-navbarHeight}><button>Trending</button></ScrollLink>
+          <ScrollLink to="upcoming" smooth={true} duration={1500} offset={-navbarHeight}><button>Upcoming</button></ScrollLink>
           <select onChange={handleDropdownChange} className="dropdown-select">
             <option value="">Categories</option>
             <option value="residential">Residential</option>
             <option value="commercial">Commercial</option>
             <option value="sco">SCO</option>
           </select>
-          <Link to="location-wise" smooth={true} duration={1500} offset={-navbarHeight}><button>Location Wise</button></Link>
+          <ScrollLink to="location-wise" smooth={true} duration={1500} offset={-navbarHeight}><button>Location Wise</button></ScrollLink>
         </div>
 
         <div className='right-panel'>
           <button className='add-p-nav' onClick={handleAddProject}>Add Properties</button>
-          <TfiHeadphoneAlt className='right-panel-icons'/>
+          <TfiHeadphoneAlt className='right-panel-icons' />
           <div className='s-l'>
-            <img src={currentIcon} alt="Icon" onClick={handleAuth} />
+            <img src={currentIcon} alt="Icon" />
+            <div className="auth-dropdown">
+              <span className='wel-user'>{username ? `Welcome, ${username}` : "Guest"}</span>
+              <button onClick={() => navigate('/login')}>Login / Signup</button>
+              <button onClick={() => navigate('/contactus')}>Contact Us</button>
+              {username ? (
+                <button onClick={handleLogout}>Logout</button>
+              ) : (
+                <>
+                 
+                </>
+              )}
+            </div>
           </div>
-          <div className='mob-nav-dropdown' onClick={toggleDropdown}>
-            <AiOutlineMenu className='right-panel-icons'/>
+          <div className='mob-nav-dropdown' onClick={toggleMobileDropdown}>
+            <AiOutlineMenu className='right-panel-icons' />
           </div>
         </div>
 
         {isDropdownVisible && (
           <div className="mob-dropdown">
-            <Link to="home" smooth={true} duration={1500} offset={-navbarHeight} onClick={toggleDropdown}><button>Home</button></Link>
-            <Link to="trending" smooth={true} duration={1500} offset={-navbarHeight} onClick={toggleDropdown}><button>Trending</button></Link>
-            <Link to="upcoming" smooth={true} duration={1500} offset={-navbarHeight} onClick={toggleDropdown}><button>Upcoming</button></Link>
+            <ScrollLink to="home" smooth={true} duration={1500} offset={-navbarHeight} onClick={toggleMobileDropdown}><button>Home</button></ScrollLink>
+            <ScrollLink to="trending" smooth={true} duration={1500} offset={-navbarHeight} onClick={toggleMobileDropdown}><button>Trending</button></ScrollLink>
+            <ScrollLink to="upcoming" smooth={true} duration={1500} offset={-navbarHeight} onClick={toggleMobileDropdown}><button>Upcoming</button></ScrollLink>
             <select onChange={handleDropdownChange} className="dropdown-select1">
               <option value="">Categories</option>
               <option value="residential">Residential</option>
               <option value="commercial">Commercial</option>
               <option value="sco">SCO</option>
             </select>
-            <Link to="location-wise" smooth={true} duration={1500} offset={-navbarHeight} onClick={toggleDropdown}><button>Location Wise</button></Link>
+            <ScrollLink to="location-wise" smooth={true} duration={1500} offset={-navbarHeight} onClick={toggleMobileDropdown}><button>Location Wise</button></ScrollLink>
           </div>
         )}
       </div>
