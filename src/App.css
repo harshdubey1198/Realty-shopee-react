@@ -169,7 +169,15 @@ nav {
   border: 3px solid #1c48b1;
   cursor: pointer;
 }
-
+.input-number::-webkit-inner-spin-button,
+.input-number::-webkit-outer-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+.input-number {
+  -moz-appearance: textfield;
+  appearance: textfield;
+}
 .s-l:hover .auth-dropdown {
   display: flex;
 }
@@ -1024,11 +1032,12 @@ button{
   form{
     display: grid;
     grid-template-columns: repeat(2 , 0fr);
-    gap: 10px;
+    gap: 30px;
+    width: 60%;
     justify-content: center;
   }
   input{
-    width: 200px;
+    width: 300px;
     border-radius: 20px;
     border: 0;
     outline: 1px solid lightgrey;
@@ -1048,13 +1057,27 @@ button{
     background: #5eb1fc;
   }
 }
+.add-images{
+  display: flex;
+  align-items: center;
+  height: 35px;
+  justify-content: space-evenly;
+  background: none!important;
+  outline: 1px solid lightgrey;
+  color :black;
+  font-weight: 600;
+  width: 320px !important;
+  svg{
+    height: 30px;
+  }
+}
 .a-p-main header{
   height: 60px ;
   display: flex;
   flex-direction: row;
   align-items: center;
   justify-content: space-around;
-  background: rgba(0, 0, 0, 0.486);
+  background: rgb(227 227 227 / 88%);
   width: 100%;
   img{
     height: 50px;
@@ -1159,7 +1182,34 @@ button{
 input#file-upload-button{
   display: none;
 }
-
+.div-budget, .div-number{
+  position: relative;
+}
+.₹-symbol , .mob-symbol{
+  position: absolute;
+  right: 5.5px;
+  top: 5.9px;
+  background: #c7c7c7;
+  height: 26px;
+  width: 27px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 50%;
+  font-weight:  500;
+}
+.preview-image{
+  height: 200px;
+  width:  200px;
+  object-fit: cover;
+}
+.preview-div{
+  grid-template-columns: repeat(4 , 1fr);
+  display: grid;
+  justify-content: space-around;
+  align-items: center;
+  column-gap: 10px;
+}
 
 /* Styles for mobile */
 
