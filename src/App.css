@@ -1320,7 +1320,19 @@ overlay css */
   color: green;
 }
 }
-
+@media (width<951px){
+  .overlay {
+    .contact-form {
+        background-color: none;
+        padding: 20px;
+        border-radius: 5px;
+        width: 290px;
+        button{
+          width: 200px;
+        }
+    }
+}
+}
 
 
 /* Styles for mobile */
@@ -1789,7 +1801,8 @@ button{
   }
   .right-panel-icons{
     height: 20px;
-    padding: 4px 0;
+    padding: 4px;
+    border-radius: 50%;
   }
   .add-p-nav{
     display: none;
