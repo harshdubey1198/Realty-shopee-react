@@ -69,32 +69,35 @@ const Overlay = ({ onClose, onFormSubmit }) => {
               type="text"
               id="clientName"
               name="clientName"
+              placeholder='Enter Your Name'
               value={formData.clientName}
               onChange={handleInputChange}
               required
-            />
+              />
           </div>
           <div className="form-group">
             <label htmlFor="email">Email</label>
             <input
               type="email"
               id="email"
+              placeholder='Enter Your Email'
               name="email"
               value={formData.email}
               onChange={handleInputChange}
               required
-            />
+              />
           </div>
           <div className="form-group">
             <label htmlFor="mobile">Mobile</label>
             <input
+              placeholder='Enter Your Mobile Number'
               type="text"
               id="mobile"
               name="mobile"
               value={formData.mobile}
               onChange={handleInputChange}
               required
-            />
+              />
           </div>
           <div className="form-group">
             <label htmlFor="whenCanYouPlanAVisit">Schedule A Free Visit!</label>
@@ -106,7 +109,7 @@ const Overlay = ({ onClose, onFormSubmit }) => {
               value={formData.whenCanYouPlanAVisit}
               onChange={handleInputChange}
               required
-            />
+              />
           </div>
           <div className="form-group">
             <label htmlFor="preferredProject">Interested In</label>
@@ -116,10 +119,10 @@ const Overlay = ({ onClose, onFormSubmit }) => {
               value={formData.preferredProject}
               onChange={handleInputChange}
             >
-              <option value="">Select Project</option>
-              <option value="project1">Project 1</option>
-              <option value="project2">Project 2</option>
-              <option value="project3">Project 3</option>
+              <option value=''>Select Project</option>
+              <option value='M3M'>M3M Projects</option>
+              <option value='Signature'>Signature Projects</option>
+              <option value='Omaxe'>Omaxe Projects</option>
             </select>
           </div>
           <div className="form-group">
@@ -128,6 +131,7 @@ const Overlay = ({ onClose, onFormSubmit }) => {
               type="text"
               id="message"
               name="message"
+              placeholder='Enter Your Message'
               value={formData.message}
               onChange={handleInputChange}
               required

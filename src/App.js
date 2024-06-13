@@ -45,11 +45,11 @@ import './App.css'; // Import global styles
 function App() {
   const [showOverlay, setShowOverlay] = useState(false);
 
-  // Function to show overlay after 15 seconds
+  // Function to show overlay after 10 seconds
   useEffect(() => {
     const timer = setTimeout(() => {
       setShowOverlay(true);
-    }, 1500); // Show overlay after 15 seconds
+    }, 1000); 
 
     return () => clearTimeout(timer);
   }, []);

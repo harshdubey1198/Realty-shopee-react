@@ -1250,6 +1250,20 @@ overlay css */
   padding: 20px;
   border-radius: 5px;
   width: 400px;
+  button{
+    width:300px;
+    margin:0 50px;
+    padding: 10px 20px;
+    background: #386191;
+    color: white;
+    outline: 2.4px solid black;
+    border: none;
+    border-radius: 20px;
+    font-size: 16px;
+  }
+  button:hover{
+    background: #5282b5;
+  }
 }
 
 .overlay-heading {
