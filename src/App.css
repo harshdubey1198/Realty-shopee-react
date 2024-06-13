@@ -1210,6 +1210,104 @@ input#file-upload-button{
   align-items: center;
   column-gap: 10px;
 }
+/* 
+overlay css */
+.overlay {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(71, 71, 71, 0.4);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  z-index: 1000;
+.overlay-content{
+  display: flex;
+  position: relative;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+  padding: 20px;
+  border-radius: 20px;
+  background: white;
+  h2{
+    color: rgb(54, 54, 54);
+    margin: 0;
+  }
+}
+.close-overlay{
+  position: absolute;
+  top:   10px;
+  right: 10px;
+  font-size: 30px;
+  color: grey;
+  cursor: pointer;
+}
+.contact-form{
+  background-color : none;
+  padding: 20px;
+  border-radius: 5px;
+  width: 400px;
+}
+
+.overlay-heading {
+  font-size: 24px;
+  font-weight: bold;
+  margin-bottom: 10px;
+}
+
+.form-group {
+  margin-bottom: 15px;
+}
+
+.form-group label {
+  font-weight: bold;
+}
+
+.form-group input,
+.form-group select {
+  width: 100%;
+  padding: 8px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+}
+
+.form-group select {
+  height: 34px; /* Adjust height as needed */
+}
+
+.form-group button {
+  padding: 10px 20px;
+  background-color: #007bff;
+  color: white;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+.form-group button:hover {
+  background-color: #0056b3;
+}
+
+.close-button {
+  position: absolute;
+  top: 10px;
+  right: 10px;
+  font-size: 20px;
+  cursor: pointer;
+  color: #333;
+}
+
+.overlay-message {
+  margin-top: 10px;
+  color: green;
+}
+}
+
+
 
 /* Styles for mobile */
 

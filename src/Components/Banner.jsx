@@ -84,7 +84,7 @@ const Banner = () => {
           <div className="flexCenter stats">
             <div className="flexColCenter stat">
               <span>
-                <CountUp start={4000} end={4900} duration={4} /> <span>+</span>
+                <CountUp start={4750} end={4900} duration={4} /> <span>+</span>
               </span>
               <span className="secondaryText">Properties Sold</span>
             </div>
@@ -105,7 +105,6 @@ const Banner = () => {
           </div>
         </div>
 
-        {/* right side */}
         <div className="flexCenter hero-right">
           <motion.div
             initial={{ x: "7rem", opacity: 0 }}

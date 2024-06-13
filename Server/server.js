@@ -6,6 +6,7 @@ const bcrypt = require('bcryptjs');
 const helmet = require('helmet');
 const multer = require('multer');
 require('dotenv').config();
+const moment = require('moment-timezone');
 
 const app = express();
 const PORT = process.env.PORT || 3000;
@@ -38,8 +39,12 @@ app.use(cors({
 }));
 
 const storage = multer.memoryStorage();
-const upload = multer({ storage });
-
+const upload = multer({ 
+  storage: storage,
+  limits: {
+    fieldSize: 25 * 1024 * 1024 // Set the maximum field size to 25MB (adjust as needed)
+  }
+});
 app.post('/signup', async (req, res) => {
     try {
         const { name, email, password } = req.body;
@@ -142,7 +147,7 @@ app.get('/resale/:propertyid/:imagenumber', async (req, res) => {
         // Extract the base64 data from the image data
         const base64Data = imageData.split(';base64,').pop();
 
-        // Set the appropriate content type header 
+        // Set the appropriate content type header  
         res.setHeader('Content-Type', 'image/png'); // Assuming images are PNG format
 
         // Send the image data as the response
@@ -175,6 +180,22 @@ app.get('/resale/:propertyid', async (req, res) => {
         res.status(500).json({ message: 'An error occurred. Please try again.' });
     }
 });
+app.post('/query-form', async (req, res) => {
+    try {
+        const formData = req.body;
+        const queryCollection = db.collection('queryforms');
+        const newQuery = {
+            ...formData,
+            createdAt: moment().tz('Asia/Kolkata').format()
+        };
+        await queryCollection.insertOne(newQuery);
+        res.status(200).json({ message: 'Query submitted successfully' });
+    } catch (error) {
+        console.error('Submit Query Error:', error);
+        res.status(500).json({ message: 'An error occurred. Please try again.' });
+    }
+});
+
 
 
 app.get('/resale', async (req, res) => {
