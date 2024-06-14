@@ -1277,11 +1277,15 @@ overlay css */
 }
 
 .form-group label {
-  font-weight: bold;
+  font-weight: 500;
+  font-size: small;
+  margin-bottom: 20px;
 }
+
 
 .form-group input,
 .form-group select {
+  margin-top: 5px;
   width: 100%;
   padding: 8px;
   border: 1px solid #ccc;
@@ -1600,10 +1604,13 @@ overlay css */
   border-bottom: 2px solid lightblue;
 }
 .amenity-image {
-  width:  10vw;  
-  height: 160px; 
-  object-fit: cover;  
-  margin-right: 10px;  
+  width: 13vw;
+  height: 160px;
+  object-fit: cover;
+  margin-right: 10px;
+  border-radius: 20px;
+  border: 2px solid  #3e94c5;
+
 }
 .pd-p3 div {
   display: flex;
@@ -1620,7 +1627,7 @@ overlay css */
 .pd-p3 div ul {
   display: grid;
   grid-template-columns: repeat(6, 1fr);
-  gap: 10px;
+  gap: 20px;
   list-style: none;
   padding: 0;
   /* min-height: 100px; */
@@ -1643,7 +1650,11 @@ border-top: 1px solid #000;
 }
 .amenity-box{
   display: flex;
+  align-items: center;
   flex-direction: column;
+  .amenity-label{
+    padding-top: 10px;
+  }
 }
 
 .pd-carousel{
@@ -1830,6 +1841,7 @@ button{
   .right-panel{
     justify-content: center;
     gap: 10px;
+    align-items: self-start;
     margin-right: 0;
   }
   .search-bar{

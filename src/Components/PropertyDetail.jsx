@@ -104,7 +104,7 @@ function PropertyDetail({ property }) {
               {property.Amenities.map((amenity, index) => (
                 <p key={index} className='amenity-box'>
                   <img src={amenityImages[amenity]} alt={amenity} className='amenity-image' />
-                  {amenity} 
+                  <span className='amenity-label'>{amenity}</span> 
                 </p>
               ))}
             </ul>
