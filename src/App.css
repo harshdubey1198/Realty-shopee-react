@@ -1924,7 +1924,41 @@ button{
   .section-icon{
     height: 35px;
   }
+.all-p-nav{
+  .navigators{
+    display:block;
+    
+  }
+  .navigators button:nth-child(2), button:nth-child(3){
+    display: none;
+  
+  }
+}
+.gtc{
+  grid-template-columns: repeat(1 ,1fr) !important;
+}
+.gtc-search{
+  width: 70%;
+}
+.a-p-main form{
+  grid-template-columns: repeat(1 , 1fr);
+}
+.a-p-main header {
+  img {
+      height: 35px;
+      border-radius: 10px;
+  }
+}
+.a-p-nav-btns a:nth-child(2) button{
+  font-size: 12px !important;
+  min-width: 80px !important;
+  width: 85px !important;
+}
 
+.a-p-nav-btns button{
+  font-size: 12px;
+  width: 80px !important;
+}
   .flexCenter {
     display: flex;
     flex-direction: column;
