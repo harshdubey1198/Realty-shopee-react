@@ -115,7 +115,7 @@ const Banner = () => {
             }}
             className="image-container"
           >
-            <img src={heroImage} alt="houses" />
+            <img src={heroImage} alt="houses" loading='lazy' />
           </motion.div>
         </div>
       </div>

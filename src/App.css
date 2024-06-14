@@ -306,7 +306,60 @@ a {
   justify-content: space-around;
   align-items: center;
 }
-
+.gtc{
+  padding: 20px;
+  gap:  20px 0  ;
+  width: 100%;
+  height: 100%;
+  min-height: 80vh;
+  position: relative  ;
+  grid-template-columns: repeat(4, 1fr) !important;
+  .property-card{
+    max-width: 280px;
+    margin: 0;
+  }
+  .property-link{
+    display: flex;
+    justify-content: center;
+  }
+}
+.all-p-nav{
+  justify-content: space-around;
+}
+.all-p-h4{
+  font-size: 14px;
+  padding-top: 5px;
+}
+.all-p-p{
+  font-size: 12px;
+}
+.npa{
+  text-align: center;
+  width: 100%;
+  position: absolute;
+  top: 35%;
+  z-index: 999;
+}
+.gtc-search{
+  width: 30vw;
+  margin-top: 80px;
+  display: flex;
+  position: relative;
+  justify-content: center;
+  border-radius: 20px;
+  height: 100%;
+  
+  border:3px solid #7878785f;
+  
+}
+.gtc-search input{
+  width: 100%;
+  border: none;
+  outline: none;
+  border-radius: 20px;  
+  padding: 10px;
+  text-align: center;
+}
 .project-card {
   background: #fff;
   border: 1px solid #ddd;
@@ -634,10 +687,15 @@ justify-content: center;
 .search-bar {
   background-color: white;
   border-radius: 5px;
-  border: 3px solid rgba(120, 120, 120, 0.374);
+  border: 3px solid #7878785f;
   padding: 0;
   /* width: 100%; */
   justify-content: space-between;
+  align-items: center;
+}
+.al-center{
+  display: flex;
+  flex-direction: column;
   align-items: center;
 }
 .search-bar > input {

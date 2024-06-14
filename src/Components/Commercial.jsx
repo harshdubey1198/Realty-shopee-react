@@ -46,9 +46,9 @@ function Commercial() {
   return (
     <div className="commercial-projects bt">
      <h4>
-        <img src={comIcon} alt="" className='section-icon'/>
+        <img src={comIcon} alt="" className='section-icon' loading='lazy'/>
         Commercial Properties
-        <img src={comIcon} alt="" className='section-icon'/>
+        <img src={comIcon} alt="" className='section-icon'  loading='lazy'/>
       </h4>
       <div className="projects-container">
          {projectData.map((project, index) => (
