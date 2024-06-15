@@ -22,15 +22,32 @@ function PropertyDetail({ property }) {
     "CCTV Camera Security":"https://res.cloudinary.com/dgplzytrq/image/upload/v1717742544/Amenities/CCTV.jpg",
     "Basketball Court":"https://res.cloudinary.com/dgplzytrq/image/upload/v1717742622/Amenities/Basketball%20Court.jpg",
     "Yoga Room":"https://res.cloudinary.com/dgplzytrq/image/upload/v1717666053/Amenities/Yoga%20Room.jpg",
+    "Club House":"https://res.cloudinary.com/dgplzytrq/image/upload/v1718433362/Amenities/Club%20House.jpg",
+    "Sniffer Dog" : "https://res.cloudinary.com/dgplzytrq/image/upload/v1718432729/Amenities/Sniffer-dog.jpg",
+    "Squash Court":"https://res.cloudinary.com/dgplzytrq/image/upload/v1718433114/Amenities/Squash-Court.jpg",
     "Salon":"https://res.cloudinary.com/dgplzytrq/image/upload/v1717747518/Amenities/Salon.jpg",
     "Fountain":"https://res.cloudinary.com/dgplzytrq/image/upload/v1717747665/Amenities/Fountain.jpg",
+    "Advanced Security":"https://res.cloudinary.com/dgplzytrq/image/upload/v1718432079/Amenities/Advanced-Security.jpg",
     "Visitors Parking":"https://res.cloudinary.com/dgplzytrq/image/upload/v1717747763/Amenities/Visitors%20Parking.jpg",
     "Community Hall":"https://res.cloudinary.com/dgplzytrq/image/upload/v1717747866/Amenities/Community-center.jpg",
     "Indoor Games":"https://res.cloudinary.com/dgplzytrq/image/upload/v1717748048/Amenities/Indoor%20Games.jpg",
     "Vastu Compliant":"https://res.cloudinary.com/dgplzytrq/image/upload/v1717748210/Amenities/Vastu-compliant.jpg",
-    "Jogging Track":"https://res.cloudinary.com/dgplzytrq/image/upload/v1717748678/Amenities/Jogging.jpg",
-    "Gymnasium": "https://res.cloudinary.com/dgplzytrq/image/upload/v1717749855/Amenities/gymnasium.jpg"
-   };
+    // "Jogging Track":"https://res.cloudinary.com/dgplzytrq/image/upload/v1717748678/Amenities/Jogging.jpg",
+    "Gymnasium": "https://res.cloudinary.com/dgplzytrq/image/upload/v1717749855/Amenities/gymnasium.jpg",
+    "Gym": "https://res.cloudinary.com/dgplzytrq/image/upload/v1717749855/Amenities/gymnasium.jpg",
+    "Jogging Track":"https://res.cloudinary.com/dgplzytrq/image/upload/v1718438090/Amenities/jogging-track.jpg",
+    "Open Gym": "https://res.cloudinary.com/dgplzytrq/image/upload/v1717749855/Amenities/gymnasium.jpg",
+    "Elevator Lobby":"https://res.cloudinary.com/dgplzytrq/image/upload/v1718429046/Amenities/elevator-lobby.jpg",
+    "Private Elevator Lobby":"https://res.cloudinary.com/dgplzytrq/image/upload/v1718429046/Amenities/elevator-lobby.jpg",
+    "Cafeteria" : "https://res.cloudinary.com/dgplzytrq/image/upload/v1718429186/Amenities/Cafeteria.jpg",
+    "Spa":"https://res.cloudinary.com/dgplzytrq/image/upload/v1718434136/Amenities/Spa.jpg",
+    "Kids Pool":"https://res.cloudinary.com/dgplzytrq/image/upload/v1718433912/Amenities/Kids-pool.jpg",
+    "Kids Play Area":"https://res.cloudinary.com/dgplzytrq/image/upload/v1718429550/Amenities/Kids-Play-Area.jpg",
+    "24x7 Power Backup":"https://res.cloudinary.com/dgplzytrq/image/upload/v1718431285/Amenities/24%2A7-Power-Backup.jpg",
+    "3 Level Car Parking":"https://res.cloudinary.com/dgplzytrq/image/upload/v1718431071/Amenities/3-Level-Car-Parking.jpg",
+    "Badminton Court":"https://res.cloudinary.com/dgplzytrq/image/upload/v1718429902/Amenities/badminton-court.jpg",
+    "Complete Land Ownership":"https://res.cloudinary.com/dgplzytrq/image/upload/v1718437301/Amenities/Complete-Land-Ownership.jpg"
+  };
 
   useEffect(() => {
     const interval = setInterval(() => {

@@ -1337,7 +1337,7 @@ overlay css */
 .form-group label {
   font-weight: 500;
   font-size: small;
-  margin-bottom: 20px;
+  margin-bottom: 5px;
 }
 
 
@@ -1382,6 +1382,17 @@ overlay css */
   color: green;
 }
 }
+
+@media screen and (min-width: 400px) and (max-width: 1000px){
+  .pd-p3 div ul {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr) !important;
+    gap: 20px;
+    list-style: none;
+    padding: 0;
+}
+}
+
 @media (width<951px){
   .overlay {
     .contact-form {
@@ -1634,6 +1645,7 @@ overlay css */
   justify-content: space-around;
   padding: 10px;
   margin-top: 20px;
+  border-top: 2px solid lightblue;
   div{
     width: 45%;
     display: flex;
@@ -1684,7 +1696,7 @@ overlay css */
 
 .pd-p3 div ul {
   display: grid;
-  grid-template-columns: repeat(6, 1fr);
+  grid-template-columns: repeat(5, 1fr);
   gap: 20px;
   list-style: none;
   padding: 0;
@@ -2151,9 +2163,7 @@ footer{
 .pd-p3{
   flex-direction: column;
 }
-.pd-p3 div ul {
-  grid-template-columns: repeat(1, 1fr);
-}
+
 .amenity-image {
   width: 300px;
   height: 200px;
@@ -2199,3 +2209,8 @@ footer{
 
 }
 
+@media (width<400px){
+  .pd-p3 div ul {
+    grid-template-columns: repeat(1, 1fr);
+  }
+}

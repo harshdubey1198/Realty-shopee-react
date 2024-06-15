@@ -97,13 +97,14 @@ function Navbar() {
             <img src={currentIcon} alt="Icon" />
             <div className="auth-dropdown">
               <span className='wel-user'>{username ? `Welcome, ${username}` : "Guest"}</span>
-              <button onClick={() => navigate('/login')}>Login / Signup</button>
+              <button onClick={() => navigate('/allproperties')}>All Properties</button>
               <button onClick={() => navigate('/contactus')}>Contact Us</button>
               {username ? (
                 <button onClick={handleLogout}>Logout</button>
               ) : (
                 <>
-                 
+                  <button onClick={() => navigate('/login')}>Login / Signup</button>
+                  <button onClick={() => navigate('/allproperties')}>All Properties</button>
                 </>
               )}
             </div>

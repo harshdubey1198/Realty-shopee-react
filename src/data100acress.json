@@ -65,9 +65,7 @@
             ],
             "meta_description": "Godrej Meridien at Sector 106 Gurgaon offered 2, 3, 4 BHK Luxury Flats. Schedule Site Visit for Free.",
             "meta_title": "Godrej Meridien in Sector 106, Gurgaon - Property in Gurgaon",
-            "Amenities": [
-                "Modern","Amenities"
-            ],
+            "Amenities": ["Car Parking","Swimming Pool","Waiting Lounge","Elevator Lobby"            ],
             "projectBgContent": "Godrej Meridien Sector 106 Gurgaon",
             "projectReraNo": "05/2018",
             "type": "Residential Apartments",
@@ -403,100 +401,7 @@
             "__v": 0,
             "highlight": []
         },
-        {
-            "frontImage": {
-                "public_id": "100acre/project/egbvwv1vvabg7i7ockn3",
-                "url": "https://res.cloudinary.com/dm5yrsqdc/image/upload/v1707815269/100acre/project/egbvwv1vvabg7i7ockn3.jpg"
-            },
-            "logo": {
-                "public_id": "100acre/project/opkz9alqvdwe7msfpkrm",
-                "url": "https://res.cloudinary.com/dm5yrsqdc/image/upload/v1707815267/100acre/project/opkz9alqvdwe7msfpkrm.jpg"
-            },
-            "project_locationImage": {
-                "public_id": "100acre/project/pjskuejek7s3gdbycbgz",
-                "url": "https://res.cloudinary.com/dm5yrsqdc/image/upload/v1707815271/100acre/project/pjskuejek7s3gdbycbgz.jpg"
-            },
-            "projectGallery": [],
-            "_id": "65cb316f85f095b072e2f955",
-            "project_floorplan_Image": [
-                {
-                    "public_id": "100acre/project/aqkxunyfxt4x6mwiwvw1",
-                    "url": "https://res.cloudinary.com/dm5yrsqdc/image/upload/v1707815273/100acre/project/aqkxunyfxt4x6mwiwvw1.jpg"
-                },
-                {
-                    "public_id": "100acre/project/xwn8kq56gjhj6zbhe7oa",
-                    "url": "https://res.cloudinary.com/dm5yrsqdc/image/upload/v1707815275/100acre/project/xwn8kq56gjhj6zbhe7oa.jpg"
-                },
-                {
-                    "public_id": "100acre/project/mmv3mwyoyci7tuejxxbx",
-                    "url": "https://res.cloudinary.com/dm5yrsqdc/image/upload/v1707815277/100acre/project/mmv3mwyoyci7tuejxxbx.jpg"
-                },
-                {
-                    "public_id": "100acre/project/tpifecsb4j58hkdlky4t",
-                    "url": "https://res.cloudinary.com/dm5yrsqdc/image/upload/v1707815279/100acre/project/tpifecsb4j58hkdlky4t.jpg"
-                }
-            ],
-            "state": "Haryana",
-            "projectName": "Adani Samsara Vilasa",
-            "projectAddress": "Sector 63",
-            "project_discripation": "Are you looking for 3 & 4 BHK residences in an ultra-luxurious project in Gurgaon? Adani Realty and Brahma Group come together to create your dream home, 3 & 4 BHK Luxury Apartments in sector 63, Golf Course Extension Road, Gurgaon. Expect more luxury here, as we offer infinite spaces with exquisite designs. This low-rise and low-density residential project offers luxurious 3 & 4 BHK independent floors in Gurgaon with lavish specifications. This carefully designed residency ensures privacy when you need it and offers a vibrant social life when you want it. You will always want to come home to the intricately created interiors",
-            "projectRedefine_Connectivity": [
-                "Senapati,Prataprao,Gurjar,Marg,,Gurgaon"
-            ],
-            "projectRedefine_Entertainment": [
-                "Omax,Mall"
-            ],
-            "projectRedefine_Business": [
-                "Paras,Trinity,Commercial,Centre"
-            ],
-            "projectRedefine_Education": [
-                "Heritage,Xperiential,Learning,School"
-            ],
-            "meta_description": "Adani Samsara Vilasa 2.0 by Adani Realty & Brahma Group offers luxurious 3 & 4 BHK Independent Floors in Sector 63, Golf Course Extension Road, Gurgaon",
-            "meta_title": "Adani Samsara Vilasa - Independent Floors in Sector 63 Gurgaon",
-            "Amenities": [
-                "Car","Parking","Facility"
-            ],
-            "projectBgContent": "Adani Samsara Vilasa - Luxurious 3 & 4 BHK Independent Floors",
-            "projectReraNo": "Applied",
-            "type": "Independent Floors",
-            "city": "Gurgaon",
-            "builderName": "Adani Realty",
-            "AboutDeveloper": "Let’s walk down the memory lane and relive those glorious moments that have shaped the path of Adani Realty. A little over a decade old, our road is filled with a lot of memories that speak about our endeavours to become better with each passing day. Take a look at Adani Realty’s journey through these milestones.",
-            "projectOverview": "none",
-            "schema_type": "project",
-            "project_url": "adani-samsara-vilasa",
-            "BhK_Details": [
-                {
-                    "bhk_type": "3 BHK + Powder",
-                    "price": "Call for Price",
-                    "bhk_Area": "1628 SQ.FT.\t",
-                    "_id": "65cb319285f095b072e2fa42"
-                },
-                {
-                    "bhk_type": "3 BHK + Powder + Utility",
-                    "price": "Call for Price",
-                    "bhk_Area": "1676 SQ.FT.\t",
-                    "_id": "65cb31a685f095b072e2fa46"
-                },
-                {
-                    "bhk_type": "4 BHK + LOUNGE + POWDER + UTILITY",
-                    "price": "Call for Price",
-                    "bhk_Area": "2233 SQ.FT.\t",
-                    "_id": "65cb31b785f095b072e2fa4b"
-                },
-                {
-                    "bhk_type": "4 BHK + POWDER + UTILITY + PUJA",
-                    "price": "Call for Price",
-                    "bhk_Area": "1861 SQ.FT.\t",
-                    "_id": "65cb31c685f095b072e2fa51"
-                }
-            ],
-            "createdAt": "2024-02-13T09:07:59.727Z",
-            "updatedAt": "2024-03-01T07:08:53.886Z",
-            "__v": 0,
-            "highlight": []
-        },
+        
         {
             "frontImage": {
                 "public_id": "100acre/project/mtlizfuxbvrvnncgyzoe",
@@ -1037,7 +942,7 @@
                 "Badminton courts",
                 "Cricket pitch",
                 "Tennis courts",
-                "Kid's play area",
+                  "kids play area",
                 "Shuttle service",
                 "Shopping arcades & local SCO markets"
             ],
@@ -1102,7 +1007,7 @@
                 "Fountain",
                 "Cricket Pitch",
                 "Multipurpose Court",
-                "Amphitheatre",
+                 
                 "Basketball Court",
                 "Badminton Court"
             ],
@@ -1130,78 +1035,6 @@
                 }
             ],
             "createdAt": "2024-02-14T09:09:39.937Z",
-            "updatedAt": "2024-03-01T07:08:53.886Z",
-            "__v": 0,
-            "highlight": []
-        },
-        {
-            "frontImage": {
-                "public_id": "100acre/project/evbm488mks8y7zjnsztr",
-                "url": "https://res.cloudinary.com/dm5yrsqdc/image/upload/v1707904776/100acre/project/evbm488mks8y7zjnsztr.jpg"
-            },
-            "logo": {
-                "public_id": "100acre/project/jbg4cs473nwzq4kustmj",
-                "url": "https://res.cloudinary.com/dm5yrsqdc/image/upload/v1707904774/100acre/project/jbg4cs473nwzq4kustmj.jpg"
-            },
-            "project_locationImage": {
-                "public_id": "100acre/project/nhhswzcbtewwbsu5emif",
-                "url": "https://res.cloudinary.com/dm5yrsqdc/image/upload/v1707904778/100acre/project/nhhswzcbtewwbsu5emif.jpg"
-            },
-            "projectGallery": [],
-            "_id": "65cc8f0d0adda493de017ae0",
-            "project_floorplan_Image": [
-                {
-                    "public_id": "100acre/project/dnt1s5wptf8azam6nohv",
-                    "url": "https://res.cloudinary.com/dm5yrsqdc/image/upload/v1707904781/100acre/project/dnt1s5wptf8azam6nohv.jpg"
-                }
-            ],
-            "state": "Haryana",
-            "projectName": "Adani Samsara Avasa",
-            "projectAddress": "Sector 63",
-            "project_discripation": "Samsara Avasa offers low-rise, independent 4 BHK residences with a choice of private and common terraces spread across 4 storeys with stilt parking facility. This gated community comes with 24/7 security, CCTV surveillance for a well-guarded and secured living. With the added goodness of a close-knit community and the perks of low-density occupancy, Adani Samsara Avasa is as exclusive as it can get.",
-            "projectRedefine_Connectivity": [
-                "Badshahpur,Sohna,Highway,-,8.8,Km"
-            ],
-            "projectRedefine_Entertainment": [
-                "World,Mark,Gurgaon,-,3.1,Km"
-            ],
-            "projectRedefine_Business": [
-                "Adani,Samsara,Avasa"
-            ],
-            "projectRedefine_Education": [
-                "Scottish,High,International,School,-,3.2,Km"
-            ],
-            "meta_description": "Adani Samsara Avasa offers low-rise independent 4 BHK residences with a choice of private and common terraces spread across 4 storeys with stilt parking facility",
-            "meta_title": "Adani Samsara Avasa - 4 BHK Floors in Sector 63 Gurgaon",
-            "Amenities": [
-                "Swimming Pool",
-                "School",
-                "Restaurant",
-                "Spa",
-                "Skating Rink",
-                "Theatre",
-                "Pool Table",
-                "Billiards",
-                "Shopping Centre"
-            ],
-            "projectBgContent": "Adani Samsara Avasa - Exclusive 4 BHK Independent Floors in Gurgaon",
-            "projectReraNo": "Applied",
-            "type": "Residential Property",
-            "city": "Gurgaon",
-            "builderName": "Adani",
-            "AboutDeveloper": "Let’s walk down the memory lane and relive those glorious moments that have shaped the path of Adani Realty. A little over a decade old, our road is filled with a lot of memories that speak about our endeavours to become better with each passing day. Take a look at Adani Realty’s journey through these milestones.",
-            "projectOverview": "none",
-            "schema_type": "project",
-            "project_url": "adani-samsara-avasa",
-            "BhK_Details": [
-                {
-                    "bhk_type": "4 BHK",
-                    "price": "Call for Price",
-                    "bhk_Area": "1361 - 2089 SQ.FT.\t",
-                    "_id": "65cc8f300adda493de017c0e"
-                }
-            ],
-            "createdAt": "2024-02-14T09:59:41.743Z",
             "updatedAt": "2024-03-01T07:08:53.886Z",
             "__v": 0,
             "highlight": []
@@ -1522,7 +1355,7 @@
             "meta_description": "Mahindra Luminare is a Ready to Move Property offering a Great 3, 4, 5 BHK in Sector 59, Mahindra Luminare Gurgaon with more amenities.",
             "meta_title": "Mahindra Luminare Gurgaon, Ready to Move Apartment at Sector 59",
             "Amenities": [
-                "Gym","Restaurant","Kids play area","Parking","Club House","Power backup","Spa","Swimming pool","Tennis court","Security","Squash court","AV room","Double glazed windows","Elevator","Encircle balconies",           "Amphitheater","Badminton court","Bar","CCTV","Gazebo"
+                "Gym","Restaurant","Kids play area","Parking","Club House","Power backup","Spa","Swimming pool","Tennis court","Security","Squash court", "Double glazed windows","Elevator","Encircle balconies",           "Amphitheater","Badminton court","Bar","CCTV","Gazebo"
             ],
             "projectBgContent": "Mahindra Luminare Sector 59 Gurgaon",
             "projectReraNo": "Applied",
@@ -1868,14 +1701,11 @@
                 "Golf Course",
                 "Kids Pool",
                 "Sniffer Dog",
-                "Sqash Court",
+                "Squash Court",
                 "Cafeteria",
-                "4 Tier Security",
                 "Gym",
                 "Club House",
-                "Spa",
-                "Bike Patrolling Squad",
-                "Cricket"
+                "Spa"
             ],
             "projectBgContent": "BPTP Sector 37D Gurgaon",
             "projectReraNo": "Applied",
@@ -2033,8 +1863,8 @@
                 "Car Parking",
                 "Double Height Lobbies",
                 "Extravagance Clubhouse",
-                "Half-Olympic Size Pool",
-                "Premium Interiors",
+                 
+                  
                 "Central Green",
                 "Low Dense Project",
                 "VRV Air-Conditioning",
@@ -2176,14 +2006,14 @@
                 "Low Dense Project",
                 "Central Green",
                 "Spacious Layouts",
-                "Premium Interiors",
-                "Premium Interiors",
+                  
+                  
                 "Spacious Decks",
-                "Half-Olympic Size Pool",
+                 
                 "Extravagance Clubhouse",
                 "4 to a core unit",
                 "Multiple Sports Amenities",
-                "Multi-tier Security System",
+                  
                 "VRV Air-Conditioning"
             ],
             "projectBgContent": "Trinity Infratech Sector 88B Gurgaon",
@@ -2325,18 +2155,15 @@
             "meta_description": "M3M Mansion, where luxury meets nature's embrace. Inspired by golf, these opulent residences in the heart of Smart City Delhi Airport",
             "meta_title": "M3M Mansion Sector 113 Gurgaon | Ultra Luxury Apartments",
             "Amenities": [
-                "Amphitheatre",
+                 
                 "Cafeteria",
                 "Private Elevator Lobby",
                 "Restaurant",
-                "Kids' Play Zone",
+                "Kids Play Area",
                 "Badminton Court",
                 "Park",
-                "Gym",
-                "AV Room",
-                "Half-Olympic Size Pool",
-                "Premium Interiors",
-                "Multi-tier Security System"
+                "Gym"
+                 
             ],
             "projectBgContent": "M3M Golf Estate SCDA - M3M Capital Phase 2 Sector 113 Gurgaon",
             "projectReraNo": "Applied",
@@ -2742,7 +2569,7 @@
             "meta_description": "Max Estates Sector 36A Gurgaon is a newly launched residential housing development project in Gurgaon. Offering 2/3/4 BHK luxury flats",
             "meta_title": "Max Estates Sector 36A - Project In Gurgaon",
             "Amenities": [
-                "Cricket","Park","Swimming Pool","Badminton","Sniffer Dog","Bike Patrolling Squad","Kids Play Area","Chess","Grocery Store","Kids Train","Park","Bowling Alley"
+                "Park","Swimming Pool","Badminton","Sniffer Dog","Kids Play Area","Chess","Grocery Store","Kids Train","Park","Bowling Alley"
             ],
             "projectBgContent": "Max Estates Sector 36A - Dwarka Expressway, Gurgaon",
             "projectReraNo": "Applied",
@@ -3708,8 +3535,8 @@
             "meta_description": "Golf Island in Dwarka is Ultra Luxury 4 BHK Apartment located in Sector 19B Dwarka in Delhi. Premium Golf Course Apartments in Delhi by one of best developer in india",
             "meta_title": "Golf Island Delhi, 4 BHK Luxury FLats in Sector 19B Dwarka",
             "Amenities": [
-                "Amphitheatre",
-                "Kids' Play Area",
+                 
+                  "kids Play Area",
                 "Reflexology Path",
                 "Lounge Pool",
                 "Jogging & Walking Track",
@@ -4207,9 +4034,9 @@
                 "AC",
                 "Grade A Building",
                 "Restaurant",
-                "Amphitheatre",
+                 
                 "24x7 Security",
-                "24/7 Power Backup",
+                "24x7 Power Backup",
                 "Landscape Garden",
                 "Car Parking",
                 "Open Space"
@@ -4383,7 +4210,7 @@
                 "Gym",
                 "Multipurpose Hall",
                 "Party Terrace",
-                "Kid's Play Area",
+                  "kids Play Area",
                 "Jogging Track",
                 "Swimming Pool",
                 "Elle Spa and Saloon"
@@ -4817,7 +4644,7 @@
             "meta_title": "Ashiana Amarah in Sector 93, Gurgaon - New Projects",
             "Amenities": [
                 "Gymnasium",
-                "Swimming Pool","Gymnasium","Party Hall","Kids' Play Areas","Power Backup","24 x 7 Security","Clubhouse","24*7 Water Supply","Basketball","Restaurant","Park / Central Green","Yoga Areas"
+                "Swimming Pool","Gymnasium","Party Hall",  "kids Play Areas","Power Backup","24 x 7 Security","Clubhouse","24*7 Water Supply","Basketball","Restaurant","Park / Central Green","Yoga Areas"
             ],
             "projectBgContent": "ASHIANA AMARAH At Sector 93, Gurgaon First kids centric homes by ashaina",
             "projectReraNo": "Applied",
@@ -5876,8 +5703,8 @@
             "meta_title": "Pyramid Grand Vista - SCO Plots in Sector 73 Gurgaon",
             "Amenities": [
                 "Arrival Plaza",
-                "Amphitheatre",
-                "24/7 Power Backup",
+                 
+                "24x7 Power Backup",
                 "Landscape Garden",
                 "Car Parking",
                 "Open Space"
@@ -6158,7 +5985,7 @@
             "meta_title": "Trump Towers Delhi NCR | Trump Towers Gurgaon Sector 65",
             "Amenities": [
                 "Cafe, Restaurant & Bar",
-                "Infinity Swimming Pool",
+                "Swimming Pool",
                 "Fitness Center",
                 "Private Entertainment Terrace",
                 "Art Gallery",
@@ -6872,18 +6699,7 @@
             "meta_description": "BPTP Green Oaks area is filled with beautiful landscaped greens and water bodies that are great to provide you with the best of picturesque views",
             "meta_title": "BPTP Green Oaks Sector 70A Gurgaon - Deen Dayal Plots in Gurgaon",
             "Amenities": [
-                "Sculptural Rocks",
-                "Grand Waiting Longue",
-                "Multi Purpose Hall",
-                "Zumba/Yoga Room",
-                "Indoor Games",
-                "Indoor Pool",
-                "Outdoor Workstation",
-                "Tree Adoption Area",
-                "Benches Design Along Trees",
-                "Outdoor Meeting Kiosks",
-                "Sculptural Rocks",
-                "Reading Room"
+                "Indoor Games","Open Gym","Kids Play Area", "Swimming Pool", "Park","24x7 Power Backup"
             ],
             "projectBgContent": "BPTP Green Oaks - Deen Dayal Plots in Gurgaon",
             "projectReraNo": "GGM/503/235/2021/71 Dated 27.10.2021",
@@ -7035,7 +6851,7 @@
             "meta_description": "BPTP Fortuna is a luxurious residential concept where modern bliss sits in the lap of nature, inside a meticulously-planned 113-acre township",
             "meta_title": "BPTP Fortuna - Plots in Sector 70A Gurgaon",
             "Amenities": [
-                "Open Gym","Children's Play Area", "Swimming Pool", "Landscaped Garden","Cycling", " Jogging Track"
+                "Open Gym","Kids Play Area", "Swimming Pool", "Park","Badminton Court", "Jogging Track"
             ],
             "projectBgContent": "BPTP Fortuna - Plots in Sector 70A Gurgaon",
             "projectReraNo": "RC/REP/HARERA/GGM/487/219/2021/55",
@@ -7261,7 +7077,6 @@
                 ,"Power backup"
                 ,"Basketball"
                 ,"Children play area"
-                ,"Cricket"
             ],
             "projectBgContent": "Signature Deluxe DXP - Sector 37D Gurgaon",
             "projectReraNo": "RC/REP/HARERA/GGM/783/515/2024/10 Dated 07.02.2024",
@@ -7401,7 +7216,7 @@
             "meta_description": "4 BHK luxury apartments available in prime location at Golf Course Road, Gurgaon. Contact us for premium luxury properties",
             "meta_title": "Anantraj The Estate Residences - Sector 63A Gurgaon",
             "Amenities": [
-                "Leisure All Weather Swimming Pool","Mini Theatre","Swimming Pool","Salon","Card Room","Waiting Lounge","Spa","Squash Court","Pool Table","Cafeteria"
+               "Mini Theatre","Swimming Pool","Salon","Card Room","Waiting Lounge","Spa","Squash Court","Pool Table","Cafeteria"
             ],
             "projectBgContent": "The Estate Residences by Anant Raj Limited",
             "projectReraNo": "Applied",
@@ -7936,7 +7751,7 @@
             "meta_description": "Aarize South Drive New Launch SCO Plots by Aarize Group on Main SPR Road Next to Sohna Road Sector 69 Gurgaon.",
             "meta_title": "Aarize South Drive - SCO Plots in Sector 69 Gurgaon",
             "Amenities": [
-                "Complete Land Ownership","24/7 Power Backup"
+                "Complete Land Ownership","24x7 Power Backup"
             ],
             "projectBgContent": "Aarize South Drive - SCO Plots In Gurgaon",
             "projectReraNo": "Applied",
@@ -9097,7 +8912,7 @@
             "meta_description": "Puri The Aravallis Sector 61 Gurgaon is a Residential projects housing development by Puri Construction Offering 3 and 4 Bhk Apartment for Sale",
             "meta_title": "Puri The Aravallis - New Project in Sector 61 Gurgaon",
             "Amenities": [
-                "Car Parking","Football","Infinity Pool","Swimming Pool","Football","Jacuzzi","Cricket Pitch","Sun Deck","Lawn Tennis Court","Amphitheatre"
+                "Car Parking","Football","Infinity Pool","Swimming Pool","Football","Jacuzzi","Cricket Pitch","Sun Deck","Lawn Tennis Court"  
                 
             ],
             "projectBgContent": "Puri The Aravallis Sector 61 Gurgaon",
@@ -9477,7 +9292,7 @@
             "meta_description": "DLF The Arbour Sector 63 Gurgaon is the new launch housing project by DLF India. The project offers 4 BHK ultra-luxury apartments at Sector 63 Gurgaon",
             "meta_title": "DLF The Arbour - Luxury Residences in Sector 63 Gurgaon",
             "Amenities": [
-                "Car Parking","Equipped Gym", "Spa & Salon","Gated Secured Community","Luxury Club House","Infinity Edge Swimming Pool","Double Height Managed Lobbies","Professional Maintenance","Landscaped Greens","Kids Play Area"
+                "Car Parking","Equipped Gym", "Spa & Salon","Gated Secured Community","Luxury Club House","Swimming Pool","Double Height Managed Lobbies","Professional Maintenance","Landscaped Greens","Kids Play Area"
             ],
             "projectBgContent": "DLF The Arbour - Luxury Residences in Sector 63 Gurgaon",
             "projectReraNo": "RC/REP/HARERA/GGM/671/403/2023/15",
@@ -9592,7 +9407,7 @@
             "meta_description": "DLF Gardencity Central - DLF SCO 84 Plots in Gurgaon",
             "meta_title": "DLF Gardencity Central - DLF SCO 84 Plots in Gurgaon",
             "Amenities": [
-                "Car Parking","Equipped Gym", "Spa & Salon","Gated Secured Community","Luxury Club House","Infinity Edge Swimming Pool","Double Height Managed Lobbies","Professional Maintenance","Landscaped Greens","Kids Play Area"
+                "Car Parking","Equipped Gym", "Spa & Salon","Gated Secured Community","Luxury Club House","Swimming Pool","Double Height Managed Lobbies","Professional Maintenance","Landscaped Greens","Kids Play Area"
             ],
             "projectBgContent": "DLF Gardencity Central - DLF SCO 84 in Sector 84 Gurgaon",
             "projectReraNo": "RC/REP/HARERA/GGM/512/244/2021/80",
@@ -9731,7 +9546,7 @@
             "meta_description": "DLF Arcade 68 - DLF SCO Sector 68 Sohna Raod Gurgaon",
             "meta_title": "DLF Arcade 68 - DLF SCO Sector 68 Sohna Raod Gurgaon",
             "Amenities": [
-                "Car Parking","Equipped Gym", "Spa & Salon","Gated Secured Community","Luxury Club House","Infinity Edge Swimming Pool","Double Height Managed Lobbies","Professional Maintenance","Landscaped Greens","Kids Play Area"
+                "Car Parking","Equipped Gym", "Spa & Salon","Gated Secured Community","Luxury Club House","Swimming Pool","Double Height Managed Lobbies","Professional Maintenance","Landscaped Greens","Kids Play Area"
             ],
             "projectBgContent": "DLF Arcade 68 - SCO Plots in Sector 68 Gurgaon",
             "projectReraNo": "Applied",
@@ -9856,7 +9671,7 @@
             "meta_description": "DLF Central 67 - DLF New SCO Plots Sector 67 Gurgaon",
             "meta_title": "DLF Central 67 - DLF New SCO Plots Sector 67 Gurgaon",
             "Amenities": [
-                "Car Parking","Equipped Gym", "Spa & Salon","Gated Secured Community","Luxury Club House","Infinity Edge Swimming Pool","Double Height Managed Lobbies","Professional Maintenance","Landscaped Greens","Kids Play Area"
+                "Car Parking","Equipped Gym", "Spa & Salon","Gated Secured Community","Luxury Club House","Swimming Pool","Double Height Managed Lobbies","Professional Maintenance","Landscaped Greens","Kids Play Area"
             ],
             "projectBgContent": "DLF Central 67 - Introducing Grade-A SCO Plots in Sector 67, Gurgaon",
             "projectReraNo": "RC/REP/HARERA/GGM/768/500/2023/112",
@@ -11998,7 +11813,7 @@
             "meta_description": "Ambience Creacions in Sector 22, Gurgaon is a ready-to-move housing society. It offers apartments and villas in varied budget range",
             "meta_title": "Ambience Creacions, Luxury Apartments at Sector 22 Gurgaon",
             "Amenities": [
-                "Majestic Clubhouse","Arrival Court","Basement Ramp","Tennis Court","Children Play Area","Party Lawn, Coffee Deck","Pool Area","Skating Rink","Sitting Pavilion"
+                "CCTV Camera Security","Car Parking","Elevator Lobby","Badminton Court","Kids Play Area","Waiting Lounge","Meditation Area","Yoga Room","Basketball Court"
             ],
             "projectBgContent": "Ambience Creacions Sector 22 Gurgaon",
             "projectReraNo": "Applied",
@@ -16107,12 +15922,11 @@
             "Amenities": [
                 "24x7 Power Backup",
                 "Dedicated Lifts And Escalators",
-                " Swimming Pool",
+                "Swimming Pool",
                 "Advanced Security",
                 "3 Level Car Parking",
                 "Jogging Track",
-                "Beautifully Designed Glass Facade",
-                "Surrounded By Developed Sectors"
+                "Cafeteria"
             ],
             "projectBgContent": "OMAXE DWARKA",
             "projectReraNo": "Applied",
@@ -16257,7 +16071,7 @@
             "meta_description": "MVN Aero One The Kings lifestyle on Dwarka Expressway Coming Soon at Sector 37D Gurgaon",
             "meta_title": "MVN Aero One - Sector 37D Dwarka Expressway Gurgaon",
             "Amenities": [
-                "Amphitheatre"
+                  
             ],
             "projectBgContent": "MVN MDL Aero One Dwarka Expressway Gurgaon",
             "projectReraNo": "Applied",
@@ -18370,7 +18184,7 @@
             "meta_description": "et Complete Info of Brisk 3X Crossing SCO Plots, Sector 109 Gurgaon, Download Brochure & Price List. Schedule Free Site Visit",
             "meta_title": "Brisk 3X Crossing - SCO Plots at Sector 109 Gurgaon",
             "Amenities": [
-                "Augmented Return On Investment"
+                "Shopping Centre", "24x7 Power Backup","Visitors Parking","CCTV Camera Security","Elevator Lobby"
             ],
             "projectBgContent": "Brisk 3X Crossing - SCO at Sector 109 Gurgaon",
             "projectReraNo": "77 of 2022",
@@ -18444,169 +18258,6 @@
             ],
             "createdAt": "2024-05-17T10:16:08.336Z",
             "updatedAt": "2024-05-17T11:50:37.533Z",
-            "__v": 0
-        },
-        {
-            "frontImage": {
-                "public_id": "100acre/project/grzgtfunyo3fbddn5sxu",
-                "url": "https://res.cloudinary.com/dm5yrsqdc/image/upload/v1716029301/100acre/project/grzgtfunyo3fbddn5sxu.jpg"
-            },
-            "logo": {
-                "public_id": "100acre/project/ufdchi9dqnq7ga23rimu",
-                "url": "https://res.cloudinary.com/dm5yrsqdc/image/upload/v1716029300/100acre/project/ufdchi9dqnq7ga23rimu.png"
-            },
-            "project_locationImage": {
-                "public_id": "100acre/project/trktwdtjgrk9hw6w1bjo",
-                "url": "https://res.cloudinary.com/dm5yrsqdc/image/upload/v1716029302/100acre/project/trktwdtjgrk9hw6w1bjo.png"
-            },
-            "highlightImage": {
-                "public_id": "100acre/project/y7kguq1hlgdpvccf6xta",
-                "url": "https://res.cloudinary.com/dm5yrsqdc/image/upload/v1716029306/100acre/project/y7kguq1hlgdpvccf6xta.jpg"
-            },
-            "projectMaster_plan": {
-                "public_id": "100acre/project/nnxcagzfcwp9f1nty1em",
-                "url": "http://res.cloudinary.com/dm5yrsqdc/image/upload/v1716029310/100acre/project/nnxcagzfcwp9f1nty1em.jpg"
-            },
-            "_id": "6648877e54a1abc22789b6cc",
-            "project_floorplan_Image": [
-                {
-                    "public_id": "100acre/project/k2fgxpsnfbhokfsnngua",
-                    "url": "https://res.cloudinary.com/dm5yrsqdc/image/upload/v1716029303/100acre/project/k2fgxpsnfbhokfsnngua.jpg"
-                },
-                {
-                    "public_id": "100acre/project/lnqfcbm20qnxqgffg5oj",
-                    "url": "https://res.cloudinary.com/dm5yrsqdc/image/upload/v1716029304/100acre/project/lnqfcbm20qnxqgffg5oj.jpg"
-                },
-                {
-                    "public_id": "100acre/project/tsxgdn3ptjgoz6hhgleq",
-                    "url": "https://res.cloudinary.com/dm5yrsqdc/image/upload/v1716029304/100acre/project/tsxgdn3ptjgoz6hhgleq.jpg"
-                },
-                {
-                    "public_id": "100acre/project/qmw8gfgik0gtyg2e2skw",
-                    "url": "https://res.cloudinary.com/dm5yrsqdc/image/upload/v1716029305/100acre/project/qmw8gfgik0gtyg2e2skw.jpg"
-                }
-            ],
-            "state": "Haryana",
-            "projectName": "Birla Navya",
-            "projectAddress": "Sector 63A, Southern Peripheral Road",
-            "project_discripation": "Presenting premium floor residences at Birla Navya, plush with stunning interiors and world-class lifestyle amenities, that offer everything you could possibly wish for from your home, and a whole lot more. All of this is in a charming, gated community with multi-tier security and unparalleled views.\r\n\r\nLife at Birla Navya Gurgaon is meticulously perfected to indulge in world-class amenities. The thoughtful design makes it a great option for recreation or exhilarating sports, for you and your family. Each detail is designed around your experiences with family and like-minded community.",
-            "projectRedefine_Connectivity": [
-                "The project is conveniently situated on the Golf Course Extn. Road in Sector 63A, Gurgaon which makes it easily accessible."
-            ],
-            "projectRedefine_Entertainment": [
-                "Pratiksha Hospital, Artemis Hospital and Indira Gandhi Eye Hospital are located close to the project."
-            ],
-            "projectRedefine_Business": [
-                "Heritage Xperential Learning School, DPS International Edge and The HDFC School are in close immediacy to Birla Estates Navya Gurgaon."
-            ],
-            "projectRedefine_Education": [
-                "The Indira Gandhi International Airport is just 35 minutes’ drive away from this luxury residential property in Gurgaon."
-            ],
-            "meta_description": "Birla Estates Launch Birla Navya 2/3/4 BHK New Low Rise Floors on Premium Location Golf Course Extn Road Sector 63A Gurgaon. with Multi Tier Security",
-            "meta_title": "Birla Navya - Birla Estates Luxury Floors in Sector 63A Gurgaon",
-            "Amenities": [
-                "MOVIE SCREENING WALL",
-                "CRICKET\nPITCH",
-                "ROCK\nCLIMBING",
-                "PET\nPARK",
-                "HALF\nBASKETBALL COURT",
-                "AMPHITHEATRE",
-                "WELLNESS\nGARDEN",
-                "LILY\nPOND",
-                "LANDSCAPED\nGREENS",
-                "MINI\nSOCCER",
-                "FITNESS\nSTATIONS",
-                "SKATING\nRINK",
-                "CENTRAL GREENS\nWITH MEDITATION PAVILION",
-                "FOREST\nTRAI",
-                "BADMINTON\nCOURT"
-            ],
-            "projectBgContent": "Premium Floor Residences at Birla Navya Gurgaon",
-            "projectReraNo": "RC/REP/HARERA/GGM/390/122/2020/06",
-            "type": "Builder Floors",
-            "city": "Gurgaon",
-            "builderName": "Birla Estates",
-            "AboutDeveloper": "Birla Estates Private Limited, a 100 per cent wholly owned subsidiary of Century Textiles and Industries Limited (presence in real estate, textiles and pulp & paper) is the real estate venture of the Aditya Birla Group.",
-            "projectOverview": "none",
-            "project_Status": "underconstruction",
-            "schema_type": "project",
-            "project_url": "birla-navya",
-            "projectGallery": [
-                {
-                    "public_id": "100acre/project/sewgllttrpgjtcwtwfjm",
-                    "url": "https://res.cloudinary.com/dm5yrsqdc/image/upload/v1716029307/100acre/project/sewgllttrpgjtcwtwfjm.jpg"
-                },
-                {
-                    "public_id": "100acre/project/nlrvdxph6irbawihuz9b",
-                    "url": "https://res.cloudinary.com/dm5yrsqdc/image/upload/v1716029308/100acre/project/nlrvdxph6irbawihuz9b.jpg"
-                },
-                {
-                    "public_id": "100acre/project/xdkq9ss6foqofhypfsnb",
-                    "url": "https://res.cloudinary.com/dm5yrsqdc/image/upload/v1716029309/100acre/project/xdkq9ss6foqofhypfsnb.jpg"
-                }
-            ],
-            "BhK_Details": [
-                {
-                    "bhk_type": "2 BHK",
-                    "price": "Call for Price",
-                    "bhk_Area": "212 SQ.YD",
-                    "_id": "6648894454a1abc22789bd41"
-                },
-                {
-                    "bhk_type": "3 BHK",
-                    "price": "Call for Price",
-                    "bhk_Area": "299 SQ.YD",
-                    "_id": "6648895654a1abc22789bd45"
-                },
-                {
-                    "bhk_type": "3 BHK + UT",
-                    "price": "Call for Price",
-                    "bhk_Area": "348 SQ.YD",
-                    "_id": "6648897054a1abc22789bd4a"
-                },
-                {
-                    "bhk_type": "4 BHK",
-                    "price": "Call for Price",
-                    "bhk_Area": "481 SQ.YD",
-                    "_id": "6648897f54a1abc22789bd50"
-                }
-            ],
-            "highlight": [
-                {
-                    "highlight_Point": "The magnificent Clubhouse at Birla Navya built up in Approx. 1, 50,000 Sq. Ft. and is bursting with ultra-modern amenities.",
-                    "_id": "664889c054a1abc22789bd74"
-                },
-                {
-                    "highlight_Point": "The impressive club house has it all from fitness to integrated work spaces.",
-                    "_id": "664889c854a1abc22789bd90"
-                },
-                {
-                    "highlight_Point": "A gym with hi-tech equipment is built for those fitness lovers who want to maintain a healthy lifestyle.",
-                    "_id": "664889d054a1abc22789bd99"
-                },
-                {
-                    "highlight_Point": "A Medicare clinic with first aid facility is also available which can be used at the time of medical emergencies.",
-                    "_id": "664889d854a1abc22789bda3"
-                },
-                {
-                    "highlight_Point": "A serene yoga room and meditation building has been built at the Birla Estate Navya club where you can search food for your soul.",
-                    "_id": "664889e054a1abc22789bdae"
-                },
-                {
-                    "highlight_Point": "Reflexology paths to help you relieve stress and encourage healthy mind and body have been also built.",
-                    "_id": "664889e854a1abc22789bdba"
-                },
-                {
-                    "highlight_Point": "Now celebrate various family events and parties at the Banquet hall built at Birla Estates Navya Gurgaon.",
-                    "_id": "664889f054a1abc22789bdc7"
-                },
-                {
-                    "highlight_Point": "If you have a pet and it doesn’t seem too healthy, visit the pet care clinic within the community to ensure welfare of the pets.",
-                    "_id": "664889f854a1abc22789bdd5"
-                }
-            ],
-            "createdAt": "2024-05-18T10:48:30.950Z",
-            "updatedAt": "2024-05-18T10:59:04.169Z",
             "__v": 0
         },
         {
@@ -19034,7 +18685,7 @@
             "meta_description": "Ganga Realty Fusion 85 in Sector 85, New Launch in Sector 85 Gurgaon",
             "meta_title": "Ganga Realty Fusion 85 in Sector 85, New Launch in Sector 85 Gurgaon",
             "Amenities": [
-                "Car Parking","Golf Course","Swimming Pool","Multipurpose Court","Bike Patrolling Squad","Vaastu Compliant","Cricket","Gym","Kids Pool","4 Tier Security"
+                "Car Parking","Golf Course","Swimming Pool","Multipurpose Court","Vaastu Compliant","Gym","Kids Pool"
             ],
             "projectBgContent": "Ganga Realty Sector 85 Gurgaon - New Launch",
             "projectReraNo": "Applied",
@@ -19194,13 +18845,12 @@
             "meta_title": "Omaxe State Dwarka Delhi - Commercial Property in Sector 19B New Delhi",
             "Amenities": [
                 "24x7 Power Backup",
-                "Dedicated Lifts And Escalators",
-                " Swimming Pool",
+                "Elevator Lobby",
+                "Swimming Pool",
                 "Advanced Security",
                 "3 Level Car Parking",
                 "Jogging Track",
-                "Beautifully Designed Glass Facade",
-                "Surrounded By Developed Sectors"
+                "Cafeteria"
             ],
             "projectBgContent": "OMAXE DWARKA",
             "projectReraNo": "Applied",
@@ -19356,12 +19006,11 @@
             "Amenities": [
                 "24x7 Power Backup",
                 "Dedicated Lifts And Escalators",
-                " Swimming Pool",
+                "Swimming Pool",
                 "Advanced Security",
                 "3 Level Car Parking",
                 "Jogging Track",
-                "Beautifully Designed Glass Facade",
-                "Surrounded By Developed Sectors"
+                "Cafeteria"
             ],
             "projectBgContent": "SS Whitewater",
             "projectReraNo": "Applied",
