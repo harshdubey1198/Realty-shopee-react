@@ -340,6 +340,26 @@ a {
   top: 35%;
   z-index: 999;
 }
+.ptype-select{
+  position: absolute;
+  right: 5px;
+  padding: 10px;
+  font-size: 12px;
+  font-weight: 600;
+  border: none;
+  outline: none;
+  border-radius: 10px;
+  cursor: pointer;
+  border-left: 2px solid #7878785f;
+  border-top-left-radius: 0;
+  border-bottom-left-radius: 0;
+  option{
+    color: rgb(0, 46, 107);
+    font-weight: 600;
+    padding: 10px !important;
+    border-radius: 0 !important;
+  }
+}
 .gtc-search{
   width: 30vw;
   margin-top: 80px;
@@ -347,11 +367,11 @@ a {
   position: relative;
   justify-content: center;
   border-radius: 20px;
+  overflow: hidden;
   height: 100%;
-  
   border:3px solid #7878785f;
-  
-}
+  }
+
 .gtc-search input{
   width: 100%;
   border: none;
@@ -1384,6 +1404,44 @@ overlay css */
 }
 }
 
+.midinfo-main{
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+  height: 400px;
+}
+.midinfo-img{
+  width: 40%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 0 20px;
+  img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    animation: 2.3s ease-in-out slidingImg;
+  }
+}
+
+option{
+  font-size: 12px !important;
+}
+@keyframes slidingImg{
+  0%{
+    transform: translateX(-100px) translateY(-100px);
+    opacity: 0.4;
+  }
+  100%{
+    transform: translateX(0px);
+} 
+}
+.midinfo-div{
+  width: 40%;
+  h2{
+    text-align: center;
+  }
+}
 @media screen and (min-width: 400px) and (max-width: 1000px){
   .pd-p3 div ul {
     display: grid;

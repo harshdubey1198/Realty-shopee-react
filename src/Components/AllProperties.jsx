@@ -8,6 +8,7 @@ import '../App.css';
 function AllProperties() {
   const projects = projectData.data || [];
   const [searchQuery, setSearchQuery] = useState('');
+  const [selectedType, setSelectedType] = useState('All');
 
   const navigate = useNavigate();
   const handleHomeClick = () => {
@@ -20,6 +21,14 @@ function AllProperties() {
     navigate('/addproperties');
   };
 
+  const typeMapping = {
+    "Residential": ["residential", "residential plots", "residential property", "residential flats" , "residential apartments"],
+    "Commercial": ["commercial property"],
+    "SCO": ["sco plots","deen dayal plots"],
+    "Floors": ["builder floors","independent floors"],
+    "Affordable" :["affordable homes"]
+  };
+
   const sortedProjects = projects.slice().sort((a, b) => {
     const nameA = a.projectName.toLowerCase();
     const nameB = b.projectName.toLowerCase();
@@ -28,9 +37,12 @@ function AllProperties() {
     return 0;
   });
 
-  const filteredProjects = sortedProjects.filter(project =>
-    project.projectName.toLowerCase().includes(searchQuery.toLowerCase())
-  );
+  const filteredProjects = sortedProjects.filter(project => {
+    const matchesSearchQuery = project.projectName.toLowerCase().includes(searchQuery.toLowerCase());
+    const matchesType = selectedType === 'All' || 
+      (project.type && typeMapping[selectedType]?.some(type => project.type.toLowerCase() === type.toLowerCase()));
+    return matchesSearchQuery && matchesType;
+  });
 
   return (
     <div className='al-center'>
@@ -52,6 +64,18 @@ function AllProperties() {
           onChange={(e) => setSearchQuery(e.target.value)}
           className='search-input'
         />
+        <select
+          value={selectedType}
+          onChange={(e) => setSelectedType(e.target.value)}
+          className='ptype-select'
+        >
+          <option value="All">All Types</option>
+          <option value="Residential">Residential</option>
+          <option value="Commercial">Commercial</option>
+          <option value="SCO">SCO</option>
+          <option value="Floors">Floors</option>
+          <option value="Affordable">Affordables</option>
+        </select>
       </div>
       <div className="projects-container gtc">
         {filteredProjects.length > 0 ? (

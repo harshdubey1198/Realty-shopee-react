@@ -19211,22 +19211,22 @@
             "frontImage": {
               "url": "https://res.cloudinary.com/dgplzytrq/image/upload/v1716625590/BPTP-Amaario/115203.BPTP-Unveils-The-Amaario_-Eyes-a-Revenue-Potential-of-Rs.-1500-Crore-in-Sector-37D_-Gurugram_ppve1k.jpg"
             },
-            "logo": {
+          "logo": {
               "public_id": "100acre/project/r40ya2h42wugr0wkgux1",
               "url": "https://res.cloudinary.com/dm5yrsqdc/image/upload/v1715601318/100acre/project/r40ya2h42wugr0wkgux1.png"
-          },
-          "project_locationImage": {
-              "public_id": "100acre/project/cyhxhs7mcjawuhtp7rda",
-              "url": "https://res.cloudinary.com/dm5yrsqdc/image/upload/v1715601288/100acre/project/cyhxhs7mcjawuhtp7rda.jpg"
-          },
-          "highlightImage": {
-              "public_id": "100acre/project/dbla5rbmnnqmqpa9jjsv",
-              "url": "https://res.cloudinary.com/dm5yrsqdc/image/upload/v1715601599/100acre/project/dbla5rbmnnqmqpa9jjsv.jpg"
-          },
-          "projectMaster_plan": {
-              "public_id": "100acre/project/khfgyucvghcjmhbrdhhe",
-              "url": "http://res.cloudinary.com/dm5yrsqdc/image/upload/v1715601383/100acre/project/khfgyucvghcjmhbrdhhe.jpg"
-          },
+            },
+            "project_locationImage": {
+                "public_id": "100acre/project/cyhxhs7mcjawuhtp7rda",
+                "url": "https://res.cloudinary.com/dm5yrsqdc/image/upload/v1715601288/100acre/project/cyhxhs7mcjawuhtp7rda.jpg"
+            },
+            "highlightImage": {
+                "public_id": "100acre/project/dbla5rbmnnqmqpa9jjsv",
+                "url": "https://res.cloudinary.com/dm5yrsqdc/image/upload/v1715601599/100acre/project/dbla5rbmnnqmqpa9jjsv.jpg"
+            },
+            "projectMaster_plan": {
+                "public_id": "100acre/project/khfgyucvghcjmhbrdhhe",
+                "url": "http://res.cloudinary.com/dm5yrsqdc/image/upload/v1715601383/100acre/project/khfgyucvghcjmhbrdhhe.jpg"
+            },
           "_id": "663752acdf6f5a16378c95a5",
           "project_floorplan_Image": [
               {
@@ -19305,6 +19305,7 @@
           "__v": 0
         
           },
+
           {
             
             "projectName": "Smart World 1 DXP",

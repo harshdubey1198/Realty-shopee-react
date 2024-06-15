@@ -11,6 +11,7 @@ import ContactUs from '../Components/ContactUs';
 import Navbar from '../Components/Navbar';
 import SocialBar from "../Components/SocialBar"
 import MidForm from '../Components/MidForm';
+import MiddleInfo from '../Components/MiddleInfo';
 
 function Home() {
   return (
@@ -19,6 +20,7 @@ function Home() {
       <SocialBar />
       <div id="home"><Banner /></div>
       <div id="trending"><Trending /></div>
+      <div id="midinfo"><MiddleInfo /></div>
       <div id="upcoming"><UpcomingProjects /></div>
       <div id="midform"><MidForm /></div>
       <div id="residential"><Residential /></div>
