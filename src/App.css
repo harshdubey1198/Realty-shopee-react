@@ -669,7 +669,8 @@ justify-content: center;
   -webkit-font-smoothing: antialiased;
 }
 .hero-title > h1 {
-  font-weight: 600;
+  font-weight: 600; 
+  /* hello commit aditi 1 */
   font-size: 3.8rem;
   line-height: 4rem;
   
