@@ -104,7 +104,6 @@ function Navbar() {
               ) : (
                 <>
                   <button onClick={() => navigate('/login')}>Login / Signup</button>
-                  <button onClick={() => navigate('/allproperties')}>All Properties</button>
                 </>
               )}
             </div>
