@@ -54,7 +54,7 @@ function Sco() {
 
       <div className="projects-container">
         {projectData.map((project, index) => (  
-        <Link key={project.projectName} to={`/projects/${project.projectName}`}>
+        <Link key={project.projectName} to={`/projects/${project.projectName}`} className='projects-c-a'>
           <ProjectsCard
             key={index}
             projectName={project.projectName}

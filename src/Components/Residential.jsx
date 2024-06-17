@@ -420,7 +420,7 @@ function Residential() {
     <h4><img src={resIcon} alt="Residential" className='section-icon'/>Residential Properties<img src={resIcon} alt="Residential" className='section-icon'/></h4>
     <div className="projects-container">
          {projectData.map((project, index) => (
-           <Link key={project.projectName} to={`/projects/${project.projectName}`}>
+           <Link key={project.projectName} to={`/projects/${project.projectName}`} className='projects-c-a'>
           <ProjectsCard
             key={index}
             projectName={project.projectName}

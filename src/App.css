@@ -67,8 +67,8 @@ nav {
 }
 
 .navigators button, .dropdown-select {
-  margin: 0 10px;
-  padding: 5px 10px;
+  margin: 3px;
+  padding: 5px 5px;
   background-color: transparent;
   border: none;
   cursor: pointer;
@@ -94,7 +94,7 @@ nav {
 
 .dropdown-select {
   background-color: none;
-  margin: 0 10px;
+  margin: 3px;
   /* padding: 10px 5px !important; */
   border-radius: 4px;
   padding: 5px;
@@ -1427,6 +1427,11 @@ overlay css */
 option{
   font-size: 12px !important;
 }
+.projects-c-a{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
 @keyframes slidingImg{
   0%{
     transform: translateX(-100px) translateY(-100px);
@@ -1451,7 +1456,25 @@ option{
     padding: 0;
 }
 }
-
+@media screen and (min-width:800px) and (max-width:1298px) {
+  .projects-container{
+    grid-template-columns: repeat(2 ,1fr);
+    display: grid;
+    gap: 5px;
+    width: 100%;
+    justify-content: space-around;
+    align-items: center;
+  }
+  .location-container{
+    grid-template-columns: repeat(2, 1fr);
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+  .location-card{
+    width: 25vw;
+  }
+}
 @media (width<951px){
   .overlay {
     .contact-form {
@@ -1929,7 +1952,7 @@ button{
   }
 }
 
-@media (width < 951px) {
+@media (width < 971px) {
   nav{
     height: 50px;
   }
