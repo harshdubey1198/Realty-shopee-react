@@ -2,8 +2,8 @@ import React, { useState } from 'react';
 import { useNavigate, useParams } from 'react-router-dom';
 
 const ResetPassword = () => {
-  const { token } = useParams(); // Use useParams to get the token parameter from the URL
-  const navigate = useNavigate(); // Use useNavigate to navigate programmatically
+  const { token } = useParams(); 
+  const navigate = useNavigate(); 
 
   const [email, setEmail] = useState('');
   const [temporaryPassword, setTemporaryPassword] = useState('');
@@ -26,7 +26,7 @@ const ResetPassword = () => {
       const data = await response.json();
       if (response.ok) {
         alert('Password reset successful. Please log in with your new password.');
-        navigate('/login'); // Navigate to login page after successful password reset
+        navigate('/login'); 
       } else {
         alert(data.message);
       }
@@ -36,10 +36,10 @@ const ResetPassword = () => {
     }
   };
 
-  return (
+return (
     <div className="reset-password-div">
       <h1>Reset Password</h1>
-      <form onSubmit={handleSubmit}>
+      <form onSubmit={handleSubmit} className='rp-form'>
         <input type="email" name="email" placeholder="Email" value={email} onChange={handleEmailChange} required />
         <input type="password" name="temporaryPassword" placeholder="Temporary Password" value={temporaryPassword} onChange={handleTemporaryPasswordChange} required />
         <input type="password" name="newPassword" placeholder="New Password" value={newPassword} onChange={handleNewPasswordChange} required />

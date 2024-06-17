@@ -726,7 +726,6 @@ justify-content: center;
   height: 40px;
   outline: none;
   text-align: center;
-  font-weight: 600;
   font-size: 1rem;
 }
 .flexhero-des{
@@ -989,7 +988,7 @@ button{
 /* login and signup */
 
 .main-login {
-  background: url('./Images/bg2.jpg');
+  background: url('https://res.cloudinary.com/dgplzytrq/image/upload/v1718629164/Background%20Images/bg2_b1iiom.jpg');
   background-size: cover;
   background-attachment: fixed;
   display: flex;
@@ -1031,6 +1030,7 @@ button{
   align-items: center;
   gap: 30px;
   width: 100%;
+  margin-bottom: 20px;
 }
 
 .login-c input, .login-c button {
@@ -1447,6 +1447,40 @@ option{
     text-align: center;
   }
 }
+
+/* reset password */
+.reset-password-div{
+  display: flex;
+  flex-direction: column;
+  height: 90vh;
+  width: 100vw;
+  justify-content: center;
+  align-items: center;
+}
+.rp-form{
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  width: 274px;
+  input{
+      width: 267px;
+      padding: 10px 0 10px 5px;
+      border-radius: 15px;
+      border: 1px solid lightgrey;
+      margin: 10px 0;
+    }
+    button{
+    padding: 10px 0 10px 5px;
+    border-radius: 15px;
+    width: 274px;
+    background: #007bff ;border: none;
+    outline: none;
+    color: white;
+    font-weight: 600;
+  }
+}
+
+
 @media screen and (min-width: 400px) and (max-width: 1000px){
   .pd-p3 div ul {
     display: grid;
@@ -1559,7 +1593,48 @@ option{
     position: relative;
     min-height: 270px;
   }
-  
+  .fp-form{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    height: 120px;
+    width: 261px;
+    input,button{ 
+      width: 267;
+      padding: 10px 0 10px 5px;
+      border-radius: 15px;
+      border: 1px solid lightgrey;
+      
+      margin: 10px 0;
+    }
+    button{
+      width: 100%;
+      background:#2a5fcb ;
+      color: white;
+      font-weight: 600;
+    }
+    button:hover{
+      background: #1c418c;
+    
+    }
+  }
+
+  .forgot-password-div {
+    background: #fff;
+    padding: 20px;
+    border-radius: 20px;
+  }
+
+  .back-to-login-link{ 
+    width: 261px;
+    padding: 10px 0 10px 5px;
+    border-radius: 15px;
+    border: 1px solid lightgrey;
+    background:#2a5fcb ;
+    color: white;
+    font-weight: 600;
+    margin: 10px 0;
+  }
   .mobile-container form {
     display: none;
     width: 100%;
@@ -1970,8 +2045,9 @@ button{
   .add-p-nav{
     display: none;
   }
-  .s-l{
-    display: none;
+  .s-l img{
+    width: 30px;
+    height: 30px;
   }
 
   /* smaller device css */
