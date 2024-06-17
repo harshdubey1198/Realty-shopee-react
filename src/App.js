@@ -11,6 +11,8 @@ import Overlay from './Components/Overlay';
 import './App.css'; 
 import AllProperties from './Components/AllProperties';
 import ContactUs from './Pages/ContactUs';
+import ForgotPassword from './Pages/ForgotPassword';
+import ResetPassword from './Pages/ResetPassword';
 
 function App() {
   const [showOverlay, setShowOverlay] = useState(false);
@@ -48,6 +50,8 @@ function App() {
             <Route path="/addproperties" element={<PrivateRoute element={<AddProject />} />} />
             <Route path="/allproperties" element={<AllProperties/>}/>
             <Route path="/contactus" element={<ContactUs />} />
+            <Route path="/forgot-password" element={<ForgotPassword/>} />
+            <Route path="/reset-password/:token" element={<ResetPassword/>} />
             <Route path="/*" element={<NotFound />} />
           </Routes>
         </div>
