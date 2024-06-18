@@ -13,6 +13,9 @@ import AllProperties from './Components/AllProperties';
 import ContactUs from './Pages/ContactUs';
 // import ForgotPassword from './Pages/ForgotPassword';
 import ResetPassword from './Pages/ResetPassword';
+import CommercialProperties from './Pages/CommercialProperties';
+import ScoProperties from './Pages/ScoPlots';
+import ResidentialProperties from './Pages/ResidentialProperties';
 
 function App() {
   const [showOverlay, setShowOverlay] = useState(false);
@@ -50,7 +53,10 @@ function App() {
             <Route path="/addproperties" element={<PrivateRoute element={<AddProject />} />} />
             <Route path="/allproperties" element={<AllProperties/>}/>
             <Route path="/contactus" element={<ContactUs />} />
+            <Route path="/SCO-Plots-in-gurgaon" element={<ScoProperties />} />
             {/* <Route path="/forgot-password" element={<ForgotPassword/>} /> */}
+            <Route path="/commercial-property-in-gurgaon" element={<CommercialProperties/>} />
+            <Route path="/residential-property-in-gurgaon" element={<ResidentialProperties/>} />
             <Route path="/reset-password/:token" element={<ResetPassword/>} />
             <Route path="/*" element={<NotFound />} />
           </Routes>
