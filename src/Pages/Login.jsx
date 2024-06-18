@@ -5,7 +5,7 @@ const Login = () => {
   const [overlayActive, setOverlayActive] = useState(false);
   const [isSignUp, setIsSignUp] = useState(false);
   const [isForgotPassword, setIsForgotPassword] = useState(false);
-  const [form, setForm] = useState({ name: '', email: '', password: '' });
+  const [form, setForm] = useState({ name: '', email: '',mobile:'', password: '' });
   const [email, setEmail] = useState('');
 
   const handleChange = (e) => {
@@ -103,9 +103,10 @@ const Login = () => {
               <div className="signup-div">
                 <h1>Sign Up</h1>
                 <form onSubmit={handleSignUp}>
-                  <input type="text" name="name" placeholder="Name" value={form.name} onChange={handleChange} required />
-                  <input type="email" name="email" placeholder="Email" value={form.email} onChange={handleChange} required />
-                  <input type="password" name="password" placeholder="Password" value={form.password} onChange={handleChange} required />
+                  <input type="text" name="name" placeholder="Enter Your Name" value={form.name} onChange={handleChange} required />
+                  <input type="email" name="email" placeholder="Enter Your Email" value={form.email} onChange={handleChange} required />
+                  <input type="number" name="mobile" placeholder="Enter Your Mobile" value={form.mobile} onChange={handleChange} required />
+                  <input type="password" name="password" placeholder="Setup Your Password" value={form.password} onChange={handleChange} required />
                   <button type="submit">Sign Up</button>
                 </form>
               </div>
@@ -162,6 +163,7 @@ const Login = () => {
                 <h1>Sign Up</h1>
                 <input type="text" name="name" placeholder="Name" value={form.name} onChange={handleChange} required />
                 <input type="email" name="email" placeholder="Email" value={form.email} onChange={handleChange} required />
+                <input type="number" name="mobile" placeholder="Mobile" value={form.mobile} onChange={handleChange} required />
                 <input type="password" name="password" placeholder="Password" value={form.password} onChange={handleChange} required />
                 <input type="password" placeholder="Confirm Password" />
                 <button type="submit">Sign Up</button>

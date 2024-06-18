@@ -358,6 +358,7 @@ a {
     font-weight: 600;
     padding: 10px !important;
     border-radius: 0 !important;
+    font-size: 12px !important;
   }
 }
 .gtc-search{
@@ -477,6 +478,7 @@ a {
 .residential-projects , .commercial-projects{
   position: relative;
   padding: 20px;
+  padding-bottom: 50px;
   background: #f1f7fd;
   h4{
     font-size: 24px;
@@ -493,9 +495,26 @@ a {
   }
 }
 
+.view-all {
+  position: absolute;
+  bottom: 10px;
+  left: 50%;
+  transform: translateX(-50%);
+  background: #9ed0ff;
+  border: none;
+  outline: none;
+  border-radius: 20px;
+  font-size: 14px;
+  font-weight: bold;
+  padding: 10px 20px;
+}
+.view-all:hover{
+  background: #aed8ff;
+}
 
 .bt{
   border-top: 1px solid white;
+  padding-bottom: 60px;
   h4{
     
     font-size: 24px;
@@ -1425,8 +1444,10 @@ overlay css */
 }
 
 option{
-  font-size: 12px !important;
+  font-family: 'Times New Roman', Times, serif;
+  font-size: 16px;
 }
+
 .projects-c-a{
   display: flex;
   align-items: center;
@@ -1481,7 +1502,7 @@ option{
 }
 
 
-@media screen and (min-width: 400px) and (max-width: 1000px){
+@media screen and (min-width: 420px) and (max-width: 1000px){
   .pd-p3 div ul {
     display: grid;
     grid-template-columns: repeat(2, 1fr) !important;
@@ -2181,7 +2202,13 @@ button{
     border-radius: 0;
     margin: 0;
     border: 0;
-    appearance: none;
+    /* appearance: none; */
+  }
+  .ptype-select{
+    padding: 10px 0;
+  }
+  .gtc-search input{
+    text-align: left;
   }
   .stats{
     width: 100%;
@@ -2380,7 +2407,7 @@ footer{
 
 }
 
-@media (width<400px){
+@media (width<420px){
   .pd-p3 div ul {
     grid-template-columns: repeat(1, 1fr);
   }

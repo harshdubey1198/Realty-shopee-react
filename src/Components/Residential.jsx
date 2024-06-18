@@ -1,7 +1,7 @@
 import React from 'react'
 import ProjectsCard from './ProjectsCard';
 import '../App.css';
-import { Link } from 'react-router-dom';
+import { Link, useNavigate } from 'react-router-dom';
 import resIcon from "../Images/Icons/home.png"
 const projectData=[
   {
@@ -415,9 +415,15 @@ const projectData=[
     ]
 
 function Residential() {
+    const navigate = useNavigate();
+    const handleViewAll =() =>{
+        navigate('/residential-property-in-gurgaon')
+    }
+
   return (
     <div className="residential-projects bt">
     <h4><img src={resIcon} alt="Residential" className='section-icon'/>Residential Properties<img src={resIcon} alt="Residential" className='section-icon'/></h4>
+    <button onClick={handleViewAll} className='view-all'>View All</button>
     <div className="projects-container">
          {projectData.map((project, index) => (
            <Link key={project.projectName} to={`/projects/${project.projectName}`} className='projects-c-a'>

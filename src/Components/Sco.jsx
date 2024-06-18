@@ -2,7 +2,7 @@ import React from 'react'
 import scoIcon from "../Images/Icons/land.png"
 import '../App.css'
 import ProjectsCard from './ProjectsCard'
-import { Link } from 'react-router-dom';
+import { Link, useNavigate } from 'react-router-dom';
 
 const projectData =[
   {
@@ -44,6 +44,10 @@ const projectData =[
 
 
 function Sco() {
+  const navigate = useNavigate();
+    const handleViewAll =() =>{
+        navigate('/sco-plots-in-gurgaon')
+    }
   return (
     <div className="bt">
       <h4>
@@ -51,7 +55,7 @@ function Sco() {
             SCO Plots
         <img src={scoIcon} alt="trending" className='section-icon'/>
       </h4>
-
+  <button onClick={handleViewAll} className='view-all'>View All</button>
       <div className="projects-container">
         {projectData.map((project, index) => (  
         <Link key={project.projectName} to={`/projects/${project.projectName}`} className='projects-c-a'>

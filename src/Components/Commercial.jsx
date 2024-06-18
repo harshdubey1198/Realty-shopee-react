@@ -2,7 +2,7 @@ import React from 'react'
 import '../App.css';
 import comIcon from "../Images/Icons/company.png"
 import ProjectsCard from './ProjectsCard';
-import { Link } from 'react-router-dom';
+import { Link, useNavigate } from 'react-router-dom';
 
 const projectData=[
   {
@@ -43,6 +43,11 @@ const projectData=[
 ]
 
 function Commercial() {
+
+  const navigate = useNavigate();
+    const handleViewAll =() =>{
+        navigate('/commercial-property-in-gurgaon')
+    }
   return (
     <div className="commercial-projects bt">
      <h4>
@@ -50,6 +55,7 @@ function Commercial() {
         Commercial Properties
         <img src={comIcon} alt="" className='section-icon'  loading='lazy'/>
       </h4>
+        <button onClick={handleViewAll} className='view-all'>View All</button>
       <div className="projects-container">
          {projectData.map((project, index) => (
           <Link key={project.projectName} to={`/projects/${project.projectName}`} className='projects-c-a'>

@@ -69,12 +69,14 @@ function Navbar() {
   const toggleMobileDropdown = () => {
     setDropdownVisible(!isDropdownVisible);
   };
-
+  
   return (
     <nav>
       <div className='relative'>
         <div className='logo-div'>
+            <a href='https://www.realtyshopee.com' target='_blank' rel='noopener noreferrer'>
           <img src={logo} alt='Realty Shopee' />
+            </a>
         </div>
 
         <div className='navigators'>
@@ -82,7 +84,7 @@ function Navbar() {
           <ScrollLink to="trending" smooth={true} duration={1500} offset={-navbarHeight}><button>Trending</button></ScrollLink>
           <ScrollLink to="upcoming" smooth={true} duration={1500} offset={-navbarHeight}><button>Upcoming</button></ScrollLink>
           <select onChange={handleDropdownChange} className="dropdown-select">
-            <option value="">Categories</option>
+            <option value="">Properties</option>
             <option value="residential">Residential</option>
             <option value="commercial">Commercial</option>
             <option value="sco">SCO</option>
@@ -99,6 +101,7 @@ function Navbar() {
               <span className='wel-user'>{username ? `Welcome, ${username}` : "Guest"}</span>
               <button onClick={() => navigate('/allproperties')}>All Properties</button>
               <button onClick={() => navigate('/contactus')}>Contact Us</button>
+              
               {username ? (
                 <button onClick={handleLogout}>Logout</button>
               ) : (
@@ -119,7 +122,7 @@ function Navbar() {
             <ScrollLink to="trending" smooth={true} duration={1500} offset={-navbarHeight} onClick={toggleMobileDropdown}><button>Trending</button></ScrollLink>
             <ScrollLink to="upcoming" smooth={true} duration={1500} offset={-navbarHeight} onClick={toggleMobileDropdown}><button>Upcoming</button></ScrollLink>
             <select onChange={handleDropdownChange} className="dropdown-select1">
-              <option value="">Categories</option>
+              <option value="">Properties</option>
               <option value="residential">Residential</option>
               <option value="commercial">Commercial</option>
               <option value="sco">SCO</option>

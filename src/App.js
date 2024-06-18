@@ -23,7 +23,7 @@ function App() {
   useEffect(() => {
     const timer = setTimeout(() => {
       setShowOverlay(true);
-    }, 90000); 
+    }, 5000); 
 
     return () => clearTimeout(timer);
     }, []);

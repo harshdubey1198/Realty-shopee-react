@@ -5,7 +5,6 @@ import '../App.css';
 import { Link } from 'react-router-dom';
 import { CiMobile3 } from "react-icons/ci";
 
-
 function AddProject() {
     const [form, setForm] = useState({
         username: '',
@@ -16,7 +15,7 @@ function AddProject() {
         areaUnit: 'sqft',
         rentOrSale: '',
         mobile: '',
-        estimatedBudget:'',
+        estimatedBudget: '',
         propertyimages: []
     });
 
@@ -61,21 +60,21 @@ function AddProject() {
                 }
             }
 
-            const response = await fetch('https://realty-react-backend.onrender.com/add-property', {
+            const response = await fetch('https://realty-react-backend.onrender.com/property/add', {
                 method: 'POST',
                 body: formData
             });
 
+            if (!response.ok) {
+                const errorText = await response.text();
+                throw new Error(errorText);
+            }
+
             const data = await response.json();
             console.log('Response:', data);
-            if (response.ok) {
-                alert('Property added successfully!');
-            } else {
-                console.error('Add Property Failed:', data.message);
-                alert(data.message);
-            }
+            alert('Property added successfully!');
         } catch (error) {
-            console.error('Error:', error);
+            console.error('Error:', error.message || error);
             alert('An error occurred. Please try again.');
         }
     };
