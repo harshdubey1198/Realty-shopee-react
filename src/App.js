@@ -11,11 +11,12 @@ import Overlay from './Components/Overlay';
 import './App.css'; 
 import AllProperties from './Components/AllProperties';
 import ContactUs from './Pages/ContactUs';
-// import ForgotPassword from './Pages/ForgotPassword';
 import ResetPassword from './Pages/ResetPassword';
 import CommercialProperties from './Pages/CommercialProperties';
 import ScoProperties from './Pages/ScoPlots';
 import ResidentialProperties from './Pages/ResidentialProperties';
+import Blogs from './Pages/Blogs';
+import BlogDetail from './Pages/BlogDetail';
 
 function App() {
   const [showOverlay, setShowOverlay] = useState(false);
@@ -26,11 +27,11 @@ function App() {
     }, 5000); 
 
     return () => clearTimeout(timer);
-    }, []);
+  }, []);
 
   const handleCloseOverlay = () => {
     setShowOverlay(false);
-    };
+  };
 
   const handleFormSubmit = (success) => {
     if (success) {
@@ -38,7 +39,7 @@ function App() {
     } else {
       setShowOverlay(true);
     }
-    };
+  };
 
   return (
     <Router>
@@ -51,13 +52,14 @@ function App() {
             <Route path="/login" element={<Login />} />
             <Route path="/location/:locationName" element={<LocationDetail />} />
             <Route path="/addproperties" element={<PrivateRoute element={<AddProject />} />} />
-            <Route path="/allproperties" element={<AllProperties/>}/>
+            <Route path="/allproperties" element={<AllProperties />} />
             <Route path="/contactus" element={<ContactUs />} />
             <Route path="/SCO-Plots-in-gurgaon" element={<ScoProperties />} />
-            {/* <Route path="/forgot-password" element={<ForgotPassword/>} /> */}
-            <Route path="/commercial-property-in-gurgaon" element={<CommercialProperties/>} />
-            <Route path="/residential-property-in-gurgaon" element={<ResidentialProperties/>} />
-            <Route path="/reset-password/:token" element={<ResetPassword/>} />
+            <Route path="/blogs" element={<Blogs />} />
+            <Route path="/blog/:blogTitle" element={<BlogDetail />} />
+            <Route path="/commercial-property-in-gurgaon" element={<CommercialProperties />} />
+            <Route path="/residential-property-in-gurgaon" element={<ResidentialProperties />} />
+            <Route path="/reset-password/:token" element={<ResetPassword />} />
             <Route path="/*" element={<NotFound />} />
           </Routes>
         </div>

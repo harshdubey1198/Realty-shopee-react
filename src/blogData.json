@@ -1,0 +1,35 @@
+[
+    {
+      "title": "Sample Blog 1",
+      "bannerImage": "path/to/banner1.jpg",
+      "description": "This is a brief description of the first blog.",
+      "intro": "This is the introduction of the first blog.",
+      "mainSummary": "This is the main summary of the first blog.",
+      "conclusion": "This is the conclusion of the first blog."
+    },
+    {
+      "title": "Sample Blog 2",
+      "bannerImage": "path/to/banner2.jpg",
+      "description": "This is a brief description of the second blog.",
+      "intro": "This is the introduction of the second blog.",
+      "mainSummary": "This is the main summary of the second blog.",
+      "conclusion": "This is the conclusion of the second blog."
+    },
+    {
+      "title": "Sample Blog 3",
+      "bannerImage": "path/to/banner2.jpg",
+      "description": "This is a brief description of the second blog.",
+      "intro": "This is the introduction of the second blog.",
+      "mainSummary": "This is the main summary of the second blog.",
+      "conclusion": "This is the conclusion of the second blog."
+    },
+    {
+      "title": "Sample Blog 4",
+      "bannerImage": "path/to/banner2.jpg",
+      "description": "This is a brief description of the second blog.",
+      "intro": "This is the introduction of the second blog.",
+      "mainSummary": "This is the main summary of the second blog.",
+      "conclusion": "This is the conclusion of the second blog."
+    }
+  ]
+  

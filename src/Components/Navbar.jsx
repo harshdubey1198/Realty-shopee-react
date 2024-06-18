@@ -11,7 +11,9 @@ import womenIcon from "../Images/Icons/woman.png";
 function Navbar() {
   const navigate = useNavigate();
   const [username, setUsername] = useState(null);
-
+  const handleBlogPage=()=>{
+    navigate('/blogs')
+  }
   const handleAddProject = () => {
     const username = localStorage.getItem('username');
     if (username) {
@@ -90,6 +92,7 @@ function Navbar() {
             <option value="sco">SCO</option>
           </select>
           <ScrollLink to="location-wise" smooth={true} duration={1500} offset={-navbarHeight}><button>Location Wise</button></ScrollLink>
+          <button onClick={handleBlogPage}>Blogs</button>
         </div>
 
         <div className='right-panel'>

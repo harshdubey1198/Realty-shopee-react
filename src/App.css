@@ -1500,8 +1500,33 @@ option{
     font-weight: 600;
   }
 }
+/* blogs  */
+.b-nav-logo{
+  background: none !important;
+}
 
+.blog-list{
+  display: flex;
+  flex-wrap: wrap;
+  margin-top: 65px;
+  gap: 20px;
+  justify-content: center;
+  padding: 20px;
+  
+}
+.blog-card{
+  background: grey;
+  width: 300px;
+  height: 300px;
+  padding: 20px;
+  border-radius: 20px;
+}
 
+.blog-detail{
+  height: 100vh;
+  margin: 0;
+  padding: 0;
+}
 @media screen and (min-width: 420px) and (max-width: 1000px){
   .pd-p3 div ul {
     display: grid;
