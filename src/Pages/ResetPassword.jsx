@@ -1,4 +1,5 @@
 import React, { useState } from 'react';
+import { Helmet } from 'react-helmet';
 import { useNavigate, useParams } from 'react-router-dom';
 
 const ResetPassword = () => {
@@ -38,6 +39,10 @@ const ResetPassword = () => {
 
 return (
     <div className="reset-password-div">
+      <Helmet>
+        <link rel="canonical" href={`https://www.realtyshopee.com/reset-password`} />
+        <title>Reset Password - Realty Shopee</title>
+      </Helmet>
       <h1>Reset Password</h1>
       <form onSubmit={handleSubmit} className='rp-form'>
         <input type="email" name="email" placeholder="Email" value={email} onChange={handleEmailChange} required />

@@ -12,10 +12,15 @@ import Navbar from '../Components/Navbar';
 import SocialBar from "../Components/SocialBar"
 import MidForm from '../Components/MidForm';
 import MiddleInfo from '../Components/MiddleInfo';
+import { Helmet } from 'react-helmet';
 
 function Home() {
   return (
     <div className='home-main'>
+       <Helmet>
+        <link rel="canonical" href="https://www.realtyshopee.com/" />
+        <title>Home - Realty Shopee</title>
+      </Helmet>
       <Navbar/>
       <SocialBar />
       <div id="home"><Banner /></div>

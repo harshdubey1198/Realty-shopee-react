@@ -1,6 +1,7 @@
 import React from 'react';
 import { useNavigate } from 'react-router-dom';
 import "../App.css"; // Create this CSS file to style the component
+import { Helmet } from 'react-helmet';
 
 function NotFound() {
   const navigate = useNavigate();
@@ -11,6 +12,10 @@ function NotFound() {
 
   return (
     <div className="not-found-container">
+      <Helmet>
+        <link rel="canonical" href={`https://www.realtyshopee.com/*`} />
+        <title>Page Not Found - Realty Shopee</title>
+      </Helmet>
       <h1>Oops! Page Not Found</h1>
       <a href="https://www.realtyshopee.com" className='a-home'>Get Back Home</a>
       <img 

@@ -2,6 +2,7 @@ import React from 'react';
 import { useParams } from 'react-router-dom';
 import PropertyDetail from '../Components/PropertyDetail';
 import propertyData from '../data100acress.json'; // Assuming you import property data from JSON file
+import { Helmet } from 'react-helmet';
 
 function PropertyPage() {
   const { projectName } = useParams(); // Retrieve the projectName from the URL parameters
@@ -14,6 +15,10 @@ function PropertyPage() {
 
   return (
     <div>
+       <Helmet>
+        <link rel="canonical" href={`https://www.realtyshopee.com/projects/${projectName}`} />
+        <title>{projectName} - Realty Shopee</title>
+      </Helmet>
       <PropertyDetail property={property} />
     </div>
   );

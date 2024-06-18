@@ -5,6 +5,7 @@ import logo from "../Images/Realty shopee main logo.png";
 import blogData from '../blogData.json';
 import "../App.css"
 import { FcHome, FcPhone, FcQuestions } from 'react-icons/fc';
+import { Helmet } from 'react-helmet';
 
 function Blogs() {
   const navigate = useNavigate();
@@ -19,6 +20,10 @@ function Blogs() {
 
   return (
     <div>
+        <Helmet>
+        <link rel="canonical" href={`https://www.realtyshopee.com/blogs`} />
+        <title>Blogs - Realty Shopee</title>
+      </Helmet>
       <header className='pd-nav'>
         <h2><a href='https://www.realtyshopee.com' target='_blank' rel='noopener noreferrer' className='b-nav-logo'><img src={logo} className='pd-logo' alt='Realty Shopee' /></a></h2>
         <button onClick={handleHomeClick}><span>Home</span><span><FcHome/></span></button>

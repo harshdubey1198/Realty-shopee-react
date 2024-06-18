@@ -4,6 +4,7 @@ import { Link, useNavigate } from 'react-router-dom';
 import logoImage from "../Images/Realty shopee main logo.png";
 import projectData from "../data100acress.json";
 import '../App.css'; 
+import { Helmet } from 'react-helmet';
 
 function ResidentialProperties() {
   const projects = projectData.data || [];
@@ -40,6 +41,10 @@ function ResidentialProperties() {
 
   return (
     <div className='al-center'>
+    <Helmet>
+        <link rel="canonical" href={`https://www.realtyshopee.com/sco-plots-in-gurgaon`} />
+        <title>SCO Plots - Realty Shopee</title>
+      </Helmet>
       <nav className='all-p-nav'>       
         <div className='logo-div'>
           <img src={logoImage} alt='Realty Shopee' loading='lazy'/>

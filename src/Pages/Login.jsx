@@ -1,5 +1,6 @@
 import React, { useState } from 'react';
 import '../App.css';
+import { Helmet } from 'react-helmet';
 
 const Login = () => {
   const [overlayActive, setOverlayActive] = useState(false);
@@ -88,6 +89,10 @@ const Login = () => {
   return (
     <>
       <div className="main-login">
+      <Helmet>
+        <link rel="canonical" href={`https://www.realtyshopee.com/login`} />
+        <title>Login - Realty Shopee</title>
+      </Helmet>
         <div className={`login-c ${overlayActive ? 'overlay-active' : ''}`}>
           {!isForgotPassword ? (
             <>

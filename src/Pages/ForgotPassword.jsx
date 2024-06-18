@@ -1,5 +1,6 @@
 import React, { useState } from 'react';
 import '../App.css';
+import { Helmet } from 'react-helmet';
 
 const ForgotPassword = () => {
   const [email, setEmail] = useState('');
@@ -24,6 +25,10 @@ const ForgotPassword = () => {
 
   return (
     <div className="forgot-password">
+        <Helmet>
+        <link rel="canonical" href={`https://www.realtyshopee.com/forgot-password`} />
+        <title>Forgot Password - Realty Shopee</title>
+      </Helmet>
       <h1>Forgot Password</h1>
       <form onSubmit={handleSubmit}>
         <input

@@ -4,6 +4,7 @@ import companylogo from "../Images/Realty shopee main logo.png";
 import '../App.css';
 import { Link } from 'react-router-dom';
 import { CiMobile3 } from "react-icons/ci";
+import { Helmet } from 'react-helmet';
 
 function AddProject() {
     const [form, setForm] = useState({
@@ -94,6 +95,10 @@ function AddProject() {
 
     return (
         <div className='a-p-main'>
+            <Helmet>
+                <link rel="canonical" href={`https://www.realtyshopee.com/addproperties`} />
+                <title>Add Your Property - Realty Shopee</title>
+            </Helmet>
             <header>
                 <a href="https://realtyshopee.com">
                     <img src={companylogo} alt='realty-shopee-logo' />
