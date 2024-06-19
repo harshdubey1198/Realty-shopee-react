@@ -3,7 +3,7 @@ import { useNavigate } from 'react-router-dom';
 import "../App.css"; // Create this CSS file to style the component
 import { Helmet } from 'react-helmet';
 
-function NotFound() {
+const NotFound =()=> {
   const navigate = useNavigate();
 
   const handleHomeClick = () => {

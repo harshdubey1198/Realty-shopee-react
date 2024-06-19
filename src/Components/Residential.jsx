@@ -108,7 +108,7 @@ const projectData=[
   },
 
   {
-    "projectName": "BPTP Amaario",
+    "projectName": "BPTP The Amaario",
     "projectAddress": "Sector 37D, Dwarka Expressway",
     "possession": "2024",
     "city": "Gurgaon",

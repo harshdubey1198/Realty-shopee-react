@@ -6,7 +6,7 @@ import { Link } from 'react-router-dom';
 import { CiMobile3 } from "react-icons/ci";
 import { Helmet } from 'react-helmet';
 
-function AddProject() {
+const AddProject =() => {
     const [form, setForm] = useState({
         username: '',
         projectName: '',

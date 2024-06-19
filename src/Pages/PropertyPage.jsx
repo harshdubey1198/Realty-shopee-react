@@ -16,8 +16,10 @@ function PropertyPage() {
   return (
     <div>
        <Helmet>
-        <link rel="canonical" href={`https://www.realtyshopee.com/projects/${projectName}`} />
+        <meta charSet='utf-8' />
+        <link rel="canonical" href="https://www.realtyshopee.com/projects/:projectName" />
         <title>{projectName} - Realty Shopee</title>
+        <meta name="description" content="This is a description of the project page"/>
       </Helmet>
       <PropertyDetail property={property} />
     </div>

@@ -6,7 +6,7 @@ import projectData from "../data100acress.json";
 import '../App.css'; 
 import { Helmet } from 'react-helmet';
 
-function CommercialProperties() {
+const CommercialProperties =()=> {
   const projects = projectData.data || [];
   const [searchQuery, setSearchQuery] = useState('');
 
@@ -41,9 +41,11 @@ function CommercialProperties() {
 
   return (
     <div className='al-center'>
-         <Helmet>
+      <Helmet>
+        <meta charSet='utf-8' />
         <link rel="canonical" href={`https://www.realtyshopee.com/commercial-property-in-gurgaon`} />
         <title>Commercial Properties - Realty Shopee</title>
+        <meta name="description" content="This is a descripition of the about page"/>
       </Helmet>
       <nav className='all-p-nav'>       
         <div className='logo-div'>

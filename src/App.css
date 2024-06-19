@@ -1534,6 +1534,43 @@ option{
   margin: 0;
   padding: 0;
 }
+.add-blog-container{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  min-height: 90vh;
+  form{
+    height: 500px;
+    width: 400px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+  }
+  form div{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    width: 80%;
+  }
+  form div input , textarea{
+    padding: 5px;
+    border-radius: 5px;
+    outline: none;
+    border: 1px solid lightblue;
+  }
+}
+.blog-form{
+  margin-top: 80px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background: #daedff;
+}
+
+
+
 @media screen and (min-width: 420px) and (max-width: 1000px){
   .pd-p3 div ul {
     display: grid;

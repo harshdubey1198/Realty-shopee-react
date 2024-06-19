@@ -63,10 +63,12 @@ function ContactUs() {
 
     return (
         <div className='contact-us-page'>
-        <Helmet>
-            <link rel="canonical" href={`https://www.realtyshopee.com/contactus`} />
+         <Helmet>
+            <meta charSet='utf-8' />
+            <link rel="canonical" href="https://www.realtyshopee.com/contactus" />
             <title>Contact Us - Realty Shopee</title>
-        </Helmet>
+            <meta name="description" content="This is a description of the about page"/>
+         </Helmet>
             <h1>Contact Us</h1>
             <form className='div-form' onSubmit={handleSubmit}>
                 <div className='svg-container'>

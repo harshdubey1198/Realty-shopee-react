@@ -1,6 +1,6 @@
 import React from 'react';
+import { Helmet } from 'react-helmet';
 import Banner from '../Components/Banner';
-import '../App.css';
 import Trending from '../Components/Trending';
 import UpcomingProjects from '../Components/UpcomingProjects';
 import Residential from '../Components/Residential';
@@ -9,19 +9,20 @@ import Sco from '../Components/Sco';
 import LocationWise from '../Components/LocationWise';
 import ContactUs from '../Components/ContactUs';
 import Navbar from '../Components/Navbar';
-import SocialBar from "../Components/SocialBar"
+import SocialBar from "../Components/SocialBar";
 import MidForm from '../Components/MidForm';
 import MiddleInfo from '../Components/MiddleInfo';
-import { Helmet } from 'react-helmet';
 
-function Home() {
+const Home = () => {
   return (
     <div className='home-main'>
-       <Helmet>
-        <link rel="canonical" href="https://www.realtyshopee.com/" />
-        <title>Home - Realty Shopee</title>
+      <Helmet>
+        <title>Realty Shopee | 9289252999 | Sachin Gupta | The Best Property Consultant In Gurgaon</title>
+        <meta charSet='utf-8' />
+        <meta name="description" content="Realty Shopee is a real estate website where you can buy, sell and rent properties. We are the best real estate consultants in Delhi NCR." />
+        <link rel="canonical" href="https://www.realtyshopee.com/home" />
       </Helmet>
-      <Navbar/>
+      <Navbar />
       <SocialBar />
       <div id="home"><Banner /></div>
       <div id="trending"><Trending /></div>
@@ -32,7 +33,7 @@ function Home() {
       <div id="commercial"><Commercial /></div>
       <div id="sco"><Sco /></div>
       <div id="location-wise"><LocationWise /></div>
-      <div id='contact-us'><ContactUs/></div>
+      <div id='contact-us'><ContactUs /></div>
     </div>
   );
 }

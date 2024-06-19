@@ -1,5 +1,5 @@
 import React, { useState, useEffect } from 'react';
-import { BrowserRouter as Router, Route, Routes } from 'react-router-dom';
+import { BrowserRouter as Router, Route, Routes, Navigate} from 'react-router-dom';
 import Home from './Pages/Home';
 import PropertyPage from './Pages/PropertyPage';
 import Login from './Pages/Login';
@@ -17,6 +17,8 @@ import ScoProperties from './Pages/ScoPlots';
 import ResidentialProperties from './Pages/ResidentialProperties';
 import Blogs from './Pages/Blogs';
 import BlogDetail from './Pages/BlogDetail';
+import AddBlogs from './Pages/AddBlogs';
+import { Helmet } from 'react-helmet';
 
 function App() {
   const [showOverlay, setShowOverlay] = useState(false);
@@ -44,11 +46,20 @@ function App() {
   return (
     <Router>
       <div className="App">
+      <Helmet>
+        <title>Realty Shopee | Home</title>
+        <meta
+          name="description"
+          content="Realty Shopee is a real estate website where you can buy, sell and rent properties. We are the best real estate consultants in Delhi NCR."
+        />
+        <link rel="canonical" href="https://www.realtyshopee.com/" />
+      </Helmet>
         {showOverlay && <Overlay onClose={handleCloseOverlay} onFormSubmit={handleFormSubmit} />}
         <div>
           <Routes>
-            <Route exact path="/" element={<Home />} />
-            <Route path="/projects/:projectName" element={<PropertyPage />} />
+          <Route path="/" element={<Navigate to="/home" />} />
+          <Route path="/home" element={<Home />} />           
+           <Route path="/projects/:projectName" element={<PropertyPage />} />
             <Route path="/login" element={<Login />} />
             <Route path="/location/:locationName" element={<LocationDetail />} />
             <Route path="/addproperties" element={<PrivateRoute element={<AddProject />} />} />
@@ -60,8 +71,9 @@ function App() {
             <Route path="/commercial-property-in-gurgaon" element={<CommercialProperties />} />
             <Route path="/residential-property-in-gurgaon" element={<ResidentialProperties />} />
             <Route path="/reset-password/:token" element={<ResetPassword />} />
+            <Route path="/add-blogs" element={<AddBlogs />} />
             <Route path="/*" element={<NotFound />} />
-          </Routes>
+            </Routes>
         </div>
       </div>
     </Router>

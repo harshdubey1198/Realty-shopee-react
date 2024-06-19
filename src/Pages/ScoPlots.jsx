@@ -42,8 +42,10 @@ function ResidentialProperties() {
   return (
     <div className='al-center'>
     <Helmet>
+      <meta charSet='utf-8'/>
         <link rel="canonical" href={`https://www.realtyshopee.com/sco-plots-in-gurgaon`} />
         <title>SCO Plots - Realty Shopee</title>
+        <meta name="description" content="This is a description of sco-plots page"/>
       </Helmet>
       <nav className='all-p-nav'>       
         <div className='logo-div'>
