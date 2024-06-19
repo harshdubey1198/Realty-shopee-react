@@ -19,13 +19,13 @@ function Blogs() {
   };
 
   return (
-    <div>
+    <div className='blogs-main'>
         <Helmet>
         <link rel="canonical" href={`https://www.realtyshopee.com/blogs`} />
         <title>Blogs - Realty Shopee</title>
       </Helmet>
-      <header className='pd-nav'>
-        <h2><a href='https://www.realtyshopee.com' target='_blank' rel='noopener noreferrer' className='b-nav-logo'><img src={logo} className='pd-logo' alt='Realty Shopee' /></a></h2>
+      <header className='pd-nav blue-nav'>
+        <h2><img src={logo} className='pd-logo' alt="realty shopee" /></h2>
         <button onClick={handleHomeClick}><span>Home</span><span><FcHome/></span></button>
         <button onClick={handleContactUsClick}><span>Contact Us</span><span><FcQuestions/></span></button>
         <a href="tel:+919289252999"><span>+91 9289252999</span><span><FcPhone className='phone'/></span></a>
