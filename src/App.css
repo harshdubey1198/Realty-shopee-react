@@ -1538,6 +1538,7 @@ option{
   display: flex;
   align-items: center;
   justify-content: center;
+  flex-direction: column;
   min-height: 90vh;
   form{
     height: 500px;
@@ -1546,6 +1547,8 @@ option{
     flex-direction: column;
     justify-content: space-evenly;
     align-items: center;
+    background: #daedff;
+    border-radius: 20px;
   }
   form div{
     display: flex;
@@ -1610,6 +1613,11 @@ option{
           width: 200px;
         }
     }
+}
+.add-blog-container{
+  form{
+    width: 370px;
+  }
 }
 }
 

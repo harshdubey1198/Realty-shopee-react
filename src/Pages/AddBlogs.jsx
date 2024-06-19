@@ -71,6 +71,7 @@ const AddBlogs = () => {
         <button onClick={handleContactUsClick}><span>Contact Us</span><span><FcQuestions/></span></button>
         <a href="tel:+919289252999"><span>+91 9289252999</span><span><FcPhone className='phone'/></span></a>
       </header>
+      <h2>Add Your Blog</h2>
       <form onSubmit={handleSubmit}>
         <div>
           <label>Title:</label>
