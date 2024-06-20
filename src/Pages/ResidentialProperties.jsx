@@ -42,8 +42,11 @@ function ResidentialProperties() {
   return (
     <div className='al-center'>
         <Helmet>
-        <link rel="canonical" href={`https://www.realtyshopee.com/residential-property-in-gurgaon`} />
-        <title>Residential Properties - Realty Shopee</title>
+          <meta charSet='utf-8' />
+          <meta name='description' content='Find the cheapest & new residential property in Gurgaon with Realty Shopee. Explore upcoming, and ready-to-move residential property options in prime locations.' />
+          <link rel="canonical" href={`https://www.realtyshopee.com/residential-property-in-gurgaon`} />
+          <title>New Residential Property in Gurgaon for Sale By Realty Shopee</title>
+          <meta name="description" content="Find the cheapest &amp; new residential property in Gurgaon with Realty Shopee. Explore upcoming, and ready-to-move residential property options in prime locations." />
       </Helmet>
       <nav className='all-p-nav'>       
         <div className='logo-div'>

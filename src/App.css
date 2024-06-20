@@ -282,6 +282,18 @@ a {
   background: #f0f0f0;
 }
 /* home */
+  .description1-home{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background: #f1f7fd;
+    padding: 0 50px;
+    h1{
+      font-size: 24px;
+    }
+  }
+
+
 .home-components{
   background: #f1f7fd;
   border-top: 2px solid white;

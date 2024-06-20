@@ -18,7 +18,7 @@ import ResidentialProperties from './Pages/ResidentialProperties';
 import Blogs from './Pages/Blogs';
 import BlogDetail from './Pages/BlogDetail';
 import AddBlogs from './Pages/AddBlogs';
-import { Helmet } from 'react-helmet';
+// import { Helmet } from 'react-helmet';
 
 function App() {
   const [showOverlay, setShowOverlay] = useState(false);
@@ -46,20 +46,13 @@ function App() {
   return (
     <Router>
       <div className="App">
-      <Helmet>
-        <title>Realty Shopee | Home</title>
-        <meta
-          name="description"
-          content="Realty Shopee is a real estate website where you can buy, sell and rent properties. We are the best real estate consultants in Delhi NCR."
-        />
-        <link rel="canonical" href="https://www.realtyshopee.com/" />
-      </Helmet>
+     
         {showOverlay && <Overlay onClose={handleCloseOverlay} onFormSubmit={handleFormSubmit} />}
         <div>
           <Routes>
-          <Route path="/" element={<Navigate to="/home" />} />
-          <Route path="/home" element={<Home />} />           
-           <Route path="/projects/:projectName" element={<PropertyPage />} />
+            <Route path="/" element={<Navigate to="/home" />} />
+            <Route path="/home" element={<Home />} />           
+            <Route path="/projects/:projectName" element={<PropertyPage />} />
             <Route path="/login" element={<Login />} />
             <Route path="/location/:locationName" element={<LocationDetail />} />
             <Route path="/addproperties" element={<PrivateRoute element={<AddProject />} />} />
