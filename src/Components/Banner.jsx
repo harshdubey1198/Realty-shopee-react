@@ -49,12 +49,12 @@ const Banner = () => {
             >
               Discover <br />
               Most Suitable
-              <br /> Property
+              <br /> Property In Gurgaon
             </motion.h1>
           </div>
           <div className="flexColStart secondaryText flexhero-des">
-            <span>Find a variety of properties that suit you very easily </span>
-            <span> Forget all difficulties in finding a residence for you</span>
+            <span>Find the best property in Gurgaon that suits you very easily </span>
+            <span> And forget all the difficulties in finding a residence for you.</span>
           </div>
 
           <div className="flexCenter search-bar">

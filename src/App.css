@@ -282,7 +282,7 @@ a {
   background: #f0f0f0;
 }
 /* home */
-  .description1-home{
+  .description1-home , .description2-home{
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -309,6 +309,8 @@ a {
   }
 }
 
+
+
 /* project-main */
 .projects-container {
   display: grid;
@@ -327,9 +329,9 @@ a {
   position: relative  ;
   grid-template-columns: repeat(4, 1fr) !important;
   .property-card{
-    max-width: 280px;
-    margin: 0;
-  }
+      max-width: 280px;
+      margin: 0;
+    }
   .property-link{
     display: flex;
     justify-content: center;
