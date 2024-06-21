@@ -10,9 +10,7 @@ function MiddleInfo(){
         <div className='midinfo-div'>
           <div>
           <h2>Why Choose Realty Shopee?</h2>
-          <p>As the best property management company in Gurgaon</p>
-          <p>Realty Shopee stands out for its commitment to client satisfaction and comprehensive real estate solutions.</p> 
-          <p>Our team of experts leverages extensive market knowledge and industry connections to help you make informed decisions on current and new upcoming properties in Gurgaon. Whether you're a first-time buyer, a seasoned investor, or looking for property management services, we tailor our approach to meet your unique requirements.</p>
+          <p>As the best property management company in Gurgaon <b>Realty Shopee</b> stands out for its commitment to client satisfaction and comprehensive real estate solutions. Our team of experts leverages extensive market knowledge and industry connections to help you make informed decisions on current and new upcoming properties in Gurgaon. Whether you're a first-time buyer, a seasoned investor, or looking for property management services, we tailor our approach to meet your unique requirements.</p>
          </div>
 
          <div>

@@ -1464,15 +1464,38 @@ overlay css */
 .midinfo-div div:nth-child(1){
   h2{
     color: #1b4a7c;
+    font-size: 24px;
   }
   p{
-    color: #4c5540;
+    color: #44611f;
     background: #c3e2ff;
-    padding: 20px;
+    padding: 40px 20px;
+    line-height: 1.9;
     border-radius: 20px;
     width: calc(100% - 40px);
+    font-size: 14px;
+    transform: skew(-12deg);
   }
-
+  
+}
+.midinfo-div div:nth-child(2){
+  h3{
+    color: #1b4a7c;
+    font-size: 18px;
+  }
+  p{
+    color: #44611f;
+    background: #c3e2ff;
+    padding: 40px 20px;
+    line-height: 1.9;
+    border-radius: 20px;
+    width: calc(100% - 40px);
+    font-size: 14px;
+    transform: skew(-12deg);
+  }
+  p:nth-child(3){
+    transform: translate(-47px, -30px) skew(-12deg);
+  }
 }
 .midinfo-img{
   width: 40%;
@@ -2525,6 +2548,24 @@ footer{
 .not-found-container p{
   font-size: 1rem;
   padding: 0 20px;
+}
+
+
+
+.midinfo-div{
+  flex-direction: column;
+  align-items: center;
+}
+.midinfo-div div{
+  width: 98%;
+}
+.midinfo-div div:nth-child(1) ,.midinfo-div div:nth-child(2), .midinfo-div div:nth-child(2) p:nth-child(3){
+  p{
+    transform: none;
+  }
+  h3{
+    text-align: center;
+  }
 }
 
 }
