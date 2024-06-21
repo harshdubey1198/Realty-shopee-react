@@ -1446,7 +1446,33 @@ overlay css */
   display: flex;
   align-items: center;
   justify-content: space-evenly;
-  height: 400px;
+  min-height: 400px;
+}
+.midinfo-div{
+  display: flex;
+  justify-content: space-evenly;
+  width: 100%;
+}
+.midinfo-div div{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 20px;
+  width: 40%;
+}
+.midinfo-div div:nth-child(1){
+  h2{
+    color: #1b4a7c;
+  }
+  p{
+    color: #4c5540;
+    background: #c3e2ff;
+    padding: 20px;
+    border-radius: 20px;
+    width: calc(100% - 40px);
+  }
+
 }
 .midinfo-img{
   width: 40%;
@@ -1482,7 +1508,6 @@ option{
 } 
 }
 .midinfo-div{
-  width: 40%;
   h2{
     text-align: center;
   }
