@@ -25,22 +25,22 @@ const Home = () => {
       <Navbar />
       <SocialBar />
       <div id="home"><Banner /></div>
+        <div className='description2-home'>
+          <h2>Explore Premier Residential, Commercial, and SCO Properties</h2>
+          <p>Discover the finest property in Gurgaon with Realty Shopee, your trusted property management company in Gurgaon. Whether you're searching for a dream home, a strategic commercial space, or a lucrative SCO (Shop-Cum-Office), we cater to all your property needs in this dynamic city.</p>
+          <p>As the best property dealer in Gurgaon, we pride ourselves on offering a diverse portfolio of properties to our clients. Our residential listings span from luxurious apartments in prime neighborhoods to affordable homes that meet every budget. For businesses looking to establish themselves, our commercial properties provide strategic locations and modern amenities. Additionally, our SCO properties offer versatile spaces designed to accommodate both retail and office needs, ensuring your business thrives in Gurgaon's competitive landscape.</p>
+        </div>
+      <div id="trending"><Trending /></div>
+      <div id="midinfo"><MiddleInfo /></div>
+
+      <div id="upcoming"><UpcomingProjects /></div>
+
       <div className='description1-home'>
         {/* <h1>Discover the Most Suitable Property in Gurgaon</h1>
         <p>Find the best property in Gurgaon that suits you very easily and forget all the difficulties in finding a residence for you.</p> */}
         <h3>Your Next Step in Gurgaon Real Estate</h3>
         <p>Whether you're interested in a new launch property in Gurgaon, luxury properties, affordable housing, or commercial ventures. <br/>Realty Shopee simplifies your journey to owning or leasing property in Gurgaon. <br/>Explore our website for new upcoming properties, resale opportunities, and investments that fit your budget and aspirations.</p>
       </div>
-      <div id="trending"><Trending /></div>
-      <div className='description2-home'>
-        <h2>Explore Premier Residential, Commercial, and SCO Properties</h2>
-        <p>Discover the finest property in Gurgaon with Realty Shopee, your trusted property management company in Gurgaon. Whether you're searching for a dream home, a strategic commercial space, or a lucrative SCO (Shop-Cum-Office), we cater to all your property needs in this dynamic city.</p>
-        <p>As the best property dealer in Gurgaon, we pride ourselves on offering a diverse portfolio of properties to our clients. Our residential listings span from luxurious apartments in prime neighborhoods to affordable homes that meet every budget. For businesses looking to establish themselves, our commercial properties provide strategic locations and modern amenities. Additionally, our SCO properties offer versatile spaces designed to accommodate both retail and office needs, ensuring your business thrives in Gurgaon's competitive landscape.</p>
-      </div>
-      <div id="midinfo"><MiddleInfo /></div>
-
-      <div id="upcoming"><UpcomingProjects /></div>
-
       <div id="midform"><MidForm /></div>
 
       <div id="residential"><Residential /></div>

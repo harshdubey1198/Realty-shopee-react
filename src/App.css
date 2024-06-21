@@ -288,8 +288,13 @@ a {
     align-items: center;
     background: #f1f7fd;
     padding: 0 50px;
-    h1{
+    h2{
       font-size: 24px;
+      color: #1e2d4d;
+    }
+    p{
+      text-align: center;
+      color: #4f6374;
     }
   }
 

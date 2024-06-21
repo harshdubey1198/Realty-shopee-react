@@ -1,5 +1,5 @@
 import React, { useState, useEffect } from 'react';
-import { BrowserRouter as Router, Route, Routes, Navigate} from 'react-router-dom';
+import { BrowserRouter as Router, Route, Routes} from 'react-router-dom';
 import Home from './Pages/Home';
 import PropertyPage from './Pages/PropertyPage';
 import Login from './Pages/Login';
@@ -50,8 +50,8 @@ function App() {
         {showOverlay && <Overlay onClose={handleCloseOverlay} onFormSubmit={handleFormSubmit} />}
         <div>
           <Routes>
-            <Route path="/" element={<Navigate to="/home" />} />
-            <Route path="/home" element={<Home />} />           
+            <Route path="/" element={<Home/>} />
+            {/* <Route path="/home" element={<Home />} />            */}
             <Route path="/projects/:projectName" element={<PropertyPage />} />
             <Route path="/login" element={<Login />} />
             <Route path="/location/:locationName" element={<LocationDetail />} />
