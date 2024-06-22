@@ -343,12 +343,27 @@ a {
     justify-content: space-evenly;
     height: 400px;
     background:#d3e9ff;
-    
+    .desc3-img{
+      /* overflow: hidden; */
+      position: relative;
+    }
+    .owner{
+      position: absolute;
+      bottom: 5px;
+      width: 82%;
+      border-radius: 10px;
+      background: #0000009e;
+      color: lightcyan;
+      font-family: 'Courier New', Courier, monospace;
+      padding: 5px;
+      left: 50%;
+      text-align: center;
+      transform: translate(-50% , 0);
+    }
     img{
       border-radius: 30px;
       height: 300px;
-      outline: 2px solid #032f81;
-      
+      outline: 2px solid #032f81; 
     }
     .content-desc3{
       display: flex;
@@ -2482,11 +2497,7 @@ button{
   .flexhero-des{
     display: flex;
     flex-direction: column;
-    
-
-    span:nth-child(2){
-      display: none;
-    }
+    font-size: medium !important;
   }  
 .location-container{
   grid-template-columns: repeat(1 , 0fr);
