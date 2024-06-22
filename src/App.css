@@ -2734,7 +2734,7 @@ footer{
   }
 }
 .desc-third{
-  height:690px;
+  height:730px;
   justify-content: flex-start !important;
   padding: 20px 0;
   flex-direction: column;
@@ -2743,7 +2743,7 @@ footer{
   }
 }
 .content-desc3{
-  width: 90% !important;
+  width: 82% !important;
   height: 100% !important;
 }
 
