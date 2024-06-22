@@ -13,6 +13,8 @@ import SocialBar from "../Components/SocialBar";
 import MidForm from '../Components/MidForm';
 import MiddleInfo from '../Components/MiddleInfo';
 import DescriptionFirst from '../Components/DescriptionFirst';
+import DescriptionSecond from '../Components/DescriptionSecond';
+import DescriptionThird from '../Components/DescriptionThird';
 
 const Home = () => {
   return (
@@ -26,18 +28,17 @@ const Home = () => {
       <Navbar />
       <SocialBar />
       <div id="home"><Banner /></div>
+
       <div id="descfirst"><DescriptionFirst /></div>
+
       <div id="trending"><Trending /></div>
+
       <div id="midinfo"><MiddleInfo /></div>
 
       <div id="upcoming"><UpcomingProjects /></div>
 
-      <div className='description2-home'>
-        {/* <h1>Discover the Most Suitable Property in Gurgaon</h1>
-        <p>Find the best property in Gurgaon that suits you very easily and forget all the difficulties in finding a residence for you.</p> */}
-        <h3>Your Next Step in Gurgaon Real Estate</h3>
-        <p>Whether you're interested in a new launch property in Gurgaon, luxury properties, affordable housing, or commercial ventures. <br/>Realty Shopee simplifies your journey to owning or leasing property in Gurgaon. <br/>Explore our website for new upcoming properties, resale opportunities, and investments that fit your budget and aspirations.</p>
-      </div>
+      <div id="descsecond"><DescriptionSecond /></div>
+      
       <div id="midform"><MidForm /></div>
 
       <div id="residential"><Residential /></div>
@@ -47,11 +48,9 @@ const Home = () => {
       <div id="sco"><Sco /></div>
 
       <div id="location-wise"><LocationWise /></div>
+      
+      <div id="desc-third"><DescriptionThird /></div>
 
-      <h3>Connect with Realty Shopee Today</h3>
-      <p>Begin the best property investment in Gurgaon with Realty Shopee today. Contact us to schedule a consultation with our experts and discover why we are the preferred choice for property seekers and investors alike. Let us help you find the best property in New Gurgaon that meets your needs and exceeds your expectations.</p>
-      <p>Realty Shopee is dedicated to delivering exceptional service and unmatched expertise in Gurgaon's competitive real estate market. Whether you're looking to buy, sell, lease, or invest in an affordable or luxury property in Gurgaon, trust Realty Shopee to make your property goals a reality. Start your journey with us and experience the difference in real estate excellence.</p>
-      <p>Contact Realty Shopee now to buy a luxury or cheap property in Gurgaon for sale and unlock the doors to your future in this thriving real estate landscape.</p>
       <div id='contact-us'><ContactUs /></div>
     </div>
   );
