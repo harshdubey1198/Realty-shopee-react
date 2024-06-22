@@ -2707,12 +2707,34 @@ footer{
   }
   .image-des1{
     width: 100%;
+    img {
+      width: 98%;
+      height: auto;
+      border-radius: 15px;
+  }
   }
   .content-des1{
     width: 98%;
+    p{
+      min-height: 300px !important;
+      height: 100% !important;
+    }
    
   }
 }
+.desc-third{
+  height:690px;
+  justify-content: flex-start !important;
+  padding: 20px 0;
+  flex-direction: column;
+  img{
+    height: 270px !important;
+  }
+}
+.content-desc3{
+  width: 90% !important;
+}
+
 }
 
 @media (width<420px){
