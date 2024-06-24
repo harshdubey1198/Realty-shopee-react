@@ -92,6 +92,7 @@ const Login = () => {
       <Helmet>
         <link rel="canonical" href={`https://www.realtyshopee.com/login`} />
         <title>Login - Realty Shopee</title>
+        <link rel="icon" href="https://www.realtyshopee.com/agent.png" />
       </Helmet>
         <div className={`login-c ${overlayActive ? 'overlay-active' : ''}`}>
           {!isForgotPassword ? (

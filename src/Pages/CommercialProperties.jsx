@@ -44,8 +44,9 @@ const CommercialProperties =()=> {
       <Helmet>
         <meta charSet='utf-8' />
         <link rel="canonical" href={`https://www.realtyshopee.com/commercial-property-in-gurgaon`} />
-        <title>Commercial Properties - Realty Shopee</title>
-        <meta name="description" content="This is a descripition of the about page"/>
+        <title>Invest in the Best Commercial Property in Gurgaon | Realty Shopee</title>
+        <link rel="icon" href="https://www.realtyshopee.com/agent.png" />
+        <meta name="description" content="Planning to invest in real estate? Explore the best commercial property in Gurgaon with Realty Shopee. Investment opportunities, ready-to-move, and resale options are available."/>
       </Helmet>
       <nav className='all-p-nav'>       
         <div className='logo-div'>

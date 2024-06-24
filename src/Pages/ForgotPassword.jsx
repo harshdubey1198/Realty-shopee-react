@@ -28,6 +28,7 @@ const ForgotPassword = () => {
         <Helmet>
         <link rel="canonical" href={`https://www.realtyshopee.com/forgot-password`} />
         <title>Forgot Password - Realty Shopee</title>
+        <link rel="icon" href="https://www.realtyshopee.com/agent.png" />
       </Helmet>
       <h1>Forgot Password</h1>
       <form onSubmit={handleSubmit}>

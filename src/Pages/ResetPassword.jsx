@@ -42,6 +42,7 @@ return (
       <Helmet>
         <link rel="canonical" href={`https://www.realtyshopee.com/reset-password`} />
         <title>Reset Password - Realty Shopee</title>
+        <link rel="icon" href="https://www.realtyshopee.com/agent.png" />
       </Helmet>
       <h1>Reset Password</h1>
       <form onSubmit={handleSubmit} className='rp-form'>
