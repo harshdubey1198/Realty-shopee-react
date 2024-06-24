@@ -298,8 +298,10 @@ a {
   align-items: center;
   img{
     width: auto;
+    max-width: 500px;
     height: 300px;
     border-radius: 15px;
+    object-fit: cover;
   }
 }
 .content-des1{

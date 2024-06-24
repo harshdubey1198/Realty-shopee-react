@@ -6,13 +6,14 @@ function DescriptionFirst() {
   const images = [
     'https://res.cloudinary.com/dgplzytrq/image/upload/v1718972634/Description%20Images/Residential-property.jpg',
     'https://res.cloudinary.com/dgplzytrq/image/upload/v1718972783/Description%20Images/Commercial-Property.jpg',
-    'https://res.cloudinary.com/dgplzytrq/image/upload/v1718972824/Description%20Images/SCO-plots.jpg'
+    'https://res.cloudinary.com/dgplzytrq/image/upload/v1718972824/Description%20Images/SCO-plots.jpg',
+    'https://res.cloudinary.com/dm5yrsqdc/image/upload/v1711005132/100acre/project/fldpjxxgb6hkw2q7umvz.jpg'
   ];
 
   useEffect(() => {
     const interval = setInterval(() => {
       setCurrentImage((prevImage) => (prevImage + 1) % images.length);
-    }, 3000); // Change image every 3 seconds
+    }, 3000); 
     return () => clearInterval(interval);
   }, [images.length]);
 
