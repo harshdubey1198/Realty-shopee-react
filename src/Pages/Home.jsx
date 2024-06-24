@@ -15,6 +15,7 @@ import MiddleInfo from '../Components/MiddleInfo';
 import DescriptionFirst from '../Components/DescriptionFirst';
 import DescriptionSecond from '../Components/DescriptionSecond';
 import DescriptionThird from '../Components/DescriptionThird';
+import ScrollToTop from '../Components/ScrollToTop';
 
 const Home = () => {
   return (
@@ -52,6 +53,7 @@ const Home = () => {
       <div id="desc-third"><DescriptionThird /></div>
 
       <div id='contact-us'><ContactUs /></div>
+      <ScrollToTop/>
     </div>
   );
 }
