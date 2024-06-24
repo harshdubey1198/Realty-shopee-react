@@ -1059,3 +1059,137 @@ const projectData =
             "updatedAt": "2024-06-23T09:05:09.972Z",
             "__v": 0
         }
+
+
+
+         {
+            "frontImage": {
+                "public_id": "100acre/project/evev7ld7wc76vaaachsv",
+                "url": "https://res.cloudinary.com/dm5yrsqdc/image/upload/v1710567629/100acre/project/evev7ld7wc76vaaachsv.jpg"
+            },
+            "logo": {
+                "public_id": "100acre/project/arooin3qy1ttny5wyfet",
+                "url": "https://res.cloudinary.com/dm5yrsqdc/image/upload/v1710567628/100acre/project/arooin3qy1ttny5wyfet.png"
+            },
+            "project_locationImage": {
+                "public_id": "100acre/project/ranqugkrapwkshzgpfyr",
+                "url": "https://res.cloudinary.com/dm5yrsqdc/image/upload/v1710567630/100acre/project/ranqugkrapwkshzgpfyr.jpg"
+            },
+            "highlightImage": {
+                "public_id": "100acre/project/gzkka7ney5ojeb4fkmcd",
+                "url": "https://res.cloudinary.com/dm5yrsqdc/image/upload/v1710567635/100acre/project/gzkka7ney5ojeb4fkmcd.jpg"
+            },
+            "projectMaster_plan": {
+                "public_id": "100acre/project/y8lvbhsfgkawhse0m7kx",
+                "url": "http://res.cloudinary.com/dm5yrsqdc/image/upload/v1710567639/100acre/project/y8lvbhsfgkawhse0m7kx.jpg"
+            },
+            "_id": "65f530d88074594ad0465991",
+            "project_floorplan_Image": [
+                {
+                    "public_id": "100acre/project/h51wewklm3n9b3vmjbgh",
+                    "url": "https://res.cloudinary.com/dm5yrsqdc/image/upload/v1710570233/100acre/project/h51wewklm3n9b3vmjbgh.jpg"
+                },
+                {
+                    "public_id": "100acre/project/p8lw2wpdj5zjzgruxugu",
+                    "url": "https://res.cloudinary.com/dm5yrsqdc/image/upload/v1710570234/100acre/project/p8lw2wpdj5zjzgruxugu.jpg"
+                }
+            ],
+            "state": "Haryana",
+            "projectName": "DLF Privana North",
+            "projectAddress": "Sector 76, Southern Peripheral Road",
+            "project_discripation": "DLF Privana North is a new luxury development in Gurgaon, India, that offers stunning views, spacious apartments, variety of amenities and a vibrant community. Located in a prime location in Gurgaon, Privana is close to Cybercity 2, Cloverlief flyover and Dwarka Expressway. perfect place to call home for those who want to live in luxury and style.",
+            "projectRedefine_Connectivity": [
+                "Seemless connectivity through NH8- Dwarka expressway - SPR Road and Mumbai expressway"
+            ],
+            "projectRedefine_Entertainment": [
+                "Reputed Hospitals Nearby"
+            ],
+            "projectRedefine_Business": [
+                "Nearby Kherki Daula toll plaza and NH-8."
+            ],
+            "projectRedefine_Education": [
+                "IGI Airport & New Delhi Railway Station are minutes away from the project"
+            ],
+            "meta_description": "DLF Privana North Sector 76 Gurgaon presents 3/4 BHK apartments with novel designs, lush greenery, and robust construction quality.",
+            "meta_title": "DLF Privana North, 4 BHK Luxury Flats Sector 76 Gurgaon",
+            "Amenities": [
+                "EQUIPPED GYM", "SPA ","SALON","Lift","Car Parking","Squash Court","Swimming Pool","Club House"
+            ],
+            "projectBgContent": "DLF PRIVANA NORTH SECTOR 76 GURGAON",
+            "projectReraNo": "Applied",
+            "type": "Residential Flats",
+            "city": "Gurgaon",
+            "builderName": "DLF Homes",
+            "AboutDeveloper": "At DLF, we take pride in our uncompromising integrity in customer engagement and quality assurance, and throughout our 75-year legacy, we have made it our core mission to provide real-estate development, management, and investment services of the highest calibre.",
+            "projectOverview": "none",
+            "project_Status": "comingsoon",
+            "schema_type": "project",
+            "project_url": "dlf-privana-north",
+            "projectGallery": [
+                {
+                    "public_id": "100acre/project/vx0uglgwryjtyfb5uq5y",
+                    "url": "https://res.cloudinary.com/dm5yrsqdc/image/upload/v1710567636/100acre/project/vx0uglgwryjtyfb5uq5y.jpg"
+                },
+                {
+                    "public_id": "100acre/project/hzcbo5ltvlcfzvxfynpd",
+                    "url": "https://res.cloudinary.com/dm5yrsqdc/image/upload/v1710567637/100acre/project/hzcbo5ltvlcfzvxfynpd.jpg"
+                },
+                {
+                    "public_id": "100acre/project/noievprqo9kmalm128tv",
+                    "url": "https://res.cloudinary.com/dm5yrsqdc/image/upload/v1710567638/100acre/project/noievprqo9kmalm128tv.jpg"
+                }
+            ],
+            "BhK_Details": [
+                {
+                    "bhk_type": "4 BHK + SR",
+                    "price": "Call for Price",
+                    "bhk_Area": "3577 SQ.FT",
+                    "_id": "65f532338074594ad0467e9b"
+                }
+            ],
+            "highlight": [
+                {
+                    "highlight_Point": "Nestled within DLF's vast 600-acre Enclave.",
+                    "_id": "65f532968074594ad04688bd"
+                },
+                {
+                    "highlight_Point": "Launching First Phase of a 150 acre integrated Township",
+                    "_id": "65f5329f8074594ad04688c2"
+                },
+                {
+                    "highlight_Point": "Malls, Offices, Retail, Corporates, Schools, Hospitals and 5 Star Hotels in close vicinity",
+                    "_id": "65f532ab8074594ad04688c8"
+                },
+                {
+                    "highlight_Point": "Designed by Arcop Associates",
+                    "_id": "65f532bc8074594ad0468c30"
+                },
+                {
+                    "highlight_Point": "Landscape by MDP Landscape (Paris)",
+                    "_id": "65f532c48074594ad0468c38"
+                },
+                {
+                    "highlight_Point": "Interior Design by GA Interior (London)",
+                    "_id": "65f532cc8074594ad0468c41"
+                },
+                {
+                    "highlight_Point": "Elevate your lifestyle with 800 opulent apartments across 5 iconic towers, shaping the epitome of luxury – DLF 6, a masterpiece in the making",
+                    "_id": "65f532f08074594ad046931b"
+                },
+                {
+                    "highlight_Point": "Immerse yourself in grandeur surrounded by 125 acres, harmonizing with the renowned Cyber City - 2 and 55-acre SEZ",
+                    "_id": "65f532f88074594ad0469326"
+                },
+                {
+                    "highlight_Point": "Exclusive Preview: Priced at a premium 20,000 per square foot, Aralia 2 promises an investment like no other in the heart of DLF.",
+                    "_id": "65f532fe8074594ad0469332"
+                },
+                {
+                    "highlight_Point": "Indulge in Luxury at Aralias 2 - DLF's Epitome of Luxury in Sector 76 Gurgaon",
+                    "_id": "65f5332d8074594ad04696a6"
+                }
+            ],
+            "createdAt": "2024-03-16T05:40:40.331Z",
+            "updatedAt": "2024-04-24T06:39:53.552Z",
+            "__v": 0
+        },
