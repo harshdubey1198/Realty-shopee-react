@@ -909,3 +909,153 @@ const projectData =
 
 
 
+
+
+
+
+        {
+            "frontImage": {
+                "public_id": "100acre/project/qdd9da5rqdy9pz3fhhkm",
+                "url": "https://res.cloudinary.com/dm5yrsqdc/image/upload/v1719131907/100acre/project/qdd9da5rqdy9pz3fhhkm.jpg"
+            },
+            "logo": {
+                "public_id": "100acre/project/vzcgpdmdxdqyqssm64pj",
+                "url": "https://res.cloudinary.com/dm5yrsqdc/image/upload/v1719131904/100acre/project/vzcgpdmdxdqyqssm64pj.svg"
+            },
+            "project_locationImage": {
+                "public_id": "100acre/project/yzvknhmytnkdmxuhmydo",
+                "url": "https://res.cloudinary.com/dm5yrsqdc/image/upload/v1719131908/100acre/project/yzvknhmytnkdmxuhmydo.jpg"
+            },
+            "highlightImage": {
+                "public_id": "100acre/project/g9wlomuhr8f3ygu6mkfc",
+                "url": "https://res.cloudinary.com/dm5yrsqdc/image/upload/v1719131911/100acre/project/g9wlomuhr8f3ygu6mkfc.jpg"
+            },
+            "projectMaster_plan": {
+                "public_id": "100acre/project/qr9ihxf3isn6vbrku20s",
+                "url": "http://res.cloudinary.com/dm5yrsqdc/image/upload/v1719131916/100acre/project/qr9ihxf3isn6vbrku20s.jpg"
+            },
+            "_id": "6677df0c3a8e09e5c966b737",
+            "project_floorplan_Image": [
+                {
+                    "public_id": "100acre/project/ikxhksgjiq3jkjtcicyb",
+                    "url": "https://res.cloudinary.com/dm5yrsqdc/image/upload/v1719131909/100acre/project/ikxhksgjiq3jkjtcicyb.jpg"
+                },
+                {
+                    "public_id": "100acre/project/v7y5abstjgp3rpzretny",
+                    "url": "https://res.cloudinary.com/dm5yrsqdc/image/upload/v1719131910/100acre/project/v7y5abstjgp3rpzretny.jpg"
+                }
+            ],
+            "state": "Haryana",
+            "projectName": "Ganga Realty Anantam",
+            "projectAddress": "Sector 85, Dwarka Expressway",
+            "project_discripation": "A landmark that will transform the Millennium City into the centre of attraction for the world.\r\nWake up amidst swirls of clouds. Look out and enjoy a lifestyle reserved just for a discerning few.\r\n\r\nWitness the city bathed\r\nin the golden hues and enjoy opulence\r\nat newer heights with Cloud 60, the\r\nhighest club in Gurugram",
+            "projectRedefine_Connectivity": [
+                "Ganga Realty Anantam Luxury Apartments have located in Sector 85. And we know that it is a growing area."
+            ],
+            "projectRedefine_Entertainment": [
+                "You can catch prime locations from Ganga Realty Sector 85 Luxury Apartments Gurgaon."
+            ],
+            "projectRedefine_Business": [
+                "Our luxurious property is away from noisy palaces as well as populated areas."
+            ],
+            "projectRedefine_Education": [
+                "And Multiplexes located within walk-in distances."
+            ],
+            "meta_description": "Ganga Realty Anantam Sector 85 Gurgaon, ultra-luxury high rise apartments. It offers 3/4 BHK apartments with luxury Specifications and Spread in 5.3 acres.",
+            "meta_title": "Ganga Realty Anantam Sector 85 Gurgaon - Ganga New Launch",
+            "Amenities": [
+                "Observatory Deck ",
+                "Badminton Court",
+                "Medical Store/Pharmac",
+                "Restaurant",
+                "Basketball Court",
+                "Yoga / Meditation Area"
+            ],
+            "projectBgContent": "Ganga Realty Anantam - New Projects in Sector 85 Gurgaon",
+            "projectReraNo": "RC/REP/HARERA/GGM/829/561/2024/56",
+            "type": "Residential Flats",
+            "city": "Gurugram",
+            "builderName": "Ganga Realty",
+            "AboutDeveloper": "Purity begins at home. It starts with those little joys and simple acts of love that make home our favourite corner of the earth. Explore wholesome living complemented by modern amenities with Ganga Realty. A lifestyle you dreamt of. A lifestyle you deserve. The perfect space for all those memorable moments. Come, love beckons you here at Ganga Realty.",
+            "projectOverview": "trending",
+            "project_Status": "newlunch",
+            "schema_type": "project",
+            "project_url": "ganga-realty-anantam",
+            "projectGallery": [
+                {
+                    "public_id": "100acre/project/bv9w0prxsfnnixettndt",
+                    "url": "https://res.cloudinary.com/dm5yrsqdc/image/upload/v1719131912/100acre/project/bv9w0prxsfnnixettndt.jpg"
+                },
+                {
+                    "public_id": "100acre/project/usxscil7i4bgcggaylja",
+                    "url": "https://res.cloudinary.com/dm5yrsqdc/image/upload/v1719131913/100acre/project/usxscil7i4bgcggaylja.jpg"
+                },
+                {
+                    "public_id": "100acre/project/ebwiegnmbxpxmccvysfs",
+                    "url": "https://res.cloudinary.com/dm5yrsqdc/image/upload/v1719131914/100acre/project/ebwiegnmbxpxmccvysfs.jpg"
+                },
+                {
+                    "public_id": "100acre/project/jbe7x0wwdu2tvvtcvqfy",
+                    "url": "https://res.cloudinary.com/dm5yrsqdc/image/upload/v1719131914/100acre/project/jbe7x0wwdu2tvvtcvqfy.jpg"
+                }
+            ],
+            "towerNumber": 3,
+            "totalUnit": 524,
+            "totalLandArea": 5.3,
+            "launchingDate": "2024-06-01T00:00:00.000Z",
+            "mobileNumber": 9811750130,
+            "possessionDate": "2029-06-01T00:00:00.000Z",
+            "minPrice": 3.6,
+            "maxPrice": 4.5,
+            "BhK_Details": [
+                {
+                    "bhk_type": "3 BHK + S + Ut",
+                    "price": "₹ 3.6 Cr",
+                    "bhk_Area": "2392 SQ.FT",
+                    "_id": "6677e5323a8e09e5c966d081"
+                },
+                {
+                    "bhk_type": "4 BHK + S + Ut",
+                    "price": "₹ 4.5 Cr",
+                    "bhk_Area": "3101 SQ.FT",
+                    "_id": "6677e5453a8e09e5c966d09a"
+                }
+            ],
+            "highlight": [
+                {
+                    "highlight_Point": "3 ICONIC towers 4-core",
+                    "_id": "6677e1c83a8e09e5c966bf59"
+                },
+                {
+                    "highlight_Point": "TALLEST TOWERS in the vicinity with 55-57 Stories",
+                    "_id": "6677e1cd3a8e09e5c966bf60"
+                },
+                {
+                    "highlight_Point": "8 lifts in single tower with 2 dedicated lifts for each apartment plus 2 service lifts separate",
+                    "_id": "6677e1d33a8e09e5c966bf70"
+                },
+                {
+                    "highlight_Point": "A massive state-of-the-art Clubhouse.",
+                    "_id": "6677e1d93a8e09e5c966bf78"
+                },
+                {
+                    "highlight_Point": "Principle architect: UHA LONDON",
+                    "_id": "6677e1de3a8e09e5c966bf81"
+                },
+                {
+                    "highlight_Point": "Masterplan designer: SCAPE DESIGN",
+                    "_id": "6677e1e33a8e09e5c966bf8b"
+                },
+                {
+                    "highlight_Point": "⁠Landscape architect : MACFURLANE & Associate",
+                    "_id": "6677e1e93a8e09e5c966bf96"
+                },
+                {
+                    "highlight_Point": "Structure audit : SGS",
+                    "_id": "6677e1f33a8e09e5c966bfa2"
+                }
+            ],
+            "createdAt": "2024-06-23T08:38:36.665Z",
+            "updatedAt": "2024-06-23T09:05:09.972Z",
+            "__v": 0
+        }

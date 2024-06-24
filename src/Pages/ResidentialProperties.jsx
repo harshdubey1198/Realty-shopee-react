@@ -36,7 +36,7 @@ function ResidentialProperties() {
   const filteredProjects = sortedProjects.filter(project => {
     const matchesSearchQuery = project.projectName.toLowerCase().includes(searchQuery.toLowerCase());
     const matchesType = project.type && typeMapping["Residential"].some(type => project.type.toLowerCase() === type.toLowerCase());
-    return matchesSearchQuery && matchesType;
+    return matchesSearchQuery && matchesType; 
   });
 
   return (
@@ -57,6 +57,25 @@ function ResidentialProperties() {
           <button onClick={handleAddProjectClick}>Add Properties</button>
         </div>
       </nav>
+
+      <div className='r-c-d1'>
+       <h1>Explore Residential Property in Gurgaon with Realty Shopee </h1>
+       <p>Buy one of the upcoming residential properties in Gurgaon with Realty Shopee, your trusted
+          partner in real estate. Whether you're seeking a new residence, the most affordable options,
+          or specific locations like Old Gurgaon, Gurgaon Extension, or New Gurgaon, we offer a
+          comprehensive selection of residential properties to suit every lifestyle and budget.
+        </p>
+      </div>
+      <div className='r-c-d2'>
+      <h2>Your Premier Destination for New Residential Property in Gurgaon</h2>
+        <p>
+          Explore the latest developments in Gurgaon with our collection of new residential properties.
+          From modern apartments with state-of-the-art amenities to exclusive gated communities,
+          find your dream home in Gurgaon's burgeoning neighborhoods.
+        </p>
+      </div>
+
+
       <div className='search-div gtc-search'>
         <input
           type='text'
