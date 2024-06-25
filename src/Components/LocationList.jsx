@@ -4,6 +4,7 @@ import { useNavigate, useParams } from 'react-router-dom';
 import PropertyCard from './PropertyCard';
 import projectsData from '../data100acress.json'; 
 import '../App.css';
+import ScrollToTop from './ScrollToTop';
 function LocationList() {
   const navigate = useNavigate();
   const { locationName } = useParams();
@@ -31,6 +32,7 @@ function LocationList() {
           <PropertyCard key={index} property={project} />
         ))}
       </div>
+      <ScrollToTop/>
     </div>
   );
 }

@@ -4,6 +4,7 @@ import { Link, useNavigate } from 'react-router-dom';
 import logoImage from "../Images/Realty shopee main logo.png";
 import projectData from "../data100acress.json";
 import '../App.css'; 
+import ScrollToTop from './ScrollToTop';
 
 function AllProperties() {
   const projects = projectData.data || [];
@@ -46,6 +47,7 @@ function AllProperties() {
 
   return (
     <div className='al-center'>
+      <ScrollToTop/>
       <nav className='all-p-nav'>       
         <div className='logo-div'>
           <img src={logoImage} alt='Realty Shopee' loading='lazy'/>
