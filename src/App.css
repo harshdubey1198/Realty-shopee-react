@@ -252,6 +252,7 @@ a{
 }
 
 a {
+  max-width: 300px;
   color: #007bff;
   text-decoration: none;
   background-color: transparent;
@@ -416,27 +417,31 @@ a {
   display: grid;
   grid-template-columns: repeat(4, 0fr);
   gap: 5px; /* Adjust the gap as needed */
-  width: 100%;
+  /* width: 100%; */
   justify-content: space-around;
   align-items: center;
 }
 .gtc{
   padding: 20px;
-  gap:  20px 0  ;
-  width: 100%;
+  gap:  20px;
+  width: 90%;
   height: 100%;
   min-height: 40vh;
   position: relative  ;
   grid-template-columns: repeat(4, 1fr) !important;
   .property-card{
       max-width: 280px;
+      min-width: 280px;
       margin: 0;
     }
   .property-link{
     display: flex;
     justify-content: center;
-    padding: 0 10px;
+    /* padding: 0 10px; */
   }
+}
+.property-link{
+  max-width: 300px;
 }
 .all-p-nav{
   justify-content: space-around;
@@ -2433,7 +2438,7 @@ button{
   .projects-container {
     display: grid;
     grid-template-columns: repeat(1, 0fr);
-    gap: 15px; 
+    gap: 35px; 
     width: 100%;
     justify-content: space-around;
     align-items: center;
