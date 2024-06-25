@@ -1,10 +1,38 @@
-import React from 'react';
+import React, { useEffect, useState } from 'react';
 import { useParams } from 'react-router-dom';
-import blogData from '../blogData.json';
+import axios from 'axios';
+import { FcHome, FcPhone, FcQuestions } from 'react-icons/fc';
 
-function BlogDetail() {
+
+function BlogDetail({handleHomeClick , handleContactUsClick}) {
   const { blogTitle } = useParams();
-  const blog = blogData.find(blog => blog.title.replace(/\s+/g, '-').toLowerCase() === blogTitle);
+  const [blog, setBlog] = useState(null);
+  const [loading, setLoading] = useState(true);
+  const [error, setError] = useState(null);
+
+  useEffect(() => {
+    const fetchBlog = async () => {
+      try {
+        const response = await axios.get(`https://realty-react-backend.onrender.com/blogs/${blogTitle}`);
+        setBlog(response.data);
+      } catch (error) {
+        setError('Blog not found');
+        console.error('Error fetching blog:', error);
+      } finally {
+        setLoading(false);
+      }
+    };
+
+    fetchBlog();
+  }, [blogTitle]);
+
+  if (loading) {
+    return <div>Loading...</div>;
+  }
+
+  if (error) {
+    return <div>{error}</div>;
+  }
 
   if (!blog) {
     return <div>Blog not found</div>;
@@ -12,12 +40,21 @@ function BlogDetail() {
 
   return (
     <div className="blog-detail">
+       <header className='pd-nav'>
+        <h2><img src="https://www.realtyshopee.com/static/media/Realty%20shopee%20main%20logo.db6affde1f766278cf09.png" className='pd-logo' alt='Realty-Shopee-blogs' /></h2>
+        <button onClick={handleHomeClick}><span>Home</span><span><FcHome/></span></button>
+        <button onClick={handleContactUsClick}><span>Contact Us</span><span><FcQuestions/></span></button>
+        <a href="tel:+919289252999"><span>+91 9289252999</span><span><FcPhone className='phone'/></span></a>
+      </header>
+      <div className='blog-div'>
       <h1>{blog.title}</h1>
-      <img src={blog.bannerImage} alt={blog.title} className="blog-banner" />
+      <img src={blog.featureImage} alt={blog.title} className="blog-banner" />
       <div className="blog-content">
-        <p>{blog.intro}</p>
-        <p>{blog.mainSummary}</p>
-        <p>{blog.conclusion}</p>
+        <p>{blog.description}</p>
+        <p>{blog.category}</p>
+        <p>{blog.tags}</p>
+        <p>{blog.featureImage}</p>
+      </div>
       </div>
     </div>
   );

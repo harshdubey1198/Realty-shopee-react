@@ -1,14 +1,29 @@
-import React from 'react';
+import React, { useEffect, useState } from 'react';
+import axios from 'axios';
 import { useNavigate } from 'react-router-dom';
 import BlogCard from '../Components/BlogCard';
 import logo from "../Images/Realty shopee main logo.png";
-import blogData from '../blogData.json';
-import "../App.css"
+import "../App.css";
 import { FcHome, FcPhone, FcQuestions } from 'react-icons/fc';
 import { Helmet } from 'react-helmet';
+import ScrollToTop from '../Components/ScrollToTop';
 
 function Blogs() {
+  const [blogs, setBlogs] = useState([]);
   const navigate = useNavigate();
+
+  useEffect(() => {
+    const fetchBlogs = async () => {
+      try {
+        const response = await axios.get('https://realty-react-backend.onrender.com/blogs');
+        setBlogs(response.data);
+      } catch (error) {
+        console.error('Error fetching blogs:', error);
+      }
+    };
+
+    fetchBlogs();
+  }, []);
 
   const handleHomeClick = () => {
     navigate('/');
@@ -20,7 +35,8 @@ function Blogs() {
 
   return (
     <div className='blogs-main'>
-        <Helmet>
+      <ScrollToTop/>
+      <Helmet>
         <link rel="canonical" href={`https://www.realtyshopee.com/blogs`} />
         <title>Blogs - Realty Shopee</title>
         <link rel="icon" href="https://www.realtyshopee.com/agent.png" />
@@ -32,12 +48,17 @@ function Blogs() {
         <a href="tel:+919289252999"><span>+91 9289252999</span><span><FcPhone className='phone'/></span></a>
       </header>
       <div className="blog-list">
-        {blogData.map(blog => (
-          <BlogCard key={blog.title} blog={blog} />
-        ))}
+        {blogs.length > 0 ? (
+          blogs.map(blog => (
+            <BlogCard key={blog._id} blog={blog} />
+          ))
+        ) : (
+          <p>No blogs available</p>
+        )}
       </div>
     </div>
   );
 }
 
 export default Blogs;
+ 
