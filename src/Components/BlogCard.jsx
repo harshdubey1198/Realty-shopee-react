@@ -14,8 +14,8 @@ function BlogCard({ blog }) {
     <div className="blog-card">
       <img src={blog.featureImage} alt={blog.title} className="blog-banner" />
       <h2>{blog.title}</h2>
-      <p>{truncateDescription(blog.description, 12)}</p>
-      <Link to={`/blog/${blog.title}`}>Read More</Link>
+      <p>{truncateDescription(blog.description, 22)}</p>
+      <Link to={`/blog/${blog.title}`} className='blog-opener'>Read More</Link>
     </div>
   );
 }

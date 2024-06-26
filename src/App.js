@@ -1,5 +1,5 @@
-import React, { useState, useEffect } from 'react';
-import { BrowserRouter as Router, Route, Routes} from 'react-router-dom';
+import React, { useState, useEffect, useLayoutEffect } from 'react';
+import { BrowserRouter as Router, Route, Routes, useLocation } from 'react-router-dom';
 import Home from './Pages/Home';
 import PropertyPage from './Pages/PropertyPage';
 import Login from './Pages/Login';
@@ -22,6 +22,7 @@ import AddBlogs from './Pages/AddBlogs';
 
 function App() {
   const [showOverlay, setShowOverlay] = useState(false);
+  const location = useLocation();
 
   useEffect(() => {
     const timer = setTimeout(() => {
@@ -43,34 +44,44 @@ function App() {
     }
   };
 
+  // Scroll to top on route change
+  useLayoutEffect(() => {
+    window.scrollTo(0, 0);
+  }, [location.pathname]);
+
+  return (
+    <div className="App">
+      {showOverlay && <Overlay onClose={handleCloseOverlay} onFormSubmit={handleFormSubmit} />}
+      <div>
+        <Routes>
+          <Route path="/" element={<Home/>} />
+          {/* <Route path="/home" element={<Home />} />            */}
+          <Route path="/projects/:projectName" element={<PropertyPage />} />
+          <Route path="/login" element={<Login />} />
+          <Route path="/location/:locationName" element={<LocationDetail />} />
+          <Route path="/addproperties" element={<PrivateRoute element={<AddProject />} />} />
+          <Route path="/allproperties" element={<AllProperties />} />
+          <Route path="/contactus" element={<ContactUs />} />
+          <Route path="/SCO-Plots-in-gurgaon" element={<ScoProperties />} />
+          <Route path="/blogs" element={<Blogs />} />
+          <Route path="/blog/:blogTitle" element={<BlogDetail />} />
+          <Route path="/commercial-property-in-gurgaon" element={<CommercialProperties />} />
+          <Route path="/residential-property-in-gurgaon" element={<ResidentialProperties />} />
+          <Route path="/reset-password/:token" element={<ResetPassword />} />
+          <Route path="/add-blogs" element={<AddBlogs />} />
+          <Route path="/*" element={<NotFound />} />
+        </Routes>
+      </div>
+    </div>
+  );
+}
+
+function AppWithRouter() {
   return (
     <Router>
-      <div className="App">
-     
-        {showOverlay && <Overlay onClose={handleCloseOverlay} onFormSubmit={handleFormSubmit} />}
-        <div>
-          <Routes>
-            <Route path="/" element={<Home/>} />
-            {/* <Route path="/home" element={<Home />} />            */}
-            <Route path="/projects/:projectName" element={<PropertyPage />} />
-            <Route path="/login" element={<Login />} />
-            <Route path="/location/:locationName" element={<LocationDetail />} />
-            <Route path="/addproperties" element={<PrivateRoute element={<AddProject />} />} />
-            <Route path="/allproperties" element={<AllProperties />} />
-            <Route path="/contactus" element={<ContactUs />} />
-            <Route path="/SCO-Plots-in-gurgaon" element={<ScoProperties />} />
-            <Route path="/blogs" element={<Blogs />} />
-            <Route path="/blog/:blogTitle" element={<BlogDetail />} />
-            <Route path="/commercial-property-in-gurgaon" element={<CommercialProperties />} />
-            <Route path="/residential-property-in-gurgaon" element={<ResidentialProperties />} />
-            <Route path="/reset-password/:token" element={<ResetPassword />} />
-            <Route path="/add-blogs" element={<AddBlogs />} />
-            <Route path="/*" element={<NotFound />} />
-            </Routes>
-        </div>
-      </div>
+      <App />
     </Router>
   );
 }
 
-export default App;
+export default AppWithRouter;

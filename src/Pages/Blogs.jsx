@@ -53,7 +53,7 @@ function Blogs() {
             <BlogCard key={blog._id} blog={blog} />
           ))
         ) : (
-          <p>No blogs available</p>
+          <p>Blogs Loading Soon</p>
         )}
       </div>
     </div>

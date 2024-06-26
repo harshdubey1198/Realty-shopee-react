@@ -1,7 +1,7 @@
 import React, { useState } from 'react';
 import axios from 'axios';
-import '../App.css'; // Import your CSS styles
-import logo from "../Images/Realty shopee main logo.png"
+import '../App.css';
+import logo from "../Images/Realty shopee main logo.png";
 import { FcHome, FcPhone, FcQuestions } from 'react-icons/fc';
 import { useNavigate } from 'react-router-dom';
 
@@ -9,7 +9,7 @@ const AddBlogs = () => {
   const [title, setTitle] = useState('');
   const [description, setDescription] = useState('');
   const [featureImage, setFeatureImage] = useState('');
-  const [images, setImages] = useState([]);
+  const [descriptionImages, setDescriptionImages] = useState([]);
   const [category, setCategory] = useState('');
   const [tags, setTags] = useState('');
   const navigate = useNavigate();
@@ -30,7 +30,7 @@ const AddBlogs = () => {
         title,
         description,
         featureImage,
-        images: images.join(','),
+        descriptionImages: JSON.stringify(descriptionImages), // Convert to JSON string
         category,
         tags
       }, {
@@ -45,19 +45,25 @@ const AddBlogs = () => {
   };
 
   const handleFeatureImageChange = (e) => {
+    const file = e.target.files[0];
     const reader = new FileReader();
     reader.onloadend = () => {
       setFeatureImage(reader.result);
     };
-    reader.readAsDataURL(e.target.files[0]);
+    reader.readAsDataURL(file);
   };
 
-  const handleImagesChange = (e) => {
+  const handleDescriptionImageChange = (e) => {
     const files = Array.from(e.target.files);
+    const newImages = [];
+
     files.forEach(file => {
       const reader = new FileReader();
       reader.onloadend = () => {
-        setImages(prevImages => [...prevImages, reader.result]);
+        newImages.push(reader.result);
+        if (newImages.length === files.length) {
+          setDescriptionImages(prevImages => [...prevImages, ...newImages]);
+        }
       };
       reader.readAsDataURL(file);
     });
@@ -87,7 +93,7 @@ const AddBlogs = () => {
         </div>
         <div>
           <label>Images in Description:</label>
-          <input type="file" multiple onChange={handleImagesChange} />
+          <input type="file" multiple onChange={handleDescriptionImageChange} />
         </div>
         <div>
           <label>Category:</label>
