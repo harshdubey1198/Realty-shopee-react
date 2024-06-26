@@ -507,6 +507,7 @@ a {
 }
 .r-c-d1 , .r-c-d2 ,.r-c-d3{
   text-align: center;
+  font-family: Georgia, 'Times New Roman', Times, serif;
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -541,6 +542,9 @@ a {
   border-radius: 20px;
   margin-right:  40px;
   background: #daedff;
+  h1,h2,h3,h4{
+    color: rgb(93 59 141);
+  }
   p{
     width: 70%;
     color: #2e4213;
@@ -729,7 +733,7 @@ a {
   h4{
     
     font-size: 24px;
-    margin: 10px 40px 5px;
+    margin: 10px 40px 20px;
     font-weight: 600;
     
     /* border-radius: 10px; */
@@ -1654,7 +1658,7 @@ overlay css */
   flex-direction: column;
   align-items: center;
   justify-content: center;
-  gap: 20px;
+  /* gap: 20px; */
   width: 100%;
   position: relative;
 }
@@ -1714,7 +1718,7 @@ overlay css */
   p{
     color: #44611f;
     /* background: #c3e2ff; */
-    padding: 40px 20px;
+    padding: 10px 20px;
     line-height: 1.9;
     border-radius: 20px;
     width: calc(100% - 40px);

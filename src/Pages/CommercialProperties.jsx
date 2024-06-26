@@ -76,6 +76,13 @@ import ScrollToTop from '../Components/ScrollToTop';
                 or expand your presence in Gurgaon, we provide tailored solutions to meet your commercial
                 real estate needs.
               </p>
+              <h2>Choose from a Range of Options</h2>
+                <p>Explore a curated selection of the top commercial projects in Gurgaon with Realty Shopee.
+                   We offer diverse options including office spaces, retail outlets, industrial properties, and
+                   more, located in key business districts and prime areas of Gurgaon. Our listings feature the
+                   top commercial projects in Gurgaon that have modern amenities, strategic locations, and
+                   competitive pricing to cater to various business requirements.
+                 </p>
           </div>
 
 
@@ -121,7 +128,7 @@ import ScrollToTop from '../Components/ScrollToTop';
           <p>Take the next step towards securing the best commercial property to invest in Gurgaon with
               Realty Shopee. Explore our comprehensive listings, schedule a consultation with our
               experts, and unlock the potential of Gurgaon&#39;s commercial real estate market. Contact us
-              today to get started on achieving your business goals with Realty Shopee.
+              today to get started on achieving your business goals with Realty Shopee.<br/><br/>
               Realty Shopee is one of the best commercial property dealers in Gurgaon. We are your
               gateway to success in Gurgaon&#39;s commercial real estate sector. With a focus on quality,
               reliability, and customer satisfaction, we are dedicated to helping you find the perfect
