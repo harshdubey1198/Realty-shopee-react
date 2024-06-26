@@ -44,7 +44,6 @@ function App() {
     }
   };
 
-  // Scroll to top on route change
   useLayoutEffect(() => {
     window.scrollTo(0, 0);
   }, [location.pathname]);
@@ -55,7 +54,7 @@ function App() {
       <div>
         <Routes>
           <Route path="/" element={<Home/>} />
-          {/* <Route path="/home" element={<Home />} />            */}
+          {/* <Route path="/home" element={<Home />} />*/}
           <Route path="/projects/:projectName" element={<PropertyPage />} />
           <Route path="/login" element={<Login />} />
           <Route path="/location/:locationName" element={<LocationDetail />} />

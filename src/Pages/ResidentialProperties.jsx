@@ -6,8 +6,10 @@ import projectData from "../data100acress.json";
 import '../App.css'; 
 import { Helmet } from 'react-helmet';
 import ScrollToTop from '../Components/ScrollToTop';
+import Loader from 'react-loaders'
 
 function ResidentialProperties() {
+  
   const projects = projectData.data || [];
   const [searchQuery, setSearchQuery] = useState('');
 
@@ -21,7 +23,7 @@ function ResidentialProperties() {
   const handleAddProjectClick = () => {
     navigate('/addproperties');
   };
-
+  
   const typeMapping = {
     "Residential": ["residential", "residential plots", "residential property", "residential flats" , "residential apartments"]
   };
@@ -33,7 +35,7 @@ function ResidentialProperties() {
     if (nameA > nameB) return 1;
     return 0;
   });
-
+  
   const filteredProjects = sortedProjects.filter(project => {
     const matchesSearchQuery = project.projectName.toLowerCase().includes(searchQuery.toLowerCase());
     const matchesType = project.type && typeMapping["Residential"].some(type => project.type.toLowerCase() === type.toLowerCase());
@@ -106,7 +108,8 @@ function ResidentialProperties() {
               </Link>
             ))
           ) : (
-            <p className='npa'>No projects available</p>
+           
+            <p className='npa'>No projects available   <Loader type="ball-pulse-sync" /></p>
           )}
         </div>
       </div>
