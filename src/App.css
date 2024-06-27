@@ -1979,8 +1979,11 @@ option{
     border: 1px solid lightblue;
   }
   form button{
-    background: linear-gradient(45deg, rgb(0, 140, 255), rgb(14, 98, 194));padding: 10px;
+    background: linear-gradient(45deg, rgb(0, 140, 255), rgb(14, 98, 194));
+    padding: 5px 20px;
+    border: 2px solid black;
     color: white;
+    border-radius: 10px;
   }
 }
 .blog-form{
@@ -3084,6 +3087,18 @@ footer{
   height: 100% !important;
 }
 
+.flexrow{
+  flex-direction: column !important;
+  align-items: center;
+  .img-login-auth{
+    width: 280px  !important;
+    height: 280px !important;
+  }
+  form{
+    width: 300px !important;
+    gap: 20px;
+  }
+}
 }
 
 @media (width<420px){
