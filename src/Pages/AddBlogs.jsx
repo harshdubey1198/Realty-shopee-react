@@ -2,7 +2,7 @@ import React, { useState, useEffect } from 'react';
 import axios from 'axios';
 import '../App.css';
 import logo from "../Images/Realty shopee main logo.png";
-import { FcHome, FcPhone, FcQuestions } from 'react-icons/fc';
+import { FcDocument, FcHome, FcPhone, FcQuestions } from 'react-icons/fc';
 import { useNavigate } from 'react-router-dom';
 
 const AddBlogs = ({ auth }) => {
@@ -24,7 +24,9 @@ const AddBlogs = ({ auth }) => {
   const handleHomeClick = () => {
     navigate('/');
   };
-
+  const handleAllBlogs =()=>{
+    navigate('/blogs');
+  }
   const handleContactUsClick = () => {
     navigate('/contactus');
   };
@@ -105,6 +107,7 @@ const AddBlogs = ({ auth }) => {
       <header className='pd-nav blue-nav'>
         <h2><img src={logo} className='pd-logo' alt="realty shopee" /></h2>
         <button onClick={handleHomeClick}><span>Home</span><span><FcHome/></span></button>
+        <button onClick={handleAllBlogs}><span>Blogs</span><span><FcDocument/></span></button>
         <button onClick={handleContactUsClick}><span>Contact Us</span><span><FcQuestions/></span></button>
         <a href="tel:+919289252999"><span>+91 9289252999</span><span><FcPhone className='phone'/></span></a>
       </header>

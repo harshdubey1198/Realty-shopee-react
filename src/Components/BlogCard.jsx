@@ -26,16 +26,15 @@ function BlogCard({ blog }) {
     return content;
   };
 
-  const {  firstParagraph } = getFirstHeadingAndParagraph(JSON.parse(blog.description));
-  // const { firstHeading, firstParagraph } = getFirstHeadingAndParagraph(JSON.parse(blog.description));
+  const truncatedTitle = truncateContent(blog.title, 15);
+  const { firstParagraph } = getFirstHeadingAndParagraph(JSON.parse(blog.description));
 
   return (
     <div className="blog-card">
       <img src={blog.featureImage} alt={blog.title} className="blog-banner" />
-      <h2>{blog.title}</h2>
-      {/* {firstHeading && <h3>{firstHeading}</h3>} */}
+      <h5>{truncatedTitle}</h5>
       <p>{truncateContent(firstParagraph, 30)}</p>
-      <Link to={`/blog/${blog.title}`} className='blog-opener'>Read More</Link>
+      <Link to={`/blog/${encodeURIComponent(blog.title)}`} className='blog-opener'>Read More</Link>
     </div>
   );
 }

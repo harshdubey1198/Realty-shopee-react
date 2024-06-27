@@ -637,7 +637,7 @@ a {
   background: linear-gradient(45deg , rgb(0, 140, 255) , rgb(14, 98, 194));
   padding: 8px;
   border-radius: 10px;
-  color: rgb(219, 219, 219);
+  color: rgb(249, 249, 249);
 }
 
 .blog-card h2{
@@ -1924,14 +1924,20 @@ option{
   background: #daedff;
   width: 300px;
   height: 310px;
-  padding: 20px;
+  padding: 20px 20px 40px 20px;
   position: relative;
   border-radius: 20px;
-  
+  h5{
+    text-align: center;
+    min-height: 30px;
+    margin: 0 !important;
+    padding: 0 !important;
+  }
+
 }
 
 .blog-detail{
-  height: 100vh;
+  /* height: 100vh; */
   margin: 0;
   padding: 0;
 }

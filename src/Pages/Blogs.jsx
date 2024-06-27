@@ -12,7 +12,7 @@ import Loader from 'react-loaders';
 function Blogs() {
   const [blogs, setBlogs] = useState([]);
   const navigate = useNavigate();
-  let loader = <Loader type="ball-pulse-sync" />;
+  const loader = <Loader type="ball-pulse-sync" />;
 
   useEffect(() => {
     const fetchBlogs = async () => {
@@ -55,7 +55,9 @@ function Blogs() {
             <BlogCard key={blog._id} blog={blog} />
           ))
         ) : ( 
-        <p><span className='bls'>Blogs Loading Soon</span> {loader}</p>
+          <div className='loading'>
+            <span className='bls'>Blogs Loading Soon</span> {loader}
+          </div>
         )}
       </div>
     </div>
