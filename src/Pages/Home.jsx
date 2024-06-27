@@ -24,9 +24,9 @@ const Home = () => {
 
   useEffect(() => {
     
-    setPageTitle("");
-    setPageDescription("");
-    setOgImageUrl("");
+    setPageTitle("Discover The Best Luxury Property in Gurgaon with Realty Shopee");
+    setPageDescription("Discover the best luxury property in Gurgaon with Realty Shopee. Find residential, commercial, and SCO plots properties tailored to your needs in this dynamic city.");
+    setOgImageUrl("https://res.cloudinary.com/dgplzytrq/image/upload/v1719493314/Description%20Images/og-home-logo.png");
   }, []);
 
   return (
