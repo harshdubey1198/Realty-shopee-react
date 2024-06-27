@@ -16,10 +16,10 @@ const AddBlogs = ({ auth }) => {
 
   useEffect(() => {
     const storedUsername = localStorage.getItem('BlogUsername');
-    if (!auth || !storedUsername) {
+    if (!storedUsername) {
       navigate('/login-add-blogs');
     }
-  }, [auth, navigate]);
+  }, [navigate]);
 
   const handleHomeClick = () => {
     navigate('/');
@@ -130,7 +130,7 @@ const AddBlogs = ({ auth }) => {
               ) : (
                 <input type="text" name="content" value={item.content} onChange={(e) => handleInputChange(e, index)} placeholder="Enter URL" />
               )}
-              <button type="button" onClick={() => handleRemoveInput(index)}>Remove</button>
+              <button type="button" className='btn-red' onClick={() => handleRemoveInput(index)}>Remove</button>
             </div>
           ))}
           <button type="button" onClick={handleAddInput}>Add Section</button>

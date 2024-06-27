@@ -19,12 +19,12 @@ import Blogs from './Pages/Blogs';
 import BlogDetail from './Pages/BlogDetail';
 import AddBlogs from './Pages/AddBlogs';
 import BlogAuth from './Components/BlogAuth';
-// import { Helmet } from 'react-helmet';
 
 function App() {
   const [showOverlay, setShowOverlay] = useState(false);
   const location = useLocation();
   const [auth, setAuth] = useState(false);
+
   useEffect(() => {
     const timer = setTimeout(() => {
       setShowOverlay(true);
@@ -55,7 +55,6 @@ function App() {
       <div>
         <Routes>
           <Route path="/" element={<Home/>} />
-          {/* <Route path="/home" element={<Home />} />*/}
           <Route path="/projects/:projectName" element={<PropertyPage />} />
           <Route path="/login" element={<Login />} />
           <Route path="/location/:locationName" element={<LocationDetail />} />

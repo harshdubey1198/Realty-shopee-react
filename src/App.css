@@ -1959,7 +1959,7 @@ option{
   form{
     padding: 20px 0;
     min-height: 500px;
-    width: 400px;
+    min-width: 400px;
     display: flex;
     flex-direction: column;
     justify-content: space-evenly;
@@ -1991,6 +1991,9 @@ option{
     padding: 20px 0;
     gap: 20px;
   }
+}
+.btn-red{
+  background: red !important;
 }
 .blog-form{
   margin-top: 80px;

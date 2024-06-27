@@ -1,4 +1,4 @@
-import React, { useState } from 'react';
+import React, { useState, useEffect } from 'react';
 import { useNavigate } from 'react-router-dom';
 import { FcHome, FcPhone, FcQuestions } from 'react-icons/fc';
 import { FaEye, FaEyeSlash } from 'react-icons/fa';
@@ -10,6 +10,13 @@ function BlogAuth({ setAuth }) {
   const [showPassword, setShowPassword] = useState(false);
   const navigate = useNavigate();
 
+  useEffect(() => {
+    const storedUsername = localStorage.getItem('BlogUsername');
+    if (storedUsername) {
+      navigate('/add-blogs');
+    }
+  }, [navigate]);
+
   const handleHomeClick = () => {
     navigate('/');
   };
@@ -20,7 +27,6 @@ function BlogAuth({ setAuth }) {
 
   const handleSubmit = (e) => {
     e.preventDefault();
-    // Hardcoded credentials
     const hardcodedUsername = 'Manish';
     const hardcodedPassword = 'Manish@12';
 
