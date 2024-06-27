@@ -11,10 +11,13 @@ function BlogDetail({ handleHomeClick, handleContactUsClick }) {
   const [loading, setLoading] = useState(true);
   const [error, setError] = useState(null);
   const [currentIndex, setCurrentIndex] = useState(0);
-  const handleBackToBlogs=()=>{
+
+  const handleBackToBlogs = () => {
     navigate('/blogs');
   }
+
   let loader = <Loader type="ball-pulse-sync" />
+
   useEffect(() => {
     const fetchBlog = async () => {
       try {
@@ -32,43 +35,50 @@ function BlogDetail({ handleHomeClick, handleContactUsClick }) {
   }, [blogTitle]);
 
   if (loading) {
-    return <div className='blogloading'>  
-                <header className='pd-nav'>
-                    <h2><img src="https://www.realtyshopee.com/static/media/Realty%20shopee%20main%20logo.db6affde1f766278cf09.png" className='pd-logo' alt='Realty-Shopee-blogs' /></h2>
-                    <button onClick={handleHomeClick}><span>Home</span><span><FcHome /></span></button>
-                    <button onClick={handleContactUsClick}><span>Contact Us</span><span><FcQuestions /></span></button>
-                    <a href="tel:+919289252999"><span>+91 9289252999</span><span><FcPhone className='phone' /></span></a>
-                 </header>
-                  <span>Loading Blog</span> {loader}
-             </div>;
+    return (
+      <div className='blogloading'>
+        <header className='pd-nav'>
+          <h2><img src="https://www.realtyshopee.com/static/media/Realty%20shopee%20main%20logo.db6affde1f766278cf09.png" className='pd-logo' alt='Realty-Shopee-blogs' /></h2>
+          <button onClick={handleHomeClick}><span>Home</span><span><FcHome /></span></button>
+          <button onClick={handleContactUsClick}><span>Contact Us</span><span><FcQuestions /></span></button>
+          <a href="tel:+919289252999"><span>+91 9289252999</span><span><FcPhone className='phone' /></span></a>
+        </header>
+        <span>Loading Blog</span> {loader}
+      </div>
+    );
   }
 
   if (error) {
-    return <div className='blognf'>
-         <header className='pd-nav'>
-        <h2><img src="https://www.realtyshopee.com/static/media/Realty%20shopee%20main%20logo.db6affde1f766278cf09.png" className='pd-logo' alt='Realty-Shopee-blogs' /></h2>
-        <button onClick={handleHomeClick}><span>Home</span><span><FcHome /></span></button>
-        <button onClick={handleContactUsClick}><span>Contact Us</span><span><FcQuestions /></span></button>
-        <a href="tel:+919289252999"><span>+91 9289252999</span><span><FcPhone className='phone' /></span></a>
-      </header>
-       <img 
-        src="https://cdn.dribbble.com/users/285475/screenshots/2083086/dribbble_1.gif" 
-        alt="404 Not Found" 
-        className="not-found-image"
-      />
-      <span onClick={handleBackToBlogs}>{error}</span></div>;
+    return (
+      <div className='blognf'>
+        <header className='pd-nav'>
+          <h2><img src="https://www.realtyshopee.com/static/media/Realty%20shopee%20main%20logo.db6affde1f766278cf09.png" className='pd-logo' alt='Realty-Shopee-blogs' /></h2>
+          <button onClick={handleHomeClick}><span>Home</span><span><FcHome /></span></button>
+          <button onClick={handleContactUsClick}><span>Contact Us</span><span><FcQuestions /></span></button>
+          <a href="tel:+919289252999"><span>+91 9289252999</span><span><FcPhone className='phone' /></span></a>
+        </header>
+        <img
+          src="https://cdn.dribbble.com/users/285475/screenshots/2083086/dribbble_1.gif"
+          alt="404 Not Found"
+          className="not-found-image"
+        />
+        <span onClick={handleBackToBlogs}>{error}</span>
+      </div>
+    );
   }
 
   if (!blog) {
-    return <div className='blognf'>
-           <header className='pd-nav'>
-        <h2><img src="https://www.realtyshopee.com/static/media/Realty%20shopee%20main%20logo.db6affde1f766278cf09.png" className='pd-logo' alt='Realty-Shopee-blogs' /></h2>
-        <button onClick={handleHomeClick}><span>Home</span><span><FcHome /></span></button>
-        <button onClick={handleContactUsClick}><span>Contact Us</span><span><FcQuestions /></span></button>
-        <a href="tel:+919289252999"><span>+91 9289252999</span><span><FcPhone className='phone' /></span></a>
-      </header>
+    return (
+      <div className='blognf'>
+        <header className='pd-nav'>
+          <h2><img src="https://www.realtyshopee.com/static/media/Realty%20shopee%20main%20logo.db6affde1f766278cf09.png" className='pd-logo' alt='Realty-Shopee-blogs' /></h2>
+          <button onClick={handleHomeClick}><span>Home</span><span><FcHome /></span></button>
+          <button onClick={handleContactUsClick}><span>Contact Us</span><span><FcQuestions /></span></button>
+          <a href="tel:+919289252999"><span>+91 9289252999</span><span><FcPhone className='phone' /></span></a>
+        </header>
         <h1>Blog not found </h1>
-      </div>;
+      </div>
+    );
   }
 
   const handleNext = () => {
@@ -91,7 +101,14 @@ function BlogDetail({ handleHomeClick, handleContactUsClick }) {
         <h1>{blog.title}</h1>
         <img src={blog.featureImage} alt={blog.title} className="blog-banner" />
         <div className="blog-content">
-          <p>{blog.description}</p>
+          {JSON.parse(blog.description).map((item, index) => (
+            item.type === 'paragraph' ? <p key={index}>{item.content}</p> :
+            item.type === 'h2' ? <h2 key={index}>{item.content}</h2> :
+            item.type === 'h3' ? <h3 key={index}>{item.content}</h3> :
+            item.type === 'h4' ? <h4 key={index}>{item.content}</h4> :
+            item.type === 'link' ? <a key={index} href={item.content}>{item.content}</a> :
+            null
+          ))}
           <p>Category: {blog.category}</p>
           <p>Tags: {blog.tags.join(', ')}</p>
           <div className='description-i-div'>

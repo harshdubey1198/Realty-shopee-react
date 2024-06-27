@@ -7,7 +7,7 @@ import { useNavigate } from 'react-router-dom';
 
 const AddBlogs = ({ auth }) => {
   const [title, setTitle] = useState('');
-  const [description, setDescription] = useState('');
+  const [description, setDescription] = useState([]);
   const [featureImage, setFeatureImage] = useState('');
   const [descriptionImages, setDescriptionImages] = useState([]);
   const [category, setCategory] = useState('');
@@ -35,7 +35,7 @@ const AddBlogs = ({ auth }) => {
     try {
       const response = await axios.post('https://realty-react-backend.onrender.com/add-blogs', {
         title,
-        description,
+        description: JSON.stringify(description),
         featureImage,
         descriptionImages: JSON.stringify(descriptionImages),
         category,
@@ -76,6 +76,30 @@ const AddBlogs = ({ auth }) => {
     });
   };
 
+  const handleInputChange = (e, index) => {
+    const { name, value } = e.target;
+    const list = [...description];
+    list[index][name] = value;
+    setDescription(list);
+  };
+
+  const handleAddInput = () => {
+    setDescription([...description, { type: 'paragraph', content: '' }]);
+  };
+
+  const handleRemoveInput = (index) => {
+    const list = [...description];
+    list.splice(index, 1);
+    setDescription(list);
+  };
+
+  const handleTypeChange = (e, index) => {
+    const { value } = e.target;
+    const list = [...description];
+    list[index].type = value;
+    setDescription(list);
+  };
+
   return (
     <div className="add-blog-container">
       <header className='pd-nav blue-nav'>
@@ -92,7 +116,24 @@ const AddBlogs = ({ auth }) => {
         </div>
         <div>
           <label>Description:</label>
-          <textarea value={description} onChange={(e) => setDescription(e.target.value)} required />
+          {description.map((item, index) => (
+            <div key={index} className='adding-description'>
+              <select value={item.type} onChange={(e) => handleTypeChange(e, index)}>
+                <option value="paragraph">Paragraph</option>
+                <option value="h2">Heading 2</option>
+                <option value="h3">Heading 3</option>
+                <option value="h4">Heading 4</option>
+                <option value="link">Link</option>
+              </select>
+              {item.type !== 'link' ? (
+                <textarea name="content" value={item.content} onChange={(e) => handleInputChange(e, index)} />
+              ) : (
+                <input type="text" name="content" value={item.content} onChange={(e) => handleInputChange(e, index)} placeholder="Enter URL" />
+              )}
+              <button type="button" onClick={() => handleRemoveInput(index)}>Remove</button>
+            </div>
+          ))}
+          <button type="button" onClick={handleAddInput}>Add Section</button>
         </div>
         <div>
           <label>Feature Image:</label>
