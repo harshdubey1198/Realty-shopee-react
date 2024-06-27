@@ -1,4 +1,4 @@
-import React from 'react';
+import React, { useState, useEffect } from 'react';
 import { Helmet } from 'react-helmet';
 import Banner from '../Components/Banner';
 import Trending from '../Components/Trending';
@@ -18,54 +18,53 @@ import DescriptionThird from '../Components/DescriptionThird';
 import ScrollToTop from '../Components/ScrollToTop';
 
 const Home = () => {
+  const [pageTitle, setPageTitle] = useState("Discover The Best Luxury Property in Gurgaon with Realty Shopee");
+  const [pageDescription, setPageDescription] = useState("Discover the best luxury property in Gurgaon with Realty Shopee. Find residential, commercial, and SCO plots properties tailored to your needs in this dynamic city.");
+  const [ogImageUrl, setOgImageUrl] = useState("https://res.cloudinary.com/dgplzytrq/image/upload/v1719493314/Description%20Images/og-home-logo.png");
+
+  useEffect(() => {
+    
+    setPageTitle("");
+    setPageDescription("");
+    setOgImageUrl("");
+  }, []);
+
   return (
     <div className='home-main'>
       <Helmet>
         <meta charSet='utf-8' />
-        <title>Discover The Best Luxury Property in Gurgaon with Realty Shopee</title>
-        <meta name="description" content="Discover the best luxury property in Gurgaon with Realty Shopee. Find residential, commercial, and SCO plots properties tailored to your needs in this dynamic city." />
+        <title>{pageTitle}</title>
+        <meta name="description" content={pageDescription} />
         <link rel="canonical" href="https://www.realtyshopee.com/" />
         <link rel="icon" href="https://www.realtyshopee.com/agent.png" />
         <meta property="og:site_name" content="Realty Shopee" />
         <meta property="og:type" content="website" />
-        <meta property="og:title" content="Discover the Best Luxury Property in Gurgaon with Realty Shopee" />
-        <meta property="og:description" content="Discover the best luxury property in Gurgaon with Realty Shopee. Find residential, commercial, and SCO plots properties tailored to your needs in this dynamic city." />
+        <meta property="og:title" content={pageTitle} />
+        <meta property="og:description" content={pageDescription} />
         <meta property="og:url" content="https://realtyshopee.com/" />
-        <meta property="og:image" content="https://res.cloudinary.com/dgplzytrq/image/upload/v1719493314/Description%20Images/og-home-logo.png" />
+        <meta property="og:image" content={ogImageUrl} />
         <meta name="twitter:card" content="summary_large_image"/>
         <meta name="twitter:site" content="Realty Shopee"/>
         <meta name="twitter:type" content="website"/>
-        <meta name="twitter:title" content="Discover the Best Luxury Property in Gurgaon with Realty Shopee"/>
-        <meta name="twitter:description" content="Discover the best luxury property in Gurgaon with Realty Shopee. Find residential, commercial, and SCO plots properties tailored to your needs in this dynamic city."/>
+        <meta name="twitter:title" content={pageTitle}/>
+        <meta name="twitter:description" content={pageDescription}/>
         <meta name="twitter:url" content="https://realtyshopee.com/" />
-        <meta name="twitter:image" content="https://res.cloudinary.com/dgplzytrq/image/upload/v1719493314/Description%20Images/og-home-logo.png" />
+        <meta name="twitter:image" content={ogImageUrl} />
       </Helmet>
       <Navbar />
       <SocialBar />
       <div id="home"><Banner /></div>
-
       <div id="descfirst"><DescriptionFirst /></div>
-
       <div id="trending"><Trending /></div>
-
       <div id="midinfo"><MiddleInfo /></div>
-
       <div id="upcoming"><UpcomingProjects /></div>
-
       <div id="descsecond"><DescriptionSecond /></div>
-      
       <div id="midform"><MidForm /></div>
-
       <div id="residential"><Residential /></div>
-
       <div id="commercial"><Commercial /></div>
-
       <div id="sco"><Sco /></div>
-
       <div id="location-wise"><LocationWise /></div>
-      
       <div id="desc-third"><DescriptionThird /></div>
-
       <div id='contact-us'><ContactUs /></div>
       <ScrollToTop/>
     </div>
