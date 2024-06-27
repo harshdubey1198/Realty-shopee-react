@@ -1978,6 +1978,7 @@ option{
     flex-direction: column;
     justify-content: space-between;
     width: 80%;
+    gap: 10px ;
   }
   form div input , textarea{
     padding: 5px;

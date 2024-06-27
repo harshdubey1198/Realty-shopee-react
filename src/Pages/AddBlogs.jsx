@@ -126,7 +126,6 @@ const AddBlogs = ({ auth }) => {
                 <option value="h2">Heading 2</option>
                 <option value="h3">Heading 3</option>
                 <option value="h4">Heading 4</option>
-                <option value="link">Link</option>
               </select>
               {item.type !== 'link' ? (
                 <textarea name="content" value={item.content} onChange={(e) => handleInputChange(e, index)} />
