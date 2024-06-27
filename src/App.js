@@ -18,12 +18,13 @@ import ResidentialProperties from './Pages/ResidentialProperties';
 import Blogs from './Pages/Blogs';
 import BlogDetail from './Pages/BlogDetail';
 import AddBlogs from './Pages/AddBlogs';
+import BlogAuth from './Components/BlogAuth';
 // import { Helmet } from 'react-helmet';
 
 function App() {
   const [showOverlay, setShowOverlay] = useState(false);
   const location = useLocation();
-
+  const [auth, setAuth] = useState(false);
   useEffect(() => {
     const timer = setTimeout(() => {
       setShowOverlay(true);
@@ -67,7 +68,8 @@ function App() {
           <Route path="/commercial-property-in-gurgaon" element={<CommercialProperties />} />
           <Route path="/residential-property-in-gurgaon" element={<ResidentialProperties />} />
           <Route path="/reset-password/:token" element={<ResetPassword />} />
-          <Route path="/add-blogs" element={<AddBlogs />} />
+          <Route path="/add-blogs" element={<AddBlogs auth={auth} />} />
+          <Route path="/login-add-blogs" element={<BlogAuth setAuth={setAuth} />} />
           <Route path="/*" element={<NotFound />} />
         </Routes>
       </div>

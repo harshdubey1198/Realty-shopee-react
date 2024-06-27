@@ -1,11 +1,11 @@
-import React, { useState } from 'react';
+import React, { useState, useEffect } from 'react';
 import axios from 'axios';
 import '../App.css';
 import logo from "../Images/Realty shopee main logo.png";
 import { FcHome, FcPhone, FcQuestions } from 'react-icons/fc';
 import { useNavigate } from 'react-router-dom';
 
-const AddBlogs = () => {
+const AddBlogs = ({ auth }) => {
   const [title, setTitle] = useState('');
   const [description, setDescription] = useState('');
   const [featureImage, setFeatureImage] = useState('');
@@ -13,6 +13,13 @@ const AddBlogs = () => {
   const [category, setCategory] = useState('');
   const [tags, setTags] = useState('');
   const navigate = useNavigate();
+
+  useEffect(() => {
+    const storedUsername = localStorage.getItem('BlogUsername');
+    if (!auth || !storedUsername) {
+      navigate('/login-add-blogs');
+    }
+  }, [auth, navigate]);
 
   const handleHomeClick = () => {
     navigate('/');
@@ -30,7 +37,7 @@ const AddBlogs = () => {
         title,
         description,
         featureImage,
-        descriptionImages: JSON.stringify(descriptionImages), // Convert to JSON string
+        descriptionImages: JSON.stringify(descriptionImages),
         category,
         tags
       }, {

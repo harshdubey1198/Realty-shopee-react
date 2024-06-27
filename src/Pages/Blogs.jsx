@@ -7,12 +7,12 @@ import "../App.css";
 import { FcHome, FcPhone, FcQuestions } from 'react-icons/fc';
 import { Helmet } from 'react-helmet';
 import ScrollToTop from '../Components/ScrollToTop';
-import Loader from 'react-loaders'
+import Loader from 'react-loaders';
 
 function Blogs() {
   const [blogs, setBlogs] = useState([]);
   const navigate = useNavigate();
-  let loader = <Loader type="ball-pulse-sync" />
+  let loader = <Loader type="ball-pulse-sync" />;
 
   useEffect(() => {
     const fetchBlogs = async () => {
@@ -55,7 +55,7 @@ function Blogs() {
             <BlogCard key={blog._id} blog={blog} />
           ))
         ) : ( 
-          <p>Blogs Loading Soon  {loader}</p>
+        <p><span className='bls'>Blogs Loading Soon</span> {loader}</p>
         )}
       </div>
     </div>
@@ -63,4 +63,3 @@ function Blogs() {
 }
 
 export default Blogs;
- 
