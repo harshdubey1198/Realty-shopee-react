@@ -6,34 +6,34 @@ import LocationCard from './LocationCard';
 const locations = [
   {
     locationName: 'Dwarka Expressway',
-    image: 'https://www.100acress.com/OtherImages/capture1.PNG', 
+    image: 'https://res.cloudinary.com/dgplzytrq/image/upload/v1719572623/Locations/dwarka-expressway-details-compressed_xpkism.jpg', 
   }, 
   {
     locationName: 'Southern Peripheral Road',
-    image: 'https://www.100acress.com/OtherImages/bgseven.PNG', 
+    image: 'https://res.cloudinary.com/dgplzytrq/image/upload/v1719572724/Locations/southern-peripheral-road_0_1200_m4crmk.jpg', 
   },
   {
     locationName: 'Golf Course Road',
-    image: 'https://www.100acress.com/OtherImages/golfCourse.jpg', 
+    image: 'https://res.cloudinary.com/dgplzytrq/image/upload/v1719573170/Locations/81403_IMG_20200130_174719228_HDR---Rajnish-Singh_600_900_rxeopi.jpg', 
   },
   {
     locationName: 'Northern Peripheral Road',
-    image: 'https://www.100acress.com/OtherImages/sikanderpur.jpg', 
+    image: 'https://res.cloudinary.com/dgplzytrq/image/upload/v1719573391/Locations/western-peripheral-expressway_1548712237_falova.jpg', 
   },{
     locationName: 'Golf Course Extn Road',
-    image: 'https://www.100acress.com/OtherImages/capture6.PNG', 
+    image: 'https://res.cloudinary.com/dgplzytrq/image/upload/v1719573335/Locations/golf-course-extension-road-gurugram_igoke3.jpg', 
   },
   {
     locationName: 'MG Road',
-    image: 'https://www.100acress.com/OtherImages/mgRoad.PNG', 
+    image: 'https://res.cloudinary.com/dgplzytrq/image/upload/v1719573464/Locations/MG-Road_d82cry.jpg', 
   },
   {
     locationName: 'New Gurgaon',
-    image: 'https://www.100acress.com/OtherImages/capture2.PNG', 
+    image: 'https://res.cloudinary.com/dgplzytrq/image/upload/v1719573588/Locations/New-Gurgaon-The-new-growth-corridor-of-National-Capital-Region-scaled_qdpruo.jpg', 
   },
   {
     locationName: 'NH-48',
-    image: 'https://www.100acress.com/OtherImages/capture5.PNG', 
+    image: 'https://res.cloudinary.com/dgplzytrq/image/upload/v1719573763/Locations/NH_48_0_1200_sh50rk.png', 
   },
 ];
 

@@ -1,22 +1,32 @@
-import React from 'react';
-import { useParams } from 'react-router-dom';
+import React, { useEffect, useState } from 'react';
+import { useNavigate, useParams } from 'react-router-dom';
 import PropertyDetail from '../Components/PropertyDetail';
-import propertyData from '../realtyshopee.json'; // Assuming you import property data from JSON file
+import propertyData from '../realtyshopee.json'; 
 import { Helmet } from 'react-helmet';
 import ScrollToTop from '../Components/ScrollToTop';
 
 function PropertyPage() {
-  const { projectName } = useParams(); // Retrieve the projectName from the URL parameters
-  const property = propertyData.data.find(item => item.projectName === projectName);
+  const { projectName } = useParams(); 
+  const navigate = useNavigate();
+  const [property, setProperty] = useState(null);
+
+  useEffect(() => {
+    const foundProperty = propertyData.data.find(item => item.projectName === projectName);
+    if (!foundProperty) {
+      console.log("not found");
+      navigate('/');
+    } else {
+      setProperty(foundProperty);
+    }
+  }, [projectName, navigate]);
 
   if (!property) {
-    console.log("not found");
-    return <div>Project not found</div>; // Handle the case where the project is not found
+    return null;
   }
 
   return (
     <div>
-       <Helmet>
+      <Helmet>
         <meta charSet='utf-8' />
         <link rel="canonical" href="https://www.realtyshopee.com/projects/:projectName" />
         <title>{projectName} - Realty Shopee</title>

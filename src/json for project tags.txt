@@ -11,38 +11,38 @@ const projectData =
   {
     "possession":"2029",
     "frontImage": {
-        "public_id": "100acre/project/f4si8cfqile0q0oiv4ub",
-        "url": "https://res.cloudinary.com/dm5yrsqdc/image/upload/v1715601354/100acre/project/f4si8cfqile0q0oiv4ub.jpg"
+        "public_id": "realtyshopee/project/f4si8cfqile0q0oiv4ub",
+        "url": "https://res.cloudinary.com/dm5yrsqdc/image/upload/v1715601354/realtyshopee/project/f4si8cfqile0q0oiv4ub.jpg"
     },
     "logo": {
-        "public_id": "100acre/project/r40ya2h42wugr0wkgux1",
-        "url": "https://res.cloudinary.com/dm5yrsqdc/image/upload/v1715601318/100acre/project/r40ya2h42wugr0wkgux1.png"
+        "public_id": "realtyshopee/project/r40ya2h42wugr0wkgux1",
+        "url": "https://res.cloudinary.com/dm5yrsqdc/image/upload/v1715601318/realtyshopee/project/r40ya2h42wugr0wkgux1.png"
     },
     "project_locationImage": {
-        "public_id": "100acre/project/cyhxhs7mcjawuhtp7rda",
-        "url": "https://res.cloudinary.com/dm5yrsqdc/image/upload/v1715601288/100acre/project/cyhxhs7mcjawuhtp7rda.jpg"
+        "public_id": "realtyshopee/project/cyhxhs7mcjawuhtp7rda",
+        "url": "https://res.cloudinary.com/dm5yrsqdc/image/upload/v1715601288/realtyshopee/project/cyhxhs7mcjawuhtp7rda.jpg"
     },
     "highlightImage": {
-        "public_id": "100acre/project/dbla5rbmnnqmqpa9jjsv",
-        "url": "https://res.cloudinary.com/dm5yrsqdc/image/upload/v1715601599/100acre/project/dbla5rbmnnqmqpa9jjsv.jpg"
+        "public_id": "realtyshopee/project/dbla5rbmnnqmqpa9jjsv",
+        "url": "https://res.cloudinary.com/dm5yrsqdc/image/upload/v1715601599/realtyshopee/project/dbla5rbmnnqmqpa9jjsv.jpg"
     },
     "projectMaster_plan": {
-        "public_id": "100acre/project/khfgyucvghcjmhbrdhhe",
-        "url": "http://res.cloudinary.com/dm5yrsqdc/image/upload/v1715601383/100acre/project/khfgyucvghcjmhbrdhhe.jpg"
+        "public_id": "realtyshopee/project/khfgyucvghcjmhbrdhhe",
+        "url": "http://res.cloudinary.com/dm5yrsqdc/image/upload/v1715601383/realtyshopee/project/khfgyucvghcjmhbrdhhe.jpg"
     },
     "_id": "663752acdf6f5a16378c95a5",
     "project_floorplan_Image": [
         {
-            "public_id": "100acre/project/bswmkcc37btprqrqj6qv",
-            "url": "https://res.cloudinary.com/dm5yrsqdc/image/upload/v1714901671/100acre/project/bswmkcc37btprqrqj6qv.jpg"
+            "public_id": "realtyshopee/project/bswmkcc37btprqrqj6qv",
+            "url": "https://res.cloudinary.com/dm5yrsqdc/image/upload/v1714901671/realtyshopee/project/bswmkcc37btprqrqj6qv.jpg"
         },
         {
-            "public_id": "100acre/project/j7zxk8spkuniouxeou5d",
-            "url": "https://res.cloudinary.com/dm5yrsqdc/image/upload/v1714901672/100acre/project/j7zxk8spkuniouxeou5d.jpg"
+            "public_id": "realtyshopee/project/j7zxk8spkuniouxeou5d",
+            "url": "https://res.cloudinary.com/dm5yrsqdc/image/upload/v1714901672/realtyshopee/project/j7zxk8spkuniouxeou5d.jpg"
         },
         {
-            "public_id": "100acre/project/wmyqravz8eplntvlagyf",
-            "url": "https://res.cloudinary.com/dm5yrsqdc/image/upload/v1714901673/100acre/project/wmyqravz8eplntvlagyf.jpg"
+            "public_id": "realtyshopee/project/wmyqravz8eplntvlagyf",
+            "url": "https://res.cloudinary.com/dm5yrsqdc/image/upload/v1714901673/realtyshopee/project/wmyqravz8eplntvlagyf.jpg"
         }
     ],
     "state": "Haryana",
@@ -78,16 +78,16 @@ const projectData =
     "project_url": "m3m-altitude",
     "projectGallery": [
         {
-            "public_id": "100acre/project/jtveoh1dzgwgeai05s8n",
-            "url": "https://res.cloudinary.com/dm5yrsqdc/image/upload/v1715601506/100acre/project/jtveoh1dzgwgeai05s8n.jpg"
+            "public_id": "realtyshopee/project/jtveoh1dzgwgeai05s8n",
+            "url": "https://res.cloudinary.com/dm5yrsqdc/image/upload/v1715601506/realtyshopee/project/jtveoh1dzgwgeai05s8n.jpg"
         },
         {
-            "public_id": "100acre/project/znqldmnn2ghf4vwveth6",
-            "url": "https://res.cloudinary.com/dm5yrsqdc/image/upload/v1715601507/100acre/project/znqldmnn2ghf4vwveth6.jpg"
+            "public_id": "realtyshopee/project/znqldmnn2ghf4vwveth6",
+            "url": "https://res.cloudinary.com/dm5yrsqdc/image/upload/v1715601507/realtyshopee/project/znqldmnn2ghf4vwveth6.jpg"
         },
         {
-            "public_id": "100acre/project/rj3utomwptzpznbftqyz",
-            "url": "https://res.cloudinary.com/dm5yrsqdc/image/upload/v1715601508/100acre/project/rj3utomwptzpznbftqyz.jpg"
+            "public_id": "realtyshopee/project/rj3utomwptzpznbftqyz",
+            "url": "https://res.cloudinary.com/dm5yrsqdc/image/upload/v1715601508/realtyshopee/project/rj3utomwptzpznbftqyz.jpg"
         }
     ],
     "BhK_Details": [
@@ -112,38 +112,38 @@ const projectData =
   {
     "possession":"2029",
     "frontImage": {
-        "public_id": "100acre/project/wp8mt1qazvejn1vsi5or",
-        "url": "https://res.cloudinary.com/dm5yrsqdc/image/upload/v1715154693/100acre/project/wp8mt1qazvejn1vsi5or.jpg"
+        "public_id": "realtyshopee/project/wp8mt1qazvejn1vsi5or",
+        "url": "https://res.cloudinary.com/dm5yrsqdc/image/upload/v1715154693/realtyshopee/project/wp8mt1qazvejn1vsi5or.jpg"
     },
     "logo": {
-        "public_id": "100acre/project/f0pay9xr6tfepvq73pls",
-        "url": "https://res.cloudinary.com/dm5yrsqdc/image/upload/v1710408084/100acre/project/f0pay9xr6tfepvq73pls.svg"
+        "public_id": "realtyshopee/project/f0pay9xr6tfepvq73pls",
+        "url": "https://res.cloudinary.com/dm5yrsqdc/image/upload/v1710408084/realtyshopee/project/f0pay9xr6tfepvq73pls.svg"
     },
     "project_locationImage": {
-        "public_id": "100acre/project/vwg4lfvw4xjntd9ce8m2",
-        "url": "https://res.cloudinary.com/dm5yrsqdc/image/upload/v1710408088/100acre/project/vwg4lfvw4xjntd9ce8m2.jpg"
+        "public_id": "realtyshopee/project/vwg4lfvw4xjntd9ce8m2",
+        "url": "https://res.cloudinary.com/dm5yrsqdc/image/upload/v1710408088/realtyshopee/project/vwg4lfvw4xjntd9ce8m2.jpg"
     },
     "highlightImage": {
-        "public_id": "100acre/project/slxw0equmpmktfsswffe",
-        "url": "https://res.cloudinary.com/dm5yrsqdc/image/upload/v1714540222/100acre/project/slxw0equmpmktfsswffe.jpg"
+        "public_id": "realtyshopee/project/slxw0equmpmktfsswffe",
+        "url": "https://res.cloudinary.com/dm5yrsqdc/image/upload/v1714540222/realtyshopee/project/slxw0equmpmktfsswffe.jpg"
     },
     "projectMaster_plan": {
-        "public_id": "100acre/project/yupsuttstatn6hid97tx",
-        "url": "http://res.cloudinary.com/dm5yrsqdc/image/upload/v1714540568/100acre/project/yupsuttstatn6hid97tx.jpg"
+        "public_id": "realtyshopee/project/yupsuttstatn6hid97tx",
+        "url": "http://res.cloudinary.com/dm5yrsqdc/image/upload/v1714540568/realtyshopee/project/yupsuttstatn6hid97tx.jpg"
     },
     "_id": "65f2c19f7e1280ea133fc457",
     "project_floorplan_Image": [
         {
-            "public_id": "100acre/project/ny5kuo6gaqeugmyjnnyc",
-            "url": "https://res.cloudinary.com/dm5yrsqdc/image/upload/v1710408089/100acre/project/ny5kuo6gaqeugmyjnnyc.jpg"
+            "public_id": "realtyshopee/project/ny5kuo6gaqeugmyjnnyc",
+            "url": "https://res.cloudinary.com/dm5yrsqdc/image/upload/v1710408089/realtyshopee/project/ny5kuo6gaqeugmyjnnyc.jpg"
         },
         {
-            "public_id": "100acre/project/vhh3ijhk9g9wqxi7a4we",
-            "url": "https://res.cloudinary.com/dm5yrsqdc/image/upload/v1710408091/100acre/project/vhh3ijhk9g9wqxi7a4we.jpg"
+            "public_id": "realtyshopee/project/vhh3ijhk9g9wqxi7a4we",
+            "url": "https://res.cloudinary.com/dm5yrsqdc/image/upload/v1710408091/realtyshopee/project/vhh3ijhk9g9wqxi7a4we.jpg"
         },
         {
-            "public_id": "100acre/project/y7u3njkqibvbaztee5ri",
-            "url": "https://res.cloudinary.com/dm5yrsqdc/image/upload/v1710408092/100acre/project/y7u3njkqibvbaztee5ri.jpg"
+            "public_id": "realtyshopee/project/y7u3njkqibvbaztee5ri",
+            "url": "https://res.cloudinary.com/dm5yrsqdc/image/upload/v1710408092/realtyshopee/project/y7u3njkqibvbaztee5ri.jpg"
         }
     ],
     "state": "Haryana",
@@ -178,20 +178,20 @@ const projectData =
     "project_url": "ganga-realty-sector-85",
     "projectGallery": [
         {
-            "public_id": "100acre/project/sduo7uujzewyq7slqvrs",
-            "url": "https://res.cloudinary.com/dm5yrsqdc/image/upload/v1714540448/100acre/project/sduo7uujzewyq7slqvrs.jpg"
+            "public_id": "realtyshopee/project/sduo7uujzewyq7slqvrs",
+            "url": "https://res.cloudinary.com/dm5yrsqdc/image/upload/v1714540448/realtyshopee/project/sduo7uujzewyq7slqvrs.jpg"
         },
         {
-            "public_id": "100acre/project/zad1omiuzeobnzlms5vy",
-            "url": "https://res.cloudinary.com/dm5yrsqdc/image/upload/v1714540450/100acre/project/zad1omiuzeobnzlms5vy.jpg"
+            "public_id": "realtyshopee/project/zad1omiuzeobnzlms5vy",
+            "url": "https://res.cloudinary.com/dm5yrsqdc/image/upload/v1714540450/realtyshopee/project/zad1omiuzeobnzlms5vy.jpg"
         },
         {
-            "public_id": "100acre/project/kbw4ziixyeqcnfhnaads",
-            "url": "https://res.cloudinary.com/dm5yrsqdc/image/upload/v1714540451/100acre/project/kbw4ziixyeqcnfhnaads.jpg"
+            "public_id": "realtyshopee/project/kbw4ziixyeqcnfhnaads",
+            "url": "https://res.cloudinary.com/dm5yrsqdc/image/upload/v1714540451/realtyshopee/project/kbw4ziixyeqcnfhnaads.jpg"
         },
         {
-            "public_id": "100acre/project/vypywindklaeflbt20de",
-            "url": "https://res.cloudinary.com/dm5yrsqdc/image/upload/v1714540452/100acre/project/vypywindklaeflbt20de.jpg"
+            "public_id": "realtyshopee/project/vypywindklaeflbt20de",
+            "url": "https://res.cloudinary.com/dm5yrsqdc/image/upload/v1714540452/realtyshopee/project/vypywindklaeflbt20de.jpg"
         }
     ],
     "BhK_Details": [
@@ -257,51 +257,51 @@ const projectData =
     "city": "Gurgaon",
     "possession":"2029",
     "frontImage": {
-      "url": "https://res.cloudinary.com/dm5yrsqdc/image/upload/v1710335188/100acre/project/rjbyezexaazo80wih4nt.jpg"
+      "url": "https://res.cloudinary.com/dm5yrsqdc/image/upload/v1710335188/realtyshopee/project/rjbyezexaazo80wih4nt.jpg"
     }
   },
   {
     "frontImage": {
-        "public_id": "100acre/project/r9ogecjzjckzyzkonezl",
+        "public_id": "realtyshopee/project/r9ogecjzjckzyzkonezl",
         "url": "https://res.cloudinary.com/dgplzytrq/image/upload/v1716555467/Omaxe19B/fsshjjpg4asp21r0b3bn.jpg_piwyjg.jpg"
     },
     "logo": {
-        "public_id": "100acre/project/fu2ugzvbiniqe9sbm66c",
-        "url": "https://res.cloudinary.com/dm5yrsqdc/image/upload/v1712833222/100acre/project/fu2ugzvbiniqe9sbm66c.png"
+        "public_id": "realtyshopee/project/fu2ugzvbiniqe9sbm66c",
+        "url": "https://res.cloudinary.com/dm5yrsqdc/image/upload/v1712833222/realtyshopee/project/fu2ugzvbiniqe9sbm66c.png"
     },
     "project_locationImage": {
-        "public_id": "100acre/project/tjoqjtmsbivylso2x6qr",
-        "url": "https://res.cloudinary.com/dm5yrsqdc/image/upload/v1714995608/100acre/project/tjoqjtmsbivylso2x6qr.jpg"
+        "public_id": "realtyshopee/project/tjoqjtmsbivylso2x6qr",
+        "url": "https://res.cloudinary.com/dm5yrsqdc/image/upload/v1714995608/realtyshopee/project/tjoqjtmsbivylso2x6qr.jpg"
     },
     "highlightImage": {
-        "public_id": "100acre/project/dzutjo3rnhwkxckrsgws",
-        "url": "https://res.cloudinary.com/dm5yrsqdc/image/upload/v1714995808/100acre/project/dzutjo3rnhwkxckrsgws.jpg"
+        "public_id": "realtyshopee/project/dzutjo3rnhwkxckrsgws",
+        "url": "https://res.cloudinary.com/dm5yrsqdc/image/upload/v1714995808/realtyshopee/project/dzutjo3rnhwkxckrsgws.jpg"
     },
     "projectMaster_plan": {
-        "public_id": "100acre/project/sejlormwdamgrki8pw6w",
-        "url": "http://res.cloudinary.com/dm5yrsqdc/image/upload/v1714995676/100acre/project/sejlormwdamgrki8pw6w.jpg"
+        "public_id": "realtyshopee/project/sejlormwdamgrki8pw6w",
+        "url": "http://res.cloudinary.com/dm5yrsqdc/image/upload/v1714995676/realtyshopee/project/sejlormwdamgrki8pw6w.jpg"
     },
     "_id": "6617c2cf0dbd2ab11644eb96",
     "project_floorplan_Image": [
         {
-            "public_id": "100acre/project/ewcxkste4vt1padwkb27",
-            "url": "https://res.cloudinary.com/dm5yrsqdc/image/upload/v1714995740/100acre/project/ewcxkste4vt1padwkb27.jpg"
+            "public_id": "realtyshopee/project/ewcxkste4vt1padwkb27",
+            "url": "https://res.cloudinary.com/dm5yrsqdc/image/upload/v1714995740/realtyshopee/project/ewcxkste4vt1padwkb27.jpg"
         },
         {
-            "public_id": "100acre/project/tahkwq4dpop6skqzyahy",
-            "url": "https://res.cloudinary.com/dm5yrsqdc/image/upload/v1714995741/100acre/project/tahkwq4dpop6skqzyahy.jpg"
+            "public_id": "realtyshopee/project/tahkwq4dpop6skqzyahy",
+            "url": "https://res.cloudinary.com/dm5yrsqdc/image/upload/v1714995741/realtyshopee/project/tahkwq4dpop6skqzyahy.jpg"
         },
         {
-            "public_id": "100acre/project/rkteafhac1w6xruexw4p",
-            "url": "https://res.cloudinary.com/dm5yrsqdc/image/upload/v1714995742/100acre/project/rkteafhac1w6xruexw4p.jpg"
+            "public_id": "realtyshopee/project/rkteafhac1w6xruexw4p",
+            "url": "https://res.cloudinary.com/dm5yrsqdc/image/upload/v1714995742/realtyshopee/project/rkteafhac1w6xruexw4p.jpg"
         },
         {
-            "public_id": "100acre/project/fcvnndikplcb99dumqml",
-            "url": "https://res.cloudinary.com/dm5yrsqdc/image/upload/v1714995744/100acre/project/fcvnndikplcb99dumqml.jpg"
+            "public_id": "realtyshopee/project/fcvnndikplcb99dumqml",
+            "url": "https://res.cloudinary.com/dm5yrsqdc/image/upload/v1714995744/realtyshopee/project/fcvnndikplcb99dumqml.jpg"
         },
         {
-            "public_id": "100acre/project/vonnpg211nsg9atnsxc8",
-            "url": "https://res.cloudinary.com/dm5yrsqdc/image/upload/v1714995745/100acre/project/vonnpg211nsg9atnsxc8.jpg"
+            "public_id": "realtyshopee/project/vonnpg211nsg9atnsxc8",
+            "url": "https://res.cloudinary.com/dm5yrsqdc/image/upload/v1714995745/realtyshopee/project/vonnpg211nsg9atnsxc8.jpg"
         }
     ],
     "state": "New Delhi",
@@ -344,20 +344,20 @@ const projectData =
     "project_url": "omaxe-dwarka",
     "projectGallery": [
         {
-            "public_id": "100acre/project/fsshjjpg4asp21r0b3bn",
-            "url": "https://res.cloudinary.com/dm5yrsqdc/image/upload/v1714995896/100acre/project/fsshjjpg4asp21r0b3bn.jpg"
+            "public_id": "realtyshopee/project/fsshjjpg4asp21r0b3bn",
+            "url": "https://res.cloudinary.com/dm5yrsqdc/image/upload/v1714995896/realtyshopee/project/fsshjjpg4asp21r0b3bn.jpg"
         },
         {
-            "public_id": "100acre/project/ivytzbdn2rrnkkacypdz",
-            "url": "https://res.cloudinary.com/dm5yrsqdc/image/upload/v1714995897/100acre/project/ivytzbdn2rrnkkacypdz.jpg"
+            "public_id": "realtyshopee/project/ivytzbdn2rrnkkacypdz",
+            "url": "https://res.cloudinary.com/dm5yrsqdc/image/upload/v1714995897/realtyshopee/project/ivytzbdn2rrnkkacypdz.jpg"
         },
         {
-            "public_id": "100acre/project/sht9adqpmgsdqneepykn",
-            "url": "https://res.cloudinary.com/dm5yrsqdc/image/upload/v1714995898/100acre/project/sht9adqpmgsdqneepykn.jpg"
+            "public_id": "realtyshopee/project/sht9adqpmgsdqneepykn",
+            "url": "https://res.cloudinary.com/dm5yrsqdc/image/upload/v1714995898/realtyshopee/project/sht9adqpmgsdqneepykn.jpg"
         },
         {
-            "public_id": "100acre/project/kedunsdqmpj2hvefq3eo",
-            "url": "https://res.cloudinary.com/dm5yrsqdc/image/upload/v1714995899/100acre/project/kedunsdqmpj2hvefq3eo.jpg"
+            "public_id": "realtyshopee/project/kedunsdqmpj2hvefq3eo",
+            "url": "https://res.cloudinary.com/dm5yrsqdc/image/upload/v1714995899/realtyshopee/project/kedunsdqmpj2hvefq3eo.jpg"
         }
     ],
     "BhK_Details": [
@@ -423,46 +423,46 @@ const projectData =
 },
 {
     "frontImage": {
-        "public_id": "100acre/project/r9ogecjzjckzyzkonezl",
+        "public_id": "realtyshopee/project/r9ogecjzjckzyzkonezl",
         "url": "https://res.cloudinary.com/dgplzytrq/image/upload/v1716619813/Ganga-Realty-Nandaka/bannerImage_wijhay.jpg"
     },
     "logo": {
-        "public_id": "100acre/project/fu2ugzvbiniqe9sbm66c",
-        "url": "https://res.cloudinary.com/dm5yrsqdc/image/upload/v1712833222/100acre/project/fu2ugzvbiniqe9sbm66c.png"
+        "public_id": "realtyshopee/project/fu2ugzvbiniqe9sbm66c",
+        "url": "https://res.cloudinary.com/dm5yrsqdc/image/upload/v1712833222/realtyshopee/project/fu2ugzvbiniqe9sbm66c.png"
     },
     "project_locationImage": {
-        "public_id": "100acre/project/tjoqjtmsbivylso2x6qr",
-        "url": "https://res.cloudinary.com/dm5yrsqdc/image/upload/v1714995608/100acre/project/tjoqjtmsbivylso2x6qr.jpg"
+        "public_id": "realtyshopee/project/tjoqjtmsbivylso2x6qr",
+        "url": "https://res.cloudinary.com/dm5yrsqdc/image/upload/v1714995608/realtyshopee/project/tjoqjtmsbivylso2x6qr.jpg"
     },
     "highlightImage": {
-        "public_id": "100acre/project/dzutjo3rnhwkxckrsgws",
-        "url": "https://res.cloudinary.com/dm5yrsqdc/image/upload/v1714995808/100acre/project/dzutjo3rnhwkxckrsgws.jpg"
+        "public_id": "realtyshopee/project/dzutjo3rnhwkxckrsgws",
+        "url": "https://res.cloudinary.com/dm5yrsqdc/image/upload/v1714995808/realtyshopee/project/dzutjo3rnhwkxckrsgws.jpg"
     },
     "projectMaster_plan": {
-        "public_id": "100acre/project/sejlormwdamgrki8pw6w",
-        "url": "http://res.cloudinary.com/dm5yrsqdc/image/upload/v1714995676/100acre/project/sejlormwdamgrki8pw6w.jpg"
+        "public_id": "realtyshopee/project/sejlormwdamgrki8pw6w",
+        "url": "http://res.cloudinary.com/dm5yrsqdc/image/upload/v1714995676/realtyshopee/project/sejlormwdamgrki8pw6w.jpg"
     },
     "_id": "6617c2cf0dbd2ab11644eb96",
     "project_floorplan_Image": [
         {
-            "public_id": "100acre/project/ewcxkste4vt1padwkb27",
-            "url": "https://res.cloudinary.com/dm5yrsqdc/image/upload/v1714995740/100acre/project/ewcxkste4vt1padwkb27.jpg"
+            "public_id": "realtyshopee/project/ewcxkste4vt1padwkb27",
+            "url": "https://res.cloudinary.com/dm5yrsqdc/image/upload/v1714995740/realtyshopee/project/ewcxkste4vt1padwkb27.jpg"
         },
         {
-            "public_id": "100acre/project/tahkwq4dpop6skqzyahy",
-            "url": "https://res.cloudinary.com/dm5yrsqdc/image/upload/v1714995741/100acre/project/tahkwq4dpop6skqzyahy.jpg"
+            "public_id": "realtyshopee/project/tahkwq4dpop6skqzyahy",
+            "url": "https://res.cloudinary.com/dm5yrsqdc/image/upload/v1714995741/realtyshopee/project/tahkwq4dpop6skqzyahy.jpg"
         },
         {
-            "public_id": "100acre/project/rkteafhac1w6xruexw4p",
-            "url": "https://res.cloudinary.com/dm5yrsqdc/image/upload/v1714995742/100acre/project/rkteafhac1w6xruexw4p.jpg"
+            "public_id": "realtyshopee/project/rkteafhac1w6xruexw4p",
+            "url": "https://res.cloudinary.com/dm5yrsqdc/image/upload/v1714995742/realtyshopee/project/rkteafhac1w6xruexw4p.jpg"
         },
         {
-            "public_id": "100acre/project/fcvnndikplcb99dumqml",
-            "url": "https://res.cloudinary.com/dm5yrsqdc/image/upload/v1714995744/100acre/project/fcvnndikplcb99dumqml.jpg"
+            "public_id": "realtyshopee/project/fcvnndikplcb99dumqml",
+            "url": "https://res.cloudinary.com/dm5yrsqdc/image/upload/v1714995744/realtyshopee/project/fcvnndikplcb99dumqml.jpg"
         },
         {
-            "public_id": "100acre/project/vonnpg211nsg9atnsxc8",
-            "url": "https://res.cloudinary.com/dm5yrsqdc/image/upload/v1714995745/100acre/project/vonnpg211nsg9atnsxc8.jpg"
+            "public_id": "realtyshopee/project/vonnpg211nsg9atnsxc8",
+            "url": "https://res.cloudinary.com/dm5yrsqdc/image/upload/v1714995745/realtyshopee/project/vonnpg211nsg9atnsxc8.jpg"
         }
     ],
     "state": "Haryana",
@@ -505,20 +505,20 @@ const projectData =
     "project_url": "nandaka-dwarka",
     "projectGallery": [
         {
-            "public_id": "100acre/project/fsshjjpg4asp21r0b3bn",
-            "url": "https://res.cloudinary.com/dm5yrsqdc/image/upload/v1714995896/100acre/project/fsshjjpg4asp21r0b3bn.jpg"
+            "public_id": "realtyshopee/project/fsshjjpg4asp21r0b3bn",
+            "url": "https://res.cloudinary.com/dm5yrsqdc/image/upload/v1714995896/realtyshopee/project/fsshjjpg4asp21r0b3bn.jpg"
         },
         {
-            "public_id": "100acre/project/ivytzbdn2rrnkkacypdz",
-            "url": "https://res.cloudinary.com/dm5yrsqdc/image/upload/v1714995897/100acre/project/ivytzbdn2rrnkkacypdz.jpg"
+            "public_id": "realtyshopee/project/ivytzbdn2rrnkkacypdz",
+            "url": "https://res.cloudinary.com/dm5yrsqdc/image/upload/v1714995897/realtyshopee/project/ivytzbdn2rrnkkacypdz.jpg"
         },
         {
-            "public_id": "100acre/project/sht9adqpmgsdqneepykn",
-            "url": "https://res.cloudinary.com/dm5yrsqdc/image/upload/v1714995898/100acre/project/sht9adqpmgsdqneepykn.jpg"
+            "public_id": "realtyshopee/project/sht9adqpmgsdqneepykn",
+            "url": "https://res.cloudinary.com/dm5yrsqdc/image/upload/v1714995898/realtyshopee/project/sht9adqpmgsdqneepykn.jpg"
         },
         {
-            "public_id": "100acre/project/kedunsdqmpj2hvefq3eo",
-            "url": "https://res.cloudinary.com/dm5yrsqdc/image/upload/v1714995899/100acre/project/kedunsdqmpj2hvefq3eo.jpg"
+            "public_id": "realtyshopee/project/kedunsdqmpj2hvefq3eo",
+            "url": "https://res.cloudinary.com/dm5yrsqdc/image/upload/v1714995899/realtyshopee/project/kedunsdqmpj2hvefq3eo.jpg"
         }
     ],
     "BhK_Details": [
@@ -584,46 +584,46 @@ const projectData =
 },
 {
     "frontImage": {
-        "public_id": "100acre/project/r9ogecjzjckzyzkonezl",
+        "public_id": "realtyshopee/project/r9ogecjzjckzyzkonezl",
         "url": "https://www.aiplprojects.in/aipl-assets/images/aipl-joy-gallery/gallery-3.webp"
     },
     "logo": {
-        "public_id": "100acre/project/fu2ugzvbiniqe9sbm66c",
-        "url": "https://res.cloudinary.com/dm5yrsqdc/image/upload/v1712833222/100acre/project/fu2ugzvbiniqe9sbm66c.png"
+        "public_id": "realtyshopee/project/fu2ugzvbiniqe9sbm66c",
+        "url": "https://res.cloudinary.com/dm5yrsqdc/image/upload/v1712833222/realtyshopee/project/fu2ugzvbiniqe9sbm66c.png"
     },
     "project_locationImage": {
-        "public_id": "100acre/project/tjoqjtmsbivylso2x6qr",
-        "url": "https://res.cloudinary.com/dm5yrsqdc/image/upload/v1714995608/100acre/project/tjoqjtmsbivylso2x6qr.jpg"
+        "public_id": "realtyshopee/project/tjoqjtmsbivylso2x6qr",
+        "url": "https://res.cloudinary.com/dm5yrsqdc/image/upload/v1714995608/realtyshopee/project/tjoqjtmsbivylso2x6qr.jpg"
     },
     "highlightImage": {
-        "public_id": "100acre/project/dzutjo3rnhwkxckrsgws",
-        "url": "https://res.cloudinary.com/dm5yrsqdc/image/upload/v1714995808/100acre/project/dzutjo3rnhwkxckrsgws.jpg"
+        "public_id": "realtyshopee/project/dzutjo3rnhwkxckrsgws",
+        "url": "https://res.cloudinary.com/dm5yrsqdc/image/upload/v1714995808/realtyshopee/project/dzutjo3rnhwkxckrsgws.jpg"
     },
     "projectMaster_plan": {
-        "public_id": "100acre/project/sejlormwdamgrki8pw6w",
-        "url": "http://res.cloudinary.com/dm5yrsqdc/image/upload/v1714995676/100acre/project/sejlormwdamgrki8pw6w.jpg"
+        "public_id": "realtyshopee/project/sejlormwdamgrki8pw6w",
+        "url": "http://res.cloudinary.com/dm5yrsqdc/image/upload/v1714995676/realtyshopee/project/sejlormwdamgrki8pw6w.jpg"
     },
     "_id": "6617c2cf0dbd2ab11644eb96",
     "project_floorplan_Image": [
         {
-            "public_id": "100acre/project/ewcxkste4vt1padwkb27",
-            "url": "https://res.cloudinary.com/dm5yrsqdc/image/upload/v1714995740/100acre/project/ewcxkste4vt1padwkb27.jpg"
+            "public_id": "realtyshopee/project/ewcxkste4vt1padwkb27",
+            "url": "https://res.cloudinary.com/dm5yrsqdc/image/upload/v1714995740/realtyshopee/project/ewcxkste4vt1padwkb27.jpg"
         },
         {
-            "public_id": "100acre/project/tahkwq4dpop6skqzyahy",
-            "url": "https://res.cloudinary.com/dm5yrsqdc/image/upload/v1714995741/100acre/project/tahkwq4dpop6skqzyahy.jpg"
+            "public_id": "realtyshopee/project/tahkwq4dpop6skqzyahy",
+            "url": "https://res.cloudinary.com/dm5yrsqdc/image/upload/v1714995741/realtyshopee/project/tahkwq4dpop6skqzyahy.jpg"
         },
         {
-            "public_id": "100acre/project/rkteafhac1w6xruexw4p",
-            "url": "https://res.cloudinary.com/dm5yrsqdc/image/upload/v1714995742/100acre/project/rkteafhac1w6xruexw4p.jpg"
+            "public_id": "realtyshopee/project/rkteafhac1w6xruexw4p",
+            "url": "https://res.cloudinary.com/dm5yrsqdc/image/upload/v1714995742/realtyshopee/project/rkteafhac1w6xruexw4p.jpg"
         },
         {
-            "public_id": "100acre/project/fcvnndikplcb99dumqml",
-            "url": "https://res.cloudinary.com/dm5yrsqdc/image/upload/v1714995744/100acre/project/fcvnndikplcb99dumqml.jpg"
+            "public_id": "realtyshopee/project/fcvnndikplcb99dumqml",
+            "url": "https://res.cloudinary.com/dm5yrsqdc/image/upload/v1714995744/realtyshopee/project/fcvnndikplcb99dumqml.jpg"
         },
         {
-            "public_id": "100acre/project/vonnpg211nsg9atnsxc8",
-            "url": "https://res.cloudinary.com/dm5yrsqdc/image/upload/v1714995745/100acre/project/vonnpg211nsg9atnsxc8.jpg"
+            "public_id": "realtyshopee/project/vonnpg211nsg9atnsxc8",
+            "url": "https://res.cloudinary.com/dm5yrsqdc/image/upload/v1714995745/realtyshopee/project/vonnpg211nsg9atnsxc8.jpg"
         }
     ],
     "state": "Haryana",
@@ -666,20 +666,20 @@ const projectData =
     "project_url": "omaxe-dwarka",
     "projectGallery": [
         {
-            "public_id": "100acre/project/fsshjjpg4asp21r0b3bn",
-            "url": "https://res.cloudinary.com/dm5yrsqdc/image/upload/v1714995896/100acre/project/fsshjjpg4asp21r0b3bn.jpg"
+            "public_id": "realtyshopee/project/fsshjjpg4asp21r0b3bn",
+            "url": "https://res.cloudinary.com/dm5yrsqdc/image/upload/v1714995896/realtyshopee/project/fsshjjpg4asp21r0b3bn.jpg"
         },
         {
-            "public_id": "100acre/project/ivytzbdn2rrnkkacypdz",
-            "url": "https://res.cloudinary.com/dm5yrsqdc/image/upload/v1714995897/100acre/project/ivytzbdn2rrnkkacypdz.jpg"
+            "public_id": "realtyshopee/project/ivytzbdn2rrnkkacypdz",
+            "url": "https://res.cloudinary.com/dm5yrsqdc/image/upload/v1714995897/realtyshopee/project/ivytzbdn2rrnkkacypdz.jpg"
         },
         {
-            "public_id": "100acre/project/sht9adqpmgsdqneepykn",
-            "url": "https://res.cloudinary.com/dm5yrsqdc/image/upload/v1714995898/100acre/project/sht9adqpmgsdqneepykn.jpg"
+            "public_id": "realtyshopee/project/sht9adqpmgsdqneepykn",
+            "url": "https://res.cloudinary.com/dm5yrsqdc/image/upload/v1714995898/realtyshopee/project/sht9adqpmgsdqneepykn.jpg"
         },
         {
-            "public_id": "100acre/project/kedunsdqmpj2hvefq3eo",
-            "url": "https://res.cloudinary.com/dm5yrsqdc/image/upload/v1714995899/100acre/project/kedunsdqmpj2hvefq3eo.jpg"
+            "public_id": "realtyshopee/project/kedunsdqmpj2hvefq3eo",
+            "url": "https://res.cloudinary.com/dm5yrsqdc/image/upload/v1714995899/realtyshopee/project/kedunsdqmpj2hvefq3eo.jpg"
         }
     ],
     "BhK_Details": [
@@ -745,46 +745,46 @@ const projectData =
 },
 {
     "frontImage": {
-        "public_id": "100acre/project/r9ogecjzjckzyzkonezl",
+        "public_id": "realtyshopee/project/r9ogecjzjckzyzkonezl",
         "url": "https://res.cloudinary.com/dgplzytrq/image/upload/v1716625012/SS-Whitewater/Project-Photo-4-SS-Whitewater-Gurgaon-5419149_778_1200_310_462_tvsqk3.jpg"
     },
     "logo": {
-        "public_id": "100acre/project/fu2ugzvbiniqe9sbm66c",
-        "url": "https://res.cloudinary.com/dm5yrsqdc/image/upload/v1712833222/100acre/project/fu2ugzvbiniqe9sbm66c.png"
+        "public_id": "realtyshopee/project/fu2ugzvbiniqe9sbm66c",
+        "url": "https://res.cloudinary.com/dm5yrsqdc/image/upload/v1712833222/realtyshopee/project/fu2ugzvbiniqe9sbm66c.png"
     },
     "project_locationImage": {
-        "public_id": "100acre/project/tjoqjtmsbivylso2x6qr",
-        "url": "https://res.cloudinary.com/dm5yrsqdc/image/upload/v1714995608/100acre/project/tjoqjtmsbivylso2x6qr.jpg"
+        "public_id": "realtyshopee/project/tjoqjtmsbivylso2x6qr",
+        "url": "https://res.cloudinary.com/dm5yrsqdc/image/upload/v1714995608/realtyshopee/project/tjoqjtmsbivylso2x6qr.jpg"
     },
     "highlightImage": {
-        "public_id": "100acre/project/dzutjo3rnhwkxckrsgws",
-        "url": "https://res.cloudinary.com/dm5yrsqdc/image/upload/v1714995808/100acre/project/dzutjo3rnhwkxckrsgws.jpg"
+        "public_id": "realtyshopee/project/dzutjo3rnhwkxckrsgws",
+        "url": "https://res.cloudinary.com/dm5yrsqdc/image/upload/v1714995808/realtyshopee/project/dzutjo3rnhwkxckrsgws.jpg"
     },
     "projectMaster_plan": {
-        "public_id": "100acre/project/sejlormwdamgrki8pw6w",
-        "url": "http://res.cloudinary.com/dm5yrsqdc/image/upload/v1714995676/100acre/project/sejlormwdamgrki8pw6w.jpg"
+        "public_id": "realtyshopee/project/sejlormwdamgrki8pw6w",
+        "url": "http://res.cloudinary.com/dm5yrsqdc/image/upload/v1714995676/realtyshopee/project/sejlormwdamgrki8pw6w.jpg"
     },
     "_id": "6617c2cf0dbd2ab11644eb96",
     "project_floorplan_Image": [
         {
-            "public_id": "100acre/project/ewcxkste4vt1padwkb27",
-            "url": "https://res.cloudinary.com/dm5yrsqdc/image/upload/v1714995740/100acre/project/ewcxkste4vt1padwkb27.jpg"
+            "public_id": "realtyshopee/project/ewcxkste4vt1padwkb27",
+            "url": "https://res.cloudinary.com/dm5yrsqdc/image/upload/v1714995740/realtyshopee/project/ewcxkste4vt1padwkb27.jpg"
         },
         {
-            "public_id": "100acre/project/tahkwq4dpop6skqzyahy",
-            "url": "https://res.cloudinary.com/dm5yrsqdc/image/upload/v1714995741/100acre/project/tahkwq4dpop6skqzyahy.jpg"
+            "public_id": "realtyshopee/project/tahkwq4dpop6skqzyahy",
+            "url": "https://res.cloudinary.com/dm5yrsqdc/image/upload/v1714995741/realtyshopee/project/tahkwq4dpop6skqzyahy.jpg"
         },
         {
-            "public_id": "100acre/project/rkteafhac1w6xruexw4p",
-            "url": "https://res.cloudinary.com/dm5yrsqdc/image/upload/v1714995742/100acre/project/rkteafhac1w6xruexw4p.jpg"
+            "public_id": "realtyshopee/project/rkteafhac1w6xruexw4p",
+            "url": "https://res.cloudinary.com/dm5yrsqdc/image/upload/v1714995742/realtyshopee/project/rkteafhac1w6xruexw4p.jpg"
         },
         {
-            "public_id": "100acre/project/fcvnndikplcb99dumqml",
-            "url": "https://res.cloudinary.com/dm5yrsqdc/image/upload/v1714995744/100acre/project/fcvnndikplcb99dumqml.jpg"
+            "public_id": "realtyshopee/project/fcvnndikplcb99dumqml",
+            "url": "https://res.cloudinary.com/dm5yrsqdc/image/upload/v1714995744/realtyshopee/project/fcvnndikplcb99dumqml.jpg"
         },
         {
-            "public_id": "100acre/project/vonnpg211nsg9atnsxc8",
-            "url": "https://res.cloudinary.com/dm5yrsqdc/image/upload/v1714995745/100acre/project/vonnpg211nsg9atnsxc8.jpg"
+            "public_id": "realtyshopee/project/vonnpg211nsg9atnsxc8",
+            "url": "https://res.cloudinary.com/dm5yrsqdc/image/upload/v1714995745/realtyshopee/project/vonnpg211nsg9atnsxc8.jpg"
         }
     ],
     "state": "Haryana",
@@ -827,20 +827,20 @@ const projectData =
     "project_url": "ss-whitewater",
     "projectGallery": [
         {
-            "public_id": "100acre/project/fsshjjpg4asp21r0b3bn",
-            "url": "https://res.cloudinary.com/dm5yrsqdc/image/upload/v1714995896/100acre/project/fsshjjpg4asp21r0b3bn.jpg"
+            "public_id": "realtyshopee/project/fsshjjpg4asp21r0b3bn",
+            "url": "https://res.cloudinary.com/dm5yrsqdc/image/upload/v1714995896/realtyshopee/project/fsshjjpg4asp21r0b3bn.jpg"
         },
         {
-            "public_id": "100acre/project/ivytzbdn2rrnkkacypdz",
-            "url": "https://res.cloudinary.com/dm5yrsqdc/image/upload/v1714995897/100acre/project/ivytzbdn2rrnkkacypdz.jpg"
+            "public_id": "realtyshopee/project/ivytzbdn2rrnkkacypdz",
+            "url": "https://res.cloudinary.com/dm5yrsqdc/image/upload/v1714995897/realtyshopee/project/ivytzbdn2rrnkkacypdz.jpg"
         },
         {
-            "public_id": "100acre/project/sht9adqpmgsdqneepykn",
-            "url": "https://res.cloudinary.com/dm5yrsqdc/image/upload/v1714995898/100acre/project/sht9adqpmgsdqneepykn.jpg"
+            "public_id": "realtyshopee/project/sht9adqpmgsdqneepykn",
+            "url": "https://res.cloudinary.com/dm5yrsqdc/image/upload/v1714995898/realtyshopee/project/sht9adqpmgsdqneepykn.jpg"
         },
         {
-            "public_id": "100acre/project/kedunsdqmpj2hvefq3eo",
-            "url": "https://res.cloudinary.com/dm5yrsqdc/image/upload/v1714995899/100acre/project/kedunsdqmpj2hvefq3eo.jpg"
+            "public_id": "realtyshopee/project/kedunsdqmpj2hvefq3eo",
+            "url": "https://res.cloudinary.com/dm5yrsqdc/image/upload/v1714995899/realtyshopee/project/kedunsdqmpj2hvefq3eo.jpg"
         }
     ],
     "BhK_Details": [
@@ -915,34 +915,34 @@ const projectData =
 
         {
             "frontImage": {
-                "public_id": "100acre/project/qdd9da5rqdy9pz3fhhkm",
-                "url": "https://res.cloudinary.com/dm5yrsqdc/image/upload/v1719131907/100acre/project/qdd9da5rqdy9pz3fhhkm.jpg"
+                "public_id": "realtyshopee/project/qdd9da5rqdy9pz3fhhkm",
+                "url": "https://res.cloudinary.com/dm5yrsqdc/image/upload/v1719131907/realtyshopee/project/qdd9da5rqdy9pz3fhhkm.jpg"
             },
             "logo": {
-                "public_id": "100acre/project/vzcgpdmdxdqyqssm64pj",
-                "url": "https://res.cloudinary.com/dm5yrsqdc/image/upload/v1719131904/100acre/project/vzcgpdmdxdqyqssm64pj.svg"
+                "public_id": "realtyshopee/project/vzcgpdmdxdqyqssm64pj",
+                "url": "https://res.cloudinary.com/dm5yrsqdc/image/upload/v1719131904/realtyshopee/project/vzcgpdmdxdqyqssm64pj.svg"
             },
             "project_locationImage": {
-                "public_id": "100acre/project/yzvknhmytnkdmxuhmydo",
-                "url": "https://res.cloudinary.com/dm5yrsqdc/image/upload/v1719131908/100acre/project/yzvknhmytnkdmxuhmydo.jpg"
+                "public_id": "realtyshopee/project/yzvknhmytnkdmxuhmydo",
+                "url": "https://res.cloudinary.com/dm5yrsqdc/image/upload/v1719131908/realtyshopee/project/yzvknhmytnkdmxuhmydo.jpg"
             },
             "highlightImage": {
-                "public_id": "100acre/project/g9wlomuhr8f3ygu6mkfc",
-                "url": "https://res.cloudinary.com/dm5yrsqdc/image/upload/v1719131911/100acre/project/g9wlomuhr8f3ygu6mkfc.jpg"
+                "public_id": "realtyshopee/project/g9wlomuhr8f3ygu6mkfc",
+                "url": "https://res.cloudinary.com/dm5yrsqdc/image/upload/v1719131911/realtyshopee/project/g9wlomuhr8f3ygu6mkfc.jpg"
             },
             "projectMaster_plan": {
-                "public_id": "100acre/project/qr9ihxf3isn6vbrku20s",
-                "url": "http://res.cloudinary.com/dm5yrsqdc/image/upload/v1719131916/100acre/project/qr9ihxf3isn6vbrku20s.jpg"
+                "public_id": "realtyshopee/project/qr9ihxf3isn6vbrku20s",
+                "url": "http://res.cloudinary.com/dm5yrsqdc/image/upload/v1719131916/realtyshopee/project/qr9ihxf3isn6vbrku20s.jpg"
             },
             "_id": "6677df0c3a8e09e5c966b737",
             "project_floorplan_Image": [
                 {
-                    "public_id": "100acre/project/ikxhksgjiq3jkjtcicyb",
-                    "url": "https://res.cloudinary.com/dm5yrsqdc/image/upload/v1719131909/100acre/project/ikxhksgjiq3jkjtcicyb.jpg"
+                    "public_id": "realtyshopee/project/ikxhksgjiq3jkjtcicyb",
+                    "url": "https://res.cloudinary.com/dm5yrsqdc/image/upload/v1719131909/realtyshopee/project/ikxhksgjiq3jkjtcicyb.jpg"
                 },
                 {
-                    "public_id": "100acre/project/v7y5abstjgp3rpzretny",
-                    "url": "https://res.cloudinary.com/dm5yrsqdc/image/upload/v1719131910/100acre/project/v7y5abstjgp3rpzretny.jpg"
+                    "public_id": "realtyshopee/project/v7y5abstjgp3rpzretny",
+                    "url": "https://res.cloudinary.com/dm5yrsqdc/image/upload/v1719131910/realtyshopee/project/v7y5abstjgp3rpzretny.jpg"
                 }
             ],
             "state": "Haryana",
@@ -983,20 +983,20 @@ const projectData =
             "project_url": "ganga-realty-anantam",
             "projectGallery": [
                 {
-                    "public_id": "100acre/project/bv9w0prxsfnnixettndt",
-                    "url": "https://res.cloudinary.com/dm5yrsqdc/image/upload/v1719131912/100acre/project/bv9w0prxsfnnixettndt.jpg"
+                    "public_id": "realtyshopee/project/bv9w0prxsfnnixettndt",
+                    "url": "https://res.cloudinary.com/dm5yrsqdc/image/upload/v1719131912/realtyshopee/project/bv9w0prxsfnnixettndt.jpg"
                 },
                 {
-                    "public_id": "100acre/project/usxscil7i4bgcggaylja",
-                    "url": "https://res.cloudinary.com/dm5yrsqdc/image/upload/v1719131913/100acre/project/usxscil7i4bgcggaylja.jpg"
+                    "public_id": "realtyshopee/project/usxscil7i4bgcggaylja",
+                    "url": "https://res.cloudinary.com/dm5yrsqdc/image/upload/v1719131913/realtyshopee/project/usxscil7i4bgcggaylja.jpg"
                 },
                 {
-                    "public_id": "100acre/project/ebwiegnmbxpxmccvysfs",
-                    "url": "https://res.cloudinary.com/dm5yrsqdc/image/upload/v1719131914/100acre/project/ebwiegnmbxpxmccvysfs.jpg"
+                    "public_id": "realtyshopee/project/ebwiegnmbxpxmccvysfs",
+                    "url": "https://res.cloudinary.com/dm5yrsqdc/image/upload/v1719131914/realtyshopee/project/ebwiegnmbxpxmccvysfs.jpg"
                 },
                 {
-                    "public_id": "100acre/project/jbe7x0wwdu2tvvtcvqfy",
-                    "url": "https://res.cloudinary.com/dm5yrsqdc/image/upload/v1719131914/100acre/project/jbe7x0wwdu2tvvtcvqfy.jpg"
+                    "public_id": "realtyshopee/project/jbe7x0wwdu2tvvtcvqfy",
+                    "url": "https://res.cloudinary.com/dm5yrsqdc/image/upload/v1719131914/realtyshopee/project/jbe7x0wwdu2tvvtcvqfy.jpg"
                 }
             ],
             "towerNumber": 3,
@@ -1064,34 +1064,34 @@ const projectData =
 
          {
             "frontImage": {
-                "public_id": "100acre/project/evev7ld7wc76vaaachsv",
-                "url": "https://res.cloudinary.com/dm5yrsqdc/image/upload/v1710567629/100acre/project/evev7ld7wc76vaaachsv.jpg"
+                "public_id": "realtyshopee/project/evev7ld7wc76vaaachsv",
+                "url": "https://res.cloudinary.com/dm5yrsqdc/image/upload/v1710567629/realtyshopee/project/evev7ld7wc76vaaachsv.jpg"
             },
             "logo": {
-                "public_id": "100acre/project/arooin3qy1ttny5wyfet",
-                "url": "https://res.cloudinary.com/dm5yrsqdc/image/upload/v1710567628/100acre/project/arooin3qy1ttny5wyfet.png"
+                "public_id": "realtyshopee/project/arooin3qy1ttny5wyfet",
+                "url": "https://res.cloudinary.com/dm5yrsqdc/image/upload/v1710567628/realtyshopee/project/arooin3qy1ttny5wyfet.png"
             },
             "project_locationImage": {
-                "public_id": "100acre/project/ranqugkrapwkshzgpfyr",
-                "url": "https://res.cloudinary.com/dm5yrsqdc/image/upload/v1710567630/100acre/project/ranqugkrapwkshzgpfyr.jpg"
+                "public_id": "realtyshopee/project/ranqugkrapwkshzgpfyr",
+                "url": "https://res.cloudinary.com/dm5yrsqdc/image/upload/v1710567630/realtyshopee/project/ranqugkrapwkshzgpfyr.jpg"
             },
             "highlightImage": {
-                "public_id": "100acre/project/gzkka7ney5ojeb4fkmcd",
-                "url": "https://res.cloudinary.com/dm5yrsqdc/image/upload/v1710567635/100acre/project/gzkka7ney5ojeb4fkmcd.jpg"
+                "public_id": "realtyshopee/project/gzkka7ney5ojeb4fkmcd",
+                "url": "https://res.cloudinary.com/dm5yrsqdc/image/upload/v1710567635/realtyshopee/project/gzkka7ney5ojeb4fkmcd.jpg"
             },
             "projectMaster_plan": {
-                "public_id": "100acre/project/y8lvbhsfgkawhse0m7kx",
-                "url": "http://res.cloudinary.com/dm5yrsqdc/image/upload/v1710567639/100acre/project/y8lvbhsfgkawhse0m7kx.jpg"
+                "public_id": "realtyshopee/project/y8lvbhsfgkawhse0m7kx",
+                "url": "http://res.cloudinary.com/dm5yrsqdc/image/upload/v1710567639/realtyshopee/project/y8lvbhsfgkawhse0m7kx.jpg"
             },
             "_id": "65f530d88074594ad0465991",
             "project_floorplan_Image": [
                 {
-                    "public_id": "100acre/project/h51wewklm3n9b3vmjbgh",
-                    "url": "https://res.cloudinary.com/dm5yrsqdc/image/upload/v1710570233/100acre/project/h51wewklm3n9b3vmjbgh.jpg"
+                    "public_id": "realtyshopee/project/h51wewklm3n9b3vmjbgh",
+                    "url": "https://res.cloudinary.com/dm5yrsqdc/image/upload/v1710570233/realtyshopee/project/h51wewklm3n9b3vmjbgh.jpg"
                 },
                 {
-                    "public_id": "100acre/project/p8lw2wpdj5zjzgruxugu",
-                    "url": "https://res.cloudinary.com/dm5yrsqdc/image/upload/v1710570234/100acre/project/p8lw2wpdj5zjzgruxugu.jpg"
+                    "public_id": "realtyshopee/project/p8lw2wpdj5zjzgruxugu",
+                    "url": "https://res.cloudinary.com/dm5yrsqdc/image/upload/v1710570234/realtyshopee/project/p8lw2wpdj5zjzgruxugu.jpg"
                 }
             ],
             "state": "Haryana",
@@ -1127,16 +1127,16 @@ const projectData =
             "project_url": "dlf-privana-north",
             "projectGallery": [
                 {
-                    "public_id": "100acre/project/vx0uglgwryjtyfb5uq5y",
-                    "url": "https://res.cloudinary.com/dm5yrsqdc/image/upload/v1710567636/100acre/project/vx0uglgwryjtyfb5uq5y.jpg"
+                    "public_id": "realtyshopee/project/vx0uglgwryjtyfb5uq5y",
+                    "url": "https://res.cloudinary.com/dm5yrsqdc/image/upload/v1710567636/realtyshopee/project/vx0uglgwryjtyfb5uq5y.jpg"
                 },
                 {
-                    "public_id": "100acre/project/hzcbo5ltvlcfzvxfynpd",
-                    "url": "https://res.cloudinary.com/dm5yrsqdc/image/upload/v1710567637/100acre/project/hzcbo5ltvlcfzvxfynpd.jpg"
+                    "public_id": "realtyshopee/project/hzcbo5ltvlcfzvxfynpd",
+                    "url": "https://res.cloudinary.com/dm5yrsqdc/image/upload/v1710567637/realtyshopee/project/hzcbo5ltvlcfzvxfynpd.jpg"
                 },
                 {
-                    "public_id": "100acre/project/noievprqo9kmalm128tv",
-                    "url": "https://res.cloudinary.com/dm5yrsqdc/image/upload/v1710567638/100acre/project/noievprqo9kmalm128tv.jpg"
+                    "public_id": "realtyshopee/project/noievprqo9kmalm128tv",
+                    "url": "https://res.cloudinary.com/dm5yrsqdc/image/upload/v1710567638/realtyshopee/project/noievprqo9kmalm128tv.jpg"
                 }
             ],
             "BhK_Details": [
