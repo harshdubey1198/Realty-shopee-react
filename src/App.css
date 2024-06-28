@@ -1919,6 +1919,8 @@ option{
   gap: 20px;
   justify-content: center;
   padding: 20px;
+  align-items: center;
+  min-height: 90vh;
 }
 .blog-card{
   background: #daedff;
@@ -1953,15 +1955,55 @@ option{
 }
 .blog-div{
   margin-top: 60px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  
 }
+.blog-content{
+display: flex;
+flex-direction: column;
+align-items: center;
+margin-bottom: 40px;
+p{
+  padding: 0 20px !important;
+}
+}
+.blog-div h1{
+  width: 70%;
+}
+.blog-div h1,h2,h3,h4{
+  text-align: center;
+  color: #1b4a7c;
+}
+.blog-div p{
+  width: 80%;
+  padding: 20px;
+  }
+.blog-div .blog-d-banner{
+  width: 90%;
+  border-radius: 20px;
+  animation: arriveImage 1.2s ease-in-out;
+  outline: 4px solid #1b4a7c;
+}
+@keyframes arriveImage {
+  0% {
+    
+    opacity: 0;
+  }
+  100% {
+    transform: translateY(0);
+    opacity: 1;
+  }
 
-
+}
 .add-blog-container{
   display: flex;
   align-items: center;
   justify-content: center;
   flex-direction: column;
   min-height: 90vh;
+  margin-top: 30px;
   form{
     padding: 20px 0;
     min-height: 500px;
@@ -2075,7 +2117,7 @@ option{
   div{
     display: flex;
     gap: 10px;
-    width: 265px;
+    width: 245px;
     justify-content: space-between;
     align-items: center;
     color: #1b4a7c;

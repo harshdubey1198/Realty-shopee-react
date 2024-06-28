@@ -150,11 +150,11 @@ function BlogDetail() {
       </header>
       <div className='blog-div'>
         <h1>{blog.title}</h1>
-        <img src={blog.featureImage} alt={blog.title} className="blog-banner" />
+        <img src={blog.featureImage} alt={blog.title} className="blog-d-banner" />
         <div className="blog-content">
           {renderContent()}
-          <p>Category: {blog.category}</p>
-          <p>Tags: {blog.tags.join(', ')}</p>
+          <p><b>Category:</b> {blog.category}</p>
+          <p><b>Tags:</b> {blog.tags.join(', ')}</p>
           <div className='description-i-div'>
             <button onClick={handlePrev} className='prev-button'>Previous</button>
             {blog.descriptionImages && blog.descriptionImages.length > 0 && (
