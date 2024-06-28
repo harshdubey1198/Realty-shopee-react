@@ -4,7 +4,7 @@ import { HiLocationMarker } from "react-icons/hi";
 import CountUp from "react-countup";
 import { motion } from "framer-motion";
 import heroImage from "../Images/ProjectImages/M3M-Altitude/M3M-Altitude-image-1.webp";
-import projectsData from '../data100acress.json';
+import projectsData from '../realtyshopee.json';
 import { useNavigate } from 'react-router-dom';
 
 const Banner = () => {

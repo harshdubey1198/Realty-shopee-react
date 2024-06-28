@@ -2,7 +2,7 @@
 import React from 'react';
 import { useNavigate, useParams } from 'react-router-dom';
 import PropertyCard from './PropertyCard';
-import projectsData from '../data100acress.json'; 
+import projectsData from '../realtyshopee.json'; 
 import '../App.css';
 import ScrollToTop from './ScrollToTop';
 function LocationList() {

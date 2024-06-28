@@ -1,7 +1,7 @@
 import React from 'react';
 import { useParams } from 'react-router-dom';
 import PropertyDetail from '../Components/PropertyDetail';
-import propertyData from '../data100acress.json'; // Assuming you import property data from JSON file
+import propertyData from '../realtyshopee.json'; // Assuming you import property data from JSON file
 import { Helmet } from 'react-helmet';
 import ScrollToTop from '../Components/ScrollToTop';
 
@@ -23,7 +23,7 @@ function PropertyPage() {
         <link rel="icon" href="https://www.realtyshopee.com/agent.png" />
         <meta name="description" content="This is a description of the project page"/>
       </Helmet>
-      <ScrollToTop/>
+      <ScrollToTop />
       <PropertyDetail property={property} />
     </div>
   );

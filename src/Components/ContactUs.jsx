@@ -1,6 +1,6 @@
 import React, { useState, useRef, useEffect } from "react";
 import "../App.css";
-import projectsData from "../data100acress.json";
+import projectsData from "../realtyshopee.json";
 
 function ContactUs() {
   const [suggestions, setSuggestions] = useState([]);

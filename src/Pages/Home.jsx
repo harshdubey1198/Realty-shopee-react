@@ -20,26 +20,26 @@ import ScrollToTop from '../Components/ScrollToTop';
 const Home = () => {
   return (
     <div className='home-main'>
-      <Helmet>
-        <meta charSet='utf-8' />
-        <title>Discover The Best Luxury Property in Gurgaon with Realty Shopee</title>
-        <meta name="description" content="Discover the best luxury property in Gurgaon with Realty Shopee. Find residential, commercial, and SCO plots properties tailored to your needs in this dynamic city." />
-        <link rel="canonical" href="https://www.realtyshopee.com/" />
-        <link rel="icon" href="https://www.realtyshopee.com/agent.png" />
-        <meta property="og:site_name" content="Realty Shopee" />
-        <meta property="og:type" content="website" />
-        <meta property="og:title" content="Discover the Best Luxury Property in Gurgaon with Realty Shopee" />
-        <meta property="og:description" content="Discover the best luxury property in Gurgaon with Realty Shopee. Find residential, commercial, and SCO plots properties tailored to your needs in this dynamic city." />
-        <meta property="og:url" content="https://realtyshopee.com/" />
-        <meta property="og:image" content="https://res.cloudinary.com/dgplzytrq/image/upload/v1719493314/Description%20Images/og-home-logo.png" />
-        <meta name="twitter:card" content="summary_large_image"/>
-        <meta name="twitter:site" content="Realty Shopee"/>
-        <meta name="twitter:type" content="website"/>
-        <meta name="twitter:title" content="Discover the Best Luxury Property in Gurgaon with Realty Shopee"/>
-        <meta name="twitter:description" content="Discover the best luxury property in Gurgaon with Realty Shopee. Find residential, commercial, and SCO plots properties tailored to your needs in this dynamic city."/>
-        <meta name="twitter:url" content="https://realtyshopee.com/" />
-        <meta name="twitter:image" content="https://res.cloudinary.com/dgplzytrq/image/upload/v1719493314/Description%20Images/og-home-logo.png" />
-      </Helmet>
+        <Helmet>
+          <meta charSet='utf-8' />
+          <title>Discover The Best Luxury Property in Gurgaon with Realty Shopee</title>
+          <meta name="description" content="Discover the best luxury property in Gurgaon with Realty Shopee. Find residential, commercial, and SCO plots properties tailored to your needs in this dynamic city." />
+          <link rel="canonical" href="https://www.realtyshopee.com/" />
+          <link rel="icon" href="https://www.realtyshopee.com/agent.png" />
+          <meta property="og:site_name" content="Realty Shopee" />
+          <meta property="og:type" content="website" />
+          <meta property="og:title" content="Discover the Best Luxury Property in Gurgaon with Realty Shopee" />
+          <meta property="og:description" content="Discover the best luxury property in Gurgaon with Realty Shopee. Find residential, commercial, and SCO plots properties tailored to your needs in this dynamic city." />
+          <meta property="og:url" content="https://realtyshopee.com/" />
+          <meta property="og:image" content="https://res.cloudinary.com/dgplzytrq/image/upload/v1719493314/Description%20Images/og-home-logo.png" />
+          <meta name="twitter:card" content="summary_large_image"/>
+          <meta name="twitter:site" content="Realty Shopee"/>
+          <meta name="twitter:type" content="website"/>
+          <meta name="twitter:title" content="Discover the Best Luxury Property in Gurgaon with Realty Shopee"/>
+          <meta name="twitter:description" content="Discover the best luxury property in Gurgaon with Realty Shopee. Find residential, commercial, and SCO plots properties tailored to your needs in this dynamic city."/>
+          <meta name="twitter:url" content="https://realtyshopee.com/" />
+          <meta name="twitter:image" content="https://res.cloudinary.com/dgplzytrq/image/upload/v1719493314/Description%20Images/og-home-logo.png" />
+        </Helmet>
       <Navbar />
       <SocialBar />
       <div id="home"><Banner /></div>

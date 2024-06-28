@@ -2,7 +2,7 @@
     import PropertyCard from '../Components/PropertyCard'; 
     import { Link, useNavigate } from 'react-router-dom';
     import logoImage from "../Images/Realty shopee main logo.png";
-    import projectData from "../data100acress.json";
+    import projectData from "../realtyshopee.json";
     import '../App.css'; 
     import { Helmet } from 'react-helmet';
 import ScrollToTop from '../Components/ScrollToTop';
