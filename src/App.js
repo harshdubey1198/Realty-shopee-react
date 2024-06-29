@@ -19,6 +19,9 @@ import Blogs from './Pages/Blogs';
 import BlogDetail from './Pages/BlogDetail';
 import AddBlogs from './Pages/AddBlogs';
 import BlogAuth from './Components/BlogAuth';
+import EditBlog from './Pages/EditBlog';
+import BlogTable from './Components/BlogTable'; // Import BlogTable component
+import BlogManager from './Components/BlogManager';
 
 function App() {
   const [showOverlay, setShowOverlay] = useState(false);
@@ -68,7 +71,10 @@ function App() {
           <Route path="/residential-property-in-gurgaon" element={<ResidentialProperties />} />
           <Route path="/reset-password/:token" element={<ResetPassword />} />
           <Route path="/add-blogs" element={<AddBlogs auth={auth} />} />
+          <Route path="/edit-blog" element={<BlogManager auth={auth} />} />
+          <Route path="/edit-blog/:blogTitle" element={<EditBlog auth={auth} />} />
           <Route path="/login-add-blogs" element={<BlogAuth setAuth={setAuth} />} />
+          <Route path="/blog-table" element={<BlogTable />} /> {/* Add BlogTable route */}
           <Route path="/*" element={<NotFound />} />
         </Routes>
       </div>

@@ -309,9 +309,9 @@ app.get('/blogs', async (req, res) => {
 });
 app.get('/blogs/:blogTitle', async (req, res) => {
     try {
-        const blogTitle = req.params.blogTitle.replace(/-/g, ' ');
+        const blogTitle = decodeURIComponent(req.params.blogTitle).replace(/-/g, ' ');
         const blogCollection = db.collection('blogs');
-        const blog = await blogCollection.findOne({ title: blogTitle });
+        const blog = await blogCollection.findOne({ title: { $regex: new RegExp(`^${blogTitle}$`, 'i') } });
         if (!blog) {
             res.status(404).json({ message: 'Blog not found' });
         } else {
@@ -321,7 +321,110 @@ app.get('/blogs/:blogTitle', async (req, res) => {
         console.error('Fetch Blog Error:', error);
         res.status(500).json({ message: 'An error occurred. Please try again.' });
     }
+});
+
+
+// Add CRUD routes for blogs
+app.post('/blogs', upload.none(), async (req, res) => {
+    try {
+        const { title, description, featureImage, descriptionImages, category, tags, username } = req.body;
+        const blogCollection = db.collection('blogs');
+
+        const newBlog = {
+            title,
+            description,
+            featureImage,
+            descriptionImages: JSON.parse(descriptionImages),
+            category,
+            tags: tags.split(','),
+            username,
+            createdAt: new Date()
+        };
+
+        await blogCollection.insertOne(newBlog);
+        res.status(201).json({ message: 'Blog created successfully' });
+    } catch (error) {
+        console.error('Add Blog Error:', error);
+        res.status(500).json({ message: 'An error occurred. Please try again.' });
+    }
+});
+
+app.get('/blogs', async (req, res) => {
+    try {
+        const blogCollection = db.collection('blogs');
+        const blogs = await blogCollection.find().toArray();
+        res.status(200).json(blogs);
+    } catch (error) {
+        console.error('Fetch Blogs Error:', error);
+        res.status(500).json({ message: 'An error occurred. Please try again.' });
+    }
+});
+
+app.get('/blogs/:id', async (req, res) => {
+    try {
+        const { id } = req.params;
+        const blogCollection = db.collection('blogs');
+        const blog = await blogCollection.findOne({ _id: new ObjectId(id) });
+        if (!blog) {
+            res.status(404).json({ message: 'Blog not found' });
+        } else {
+            res.status(200).json(blog);
+        }
+    } catch (error) {
+        console.error('Fetch Blog Error:', error);
+        res.status(500).json({ message: 'An error occurred. Please try again.' });
+    }
+});
+
+app.put('/blogs/:id', upload.none(), async (req, res) => {
+    try {
+        const { id } = req.params;
+        const { title, description, featureImage, descriptionImages, category, tags, username } = req.body;
+        const blogCollection = db.collection('blogs');
+
+        const updatedBlog = {
+            title,
+            description,
+            featureImage,
+            descriptionImages: JSON.parse(descriptionImages),
+            category,
+            tags: tags.split(','),
+            username,
+            updatedAt: new Date()
+        };
+
+        const result = await blogCollection.updateOne(
+            { _id: new ObjectId(id) },
+            { $set: updatedBlog }
+        );
+
+        if (result.matchedCount === 0) {
+            res.status(404).json({ message: 'Blog not found' });
+        } else {
+            res.status(200).json({ message: 'Blog updated successfully' });
+        }
+    } catch (error) {
+        console.error('Update Blog Error:', error);
+        res.status(500).json({ message: 'An error occurred. Please try again.' });
+    }
 }); 
+
+app.delete('/blogs/:id', async (req, res) => {
+    try {
+        const { id } = req.params;
+        const blogCollection = db.collection('blogs');
+        const result = await blogCollection.deleteOne({ _id: new ObjectId(id) });
+        if (result.deletedCount === 0) {
+            res.status(404).json({ message: 'Blog not found' });
+        } else {
+            res.status(200).json({ message: 'Blog deleted successfully' });
+        }
+    } catch (error) {
+        console.error('Delete Blog Error:', error);
+        res.status(500).json({ message: 'An error occurred. Please try again.' });
+    }
+});
+
 // Query routes
 app.post('/query-form', async (req, res) => {
     try {
