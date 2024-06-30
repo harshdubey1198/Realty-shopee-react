@@ -1,5 +1,6 @@
 import React, { useState, useEffect } from 'react';
 import axios from 'axios';
+import '../App.css'
 import { Link, useNavigate } from 'react-router-dom';
 
 const BlogTable = () => {
@@ -26,10 +27,10 @@ const BlogTable = () => {
     };
 
     return (
-        <div>
+        <div className='blog-table'>
             <h1>Blog List</h1>
             <Link to="/add-blogs">Create New Blog</Link>
-            <table>
+            <table className='blog-table'>
                 <thead>
                     <tr>
                         <th>Title</th>
@@ -46,7 +47,7 @@ const BlogTable = () => {
                             <td>{blog.category}</td>
                             <td>{blog.tags}</td>
                             <td>
-                            <button onClick={() => navigate(`/edit-blog/${encodeURIComponent(blog.title)}`)}>Edit</button>
+                            <button onClick={() => navigate(`/edit-blogs/${encodeURIComponent(blog.title)}`)}>Edit</button>
                             <button onClick={() => handleDelete(blog.title)}>Delete</button>
                             </td>
                         </tr>

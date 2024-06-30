@@ -15,7 +15,7 @@ const BlogManager = () => {
   const [title, setTitle] = useState('');
   const [description, setDescription] = useState([]);
   const [featureImage, setFeatureImage] = useState('');
-  const [descriptionImages, setDescriptionImages] = useState([]);
+  // const [descriptionImages, setDescriptionImages] = useState([]);
   const [category, setCategory] = useState('');
   const [tags, setTags] = useState('');
 
@@ -53,9 +53,9 @@ const BlogManager = () => {
       setTitle(response.data.title);
       setDescription(JSON.parse(response.data.description));
       setFeatureImage(response.data.featureImage);
-      setDescriptionImages(JSON.parse(response.data.descriptionImages));
+      // setDescriptionImages(JSON.parse(response.data.descriptionImages));
       setCategory(response.data.category);
-      setTags(response.data.tags);
+      setTags(response.data.tags.join(', ')); // Join tags array into a string for input field
     } catch (error) {
       console.error('Error fetching blog:', error);
     }
@@ -91,25 +91,28 @@ const BlogManager = () => {
     e.preventDefault();
 
     try {
-      const response = await axios.put(`https://realty-react-backend.onrender.com/blogs/${blogTitle}`, {
-        title,
-        description: JSON.stringify(description),
-        featureImage,
-        descriptionImages: JSON.stringify(descriptionImages),
-        category,
-        tags
-      }, {
-        headers: {
-          'Content-Type': 'application/json'
-        }
-      });
-      console.log(response.data);
-      setIsEditing(false);
-      fetchBlogs();
+        const response = await axios.put(`https://realty-react-backend.onrender.com/blogs/${blog._id}`, {
+            title,
+            description: JSON.stringify(description),
+            featureImage,
+            // descriptionImages: JSON.stringify(descriptionImages),
+            category,
+            tags, // Directly use the array
+        }, {
+            headers: {
+                'Content-Type': 'application/json'
+            }
+        });
+
+        console.log(response.data);
+        setIsEditing(false);
+        fetchBlogs();
     } catch (error) {
-      console.error('Error updating blog:', error);
+        console.error('Error updating blog:', error);
     }
-  };
+};
+
+
 
   const handleFeatureImageChange = (e) => {
     const file = e.target.files[0];
@@ -118,22 +121,6 @@ const BlogManager = () => {
       setFeatureImage(reader.result);
     };
     reader.readAsDataURL(file);
-  };
-
-  const handleDescriptionImageChange = (e) => {
-    const files = Array.from(e.target.files);
-    const newImages = [];
-
-    files.forEach(file => {
-      const reader = new FileReader();
-      reader.onloadend = () => {
-        newImages.push(reader.result);
-        if (newImages.length === files.length) {
-          setDescriptionImages(prevImages => [...prevImages, ...newImages]);
-        }
-      };
-      reader.readAsDataURL(file);
-    });
   };
 
   const handleInputChange = (e, index) => {
@@ -175,7 +162,7 @@ const BlogManager = () => {
       </header>
 
       {!isEditing ? (
-        <div>
+        <div className='blog-m-div'>
           <h1>Blog List</h1>
           <button onClick={() => navigate('/add-blogs')}>Create New Blog</button>
           <table>
@@ -183,16 +170,16 @@ const BlogManager = () => {
               <tr>
                 <th>Title</th>
                 <th>Category</th>
-                <th>Tags</th>
+                {/* <th>Tags</th> */}
                 <th>Actions</th>
               </tr>
             </thead>
             <tbody>
               {blogs.map(blog => (
                 <tr key={blog._id}>
-                  <td>{blog.title.slice(0, 45)}</td>
+                  <td>{blog.title}</td>
                   <td>{blog.category}</td>
-                  <td>{blog.tags}</td>
+                  {/* <td>{blog.tags}</td> */}
                   <td>
                     <button onClick={() => handleEditClick(blog.title)}>Edit</button>
                     <button onClick={() => handleDelete(blog._id)}>Delete</button>
@@ -203,7 +190,7 @@ const BlogManager = () => {
           </table>
         </div>
       ) : (
-        <div>
+        <div className='editor-section'>
           <h2>Edit Your Blog</h2>
           <form onSubmit={handleSubmit}>
             <div>
@@ -234,10 +221,7 @@ const BlogManager = () => {
               <label>Feature Image:</label>
               <input type="file" onChange={handleFeatureImageChange} />
             </div>
-            <div>
-              <label>Images in Description:</label>
-              <input type="file" multiple onChange={handleDescriptionImageChange} />
-            </div>
+           
             <div>
               <label>Category:</label>
               <input type="text" value={category} onChange={(e) => setCategory(e.target.value)} required />
@@ -246,7 +230,7 @@ const BlogManager = () => {
               <label>Tags:</label>
               <input type="text" value={tags} onChange={(e) => setTags(e.target.value)} required />
             </div>
-            <button type="submit">Update Blog</button>
+            <button type="submit" className='btn-update'>Update Blog</button>
           </form>
         </div>
       )}

@@ -71,7 +71,7 @@ function App() {
           <Route path="/residential-property-in-gurgaon" element={<ResidentialProperties />} />
           <Route path="/reset-password/:token" element={<ResetPassword />} />
           <Route path="/add-blogs" element={<AddBlogs auth={auth} />} />
-          <Route path="/edit-blog" element={<BlogManager auth={auth} />} />
+          <Route path="/edit-blogs" element={<BlogManager auth={auth} />} />
           <Route path="/edit-blog/:blogTitle" element={<EditBlog auth={auth} />} />
           <Route path="/login-add-blogs" element={<BlogAuth setAuth={setAuth} />} />
           <Route path="/blog-table" element={<BlogTable />} /> {/* Add BlogTable route */}

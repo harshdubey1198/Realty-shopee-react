@@ -30,7 +30,9 @@ const AddBlogs = ({ auth }) => {
   const handleContactUsClick = () => {
     navigate('/contactus');
   };
-
+  const handleEditBlogs =()=>{
+    navigate('/edit-blogs');
+  }
   const handleSubmit = async (e) => {
     e.preventDefault();
 
@@ -154,6 +156,7 @@ const AddBlogs = ({ auth }) => {
           <input type="text" value={tags} onChange={(e) => setTags(e.target.value)} required />
         </div>
         <button type="submit">Add Blog</button>
+        <button onClick={handleEditBlogs}>Edit Blogs </button>
       </form>
     </div>
   );

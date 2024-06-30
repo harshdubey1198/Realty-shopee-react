@@ -10,7 +10,7 @@ function BlogDetail() {
   const [blog, setBlog] = useState(null);
   const [loading, setLoading] = useState(true);
   const [error, setError] = useState(null);
-  const [currentIndex, setCurrentIndex] = useState(0);
+  // const [currentIndex, setCurrentIndex] = useState(0);
 
   const handleBackToBlogs = () => {
     navigate('/blogs');
@@ -44,13 +44,13 @@ function BlogDetail() {
     navigate('/blogs');
   }
  
-  const handlePrev = () => {
-    setCurrentIndex((prevIndex) => (prevIndex - 1 + blog.descriptionImages.length) % blog.descriptionImages.length);
-  };
+  // const handlePrev = () => {
+  //   setCurrentIndex((prevIndex) => (prevIndex - 1 + blog.descriptionImages.length) % blog.descriptionImages.length);
+  // };
 
-  const handleNext = () => {
-    setCurrentIndex((prevIndex) => (prevIndex + 1) % blog.descriptionImages.length);
-  };
+  // const handleNext = () => {
+  //   setCurrentIndex((prevIndex) => (prevIndex + 1) % blog.descriptionImages.length);
+  // };
 
   if (loading) {
     return (
@@ -155,7 +155,7 @@ function BlogDetail() {
           {renderContent()}
           <p><b>Category:</b> {blog.category}</p>
           <p><b>Tags:</b> {blog.tags.join(', ')}</p>
-          <div className='description-i-div'>
+          {/* <div className='description-i-div'>
             <button onClick={handlePrev} className='prev-button'>Previous</button>
             {blog.descriptionImages && blog.descriptionImages.length > 0 && (
               <img
@@ -165,7 +165,7 @@ function BlogDetail() {
               />
             )}
             <button onClick={handleNext} className='next-button'>Next</button>
-          </div>
+          </div> */}
         </div>
       </div>
     </div>
