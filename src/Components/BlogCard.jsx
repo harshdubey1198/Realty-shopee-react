@@ -1,5 +1,6 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
+import truncate from 'html-truncate';
 
 function BlogCard({ blog }) {
   const getFirstHeadingAndParagraph = (description) => {
@@ -19,21 +20,19 @@ function BlogCard({ blog }) {
   };
 
   const truncateContent = (content, maxWords) => {
-    const words = content.split(' ');
-    if (words.length > maxWords) {
-      return words.slice(0, maxWords).join(' ') + '...';
-    }
-    return content;
+    const truncated = truncate(content, maxWords * 7); // Approximate word length with some buffer
+    return truncated.length < content.length ? truncated + '...' : truncated;
   };
 
   const truncatedTitle = truncateContent(blog.title, 15);
   const { firstParagraph } = getFirstHeadingAndParagraph(JSON.parse(blog.description));
+  const truncatedParagraph = truncateContent(firstParagraph, 30);
 
   return (
     <div className="blog-card">
       <img src={blog.featureImage} alt={blog.title} className="blog-banner" />
       <h5>{truncatedTitle}</h5>
-      <p>{truncateContent(firstParagraph, 30)}</p>
+      <p dangerouslySetInnerHTML={{ __html: truncatedParagraph }}></p>
       <Link to={`/blog/${encodeURIComponent(blog.title)}`} className='blog-opener'>Read More</Link>
     </div>
   );

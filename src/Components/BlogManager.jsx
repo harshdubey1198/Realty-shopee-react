@@ -55,7 +55,7 @@ const BlogManager = () => {
       setFeatureImage(response.data.featureImage);
       // setDescriptionImages(JSON.parse(response.data.descriptionImages));
       setCategory(response.data.category);
-      setTags(response.data.tags.join(', ')); // Join tags array into a string for input field
+      setTags(response.data.tags.join(', '));
     } catch (error) {
       console.error('Error fetching blog:', error);
     }
@@ -148,7 +148,7 @@ const BlogManager = () => {
   };
 
   if (!auth) {
-    return null; // or a loading spinner
+    return null;
   }
 
   return (
