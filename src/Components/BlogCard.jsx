@@ -24,6 +24,9 @@ function BlogCard({ blog }) {
     return truncated.length < content.length ? truncated + '...' : truncated;
   };
 
+  // Format the date
+  const formattedDate = new Date(blog.createdAt).toISOString().split('T')[0];
+
   const truncatedTitle = truncateContent(blog.title, 15);
   const { firstParagraph } = getFirstHeadingAndParagraph(JSON.parse(blog.description));
   const truncatedParagraph = truncateContent(firstParagraph, 30);
@@ -33,6 +36,7 @@ function BlogCard({ blog }) {
       <img src={blog.featureImage} alt={blog.title} className="blog-banner" />
       <h5>{truncatedTitle}</h5>
       <p dangerouslySetInnerHTML={{ __html: truncatedParagraph }}></p>
+      <p className='fd'>{formattedDate}</p>
       <Link to={`/blog/${encodeURIComponent(blog.title)}`} className='blog-opener'>Read More</Link>
     </div>
   );

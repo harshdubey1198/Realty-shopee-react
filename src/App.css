@@ -1935,6 +1935,10 @@ option{
     margin: 0 !important;
     padding: 0 !important;
   }
+  .fd{
+    position: absolute;
+    right: 10px;
+  }
 
 }
 
