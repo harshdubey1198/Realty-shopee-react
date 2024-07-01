@@ -1,5 +1,6 @@
 import React, { useState, useEffect, useLayoutEffect } from 'react';
 import { BrowserRouter as Router, Route, Routes, useLocation } from 'react-router-dom';
+import { HelmetProvider } from 'react-helmet-async'; // Import HelmetProvider
 import Home from './Pages/Home';
 import PropertyPage from './Pages/PropertyPage';
 import Login from './Pages/Login';
@@ -20,7 +21,7 @@ import BlogDetail from './Pages/BlogDetail';
 import AddBlogs from './Pages/AddBlogs';
 import BlogAuth from './Components/BlogAuth';
 import EditBlog from './Pages/EditBlog';
-import BlogTable from './Components/BlogTable'; // Import BlogTable component
+import BlogTable from './Components/BlogTable'; 
 import BlogManager from './Components/BlogManager';
 import useMetaTags from './Components/useMetaTags';
 
@@ -55,32 +56,34 @@ function App() {
   }, [location.pathname]);
 
   return (
-    <div className="App">
-      {showOverlay && <Overlay onClose={handleCloseOverlay} onFormSubmit={handleFormSubmit} />}
-      <div>
-        <Routes>
-          <Route path="/" element={<Home/>} />
-          <Route path="/projects/:projectName" element={<PropertyPage />} />
-          <Route path="/login" element={<Login />} />
-          <Route path="/location/:locationName" element={<LocationDetail />} />
-          <Route path="/addproperties" element={<PrivateRoute element={<AddProject />} />} />
-          <Route path="/allproperties" element={<AllProperties />} />
-          <Route path="/contactus" element={<ContactUs />} />
-          <Route path="/SCO-Plots-in-gurgaon" element={<ScoProperties />} />
-          <Route path="/blogs" element={<Blogs />} />
-          <Route path="/blog/:blogTitle" element={<BlogDetail />} />
-          <Route path="/commercial-property-in-gurgaon" element={<CommercialProperties />} />
-          <Route path="/residential-property-in-gurgaon" element={<ResidentialProperties />} />
-          <Route path="/reset-password/:token" element={<ResetPassword />} />
-          <Route path="/add-blogs" element={<AddBlogs auth={auth} />} />
-          <Route path="/edit-blogs" element={<BlogManager auth={auth} />} />
-          <Route path="/edit-blog/:blogTitle" element={<EditBlog auth={auth} />} />
-          <Route path="/login-add-blogs" element={<BlogAuth setAuth={setAuth} />} />
-          <Route path="/blog-table" element={<BlogTable />} /> {/* Add BlogTable route */}
-          <Route path="/*" element={<NotFound />} />
-        </Routes>
+    <HelmetProvider> {/* Wrap your app with HelmetProvider */}
+      <div className="App">
+        {showOverlay && <Overlay onClose={handleCloseOverlay} onFormSubmit={handleFormSubmit} />}
+        <div>
+          <Routes>
+            <Route path="/" element={<Home/>} />
+            <Route path="/projects/:projectName" element={<PropertyPage />} />
+            <Route path="/login" element={<Login />} />
+            <Route path="/location/:locationName" element={<LocationDetail />} />
+            <Route path="/addproperties" element={<PrivateRoute element={<AddProject />} />} />
+            <Route path="/allproperties" element={<AllProperties />} />
+            <Route path="/contactus" element={<ContactUs />} />
+            <Route path="/SCO-Plots-in-gurgaon" element={<ScoProperties />} />
+            <Route path="/blogs" element={<Blogs />} />
+            <Route path="/blog/:blogTitle" element={<BlogDetail />} />
+            <Route path="/commercial-property-in-gurgaon" element={<CommercialProperties />} />
+            <Route path="/residential-property-in-gurgaon" element={<ResidentialProperties />} />
+            <Route path="/reset-password/:token" element={<ResetPassword />} />
+            <Route path="/add-blogs" element={<AddBlogs auth={auth} />} />
+            <Route path="/edit-blogs" element={<BlogManager auth={auth} />} />
+            <Route path="/edit-blog/:blogTitle" element={<EditBlog auth={auth} />} />
+            <Route path="/login-add-blogs" element={<BlogAuth setAuth={setAuth} />} />
+            <Route path="/blog-table" element={<BlogTable />} /> 
+            <Route path="/*" element={<NotFound />} />
+          </Routes>
+        </div>
       </div>
-    </div>
+    </HelmetProvider>
   );
 }
 

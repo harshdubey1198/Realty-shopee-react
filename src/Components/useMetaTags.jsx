@@ -6,8 +6,24 @@ const metaTagsConfig = {
     title: "Discover the Best Luxury Property in Gurgaon with Realty Shopee",
     description: "Discover the best luxury property in Gurgaon with Realty Shopee. Find residential, commercial, and SCO plots properties tailored to your needs in this dynamic city.",
     url: "https://realtyshopee.com/",
-    image: "https://res.cloudinary.com/dgplzytrq/image/upload/v1719493314/Description%20Images/og-home-logo.png"
-  },
+    image: "https://res.cloudinary.com/dgplzytrq/image/upload/v1719493314/Description%20Images/og-home-logo.png",
+    additionalMetaTags:[
+        { name: 'canonical', content: 'https://realtyshopee.com/' },
+        { property: 'og:site_name', content: 'Realty Shopee' },
+        { property: 'og:type', content: 'website' },
+        { property: 'og:title', content: 'Discover the Best Luxury Property in Gurgaon with Realty Shopee' },
+        { property: 'og:description', content: 'Discover the best luxury property in Gurgaon with Realty Shopee. Find residential, commercial, and SCO plots properties tailored to your needs in this dynamic city.' },
+        { property: 'og:url', content: 'https://realtyshopee.com/' },
+        { property: 'og:image', content: 'https://res.cloudinary.com/dgplzytrq/image/upload/v1719493314/Description%20Images/og-home-logo.png' },
+        { name: 'twitter:card', content: 'https://res.cloudinary.com/dgplzytrq/image/upload/v1719493314/Description%20Images/og-home-logo.png' },
+        { name: 'twitter:site', content: 'Realty Shopee' },
+        { name: 'twitter:type', content: 'website' },
+        { name: 'twitter:title', content: 'Discover the Best Luxury Property in Gurgaon with Realty Shopee' },
+        { name: 'twitter:description', content: 'Discover the best luxury property in Gurgaon with Realty Shopee. Find residential, commercial, and SCO plots properties tailored to your needs in this dynamic city.' },
+        { name: 'twitter:url', content: 'https://realtyshopee.com/' },
+        { name: 'twitter:image', content: 'https://res.cloudinary.com/dgplzytrq/image/upload/v1719493314/Description%20Images/og-home-logo.png' }
+    ]
+    },
   "/residential-property-in-gurgaon": {
     title: "New Residential Property in Gurgaon for Sale By Realty Shopee",
     description: "Find the cheapest & new residential property in Gurgaon with Realty Shopee. Explore upcoming, and ready-to-move residential property options in prime locations.",

@@ -1,1 +1,142 @@
-{}
+{"data" :[
+    {
+    "frontImage": {
+        "public_id": "realtyshopee/project/be0mfrg7tlxcuwfb2o8r",
+        "url": "https://res.cloudinary.com/dgplzytrq/image/upload/v1719575922/1709988337158_deprax.png"
+    },
+    "logo": {
+        "public_id": "realtyshopee/project/gwczozhjz2bnemsdtvq0",
+        "url": "https://res.cloudinary.com/dm5yrsqdc/image/upload/v1714738225/realtyshopee/project/gwczozhjz2bnemsdtvq0.png"
+    },
+    "project_locationImage": {
+        "public_id": "realtyshopee/project/wymyjtrbqpfogs9jxoc0",
+        "url": "https://res.cloudinary.com/dm5yrsqdc/image/upload/v1714738228/realtyshopee/project/wymyjtrbqpfogs9jxoc0.jpg"
+    },
+    "highlightImage": {
+        "public_id": "realtyshopee/project/voqbkg1ot1ef44vkdrac",
+        "url": "https://res.cloudinary.com/dm5yrsqdc/image/upload/v1714738233/realtyshopee/project/voqbkg1ot1ef44vkdrac.jpg"
+    },
+    "projectMaster_plan": {
+        "public_id": "realtyshopee/project/kwjj53kvaalgu6tgnxdn",
+        "url": "http://res.cloudinary.com/dm5yrsqdc/image/upload/v1714738239/realtyshopee/project/kwjj53kvaalgu6tgnxdn.jpg"
+    },
+    "_id": "6634d43fdf6f5a163788d2a0",
+    "project_floorplan_Image": [
+        {
+            "public_id": "realtyshopee/project/jo5sl0hhtq0nybxxtgyf",
+            "url": "https://res.cloudinary.com/dm5yrsqdc/image/upload/v1714738229/realtyshopee/project/jo5sl0hhtq0nybxxtgyf.jpg"
+        },
+        {
+            "public_id": "realtyshopee/project/byu7tzcnb8h3uscrej1d",
+            "url": "https://res.cloudinary.com/dm5yrsqdc/image/upload/v1714738231/realtyshopee/project/byu7tzcnb8h3uscrej1d.jpg"
+        },
+        {
+            "public_id": "realtyshopee/project/skbnyxkeg3svkgv8gxmt",
+            "url": "https://res.cloudinary.com/dm5yrsqdc/image/upload/v1714738232/realtyshopee/project/skbnyxkeg3svkgv8gxmt.jpg"
+        }
+    ],
+    "state": "Haryana",
+    "projectName": "Krisumi Waterfall Residences",
+    "projectAddress": "Sector 36A, Dwarka Expressway",
+    "project_description": "Krisumi Corporation is poised to unveil the extraordinary Krisumi Waterfall Residences, a luxurious residential haven in Gurgaon that promises to leave a lasting impression. This groundbreaking collaboration between Sumitomo Corp, a renowned Japanese entity, and Krishna Group, a distinguished Indian organization, combines their collective expertise and cutting-edge technology to create a truly unique living experience. As the first project of its kind in India to involve a Japanese company, Krisumi Waterfall Residences pioneers the art of Japanese living, seamlessly integrating it into Indian homes. This innovative residency promises to set a new standard for luxury and sophistication in the Indian real estate market.",
+    "projectRedefine_Connectivity": [
+        "Located in Sector 36A on Dwarka Expressway Gurgaon"
+    ],
+    "projectRedefine_Entertainment": [
+        "1 KM from Cyber Hub 2"
+    ],
+    "projectRedefine_Business": [
+        "D 1 minutes From Upcoming ISBT"
+    ],
+    "projectRedefine_Education": [
+        "Direct Connectivity with Dwarka Expressway"
+    ],
+    "meta_description": "Krisumi Waterfall Residences Offers 2/3 LDK with World Class Amenities in Sector 36A Gurgaon. Krisumi Corporation is the First Indo-Japanese Real Estate Project",
+    "meta_title": "Krisumi Waterfall Residences - Sector 36A Dwarka Expressway Gurgaon",
+    "Amenities": [
+        "Car Parking","Meditation Area","Gymnasium","Indoor Games","Yoga Room","Swimming Pool"
+    ],
+    "projectBgContent": "KRISUMI WATERFALL RESIDENCES SECTOR 36A GURGAON",
+    "projectReraNo": "HARERA/GGM/2018/03",
+    "type": "Residential Flats",
+    "city": "Gurgaon",
+    "builderName": "Krisumi Corporation",
+    "AboutDeveloper": "An enterprising collaboration between Sumitomo Corporation, Japan and Krishna Group, India, Krisumi is a convergence of Kriya, meaning creation in Sanskrit, and Sumi, the Japanese word for fine living. Our endeavour is to conceptualize, design and build homes which are characterized by the highest standards of Japanese craftsmanship, in sizes that complement today’s ever-evolving way of life. By unifying Japanese design aesthetics with the warmth of Indian hospitality, we at Krisumi are giving shape to architectural masterpieces that are spectacular in form, and highly practical in function.",
+    "projectOverview": "none",
+    "project_Status": "underconstruction",
+    "schema_type": "project",
+    "project_url": "krisumi-waterfall-residences",
+    "projectGallery": [
+        {
+            "public_id": "realtyshopee/project/nwrallztacsvdpw9a27v",
+            "url": "https://res.cloudinary.com/dm5yrsqdc/image/upload/v1714738234/realtyshopee/project/nwrallztacsvdpw9a27v.jpg"
+        },
+        {
+            "public_id": "realtyshopee/project/rfdu0ydhzffrhmhfp5yw",
+            "url": "https://res.cloudinary.com/dm5yrsqdc/image/upload/v1714738235/realtyshopee/project/rfdu0ydhzffrhmhfp5yw.jpg"
+        },
+        {
+            "public_id": "realtyshopee/project/lboyagjuoxiuuvaoyup6",
+            "url": "https://res.cloudinary.com/dm5yrsqdc/image/upload/v1714738237/realtyshopee/project/lboyagjuoxiuuvaoyup6.jpg"
+        },
+        {
+            "public_id": "realtyshopee/project/peazb1dzakuotnfd0zlk",
+            "url": "https://res.cloudinary.com/dm5yrsqdc/image/upload/v1714738238/realtyshopee/project/peazb1dzakuotnfd0zlk.jpg"
+        }
+    ],
+    "BhK_Details": [
+        {
+            "bhk_type": "2 LDK (C3)",
+            "price": "Call for Price",
+            "bhk_Area": "1479 SQ.FT",
+            "_id": "6634d4dfdf6f5a163788d8c4"
+        },
+        {
+            "bhk_type": "3 LDK (B5)",
+            "price": "Call for Price",
+            "bhk_Area": "1946 - 1976 SQ.FT",
+            "_id": "6634d4f3df6f5a163788d8cf"
+        },
+        {
+            "bhk_type": "3 LDK + S (A1)",
+            "price": "Call for Price",
+            "bhk_Area": "2503 - 2538 SQ.FT",
+            "_id": "6634d509df6f5a163788d8db"
+        }
+    ],
+    "highlight": [
+        {
+            "highlight_Point": "Krisumi Corporation launching soon new project Krisumi City Gurgaon Waterfall Residences with world class amenities.",
+            "_id": "6634d478df6f5a163788d873"
+        },
+        {
+            "highlight_Point": "1st phase to have over 450 apartments (1.2 million sq ft) and will be completed in 4-5 years.",
+            "_id": "6634d47fdf6f5a163788d877"
+        },
+        {
+            "highlight_Point": "Construction of the 1st phase of the project expected to commence this year.",
+            "_id": "6634d486df6f5a163788d87c"
+        },
+        {
+            "highlight_Point": "Township spread over 65 acres will be developed in 7-8 phases with around 5,000 apartments (18 million sq ft approx) over 10 years.",
+            "_id": "6634d48cdf6f5a163788d882"
+        },
+        {
+            "highlight_Point": "Premium Imported Marble Flooring",
+            "_id": "6634d492df6f5a163788d889"
+        },
+        {
+            "highlight_Point": "The project will also feature a high-end retail mall, education institutions, a premium hotel and premium office spaces.",
+            "_id": "6634d49adf6f5a163788d891"
+        },
+        {
+            "highlight_Point": "The master plan and architectural design of Krisumi City Gurgaon is developed by world renowned Japanese design firm NIKKEN SEKKEI.",
+            "_id": "6634d4a1df6f5a163788d89a"
+        }
+    ],
+    "createdAt": "2024-05-03T12:10:39.796Z",
+    "updatedAt": "2024-05-03T12:14:01.473Z",
+    "__v": 0
+}
+]
+}
