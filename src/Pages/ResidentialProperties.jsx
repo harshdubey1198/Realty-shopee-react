@@ -4,7 +4,7 @@ import { Link, useNavigate } from 'react-router-dom';
 import logoImage from "../Images/Realty shopee main logo.png";
 import projectData from "../realtyshopee.json";
 import '../App.css'; 
-import { Helmet } from 'react-helmet';
+// import { Helmet } from 'react-helmet';
 import ScrollToTop from '../Components/ScrollToTop';
 import Loader from 'react-loaders'
 
@@ -44,7 +44,7 @@ function ResidentialProperties() {
 
   return (
     <div className='al-center'>
-       <Helmet>
+       {/* <Helmet>
           <meta charSet="utf-8" />
           <link rel="icon" href="https://www.realtyshopee.com/agent.png" />
           <meta name="description" content="Find the cheapest & new residential property in Gurgaon with Realty Shopee. Explore upcoming, and ready-to-move residential property options in prime locations." />
@@ -63,7 +63,7 @@ function ResidentialProperties() {
           <meta name="twitter:description" content="Find the cheapest & new residential property in Gurgaon with Realty Shopee. Explore upcoming, and ready-to-move residential property options in prime locations." />
           <meta name="twitter:url" content="https://www.realtyshopee.com/residential-property-in-gurgaon" />
           <meta name="twitter:image" content="https://res.cloudinary.com/dgplzytrq/image/upload/v1719492483/Description%20Images/residential-property-in-gurgaon.jpg" />
-        </Helmet>
+        </Helmet> */}
       <nav className='all-p-nav'>       
         <div className='logo-div'>
         <a href="https://www.realtyshopee.com" className='r-logo'><img src={logoImage} alt='Realty Shopee' loading='lazy'/></a>        </div>

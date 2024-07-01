@@ -22,8 +22,10 @@ import BlogAuth from './Components/BlogAuth';
 import EditBlog from './Pages/EditBlog';
 import BlogTable from './Components/BlogTable'; // Import BlogTable component
 import BlogManager from './Components/BlogManager';
+import useMetaTags from './Components/useMetaTags';
 
 function App() {
+  useMetaTags();
   const [showOverlay, setShowOverlay] = useState(false);
   const location = useLocation();
   const [auth, setAuth] = useState(false);
