@@ -45,25 +45,25 @@ function ResidentialProperties() {
   return (
     <div className='al-center'>
        <Helmet>
-    <meta charSet="utf-8" />
-    <link rel="icon" href="https://www.realtyshopee.com/agent.png" />
-    <meta name="description" content="Find the cheapest & new residential property in Gurgaon with Realty Shopee. Explore upcoming, and ready-to-move residential property options in prime locations." />
-    <link rel="canonical" href="https://www.realtyshopee.com/residential-property-in-gurgaon" />
-    <title>New Residential Property in Gurgaon for Sale By Realty Shopee</title>
-    <meta property="og:site_name" content="Realty Shopee" />
-    <meta property="og:type" content="website" />
-    <meta property="og:title" content="New Residential Property in Gurgaon for Sale By Realty Shopee" />
-    <meta property="og:description" content="Find the cheapest & new residential property in Gurgaon with Realty Shopee. Explore upcoming, and ready-to-move residential property options in prime locations." />
-    <meta property="og:url" content="https://www.realtyshopee.com/residential-property-in-gurgaon" />
-    <meta property="og:image" content="https://res.cloudinary.com/dgplzytrq/image/upload/v1719492483/Description%20Images/residential-property-in-gurgaon.jpg" />
-    <meta name="twitter:card" content="summary_large_image" />
-    <meta name="twitter:site" content="Realty Shopee" />
-    <meta name="twitter:type" content="website" />
-    <meta name="twitter:title" content="New Residential Property in Gurgaon for Sale By Realty Shopee" />
-    <meta name="twitter:description" content="Find the cheapest & new residential property in Gurgaon with Realty Shopee. Explore upcoming, and ready-to-move residential property options in prime locations." />
-    <meta name="twitter:url" content="https://www.realtyshopee.com/residential-property-in-gurgaon" />
-    <meta name="twitter:image" content="https://res.cloudinary.com/dgplzytrq/image/upload/v1719492483/Description%20Images/residential-property-in-gurgaon.jpg" />
-  </Helmet>
+          <meta charSet="utf-8" />
+          <link rel="icon" href="https://www.realtyshopee.com/agent.png" />
+          <meta name="description" content="Find the cheapest & new residential property in Gurgaon with Realty Shopee. Explore upcoming, and ready-to-move residential property options in prime locations." />
+          <link rel="canonical" href="https://www.realtyshopee.com/residential-property-in-gurgaon" />
+          <title>New Residential Property in Gurgaon for Sale By Realty Shopee</title>
+          <meta property="og:site_name" content="Realty Shopee" />
+          <meta property="og:type" content="website" />
+          <meta property="og:title" content="New Residential Property in Gurgaon for Sale By Realty Shopee" />
+          <meta property="og:description" content="Find the cheapest & new residential property in Gurgaon with Realty Shopee. Explore upcoming, and ready-to-move residential property options in prime locations." />
+          <meta property="og:url" content="https://www.realtyshopee.com/residential-property-in-gurgaon" />
+          <meta property="og:image" content="https://res.cloudinary.com/dgplzytrq/image/upload/v1719492483/Description%20Images/residential-property-in-gurgaon.jpg" />
+          <meta name="twitter:card" content="https://res.cloudinary.com/dgplzytrq/image/upload/v1719492483/Description%20Images/residential-property-in-gurgaon.jpg" />
+          <meta name="twitter:site" content="Realty Shopee" />
+          <meta name="twitter:type" content="website" />
+          <meta name="twitter:title" content="New Residential Property in Gurgaon for Sale By Realty Shopee" />
+          <meta name="twitter:description" content="Find the cheapest & new residential property in Gurgaon with Realty Shopee. Explore upcoming, and ready-to-move residential property options in prime locations." />
+          <meta name="twitter:url" content="https://www.realtyshopee.com/residential-property-in-gurgaon" />
+          <meta name="twitter:image" content="https://res.cloudinary.com/dgplzytrq/image/upload/v1719492483/Description%20Images/residential-property-in-gurgaon.jpg" />
+        </Helmet>
       <nav className='all-p-nav'>       
         <div className='logo-div'>
         <a href="https://www.realtyshopee.com" className='r-logo'><img src={logoImage} alt='Realty Shopee' loading='lazy'/></a>        </div>
