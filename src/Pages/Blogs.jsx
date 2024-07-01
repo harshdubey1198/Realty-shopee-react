@@ -44,7 +44,7 @@ function Blogs() {
         <link rel="icon" href="https://www.realtyshopee.com/agent.png" />
       </Helmet>
       <header className='pd-nav blue-nav'>
-        <h2><a href="https://www.realtyshopee.com"><img src={logo} className='pd-logo' alt="realty shopee" /></a></h2>
+        <h2><a href="https://www.realtyshopee.com" className='r-logo'><img src={logo} className='pd-logo' alt="realty shopee" /></a></h2>
         <button onClick={handleHomeClick}><span>Home</span><span><FcHome/></span></button>
         <button onClick={handleContactUsClick}><span>Contact Us</span><span><FcQuestions/></span></button>
         <a href="tel:+919289252999"><span>+91 9289252999</span><span><FcPhone className='phone'/></span></a>

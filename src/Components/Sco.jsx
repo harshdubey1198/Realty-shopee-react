@@ -2,7 +2,7 @@ import React from 'react'
 import scoIcon from "../Images/Icons/land.png"
 import '../App.css'
 import ProjectsCard from './ProjectsCard'
-import { Link, useNavigate } from 'react-router-dom';
+import { Link } from 'react-router-dom';
 
 const projectData =[
   {
@@ -44,9 +44,8 @@ const projectData =[
 
 
 function Sco() {
-  const navigate = useNavigate();
     const handleViewAll =() =>{
-        navigate('/sco-plots-in-gurgaon')
+        window.open('/sco-plots-in-gurgaon', '_blank');
     }
   return (
     <div className="bt">
