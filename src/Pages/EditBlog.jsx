@@ -151,7 +151,7 @@ const EditBlog = () => {
   return (
     <div className="edit-blog-container">
       <header className='pd-nav blue-nav'>
-        <h2><img src={logo} className='pd-logo' alt="realty shopee" /></h2>
+        <h2><a href="https://www.realtyshopee.com"><img src={logo} className='pd-logo' alt="realty shopee" /></a></h2>
         <button onClick={handleHomeClick}><span>Home</span><span><FcHome/></span></button>
         <button onClick={handleAllBlogs}><span>Blogs</span><span><FcDocument/></span></button>
         <button onClick={handleContactUsClick}><span>Contact Us</span><span><FcQuestions/></span></button>

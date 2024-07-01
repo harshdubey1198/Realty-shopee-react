@@ -51,7 +51,7 @@ function ResidentialProperties() {
       </Helmet>
       <nav className='all-p-nav'>       
         <div className='logo-div'>
-          <img src={logoImage} alt='Realty Shopee' loading='lazy'/>
+          <a href="https://www.realtyshopee.com"><img src={logoImage} alt='Realty Shopee' loading='lazy'/></a>
         </div>
         <div className='navigators'>
           <button onClick={handleHomeClick}>Home</button>

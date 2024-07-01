@@ -1938,6 +1938,7 @@ option{
   .fd{
     position: absolute;
     right: 10px;
+    color: #1b4a7c;
   }
 
 }
@@ -2427,7 +2428,7 @@ p{
     background: #1c418c;
     padding: 10px;
     position: absolute;
-    top: 20%;
+    top: 15%;
     border-radius: 15px;
   }
 

@@ -142,7 +142,7 @@ function BlogDetail() {
   return (
     <div className="blog-detail">
       <header className='pd-nav'>
-        <h2><img src="https://www.realtyshopee.com/static/media/Realty%20shopee%20main%20logo.db6affde1f766278cf09.png" className='pd-logo' alt='Realty-Shopee-blogs' /></h2>
+        <h2><a href="https://www.realtyshopee.com"><img src="https://www.realtyshopee.com/static/media/Realty%20shopee%20main%20logo.db6affde1f766278cf09.png" className='pd-logo' alt='Realty-Shopee-blogs' /></a></h2>
         <button onClick={handleHomeClick}><span>Home</span><span><FcHome /></span></button>
         <button onClick={handleAllBlogs}><span>Blogs</span><span><FcDocument /></span></button>
         <button onClick={handleContactUsClick}><span>Contact Us</span><span><FcQuestions /></span></button>

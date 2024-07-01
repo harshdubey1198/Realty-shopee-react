@@ -100,7 +100,7 @@ const AddProject =() => {
                 <title>Add Your Property - Realty Shopee</title>
             </Helmet>
             <header>
-                <a href="https://realtyshopee.com">
+                <a href="https://www.realtyshopee.com">
                     <img src={companylogo} alt='realty-shopee-logo' />
                 </a>
                 <div className='a-p-nav-btns'>
