@@ -2,11 +2,51 @@ import React, { useState, useEffect } from 'react';
 import PropTypes from 'prop-types';
 import { useNavigate } from 'react-router-dom';
 import "../App.css";
-import { FcHome, FcPhone, FcQuestions } from "react-icons/fc";
+import { FcHome, FcList, FcPhone, FcQuestions } from "react-icons/fc";
 
 function PropertyDetail({ property }) {
   const navigate = useNavigate();
   const [currentImageIndex, setCurrentImageIndex] = useState(0);
+
+  const [formData, setFormData] = useState({
+    name: '',
+    email: '',
+    phone: '',
+    message: '',
+  });
+  
+  const handleInputChange = (e) => {
+    const { name, value } = e.target;
+    setFormData({ ...formData, [name]: value });
+  };
+
+  const handleSubmit = async (e) => {
+    e.preventDefault();
+    try {
+      const response = await fetch('https://realty-react-backend.onrender.com/query-form', {
+        method: 'POST',
+        headers: {
+          'Content-Type': 'application/json',
+        },
+        body: JSON.stringify({ ...formData, projectName: property.projectName }),
+      });
+
+      if (response.ok) {
+        alert('Query submitted successfully!');
+        setFormData({
+          name: '',
+          email: '',
+          phone: '',
+          message: '',
+        });
+      } else {
+        alert('Failed to submit query. Please try again.');
+      }
+    } catch (error) {
+      console.error('Error submitting query:', error);
+      alert('An error occurred. Please try again.');
+    }
+  };
 
   const amenityImages = {
     "Car Parking": "https://res.cloudinary.com/dgplzytrq/image/upload/v1717655908/Amenities/Car%20parking.jpg",
@@ -66,7 +106,9 @@ function PropertyDetail({ property }) {
   const handleContactUsClick = () => {
     navigate('/contactus');
   };
-
+  const handleAllProperties = () =>{
+    navigate('/allproperties');
+  }
   const handlePrevClick = () => {
     setCurrentImageIndex((prevIndex) => 
       prevIndex === 0 ? property.project_floorplan_Image.length - 1 : prevIndex - 1
@@ -84,11 +126,15 @@ function PropertyDetail({ property }) {
       <header className='pd-nav'>
         <h2><img src={property.logo.url} className='pd-logo' alt={property.projectName} /></h2>
         <button onClick={handleHomeClick}><span>Home</span><span><FcHome/></span></button>
+        <button onClick={handleAllProperties}><span>All Properties</span><span><FcList /></span></button>
         <button onClick={handleContactUsClick}><span>Contact Us</span><span><FcQuestions/></span></button>
         <a href="tel:+919289252999"><span>+91 9289252999</span><span><FcPhone className='phone'/></span></a>
       </header>
       <div className='pd-div'>
         <div className='pd-div-main'>
+         <h1 className='projectname'>
+            {property.projectName}
+          </h1>
           <img src={property.highlightImage.url} alt='highlight'/>
         </div>
 
@@ -148,13 +194,56 @@ function PropertyDetail({ property }) {
 
         <div className='pd-enquiry'>
           <h1>Get In Touch</h1>
-          <form>
+          {/* <form>
             <input type='hidden' name='projectName' value={property.projectName} />
             <input type='text' name='name' placeholder='Enter Your Name*' required />
             <input type='email' name='email' placeholder='Enter Your Email*' required />
             <input type='text' name='phone' placeholder='Enter Your Phone*' required />
             <input type='text' name='message' placeholder='Enter Message*' required />
             <button type='submit' className='submit-button'>Submit</button>
+          </form> */}
+          <form onSubmit={handleSubmit}>
+         
+            
+              <input
+                type="text"
+                name="name"
+                placeholder='Enter Your Name*'
+                value={formData.name}
+                onChange={handleInputChange}
+                required
+              />
+          
+      
+              <input
+                type="email"
+                name="email"
+                placeholder='Enter Your Email*'
+                value={formData.email}
+                onChange={handleInputChange}
+                required
+              />
+           
+           
+              <input
+                type="tel"
+                name="phone"
+                placeholder='Enter Your Phone*'
+                value={formData.phone}
+                onChange={handleInputChange}
+                required
+              />
+            
+             
+              <input
+                name="message"
+                placeholder='Enter Message*'
+                value={formData.message}
+                onChange={handleInputChange}
+                required
+              />
+           
+            <button type="submit" className='submit-button'>Submit</button>
           </form>
         </div>
       </div>

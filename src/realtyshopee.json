@@ -1,38 +1,33 @@
 {"data" :[
     {
     "frontImage": {
-        "public_id": "realtyshopee/project/be0mfrg7tlxcuwfb2o8r",
         "url": "https://res.cloudinary.com/dgplzytrq/image/upload/v1719575922/1709988337158_deprax.png"
     },
     "logo": {
-        "public_id": "realtyshopee/project/gwczozhjz2bnemsdtvq0",
-        "url": "https://res.cloudinary.com/dm5yrsqdc/image/upload/v1714738225/realtyshopee/project/gwczozhjz2bnemsdtvq0.png"
+        "url": "https://res.cloudinary.com/dgplzytrq/image/upload/v1720000791/Krisumi%20Projects/acsrlnwfgi9ueutmowfj_pf29ve_y0b5z4.png"
     },
     "project_locationImage": {
-        "public_id": "realtyshopee/project/wymyjtrbqpfogs9jxoc0",
-        "url": "https://res.cloudinary.com/dm5yrsqdc/image/upload/v1714738228/realtyshopee/project/wymyjtrbqpfogs9jxoc0.jpg"
+        "url": "https://res.cloudinary.com/dgplzytrq/image/upload/v1719996333/Krisumi%20Projects/krisumi-location-map_xxmyit.jpg"
     },
     "highlightImage": {
-        "public_id": "realtyshopee/project/voqbkg1ot1ef44vkdrac",
-        "url": "https://res.cloudinary.com/dm5yrsqdc/image/upload/v1714738233/realtyshopee/project/voqbkg1ot1ef44vkdrac.jpg"
+        "url": "https://res.cloudinary.com/dgplzytrq/image/upload/v1719996590/Krisumi%20Projects/ubs1jcoi03bjpial7np2_k0kfkb.jpg"
     },
     "projectMaster_plan": {
-        "public_id": "realtyshopee/project/kwjj53kvaalgu6tgnxdn",
         "url": "http://res.cloudinary.com/dm5yrsqdc/image/upload/v1714738239/realtyshopee/project/kwjj53kvaalgu6tgnxdn.jpg"
     },
     "_id": "6634d43fdf6f5a163788d2a0",
     "project_floorplan_Image": [
         {
-            "public_id": "realtyshopee/project/jo5sl0hhtq0nybxxtgyf",
-            "url": "https://res.cloudinary.com/dm5yrsqdc/image/upload/v1714738229/realtyshopee/project/jo5sl0hhtq0nybxxtgyf.jpg"
+            "url": "https://res.cloudinary.com/dgplzytrq/image/upload/v1720000255/Krisumi%20Projects/hgojprnb1dv6oqlanbh5_ykg4za.jpg"
         },
         {
-            "public_id": "realtyshopee/project/byu7tzcnb8h3uscrej1d",
-            "url": "https://res.cloudinary.com/dm5yrsqdc/image/upload/v1714738231/realtyshopee/project/byu7tzcnb8h3uscrej1d.jpg"
+            "url": "https://res.cloudinary.com/dgplzytrq/image/upload/v1720000223/Krisumi%20Projects/gzeipjgjriespoqwkh5m_jd2mzs.jpg"
         },
         {
-            "public_id": "realtyshopee/project/skbnyxkeg3svkgv8gxmt",
-            "url": "https://res.cloudinary.com/dm5yrsqdc/image/upload/v1714738232/realtyshopee/project/skbnyxkeg3svkgv8gxmt.jpg"
+            "url": "https://res.cloudinary.com/dgplzytrq/image/upload/v1720000190/Krisumi%20Projects/owuvsuyl265jlpjuziud_yyhqnq.jpg"
+        },
+        {
+            "url":"https://res.cloudinary.com/dgplzytrq/image/upload/v1720000166/Krisumi%20Projects/bl5p3tytzksxohp8onwd_uqoyhv.jpg"
         }
     ],
     "state": "Haryana",
@@ -68,40 +63,49 @@
     "project_url": "krisumi-waterfall-residences",
     "projectGallery": [
         {
-            "public_id": "realtyshopee/project/nwrallztacsvdpw9a27v",
             "url": "https://res.cloudinary.com/dm5yrsqdc/image/upload/v1714738234/realtyshopee/project/nwrallztacsvdpw9a27v.jpg"
         },
         {
-            "public_id": "realtyshopee/project/rfdu0ydhzffrhmhfp5yw",
             "url": "https://res.cloudinary.com/dm5yrsqdc/image/upload/v1714738235/realtyshopee/project/rfdu0ydhzffrhmhfp5yw.jpg"
         },
         {
-            "public_id": "realtyshopee/project/lboyagjuoxiuuvaoyup6",
             "url": "https://res.cloudinary.com/dm5yrsqdc/image/upload/v1714738237/realtyshopee/project/lboyagjuoxiuuvaoyup6.jpg"
         },
         {
-            "public_id": "realtyshopee/project/peazb1dzakuotnfd0zlk",
             "url": "https://res.cloudinary.com/dm5yrsqdc/image/upload/v1714738238/realtyshopee/project/peazb1dzakuotnfd0zlk.jpg"
         }
     ],
     "BhK_Details": [
         {
-            "bhk_type": "2 LDK (C3)",
+            "bhk_type": "1 LDK + 1T",
             "price": "Call for Price",
-            "bhk_Area": "1479 SQ.FT",
+            "bhk_Area": "1000 SQ.FT",
             "_id": "6634d4dfdf6f5a163788d8c4"
         },
         {
-            "bhk_type": "3 LDK (B5)",
+            "bhk_type": "1 LDK + 2T",
             "price": "Call for Price",
-            "bhk_Area": "1946 - 1976 SQ.FT",
-            "_id": "6634d4f3df6f5a163788d8cf"
+            "bhk_Area": "1250 SQ.FT"
         },
         {
-            "bhk_type": "3 LDK + S (A1)",
+            "bhk_type": "2 LDK",
             "price": "Call for Price",
-            "bhk_Area": "2503 - 2538 SQ.FT",
-            "_id": "6634d509df6f5a163788d8db"
+            "bhk_Area": "1740 SQ.FT"
+        },
+        {
+            "bhk_type": "2 LDK + S",
+            "price": "Call for Price",
+            "bhk_Area": "1944 SQ.FT"
+        },
+        {
+            "bhk_type": "3 LDK",
+            "price": "Call for Price",
+            "bhk_Area": "2260 SQ.FT"
+        },
+        {
+            "bhk_type": "3 LDK + S",
+            "price": "Call for Price",
+            "bhk_Area": "2700 SQ.FT"
         }
     ],
     "highlight": [
@@ -137,6 +141,416 @@
     "createdAt": "2024-05-03T12:10:39.796Z",
     "updatedAt": "2024-05-03T12:14:01.473Z",
     "__v": 0
-}
-]
+},
+{
+    
+    "projectName": "Signature Global Titanium SPR",
+    "projectAddress": "Sector 71, Southern Peripheral Road",
+    "city": "Gurgaon",
+    "frontImage": {
+      "url": "https://res.cloudinary.com/dgplzytrq/image/upload/v1719572014/Signature-71/Titanium_SPR_mt4kgd.jpg"
+    },"possession":"2029",
+    
+        "logo": {
+            "url": "https://res.cloudinary.com/dgplzytrq/image/upload/v1717160311/Signature-71/logo_gb4gdd.png"
+        },
+        "project_locationImage": {
+            "url": "https://res.cloudinary.com/dgplzytrq/image/upload/v1719987924/Signature-71/up6k7p9qnuwv1v5ci8g1_zk1hh0.jpg"
+        },
+        "highlightImage": {
+            "url": "https://res.cloudinary.com/dgplzytrq/image/upload/v1719993461/Signature-71/main-banner-new_amoy75.webp"
+        },
+        "projectMaster_plan": {
+            "public_id": "realtyshopee/project/khfgyucvghcjmhbrdhhe",
+            "url": "https://res.cloudinary.com/dgplzytrq/image/upload/v1719987977/Signature-71/bxn278ytnw43ulhuagmz_psrcio.jpg"
+        },
+        "_id": "663752acdf6f5a16378c95a5",
+        "project_floorplan_Image": [
+            {
+                "url": "https://res.cloudinary.com/dgplzytrq/image/upload/v1717582876/Floor%20plan%20image/Background_cpb7aq.png"
+            },
+            {
+                "url": "https://res.cloudinary.com/dgplzytrq/image/upload/v1717585460/Floor%20plan%20image/Background_1_lqqpwe.png"
+            },
+            {
+                "url": "https://res.cloudinary.com/dgplzytrq/image/upload/v1717586036/Floor%20plan%20image/Background_2_rbunqm.png"
+            }
+        ],
+        "state": "Haryana",
+      
+        "project_description": "Amidst the dynamic energy of a thriving city, where ambitions converge with the heartbeat of urban existence, lies a symbol of strength, durability, and prestige. This is the story of Signature Global Titanium SPR in Sector 71, Gurugram. Reflecting the attributes of the metal it is named after, this project represents robustness and timeless endurance, providing a sanctuary of enduring quality and timeless elegance.",
+        "projectRedefine_Connectivity": [
+            "Proposed along SPR, Sector 55/56 to Vatika Chowk"
+        ],
+        "projectRedefine_Entertainment": [
+            "Boosting connectivity across Delhi, UP, Haryana & Rajasthan"
+        ],
+        "projectRedefine_Business": [
+            "Proposed along SPR, Sector 55/56 to Vatika Chowk"
+        ],
+        "projectRedefine_Education": [
+            "1,000-acre mixed-use project with workspaces, retail & social infrastructure."
+        ],
+        "meta_description": "Amidst the dynamic energy of a thriving city, where ambitions converge with the heartbeat of urban existence, lies a symbol of strength, durability, and prestige. This is the story of Signature Global Titanium SPR in Sector 71, Gurugram. Reflecting the attributes of the metal it is named after, this project represents robustness and timeless endurance, providing a sanctuary of enduring quality and timeless elegance.",
+        "meta_title": "Signature Global Titanium SPR | Luxury Property In Gurgaon",
+        "Amenities": [
+            "Car Parking","Meditation Area","Gymnasium","Indoor Games","Yoga Room","Swimming Pool"
+        ],
+        "projectBgContent": "Signature Global Titanium SPR - Luxury Residences in Sector 65 Gurgaon",
+        "projectReraNo": "Applied",
+        "type": "Residential Flats",
+        "builderName": "Signature Global India",
+        "AboutDeveloper": "Signature Global Titanium SPR is an exquisite real estate project developed by Signature Global, a brand synonymous with excellence and innovation in the realty sector. Signature Global stands for 'Superbness in the Trinity Of Men, Materials, and Money,' embodying the company's core values of quality, timely delivery, and superior craftsmanship. Signature Global is renowned for its groundbreaking and unparalleled concepts, offering multi-dimensional real estate solutions and exceptional service standards. The company is committed to creating state-of-the-art real estate masterpieces and consistently attracts the best talent in the industry. With rich experience in the real estate domain, Signature Global leverages a network of elite intermediaries, financial institutions, high-net-worth individuals, and some of the most reputable designers in India.",
+        "projectOverview": "trending",
+        "project_Status": "newlunch",
+        "schema_type": "project",
+        "project_url": "Signature-global-titanium-spr",
+        "projectGallery": [
+            {
+                "public_id": "realtyshopee/project/jtveoh1dzgwgeai05s8n",
+                "url": "https://res.cloudinary.com/dm5yrsqdc/image/upload/v1715601506/realtyshopee/project/jtveoh1dzgwgeai05s8n.jpg"
+            },
+            {
+                "public_id": "realtyshopee/project/znqldmnn2ghf4vwveth6",
+                "url": "https://res.cloudinary.com/dm5yrsqdc/image/upload/v1715601507/realtyshopee/project/znqldmnn2ghf4vwveth6.jpg"
+            },
+            {
+                "public_id": "realtyshopee/project/rj3utomwptzpznbftqyz",
+                "url": "https://res.cloudinary.com/dm5yrsqdc/image/upload/v1715601508/realtyshopee/project/rj3utomwptzpznbftqyz.jpg"
+            }
+        ],
+        "BhK_Details": [
+            {
+                "bhk_type": "3 BHK + SR",
+                "price": "Call for Price",
+                "bhk_Area": "3755 SQ.FT.",
+                "_id": "66375706df6f5a16378c9ca6"
+            },
+            {
+                "bhk_type": "4 BHK + SR",
+                "price": "Call for Price",
+                "bhk_Area": "4270 SQ.FT.",
+                "_id": "66375717df6f5a16378c9caa"
+            }
+        ]
+       
+      
+  },
+  {
+    "frontImage": {
+        "url": "https://res.cloudinary.com/dgplzytrq/image/upload/v1716550989/M3M-Altitude/bannerM3MAltitude_hy6wq5.jpg"
+    },
+    "logo": {
+        "url": "https://res.cloudinary.com/dgplzytrq/image/upload/v1720003206/M3M-Altitude/logoM3MAltitude_z3shbg_ygiiuy.png"
+    },
+    "project_locationImage": {
+        "url": "https://res.cloudinary.com/dgplzytrq/image/upload/v1716550989/M3M-Altitude/locationM3MAltitude_mhmj20.jpg"
+    },
+    "highlightImage": {
+        "url": "https://res.cloudinary.com/dgplzytrq/image/upload/v1716550989/M3M-Altitude/banner_2M3MAltitude_hlbqz8.jpg"
+    },
+    "projectMaster_plan": {
+        "url": "https://res.cloudinary.com/dgplzytrq/image/upload/v1716550993/M3M-Altitude/floor_planM3MAltitude_wqxnir.jpg"
+    },
+    "_id": "663752acdf6f5a16378c95a5",
+    "project_floorplan_Image": [
+        {
+            "url": "https://res.cloudinary.com/dgplzytrq/image/upload/v1717582876/Floor%20plan%20image/Background_cpb7aq.png"
+        },
+        {
+            "url": "https://res.cloudinary.com/dgplzytrq/image/upload/v1717585460/Floor%20plan%20image/Background_1_lqqpwe.png"
+        },
+        {
+            "url": "https://res.cloudinary.com/dgplzytrq/image/upload/v1717586036/Floor%20plan%20image/Background_2_rbunqm.png"
+        }
+    ],
+    "state": "Haryana",
+    "projectName": "M3M Altitude",
+    "projectAddress": "Sector 65, Golf Course Extn Road",
+    "project_description": "M3M Altitude, situated in Sector 65, Gurgaon, is a paragon of luxury living, offering a sublime residential experience. These sumptuous apartments are crafted to meet the refined tastes of the modern homeowner, harmoniously balancing elegance, comfort, and convenience. The development boasts an array of world-class amenities, including a cutting-edge fitness center, an opulent swimming pool, a stylish clubhouse, and exquisitely landscaped gardens. Strategically located, M3M Altitude ensures seamless connectivity to major thoroughfares, upscale shopping centers, gourmet dining options, and entertainment venues. With its robust security measures and eco-friendly practices, this development redefines the pinnacle of luxury living, making it the ultimate haven for discerning individuals.",
+    "projectRedefine_Connectivity": [
+        "Situated on 60 metre wide main arterial Sector road"
+    ],
+    "projectRedefine_Entertainment": [
+        "Prominently located on Southern Peripheral Road (Golf Course Extension Road) one of the widest roads in Gurgaon (90 meters wide) and recently announced as NH 236"
+    ],
+    "projectRedefine_Business": [
+        "Strategically linked to all major Business Hubs & Retail destinations"
+    ],
+    "projectRedefine_Education": [
+        "Just 30 minute drive from Delhi International Airport"
+    ],
+    "meta_description": "M3M Altitude Apartments in Sector 65 were designed to be visually appealing, captivating the senses and enhancing the living experience of its residents",
+    "meta_title": "M3M Altitude Sector 65 Gurgaon | Luxury Apartments",
+    "Amenities": [
+        "Car Parking","Meditation Area","Gymnasium","Indoor Games","Yoga Room","Swimming Pool"
+    ],
+    "projectBgContent": "M3M Altitude - Luxury Residences in Sector 65 Gurgaon",
+    "projectReraNo": "Applied",
+    "type": "Residential Flats",
+    "city": "Gurgaon",
+    "builderName": "M3M India",
+    "AboutDeveloper": "M3M India means 'Superbness in the Trinity Of Men, Materials and Money'. The aphorism of the organization is \"quality, opportune conveyance and greatness\". Recognizing highlights of M3M inside the business are its inventive, remarkable and unrivaled ideas, multi-dimensional realty arrangements and unparalleled high help norms. Demonstrating its responsibility towards creating cutting edge land works of art, M3M has consistently strived to gather the best ability in the business. The organization has increased important involvement with the land area with different and complimentary gifts from a rich organization of first class go-betweens, monetary establishments, high-total assets people and probably the most rumored designers in India.",
+    "projectOverview": "trending",
+    "project_Status": "newlunch",
+    "schema_type": "project",
+    "project_url": "m3m-altitude",
+    "projectGallery": [
+        {
+            "url": "https://res.cloudinary.com/dm5yrsqdc/image/upload/v1715601506/realtyshopee/project/jtveoh1dzgwgeai05s8n.jpg"
+        },
+        {
+            "url": "https://res.cloudinary.com/dm5yrsqdc/image/upload/v1715601507/realtyshopee/project/znqldmnn2ghf4vwveth6.jpg"
+        },
+        {
+            "url": "https://res.cloudinary.com/dm5yrsqdc/image/upload/v1715601508/realtyshopee/project/rj3utomwptzpznbftqyz.jpg"
+        }
+    ],
+    "BhK_Details": [
+        {
+            "bhk_type": "3 BHK + SR",
+            "price": "Call for Price",
+            "bhk_Area": "3755 SQ.FT."
+        },
+        {
+            "bhk_type": "4 BHK + SR",
+            "price": "Call for Price",
+            "bhk_Area": "4270 SQ.FT."
+        }
+    ]
+},
+{
+    "possession":"2029",
+    "frontImage": {
+        "url": "https://res.cloudinary.com/dgplzytrq/image/upload/v1720006205/Ganga-fusion-85/wp8mt1qazvejn1vsi5or_tqslk2.jpg"
+    },
+    "logo": {
+        "url": "https://res.cloudinary.com/dgplzytrq/image/upload/v1720006257/Ganga-fusion-85/f0pay9xr6tfepvq73pls_hnwp8h.svg"
+    },
+    "project_locationImage": {
+        "url": "https://res.cloudinary.com/dgplzytrq/image/upload/v1720009105/Ganga-fusion-85/wcorb0wfgmvvmtchturo_fhwqaq.jpg"
+    },
+    "highlightImage": {
+        "url": "https://res.cloudinary.com/dgplzytrq/image/upload/v1720006135/Ganga-fusion-85/banner-1_wctmso.jpg"
+    },
+    "projectMaster_plan": {
+        "url": "https://res.cloudinary.com/dgplzytrq/image/upload/v1720009593/Ganga-fusion-85/q6fbyzjxka35i8nlda1p_irtavf.jpg"
+    },
+    "_id": "65f2c19f7e1280ea133fc457",
+    "project_floorplan_Image": [
+        {
+            "url": "https://res.cloudinary.com/dgplzytrq/image/upload/v1717586036/Floor%20plan%20image/Background_2_rbunqm.png"
+        },
+        {
+            "url": "https://res.cloudinary.com/dgplzytrq/image/upload/v1717586036/Floor%20plan%20image/Background_2_rbunqm.png"
+        },
+        {
+            "url": "https://res.cloudinary.com/dgplzytrq/image/upload/v1720008841/Ganga-fusion-85/tgbri51uuypgi4hhgh7i_yy1fuu.jpg"
+        }
+    ],
+    "state": "Haryana",
+    "projectName": "Ganga Realty Fusion 85",
+    "projectAddress": "Sector 85, Dwarka Expressway",
+    "project_description": "Ganga Realty Fusion 85, situated in Sector 85, Gurgaon, is a masterpiece of contemporary architecture and innovative design. This iconic development features sleek high-rise towers nestled amidst lush greenery and beautifully landscaped gardens, creating a tranquil oasis for its residents. The apartments are thoughtfully designed to maximize natural light and ventilation, offering breathtaking views of the surrounding landscape. The strategic location of Ganga Apartments in Sector 85, Gurgaon, is a significant factor in its popularity. The sector's seamless connectivity to major roads and highways, including National Highway 48 and the Dwarka Expressway, ensures effortless access to Delhi and other key areas of Gurgaon, making it a coveted destination for discerning homeowners.",
+    "projectRedefine_Connectivity": [
+        "Ganga Realty Sector 85 Luxury Apartments have located in Sector 85. And we know that it is a growing area."
+    ],
+    "projectRedefine_Entertainment": [
+        "And Multiplexes located within walk-in distances."
+    ],
+    "projectRedefine_Business": [
+        "You can catch prime locations from Ganga Realty Sector 85 Luxury Apartments Gurgaon."
+    ],
+    "projectRedefine_Education": [
+        "Our luxurious property is away from noisy palaces as well as populated areas."
+    ],
+    "meta_description": "Ganga Realty Fusion 85 in Sector 85, New Launch in Sector 85 Gurgaon",
+    "meta_title": "Ganga Realty Fusion 85 in Sector 85, New Launch in Sector 85 Gurgaon",
+    "Amenities": [
+        "Car Parking","Golf Course","Swimming Pool","Basketball Court","Vastu Compliant","Gym","Kids Pool"
+    ],
+    "projectBgContent": "Ganga Realty Sector 85 Gurgaon - New Launch",
+    "projectReraNo": "Applied",
+    "type": "Residential Flats",
+    "city": "Gurgaon",
+    "builderName": "Ganga Realty",
+    "AboutDeveloper": "Purity begins at home. It starts with those little joys and simple acts of love that make home our favourite corner of the earth. Explore wholesome living complemented by modern amenities with Ganga Realty. A lifestyle you dreamt of. A lifestyle you deserve. The perfect space for all those memorable moments. Come, love beckons you here at Ganga Realty.",
+    "projectOverview": "trending",
+    "schema_type": "project",
+    "project_url": "ganga-realty-sector-85",
+    "projectGallery": [
+        {
+            "url": "https://res.cloudinary.com/dm5yrsqdc/image/upload/v1714540448/realtyshopee/project/sduo7uujzewyq7slqvrs.jpg"
+        },
+        {
+            "url": "https://res.cloudinary.com/dm5yrsqdc/image/upload/v1714540450/realtyshopee/project/zad1omiuzeobnzlms5vy.jpg"
+        },
+        {
+            "url": "https://res.cloudinary.com/dm5yrsqdc/image/upload/v1714540451/realtyshopee/project/kbw4ziixyeqcnfhnaads.jpg"
+        },
+        {
+            "url": "https://res.cloudinary.com/dm5yrsqdc/image/upload/v1714540452/realtyshopee/project/vypywindklaeflbt20de.jpg"
+        }
+    ],
+    "BhK_Details": [
+        {
+            "bhk_type": "3 BHK + S + Ut",
+            "price": "Call for Price",
+            "bhk_Area": "2390 SQ.FT"
+        },
+        {
+            "bhk_type": "4 BHK + S + Ut",
+            "price": "Call for Price",
+            "bhk_Area": "3001 SQ.FT"
+        }
+    ],
+    "highlight": [
+        {
+            "highlight_Point": "3 ICONIC towers 4-core"
+        },
+        {
+            "highlight_Point": "TALLEST TOWERS in the vicinity with 55-57 Stories"
+        },
+        {
+            "highlight_Point": "8 lifts in single tower with 2 dedicated lifts for each apartment plus 2 service lifts separate"
+        },
+        {
+            "highlight_Point": "A massive state-of-the-art Clubhouse."
+        },
+        {
+            "highlight_Point": "Sun facing units"
+        },
+        {
+            "highlight_Point": "Principle architect: UHA LONDON"
+        },
+        {
+            "highlight_Point": "Masterplan designer:  SCAPE DESIGN"
+        },
+        {
+            "highlight_Point": "⁠Landscape architect : MACFURLANE & Associate"
+        },
+        {
+            "highlight_Point": "Structure audit : SGS"
+        }
+    ],
+    "project_Status": "comingsoon"
+  },
+  {
+    "frontImage": {
+        "url": "https://res.cloudinary.com/dgplzytrq/image/upload/v1716619813/Ganga-Realty-Nandaka/bannerImage_wijhay.jpg"
+    },
+    "logo": {
+        "url": "https://res.cloudinary.com/dgplzytrq/image/upload/v1716620576/Ganga-Realty-Nandaka/logo_nltala.webp"
+    },
+    "project_locationImage": {
+        "url": "https://res.cloudinary.com/dgplzytrq/image/upload/v1720010282/Ganga-Realty-Nandaka/kebhksnayauj7zcfakd7_xdrjoy.jpg"
+    },
+    "highlightImage": {
+        "url": "https://res.cloudinary.com/dgplzytrq/image/upload/v1720010326/Ganga-Realty-Nandaka/i7iek7jbuuea3ckdel3r_qnyg9g.jpg"
+    },
+    "projectMaster_plan": {
+        "url": "https://res.cloudinary.com/dgplzytrq/image/upload/v1720010355/Ganga-Realty-Nandaka/dstftj4gj01mbt6rwgmb_zik9ik.jpg"
+    },
+    "_id": "65f184da7e1280ea1339dbd8",
+    "project_floorplan_Image": [
+        {
+            "url": "https://res.cloudinary.com/dgplzytrq/image/upload/v1720010386/Ganga-Realty-Nandaka/r5uepytq0avybqvvzcwx_jksime.jpg"
+        },
+        {
+            "url": "https://res.cloudinary.com/dgplzytrq/image/upload/v1720010424/Ganga-Realty-Nandaka/d4yceczxhyxdzu2m1tlm_z6l503.jpg"
+        },
+        {
+            "url": "https://res.cloudinary.com/dgplzytrq/image/upload/v1720010455/Ganga-Realty-Nandaka/stne1djygdyb28ayks0r_emhuxb.jpg"
+        },
+        {
+            "url": "https://res.cloudinary.com/dgplzytrq/image/upload/v1720010486/Ganga-Realty-Nandaka/tshewladcc7b2jcnw49g_bg8dkm.jpg"
+        }
+    ],
+    "state": "Haryana",
+    "projectName": "Ganga Realty Nandaka",
+    "projectAddress": "Sector 84, Dwarka Expressway",
+    "project_description": "Ganga Nandaka, located in Sector 84, Gurgaon, is a prestigious residential project developed by Ganga Realty, a renowned name in Indian real estate. Spanning over 8.35 acres, the project offers luxurious amenities and enjoys a prime location in Gurgaon, a burgeoning hub in the real estate landscape. Situated near the Ganga Motorway, which connects Gurgaon with Delhi, residents benefit from excellent connectivity and easy access to major destinations. Ganga Nandaka is designed to cater to the discerning tastes of modern living, promising a blend of comfort, convenience, and luxury.",
+    "projectRedefine_Connectivity": [
+        "This project is nearest to National Highway 48 and offers location advantages to residents."
+    ],
+    "projectRedefine_Entertainment": [
+        "Sohna Road is 20 min drive from this project."
+    ],
+    "projectRedefine_Business": [
+        "Sector 84 is a few minut drive from Dwarka Expressway."
+    ],
+    "projectRedefine_Education": [
+        "It is closest to the South Delhi transportation routes."
+    ],
+    "meta_description": "Step into a home that manifests all things that bring you joy. Verdant landscapes and cleaner air welcome you to a quintessential urban life in Sector 84.",
+    "meta_title": "Ganga Realty Nandaka - New Projects in Sector 84 Gurgaon",
+    "Amenities": [
+        "Restaurant"
+        ,"Basketball Court"
+        ,"Salon"
+        ,"Yoga Room"
+        ,"Visitors Parking"
+        ,"Gymnasium"
+        ,"Fountain"
+        ,"Community Hall"
+        ,"Vastu Compliant"
+        ,"Meditation Area"
+        ,"Indoor Games"
+        ,"Jogging Track"
+        
+    ],
+    "projectBgContent": "Ganga Realty Nandaka - New Projects in Sector 84 Gurgaon",
+    "projectReraNo": "Applied",
+    "type": "Residential Flats",
+    "city": "Gurgaon",
+    "builderName": "Ganga Realty",
+    "AboutDeveloper": "Purity begins at home. It starts with those little joys and simple acts of love that make home our favourite corner of the earth. Explore wholesome living complemented by modern amenities with Ganga Realty. A lifestyle you dreamt of. A lifestyle you deserve. The perfect space for all those memorable moments. Come, love beckons you here at Ganga Realty.",
+    "projectOverview": "none",
+    "schema_type": "project",
+    "project_url": "ganga-realty-nandaka",
+    "projectGallery": [
+        {
+            "url": "https://res.cloudinary.com/dm5yrsqdc/image/upload/v1710326994/realtyshopee/project/dbcm7ch6fwoohmzlfey4.jpg"
+        },
+        {
+            "url": "https://res.cloudinary.com/dm5yrsqdc/image/upload/v1710326995/realtyshopee/project/lywkp6yydupe8q0oistd.jpg"
+        },
+        {
+            "url": "https://res.cloudinary.com/dm5yrsqdc/image/upload/v1710326996/realtyshopee/project/dmwvwqwniszhkcp7vd1l.jpg"
+        },
+        {
+            "url": "https://res.cloudinary.com/dm5yrsqdc/image/upload/v1710326997/realtyshopee/project/avzp4cp0q0ob5aksigea.jpg"
+        },
+        {
+            "url": "https://res.cloudinary.com/dm5yrsqdc/image/upload/v1710326998/realtyshopee/project/utqnkl3r9gur1vjykrlw.jpg"
+        },
+        {
+            "url": "https://res.cloudinary.com/dm5yrsqdc/image/upload/v1710326999/realtyshopee/project/kkrzw7vsarlgdycxxej2.jpg"
+        }
+    ],
+    "BhK_Details": [
+        {
+            "bhk_type": "3 BHK + SR",
+            "price": "Call for Price",
+            "bhk_Area": "3050 SQ.FT"
+        },
+        {
+            "bhk_type": "4 BHK + SR",
+            "price": "Call for Price",
+            "bhk_Area": "3850 SQ.FT"
+        }
+    ],
+    "highlight": [
+        {
+            "highlight_Point": "Indoor Games"
+        },
+        {
+            "highlight_Point": "Multipurpose Hall"
+        },
+        {
+            "highlight_Point": "Skating Rink"
+        }
+      ]
+    }
+  ]
 }

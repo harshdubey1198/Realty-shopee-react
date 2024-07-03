@@ -1,12 +1,12 @@
 import React, { useEffect, useState } from 'react';
 import { useNavigate, useParams } from 'react-router-dom';
 import PropertyDetail from '../Components/PropertyDetail';
-import propertyData from '../realtyshopee.json'; 
+import propertyData from '../realtyshopee.json';
 import { Helmet } from 'react-helmet';
 import ScrollToTop from '../Components/ScrollToTop';
 
 function PropertyPage() {
-  const { projectName } = useParams(); 
+  const { projectName } = useParams();
   const navigate = useNavigate();
   const [property, setProperty] = useState(null);
 
@@ -28,10 +28,10 @@ function PropertyPage() {
     <div>
       <Helmet>
         <meta charSet='utf-8' />
-        <link rel="canonical" href="https://www.realtyshopee.com/projects/:projectName" />
-        <title>{projectName} - Realty Shopee</title>
+        <link rel="canonical" href={`https://www.realtyshopee.com/projects/${projectName}`} />
+        <title>{property.meta_title}</title>
         <link rel="icon" href="https://www.realtyshopee.com/agent.png" />
-        <meta name="description" content="This is a description of the project page"/>
+        <meta name="description" content={property.meta_description} />
       </Helmet>
       <ScrollToTop />
       <PropertyDetail property={property} />
