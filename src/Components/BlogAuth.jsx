@@ -17,13 +17,6 @@ function BlogAuth({ setAuth }) {
     }
   }, [navigate]);
 
-  const handleHomeClick = () => {
-    navigate('/');
-  };
-
-  const handleContactUsClick = () => {
-    navigate('/contactus');
-  };
 
   const handleSubmit = (e) => {
     e.preventDefault();
@@ -49,8 +42,8 @@ function BlogAuth({ setAuth }) {
         <h2>
           <img src="https://www.realtyshopee.com/static/media/Realty%20shopee%20main%20logo.db6affde1f766278cf09.png" className='pd-logo' alt='Realty-Shopee-blogs' />
         </h2>
-        <button onClick={handleHomeClick}><span>Home</span><span><FcHome /></span></button>
-        <button onClick={handleContactUsClick}><span>Contact Us</span><span><FcQuestions /></span></button>
+        <a href="/" target="_blank"><span>Home</span><span><FcHome /></span></a>
+        <a href="/contactus" target="_blank"><span>Contact Us</span><span><FcQuestions /></span></a>
         <a href="tel:+919289252999"><span>+91 9289252999</span><span><FcPhone className='phone' /></span></a>
       </header>
 

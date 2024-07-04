@@ -1,6 +1,7 @@
 import React, { useState } from 'react';
 import PropertyCard from './PropertyCard'; 
-import { Link, useNavigate } from 'react-router-dom';
+// import { Link, useNavigate } from 'react-router-dom';
+import { Link } from 'react-router-dom';
 import logoImage from "../Images/Realty shopee main logo.png";
 import projectData from "../realtyshopee.json";
 import '../App.css'; 
@@ -11,16 +12,16 @@ function AllProperties() {
   const [searchQuery, setSearchQuery] = useState('');
   const [selectedType, setSelectedType] = useState('All');
 
-  const navigate = useNavigate();
-  const handleHomeClick = () => {
-    navigate('/');
-  };
-  const handleContactUsClick = () => {
-    navigate('/contactus');
-  };
-  const handleAddProjectClick = () => {
-    navigate('/addproperties');
-  };
+  // const navigate = useNavigate();
+  // const handleHomeClick = () => {
+  //   navigate('/');
+  // };
+  // const handleContactUsClick = () => {
+  //   navigate('/contactus');
+  // };
+  // const handleAddProjectClick = () => {
+  //   navigate('/addproperties');
+  // };
 
   const typeMapping = {
     "Residential": ["residential", "residential plots", "residential property", "residential flats" , "residential apartments"],
@@ -53,9 +54,9 @@ function AllProperties() {
           <a href="https://www.realtyshopee.com"><img src={logoImage} alt='Realty Shopee' loading='lazy'/></a>
         </div>
         <div className='navigators'>
-          <button onClick={handleHomeClick}>Home</button>
-          <button onClick={handleContactUsClick}>Contact us</button>
-          <button onClick={handleAddProjectClick}>Add Properties</button>
+          <a href="/">Home</a >
+          <a href="/contacts">Contact us</a>
+          <a href="/addproperties">Add Properties</a>
         </div>
       </nav>
       <div className='search-div gtc-search'>

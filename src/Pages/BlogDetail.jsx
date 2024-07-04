@@ -47,9 +47,9 @@ function BlogDetail() {
           <h2>
             <img src="https://www.realtyshopee.com/static/media/Realty%20shopee%20main%20logo.db6affde1f766278cf09.png" className='pd-logo' alt='Realty-Shopee-blogs' />
           </h2>
-          <a href="/"><span>Home</span><span><FcHome /></span></a>
-          <a href="/blogs"><span>Blogs</span><span><FcDocument /></span></a>
-          <a href="/contact-us"><span>Contact Us</span><span><FcQuestions /></span></a>
+          <a href="/" target="_blank"><span>Home</span><span><FcHome /></span></a>
+          <a href="/blogs" target="_blank"><span>Blogs</span><span><FcDocument /></span></a>
+          <a href="/contact-us" target="_blank"><span>Contact Us</span><span><FcQuestions /></span></a>
           <a href="tel:+919289252999"><span>+91 9289252999</span><span><FcPhone className='phone' /></span></a>
         </header>
         <span>Loading Blog</span> {loader}
@@ -64,9 +64,9 @@ function BlogDetail() {
           <h2>
             <img src="https://www.realtyshopee.com/static/media/Realty%20shopee%20main%20logo.db6affde1f766278cf09.png" className='pd-logo' alt='Realty-Shopee-blogs' />
           </h2>
-          <a href="/"><span>Home</span><span><FcHome /></span></a>
-          <a href="/blogs"><span>Blogs</span><span><FcDocument /></span></a>
-          <a href="/contact-us"><span>Contact Us</span><span><FcQuestions /></span></a>
+          <a href="/" target="_blank"><span>Home</span><span><FcHome /></span></a>
+          <a href="/blogs" target="_blank"><span>Blogs</span><span><FcDocument /></span></a>
+          <a href="/contact-us" target="_blank"><span>Contact Us</span><span><FcQuestions /></span></a>
           <a href="tel:+919289252999"><span>+91 9289252999</span><span><FcPhone className='phone' /></span></a>
         </header>
         <img
@@ -86,9 +86,9 @@ function BlogDetail() {
           <h2>
             <img src="https://www.realtyshopee.com/static/media/Realty%20shopee%20main%20logo.db6affde1f766278cf09.png" className='pd-logo' alt='Realty-Shopee-blogs' />
           </h2>
-          <a href="/"><span>Home</span><span><FcHome /></span></a>
-          <a href="/blogs"><span>Blogs</span><span><FcDocument /></span></a>
-          <a href="/contact-us"><span>Contact Us</span><span><FcQuestions /></span></a>
+          <a href="/" target="_blank"><span>Home</span><span><FcHome /></span></a>
+          <a href="/blogs" target="_blank"><span>Blogs</span><span><FcDocument /></span></a>
+          <a href="/contact-us" target="_blank"><span>Contact Us</span><span><FcQuestions /></span></a>
           <a href="tel:+919289252999"><span>+91 9289252999</span><span><FcPhone className='phone' /></span></a>
         </header>
         <h1>Blog not found</h1>
@@ -150,9 +150,9 @@ function BlogDetail() {
     <div className="blog-detail">
       <header className='pd-nav'>
         <h2><Link to="https://www.realtyshopee.com" className='r-logo'><img src="https://www.realtyshopee.com/static/media/Realty%20shopee%20main%20logo.db6affde1f766278cf09.png" className='pd-logo' alt='Realty-Shopee-blogs' /></Link></h2>
-        <a href="/"><span>Home</span><span><FcHome /></span></a>
-        <a href="/blogs"><span>Blogs</span><span><FcDocument /></span></a>
-        <a href="/contact-us"><span>Contact Us</span><span><FcQuestions /></span></a>
+        <a href="/" target="_blank"><span>Home</span><span><FcHome /></span></a>
+        <a href="/blogs" target="_blank"><span>Blogs</span><span><FcDocument /></span></a>
+        <a href="/contact-us" target="_blank"><span>Contact Us</span><span><FcQuestions /></span></a>
         <a href="tel:+919289252999"><span>+91 9289252999</span><span><FcPhone className='phone' /></span></a>
       </header>
       <div className='blog-div'>
