@@ -4,16 +4,14 @@ import '../App.css';
 import { TfiHeadphoneAlt } from "react-icons/tfi";
 import { Link as ScrollLink, scroller } from 'react-scroll';
 import { AiOutlineMenu } from "react-icons/ai";
-import { useNavigate } from 'react-router-dom';
+import { Link, useNavigate } from 'react-router-dom';
 import menIcon from "../Images/Icons/man.png";
 import womenIcon from "../Images/Icons/woman.png";
 
 function Navbar() {
   const navigate = useNavigate();
   const [username, setUsername] = useState(null);
-  const handleBlogPage=()=>{
-    navigate('/blogs')
-  }
+
   const handleAddProject = () => {
     const username = localStorage.getItem('username');
     if (username) {
@@ -71,28 +69,28 @@ function Navbar() {
   const toggleMobileDropdown = () => {
     setDropdownVisible(!isDropdownVisible);
   };
-  
+
   return (
     <nav>
       <div className='relative'>
         <div className='logo-div'>
-            <a href='https://www.realtyshopee.com' target='_blank' rel='noopener noreferrer'>
-          <img src={logo} alt='Realty Shopee' />
-            </a>
+          <a href='https://www.realtyshopee.com' target='_blank' rel='noopener noreferrer'>
+            <img src={logo} alt='Realty Shopee' />
+          </a>
         </div>
 
         <div className='navigators'>
-          <ScrollLink to="home" smooth={true} duration={1500} offset={-navbarHeight}><button>Home</button></ScrollLink>
-          <ScrollLink to="trending" smooth={true} duration={1500} offset={-navbarHeight}><button>Trending</button></ScrollLink>
-          <ScrollLink to="upcoming" smooth={true} duration={1500} offset={-navbarHeight}><button>Upcoming</button></ScrollLink>
+          <ScrollLink to="home" smooth={true} duration={1500} offset={-navbarHeight}>Home</ScrollLink>
+          <ScrollLink to="trending" smooth={true} duration={1500} offset={-navbarHeight}>Trending</ScrollLink>
+          <ScrollLink to="upcoming" smooth={true} duration={1500} offset={-navbarHeight}>Upcoming</ScrollLink>
           <select onChange={handleDropdownChange} className="dropdown-select">
             <option value="">Properties</option>
             <option value="residential">Residential</option>
             <option value="commercial">Commercial</option>
             <option value="sco">SCO</option>
           </select>
-          <ScrollLink to="location-wise" smooth={true} duration={1500} offset={-navbarHeight}><button>Location Wise</button></ScrollLink>
-          <button onClick={handleBlogPage}>Blogs</button>
+          <ScrollLink to="location-wise" smooth={true} duration={1500} offset={-navbarHeight}>Location Wise</ScrollLink>
+          <Link to="/blogs">Blogs</Link>
         </div>
 
         <div className='right-panel'>

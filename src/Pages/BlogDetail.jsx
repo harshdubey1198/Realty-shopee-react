@@ -3,7 +3,6 @@ import { useNavigate, useParams, Link } from 'react-router-dom';
 import axios from 'axios';
 import { FcDocument, FcHome, FcPhone, FcQuestions } from 'react-icons/fc';
 import Loader from 'react-loaders';
-import { Helmet } from 'react-helmet';
 
 function BlogDetail() {
   const navigate = useNavigate();
@@ -34,47 +33,23 @@ function BlogDetail() {
     fetchBlog();
   }, [meta_url]);
 
-  const handleAllBlogs = () => {
-    navigate('/blogs');
-  };
+  useEffect(() => {
+    // Update document title when blog changes
+    if (blog) {
+      document.title = blog.meta_title || blog.title;
+    }
+  }, [blog]);
 
-  const handleContactUsClick = () => {
-    navigate('/contact-us');
-  };
-
-  const handleHomeClick = () => {
-    navigate('/');
-  };
-  const getDescriptionSummary = () => {
-    if (!blog) return '';
-
-    // Generate summary from description content
-    return JSON.parse(blog.description)
-      .map(item => item.content)
-      .join(' ')
-      .slice(0, 160);
-  };
-  const renderMetaTags = () => {
-    if (!blog) return null;
-
-    return (
-      <Helmet>
-        <title>{blog.meta_title || blog.title}</title>
-        <meta name="description" content={blog.meta_description || getDescriptionSummary()} />
-      </Helmet>
-    );
-  };
   if (loading) {
     return (
       <div className='blogloading'>
-        
         <header className='pd-nav'>
           <h2>
             <img src="https://www.realtyshopee.com/static/media/Realty%20shopee%20main%20logo.db6affde1f766278cf09.png" className='pd-logo' alt='Realty-Shopee-blogs' />
           </h2>
-          <button onClick={handleHomeClick}><span>Home</span><span><FcHome /></span></button>
-          <button onClick={handleAllBlogs}><span>Blogs</span><span><FcDocument /></span></button>
-          <button onClick={handleContactUsClick}><span>Contact Us</span><span><FcQuestions /></span></button>
+          <a href="/"><span>Home</span><span><FcHome /></span></a>
+          <a href="/blogs"><span>Blogs</span><span><FcDocument /></span></a>
+          <a href="/contact-us"><span>Contact Us</span><span><FcQuestions /></span></a>
           <a href="tel:+919289252999"><span>+91 9289252999</span><span><FcPhone className='phone' /></span></a>
         </header>
         <span>Loading Blog</span> {loader}
@@ -89,9 +64,9 @@ function BlogDetail() {
           <h2>
             <img src="https://www.realtyshopee.com/static/media/Realty%20shopee%20main%20logo.db6affde1f766278cf09.png" className='pd-logo' alt='Realty-Shopee-blogs' />
           </h2>
-          <button onClick={handleHomeClick}><span>Home</span><span><FcHome /></span></button>
-          <button onClick={handleAllBlogs}><span>Blogs</span><span><FcDocument /></span></button>
-          <button onClick={handleContactUsClick}><span>Contact Us</span><span><FcQuestions /></span></button>
+          <a href="/"><span>Home</span><span><FcHome /></span></a>
+          <a href="/blogs"><span>Blogs</span><span><FcDocument /></span></a>
+          <a href="/contact-us"><span>Contact Us</span><span><FcQuestions /></span></a>
           <a href="tel:+919289252999"><span>+91 9289252999</span><span><FcPhone className='phone' /></span></a>
         </header>
         <img
@@ -111,9 +86,9 @@ function BlogDetail() {
           <h2>
             <img src="https://www.realtyshopee.com/static/media/Realty%20shopee%20main%20logo.db6affde1f766278cf09.png" className='pd-logo' alt='Realty-Shopee-blogs' />
           </h2>
-          <button onClick={handleHomeClick}><span>Home</span><span><FcHome /></span></button>
-          <button onClick={handleAllBlogs}><span>Blogs</span><span><FcDocument /></span></button>
-          <button onClick={handleContactUsClick}><span>Contact Us</span><span><FcQuestions /></span></button>
+          <a href="/"><span>Home</span><span><FcHome /></span></a>
+          <a href="/blogs"><span>Blogs</span><span><FcDocument /></span></a>
+          <a href="/contact-us"><span>Contact Us</span><span><FcQuestions /></span></a>
           <a href="tel:+919289252999"><span>+91 9289252999</span><span><FcPhone className='phone' /></span></a>
         </header>
         <h1>Blog not found</h1>
@@ -173,12 +148,11 @@ function BlogDetail() {
 
   return (
     <div className="blog-detail">
-      {renderMetaTags()}
       <header className='pd-nav'>
         <h2><Link to="https://www.realtyshopee.com" className='r-logo'><img src="https://www.realtyshopee.com/static/media/Realty%20shopee%20main%20logo.db6affde1f766278cf09.png" className='pd-logo' alt='Realty-Shopee-blogs' /></Link></h2>
-        <button onClick={handleHomeClick}><span>Home</span><span><FcHome /></span></button>
-        <button onClick={handleAllBlogs}><span>Blogs</span><span><FcDocument /></span></button>
-        <button onClick={handleContactUsClick}><span>Contact Us</span><span><FcQuestions /></span></button>
+        <a href="/"><span>Home</span><span><FcHome /></span></a>
+        <a href="/blogs"><span>Blogs</span><span><FcDocument /></span></a>
+        <a href="/contact-us"><span>Contact Us</span><span><FcQuestions /></span></a>
         <a href="tel:+919289252999"><span>+91 9289252999</span><span><FcPhone className='phone' /></span></a>
       </header>
       <div className='blog-div'>
