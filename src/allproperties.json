@@ -12391,47 +12391,37 @@
             }
           },
        
-        {
+          {
             "frontImage": {
-                "public_id": "realtyshopee/project/r9ogecjzjckzyzkonezl",
                 "url": "https://res.cloudinary.com/dgplzytrq/image/upload/v1719579906/Aipl-JoyGallery/AIPL_JoyGallery-1_g7jmzz.webp"
             },
             "logo": {
-                "public_id": "realtyshopee/project/fu2ugzvbiniqe9sbm66c",
-                "url": "https://res.cloudinary.com/dm5yrsqdc/image/upload/v1712833222/realtyshopee/project/fu2ugzvbiniqe9sbm66c.png"
+                "url": "https://res.cloudinary.com/dgplzytrq/image/upload/v1716621658/Aipl-JoyGallery/logo_wdnjxe.webp"
             },
             "project_locationImage": {
-                "public_id": "realtyshopee/project/tjoqjtmsbivylso2x6qr",
                 "url": "https://res.cloudinary.com/dm5yrsqdc/image/upload/v1714995608/realtyshopee/project/tjoqjtmsbivylso2x6qr.jpg"
             },
             "highlightImage": {
-                "public_id": "realtyshopee/project/dzutjo3rnhwkxckrsgws",
                 "url": "https://res.cloudinary.com/dm5yrsqdc/image/upload/v1714995808/realtyshopee/project/dzutjo3rnhwkxckrsgws.jpg"
             },
             "projectMaster_plan": {
-                "public_id": "realtyshopee/project/sejlormwdamgrki8pw6w",
                 "url": "http://res.cloudinary.com/dm5yrsqdc/image/upload/v1714995676/realtyshopee/project/sejlormwdamgrki8pw6w.jpg"
             },
             "_id": "6617c2cf0dbd2ab11644eb96",
             "project_floorplan_Image": [
                 {
-                    "public_id": "realtyshopee/project/ewcxkste4vt1padwkb27",
                     "url": "https://res.cloudinary.com/dm5yrsqdc/image/upload/v1714995740/realtyshopee/project/ewcxkste4vt1padwkb27.jpg"
                 },
                 {
-                    "public_id": "realtyshopee/project/tahkwq4dpop6skqzyahy",
                     "url": "https://res.cloudinary.com/dm5yrsqdc/image/upload/v1714995741/realtyshopee/project/tahkwq4dpop6skqzyahy.jpg"
                 },
                 {
-                    "public_id": "realtyshopee/project/rkteafhac1w6xruexw4p",
                     "url": "https://res.cloudinary.com/dm5yrsqdc/image/upload/v1714995742/realtyshopee/project/rkteafhac1w6xruexw4p.jpg"
                 },
                 {
-                    "public_id": "realtyshopee/project/fcvnndikplcb99dumqml",
                     "url": "https://res.cloudinary.com/dm5yrsqdc/image/upload/v1714995744/realtyshopee/project/fcvnndikplcb99dumqml.jpg"
                 },
                 {
-                    "public_id": "realtyshopee/project/vonnpg211nsg9atnsxc8",
                     "url": "https://res.cloudinary.com/dm5yrsqdc/image/upload/v1714995745/realtyshopee/project/vonnpg211nsg9atnsxc8.jpg"
                 }
             ],
@@ -12474,19 +12464,15 @@
             "project_url": "omaxe-dwarka",
             "projectGallery": [
                 {
-                    "public_id": "realtyshopee/project/fsshjjpg4asp21r0b3bn",
                     "url": "https://res.cloudinary.com/dm5yrsqdc/image/upload/v1714995896/realtyshopee/project/fsshjjpg4asp21r0b3bn.jpg"
                 },
                 {
-                    "public_id": "realtyshopee/project/ivytzbdn2rrnkkacypdz",
                     "url": "https://res.cloudinary.com/dm5yrsqdc/image/upload/v1714995897/realtyshopee/project/ivytzbdn2rrnkkacypdz.jpg"
                 },
                 {
-                    "public_id": "realtyshopee/project/sht9adqpmgsdqneepykn",
                     "url": "https://res.cloudinary.com/dm5yrsqdc/image/upload/v1714995898/realtyshopee/project/sht9adqpmgsdqneepykn.jpg"
                 },
                 {
-                    "public_id": "realtyshopee/project/kedunsdqmpj2hvefq3eo",
                     "url": "https://res.cloudinary.com/dm5yrsqdc/image/upload/v1714995899/realtyshopee/project/kedunsdqmpj2hvefq3eo.jpg"
                 }
             ],
@@ -12494,61 +12480,47 @@
                 {
                     "bhk_type": "Office Space",
                     "price": "Call for Price",
-                    "bhk_Area": "On Request",
-                    "_id": "6638c5b2df6f5a16378ef08e"
+                    "bhk_Area": "On Request"
                 },
                 {
                     "bhk_type": "Retail Shops",
                     "price": "Call for Price",
-                    "bhk_Area": "On Request",
-                    "_id": "6638c5c2df6f5a16378ef09c"
+                    "bhk_Area": "On Request"
                 }
             ],
             "highlight": [
                 {
-                    "highlight_Point": "Land Parcel - 50.4 acres",
-                    "_id": "6617c4f60dbd2ab11644f194"
+                    "highlight_Point": "Land Parcel - 50.4 acres"
                 },
                 {
-                    "highlight_Point": "Opposite Bharat Vandana 220 Acres",
-                    "_id": "6617c4fc0dbd2ab11644f198"
+                    "highlight_Point": "Opposite Bharat Vandana 220 Acres"
                 },
                 {
-                    "highlight_Point": "70,000 Ft FAC Area",
-                    "_id": "6617c5040dbd2ab11644f19d"
+                    "highlight_Point": "70,000 Ft FAC Area"
                 },
                 {
-                    "highlight_Point": "100+ Room Hotel Above Banquet",
-                    "_id": "6617c50d0dbd2ab11644f1a3"
+                    "highlight_Point": "100+ Room Hotel Above Banquet"
                 },
                 {
-                    "highlight_Point": "80 Seater Auditorium",
-                    "_id": "6617c5140dbd2ab11644f1aa"
+                    "highlight_Point": "80 Seater Auditorium"
                 },
                 {
-                    "highlight_Point": "40,000 Seater With Hydraulic Pitch",
-                    "_id": "6617c51b0dbd2ab11644f1b2"
+                    "highlight_Point": "40,000 Seater With Hydraulic Pitch"
                 },
                 {
-                    "highlight_Point": "6/7 Screen Multiplex",
-                    "_id": "6617c5220dbd2ab11644f1bb"
+                    "highlight_Point": "6/7 Screen Multiplex"
                 },
                 {
-                    "highlight_Point": "80% Retail - Ground",
-                    "_id": "6617c5290dbd2ab11644f1c5"
+                    "highlight_Point": "80% Retail - Ground"
                 },
                 {
-                    "highlight_Point": "Opposite Bharat Vandana 220 Acres",
-                    "_id": "6617c5410dbd2ab11644f1ea"
+                    "highlight_Point": "Opposite Bharat Vandana 220 Acres"
                 },
                 {
-                    "highlight_Point": "42 Restaurants In The Whole Project",
-                    "_id": "6617c5490dbd2ab11644f1f6"
+                    "highlight_Point": "42 Restaurants In The Whole Project"
                 }
             ],
-            "createdAt": "2024-04-11T11:00:31.052Z",
-            "updatedAt": "2024-05-06T11:57:54.805Z",
-            "__v": 0,
+           
             "possession":"2024"
         },
         {

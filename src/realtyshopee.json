@@ -551,6 +551,131 @@
             "highlight_Point": "Skating Rink"
         }
       ]
+    },{
+        "frontImage": {
+            "url": "https://res.cloudinary.com/dgplzytrq/image/upload/v1719579906/Aipl-JoyGallery/AIPL_JoyGallery-1_g7jmzz.webp"
+        },
+        "logo": {
+            "url": "https://res.cloudinary.com/dgplzytrq/image/upload/v1716621658/Aipl-JoyGallery/logo_wdnjxe.webp"
+        },
+        "project_locationImage": {
+            "url": "https://res.cloudinary.com/dgplzytrq/image/upload/v1720072571/Aipl-JoyGallery/na2qy1w1_myk4p0.png"
+        },
+        "highlightImage": {
+            "url": "https://res.cloudinary.com/dgplzytrq/image/upload/v1716621702/Aipl-JoyGallery/gallery-3_kwvjqs.webp"
+        },
+        "projectMaster_plan": {
+            "url": "http://res.cloudinary.com/dm5yrsqdc/image/upload/v1714995676/realtyshopee/project/sejlormwdamgrki8pw6w.jpg"
+        },
+        "_id": "6617c2cf0dbd2ab11644eb96",
+        "project_floorplan_Image": [
+            {
+                "url": "https://res.cloudinary.com/dgplzytrq/image/upload/v1717582876/Floor%20plan%20image/Background_cpb7aq.png"
+            },
+            {
+                "url": "https://res.cloudinary.com/dgplzytrq/image/upload/v1717585460/Floor%20plan%20image/Background_1_lqqpwe.png"
+            },
+            {
+                "url": "https://res.cloudinary.com/dgplzytrq/image/upload/v1717586036/Floor%20plan%20image/Background_2_rbunqm.png"
+            }
+        ],
+        "state": "Haryana",
+        "projectName": "AIPL Joy Gallery",
+        "projectAddress": "Sector 66, Golf Course Extension Road",
+        "project_description": "In the heart of Delhi, a new commercial horizon is unfolding. Omaxe Dwarka Shopping Center is a prestigious business project that promises to revolutionize the city's retail and office landscape. This iconic development features a diverse range of premium dining options, retail outlets, and office spaces, all supported by advanced amenities and multi-level parking. With its strategic location in Dwarka, one of Delhi's most rapidly growing commercial districts, Omaxe Dwarka Shopping Center offers unparalleled opportunities for business growth and success. The Omaxe Group, a pioneering real estate developer, has invested INR 2100 crore in this ambitious project, which also includes the development of a state-of-the-art sports complex and retail center. Set to become a landmark destination in the nation's capital, Omaxe Dwarka Shopping Center is poised to redefine the future of commerce in Delhi.",
+        "projectRedefine_Connectivity": [
+            "15 minutes drive from Indira Gandhi International (IGI) Airport."
+        ],
+        "projectRedefine_Entertainment": [
+            "5 minutes form Nearest Metro Station"
+        ],
+        "projectRedefine_Business": [
+            "6 km away from the Gurgaon border"
+        ],
+        "projectRedefine_Education": [
+            "Located within 5 km from Vegas Mall And hospitals like Ayushman Hospital, and Aakash Healthcare Super Speciality Hospital."
+        ],
+        "meta_description": "Omaxe State Dwarka Delhi is an impending luxury commercial project that features premium quality retail shops, offices & sports arena with top-class niceties.",
+        "meta_title": "Omaxe State Dwarka Delhi - Commercial Property in Sector 19B New Delhi",
+        "Amenities": [
+            "24x7 Power Backup",
+            "Elevator Lobby",
+            "Swimming Pool",
+            "Advanced Security",
+            "3 Level Car Parking",
+            "Jogging Track",
+            "Cafeteria"
+        ],
+        "projectBgContent": "OMAXE DWARKA",
+        "projectReraNo": "Applied",
+        "type": "Commercial Property",
+        "city": "Gurgaon",
+        "builderName": "Omaxe",
+        "AboutDeveloper": "Since 1987, Omaxe has been relentless in its approach to providing world-class services in real estate and has a varied portfolio comprising Integrated and High-Tech Townships, Group Housing, SCOs, Shopping malls, and Hotels to name a select few.",
+        "projectOverview": "commercial",
+        "project_Status": "newlunch",
+        "schema_type": "project",
+        "project_url": "omaxe-dwarka",
+        "projectGallery": [
+            {
+                "url": "https://res.cloudinary.com/dm5yrsqdc/image/upload/v1714995896/realtyshopee/project/fsshjjpg4asp21r0b3bn.jpg"
+            },
+            {
+                "url": "https://res.cloudinary.com/dm5yrsqdc/image/upload/v1714995897/realtyshopee/project/ivytzbdn2rrnkkacypdz.jpg"
+            },
+            {
+                "url": "https://res.cloudinary.com/dm5yrsqdc/image/upload/v1714995898/realtyshopee/project/sht9adqpmgsdqneepykn.jpg"
+            },
+            {
+                "url": "https://res.cloudinary.com/dm5yrsqdc/image/upload/v1714995899/realtyshopee/project/kedunsdqmpj2hvefq3eo.jpg"
+            }
+        ],
+        "BhK_Details": [
+            {
+                "bhk_type": "Office Space",
+                "price": "Call for Price",
+                "bhk_Area": "On Request"
+            },
+            {
+                "bhk_type": "Retail Shops",
+                "price": "Call for Price",
+                "bhk_Area": "On Request"
+            }
+        ],
+        "highlight": [
+            {
+                "highlight_Point": "Land Parcel - 50.4 acres"
+            },
+            {
+                "highlight_Point": "Opposite Bharat Vandana 220 Acres"
+            },
+            {
+                "highlight_Point": "70,000 Ft FAC Area"
+            },
+            {
+                "highlight_Point": "100+ Room Hotel Above Banquet"
+            },
+            {
+                "highlight_Point": "80 Seater Auditorium"
+            },
+            {
+                "highlight_Point": "40,000 Seater With Hydraulic Pitch"
+            },
+            {
+                "highlight_Point": "6/7 Screen Multiplex"
+            },
+            {
+                "highlight_Point": "80% Retail - Ground"
+            },
+            {
+                "highlight_Point": "Opposite Bharat Vandana 220 Acres"
+            },
+            {
+                "highlight_Point": "42 Restaurants In The Whole Project"
+            }
+        ],
+       
+        "possession":"2024"
     }
   ]
 }

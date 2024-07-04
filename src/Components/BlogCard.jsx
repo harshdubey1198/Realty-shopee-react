@@ -3,6 +3,11 @@ import { Link } from 'react-router-dom';
 import truncate from 'html-truncate';
 
 function BlogCard({ blog }) {
+  
+  if (!blog) {
+    return null; // or handle the case where blog is not defined
+  }
+
   const getFirstHeadingAndParagraph = (description) => {
     let firstHeading = '';
     let firstParagraph = '';
@@ -37,7 +42,7 @@ function BlogCard({ blog }) {
       <h5>{truncatedTitle}</h5>
       <p dangerouslySetInnerHTML={{ __html: truncatedParagraph }}></p>
       <p className='fd'>{formattedDate}</p>
-      <Link to={`/blog/${encodeURIComponent(blog.title)}`} className='blog-opener'>Read More</Link>
+      <Link to={`/blog/${blog.meta_url}`} className='blog-opener'>Read More</Link> {/* Use blog.meta_url here */}
     </div>
   );
 }

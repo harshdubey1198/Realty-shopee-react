@@ -1,27 +1,26 @@
-import React, { useEffect, useState } from 'react';
-import { useNavigate, useParams } from 'react-router-dom';
+import React, { useState, useEffect } from 'react';
+import { useNavigate, useParams, Link } from 'react-router-dom';
 import axios from 'axios';
 import { FcDocument, FcHome, FcPhone, FcQuestions } from 'react-icons/fc';
 import Loader from 'react-loaders';
 
 function BlogDetail() {
   const navigate = useNavigate();
-  const { blogTitle } = useParams();
+  const { meta_url } = useParams();
   const [blog, setBlog] = useState(null);
   const [loading, setLoading] = useState(true);
   const [error, setError] = useState(null);
-  // const [currentIndex, setCurrentIndex] = useState(0);
 
   const handleBackToBlogs = () => {
     navigate('/blogs');
-  }
+  };
 
-  let loader = <Loader type="ball-pulse-sync" />
+  let loader = <Loader type="ball-pulse-sync" />;
 
   useEffect(() => {
     const fetchBlog = async () => {
       try {
-        const response = await axios.get(`https://realty-react-backend.onrender.com/blogs/${blogTitle}`);
+        const response = await axios.get(`https://realty-react-backend.onrender.com/blogs/${meta_url}`);
         setBlog(response.data);
       } catch (error) {
         setError('Blog not found');
@@ -32,35 +31,31 @@ function BlogDetail() {
     };
 
     fetchBlog();
-  }, [blogTitle]);
+  }, [meta_url]);
 
   const handleAllBlogs = () => {
     navigate('/blogs');
-  }
-  const handleContactUsClick = () => {
-    navigate('/blogs');
-  }
-  const handleHomeClick = () => {
-    navigate('/blogs');
-  }
- 
-  // const handlePrev = () => {
-  //   setCurrentIndex((prevIndex) => (prevIndex - 1 + blog.descriptionImages.length) % blog.descriptionImages.length);
-  // };
+  };
 
-  // const handleNext = () => {
-  //   setCurrentIndex((prevIndex) => (prevIndex + 1) % blog.descriptionImages.length);
-  // };
+  const handleContactUsClick = () => {
+    navigate('/contact-us');
+  };
+
+  const handleHomeClick = () => {
+    navigate('/');
+  };
 
   if (loading) {
     return (
       <div className='blogloading'>
         <header className='pd-nav'>
-           <h2><img src="https://www.realtyshopee.com/static/media/Realty%20shopee%20main%20logo.db6affde1f766278cf09.png" className='pd-logo' alt='Realty-Shopee-blogs' /></h2>
-            <button onClick={handleHomeClick}><span>Home</span><span><FcHome /></span></button>
-            <button onClick={handleAllBlogs}><span>Blogs</span><span><FcDocument /></span></button>
-            <button onClick={handleContactUsClick}><span>Contact Us</span><span><FcQuestions /></span></button>
-            <a href="tel:+919289252999"><span>+91 9289252999</span><span><FcPhone className='phone' /></span></a>
+          <h2>
+            <img src="https://www.realtyshopee.com/static/media/Realty%20shopee%20main%20logo.db6affde1f766278cf09.png" className='pd-logo' alt='Realty-Shopee-blogs' />
+          </h2>
+          <button onClick={handleHomeClick}><span>Home</span><span><FcHome /></span></button>
+          <button onClick={handleAllBlogs}><span>Blogs</span><span><FcDocument /></span></button>
+          <button onClick={handleContactUsClick}><span>Contact Us</span><span><FcQuestions /></span></button>
+          <a href="tel:+919289252999"><span>+91 9289252999</span><span><FcPhone className='phone' /></span></a>
         </header>
         <span>Loading Blog</span> {loader}
       </div>
@@ -71,7 +66,9 @@ function BlogDetail() {
     return (
       <div className='blognf'>
         <header className='pd-nav'>
-          <h2><img src="https://www.realtyshopee.com/static/media/Realty%20shopee%20main%20logo.db6affde1f766278cf09.png" className='pd-logo' alt='Realty-Shopee-blogs' /></h2>
+          <h2>
+            <img src="https://www.realtyshopee.com/static/media/Realty%20shopee%20main%20logo.db6affde1f766278cf09.png" className='pd-logo' alt='Realty-Shopee-blogs' />
+          </h2>
           <button onClick={handleHomeClick}><span>Home</span><span><FcHome /></span></button>
           <button onClick={handleAllBlogs}><span>Blogs</span><span><FcDocument /></span></button>
           <button onClick={handleContactUsClick}><span>Contact Us</span><span><FcQuestions /></span></button>
@@ -91,13 +88,15 @@ function BlogDetail() {
     return (
       <div className='blognf'>
         <header className='pd-nav'>
-          <h2><img src="https://www.realtyshopee.com/static/media/Realty%20shopee%20main%20logo.db6affde1f766278cf09.png" className='pd-logo' alt='Realty-Shopee-blogs' /></h2>
+          <h2>
+            <img src="https://www.realtyshopee.com/static/media/Realty%20shopee%20main%20logo.db6affde1f766278cf09.png" className='pd-logo' alt='Realty-Shopee-blogs' />
+          </h2>
           <button onClick={handleHomeClick}><span>Home</span><span><FcHome /></span></button>
           <button onClick={handleAllBlogs}><span>Blogs</span><span><FcDocument /></span></button>
           <button onClick={handleContactUsClick}><span>Contact Us</span><span><FcQuestions /></span></button>
           <a href="tel:+919289252999"><span>+91 9289252999</span><span><FcPhone className='phone' /></span></a>
         </header>
-        <h1>Blog not found </h1>
+        <h1>Blog not found</h1>
       </div>
     );
   }
@@ -105,10 +104,10 @@ function BlogDetail() {
   const parseText = (text) => {
     // Parse for <b> tags
     text = text.replace(/<b>(.*?)<\/b>/g, '<strong>$1</strong>');
-    
+
     // Parse for <a> tags
-    text = text.replace(/<a href="(.*?)"(.*?)>(.*?)<\/a>/g, '<a href="$1"$2 style="color: darkblue; font-weight: bold;">$3</a>');
-    
+    text = text.replace(/<a href="(.*?)"(.*?)>(.*?)<\/a>/g, '<a href="$1"$2 style="color: darkblue; font-weight: bold;" target="_blank" rel="noopener noreferrer">$3</a>');
+
     return text;
   };
 
@@ -139,10 +138,23 @@ function BlogDetail() {
     });
   };
 
+  const renderCategoryLink = (category) => {
+    switch (category) {
+      case 'residential':
+        return <Link to="/residential-property-in-gurgaon" style={{ color: 'blue', textDecoration: 'underline' }}>Residential Properties</Link>;
+      case 'commercial':
+        return <Link to="/commercial-property-in-gurgaon" style={{ color: 'blue', textDecoration: 'underline' }}>Commercial Properties</Link>;
+      case 'sco':
+        return <Link to="/SCO-Plots-in-gurgaon" style={{ color: 'blue', textDecoration: 'underline' }}>SCO Properties</Link>;
+      default:
+        return category;
+    }
+  };
+
   return (
     <div className="blog-detail">
       <header className='pd-nav'>
-        <h2><a href="https://www.realtyshopee.com" className='r-logo'><img src="https://www.realtyshopee.com/static/media/Realty%20shopee%20main%20logo.db6affde1f766278cf09.png" className='pd-logo' alt='Realty-Shopee-blogs' /></a></h2>
+        <h2><Link to="https://www.realtyshopee.com" className='r-logo'><img src="https://www.realtyshopee.com/static/media/Realty%20shopee%20main%20logo.db6affde1f766278cf09.png" className='pd-logo' alt='Realty-Shopee-blogs' /></Link></h2>
         <button onClick={handleHomeClick}><span>Home</span><span><FcHome /></span></button>
         <button onClick={handleAllBlogs}><span>Blogs</span><span><FcDocument /></span></button>
         <button onClick={handleContactUsClick}><span>Contact Us</span><span><FcQuestions /></span></button>
@@ -153,19 +165,8 @@ function BlogDetail() {
         <img src={blog.featureImage} alt={blog.title} className="blog-d-banner" />
         <div className="blog-content">
           {renderContent()}
-          <p><b>Category:</b> {blog.category}</p>
+          <p><b>Category:</b> {renderCategoryLink(blog.category)}</p>
           <p><b>Tags:</b> {blog.tags.join(', ')}</p>
-          {/* <div className='description-i-div'>
-            <button onClick={handlePrev} className='prev-button'>Previous</button>
-            {blog.descriptionImages && blog.descriptionImages.length > 0 && (
-              <img
-                src={blog.descriptionImages[currentIndex]}
-                alt={`Description ${currentIndex}`}
-                className='description-img'
-              />
-            )}
-            <button onClick={handleNext} className='next-button'>Next</button>
-          </div> */}
         </div>
       </div>
     </div>

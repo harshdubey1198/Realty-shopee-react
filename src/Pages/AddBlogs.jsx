@@ -9,9 +9,11 @@ const AddBlogs = ({ auth }) => {
   const [title, setTitle] = useState('');
   const [description, setDescription] = useState([]);
   const [featureImage, setFeatureImage] = useState('');
-  const [descriptionImages, setDescriptionImages] = useState([]);
   const [category, setCategory] = useState('');
   const [tags, setTags] = useState('');
+  const [meta_Title, setMetaTitle] = useState('');
+  const [meta_Description, setMetaDescription] = useState('');
+  // const [meta_URL, setMetaURL] = useState('');
   const navigate = useNavigate();
 
   useEffect(() => {
@@ -24,15 +26,15 @@ const AddBlogs = ({ auth }) => {
   const handleHomeClick = () => {
     navigate('/');
   };
-  const handleAllBlogs =()=>{
+  const handleAllBlogs = () => {
     navigate('/blogs');
-  }
+  };
   const handleContactUsClick = () => {
     navigate('/contactus');
   };
-  const handleEditBlogs =()=>{
+  const handleEditBlogs = () => {
     navigate('/edit-blogs');
-  }
+  };
   const handleSubmit = async (e) => {
     e.preventDefault();
 
@@ -41,9 +43,11 @@ const AddBlogs = ({ auth }) => {
         title,
         description: JSON.stringify(description),
         featureImage,
-        descriptionImages: JSON.stringify(descriptionImages),
         category,
-        tags
+        tags,
+        meta_title: meta_Title || title, // Use meta_Title if set, otherwise fall back to title
+        meta_description: meta_Description || getDescriptionSummary(), // Use meta_Description if set, otherwise generate from description
+        meta_url: generateMetaURL(title) // Generate meta_URL dynamically
       }, {
         headers: {
           'Content-Type': 'application/json'
@@ -55,6 +59,15 @@ const AddBlogs = ({ auth }) => {
     }
   };
 
+  const getDescriptionSummary = () => {
+    // Generate summary from description content
+    return description.map(item => item.content).join(' ').slice(0, 160);
+  };
+
+  const generateMetaURL = (title) => {
+    return title.toLowerCase().replace(/\s+/g, '-');
+  };
+
   const handleFeatureImageChange = (e) => {
     const file = e.target.files[0];
     const reader = new FileReader();
@@ -62,22 +75,6 @@ const AddBlogs = ({ auth }) => {
       setFeatureImage(reader.result);
     };
     reader.readAsDataURL(file);
-  };
-
-  const handleDescriptionImageChange = (e) => {
-    const files = Array.from(e.target.files);
-    const newImages = [];
-
-    files.forEach(file => {
-      const reader = new FileReader();
-      reader.onloadend = () => {
-        newImages.push(reader.result);
-        if (newImages.length === files.length) {
-          setDescriptionImages(prevImages => [...prevImages, ...newImages]);
-        }
-      };
-      reader.readAsDataURL(file);
-    });
   };
 
   const handleInputChange = (e, index) => {
@@ -144,16 +141,29 @@ const AddBlogs = ({ auth }) => {
           <input type="file" onChange={handleFeatureImageChange} />
         </div>
         <div>
-          <label>Images in Description:</label>
-          <input type="file" multiple onChange={handleDescriptionImageChange} />
-        </div>
-        <div>
           <label>Category:</label>
-          <input type="text" value={category} onChange={(e) => setCategory(e.target.value)} required />
+          <select value={category} onChange={(e) => setCategory(e.target.value)} required>
+            <option value="">Select Category</option>
+            <option value="residential">Residential</option>
+            <option value="commercial">Commercial</option>
+            <option value="sco">SCO</option>
+          </select>
         </div>
         <div>
           <label>Tags:</label>
           <input type="text" value={tags} onChange={(e) => setTags(e.target.value)} required />
+        </div>
+        <div>
+          <label>Meta Title:</label>
+          <input type="text" value={meta_Title} onChange={(e) => setMetaTitle(e.target.value)} />
+        </div>
+        <div>
+          <label>Meta Description:</label>
+          <input value={meta_Description} onChange={(e) => setMetaDescription(e.target.value)} />
+        </div>
+        <div>
+          <label>Meta URL:</label>
+          <input type="text" value={generateMetaURL(title)} readOnly />
         </div>
         <button type="submit">Add Blog</button>
         <button onClick={handleEditBlogs}>Edit Blogs </button>

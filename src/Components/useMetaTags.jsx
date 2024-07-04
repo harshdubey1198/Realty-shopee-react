@@ -46,6 +46,50 @@ const metaTagsConfig = {
         { name: 'twitter:image', content: 'https://res.cloudinary.com/dgplzytrq/image/upload/v1719492483/Description%20Images/residential-property-in-gurgaon.jpg' }
       ]
 },
+  "/commercial-property-in-gurgaon": {
+    title: "Invest in the Best Commercial Property in Gurgaon | Realty Shopee",
+    description: "Planning to invest in real estate? Explore the best commercial property in Gurgaon with Realty Shopee. Investment opportunities, ready-to-move, and resale options are available.",
+    url: "https://www.realtyshopee.com/commercial-property-in-gurgaon",
+    image: "https://res.cloudinary.com/dgplzytrq/image/upload/v1719492483/Description%20Images/residential-property-in-gurgaon.jpg",
+    additionalMetaTags: [
+        { name: 'canonical', content: 'https://www.realtyshopee.com/commercial-property-in-gurgaon' },
+        { property: 'og:site_name', content: 'Realty Shopee' },
+        { property: 'og:type', content: 'website' },
+        { property: 'og:title', content: 'Invest in the Best Commercial Property in Gurgaon | Realty Shopee' },
+        { property: 'og:description', content: 'Planning to invest in real estate? Explore the best commercial property in Gurgaon with Realty Shopee. Investment opportunities, ready-to-move, and resale options are available.' },
+        { property: 'og:url', content: 'https://www.realtyshopee.com/commercial-property-in-gurgaon' },
+        { property: 'og:image', content: 'https://res.cloudinary.com/dgplzytrq/image/upload/v1719492483/Description%20Images/residential-property-in-gurgaon.jpg' },
+        { name: 'twitter:card', content: 'https://res.cloudinary.com/dgplzytrq/image/upload/v1719492483/Description%20Images/residential-property-in-gurgaon.jpg' },
+        { name: 'twitter:site', content: 'Realty Shopee' },
+        { name: 'twitter:type', content: 'website' },
+        { name: 'twitter:title', content: 'Invest in the Best Commercial Property in Gurgaon | Realty Shopee' },
+        { name: 'twitter:description', content: 'Planning to invest in real estate? Explore the best commercial property in Gurgaon with Realty Shopee. Investment opportunities, ready-to-move, and resale options are available.' },
+        { name: 'twitter:url', content: 'https://www.realtyshopee.com/commercial-property-in-gurgaon' },
+        { name: 'twitter:image', content: 'https://res.cloudinary.com/dgplzytrq/image/upload/v1719492483/Description%20Images/residential-property-in-gurgaon.jpg' }
+      ]
+},
+  "/sco-plots-in-gurgaon": {
+    title: "Premium SCO Plots in Gurugram for Sale | Realty Shopee",
+    description: "Premium commercial and residential SCO plots in Gurgaon for sale with two-side open layouts. Explore affordable options at Realty Shopee.",
+    url: "https://www.realtyshopee.com/commercial-property-in-gurgaon",
+    image: "https://res.cloudinary.com/dgplzytrq/image/upload/v1719492483/Description%20Images/residential-property-in-gurgaon.jpg",
+    additionalMetaTags: [
+        { name: 'canonical', content: 'https://www.realtyshopee.com/commercial-property-in-gurgaon' },
+        { property: 'og:site_name', content: 'Realty Shopee' },
+        { property: 'og:type', content: 'website' },
+        { property: 'og:title', content: 'Premium SCO Plots in Gurugram for Sale | Realty Shopee' },
+        { property: 'og:description', content: 'Premium commercial and residential SCO plots in Gurgaon for sale with two-side open layouts. Explore affordable options at Realty Shopee.' },
+        { property: 'og:url', content: 'https://www.realtyshopee.com/commercial-property-in-gurgaon' },
+        { property: 'og:image', content: 'https://res.cloudinary.com/dgplzytrq/image/upload/v1719492483/Description%20Images/residential-property-in-gurgaon.jpg' },
+        { name: 'twitter:card', content: 'https://res.cloudinary.com/dgplzytrq/image/upload/v1719492483/Description%20Images/residential-property-in-gurgaon.jpg' },
+        { name: 'twitter:site', content: 'Realty Shopee' },
+        { name: 'twitter:type', content: 'website' },
+        { name: 'twitter:title', content: 'Premium SCO Plots in Gurugram for Sale | Realty Shopee' },
+        { name: 'twitter:description', content: 'Premium commercial and residential SCO plots in Gurgaon for sale with two-side open layouts. Explore affordable options at Realty Shopee.' },
+        { name: 'twitter:url', content: 'https://www.realtyshopee.com/commercial-property-in-gurgaon' },
+        { name: 'twitter:image', content: 'https://res.cloudinary.com/dgplzytrq/image/upload/v1719492483/Description%20Images/residential-property-in-gurgaon.jpg' }
+      ]
+}
 };
 
 const updateMetaTags = (config) => {

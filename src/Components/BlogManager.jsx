@@ -15,9 +15,11 @@ const BlogManager = () => {
   const [title, setTitle] = useState('');
   const [description, setDescription] = useState([]);
   const [featureImage, setFeatureImage] = useState('');
-  // const [descriptionImages, setDescriptionImages] = useState([]);
   const [category, setCategory] = useState('');
   const [tags, setTags] = useState('');
+  const [meta_url, setMetaUrl] = useState('');
+  const [meta_title, setMetaTitle] = useState('');
+  const [meta_description, setMetaDescription] = useState('');
 
   useEffect(() => {
     const storedUsername = localStorage.getItem('BlogUsername');
@@ -53,9 +55,11 @@ const BlogManager = () => {
       setTitle(response.data.title);
       setDescription(JSON.parse(response.data.description));
       setFeatureImage(response.data.featureImage);
-      // setDescriptionImages(JSON.parse(response.data.descriptionImages));
       setCategory(response.data.category);
       setTags(response.data.tags.join(', '));
+      setMetaUrl(response.data.meta_url);
+      setMetaTitle(response.data.meta_title);
+      setMetaDescription(response.data.meta_description);
     } catch (error) {
       console.error('Error fetching blog:', error);
     }
@@ -91,28 +95,28 @@ const BlogManager = () => {
     e.preventDefault();
 
     try {
-        const response = await axios.put(`https://realty-react-backend.onrender.com/blogs/${blog._id}`, {
-            title,
-            description: JSON.stringify(description),
-            featureImage,
-            // descriptionImages: JSON.stringify(descriptionImages),
-            category,
-            tags, // Directly use the array
-        }, {
-            headers: {
-                'Content-Type': 'application/json'
-            }
-        });
+      const response = await axios.put(`https://realty-react-backend.onrender.com/blogs/${blog._id}`, {
+        title,
+        description: JSON.stringify(description),
+        featureImage,
+        category,
+        tags,
+        meta_url,
+        meta_title,
+        meta_description
+      }, {
+        headers: {
+          'Content-Type': 'application/json'
+        }
+      });
 
-        console.log(response.data);
-        setIsEditing(false);
-        fetchBlogs();
+      console.log(response.data);
+      setIsEditing(false);
+      fetchBlogs();
     } catch (error) {
-        console.error('Error updating blog:', error);
+      console.error('Error updating blog:', error);
     }
-};
-
-
+  };
 
   const handleFeatureImageChange = (e) => {
     const file = e.target.files[0];
@@ -221,7 +225,18 @@ const BlogManager = () => {
               <label>Feature Image:</label>
               <input type="file" onChange={handleFeatureImageChange} />
             </div>
-           
+            <div>
+              <label>Meta URL:</label>
+              <input type="text" value={meta_url} onChange={(e) => setMetaUrl(e.target.value)} required />
+            </div>
+            <div>
+              <label>Meta Title:</label>
+              <input type="text" value={meta_title} onChange={(e) => setMetaTitle(e.target.value)} required />
+            </div>
+            <div>
+              <label>Meta Description:</label>
+              <textarea value={meta_description} onChange={(e) => setMetaDescription(e.target.value)} required />
+            </div>
             <div>
               <label>Category:</label>
               <input type="text" value={category} onChange={(e) => setCategory(e.target.value)} required />

@@ -68,9 +68,9 @@ function App() {
             <Route path="/addproperties" element={<PrivateRoute element={<AddProject />} />} />
             <Route path="/allproperties" element={<AllProperties />} />
             <Route path="/contactus" element={<ContactUs />} />
-            <Route path="/SCO-Plots-in-gurgaon" element={<ScoProperties />} />
+            <Route path="/sco-plots-in-gurgaon" element={<ScoProperties />} />
             <Route path="/blogs" element={<Blogs />} />
-            <Route path="/blog/:blogTitle" element={<BlogDetail />} />
+            <Route path="/blog/:meta_url" element={<BlogDetail />} />
             <Route path="/commercial-property-in-gurgaon" element={<CommercialProperties />} />
             <Route path="/residential-property-in-gurgaon" element={<ResidentialProperties />} />
             <Route path="/reset-password/:token" element={<ResetPassword />} />
