@@ -66,11 +66,16 @@ const BlogManager = () => {
   };
 
   const handleDelete = async (id) => {
-    try {
-      await axios.delete(`https://realty-react-backend.onrender.com/blogs/${id}`);
-      setBlogs(blogs.filter(blog => blog._id !== id));
-    } catch (error) {
-      console.error('Error deleting blog:', error);
+    // Display a confirmation dialog before deleting
+    const confirmDelete = window.confirm("Are you sure you want to delete this blog?");
+    
+    if (confirmDelete) {
+      try {
+        await axios.delete(`https://realty-react-backend.onrender.com/blogs/${id}`);
+        setBlogs(blogs.filter(blog => blog._id !== id));
+      } catch (error) {
+        console.error('Error deleting blog:', error);
+      }
     }
   };
 

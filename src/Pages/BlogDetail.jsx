@@ -3,6 +3,7 @@ import { useNavigate, useParams, Link } from 'react-router-dom';
 import axios from 'axios';
 import { FcDocument, FcHome, FcPhone, FcQuestions } from 'react-icons/fc';
 import Loader from 'react-loaders';
+import { Helmet } from 'react-helmet';
 
 function BlogDetail() {
   const navigate = useNavigate();
@@ -20,7 +21,7 @@ function BlogDetail() {
   useEffect(() => {
     const fetchBlog = async () => {
       try {
-        const response = await axios.get(`https://realty-react-backend.onrender.com/blogs/${meta_url}`);
+        const response = await axios.get(`https://realty-react-backend.onrender.com/blogs/meta_url/${meta_url}`);
         setBlog(response.data);
       } catch (error) {
         setError('Blog not found');
@@ -44,10 +45,29 @@ function BlogDetail() {
   const handleHomeClick = () => {
     navigate('/');
   };
+  const getDescriptionSummary = () => {
+    if (!blog) return '';
 
+    // Generate summary from description content
+    return JSON.parse(blog.description)
+      .map(item => item.content)
+      .join(' ')
+      .slice(0, 160);
+  };
+  const renderMetaTags = () => {
+    if (!blog) return null;
+
+    return (
+      <Helmet>
+        <title>{blog.meta_title || blog.title}</title>
+        <meta name="description" content={blog.meta_description || getDescriptionSummary()} />
+      </Helmet>
+    );
+  };
   if (loading) {
     return (
       <div className='blogloading'>
+        
         <header className='pd-nav'>
           <h2>
             <img src="https://www.realtyshopee.com/static/media/Realty%20shopee%20main%20logo.db6affde1f766278cf09.png" className='pd-logo' alt='Realty-Shopee-blogs' />
@@ -153,6 +173,7 @@ function BlogDetail() {
 
   return (
     <div className="blog-detail">
+      {renderMetaTags()}
       <header className='pd-nav'>
         <h2><Link to="https://www.realtyshopee.com" className='r-logo'><img src="https://www.realtyshopee.com/static/media/Realty%20shopee%20main%20logo.db6affde1f766278cf09.png" className='pd-logo' alt='Realty-Shopee-blogs' /></Link></h2>
         <button onClick={handleHomeClick}><span>Home</span><span><FcHome /></span></button>

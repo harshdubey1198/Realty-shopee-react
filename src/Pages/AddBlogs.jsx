@@ -45,9 +45,9 @@ const AddBlogs = ({ auth }) => {
         featureImage,
         category,
         tags,
-        meta_title: meta_Title || title, // Use meta_Title if set, otherwise fall back to title
-        meta_description: meta_Description || getDescriptionSummary(), // Use meta_Description if set, otherwise generate from description
-        meta_url: generateMetaURL(title) // Generate meta_URL dynamically
+        meta_title: meta_Title || title, 
+        meta_description: meta_Description || getDescriptionSummary(),
+        meta_url: generateMetaURL(title) 
       }, {
         headers: {
           'Content-Type': 'application/json'
@@ -60,7 +60,6 @@ const AddBlogs = ({ auth }) => {
   };
 
   const getDescriptionSummary = () => {
-    // Generate summary from description content
     return description.map(item => item.content).join(' ').slice(0, 160);
   };
 

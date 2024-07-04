@@ -270,20 +270,21 @@ app.get('/resale', async (req, res) => {
 // Add blogs
 app.post('/add-blogs', upload.none(), async (req, res) => {
     try {
-        const { title, description, featureImage, descriptionImages, category, tags, username } = req.body;
+        const { title, description, featureImage, category, tags, meta_title, meta_description, meta_url } = req.body;
         const blogCollection = db.collection('blogs');
 
-        // Convert descriptionImages from JSON string to array
-        const images = JSON.parse(descriptionImages);
+        // Ensure tags are converted to an array
+        const tagsArray = tags.split(',').map(tag => tag.trim());
 
         const newBlog = {
             title,
             description,
             featureImage,
-            descriptionImages: images,
             category,
-            tags: tags.split(','),
-            username,
+            tags: tagsArray,
+            meta_title,
+            meta_description,
+            meta_url,
             createdAt: new Date()
         };
 
@@ -294,6 +295,7 @@ app.post('/add-blogs', upload.none(), async (req, res) => {
         res.status(500).json({ message: 'An error occurred. Please try again.' });
     }
 });
+
 
 
 // Blog routes
@@ -322,38 +324,25 @@ app.get('/blogs/:blogTitle', async (req, res) => {
         res.status(500).json({ message: 'An error occurred. Please try again.' });
     }
 });
-app.get('/blogs/:metaUrl', async (req, res) => {
+app.get('/blogs/meta_url/:metaUrl', async (req, res) => {
     try {
         const metaUrl = decodeURIComponent(req.params.metaUrl);
         const blogCollection = db.collection('blogs');
-        const blog = await blogCollection.findOne({ meta_url: metaUrl });
+        
+        // Search for blog with meta_url matching the provided metaUrl
+        const blog = await blogCollection.findOne({ meta_url: { $regex: new RegExp(`^${metaUrl}$`, 'i') } });
+        
         if (!blog) {
-            res.status(404).json({ message: 'Blog not found' });
-        } else {
-            res.status(200).json(blog);
+            return res.status(404).json({ message: 'Blog not found' });
         }
+
+        res.status(200).json(blog);
     } catch (error) {
-        console.error('Fetch Blog Error:', error);
+        console.error('Search Blog by Meta URL Error:', error);
         res.status(500).json({ message: 'An error occurred. Please try again.' });
     }
 });
 
-
-// app.get('/blogs/:metaUrl', async (req, res) => {
-//     try {
-//         const metaUrl = decodeURIComponent(req.params.metaUrl);
-//         const blogCollection = db.collection('blogs');
-//         const blog = await blogCollection.findOne({ meta_url: metaUrl });
-//         if (!blog) {
-//             res.status(404).json({ message: 'Blog not found' });
-//         } else {
-//             res.status(200).json(blog);
-//         }
-//     } catch (error) {
-//         console.error('Fetch Blog Error:', error);
-//         res.status(500).json({ message: 'An error occurred. Please try again.' });
-//     }
-// });
 
 // Add CRUD routes for blogs
 app.post('/blogs', upload.none(), async (req, res) => {
