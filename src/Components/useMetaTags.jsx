@@ -71,7 +71,7 @@ const metaTagsConfig = {
   "/sco-plots-in-gurgaon": {
     title: "Premium SCO Plots in Gurugram for Sale | Realty Shopee",
     description: "Premium commercial and residential SCO plots in Gurgaon for sale with two-side open layouts. Explore affordable options at Realty Shopee.",
-    url: "https://www.realtyshopee.com/",
+    url: "https://www.realtyshopee.com/sco-plots-in-gurgaon",
     image: "https://res.cloudinary.com/dgplzytrq/image/upload/v1719492483/Description%20Images/residential-property-in-gurgaon.jpg",
     additionalMetaTags: [
         { name: 'canonical', content: 'https://www.realtyshopee.com/sco-plots-in-gurgaon' },
