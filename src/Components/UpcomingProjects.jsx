@@ -6,11 +6,11 @@ import { Link } from 'react-router-dom';
 
 const projectData = [
   {
-    "projectName": "Signature Global Titanium SPR",
-    "projectAddress": "Sector 71, Southern Peripheral Road",
+    "projectName": "Ashiana Amarah",
+    "projectAddress": "Sector 93, New Gurgaon",
     "city": "Gurgaon",
     "frontImage": {
-      "url": "https://res.cloudinary.com/dgplzytrq/image/upload/v1719572014/Signature-71/Titanium_SPR_mt4kgd.jpg"
+      "url": "https://res.cloudinary.com/dgplzytrq/image/upload/v1720175152/Ashiana%20Amarah/pgqaciwrwyqogvkvkgir_vnsbgh.jpg"
     },
     "possession":"2029",
   },
