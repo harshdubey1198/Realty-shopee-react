@@ -1140,7 +1140,7 @@
             
             "maxPrice": 3.52,
             "minPrice": 2.5,
-            "possessionDate": "2027-01-01T00:00:00.000Z",
+            "possession": "2029",
             "totalLandArea": 22,
             "totalUnit": 1200,
             "towerNumber": 13
