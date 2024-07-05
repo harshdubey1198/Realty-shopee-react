@@ -44,9 +44,9 @@ const projectData =[
 
 
 function Sco() {
-    const handleViewAll =() =>{
-        window.open('/sco-plots-in-gurgaon', '_blank');
-    }
+    // const handleViewAll =() =>{
+    //     window.open('/sco-plots-in-gurgaon', '_blank');
+    // }
   return (
     <div className="bt">
       <h4>
@@ -54,7 +54,7 @@ function Sco() {
             SCO Plots
         <img src={scoIcon} alt="trending" className='section-icon'/>
       </h4>
-  <button onClick={handleViewAll} className='view-all'>View All</button>
+  <a href='/sco-plots-in-gurgaon' target="_blank" className='view-all'>View All</a>
       <div className="projects-container">
         {projectData.map((project, index) => (  
         <Link key={project.projectName} to={`/projects/${project.projectName}`} className='projects-c-a'>

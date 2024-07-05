@@ -20,8 +20,8 @@ import Blogs from './Pages/Blogs';
 import BlogDetail from './Pages/BlogDetail';
 import AddBlogs from './Pages/AddBlogs';
 import BlogAuth from './Components/BlogAuth';
-import EditBlog from './Pages/EditBlog';
-import BlogTable from './Components/BlogTable'; 
+// import EditBlog from './Pages/EditBlog';
+// import BlogTable from './Components/BlogTable'; 
 import BlogManager from './Components/BlogManager';
 import useMetaTags from './Components/useMetaTags';
 
@@ -76,9 +76,9 @@ function App() {
             <Route path="/reset-password/:token" element={<ResetPassword />} />
             <Route path="/add-blogs" element={<AddBlogs auth={auth} />} />
             <Route path="/edit-blogs" element={<BlogManager auth={auth} />} />
-            <Route path="/edit-blog/:blogTitle" element={<EditBlog auth={auth} />} />
+            {/* <Route path="/edit-blog/:blogTitle" element={<EditBlog auth={auth} />} /> */}
             <Route path="/login-add-blogs" element={<BlogAuth setAuth={setAuth} />} />
-            <Route path="/blog-table" element={<BlogTable />} /> 
+            {/* <Route path="/blog-table" element={<BlogTable />} />  */}
             <Route path="/*" element={<NotFound />} />
           </Routes>
         </div>

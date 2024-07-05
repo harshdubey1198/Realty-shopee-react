@@ -663,7 +663,7 @@
             "state": "Haryana",
             "projectName": "M3M Atrium 57",
             "projectAddress": "Sector 57",
-            "project_description": "Welcome to Gurgaon, a symbol of newly prosperous India, gleaming with shopping malls and five-star hotels. Positioned in the heart of this vibrant city, M3M Atrium Sector 57 Gurgaon epitomizes class and prestige. Surrounded by renowned educational institutions, malls, and hospitals, it offers a prime location for business and leisure. M3M Atrium will host a diverse array of global brands, creating an international shopping experience right at your doorstep. Enjoy easy access to the latest in fashion, retail, and dining, all within a structured environment designed to cater to your every need.",
+            "project_description": "Welcome to Gurgaon, a symbol of newly prosperous India, gleaming with shopping malls and five-star hotels. Positioned in the heart of this vibrant city, M3M Atrium Sector 57 Gurgaon epitomizes class and prestige. Surrounded by renowned educational institutions, malls, and hospitals, it offers a prime location for business and leisure. M3M Atrium will host a diverse array of global brands, creating an international shopping experience right at your doorstep. Enjoy easy access to the latest in faon, retail, and dining, all within a structured environment designed to cater to your every need.",
             "projectRedefine_Connectivity": [
                 "Clover,Leaf,will,connect,NH,48,SPR,and,the,Central,Peripheral,Road,"
             ],
@@ -5897,6 +5897,144 @@
             "updatedAt": "2024-04-29T05:15:52.525Z",
             "__v": 0,
             "project_Status": "comingsoon"
+        },    {
+            "frontImage": {
+                "url": "https://res.cloudinary.com/dgplzytrq/image/upload/v1720175059/Ashiana%20Amarah/ylzrnwbt1b5t1k4a5obi_dhuz0o.jpg"
+            },
+            "logo": {
+                "url": "https://res.cloudinary.com/dgplzytrq/image/upload/v1720175079/Ashiana%20Amarah/mjc5saewvmene66zk90r_ktf09m.png"
+            },
+            "project_locationImage": {
+                "url": "https://res.cloudinary.com/dgplzytrq/image/upload/v1720175118/Ashiana%20Amarah/grwenaq3izbwyssgkrwx_fepg5d.jpg"
+            },
+            "highlightImage": {
+                "url": "https://res.cloudinary.com/dgplzytrq/image/upload/v1720175152/Ashiana%20Amarah/pgqaciwrwyqogvkvkgir_vnsbgh.jpg"
+            },
+            "projectMaster_plan": {
+                "url": "https://res.cloudinary.com/dgplzytrq/image/upload/v1720175198/Ashiana%20Amarah/w66pngfageqc2pwgvuud_yqhdwa.jpg"
+            },
+            "_id": "65e96df5a5c4ea5c757de83c",
+            "project_floorplan_Image": [
+                {
+                    "url": "https://res.cloudinary.com/dgplzytrq/image/upload/v1720174674/Ashiana%20Amarah/cr40nlxb6vorrivqs2oc_qsqw1i.jpg"
+                },
+                {
+                    "url": "https://res.cloudinary.com/dgplzytrq/image/upload/v1720174706/Ashiana%20Amarah/n9hsiqlwlz59p2eolpdn_hlzkmp.jpg"
+                },
+                {
+                    "url": "https://res.cloudinary.com/dgplzytrq/image/upload/v1720174744/Ashiana%20Amarah/wjoa120erjm4wlndrx76_gzj0lq.jpg"
+                },
+                {
+                    "url": "https://res.cloudinary.com/dgplzytrq/image/upload/v1720174768/Ashiana%20Amarah/j85k0hvl8l6cb2ztr0ot_trnb4x.jpg"
+                }
+            ],
+            "state": "Haryana",
+            "projectName": "Ashiana Amarah",
+            "projectAddress": "Sector 93, New Gurgaon",
+            "project_discripation": "Ashiana Amarah, located in Sector 93, Gurugram, offers luxurious 3BHK and 4BHK apartments across a sprawling landscape. These residences boast panoramic views and exceptional ventilation, allowing natural light to fill every room. Designed for a sophisticated lifestyle, Ashiana Amarah includes numerous well-thought-out amenities. This pre-launch project promises a comfortable and serene living experience, perfectly suited for families seeking a prestigious address. Embrace a life of elegance and tranquility in a location that enhances daily living, nestled within the vibrant cityscape of Gurgaon, the dynamic city between cities.",
+            "projectRedefine_Connectivity": [
+                "Sector-93 in Gurgaon is located just off the IMT Road with other developed sectors in the vicinity"
+            ],
+            "projectRedefine_Entertainment": [
+                "The national capital territory of Delhi boundary’s it on its southern sides having better connectivity."
+            ],
+            "projectRedefine_Business": [
+                "It is a developing locality in Gurgaon and has several schools and supermarkets"
+            ],
+            "projectRedefine_Education": [
+                "shopping complexes and hospitals located nearby"
+            ],
+            "meta_description": "Ashiana Amarah is a luxury residential project spread on 22 acres of land. Providing 3 and 4BHK apartments with luxurious amenities.",
+            "meta_title": "Ashiana Amarah in Sector 93, Gurugram - Kid Centric Projects",
+            "Amenities": [
+                "Gymnasium",
+                "Advanced Security",
+                "CCTV Camera Security",
+                "Jogging Track",
+                "Cafeteria",
+                "Club House"
+            ],
+            "projectBgContent": "ASHIANA AMARAH At Sector 93, Gurgaon First kids centric homes by ashaina",
+            "projectReraNo": "Applied",
+            "type": "Residential Flats",
+            "city": "Gurugram",
+            "builderName": "Ashiana Homes",
+            "AboutDeveloper": "This journey of spreading joy in your life by helping you find your perfect home does not just end by handing over the keys to you. Stepping into your new home is just the beginning of our beautiful pervasive bonding. Every day and in every way, we strive to create an environment of trust and hope to keep you smiling always.We see ourselves not as a real estate company, but as a service provider. We see ourselves not as builder of homes, but as a builder of happy communities. We believe that we are not in the real estate business but in the 'happiness' business. We measure success not by the numbers in our balance sheet, but by the width of your smile. No wonder, we are rated as India’s Top 10 Realty brand and #1 Senior Living Homes brand. A fact that is endorsed by the 15,000+ families, for whom home means Ashiana.",
+            "projectOverview": "none",
+            "schema_type": "project",
+            "project_url": "ashiana-amarah",
+            "projectGallery": [
+                {
+                    "url": "https://res.cloudinary.com/dgplzytrq/image/upload/v1720174644/Ashiana%20Amarah/h60ntl64drezaaqbel5r_y5ldrz.jpg"
+                },
+                {
+                    "url": "https://res.cloudinary.com/dgplzytrq/image/upload/v1720174638/Ashiana%20Amarah/ogl7sobiml5yrntt4cfz_sv8k4t.jpg"
+                },
+                {
+                    "url": "https://res.cloudinary.com/dgplzytrq/image/upload/v1720174499/Ashiana%20Amarah/rkdv89z01f1ddghn4ifq_dkr4tl.jpg"
+                },
+                {
+                    "url": "https://res.cloudinary.com/dgplzytrq/image/upload/v1720174438/Ashiana%20Amarah/nvnzeuiuionbb71ym40o_u48elx.jpg"
+                },
+                {
+                    "url": "https://res.cloudinary.com/dgplzytrq/image/upload/v1720174413/Ashiana%20Amarah/bppush5djnoowl5bpkf0_x7eohr.jpg"
+                }
+            ],
+            "BhK_Details": [
+                {
+                    "bhk_type": "3 BHK + 2T",
+                    "price": "Call for Price",
+                    "bhk_Area": "1173 SQ.FT"
+                },
+                {
+                    "bhk_type": "3 BHK + 2T",
+                    "price": "Call for Price",
+                    "bhk_Area": "1293 SQ.FT"
+                },
+                {
+                    "bhk_type": "3 BHK + 3T",
+                    "price": "1406",
+                    "bhk_Area": "1406 SQ.FT"
+                },
+                {
+                    "bhk_type": "3 BHK + 3T",
+                    "price": "Call for Price",
+                    "bhk_Area": "1421 SQ.FT"
+                }
+            ],
+            "highlight": [
+                {
+                    "highlight_Point": "Nurture young minds with interactive experiences.",
+                    "_id": "65e96e75a5c4ea5c757deaf1"
+                },
+                {
+                    "highlight_Point": "Environmentally conscious design and practices.",
+                    "_id": "65e96e7da5c4ea5c757deaf5"
+                },
+                {
+                    "highlight_Point": "Unwavering 3-tier security system for your peace of mind.",
+                    "_id": "65e96e85a5c4ea5c757deafc"
+                },
+                {
+                    "highlight_Point": "Spark joy and imagination through dedicated play areas.",
+                    "_id": "65e96e8da5c4ea5c757deb02"
+                },
+                {
+                    "highlight_Point": "4 towers with 224 units, ensuring privacy and exclusivity.",
+                    "_id": "65e96e95a5c4ea5c757deb09"
+                },
+                {
+                    "highlight_Point": "50+ Classy Amenities",
+                    "_id": "65e96e9ca5c4ea5c757deb14"
+                }
+            ],
+            
+            "maxPrice": 3.52,
+            "minPrice": 2.5,
+            "possessionDate": "2027-01-01T00:00:00.000Z",
+            "totalLandArea": 22,
+            "totalUnit": 1200,
+            "towerNumber": 13
         },
         {
             "frontImage": {
@@ -9749,119 +9887,118 @@
         },      
         {
             "frontImage": {
-                "public_id": "realtyshopee/project/ldxphlvnaigcaxvxjo6w",
-                "url": "https://res.cloudinary.com/dm5yrsqdc/image/upload/v1711003457/realtyshopee/project/ldxphlvnaigcaxvxjo6w.jpg"
+                "url": "https://res.cloudinary.com/dgplzytrq/image/upload/v1716625012/SS-Whitewater/Project-Photo-4-SS-Whitewater-Gurgaon-5419149_778_1200_310_462_tvsqk3.jpg"
             },
             "logo": {
-                "public_id": "realtyshopee/project/oxc8pfecrynxldxniomt",
-                "url": "https://res.cloudinary.com/dm5yrsqdc/image/upload/v1711003455/realtyshopee/project/oxc8pfecrynxldxniomt.webp"
+                "url": "https://res.cloudinary.com/dgplzytrq/image/upload/v1720165731/SS-Whitewater/twazvfwh7tqpiktd9nud.jpg"
             },
             "project_locationImage": {
-                "public_id": "realtyshopee/project/nc5peazto21rkqr37jjy",
-                "url": "https://res.cloudinary.com/dm5yrsqdc/image/upload/v1711003458/realtyshopee/project/nc5peazto21rkqr37jjy.jpg"
+                "url": "https://res.cloudinary.com/dgplzytrq/image/upload/v1720165602/SS-Whitewater/SS-Whitewater-Location-Map_xphp5e.webp"
             },
             "highlightImage": {
-                "public_id": "realtyshopee/project/pcmuqydw0zdj7acf9wef",
-                "url": "https://res.cloudinary.com/dm5yrsqdc/image/upload/v1711003464/realtyshopee/project/pcmuqydw0zdj7acf9wef.webp"
+                "url": "https://res.cloudinary.com/dgplzytrq/image/upload/v1720165812/SS-Whitewater/SS-Whitewater-gurgaon_smt8b3.jpg"
             },
             "projectMaster_plan": {
-                "public_id": "realtyshopee/project/joczqgwmgtsqobfwodau",
-                "url": "http://res.cloudinary.com/dm5yrsqdc/image/upload/v1711003467/realtyshopee/project/joczqgwmgtsqobfwodau.jpg"
+                "url": "https://res.cloudinary.com/dgplzytrq/image/upload/v1720165729/SS-Whitewater/SS-Whitewater-Site-Plan_uahfpv.webp"
             },
-            "_id": "65fbd74c8f9c07384c15ea1f",
+            "_id": "6617c2cf0dbd2ab11644eb96",
             "project_floorplan_Image": [
                 {
-                    "public_id": "realtyshopee/project/kdffpp0yxm3j0awcinwm",
-                    "url": "https://res.cloudinary.com/dm5yrsqdc/image/upload/v1711003459/realtyshopee/project/kdffpp0yxm3j0awcinwm.jpg"
+                    "url": "https://res.cloudinary.com/dgplzytrq/image/upload/v1720166016/SS-Whitewater/xcbgz7orcmjbbkop1ttu_ncn8aa.jpg"
                 },
                 {
-                    "public_id": "realtyshopee/project/hj2afkbpen6dluq72afv",
-                    "url": "https://res.cloudinary.com/dm5yrsqdc/image/upload/v1711003460/realtyshopee/project/hj2afkbpen6dluq72afv.jpg"
+                    "url": "https://res.cloudinary.com/dgplzytrq/image/upload/v1720166020/SS-Whitewater/hj2afkbpen6dluq72afv_nzmuiz.jpg"
                 },
                 {
-                    "public_id": "realtyshopee/project/xcbgz7orcmjbbkop1ttu",
-                    "url": "https://res.cloudinary.com/dm5yrsqdc/image/upload/v1711003461/realtyshopee/project/xcbgz7orcmjbbkop1ttu.jpg"
+                    "url": "https://res.cloudinary.com/dgplzytrq/image/upload/v1720166020/SS-Whitewater/a13rigwbnwvxtpcsbnjc_qm69kn.jpg"
                 },
                 {
-                    "public_id": "realtyshopee/project/a13rigwbnwvxtpcsbnjc",
-                    "url": "https://res.cloudinary.com/dm5yrsqdc/image/upload/v1711003462/realtyshopee/project/a13rigwbnwvxtpcsbnjc.jpg"
+                    "url": "https://res.cloudinary.com/dgplzytrq/image/upload/v1720166097/SS-Whitewater/cmicpj439jk4ybwflyvd_kupiid.jpg"
                 },
                 {
-                    "public_id": "realtyshopee/project/cmicpj439jk4ybwflyvd",
-                    "url": "https://res.cloudinary.com/dm5yrsqdc/image/upload/v1711003463/realtyshopee/project/cmicpj439jk4ybwflyvd.jpg"
+                    "url": "https://res.cloudinary.com/dgplzytrq/image/upload/v1720166132/SS-Whitewater/kdffpp0yxm3j0awcinwm_pix2wz.jpg"
                 }
             ],
             "state": "Haryana",
-            "projectName": "SS Group WhiteWater",
-            "projectAddress": "Sector 90, New Gurgaon",
-            "project_description": "In the heart of New Gurgaon, a landmark destination is redefining the urban landscape. SS WhiteWater is a masterpiece of modern mixed-use development, strategically positioned on a prime 3.99-acre site with dual access. This iconic project promises to revolutionize the future of retail and entertainment, offering an unparalleled shopping experience with exclusive boutiques, multi-level retail spaces, and a diverse range of culinary delights. Immerse yourself in a world of luxury and excitement, where every aspect is designed to surpass expectations. SS WhiteWater is poised to become the ultimate shopper's paradise and investor's dream, a legendary destination that will leave a lasting legacy in the city's retail landscape.",
+            "projectName": "SS WHITEWATER",
+            "projectAddress": "Sector 90 , New Gurgaon",
+            "project_description": "SS Whitewater is a commercial property in Sector 90, Gurgaon. It offers office spaces and retail shops with advanced amenities and facilities.",
             "projectRedefine_Connectivity": [
                 "BANG ON MULTI UTILITY CORRIDOR, WITH DIRECT ACCESS TO DWARKA EXPRESSWAY (NPR) & IMT MANESAR"
             ],
             "projectRedefine_Entertainment": [
-                "JUST OFF THE PREMIUM TOWNSHIPS THE LEAF, SS LINDEN FLOORS, SS CENDANA AND SS STRADA SURROUNDING RESI"
+                "JUST OFF THE PREMIUM TOWNSHIPS THE LEAF, SS LINDEN FLOORS, SS CENDANA AND SS STRADA SURROUNDING "
             ],
             "projectRedefine_Business": [
-                "EASY ACCESS TO NH-8 (NOW NH 48) VIA MULTI-UTILITY CORRIDOR"
-            ],
-            "projectRedefine_Education": [
                 "SITUATED ON 60 M WIDE ROAD"
             ],
-            "meta_description": "SS WhiteWater is a newly launched residential development that offers an outstanding combination of modern living and natural beauty.",
-            "meta_title": "SS Whitewater Sector 90 Gurgaon - Commercial Projects in Gurgaon",
-            "Amenities": [
-                "ANCHOR STORE"
+            "projectRedefine_Education": [
+                "EASY ACCESS TO NH-8 (NOW NH 48) VIA MULTI-UTILITY CORRIDOR"
             ],
-            "projectBgContent": "SS Whitewater Sector 90 Gurgaon",
-            "projectReraNo": "08 OF 202",
+            "meta_description": "SS Whitewater is a commercial property in Sector 90, Gurgaon. It offers office spaces and retail shops with advanced amenities and facilities.",
+            "meta_title": "SS Whitewater - Commercial Property in Sector 90",
+            "Amenities": [
+                "24x7 Power Backup",
+                "Elevator Lobby",
+                "Advanced Security",
+                "3 Level Car Parking",
+                "Cafeteria"
+            ],
+            "projectBgContent": "SS Whitewater",
+            "projectReraNo": "Applied",
             "type": "Commercial Property",
             "city": "Gurgaon",
-            "builderName": "SS Group",
-            "AboutDeveloper": "Trust is not bestowed easily but is the result of consistent adherence to promises and a dedication to excellence. SS Group, the foremost real estate developer in Gurgaon with nearly three decades of steadfast dedication, enjoys an impressive history of successfully executing residential and commercial projects within the city. This accomplishment stems from a blend of financial acumen, engineering proficiency, and innovative design. Our company ethos prioritizes the creation of people-centric developments while also upholding environmental responsibility.",
-            "projectOverview": "none",
+            "builderName": "SS",
+            "AboutDeveloper": "Since 1987, Omaxe has been relentless in its approach to providing world-class services in real estate and has a varied portfolio comprising Integrated and High-Tech Townships, Group Housing, SCOs, Shopping malls, and Hotels to name a select few.",
+            "projectOverview": "commercial",
             "project_Status": "newlunch",
             "schema_type": "project",
-            "project_url": "ss-group-whitewater",
+            "project_url": "ss-whitewater",
             "projectGallery": [
                 {
-                    "public_id": "realtyshopee/project/fogimdsmxkwjjjzas8rx",
-                    "url": "https://res.cloudinary.com/dm5yrsqdc/image/upload/v1711003465/realtyshopee/project/fogimdsmxkwjjjzas8rx.jpg"
+                    "url": "https://res.cloudinary.com/dm5yrsqdc/image/upload/v1714995896/realtyshopee/project/fsshjjpg4asp21r0b3bn.jpg"
                 },
                 {
-                    "public_id": "realtyshopee/project/mbdltrf73feovlbfj2ol",
-                    "url": "https://res.cloudinary.com/dm5yrsqdc/image/upload/v1711003466/realtyshopee/project/mbdltrf73feovlbfj2ol.jpg"
+                    "url": "https://res.cloudinary.com/dm5yrsqdc/image/upload/v1714995897/realtyshopee/project/ivytzbdn2rrnkkacypdz.jpg"
+                },
+                {
+                    "url": "https://res.cloudinary.com/dm5yrsqdc/image/upload/v1714995898/realtyshopee/project/sht9adqpmgsdqneepykn.jpg"
+                },
+                {
+                    "url": "https://res.cloudinary.com/dm5yrsqdc/image/upload/v1714995899/realtyshopee/project/kedunsdqmpj2hvefq3eo.jpg"
                 }
             ],
-            "BhK_Details": [],
+            "BhK_Details": [
+                {
+                    "bhk_type": "Office Space",
+                    "price": "Call for Price",
+                    "bhk_Area": "On Request"
+                            },
+                {
+                    "bhk_type": "Retail Shops",
+                    "price": "Call for Price",
+                    "bhk_Area": "On Request"
+                            }
+            ],
             "highlight": [
                 {
-                    "highlight_Point": "First mall in New Gurgaon",
-                    "_id": "65fbd7f68f9c07384c160813"
+                    "highlight_Point": "BANG ON MULTI UTILITY CORRIDOR, WITH DIRECT ACCESS TO DWARKA EXPRESSWAY (NPR) & IMT MANESAR"
                 },
                 {
-                    "highlight_Point": "TWO SIDE OPEN",
-                    "_id": "65fbd80b8f9c07384c160817"
+                    "highlight_Point": "TWO SIDE OPEN"
                 },
                 {
-                    "highlight_Point": "LARGEST FRONTAGE WITH MAXIMUM VISIBILITY",
-                    "_id": "65fbd8188f9c07384c16081c"
+                    "highlight_Point": "LARGEST FRONTAGE WITH MAXIMUM VISIBILITY"
                 },
                 {
-                    "highlight_Point": "PREMIUM APPAREL BRANDS",
-                    "_id": "65fbd82e8f9c07384c160822"
+                    "highlight_Point": "PREMIUM APPAREL BRANDS"
                 },
                 {
-                    "highlight_Point": "MULTI-LEVEL SHOWROOMS",
-                    "_id": "65fbd8368f9c07384c160829"
-                },
-                {
-                    "highlight_Point": "Situated on 75 Meter wide road",
-                    "_id": "65fbd85e8f9c07384c160d3c"
+                    "highlight_Point": "Situated on 75 Meter wide road"
                 }
+              
             ],
-            "createdAt": "2024-03-21T06:44:28.057Z",
-            "updatedAt": "2024-03-21T06:49:02.634Z",
-            "__v": 0
+            "possession":"2028"
         },
         {
             "frontImage": {
@@ -10346,46 +10483,36 @@
         },
         {
             "frontImage": {
-                "public_id": "realtyshopee/project/r9ogecjzjckzyzkonezl",
-                "url": "https://res.cloudinary.com/dm5yrsqdc/image/upload/v1714992089/realtyshopee/project/r9ogecjzjckzyzkonezl.jpg"
+                "url": "https://res.cloudinary.com/dgplzytrq/image/upload/v1720162543/omaxe%20dwarka/banner_klfihj.jpg"
             },
             "logo": {
-                "public_id": "realtyshopee/project/fu2ugzvbiniqe9sbm66c",
-                "url": "https://res.cloudinary.com/dm5yrsqdc/image/upload/v1712833222/realtyshopee/project/fu2ugzvbiniqe9sbm66c.png"
+                "url": "https://res.cloudinary.com/dgplzytrq/image/upload/v1720162589/omaxe%20dwarka/fu2ugzvbiniqe9sbm66c_ksihwy.png"
             },
             "project_locationImage": {
-                "public_id": "realtyshopee/project/tjoqjtmsbivylso2x6qr",
-                "url": "https://res.cloudinary.com/dm5yrsqdc/image/upload/v1714995608/realtyshopee/project/tjoqjtmsbivylso2x6qr.jpg"
+                "url": "https://res.cloudinary.com/dgplzytrq/image/upload/v1720162624/omaxe%20dwarka/tjoqjtmsbivylso2x6qr_kllqfo.jpg"
             },
             "highlightImage": {
-                "public_id": "realtyshopee/project/dzutjo3rnhwkxckrsgws",
-                "url": "https://res.cloudinary.com/dm5yrsqdc/image/upload/v1714995808/realtyshopee/project/dzutjo3rnhwkxckrsgws.jpg"
+                "url": "https://res.cloudinary.com/dgplzytrq/image/upload/v1720162652/omaxe%20dwarka/dzutjo3rnhwkxckrsgws_mddtpd.jpg"
             },
             "projectMaster_plan": {
-                "public_id": "realtyshopee/project/sejlormwdamgrki8pw6w",
-                "url": "http://res.cloudinary.com/dm5yrsqdc/image/upload/v1714995676/realtyshopee/project/sejlormwdamgrki8pw6w.jpg"
+                "url": "https://res.cloudinary.com/dgplzytrq/image/upload/v1720162684/omaxe%20dwarka/sejlormwdamgrki8pw6w_xi5hra.jpg"
             },
             "_id": "6617c2cf0dbd2ab11644eb96",
             "project_floorplan_Image": [
                 {
-                    "public_id": "realtyshopee/project/ewcxkste4vt1padwkb27",
-                    "url": "https://res.cloudinary.com/dm5yrsqdc/image/upload/v1714995740/realtyshopee/project/ewcxkste4vt1padwkb27.jpg"
+                    "url": "https://res.cloudinary.com/dgplzytrq/image/upload/v1720162753/omaxe%20dwarka/ewcxkste4vt1padwkb27_riwmma.jpg"
                 },
                 {
-                    "public_id": "realtyshopee/project/tahkwq4dpop6skqzyahy",
-                    "url": "https://res.cloudinary.com/dm5yrsqdc/image/upload/v1714995741/realtyshopee/project/tahkwq4dpop6skqzyahy.jpg"
+                    "url": "https://res.cloudinary.com/dgplzytrq/image/upload/v1720162780/omaxe%20dwarka/tahkwq4dpop6skqzyahy_qbkzfc.jpg"
                 },
                 {
-                    "public_id": "realtyshopee/project/rkteafhac1w6xruexw4p",
-                    "url": "https://res.cloudinary.com/dm5yrsqdc/image/upload/v1714995742/realtyshopee/project/rkteafhac1w6xruexw4p.jpg"
+                    "url": "https://res.cloudinary.com/dgplzytrq/image/upload/v1720162839/omaxe%20dwarka/rkteafhac1w6xruexw4p_vmpwmw.jpg"
                 },
                 {
-                    "public_id": "realtyshopee/project/fcvnndikplcb99dumqml",
-                    "url": "https://res.cloudinary.com/dm5yrsqdc/image/upload/v1714995744/realtyshopee/project/fcvnndikplcb99dumqml.jpg"
+                    "url": "https://res.cloudinary.com/dgplzytrq/image/upload/v1720162862/omaxe%20dwarka/fcvnndikplcb99dumqml_xnknjp.jpg"
                 },
                 {
-                    "public_id": "realtyshopee/project/vonnpg211nsg9atnsxc8",
-                    "url": "https://res.cloudinary.com/dm5yrsqdc/image/upload/v1714995745/realtyshopee/project/vonnpg211nsg9atnsxc8.jpg"
+                    "url": "https://res.cloudinary.com/dgplzytrq/image/upload/v1720162904/omaxe%20dwarka/vonnpg211nsg9atnsxc8_ke2zdn.jpg"
                 }
             ],
             "state": "New Delhi",
@@ -10427,19 +10554,15 @@
             "project_url": "omaxe-dwarka",
             "projectGallery": [
                 {
-                    "public_id": "realtyshopee/project/fsshjjpg4asp21r0b3bn",
                     "url": "https://res.cloudinary.com/dm5yrsqdc/image/upload/v1714995896/realtyshopee/project/fsshjjpg4asp21r0b3bn.jpg"
                 },
                 {
-                    "public_id": "realtyshopee/project/ivytzbdn2rrnkkacypdz",
                     "url": "https://res.cloudinary.com/dm5yrsqdc/image/upload/v1714995897/realtyshopee/project/ivytzbdn2rrnkkacypdz.jpg"
                 },
                 {
-                    "public_id": "realtyshopee/project/sht9adqpmgsdqneepykn",
                     "url": "https://res.cloudinary.com/dm5yrsqdc/image/upload/v1714995898/realtyshopee/project/sht9adqpmgsdqneepykn.jpg"
                 },
                 {
-                    "public_id": "realtyshopee/project/kedunsdqmpj2hvefq3eo",
                     "url": "https://res.cloudinary.com/dm5yrsqdc/image/upload/v1714995899/realtyshopee/project/kedunsdqmpj2hvefq3eo.jpg"
                 }
             ],
@@ -10447,63 +10570,48 @@
                 {
                     "bhk_type": "Office Space",
                     "price": "Call for Price",
-                    "bhk_Area": "On Request",
-                    "_id": "6638c5b2df6f5a16378ef08e"
+                    "bhk_Area": "On Request"
                 },
                 {
                     "bhk_type": "Retail Shops",
                     "price": "Call for Price",
-                    "bhk_Area": "On Request",
-                    "_id": "6638c5c2df6f5a16378ef09c"
+                    "bhk_Area": "On Request"
                 }
             ],
             "highlight": [
                 {
-                    "highlight_Point": "Land Parcel - 50.4 acres",
-                    "_id": "6617c4f60dbd2ab11644f194"
+                    "highlight_Point": "Land Parcel - 50.4 acres"
                 },
                 {
-                    "highlight_Point": "Opposite Bharat Vandana 220 Acres",
-                    "_id": "6617c4fc0dbd2ab11644f198"
+                    "highlight_Point": "Opposite Bharat Vandana 220 Acres"
                 },
                 {
-                    "highlight_Point": "70,000 Ft FAC Area",
-                    "_id": "6617c5040dbd2ab11644f19d"
+                    "highlight_Point": "70,000 Ft FAC Area"
                 },
                 {
-                    "highlight_Point": "100+ Room Hotel Above Banquet",
-                    "_id": "6617c50d0dbd2ab11644f1a3"
+                    "highlight_Point": "100+ Room Hotel Above Banquet"
                 },
                 {
-                    "highlight_Point": "80 Seater Auditorium",
-                    "_id": "6617c5140dbd2ab11644f1aa"
+                    "highlight_Point": "80 Seater Auditorium"
                 },
                 {
-                    "highlight_Point": "40,000 Seater With Hydraulic Pitch",
-                    "_id": "6617c51b0dbd2ab11644f1b2"
+                    "highlight_Point": "40,000 Seater With Hydraulic Pitch"
                 },
                 {
-                    "highlight_Point": "6/7 Screen Multiplex",
-                    "_id": "6617c5220dbd2ab11644f1bb"
+                    "highlight_Point": "6/7 Screen Multiplex"
                 },
                 {
-                    "highlight_Point": "80% Retail - Ground",
-                    "_id": "6617c5290dbd2ab11644f1c5"
+                    "highlight_Point": "80% Retail - Ground"
                 },
                 {
-                    "highlight_Point": "Opposite Bharat Vandana 220 Acres",
-                    "_id": "6617c5410dbd2ab11644f1ea"
+                    "highlight_Point": "Opposite Bharat Vandana 220 Acres"
                 },
                 {
-                    "highlight_Point": "42 Restaurants In The Whole Project",
-                    "_id": "6617c5490dbd2ab11644f1f6"
+                    "highlight_Point": "42 Restaurants In The Whole Project"
                 }
-            ],
-            "createdAt": "2024-04-11T11:00:31.052Z",
-            "updatedAt": "2024-05-06T11:57:54.805Z",
-            "__v": 0
-        },
-       
+            ]
+        }
+       ,
         {
             "frontImage": {
                 "public_id": "realtyshopee/project/gny9oetr4r7ifwlsj0bp",
@@ -12525,52 +12633,42 @@
         },
         {
             "frontImage": {
-                "public_id": "realtyshopee/project/r9ogecjzjckzyzkonezl",
                 "url": "https://res.cloudinary.com/dgplzytrq/image/upload/v1716625012/SS-Whitewater/Project-Photo-4-SS-Whitewater-Gurgaon-5419149_778_1200_310_462_tvsqk3.jpg"
             },
             "logo": {
-                "public_id": "realtyshopee/project/fu2ugzvbiniqe9sbm66c",
                 "url": "https://res.cloudinary.com/dm5yrsqdc/image/upload/v1712833222/realtyshopee/project/fu2ugzvbiniqe9sbm66c.png"
             },
             "project_locationImage": {
-                "public_id": "realtyshopee/project/tjoqjtmsbivylso2x6qr",
                 "url": "https://res.cloudinary.com/dm5yrsqdc/image/upload/v1714995608/realtyshopee/project/tjoqjtmsbivylso2x6qr.jpg"
             },
             "highlightImage": {
-                "public_id": "realtyshopee/project/dzutjo3rnhwkxckrsgws",
                 "url": "https://res.cloudinary.com/dm5yrsqdc/image/upload/v1714995808/realtyshopee/project/dzutjo3rnhwkxckrsgws.jpg"
             },
             "projectMaster_plan": {
-                "public_id": "realtyshopee/project/sejlormwdamgrki8pw6w",
                 "url": "http://res.cloudinary.com/dm5yrsqdc/image/upload/v1714995676/realtyshopee/project/sejlormwdamgrki8pw6w.jpg"
             },
             "_id": "6617c2cf0dbd2ab11644eb96",
             "project_floorplan_Image": [
                 {
-                    "public_id": "realtyshopee/project/ewcxkste4vt1padwkb27",
                     "url": "https://res.cloudinary.com/dm5yrsqdc/image/upload/v1714995740/realtyshopee/project/ewcxkste4vt1padwkb27.jpg"
                 },
                 {
-                    "public_id": "realtyshopee/project/tahkwq4dpop6skqzyahy",
                     "url": "https://res.cloudinary.com/dm5yrsqdc/image/upload/v1714995741/realtyshopee/project/tahkwq4dpop6skqzyahy.jpg"
                 },
                 {
-                    "public_id": "realtyshopee/project/rkteafhac1w6xruexw4p",
                     "url": "https://res.cloudinary.com/dm5yrsqdc/image/upload/v1714995742/realtyshopee/project/rkteafhac1w6xruexw4p.jpg"
                 },
                 {
-                    "public_id": "realtyshopee/project/fcvnndikplcb99dumqml",
                     "url": "https://res.cloudinary.com/dm5yrsqdc/image/upload/v1714995744/realtyshopee/project/fcvnndikplcb99dumqml.jpg"
                 },
                 {
-                    "public_id": "realtyshopee/project/vonnpg211nsg9atnsxc8",
                     "url": "https://res.cloudinary.com/dm5yrsqdc/image/upload/v1714995745/realtyshopee/project/vonnpg211nsg9atnsxc8.jpg"
                 }
             ],
             "state": "Haryana",
             "projectName": "SS WHITEWATER",
             "projectAddress": "Sector 90",
-            "project_description": "Omaxe Dwarka Shopping Center, a landmark business project in Delhi, offers a vibrant mix of fine dining, retail, office spaces, and multi-level parking. Designed to provide cutting-edge amenities, this project promises unparalleled opportunities for business growth in the city's commercial hub.Omaxe Group, a trailblazing real estate developer, has proudly launched Omaxe Dwarka Delhi, a signature commercial venture. With an investment of INR 2100 crore, this ambitious project involves the development of a state-of-the-art sports complex and retail center in the strategically located Dwarka area, the nation's capital",
+            "project_description": "SS Whitewater is a commercial property in Sector 90, Gurgaon. It offers office spaces and retail shops with advanced amenities and facilities.",
             "projectRedefine_Connectivity": [
                 "15 minutes drive from Indira Gandhi International (IGI) Airport."
             ],
@@ -12583,8 +12681,8 @@
             "projectRedefine_Education": [
                 "Located within 5 km from Vegas Mall And hospitals like Ayushman Hospital, and Aakash Healthcare Super Speciality Hospital."
             ],
-            "meta_description": "Omaxe State Dwarka Delhi is an impending luxury commercial project that features premium quality retail shops, offices & sports arena with top-class niceties.",
-            "meta_title": "Omaxe State Dwarka Delhi - Commercial Property in Sector 19B New Delhi",
+            "meta_description": "SS Whitewater is a commercial property in Sector 90, Gurgaon. It offers office spaces and retail shops with advanced amenities and facilities.",
+            "meta_title": "SS Whitewater - Commercial Property in Sector 90",
             "Amenities": [
                 "24x7 Power Backup",
                 "Elevator Lobby",
@@ -12606,19 +12704,15 @@
             "project_url": "ss-whitewater",
             "projectGallery": [
                 {
-                    "public_id": "realtyshopee/project/fsshjjpg4asp21r0b3bn",
                     "url": "https://res.cloudinary.com/dm5yrsqdc/image/upload/v1714995896/realtyshopee/project/fsshjjpg4asp21r0b3bn.jpg"
                 },
                 {
-                    "public_id": "realtyshopee/project/ivytzbdn2rrnkkacypdz",
                     "url": "https://res.cloudinary.com/dm5yrsqdc/image/upload/v1714995897/realtyshopee/project/ivytzbdn2rrnkkacypdz.jpg"
                 },
                 {
-                    "public_id": "realtyshopee/project/sht9adqpmgsdqneepykn",
                     "url": "https://res.cloudinary.com/dm5yrsqdc/image/upload/v1714995898/realtyshopee/project/sht9adqpmgsdqneepykn.jpg"
                 },
                 {
-                    "public_id": "realtyshopee/project/kedunsdqmpj2hvefq3eo",
                     "url": "https://res.cloudinary.com/dm5yrsqdc/image/upload/v1714995899/realtyshopee/project/kedunsdqmpj2hvefq3eo.jpg"
                 }
             ],
@@ -12626,61 +12720,46 @@
                 {
                     "bhk_type": "Office Space",
                     "price": "Call for Price",
-                    "bhk_Area": "On Request",
-                    "_id": "6638c5b2df6f5a16378ef08e"
-                },
+                    "bhk_Area": "On Request"
+                            },
                 {
                     "bhk_type": "Retail Shops",
                     "price": "Call for Price",
-                    "bhk_Area": "On Request",
-                    "_id": "6638c5c2df6f5a16378ef09c"
-                }
+                    "bhk_Area": "On Request"
+                            }
             ],
             "highlight": [
                 {
-                    "highlight_Point": "Land Parcel - 50.4 acres",
-                    "_id": "6617c4f60dbd2ab11644f194"
+                    "highlight_Point": "Land Parcel - 50.4 acres"
                 },
                 {
-                    "highlight_Point": "Opposite Bharat Vandana 220 Acres",
-                    "_id": "6617c4fc0dbd2ab11644f198"
+                    "highlight_Point": "Opposite Bharat Vandana 220 Acres"
                 },
                 {
-                    "highlight_Point": "70,000 Ft FAC Area",
-                    "_id": "6617c5040dbd2ab11644f19d"
+                    "highlight_Point": "70,000 Ft FAC Area"
                 },
                 {
-                    "highlight_Point": "100+ Room Hotel Above Banquet",
-                    "_id": "6617c50d0dbd2ab11644f1a3"
+                    "highlight_Point": "100+ Room Hotel Above Banquet"
                 },
                 {
-                    "highlight_Point": "80 Seater Auditorium",
-                    "_id": "6617c5140dbd2ab11644f1aa"
+                    "highlight_Point": "80 Seater Auditorium"
                 },
                 {
-                    "highlight_Point": "40,000 Seater With Hydraulic Pitch",
-                    "_id": "6617c51b0dbd2ab11644f1b2"
+                    "highlight_Point": "40,000 Seater With Hydraulic Pitch"
                 },
                 {
-                    "highlight_Point": "6/7 Screen Multiplex",
-                    "_id": "6617c5220dbd2ab11644f1bb"
+                    "highlight_Point": "6/7 Screen Multiplex"
                 },
                 {
-                    "highlight_Point": "80% Retail - Ground",
-                    "_id": "6617c5290dbd2ab11644f1c5"
+                    "highlight_Point": "80% Retail - Ground"
                 },
                 {
-                    "highlight_Point": "Opposite Bharat Vandana 220 Acres",
-                    "_id": "6617c5410dbd2ab11644f1ea"
+                    "highlight_Point": "Opposite Bharat Vandana 220 Acres"
                 },
                 {
-                    "highlight_Point": "42 Restaurants In The Whole Project",
-                    "_id": "6617c5490dbd2ab11644f1f6"
+                    "highlight_Point": "42 Restaurants In The Whole Project"
                 }
             ],
-            "createdAt": "2024-04-11T11:00:31.052Z",
-            "updatedAt": "2024-05-06T11:57:54.805Z",
-            "__v": 0,
             "possession":"2028"
         },{
             "projectName": "Puri Diplomatic Greens",

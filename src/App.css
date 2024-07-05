@@ -787,6 +787,7 @@ a {
   left: 50%;
   transform: translateX(-50%);
   background: #9ed0ff;
+  color:black;
   border: none;
   outline: none;
   border-radius: 20px;

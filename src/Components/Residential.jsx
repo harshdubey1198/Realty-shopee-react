@@ -44,9 +44,9 @@ const projectData = [
 ];
 
 function Residential() {
-  const handleViewAll = () => {
-    window.open('/residential-property-in-gurgaon', '_blank');
-  };
+  // const handleViewAll = () => {
+  //   window.open('/residential-property-in-gurgaon', '_blank');
+  // };
 
   return (
     <div className="residential-projects bt">
@@ -55,7 +55,7 @@ function Residential() {
         Residential Properties
         <img src={resIcon} alt="Residential" className='section-icon'/>
       </h4>
-      <button onClick={handleViewAll} className='view-all'>View All</button>
+      <a href="/residential-property-in-gurgaon" className='view-all'>View All</a>
       <div className="projects-container">
         {projectData.map((project, index) => (
           <Link key={project.projectName} to={`/projects/${project.projectName}`} className='projects-c-a' target="_blank" rel="noopener noreferrer">

@@ -44,10 +44,7 @@ const projectData=[
 
 function Commercial() {
 
-  // const navigate = useNavigate();
-    const handleViewAll =() =>{
-        window.open('/commercial-property-in-gurgaon','_blank');
-    }
+  
   return (
     <div className="commercial-projects bt">
      <h4>
@@ -55,7 +52,7 @@ function Commercial() {
         Commercial Properties
         <img src={comIcon} alt="" className='section-icon'  loading='lazy'/>
       </h4>
-        <button onClick={handleViewAll} className='view-all'>View All</button>
+        <a href="/commercial-property-in-gurgaon" target="_blank" className='view-all'>View All</a>
       <div className="projects-container">
          {projectData.map((project, index) => (
           <Link key={project.projectName} to={`/projects/${project.projectName}`} className='projects-c-a'>
