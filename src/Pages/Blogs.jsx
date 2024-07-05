@@ -1,6 +1,6 @@
 import React, { useEffect, useState } from 'react';
 import axios from 'axios';
-import { useNavigate } from 'react-router-dom';
+// import { useNavigate } from 'react-router-dom';
 import BlogCard from '../Components/BlogCard';
 import logo from "../Images/Realty shopee main logo.png";
 import "../App.css";
@@ -11,7 +11,7 @@ import Loader from 'react-loaders';
 
 function Blogs() {
   const [blogs, setBlogs] = useState([]);
-  const navigate = useNavigate();
+  // const navigate = useNavigate();
   const loader = <Loader type="ball-pulse-sync" />;
 
   useEffect(() => {
@@ -27,13 +27,13 @@ function Blogs() {
     fetchBlogs();
   }, []);
 
-  const handleHomeClick = () => {
-    navigate('/');
-  };
+  // const handleHomeClick = () => {
+  //   navigate('/');
+  // };
 
-  const handleContactUsClick = () => {
-    navigate("/contactus");
-  };
+  // const handleContactUsClick = () => {
+  //   navigate("/contactus");
+  // };
 
   return (
     <div className='blogs-main'>
@@ -45,8 +45,8 @@ function Blogs() {
       </Helmet>
       <header className='pd-nav blue-nav'>
         <h2><a href="https://www.realtyshopee.com" className='r-logo'><img src={logo} className='pd-logo' alt="realty shopee" /></a></h2>
-        <button onClick={handleHomeClick}><span>Home</span><span><FcHome/></span></button>
-        <button onClick={handleContactUsClick}><span>Contact Us</span><span><FcQuestions/></span></button>
+        <a href='/' target="_blank"><span>Home</span><span><FcHome/></span></a>
+        <a href='/contactus' target="_blank"><span>Contact Us</span><span><FcQuestions/></span></a>
         <a href="tel:+919289252999"><span>+91 9289252999</span><span><FcPhone className='phone'/></span></a>
       </header>
       <div className="blog-list">
