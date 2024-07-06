@@ -506,6 +506,7 @@ a {
 }
 .all-p-h4{
   font-size: 1.125rem;
+  margin: 0 !important;
   padding-top: 5px;
 }
 .all-p-p{
