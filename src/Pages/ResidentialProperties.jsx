@@ -6,6 +6,7 @@ import projectData from "../realtyshopee.json";
 import '../App.css';
 import ScrollToTop from '../Components/ScrollToTop';
 import Loader from 'react-loaders';
+import { Helmet } from 'react-helmet';
 
 function ResidentialProperties() {
   const projects = projectData.data || [];
@@ -42,6 +43,9 @@ function ResidentialProperties() {
 
   return (
     <div className='al-center'>
+      <Helmet>
+        <link rel="canonical" href="https://www.realtyshopee.com/residential-property-in-gurgaon" />
+      </Helmet>
       <nav className='all-p-nav'>
         <div className='logo-div'>
           <a href="https://www.realtyshopee.com" className='r-logo'><img src={logoImage} alt='Realty Shopee' loading='lazy'/></a>

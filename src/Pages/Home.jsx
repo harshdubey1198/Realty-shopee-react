@@ -20,7 +20,10 @@ import ScrollToTop from '../Components/ScrollToTop';
 const Home = () => {
   return (
     <div className='home-main'>
-        <Helmet>
+          <Helmet>
+          <link rel="canonical" href="https://www.realtyshopee.com/" />
+        </Helmet>
+        {/* <Helmet>
           <meta charSet='utf-8' />
           <title>Discover The Best Luxury Property in Gurgaon with Realty Shopee</title>
           <meta name="description" content="Discover the best luxury property in Gurgaon with Realty Shopee. Find residential, commercial, and SCO plots properties tailored to your needs in this dynamic city." />
@@ -39,7 +42,7 @@ const Home = () => {
           <meta name="twitter:description" content="Discover the best luxury property in Gurgaon with Realty Shopee. Find residential, commercial, and SCO plots properties tailored to your needs in this dynamic city."/>
           <meta name="twitter:url" content="https://realtyshopee.com/" />
           <meta name="twitter:image" content="https://res.cloudinary.com/dgplzytrq/image/upload/v1719493314/Description%20Images/og-home-logo.png" />
-        </Helmet>
+        </Helmet> */}
       <Navbar />
       <SocialBar />
       <div id="home"><Banner /></div>

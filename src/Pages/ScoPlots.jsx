@@ -43,13 +43,16 @@ function ResidentialProperties() {
 
   return (
     <div className='al-center'>
-      <Helmet>
+      {/* <Helmet>
         <meta charSet='utf-8'/>
         <link rel="canonical" href={`https://www.realtyshopee.com/sco-plots-in-gurgaon`} />
         <title>Premium SCO Plots in Gurugram for Sale | Realty Shopee</title>
         <meta name="description" content="Premium commercial and residential SCO plots in Gurgaon for sale with two-side open layouts. Explore affordable options at Realty Shopee."/>
         <link rel="icon" href="https://www.realtyshopee.com/agent.png" />
-      </Helmet>
+      </Helmet> */}
+        <Helmet>
+          <link rel="canonical" href="https://www.realtyshopee.com/sco-plots-in-gurgaon" />
+        </Helmet>
       <nav className='all-p-nav'>
         <div className='logo-div'>
           <a href="https://www.realtyshopee.com" className='r-logo'><img src={logoImage} alt='Realty Shopee' loading='lazy'/></a>
