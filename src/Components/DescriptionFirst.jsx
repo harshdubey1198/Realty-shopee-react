@@ -7,7 +7,7 @@ function DescriptionFirst() {
     'https://res.cloudinary.com/dgplzytrq/image/upload/v1718972634/Description%20Images/Residential-property.jpg',
     'https://res.cloudinary.com/dgplzytrq/image/upload/v1718972783/Description%20Images/Commercial-Property.jpg',
     'https://res.cloudinary.com/dgplzytrq/image/upload/v1718972824/Description%20Images/SCO-plots.jpg',
-    'https://res.cloudinary.com/dgplzytrq/image/upload/v1719576241/fldpjxxgb6hkw2q7umvz_ynba1p.jpg'
+    'https://res.cloudinary.com/dgplzytrq/image/upload/v1719576241/Description%20Images/medley.jpg'
   ];
 
   useEffect(() => {
