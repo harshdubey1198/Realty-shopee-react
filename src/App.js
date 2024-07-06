@@ -49,7 +49,7 @@ function App() {
     } else {
       setShowOverlay(true);
     }
-  };
+  }; 
 
   useLayoutEffect(() => {
     window.scrollTo(0, 0);

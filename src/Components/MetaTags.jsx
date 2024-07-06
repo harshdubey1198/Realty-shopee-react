@@ -1,10 +1,10 @@
-import React from 'react';
 import { Helmet } from 'react-helmet';
 
-const MetaTags = ({ title, description, url, image }) => (
+const MetaTags = ({ title, description, url,canonical, image }) => (
   <Helmet>
     <title>{title}</title>
     <meta name="description" content={description} />
+    <link rel="canonical" href={canonical} />
     
     {/* Open Graph tags */}
     <meta property="og:title" content={title} />
@@ -23,3 +23,4 @@ const MetaTags = ({ title, description, url, image }) => (
 );
 
 export default MetaTags;
+ 
