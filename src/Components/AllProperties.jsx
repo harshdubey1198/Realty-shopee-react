@@ -1,27 +1,18 @@
 import React, { useState } from 'react';
 import PropertyCard from './PropertyCard'; 
-// import { Link, useNavigate } from 'react-router-dom';
 import { Link } from 'react-router-dom';
 import logoImage from "../Images/Realty shopee main logo.png";
 import projectData from "../realtyshopee.json";
 import '../App.css'; 
 import ScrollToTop from './ScrollToTop';
+import { Helmet } from 'react-helmet';
 
 function AllProperties() {
   const projects = projectData.data || [];
   const [searchQuery, setSearchQuery] = useState('');
   const [selectedType, setSelectedType] = useState('All');
 
-  // const navigate = useNavigate();
-  // const handleHomeClick = () => {
-  //   navigate('/');
-  // };
-  // const handleContactUsClick = () => {
-  //   navigate('/contactus');
-  // };
-  // const handleAddProjectClick = () => {
-  //   navigate('/addproperties');
-  // };
+  const isLocalhost = window.location.hostname === 'localhost' && window.location.port === '3000';
 
   const typeMapping = {
     "Residential": ["residential", "residential plots", "residential property", "residential flats" , "residential apartments"],
@@ -46,8 +37,15 @@ function AllProperties() {
     return matchesSearchQuery && matchesType;
   });
 
+  const projectCount = isLocalhost ? filteredProjects.length : 999;
+
   return (
     <div className='al-center'>
+      <Helmet>
+        <title>All Properties are listed here!</title>
+        <link rel="icon" href="https://res.cloudinary.com/dgplzytrq/image/upload/v1720260452/Builders/r_logo_pz8qnp.png"/>
+      </Helmet>
+
       <ScrollToTop/>
       <nav className='all-p-nav'>       
         <div className='logo-div'>
@@ -83,7 +81,7 @@ function AllProperties() {
       <div className="projects-container gtc">
         {filteredProjects.length > 0 ? (
           filteredProjects.map((project, index) => (
-            <Link key={project.projectName} to={`/property/${project.projectName}`}>
+            <Link key={project.projectName} to={`/property/${project.projectName.replace(/\s+/g, '-').toLowerCase()}`}>
               <PropertyCard key={index} property={project} />
             </Link>
           ))
@@ -91,6 +89,7 @@ function AllProperties() {
           <p className='npa'>No projects available</p>
         )}
       </div>
+      {isLocalhost && <div className='project-count'>Project Count: <span>{projectCount}</span></div>}
     </div>
   );
 }

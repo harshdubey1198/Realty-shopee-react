@@ -504,6 +504,19 @@ a {
 .all-p-nav{
   justify-content: space-around;
 }
+.project-count{
+  position: fixed;
+  right: 0;
+  bottom: 150px;
+  background: rgb(53, 128, 53);
+  padding: 10px 5px ;
+  color: white;
+  font-size: 20px;
+  border-radius: 10px;
+  span{
+    color: #c9e3ff;
+  }
+}
 .all-p-h4{
   font-size: 1.125rem;
   margin: 0 !important;
@@ -2828,6 +2841,9 @@ button{
 }
 
 @media (width < 971px) {
+  footer .overviewSection .about {
+    padding: 0 !important;
+  }
   nav{
     height: 50px;
   }

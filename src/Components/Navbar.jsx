@@ -129,6 +129,7 @@ function Navbar() {
               <option value="sco">SCO</option>
             </select>
             <ScrollLink to="location-wise" smooth={true} duration={1500} offset={-navbarHeight} onClick={toggleMobileDropdown}><button>Location Wise</button></ScrollLink>
+            <ScrollLink to="contact-us" smooth={true} duration={1500} offset={-navbarHeight} onClick={toggleMobileDropdown}><button>About Us</button></ScrollLink>
           </div>
         )}
       </div>

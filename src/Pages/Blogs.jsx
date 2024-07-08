@@ -41,7 +41,7 @@ function Blogs() {
       <Helmet>
         <link rel="canonical" href={`https://www.realtyshopee.com/blogs`} />
         <title>Blogs - Realty Shopee</title>
-        <link rel="icon" href="https://www.realtyshopee.com/agent.png" />
+        <link rel="icon" href="https://res.cloudinary.com/dgplzytrq/image/upload/v1720260452/Builders/r_logo_pz8qnp.png" />
       </Helmet>
       <header className='pd-nav blue-nav'>
         <h2><a href="https://www.realtyshopee.com" className='r-logo'><img src={logo} className='pd-logo' alt="realty shopee" /></a></h2>

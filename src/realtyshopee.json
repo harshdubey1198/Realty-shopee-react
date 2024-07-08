@@ -1339,6 +1339,107 @@
                 }
             ],
             "__v": 0
+        },
+        {
+            "frontImage": {
+                "url": "https://res.cloudinary.com/dgplzytrq/image/upload/v1720424614/Whiteland-urban-resort/slide2_pfnwx3.webp"
+            },
+            "logo": {
+                "url": "https://res.cloudinary.com/dgplzytrq/image/upload/v1720424505/Whiteland-urban-resort/Logo_aykkkw.svg"
+            },
+            "project_locationImage": {
+                "url": "https://res.cloudinary.com/dgplzytrq/image/upload/v1720424763/Whiteland-urban-resort/Screenshot-2024-04-30-at-1.05.50_E2_80_AFPM_ymqhko.png"
+            },
+            "highlightImage": {
+                "url": "https://res.cloudinary.com/dgplzytrq/image/upload/v1720424713/Whiteland-urban-resort/g12_gpsvxr.jpg"
+            },
+          
+            "_id": "65e1bca1161ac8b2c1dc306f",
+            "project_floorplan_Image": [
+                {
+                    "url": "https://res.cloudinary.com/dgplzytrq/image/upload/v1717586036/Floor%20plan%20image/Background_2_rbunqm.png"
+                },
+                {
+                    "url": "https://res.cloudinary.com/dgplzytrq/image/upload/v1717582876/Floor%20plan%20image/Background_cpb7aq.png"
+                },
+                {
+                    "url": "https://res.cloudinary.com/dgplzytrq/image/upload/v1717585460/Floor%20plan%20image/Background_1_lqqpwe.png"
+                }
+            ],
+            "state": "Haryana",
+            "projectName": "Whiteland Urban Resort",
+            "projectAddress": "Sector 103, Dwarka Expressway",
+            "project_description": "Nestled along Gurgaon's vibrant Golf Course Extension Road, Tarc Ishva Apartments epitomizes luxurious row housing living. With over 500 meticulously designed apartments, this development offers a secure, green environment enriched with top-tier amenities. Embodying a holistic living ethos, Tarc Ishva integrates expertise from various sectors to enhance resident experience. Each unit boasts contemporary features, ensuring a blend of comfort and sophistication. Located near thriving residential zones, it promises unparalleled convenience and connectivity, with Netaji Subhash Marg linking directly to the Delhi-Gurgaon Expressway",
+            "projectRedefine_Connectivity": [
+                "Well connected to Golf Course Road, Sohna Road, NH-8, Gurgaon and Faridabad Road"
+            ],
+            "projectRedefine_Entertainment": [
+                "Multiple business hubs and Kadarpur CRPF Camp is in close proximity."
+            ],
+            "projectRedefine_Business": [
+                "25 KM drive from Indira Gandhi International Airport."
+            ],
+            "projectRedefine_Education": [
+                "Cycling distance from Capital Cyberspace, Sector-59, Gurgaon"
+            ],
+            "meta_description": "Tarc Ishva Gurgaon, Sector 63 A, presents a high-rise apartment with breathtaking views, modern infrastructure & world-class amenities.",
+            "meta_title": "Whiteland Urban Resort - Luxurious flats and housing .",
+            "Amenities": [
+                "Swimming Pool","Gym","CCTV Camera Security","24x7 Power Backup","Jogging Track"
+            ],
+            "projectBgContent": "Whiteland Urban Resort",
+            "projectReraNo": "Applied",
+            "type": "Residential Flats",
+            "city": "Gurgaon",
+            "builderName": "Whiteland",
+            "AboutDeveloper": "TARC Group is a well-established real estate developer that was founded in 1969. The company has a significant presence in the real estate sector across various states in India. TARC Group has successfully developed a wide range of medium to large-scale properties. Their residential projects are a testament to the developer's unwavering commitment to quality, innovation, and customer satisfaction. TARC Group's impressive portfolio and dedicated team make them a trustworthy name in the real estate industry.",
+            "projectOverview": "none",
+            "schema_type": "project",
+            "project_url": "whiteland-urban-resort",
+            "projectGallery": [
+                {
+                    "url": "https://res.cloudinary.com/dm5yrsqdc/image/upload/v1709292702/realtyshopee/project/fx39isnwyy65wffvrfb5.jpg"
+                },
+                {
+                    "url": "https://res.cloudinary.com/dm5yrsqdc/image/upload/v1709292703/realtyshopee/project/h2gjcjk5zjy9fq0bnuwa.jpg"
+                }
+            ],
+            "BhK_Details": [
+                {
+                    "bhk_type": "3 BHK ",
+                    "price": "Call for Price",
+                    "bhk_Area": "2200 , 2500 , 2800 SQ.FT"
+                },
+                {
+                    "bhk_type": "4 BHK",
+                    "price": "Call for Price",
+                    "bhk_Area": "3200 , 3600 , 4200 SQ.FT"
+                }
+            ],
+            "highlight": [
+                {
+                    "highlight_Point": "Area: 20+ Acres"
+                },
+                {
+                    "highlight_Point": "Towers: 10-11 towers"
+                },
+                {
+                    "highlight_Point": "High-Rise Towers"
+                },
+                {
+                    "highlight_Point": "Payment Plan: 35:25:40"
+                },
+                {
+                    "highlight_Point": "Green Landscapes"
+                },
+                {
+                    "highlight_Point": "Rainwater Harvesting"
+                },
+                {
+                    "highlight_Point": "HRERA No. 65, 66 & 67 of 2024"
+                }
+            ],
+            "__v": 0
         }
     
   ]

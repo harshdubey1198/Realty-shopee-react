@@ -71,11 +71,11 @@ const projectData = [
   },
   {
     "possession":"2029",
-    "projectName": "Whiteland 103",
+    "projectName": "Whiteland Urban Resort",
     "projectAddress": "Sector 103, Dwarka Expressway",
     "city": "Gurgaon",
     "frontImage": {
-      "url": "https://whitelandaspenone.in/images/slide2.webp"
+      "url": "https://res.cloudinary.com/dgplzytrq/image/upload/v1720424614/Whiteland-urban-resort/slide2_pfnwx3.webp"
     }
   },
 ];
