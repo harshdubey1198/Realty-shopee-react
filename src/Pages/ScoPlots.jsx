@@ -48,7 +48,7 @@ function ResidentialProperties() {
         <link rel="canonical" href={`https://www.realtyshopee.com/sco-plots-in-gurgaon`} />
         <title>Premium SCO Plots in Gurugram for Sale | Realty Shopee</title>
         <meta name="description" content="Premium commercial and residential SCO plots in Gurgaon for sale with two-side open layouts. Explore affordable options at Realty Shopee."/>
-        <link rel="icon" href="https://res.cloudinary.com/dgplzytrq/image/upload/v1720260452/Builders/r_logo_pz8qnp.png" />
+        <link rel="icon" href="https://www.realtyshopee.com/agent.png" />
       </Helmet> */}
         <Helmet>
           <link rel="canonical" href="https://www.realtyshopee.com/sco-plots-in-gurgaon" />

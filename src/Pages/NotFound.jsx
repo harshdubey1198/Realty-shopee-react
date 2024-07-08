@@ -15,7 +15,7 @@ const NotFound =()=> {
       <Helmet>
         <link rel="canonical" href={`https://www.realtyshopee.com/*`} />
         <title>Page Not Found - Realty Shopee</title>
-        <link rel="icon" href="https://res.cloudinary.com/dgplzytrq/image/upload/v1720260452/Builders/r_logo_pz8qnp.png" />
+        <link rel="icon" href="https://www.realtyshopee.com/agent.png" />
       </Helmet>
       <h1>Oops! Page Not Found</h1>
       <a href="https://www.realtyshopee.com" className='a-home'>Get Back Home</a>

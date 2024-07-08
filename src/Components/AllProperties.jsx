@@ -89,7 +89,7 @@ function AllProperties() {
           <p className='npa'>No projects available</p>
         )}
       </div>
-      {isLocalhost && <div className='project-count'>Project Count: <span>{projectCount}</span></div>}
+      {isLocalhost && <div className='project-count'><span>{projectCount}</span></div>}
     </div>
   );
 }

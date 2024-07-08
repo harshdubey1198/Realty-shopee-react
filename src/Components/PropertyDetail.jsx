@@ -142,8 +142,8 @@ function PropertyDetail({ property }) {
           <img src={property.frontImage.url} className='pd-banner' alt={property.projectName} />
           <div className='pd-about'>
             <h2>About</h2>
-            <p>{property.project_description}</p>
-          </div>
+            <div dangerouslySetInnerHTML={{ __html: property.project_description }} />
+            </div>
         </div>
         <div className='pd-location'>
           <div> 

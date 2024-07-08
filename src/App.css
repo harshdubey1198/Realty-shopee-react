@@ -509,9 +509,10 @@ a {
   right: 0;
   bottom: 150px;
   background: rgb(53, 128, 53);
-  padding: 10px 5px ;
+  padding: 10px;
   color: white;
   font-size: 20px;
+  text-align: center;
   border-radius: 10px;
   span{
     color: #c9e3ff;
@@ -1042,7 +1043,7 @@ justify-content: center;
 }
 .search-bar > input {
   border: none;
-  width: 32vw;
+  width: 94%;
   background: none;
   height: 40px;
   outline: none;
@@ -1768,6 +1769,8 @@ overlay css */
   display: flex;
   align-items: center;
   justify-content:space-evenly;
+  background: #f1f7fd;
+  border-top: 1px solid white;
   width: 100%;
   img{
    height: 300px;
