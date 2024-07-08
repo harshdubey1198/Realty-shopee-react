@@ -1144,6 +1144,201 @@
             "totalLandArea": 22,
             "totalUnit": 1200,
             "towerNumber": 13
+        },
+        {
+            "frontImage": {
+                "url": "https://res.cloudinary.com/dgplzytrq/image/upload/v1720418476/Godrej%20103/lq3kzlu7sifywqrrzqjh_zmuhdb.jpg"
+            },
+            "logo": {
+                "url": "https://res.cloudinary.com/dgplzytrq/image/upload/v1720418527/Godrej%20103/s6y4ubs4uybbqrbeyk8r_eetfum.png"
+            },
+            "project_locationImage": {
+                "url": "https://res.cloudinary.com/dgplzytrq/image/upload/v1720418963/Godrej%20103/godrej-sector-103-gurgaon-prime-location-map_skejgx.jpg"
+            },
+            "highlightImage": {
+                "url": "https://res.cloudinary.com/dgplzytrq/image/upload/v1720419118/Godrej%20103/kgfrtelivrpyyektqrqq_olbswz.jpg"
+            },
+            "projectMaster_plan": {
+                "url": "https://res.cloudinary.com/dgplzytrq/image/upload/v1720419168/Godrej%20103/pxkvxog2swwnzruki9o9_pho1rh.jpg"
+            },
+            "_id": "65f2c5ec7e1280ea133ff8dc",
+            "project_floorplan_Image": [
+                {
+                    "url": "https://res.cloudinary.com/dgplzytrq/image/upload/v1717586036/Floor%20plan%20image/Background_2_rbunqm.png"
+                },
+                {
+                    "url": "https://res.cloudinary.com/dgplzytrq/image/upload/v1717585460/Floor%20plan%20image/Background_1_lqqpwe.png"
+                },
+                {
+                    "url": "https://res.cloudinary.com/dgplzytrq/image/upload/v1717582876/Floor%20plan%20image/Background_cpb7aq.png"
+                },
+                {
+                    "url": "https://res.cloudinary.com/dgplzytrq/image/upload/v1717586036/Floor%20plan%20image/Background_2_rbunqm.png"
+                }
+            ],
+            "state": "Haryana",
+            "projectName": "Godrej 103",
+            "projectAddress": "Sector 103, Dwarka Expressway",
+            "project_description": "Discover luxurious and private living in the serene ambiance of Sector 103, Dwarka Expressway, Gurgaon with Godrej Sector 103 Gurgaon, the latest residential offering from Godrej Properties. This ultra-luxury township promises easy accessibility to Delhi, IGI Airport, and National Highway-8. It features spacious 2 BHK, 3 BHK, and 4 BHK apartments with expansive balconies, offering stunning garden views and ultra-modern amenities. Ideal for those seeking a blend of tranquility and convenience, Godrej Sector 103 Gurgaon is set to redefine contemporary living standards in Gurgaon.",
+            "projectRedefine_Connectivity": [
+                "IGI Airport- 15 Minutes Drive"
+            ],
+            "projectRedefine_Entertainment": [
+                "Adjacent to DPS - Delhi Public School, Gurgaon"
+            ],
+            "projectRedefine_Business": [
+                "Well Connected from 75 mtr Road, NH8 and all major locations of Delhi/Gurgaon"
+            ],
+            "projectRedefine_Education": [
+                "Direct Access to Dwarka Expressway."
+            ],
+            "meta_description": "Godrej Sector 103 Gurgaon is an Ultra Luxury Project, located at Dwarka Expressway. Godrej 103 offers Luxury Apartments with Modern Amenities",
+            "meta_title": "Godrej Sector 103 Gurgaon - New Project Dwarka Expressway",
+            "Amenities": [
+                "Car Parking","CCTV Camera Security","24*7 Water Supply","Basketball Court"
+            ],
+            "projectBgContent": "Godrej Sector 103 Gurgaon - New Project Dwarka Expressway",
+            "projectReraNo": "Applied",
+            "type": "Residential Flats",
+            "city": "Gurgaon",
+            "builderName": "Godrej Properties",
+            "AboutDeveloper": "The Godrej Group comprises of a varied business portfolio that includes real estate development, fast moving consumer goods, advanced engineering, home appliances, furniture, security, and agri-care. While a large number of our businesses are privately held, the combined market cap of our publicly listed entities is in excess of USD 15 billion. Ranked as the 2nd most trusted Indian brand, an annual revenue of USD 5 billion, and an estimated 1.1 billion customers across the world that use one or another Godrej product every day, the Godrej Group is amongst India's most diversified and trusted conglomerates.",
+            "projectOverview": "none",
+            "schema_type": "project",
+            "project_url": "godrej-103-gurgaon",
+            "projectGallery": [
+                {
+                    "url": "https://res.cloudinary.com/dm5yrsqdc/image/upload/v1710409194/realtyshopee/project/kbcwhd0in1ix5ayk5o3q.jpg"
+                }
+            ],
+            "BhK_Details": [
+                {
+                    "bhk_type": "3 BHK + SR",
+                    "price": "Call for Price",
+                    "bhk_Area": "2500 SQ.FT"
+                },
+                {
+                    "bhk_type": "4 BHK + SR",
+                    "price": "Call for Price",
+                    "bhk_Area": "2700 SQ.FT"
+                }
+            ],
+            "highlight": [
+                {
+                    "highlight_Point": "This luxurious residential project offers premium Units for Apartments."
+                },
+                {
+                    "highlight_Point": "Limited Edition Living: Experience privacy with only 4 apartments per floor"
+                },
+                {
+                    "highlight_Point": "Elite Clubhouse: A grand clubhouse awaits for memorable gatherings."
+                },
+                {
+                    "highlight_Point": "Luxury Inside Out: Every corner speaks of luxury, designed to cater to your exquisite taste."
+                },
+                {
+                    "highlight_Point": "Prime Location: Steps away from top commercials, malls, schools, and more."
+                },
+                {
+                    "highlight_Point": "Sophisticated Clubhouse & Well-Equipped Gymnasium."
+                }
+            ],
+            "project_Status": "comingsoon"
+        },
+        {
+            "frontImage": {
+                "url": "https://res.cloudinary.com/dgplzytrq/image/upload/v1719572202/Tarc/o4ayjjllyrxwhy2jat19_zbbnm0.jpg"
+            },
+            "logo": {
+                "url": "https://res.cloudinary.com/dgplzytrq/image/upload/v1720421532/Tarc/brlmmvoirimwpgtvfe3v_otwehe.jpg"
+            },
+            "project_locationImage": {
+                "url": "https://res.cloudinary.com/dgplzytrq/image/upload/v1720421559/Tarc/n5maxjlx4pbkgyvqxrlr_htipwk.jpg"
+            },
+            "highlightImage": {
+                "url": "https://res.cloudinary.com/dgplzytrq/image/upload/v1720421717/Tarc/ifyrdkw3rj3zgfu97brz_gqbpgb.webp"
+            },
+          
+            "_id": "65e1bca1161ac8b2c1dc306f",
+            "project_floorplan_Image": [
+                {
+                    "url": "https://res.cloudinary.com/dgplzytrq/image/upload/v1717586036/Floor%20plan%20image/Background_2_rbunqm.png"
+                },
+                {
+                    "url": "https://res.cloudinary.com/dgplzytrq/image/upload/v1717582876/Floor%20plan%20image/Background_cpb7aq.png"
+                },
+                {
+                    "url": "https://res.cloudinary.com/dgplzytrq/image/upload/v1717585460/Floor%20plan%20image/Background_1_lqqpwe.png"
+                }
+            ],
+            "state": "Haryana",
+            "projectName": "Tarc Ishva",
+            "projectAddress": "Sector 63A, Southern Peripheral Road",
+            "project_description": "Nestled along Gurgaon's vibrant Golf Course Extension Road, Tarc Ishva Apartments epitomizes luxurious row housing living. With over 500 meticulously designed apartments, this development offers a secure, green environment enriched with top-tier amenities. Embodying a holistic living ethos, Tarc Ishva integrates expertise from various sectors to enhance resident experience. Each unit boasts contemporary features, ensuring a blend of comfort and sophistication. Located near thriving residential zones, it promises unparalleled convenience and connectivity, with Netaji Subhash Marg linking directly to the Delhi-Gurgaon Expressway",
+            "projectRedefine_Connectivity": [
+                "Well connected to Golf Course Road, Sohna Road, NH-8, Gurgaon and Faridabad Road"
+            ],
+            "projectRedefine_Entertainment": [
+                "Multiple business hubs and Kadarpur CRPF Camp is in close proximity."
+            ],
+            "projectRedefine_Business": [
+                "25 KM drive from Indira Gandhi International Airport."
+            ],
+            "projectRedefine_Education": [
+                "Cycling distance from Capital Cyberspace, Sector-59, Gurgaon"
+            ],
+            "meta_description": "Tarc Ishva Gurgaon, Sector 63 A, presents a high-rise apartment with breathtaking views, modern infrastructure & world-class amenities.",
+            "meta_title": "Tarc Ishva - Tarc Luxury Flats in Sector 63A Gurgaon",
+            "Amenities": [
+                "Swimming Pool","Gym","CCTV Camera Security","24x7 Power Backup","Jogging Track"
+            ],
+            "projectBgContent": "Tarc Ishva - Sector 63A Gurgaon",
+            "projectReraNo": "Applied",
+            "type": "Residential Flats",
+            "city": "Gurgaon",
+            "builderName": "Tarc India",
+            "AboutDeveloper": "TARC Group is a well-established real estate developer that was founded in 1969. The company has a significant presence in the real estate sector across various states in India. TARC Group has successfully developed a wide range of medium to large-scale properties. Their residential projects are a testament to the developer's unwavering commitment to quality, innovation, and customer satisfaction. TARC Group's impressive portfolio and dedicated team make them a trustworthy name in the real estate industry.",
+            "projectOverview": "none",
+            "schema_type": "project",
+            "project_url": "tarc-ishva",
+            "projectGallery": [
+                {
+                    "url": "https://res.cloudinary.com/dm5yrsqdc/image/upload/v1709292702/realtyshopee/project/fx39isnwyy65wffvrfb5.jpg"
+                },
+                {
+                    "url": "https://res.cloudinary.com/dm5yrsqdc/image/upload/v1709292703/realtyshopee/project/h2gjcjk5zjy9fq0bnuwa.jpg"
+                }
+            ],
+            "BhK_Details": [
+                {
+                    "bhk_type": "3 BHK + SR",
+                    "price": "Call for Price",
+                    "bhk_Area": "2700 - 3000 SQ.FT"
+                },
+                {
+                    "bhk_type": "4 BHK + SR",
+                    "price": "Call for Price",
+                    "bhk_Area": "3600 - 4000 SQ.FT"
+                }
+            ],
+            "highlight": [
+                {
+                    "highlight_Point": "Luxury Green-facing Apartments"
+                },
+                {
+                    "highlight_Point": "Grand Clubhouse"
+                },
+                {
+                    "highlight_Point": "High-Rise Towers"
+                },
+                {
+                    "highlight_Point": "Green Landscapes"
+                },
+                {
+                    "highlight_Point": "Rainwater Harvesting"
+                }
+            ],
+            "__v": 0
         }
     
   ]

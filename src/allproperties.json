@@ -2274,37 +2274,29 @@
         },
         {
             "frontImage": {
-                "public_id": "realtyshopee/project/o4ayjjllyrxwhy2jat19",
                 "url": "https://res.cloudinary.com/dm5yrsqdc/image/upload/v1709292695/realtyshopee/project/o4ayjjllyrxwhy2jat19.jpg"
             },
             "logo": {
-                "public_id": "realtyshopee/project/brlmmvoirimwpgtvfe3v",
                 "url": "https://res.cloudinary.com/dm5yrsqdc/image/upload/v1709292693/realtyshopee/project/brlmmvoirimwpgtvfe3v.jpg"
             },
             "project_locationImage": {
-                "public_id": "realtyshopee/project/n5maxjlx4pbkgyvqxrlr",
                 "url": "https://res.cloudinary.com/dm5yrsqdc/image/upload/v1709292696/realtyshopee/project/n5maxjlx4pbkgyvqxrlr.jpg"
             },
             "highlightImage": {
-                "public_id": "realtyshopee/project/ifyrdkw3rj3zgfu97brz",
                 "url": "https://res.cloudinary.com/dm5yrsqdc/image/upload/v1709292700/realtyshopee/project/ifyrdkw3rj3zgfu97brz.webp"
             },
             "projectMaster_plan": {
-                "public_id": "realtyshopee/project/fiqkocowy5aixgzgo6w7",
                 "url": "http://res.cloudinary.com/dm5yrsqdc/image/upload/v1709292704/realtyshopee/project/fiqkocowy5aixgzgo6w7.jpg"
             },
             "_id": "65e1bca1161ac8b2c1dc306f",
             "project_floorplan_Image": [
                 {
-                    "public_id": "realtyshopee/project/yyrmpmegdeg3bpyi6sc3",
                     "url": "https://res.cloudinary.com/dgplzytrq/image/upload/v1717586036/Floor%20plan%20image/Background_2_rbunqm.png"
                 },
                 {
-                    "public_id": "realtyshopee/project/iagf2ilop0hurt0xhpli",
                     "url": "https://res.cloudinary.com/dgplzytrq/image/upload/v1717582876/Floor%20plan%20image/Background_cpb7aq.png"
                 },
                 {
-                    "public_id": "realtyshopee/project/thq28rrhrssmq64owzf1",
                     "url": "https://res.cloudinary.com/dgplzytrq/image/upload/v1717585460/Floor%20plan%20image/Background_1_lqqpwe.png"
                 }
             ],
@@ -2340,11 +2332,9 @@
             "project_url": "tarc-ishva",
             "projectGallery": [
                 {
-                    "public_id": "realtyshopee/project/fx39isnwyy65wffvrfb5",
                     "url": "https://res.cloudinary.com/dm5yrsqdc/image/upload/v1709292702/realtyshopee/project/fx39isnwyy65wffvrfb5.jpg"
                 },
                 {
-                    "public_id": "realtyshopee/project/h2gjcjk5zjy9fq0bnuwa",
                     "url": "https://res.cloudinary.com/dm5yrsqdc/image/upload/v1709292703/realtyshopee/project/h2gjcjk5zjy9fq0bnuwa.jpg"
                 }
             ],
@@ -2352,40 +2342,31 @@
                 {
                     "bhk_type": "3 BHK + SR",
                     "price": "Call for Price",
-                    "bhk_Area": "2700 - 3000 SQ.FT",
-                    "_id": "65e1be73161ac8b2c1dc3537"
+                    "bhk_Area": "2700 - 3000 SQ.FT"
                 },
                 {
                     "bhk_type": "4 BHK + SR",
                     "price": "Call for Price",
-                    "bhk_Area": "3600 - 4000 SQ.FT",
-                    "_id": "65e1be89161ac8b2c1dc3540"
+                    "bhk_Area": "3600 - 4000 SQ.FT"
                 }
             ],
             "highlight": [
                 {
-                    "highlight_Point": "Luxury Green-facing Apartments",
-                    "_id": "65e1bd8f161ac8b2c1dc32b4"
+                    "highlight_Point": "Luxury Green-facing Apartments"
                 },
                 {
-                    "highlight_Point": "Grand Clubhouse",
-                    "_id": "65e1bdd0161ac8b2c1dc32c2"
+                    "highlight_Point": "Grand Clubhouse"
                 },
                 {
-                    "highlight_Point": "High-Rise Towers",
-                    "_id": "65e1bde9161ac8b2c1dc32c7"
+                    "highlight_Point": "High-Rise Towers"
                 },
                 {
-                    "highlight_Point": "Green Landscapes",
-                    "_id": "65e1bdfc161ac8b2c1dc32cd"
+                    "highlight_Point": "Green Landscapes"
                 },
                 {
-                    "highlight_Point": "Rainwater Harvesting",
-                    "_id": "65e1be3a161ac8b2c1dc3346"
+                    "highlight_Point": "Rainwater Harvesting"
                 }
             ],
-            "createdAt": "2024-03-01T11:31:45.418Z",
-            "updatedAt": "2024-05-08T07:13:25.869Z",
             "__v": 0
         },
         {

@@ -58,7 +58,7 @@ function Residential() {
       <a href="/residential-property-in-gurgaon" className='view-all'>View All</a>
       <div className="projects-container">
         {projectData.map((project, index) => (
-          <Link key={project.projectName} to={`/projects/${project.projectName}`} className='projects-c-a' target="_blank" rel="noopener noreferrer">
+          <Link key={project.projectName} to={`/property/${project.projectName}`} className='projects-c-a' target="_blank" rel="noopener noreferrer">
             <ProjectsCard
               key={index}
               projectName={project.projectName}

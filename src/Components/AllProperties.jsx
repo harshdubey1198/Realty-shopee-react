@@ -83,7 +83,7 @@ function AllProperties() {
       <div className="projects-container gtc">
         {filteredProjects.length > 0 ? (
           filteredProjects.map((project, index) => (
-            <Link key={project.projectName} to={`/projects/${project.projectName}`}>
+            <Link key={project.projectName} to={`/property/${project.projectName}`}>
               <PropertyCard key={index} property={project} />
             </Link>
           ))

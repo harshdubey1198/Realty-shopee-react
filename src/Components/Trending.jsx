@@ -102,7 +102,7 @@ function Trending() {
       </h4>
       <div className="projects-container">
         {projectData.map((project) => (
-          <Link key={project.projectName} to={`/projects/${project.projectName}`} className='projects-c-a'>
+          <Link key={project.projectName} to={`/property/${project.projectName}`} className='projects-c-a'>
             <ProjectsCard
               projectName={project.projectName}
               projectAddress={project.projectAddress}

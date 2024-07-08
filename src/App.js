@@ -62,7 +62,7 @@ function App() {
         <div>
           <Routes>
             <Route path="/" element={<Home/>} />
-            <Route path="/projects/:projectName" element={<PropertyPage />} />
+            <Route path="/property/:projectName" element={<PropertyPage />} />
             <Route path="/login" element={<Login />} />
             <Route path="/location/:locationName" element={<LocationDetail />} />
             <Route path="/addproperties" element={<PrivateRoute element={<AddProject />} />} />

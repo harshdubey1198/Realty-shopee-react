@@ -55,7 +55,7 @@ function Commercial() {
         <a href="/commercial-property-in-gurgaon" target="_blank" className='view-all'>View All</a>
       <div className="projects-container">
          {projectData.map((project, index) => (
-          <Link key={project.projectName} to={`/projects/${project.projectName}`} className='projects-c-a'>
+          <Link key={project.projectName} to={`/property/${project.projectName}`} className='projects-c-a'>
           <ProjectsCard
             key={index}
             projectName={project.projectName}
