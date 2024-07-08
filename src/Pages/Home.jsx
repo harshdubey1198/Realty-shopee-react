@@ -28,7 +28,7 @@ const Home = () => {
           <title>Discover The Best Luxury Property in Gurgaon with Realty Shopee</title>
           <meta name="description" content="Discover the best luxury property in Gurgaon with Realty Shopee. Find residential, commercial, and SCO plots properties tailored to your needs in this dynamic city." />
           <link rel="canonical" href="https://www.realtyshopee.com/" />
-          <link rel="icon" href="https://www.realtyshopee.com/agent.png" />
+          <link rel="icon" href="https://res.cloudinary.com/dgplzytrq/image/upload/v1720260452/Builders/r_logo_pz8qnp.png" />
           <meta property="og:site_name" content="Realty Shopee" />
           <meta property="og:type" content="website" />
           <meta property="og:title" content="Discover the Best Luxury Property in Gurgaon with Realty Shopee" />

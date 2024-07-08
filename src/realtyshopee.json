@@ -1440,7 +1440,91 @@
                 }
             ],
             "__v": 0
-        }
+        },
+        {
+            "projectName": "Puri Diplomatic Greens",
+            "projectAddress": "Sector 111, Dwarka Expressway",
+            "possession": "2030",
+            "city": "Gurgaon",
+            "frontImage": {
+              "url": "https://res.cloudinary.com/dgplzytrq/image/upload/v1716629625/Puri-Diplomatic-Greens/xzfoqnixe5nzmd2ripze.jpg"
+            },
+            "logo": {
+              "url": "https://res.cloudinary.com/dgplzytrq/image/upload/v1720443210/Puri-Diplomatic-Greens/puri_logo_sr34jc.png"
+          },
+          "project_locationImage": {
+              "url": "https://res.cloudinary.com/dgplzytrq/image/upload/v1720443294/Puri-Diplomatic-Greens/1401868865location_map_Diplomatic_Greens_tccnmd.jpg"
+          },
+          "highlightImage": {
+              "url": "https://res.cloudinary.com/dgplzytrq/image/upload/v1720443511/Puri-Diplomatic-Greens/3_bhk_apartment-for-sale-sector_110a-Gurgaon-others_foo7p2.jpg"
+          },
+          "projectMaster_plan": {
+              "url": "https://res.cloudinary.com/dgplzytrq/image/upload/v1720443716/Puri-Diplomatic-Greens/538ed2420152esite_plan_Diplomatic_Greens_kime9g.jpg"
+          },
+          "_id": "663752acdf6f5a16378c95a5",
+          "project_floorplan_Image": [
+              {
+                  "url": "https://res.cloudinary.com/dgplzytrq/image/upload/v1717582876/Floor%20plan%20image/Background_cpb7aq.png"
+              },
+              {
+                  "url": "https://res.cloudinary.com/dgplzytrq/image/upload/v1717585460/Floor%20plan%20image/Background_1_lqqpwe.png"
+              },
+              {
+                  "url": "https://res.cloudinary.com/dgplzytrq/image/upload/v1717586036/Floor%20plan%20image/Background_2_rbunqm.png"
+              }
+          ],
+          "state": "Haryana",
+        
+          "project_description": "Puri Diplomatic Greens is a luxurious residential complex in Sector 111, Dwarka Expressway, Gurgaon, developed by Puri Constructions. Spanning 20 acres, it offers premium 3 BHK and 4 BHK apartments, penthouses, and villas. Key amenities include a state-of-the-art clubhouse, swimming pool, sports facilities, children's play area, and 24x7 security. Strategically located near IGI Airport, it provides excellent connectivity and a serene living environment with lush greenery and modern conveniences.",
+          "projectRedefine_Connectivity": [
+              "Situated on 60 metre wide main arterial Sector road"
+          ],
+          "projectRedefine_Entertainment": [
+              "Prominently located on Dwarka Expressway one of the premium location of Gurgaon."
+          ],
+          "projectRedefine_Business": [
+              "Strategically linked to all major Business Hubs & Retail destinations"
+          ],
+          "projectRedefine_Education": [
+              "Just 30 minute drive from Delhi International Airport"
+          ],
+          "meta_description": "Puri Diplomatic Greens is a luxurious residential complex in Sector 111, Dwarka Expressway, Gurgaon, developed by Puri Constructions. Spanning 20 acres, it offers premium 3 BHK and 4 BHK apartments, penthouses, and villas. Key amenities include a state-of-the-art clubhouse, swimming pool, sports facilities, children's play area, and 24x7 security. Strategically located near IGI Airport, it provides excellent connectivity and a serene living environment with lush greenery and modern conveniences.",
+          "meta_title": "Puri Diplomatic Greens | Best Property In Gurgaon | Luxury Apartments",
+          "Amenities": [
+              "Car Parking","Meditation Area","Gymnasium","Indoor Games","Yoga Room","Swimming Pool"
+          ],
+          "projectReraNo": "Applied",
+          "type": "Residential Flats",
+          "builderName": "Puri Constructions",
+          "projectOverview": "trending",
+          "project_Status": "newlunch",
+          "schema_type": "project",
+          "project_url": "puri-diplomatic-greens",
+          "projectGallery": [
+              {
+                  "url": "https://res.cloudinary.com/dm5yrsqdc/image/upload/v1715601506/realtyshopee/project/jtveoh1dzgwgeai05s8n.jpg"
+              },
+              {
+                  "url": "https://res.cloudinary.com/dm5yrsqdc/image/upload/v1715601507/realtyshopee/project/znqldmnn2ghf4vwveth6.jpg"
+              },
+              {
+                  "url": "https://res.cloudinary.com/dm5yrsqdc/image/upload/v1715601508/realtyshopee/project/rj3utomwptzpznbftqyz.jpg"
+              }
+          ],
+          "BhK_Details": [
+              {
+                  "bhk_type": "3 BHK + SR",
+                  "price": "Call for Price",
+                  "bhk_Area": "3755 SQ.FT."
+              },
+              {
+                  "bhk_type": "4 BHK + SR",
+                  "price": "Call for Price",
+                  "bhk_Area": "4270 SQ.FT."
+              }
+          ]
+        
+          }
     
   ]
 }

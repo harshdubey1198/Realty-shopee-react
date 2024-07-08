@@ -68,7 +68,7 @@ function ContactUs() {
             <link rel="canonical" href="https://www.realtyshopee.com/contactus" />
             <title>Contact Us - Realty Shopee</title>
             <meta name="description" content="This is a description of the about page"/>
-            <link rel="icon" href="https://www.realtyshopee.com/agent.png" />
+            <link rel="icon" href="https://res.cloudinary.com/dgplzytrq/image/upload/v1720260452/Builders/r_logo_pz8qnp.png" />
          </Helmet>
             <h1>Contact Us</h1>
             <form className='div-form' onSubmit={handleSubmit}>
