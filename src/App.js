@@ -68,6 +68,7 @@ function App() {
             <Route path="/addproperties" element={<PrivateRoute element={<AddProject />} />} />
             <Route path="/allproperties" element={<AllProperties />} />
             <Route path="/contactus" element={<ContactUs />} />
+            <Route path="/contact-us" element={<ContactUs />} />
             <Route path="/sco-plots-in-gurgaon" element={<ScoProperties />} />
             <Route path="/blogs" element={<Blogs />} />
             <Route path="/blog/:meta_url" element={<BlogDetail />} />
