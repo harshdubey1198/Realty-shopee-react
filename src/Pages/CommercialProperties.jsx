@@ -71,7 +71,7 @@ const CommercialProperties = () => {
 
       <div className='c-c-d'>
         <h1> Invest in the Best Commercial Property in Gurgaon with Realty Shopee</h1>
-        <p>Welcome to Realty Shopee, your trusted partner to find the best commercial property in
+        <p>Welcome to <a href="https://www.realtyshopee.com/">Realty Shopee</a>, your trusted partner to find the best commercial property in
           Gurgaon. Whether you are an investor, business owner, or entrepreneur looking to establish
           or expand your presence in Gurgaon, we provide tailored solutions to meet your commercial
           real estate needs.

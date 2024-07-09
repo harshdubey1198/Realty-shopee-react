@@ -161,7 +161,6 @@
             "url": "https://res.cloudinary.com/dgplzytrq/image/upload/v1719993461/Signature-71/main-banner-new_amoy75.webp"
         },
         "projectMaster_plan": {
-            "public_id": "realtyshopee/project/khfgyucvghcjmhbrdhhe",
             "url": "https://res.cloudinary.com/dgplzytrq/image/upload/v1719987977/Signature-71/bxn278ytnw43ulhuagmz_psrcio.jpg"
         },
         "_id": "663752acdf6f5a16378c95a5",
@@ -207,15 +206,12 @@
         "project_url": "Signature-global-titanium-spr",
         "projectGallery": [
             {
-                "public_id": "realtyshopee/project/jtveoh1dzgwgeai05s8n",
                 "url": "https://res.cloudinary.com/dm5yrsqdc/image/upload/v1715601506/realtyshopee/project/jtveoh1dzgwgeai05s8n.jpg"
             },
             {
-                "public_id": "realtyshopee/project/znqldmnn2ghf4vwveth6",
                 "url": "https://res.cloudinary.com/dm5yrsqdc/image/upload/v1715601507/realtyshopee/project/znqldmnn2ghf4vwveth6.jpg"
             },
             {
-                "public_id": "realtyshopee/project/rj3utomwptzpznbftqyz",
                 "url": "https://res.cloudinary.com/dm5yrsqdc/image/upload/v1715601508/realtyshopee/project/rj3utomwptzpznbftqyz.jpg"
             }
         ],
@@ -1524,6 +1520,144 @@
               }
           ]
         
+          },
+          {
+              "frontImage": {
+                  "url": "https://res.cloudinary.com/dm5yrsqdc/image/upload/v1715514056/realtyshopee/project/xmumcitno7wtrruqobki.jpg"
+              },
+              "logo": {
+                  "url": "https://res.cloudinary.com/dm5yrsqdc/image/upload/v1709037188/realtyshopee/project/kxujdwnx316zy7amxlku.png"
+              },
+              "project_locationImage": {
+                  "url": "https://res.cloudinary.com/dm5yrsqdc/image/upload/v1715518985/realtyshopee/project/jpy1x1hf4zurevr2zbtp.jpg"
+              },
+              "highlightImage": {
+                  "url": "https://res.cloudinary.com/dm5yrsqdc/image/upload/v1709037195/realtyshopee/project/xit7pqos3kvnbamtdzq7.jpg"
+              },
+              "projectMaster_plan": {
+                  "url": "http://res.cloudinary.com/dm5yrsqdc/image/upload/v1715514372/realtyshopee/project/fum3kmaurlprffx4zqik.jpg"
+              },
+              "_id": "65ddd6937170afdd35151436",
+              "project_floorplan_Image": [
+                  {
+                      "url": "https://res.cloudinary.com/dm5yrsqdc/image/upload/v1715514601/realtyshopee/project/xfliebcc4hik9ujfqzll.jpg"
+                  },
+                  {
+                      "url": "https://res.cloudinary.com/dm5yrsqdc/image/upload/v1715514602/realtyshopee/project/yycbb8ei8uepvz8hvswt.jpg"
+                  },
+                  {
+                      "url": "https://res.cloudinary.com/dm5yrsqdc/image/upload/v1715514603/realtyshopee/project/fw8z4o7rywkvteyn1xuk.jpg"
+                  },
+                  {
+                      "url": "https://res.cloudinary.com/dm5yrsqdc/image/upload/v1715514604/realtyshopee/project/cnsgoiarbghxww9ebftw.jpg"
+                  }
+              ],
+              "state": "Haryana",
+              "projectName": "BPTP The Amaario",
+              "projectAddress": "Sector 37D, Dwarka Expressway",
+              "project_description": "In the heart of bustling Gurgaon, a sanctuary of upscale living is poised to redefine luxury and sophistication. Introducing a new benchmark in modern living, where every detail is meticulously crafted to offer an unparalleled experience of refined beauty and personal style. This exclusive enclave presents a curated selection of residences designed for those who appreciate the finer things in life. Imagine a place where every amenity and service is tailored to elevate your lifestyle, where tranquility meets convenience, and where the rarest of privileges await. Welcome to a realm where luxury knows no bounds, promising a life of unrivaled comfort and distinction.",
+              "projectRedefine_Connectivity": [
+                  "Dwarka Expressway Connectivity"
+              ],
+              "projectRedefine_Entertainment": [
+                  "Operational Schools and Hospitals are Part of the Development."
+              ],
+              "projectRedefine_Business": [
+                  "Seamless Connectivity to Golf Course Extension Road, SPR, and CPR.."
+              ],
+              "projectRedefine_Education": [
+                  "Seamless Connectivity to NH8 via Hero Honda Chowk."
+              ],
+              "meta_description": "BPTP The Amaario New High Rise Apartment in Sector 37D, Main Dwarka Expressway Gurgaon with World Class Amenities",
+              "meta_title": "BPTP The Amaario - BPTP New Launch in Sector 37D Gurgaon",
+              "Amenities": [
+                  "Car Parking",
+                  "Golf Course",
+                  "Kids Pool",
+                  "Sniffer Dog",
+                  "Squash Court",
+                  "Cafeteria",
+                  "Gym",
+                  "Club House",
+                  "Spa"
+              ],
+              "projectBgContent": "BPTP Sector 37D Gurgaon",
+              "projectReraNo": "Applied",
+              "type": "Residential Flats",
+              "city": "Gurgaon",
+              "builderName": "BPTP",
+              "AboutDeveloper": "With a rich legacy spanning over two decades in the real estate industry, BPTP has firmly positioned itself as one of the leading developers in India. Our unwavering commitment lies in establishing our brand as the epitome of trust, reliability and preference. Our vision goes beyond success; we aspire to be the foremost choice for individuals and organizations seeking real estate solutions. We understand that earning the confidence of our customers is the cornerstone of our success, and we strive to exceed their expectations at every step.",
+              "projectOverview": "none",
+              "schema_type": "project",
+              "project_url": "bptp-the-amaario",
+              "projectGallery": [
+                  {
+                      "url": "https://res.cloudinary.com/dm5yrsqdc/image/upload/v1709037197/realtyshopee/project/edqz8sc4ryhvilpsu2rf.jpg"
+                  },
+                  {
+                      "url": "https://res.cloudinary.com/dm5yrsqdc/image/upload/v1709037198/realtyshopee/project/iksvtpo1lsnscqwbczzf.jpg"
+                  },
+                  {
+                      "url": "https://res.cloudinary.com/dm5yrsqdc/image/upload/v1709037199/realtyshopee/project/wb14vlxvvgfdquxgk1cy.jpg"
+                  },
+                  {
+                      "url": "https://res.cloudinary.com/dm5yrsqdc/image/upload/v1709037200/realtyshopee/project/ofx7rhh8ygyogdq5tbbw.jpg"
+                  },
+                  {
+                      "url": "https://res.cloudinary.com/dm5yrsqdc/image/upload/v1709037201/realtyshopee/project/ojaqd2r3bay3haqoikah.jpg"
+                  }
+              ],
+              "BhK_Details": [
+                  {
+                      "bhk_type": "4 BHK + Utility",
+                      "price": "Call for Price",
+                      "bhk_Area": "1959 SQ. FT.."
+                  },
+                  {
+                      "bhk_type": "4 BHK + Domestic Help",
+                      "price": "Call for Price",
+                      "bhk_Area": "1982 SQ. FT."
+                  },
+                  {
+                      "bhk_type": "4 BHK + Domestic Help",
+                      "price": "Call for Price",
+                      "bhk_Area": "1982 SQ. FT."
+                  }
+              ],
+              "highlight": [
+                  {
+                      "highlight_Point": "Iconic G+32 Floors Twin Towers"
+                  },
+                  {
+                      "highlight_Point": "Podium Living Concept"
+                  },
+                  {
+                      "highlight_Point": "Exclusive Community of only 250 Apartments"
+                  },
+                  {
+                      "highlight_Point": "Only Single Size Apartments"
+                  },
+                  {
+                      "highlight_Point": "High-speed lifts per tower (2 lifts per apartment)"
+                  },
+                  {
+                      "highlight_Point": "Grand 6 meter double height tower lobbies"
+                  },
+                  {
+                      "highlight_Point": "Concierge & Reception Desk."
+                  },
+                  {
+                      "highlight_Point": "Separate lift for Service Staff"
+                  },
+                  {
+                      "highlight_Point": "3 Car Parks per apartment"
+                  },
+                  {
+                      "highlight_Point": "Wide lifts"
+                  }
+              ],
+              
+              "project_Status": "comingsoon"
           }
     
   ]

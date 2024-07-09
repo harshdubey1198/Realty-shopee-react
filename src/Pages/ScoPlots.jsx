@@ -74,7 +74,7 @@ function ResidentialProperties() {
       </div>
       <div className='c-c-d'>
         <h1>Invest in SCO Plots in Gurugram Right Now</h1>
-        <p>Welcome to Realty Shopee, your premier destination for SCO (Shop-cum-office) properties
+        <p>Welcome to <a href="https://www.realtyshopee.com/">Realty Shopee</a>, your premier destination for SCO (Shop-cum-office) properties
            in Gurgaon. Whether you're looking for commercial ventures, residential options, or
            investment opportunities, we specialize in catering to your diverse real estate needs across
            Gurugram. Discover the perfect SCO plots in Gurugram that align with your business

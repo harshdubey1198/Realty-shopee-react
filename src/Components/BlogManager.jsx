@@ -6,7 +6,7 @@ import '../App.css';
 import logo from "../Images/Realty shopee main logo.png";
 
 const BlogManager = () => {
-  const { blogTitle } = useParams();
+  const { metaUrl } = useParams();
   const navigate = useNavigate();
   const [auth, setAuth] = useState(false);
   const [blogs, setBlogs] = useState([]);
@@ -31,13 +31,13 @@ const BlogManager = () => {
   }, [navigate]);
 
   useEffect(() => {
-    if (blogTitle) {
+    if (metaUrl) {
       setIsEditing(true);
-      fetchBlog(blogTitle);
+      fetchBlogByMetaUrl(metaUrl);
     } else {
       fetchBlogs();
     }
-  }, [blogTitle]);
+  }, [metaUrl]);
 
   const fetchBlogs = async () => {
     try {
@@ -48,9 +48,9 @@ const BlogManager = () => {
     }
   };
 
-  const fetchBlog = async (title) => {
+  const fetchBlogByMetaUrl = async (metaUrl) => {
     try {
-      const response = await axios.get(`https://realty-react-backend.onrender.com/blogs/${title}`);
+      const response = await axios.get(`https://realty-react-backend.onrender.com/blogs/meta_url/${metaUrl}`);
       setBlog(response.data);
       setTitle(response.data.title);
       setDescription(JSON.parse(response.data.description));
@@ -66,7 +66,6 @@ const BlogManager = () => {
   };
 
   const handleDelete = async (id) => {
-    // Display a confirmation dialog before deleting
     const confirmDelete = window.confirm("Are you sure you want to delete this blog?");
     
     if (confirmDelete) {
@@ -79,9 +78,9 @@ const BlogManager = () => {
     }
   };
 
-  const handleEditClick = (title) => {
+  const handleEditClick = (metaUrl) => {
     setIsEditing(true);
-    fetchBlog(title);
+    fetchBlogByMetaUrl(metaUrl);
   };
 
   const handleHomeClick = () => {
@@ -179,7 +178,6 @@ const BlogManager = () => {
               <tr>
                 <th>Title</th>
                 <th>Category</th>
-                {/* <th>Tags</th> */}
                 <th>Actions</th>
               </tr>
             </thead>
@@ -188,9 +186,8 @@ const BlogManager = () => {
                 <tr key={blog._id}>
                   <td>{blog.title}</td>
                   <td>{blog.category}</td>
-                  {/* <td>{blog.tags}</td> */}
                   <td>
-                    <button onClick={() => handleEditClick(blog.title)}>Edit</button>
+                    <button onClick={() => handleEditClick(blog.meta_url)}>Edit</button>
                     <button onClick={() => handleDelete(blog._id)}>Delete</button>
                   </td>
                 </tr>
@@ -215,6 +212,10 @@ const BlogManager = () => {
                     <option value="h2">Heading 2</option>
                     <option value="h3">Heading 3</option>
                     <option value="h4">Heading 4</option>
+                    <option value="link">Link</option>
+                    <option value="bold">Bold</option>
+                    <option value="ul">Unordered List</option>
+                    <option value="li">List Item</option>
                   </select>
                   {item.type !== 'link' ? (
                     <textarea name="content" value={item.content} onChange={(e) => handleInputChange(e, index)} />

@@ -76,9 +76,7 @@ function App() {
             <Route path="/reset-password/:token" element={<ResetPassword />} />
             <Route path="/add-blogs" element={<AddBlogs auth={auth} />} />
             <Route path="/edit-blogs" element={<BlogManager auth={auth} />} />
-            {/* <Route path="/edit-blog/:blogTitle" element={<EditBlog auth={auth} />} /> */}
             <Route path="/login-add-blogs" element={<BlogAuth setAuth={setAuth} />} />
-            {/* <Route path="/blog-table" element={<BlogTable />} />  */}
             <Route path="/*" element={<NotFound />} />
           </Routes>
         </div>

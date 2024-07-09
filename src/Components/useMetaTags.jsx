@@ -93,6 +93,12 @@ const metaTagsConfig = {
         { name: 'twitter:url', content: 'https://www.realtyshopee.com/sco-plots-in-gurgaon' },
         { name: 'twitter:image', content: 'https://res.cloudinary.com/dgplzytrq/image/upload/v1719492483/Description%20Images/residential-property-in-gurgaon.jpg' }
       ]
+},
+"/allproperties": {
+  title: "All Premium Properties are listed! | Realty Shopee",
+  url: "https://www.realtyshopee.com/allproperties",
+  canonical:"https://www.realtyshopee.com/allproperties",
+  image: "https://res.cloudinary.com/dgplzytrq/image/upload/v1719492483/Description%20Images/residential-property-in-gurgaon.jpg",
 }
 };
 

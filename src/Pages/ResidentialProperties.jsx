@@ -68,7 +68,7 @@ function ResidentialProperties() {
       </div>
       <div className='r-c-d1'>
         <h1>Explore Residential Property in Gurgaon with Realty Shopee</h1>
-        <p>Buy one of the upcoming residential properties in Gurgaon with Realty Shopee, your trusted
+        <p>Buy one of the upcoming residential properties in Gurgaon with <a href="https://www.realtyshopee.com/">Realty Shopee</a>, your trusted
           partner in real estate. Whether you're seeking a new residence, the most affordable options,
           or specific locations like Old Gurgaon, Gurgaon Extension, or New Gurgaon, we offer a
           comprehensive selection of residential properties to suit every lifestyle and budget.
