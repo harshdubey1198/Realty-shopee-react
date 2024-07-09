@@ -600,6 +600,10 @@ a {
     padding: 10px;
     border-radius: 20px;
     line-height: 1.6;
+    a{
+      color: darkslategray;
+      font-weight: 700;
+     }
   }
   h1,h2,h3,h4{
     color: rgb(93 59 141);
@@ -3228,6 +3232,7 @@ footer{
  
   p{
     width: 100% !important;
+    
   }
 }
 .r-c-d1 , .r-c-d2 , .r-c-d3{
