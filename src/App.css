@@ -503,6 +503,7 @@ a {
 }
 .all-p-nav{
   justify-content: space-around;
+  z-index:100;
 }
 .project-count{
   position: fixed;
@@ -534,7 +535,7 @@ a {
   width: 100%;
   position: absolute;
   top: 35%;
-  z-index: 999;
+  z-index: 9;
 }
 .ptype-select{
   position: absolute;
