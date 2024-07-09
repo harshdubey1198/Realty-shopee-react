@@ -555,7 +555,7 @@
             "url": "https://res.cloudinary.com/dgplzytrq/image/upload/v1716621658/Aipl-JoyGallery/logo_wdnjxe.webp"
         },
         "project_locationImage": {
-            "url": "https://res.cloudinary.com/dgplzytrq/image/upload/v1720072571/Aipl-JoyGallery/na2qy1w1_myk4p0.png"
+            "url": "https://res.cloudinary.com/dgplzytrq/image/upload/v1720524098/Aipl-JoyGallery/aipl-joy-gallery-2173_bevfaa.webp"
         },
         "highlightImage": {
             "url": "https://res.cloudinary.com/dgplzytrq/image/upload/v1716621702/Aipl-JoyGallery/gallery-3_kwvjqs.webp"
@@ -577,8 +577,8 @@
         ],
         "state": "Haryana",
         "projectName": "AIPL Joy Gallery",
-        "projectAddress": "Sector 66, Golf Course Extension Road",
-        "project_description": "In the heart of Delhi, a new commercial horizon is unfolding. Omaxe Dwarka Shopping Center is a prestigious business project that promises to revolutionize the city's retail and office landscape. This iconic development features a diverse range of premium dining options, retail outlets, and office spaces, all supported by advanced amenities and multi-level parking. With its strategic location in Dwarka, one of Delhi's most rapidly growing commercial districts, Omaxe Dwarka Shopping Center offers unparalleled opportunities for business growth and success. The Omaxe Group, a pioneering real estate developer, has invested INR 2100 crore in this ambitious project, which also includes the development of a state-of-the-art sports complex and retail center. Set to become a landmark destination in the nation's capital, Omaxe Dwarka Shopping Center is poised to redefine the future of commerce in Delhi.",
+        "projectAddress": "Sector 66, Golf Course Extn Road",
+        "project_description": "AIPL Joy Gallery, an exquisite mixed-use retail development in Sector 66, Gurugram, along the main Golf Course Extension Road. Spanning over 4.418 acres with a total super area of 3,38,699sq. ft., this project promises a luxurious retail and F&B experience like no other. Boasting strategic features and seamless connectivity, AIPL Joy Gallery is a haven of top-notch retail shops on Golf Course Extension Road. AIPL Joy Gallery presents a delightful blend of experiences, featuring premium high-street retail, diverse restaurants, charming cafes, and an engaging entertainment zone. Backed by AIPL’s renowned expertise and more than three decades of experience in the real estate sector, this high-end retail development showcases a culture of trust and transparency, ensuring the finest features in Gurugram’s commercial projects.",
         "projectRedefine_Connectivity": [
             "15 minutes drive from Indira Gandhi International (IGI) Airport."
         ],
@@ -591,22 +591,20 @@
         "projectRedefine_Education": [
             "Located within 5 km from Vegas Mall And hospitals like Ayushman Hospital, and Aakash Healthcare Super Speciality Hospital."
         ],
-        "meta_description": "Omaxe State Dwarka Delhi is an impending luxury commercial project that features premium quality retail shops, offices & sports arena with top-class niceties.",
-        "meta_title": "Omaxe State Dwarka Delhi - Commercial Property in Sector 19B New Delhi",
+        "meta_description": "JoyGallery is an impending luxury commercial project that features premium quality retail shops, offices & sports arena with top-class niceties.",
+        "meta_title": "AIPL Joy Gallery - Commercial Property in Sector 66",
         "Amenities": [
             "24x7 Power Backup",
             "Elevator Lobby",
-            "Swimming Pool",
+            "CCTV Camera Security",
             "Advanced Security",
             "3 Level Car Parking",
-            "Jogging Track",
             "Cafeteria"
         ],
-        "projectBgContent": "OMAXE DWARKA",
         "projectReraNo": "Applied",
         "type": "Commercial Property",
         "city": "Gurgaon",
-        "builderName": "Omaxe",
+        "builderName": "AIPL",
         "AboutDeveloper": "Since 1987, Omaxe has been relentless in its approach to providing world-class services in real estate and has a varied portfolio comprising Integrated and High-Tech Townships, Group Housing, SCOs, Shopping malls, and Hotels to name a select few.",
         "projectOverview": "commercial",
         "project_Status": "newlunch",
@@ -1772,6 +1770,131 @@
                 },
                 {
                     "highlight_Point": "Double Height Lobbies"
+                }
+            ]
+        },
+        {
+            "frontImage": {
+                "url": "https://res.cloudinary.com/dgplzytrq/image/upload/v1720519020/Smart-World-1-DXP/h8t5swonozqtib5emfoe_bgs3qy.jpg"
+            },
+            "logo": {
+                "url": "https://res.cloudinary.com/dgplzytrq/image/upload/v1720519023/Smart-World-1-DXP/cjfx4ou6hez30mo8swmi_x7yce2.jpg"
+            },
+            "project_locationImage": {
+                "url": "https://res.cloudinary.com/dgplzytrq/image/upload/v1720519067/Smart-World-1-DXP/oyu51kjitwro50owgni9_mheg0r.jpg"
+            },
+            "highlightImage": {
+                "url": "https://res.cloudinary.com/dgplzytrq/image/upload/v1720519113/Smart-World-1-DXP/xcnjedhpbbzvzgwnla9a_i8bcff.jpg"
+            },
+            "projectMaster_plan": {
+                "url": "https://res.cloudinary.com/dgplzytrq/image/upload/v1720519136/Smart-World-1-DXP/y6mqcvcbj5p5wjujxbnl_if7mrw.jpg"
+            },
+            "_id": "65e303b1161ac8b2c1dd4884",
+            "project_floorplan_Image": [
+                {
+                    "url": "https://res.cloudinary.com/dgplzytrq/image/upload/v1720519214/Smart-World-1-DXP/ya9dvuwknxo6ahsruwyz_txd7jp.jpg"
+                },
+                {
+                    "url": "https://res.cloudinary.com/dgplzytrq/image/upload/v1720519240/Smart-World-1-DXP/d5ee2hgyeq2hwztwho0i_whroly.jpg"
+                },
+                {
+                    "url": "https://res.cloudinary.com/dgplzytrq/image/upload/v1720519263/Smart-World-1-DXP/yzltrhjz9uppzlrntwbs_apxjyc.jpg"
+                },
+                {
+                    "url": "https://res.cloudinary.com/dgplzytrq/image/upload/v1720519287/Smart-World-1-DXP/t643byuhh2ygvl8nuhbp_s6dwwz.jpg"
+                }
+            ],
+            "state": "Haryana",
+            "projectName": "Smart World One DXP",
+            "projectAddress": "Sector 113, Dwarka Expressway",
+            "project_description": "Welcome to Smartworld One DXP, where luxury meets sophistication in every detail. Experience state-of-the-art Smart Homes with an array of amenities including the largest club featuring dedicated social, sports, and satellite clubbing zones. Enjoy lavish condos overlooking serene lagoons in the central vista. Smartworld One DXP offers a choice of 2.5, 3.5, and 4.5 BHK homes, strategically located on the prestigious Dwarka Expressway, ensuring a superior way of living with unparalleled opulence and convenience.",
+            "projectRedefine_Connectivity": [
+                "0 KMS from Delhi"
+            ],
+            "projectRedefine_Entertainment": [
+                "7 MINS to Delhi's Largest Transportation Hub*"
+            ],
+            "projectRedefine_Business": [
+                "5 MINS to Diplomatic Enclave*"
+            ],
+            "projectRedefine_Education": [
+                "3 MINS to Asia's Largest Convention And Exhibition Centre*"
+            ],
+            "meta_description": "Smartworld One DXP elevates you to a superior way of living offering choice of 2.5, 3.5, and 4.5 BHK homes, Strategically located on the most coveted Dwarka Expressway",
+            "meta_title": "Smartworld One DXP, Luxury Apartments in Sector 113 Gurgaon",
+            "Amenities": [
+                "Swimming Pool","Gym","Restaurant","Club House","Basketball Court"
+            ],
+            "projectBgContent": "Smartworld One DXP - Sector 113, Gurgaon",
+            "projectReraNo": "Applied",
+            "type": "Residential Flats",
+            "city": "Gurgaon",
+            "builderName": "Smartworld",
+            "AboutDeveloper": "Smartworld is a real estate company envisioned as the future of real estate in India. It is an organization built on the ethos of bringing in a refreshing change in the real estate industry with honesty, professionalism and transparency being in the DNA of the company. At Smartworld, every aspect from Scale, Humanizing Technology, Business Digitization to Designs, and Evolved Lifescapes has been given the utmost importance to create a perfect, winning combination. The company is an amalgamation of top-notch professionals and proven achievers and has a prolific board that advises the organization on the best-in-class international standards including corporate governance, industry practices and design philosophy. Smartworld combines the vast experience of professionals whose experience of Sales, Marketing, Product Design and Project Management Delivery exceeds over Rs. 50 billion in sales and 1 billion sq. ft. in project execution.",
+            "projectOverview": "featured",
+            "schema_type": "project",
+            "project_url": "smart-world-one-dxp",
+            "projectGallery": [
+                {
+                    "url": "https://res.cloudinary.com/dm5yrsqdc/image/upload/v1709376427/realtyshopee/project/rlj3tmw9gk0wpyrnj1ye.jpg"
+                },
+                {
+                    "url": "https://res.cloudinary.com/dm5yrsqdc/image/upload/v1709376428/realtyshopee/project/qudjivamhe1s0hrgmdbn.jpg"
+                },
+                {
+                    "url": "https://res.cloudinary.com/dm5yrsqdc/image/upload/v1709376429/realtyshopee/project/vhqgue5em2ncdq0jqqeu.jpg"
+                },
+                {
+                    "url": "https://res.cloudinary.com/dm5yrsqdc/image/upload/v1709376430/realtyshopee/project/o7iru1vfasnjlz8tbuhn.jpg"
+                },
+                {
+                    "url": "https://res.cloudinary.com/dm5yrsqdc/image/upload/v1709376431/realtyshopee/project/apsoatmg9v17m72pzwdk.jpg"
+                },
+                {
+                    "url": "https://res.cloudinary.com/dm5yrsqdc/image/upload/v1709376432/realtyshopee/project/y4zeqf9vltncucfnp6lj.jpg"
+                }
+            ],
+            "BhK_Details": [
+                {
+                    "bhk_type": "2.5 BHK",
+                    "price": "Call for Price",
+                    "bhk_Area": "1350 - 1400 SQ.FT"
+                },
+                {
+                    "bhk_type": "3.5 BHK",
+                    "price": "Call for Price",
+                    "bhk_Area": "1850 - 2050 SQ.FT"
+                },
+                {
+                    "bhk_type": "3.5 BHK + SR",
+                    "price": "Call for Price",
+                    "bhk_Area": "1850 - 2050 SQ.FT"
+                },
+                {
+                    "bhk_type": "4.5 BHK + SR",
+                    "price": "Call for Price",
+                    "bhk_Area": "2550 - 2650 SQ.FT"
+                }
+            ],
+            "highlight": [
+                {
+                    "highlight_Point": "EXCLUSIVE INTERIORS"
+                },
+                {
+                    "highlight_Point": "HIGHLY EFFICIENT HOMES"
+                },
+                {
+                    "highlight_Point": "HOMES OPENING TO CENTRAL GREENS"
+                },
+                {
+                    "highlight_Point": "MAGNIFICENT BALCONIES"
+                },
+                {
+                    "highlight_Point": "0.5 EXTRA SPACE"
+                },
+                {
+                    "highlight_Point": "ENJOY INFINITE JOYS OF LIVING INCLUDING A CLUB THAT HAS SOCIAL, SPORTS AND SATELLITE CLUBBING ZONES, PLUS A HOST OF LIFESTYLE AMENITIES",
+                    "_id": "65e30474161ac8b2c1dd4f2e"
                 }
             ]
         }
