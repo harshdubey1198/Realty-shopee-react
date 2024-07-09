@@ -1658,7 +1658,123 @@
               ],
               
               "project_Status": "comingsoon"
-          }
+          }, {
+            "frontImage": {
+                "url": "https://res.cloudinary.com/dgplzytrq/image/upload/v1720516802/Godrej-Zenith/tfmgnuzrvbu04l7uwi83_nzccnk.webp"
+            },
+            "logo": {
+                "url": "https://res.cloudinary.com/dgplzytrq/image/upload/v1720516838/Godrej-Zenith/rp7hahwwpkz6qdfedz7h_ltazcu.jpg"
+            },
+            "project_locationImage": {
+                "url": "https://res.cloudinary.com/dgplzytrq/image/upload/v1720517021/Godrej-Zenith/bh00twkfhzpqpj3edbzq_f7escq.webp"
+            },
+            "highlightImage": {
+                "url": "https://res.cloudinary.com/dgplzytrq/image/upload/v1720517055/Godrej-Zenith/y6bvtblf75jhpvje5rss_oy3vxw.webp"
+            },
+            "projectMaster_plan": {
+                "url": "https://res.cloudinary.com/dgplzytrq/image/upload/v1720517085/Godrej-Zenith/z2ky3dhu9vjotskcmzqy_wznxnd.webp"
+            },
+            "_id": "65e186b0161ac8b2c1dbac9e",
+            "project_floorplan_Image": [
+                {
+                    "url": "https://res.cloudinary.com/dgplzytrq/image/upload/v1717586036/Floor%20plan%20image/Background_2_rbunqm.png"
+                },
+                {
+                    "url": "https://res.cloudinary.com/dgplzytrq/image/upload/v1717585460/Floor%20plan%20image/Background_1_lqqpwe.png"
+                },
+                {
+                    "url": "https://res.cloudinary.com/dgplzytrq/image/upload/v1717582876/Floor%20plan%20image/Background_cpb7aq.png"
+                }
+            ],
+            "state": "Haryana",
+            "projectName": "Godrej Zenith",
+            "projectAddress": "Sector 89, New Gurgaon",
+            "project_description": "Welcome to Godrej Zenith, an epitome of ultra-luxury living in Sector 89, Gurgaon. Prepare to experience the highlight of the year with Godrej Properties' newest residential offering. Situated in the rapidly developing area of New Gurgaon, this project spans approximately 14.25 acres of prime land with 9 towers comprising a total of 1314 units. Designed with low density in mind, each floor hosts only 4 apartments, ensuring spaciousness and privacy. The interiors are meticulously crafted to elevate your lifestyle, blending modernity with sophistication for a truly luxurious living experience.",
+            "projectRedefine_Connectivity": [
+                "Gurgaon Central Bus Terminal: 10 minutes drive"
+            ],
+            "projectRedefine_Entertainment": [
+                "Near schools, hospitals and shopping centers"
+            ],
+            "projectRedefine_Business": [
+                "Delhi IGI Airport: 25 minutes drive"
+            ],
+            "projectRedefine_Education": [
+                "Dwarka Expressway: 5 minutes drive"
+            ],
+            "meta_description": "Godrej Zenith Sector 89 Gurgaon located in the heart of Gurgaon, Haryana. Offers 2, 3, and 4 BHK residential apartments designed to enhance your lifestyle",
+            "meta_title": "Godrej Zenith - Godrej Properties New Launch Sector 89 Gurgaon",
+            "Amenities": [
+                "Car Parking",
+                "Elevator Lobby",
+                "Car Parking",
+                "Advanced Security",
+                "24x7 Power Backup",
+                "Vastu Compliant",
+                "CCTV Camera Security"
+            ],
+            "projectBgContent": "Godrej Zenith Gurgaon",
+            "projectReraNo": "Applied",
+            "type": "Residential Flats",
+            "city": "Gurgaon",
+            "builderName": "Godrej Properties",
+            "AboutDeveloper": "The Godrej Group comprises of a varied business portfolio that includes real estate development, fast moving consumer goods, advanced engineering, home appliances, furniture, security, and agri-care. While a large number of our businesses are privately held, the combined market cap of our publicly listed entities is in excess of USD 15 billion. Ranked as the 2nd most trusted Indian brand, an annual revenue of USD 5 billion, and an estimated 1.1 billion customers across the world that use one or another Godrej product every day, the Godrej Group is amongst India's most diversified and trusted conglomerates.",
+            "projectOverview": "feature",
+            "schema_type": "project",
+            "project_url": "godrej-zenith-gurgaon",
+            "projectGallery": [
+                {
+                    "url": "https://res.cloudinary.com/dm5yrsqdc/image/upload/v1709278891/realtyshopee/project/so3lr6ydnruxfk2k63pu.jpg"
+                },
+                {
+                    "url": "https://res.cloudinary.com/dm5yrsqdc/image/upload/v1709278892/realtyshopee/project/zvlg8p1edcdpka6ojsuz.jpg"
+                },
+                {
+                    "url": "https://res.cloudinary.com/dm5yrsqdc/image/upload/v1709278893/realtyshopee/project/mj1eidto1bfcxtlrdeqr.jpg"
+                }
+            ],
+            "BhK_Details": [
+                {
+                    "bhk_type": "2 BHK",
+                    "price": "Call for Price",
+                    "bhk_Area": "1400 SQ.FT"
+                },
+                {
+                    "bhk_type": "2.5 BHK",
+                    "price": "Call for Price",
+                    "bhk_Area": "1550 SQ.FT"
+                },
+                {
+                    "bhk_type": "3 BHK",
+                    "price": "Call for Price",
+                    "bhk_Area": "1750 SQ.FT"
+                },
+                {
+                    "bhk_type": "3.5 BHK",
+                    "price": "Call for Price",
+                    "bhk_Area": "2200 - 2300 SQ.FT"
+                },
+                {
+                    "bhk_type": "4 BHK",
+                    "price": "Call for Price",
+                    "bhk_Area": "2700 - 2800 SQ.FT"
+                }
+            ],
+            "highlight": [
+                {
+                    "highlight_Point": "Land Area – 14 Acres"
+                },
+                {
+                    "highlight_Point": "8 Towers, G+35 Stories, 900 Units"
+                },
+                {
+                    "highlight_Point": "State of Art Club House"
+                },
+                {
+                    "highlight_Point": "Double Height Lobbies"
+                }
+            ]
+        }
     
   ]
 }
