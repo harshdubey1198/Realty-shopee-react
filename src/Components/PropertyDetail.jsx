@@ -126,6 +126,7 @@ function PropertyDetail({ property }) {
       <header className='pd-nav'>
         <h2><img src={property.logo.url} className='pd-logo' alt={property.projectName} /></h2>
         <button onClick={handleHomeClick}><span>Home</span><span><FcHome/></span></button>
+        <a href="/blogs" >Blogs</a>
         <button onClick={handleAllProperties}><span>All Properties</span><span><FcList /></span></button>
         <button onClick={handleContactUsClick}><span>Contact Us</span><span><FcQuestions/></span></button>
         <a href="tel:+919289252999"><span>+91 9289252999</span><span><FcPhone className='phone'/></span></a>

@@ -58,7 +58,8 @@ function ResidentialProperties() {
           <a href="https://www.realtyshopee.com" className='r-logo'><img src={logoImage} alt='Realty Shopee' loading='lazy'/></a>
         </div>
         <div className='navigators'>
-          <Link to="/">Home</Link>
+          <Link to="/">Home</Link> 
+          <Link to="/blogs">Blogs</Link>
           <Link to="/contactus">Contact Us</Link>
           <Link to="/addproperties">Add Properties</Link>
         </div>

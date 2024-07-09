@@ -53,6 +53,7 @@ function AllProperties() {
         </div>
         <div className='navigators'>
           <a href="/">Home</a >
+          <a href="/blogs">Blogs</a>
           <a href="/contacts">Contact us</a>
           <a href="/addproperties">Add Properties</a>
         </div>

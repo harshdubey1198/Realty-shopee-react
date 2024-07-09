@@ -55,6 +55,7 @@ const CommercialProperties = () => {
         </div>
         <div className='navigators'>
           <Link to="/">Home</Link>
+          <Link to="/blogs">Blogs</Link>
           <Link to="/contactus">Contact Us</Link>
           <Link to="/addproperties">Add Properties</Link>
         </div>
