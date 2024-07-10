@@ -1897,6 +1897,309 @@
                     "_id": "65e30474161ac8b2c1dd4f2e"
                 }
             ]
+        }, {
+            "frontImage": {
+                "url": "https://res.cloudinary.com/dgplzytrq/image/upload/v1719294278/M3M-Paragon57/M3M-Paragon-57.jpg"
+            },
+            "logo": {
+                "url": "https://res.cloudinary.com/dgplzytrq/image/upload/v1720590307/M3M-Paragon57/nogl37vbwg7ijtrzfuk9_kwydx3.png"
+            },
+            "project_locationImage": {
+                "url": "https://res.cloudinary.com/dgplzytrq/image/upload/v1720590312/M3M-Paragon57/swcfkobvj3qtmryob4jv_ggtz8u.jpg"
+            },
+            "highlightImage":{
+                "url":"https://res.cloudinary.com/dgplzytrq/image/upload/v1720589536/M3M-Paragon57/fxadek9fhd0mntuopsyr_g1vjhc.jpg"
+            },
+            "projectGallery": [],
+            "_id": "65cb501744c2c2b8e0184665",
+            "project_floorplan_Image": [
+                {
+                    "url": "https://res.cloudinary.com/dgplzytrq/image/upload/v1720590510/M3M-Paragon57/unpie4u0wvcjwil5umb7_s5u1j7.jpg"
+                },
+                {
+                    "url": "https://res.cloudinary.com/dgplzytrq/image/upload/v1720590519/M3M-Paragon57/tlx4afi3vetd5bjoilqw_avu8gc.jpg"
+                },
+                {
+                    "url": "https://res.cloudinary.com/dgplzytrq/image/upload/v1720590528/M3M-Paragon57/f4jso4x6r3rjni8fa4mh_jczjeq.jpg"
+                },
+                {
+                    "url": "https://res.cloudinary.com/dgplzytrq/image/upload/v1720590535/M3M-Paragon57/wf5nfietwsgxlrq8gbyl_qzg3pq.jpg"
+                },
+                {
+                    "url": "https://res.cloudinary.com/dgplzytrq/image/upload/v1720590549/M3M-Paragon57/npn6duxlwz3sdfev996z_qwmavw.jpg"
+                },
+                {
+                    "url": "https://res.cloudinary.com/dgplzytrq/image/upload/v1720590559/M3M-Paragon57/wj9ml3rwasktkumu1rjv_tdkqjd.jpg"
+                }
+            ],
+            "state": "Gurgaon",
+            "projectName": "M3M Paragon 57",
+            "projectAddress": "Sector 57 , Golf Course Extn Road",
+            "project_description": "M3M Paragon 57, situated in Sector 57 of Gurgaon, represents a prestigious upcoming commercial venture by M3M India, renowned for its excellence in real estate development. This project stands out for its prime location, offering convenient access to shopping and other amenities. It features high-end business spaces designed with double-height stores that cater to various commercial needs. The inclusion of restaurants serving a wide range of cuisines adds to its allure, making it a vibrant hub for dining and business activities. M3M Paragon 57 is not just about infrastructure; it promises a lifestyle enriched with luxurious amenities, setting a new standard in commercial developments in Gurgaon.",
+            "projectRedefine_Connectivity": [
+                "Gurgaon,-,Delhi,Expy,,Chander,Nagar,-,7.3,KM"
+            ],
+            "projectRedefine_Entertainment": [
+                "Ameya,Sapphire,57\t"
+            ],
+            "projectRedefine_Business": [
+                "Ansals,Sushant,Tower\t"
+            ],
+            "projectRedefine_Education": [
+                "Sushant,University,-,4.6,KM"
+            ],
+            "meta_description": "M3M Paragon 57 in Sector 57 is a well-known and acclaimed new commercial project in Gurgaon launched by M3M India.",
+            "meta_title": "M3M Paragon 57, M3M Commercial Property Sector 57 Gurgaon",
+            "Amenities": [
+                "Car Parking","CCTV Camera Security" , "Restaurant","24x7 Power Backup"
+            ],
+            "projectBgContent": "M3M Paragon 57 - Commercial Property Sector 57 Gurgaon",
+            "projectReraNo": "Applied",
+            "type": "Commercial Property",
+            "city": "Gurgaon",
+            "builderName": "M3M ",
+            "AboutDeveloper": "M3M India means 'Superbness in the Trinity Of Men, Materials and Money'. The aphorism of the organization is \"quality, opportune conveyance and greatness\". Recognizing highlights of M3M inside the business are its inventive, remarkable and unrivaled ideas, multi-dimensional realty arrangements and unparalleled high help norms. Demonstrating its responsibility towards creating cutting edge land works of art, M3M has consistently strived to gather the best ability in the business. The organization has increased important involvement with the land area with different and complimentary gifts from a rich organization of first class go-betweens, monetary establishments, high-total assets people and probably the most rumored designers in India.",
+            "projectOverview": "none",
+            "schema_type": "project",
+            "project_url": "m3m-paragon-57",
+            "BhK_Details": [
+                {
+                    "bhk_type": "Shops",
+                    "price": "Call for Price",
+                    "bhk_Area": "200 - 1500 SQ.FT"
+                },
+                {
+                    "bhk_type": "Shops",
+                    "price": "Call for Price",
+                    "bhk_Area": "500 - 1450 SQ.FT"
+                },
+                {
+                    "bhk_type": "Shops",
+                    "price": "Call for Price",
+                    "bhk_Area": "400 - 1500 SQ.FT"
+                },
+                {
+                    "bhk_type": "Shops",
+                    "price": "Call for Price",
+                    "bhk_Area": "400 - 1500 SQ.FT"
+                },
+                {
+                    "bhk_type": "Shops",
+                    "price": "Call for Price",
+                    "bhk_Area": "500 - 1500 SQ.FT"
+                },
+                {
+                    "bhk_type": "Shops",
+                    "price": "Call for Price",
+                    "bhk_Area": "1210 SQ.FT"
+                }
+            ]            
+        },
+        {
+            "frontImage": {
+                "url": "https://res.cloudinary.com/dgplzytrq/image/upload/v1716630604/AIPL-JoyDistrict/aipl-new-launch4_u6s7fr.jpg"
+            },
+            "logo": {
+                "url": "https://res.cloudinary.com/dgplzytrq/image/upload/v1720592556/AIPL-JoyDistrict/vljo8l89aarw5imr1poh_haecgi.png"
+            },
+            "project_locationImage": {
+                "url": "https://res.cloudinary.com/dgplzytrq/image/upload/v1720592568/AIPL-JoyDistrict/jj7zchctkhhfnbobxpry_wqfztw.png"
+            },
+            "highlightImage": {
+                "url": "https://res.cloudinary.com/dgplzytrq/image/upload/v1720592637/AIPL-JoyDistrict/nobpv811i2en41vehtbl_yxncjc.jpg"
+            },
+            "projectMaster_plan": {
+                "url": "https://res.cloudinary.com/dgplzytrq/image/upload/v1720592644/AIPL-JoyDistrict/urp78ar9uzinpkuqrfkd_medojx.jpg"
+            },
+            "_id": "65fa80378f9c07384c09fff6",
+            "project_floorplan_Image": [
+                {
+                    "url": "https://res.cloudinary.com/dm5yrsqdc/image/upload/v1710915633/realtyshopee/project/efp7avxcaftw8xvoo3dw.jpg"
+                },
+                {
+                    "url": "https://res.cloudinary.com/dm5yrsqdc/image/upload/v1710915634/realtyshopee/project/tfzy6evmsrv40b49pk7p.jpg"
+                },
+                {
+                    "url": "https://res.cloudinary.com/dm5yrsqdc/image/upload/v1710915635/realtyshopee/project/vilxdswe0glb79vjbtk9.jpg"
+                }
+            ],
+            "state": "Haryana",
+            "projectName": "AIPL Joy District",
+            "projectAddress": "Sector 88, Dwarka Expressway",
+            "project_description": "AIPL Group presents a visionary commercial project in Sector 88, Gurgaon, redefining the urban landscape. AIPL Gurgaon is a vibrant hub that combines high-end retail, dining, and entertainment options, including upscale shops, ATMs, food courts, and a state-of-the-art multiplex. Strategically located in a rapidly evolving area of Gurgaon, Haryana, this development promises to deliver unparalleled amenities and facilities, ensuring an exceptional experience for both visitors and businesses. With its prime location and world-class features, AIPL Gurgaon is poised to become a landmark destination in the heart of the city.",
+            "projectRedefine_Connectivity": [
+                "20-25 minutes away from the IGI Airport"
+            ],
+            "projectRedefine_Entertainment": [
+                "The most desirable location on the Dwarka Expressway"
+            ],
+            "projectRedefine_Business": [
+                "10-15 min away from Sohna Road commercial property"
+            ],
+            "projectRedefine_Education": [
+                "3-5 min away from NH-8 and Manesar"
+            ],
+            "meta_description": "AIPL Joy District is a new commercial property by AIPL Group. This project offers Retail Shops, Food Court & Office Spaces in Sector 88 Gurgaon.",
+            "meta_title": "AIPL Joy District - Sector 88 Gurgaon - RETAIL SHOP",
+            "Amenities": [
+                "Car Parking"
+            ],
+            "projectBgContent": "AIPL Joy District Sector 88 Gurgaon - RETAIL SHOP, FOOD COURT & MULTIPEX",
+            "projectReraNo": "Applied",
+            "type": "Commercial Property",
+            "city": "Gurgaon",
+            "builderName": "AIPL",
+            "AboutDeveloper": "Welcome to AIPL, where luxury meets legacy and innovation intertwines with timeless heritage. With over three decades of visionary leadership, we've not only sculpted the commercial skyline but have also crafted premium residential spaces, bustling retail hubs, and iconic townships across eight prominent cities. From bespoke group housing and state-of-the-art offices to elite malls, high street retail, avant-garde clubs, and cafes, our diverse portfolio resonates with both grandeur and individuality. With every venture rooted in profound market analysis, our spaces don't just adhere to architectural standards but also exude a unique character of their own. Entrusted by over 80+ multinational and esteemed corporates, let AIPL take you on an immersive journey where timeless heritage gracefully harmonizes with modern opulence.",
+            "projectOverview": "commercial",
+            "project_Status": "newlunch",
+            "schema_type": "project",
+            "project_url": "aipl-joy-district",
+            "projectGallery": [
+                {
+                    "url": "https://res.cloudinary.com/dm5yrsqdc/image/upload/v1710915637/realtyshopee/project/nmbq1su1fqqqlixmhohu.webp"
+                },
+                {
+                    "url": "https://res.cloudinary.com/dm5yrsqdc/image/upload/v1710915638/realtyshopee/project/ewht3iqm36zxetfz431s.webp"
+                }
+            ],
+            "BhK_Details": [
+                {
+                    "bhk_type": "Ground Floor",
+                    "price": "Call for Price",
+                    "bhk_Area": "550 - 800 SQ.FT"
+                },
+                {
+                    "bhk_type": "First Floor",
+                    "price": "Call for Price",
+                    "bhk_Area": "600 - 700 SQ.FT"
+                },
+                {
+                    "bhk_type": "Second Floor",
+                    "price": "Call for Price",
+                    "bhk_Area": "850 SQ.FT"
+                },
+                {
+                    "bhk_type": "Third Floor",
+                    "price": "Call for Price",
+                    "bhk_Area": "850 SQ.FT"
+                }
+            ],
+            "highlight": [
+                {
+                    "highlight_Point": "2 side Open Corner commercial property in Gurgaon"
+                },
+                {
+                    "highlight_Point": "Strategically located on 150 metres wide multi utility corridor"
+                },
+                {
+                    "highlight_Point": "The Project is in close proximity to the proposed metro station as well as the ISBT"
+                },
+                {
+                    "highlight_Point": "The Project is well connected to Southern Peripheral Road and Golf Course Extension Road through Cloverleaf flyover on NH 8."
+                }
+            ]
+           
+        },{
+            "frontImage": {
+                "url": "https://res.cloudinary.com/dgplzytrq/image/upload/v1716630398/AIPL-JoySquare/AF1QipP1JpPdkBZidSmCNHPPWN5c-TQIjwj-gU9X63bX_s680-w680-h510_gxxkaj.jpg"
+            },
+            "logo": {
+                "url": "https://res.cloudinary.com/dgplzytrq/image/upload/v1720592556/AIPL-JoyDistrict/vljo8l89aarw5imr1poh_haecgi.png"
+            },
+            "project_locationImage": {
+                "url": "https://res.cloudinary.com/dgplzytrq/image/upload/v1720594285/AIPL-JoySquare/joy-square-map-scaled-1_yfdzhr.webp"
+            },
+            "highlightImage": {
+                "url": "https://res.cloudinary.com/dgplzytrq/image/upload/v1720593759/AIPL-JoySquare/AIPL_JoySquare_ekiu3k.webp"
+            },
+            "projectMaster_plan": {
+                "url": "https://res.cloudinary.com/dgplzytrq/image/upload/v1720594554/AIPL-JoySquare/Master-Plan-8-AIPL-Joy-Square-Gurgaon-5113151_693_950_310_462_s9rwep.jpg"
+            },
+            "_id": "65fa8e568f9c07384c0ba092",
+            "project_floorplan_Image": [
+                {
+                    "url": "https://res.cloudinary.com/dgplzytrq/image/upload/v1720594614/AIPL-JoySquare/bf5pkqu6exnguokxtpud.jpg"
+                },
+                {
+                    "url": "https://res.cloudinary.com/dgplzytrq/image/upload/v1720594618/AIPL-JoySquare/jakmngq1wqxjv8s9jjil.jpg"
+                },
+                {
+                    "url": "https://res.cloudinary.com/dgplzytrq/image/upload/v1717585460/Floor%20plan%20image/Background_1_lqqpwe.png"
+                }
+            ],
+            "state": "Haryana",
+            "projectName": "AIPL Joy Square",
+            "projectAddress": "Sector 63A, Kadarpur Rd",
+            "project_description": "Experience the pinnacle of integrated retail and commercial development at AIPL Joy Square in Gurugram, India. Designed by DP Architects, this groundbreaking project captures the spirit of a lively high street marketplace, offering an eclectic mix of shopping outlets, supermarkets, diverse dining options, and serviced apartments. Ideally situated on Golf Course Extension Road in Sector 63A, AIPL Joy Square provides excellent connectivity to the rest of the city, positioning itself as a premier choice among emerging commercial projects in Gurugram. Spanning 2.84 acres and featuring 10 floors (G+9) with extensive basement and surface parking, AIPL Joy Square guarantees a vibrant and dynamic experience. This project redefines high-street retail in Gurugram, setting new standards with AIPL’s expertise.",
+            "projectRedefine_Connectivity": [
+                "Built to global standards of high street Shops and Offices."
+            ],
+            "projectRedefine_Entertainment": [
+                "Strategically Located in Sector 90, Gurgaon."
+            ],
+            "projectRedefine_Business": [
+                "Intelligently conceived, Beautifully crafted."
+            ],
+            "projectRedefine_Education": [
+                "Ample parking space with easy access from all locations in Delhi and Gurgaon."
+            ],
+            "meta_description": "Best Commercial Property in Sector 63A, Gurgaon",
+            "meta_title": "AIPL Joy Square - Sector 63A Gurgaon",
+            "Amenities": [
+                "Car Parking","Vastu Compliant","24x7 Power Backup","Advanced Security" , "CCTV Camera Security"
+            ],
+            "projectBgContent": "SS GROUP SCO PLOTS, SECTOR 90 - GURGAON",
+            "projectReraNo": "Applied",
+            "type": "SCO Plots",
+            "city": "Gurgaon",
+            "builderName": "SS Group",
+            "AboutDeveloper": "Trust is not bestowed easily but is the result of consistent adherence to promises and a dedication to excellence. SS Group, the foremost real estate developer in Gurgaon with nearly three decades of steadfast dedication, enjoys an impressive history of successfully executing residential and commercial projects within the city. This accomplishment stems from a blend of financial acumen, engineering proficiency, and innovative design. Our company ethos prioritizes the creation of people-centric developments while also upholding environmental responsibility.",
+            "projectOverview": "none",
+            "project_Status": "underconstruction",
+            "schema_type": "project",
+            "project_url": "ss-group-sco-plots",
+            "projectGallery": [
+                {
+                    "url": "https://res.cloudinary.com/dm5yrsqdc/image/upload/v1710919252/realtyshopee/project/vny3auk4hsjmnurvfvp8.jpg"
+                }
+            ],
+            "BhK_Details": [
+                {
+                    "bhk_type": "SCO Plots",
+                    "price": "Call for Price",
+                    "bhk_Area": "84 SQ.YD"
+                },
+                {
+                    "bhk_type": "SCO Plots",
+                    "price": "Call for Price",
+                    "bhk_Area": "100 SQ.YD"
+                },
+                {
+                    "bhk_type": "SCO Plots",
+                    "price": "Call for Price",
+                    "bhk_Area": "107 SQ.YD"
+                },
+                {
+                    "bhk_type": "SCO Plots",
+                    "price": "Call for Price",
+                    "bhk_Area": "129 SQ.YD"
+                }
+            ],
+            "highlight": [
+                {
+                    "highlight_Point": "Opportunities to build B + G + 4 floors (as per DTCP guidelines)."
+                },
+                {
+                    "highlight_Point": "Well-appointed entrance, safety, security and other facilities."
+                },
+                {
+                    "highlight_Point": "From Central Delhi via NH8 merging into 135m Multi-utility corridor via Central Periphery road."
+                },
+                {
+                    "highlight_Point": "Strategically Located Off The Dwarka Expressway."
+                }
+            ]
+           
         }
     
   ]

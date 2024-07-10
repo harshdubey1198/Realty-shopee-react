@@ -2,6 +2,7 @@ import React, { useState, useEffect } from 'react';
 import PropTypes from 'prop-types';
 import { useNavigate } from 'react-router-dom';
 import "../App.css";
+import { BiLogoBlogger } from "react-icons/bi";
 import { FcHome, FcList, FcPhone, FcQuestions } from "react-icons/fc";
 
 function PropertyDetail({ property }) {
@@ -126,7 +127,7 @@ function PropertyDetail({ property }) {
       <header className='pd-nav'>
         <h2><img src={property.logo.url} className='pd-logo' alt={property.projectName} /></h2>
         <button onClick={handleHomeClick}><span>Home</span><span><FcHome/></span></button>
-        <a href="/blogs" >Blogs</a>
+        <a href="/blogs" ><span>Blogs</span><span><BiLogoBlogger className='blue'/></span></a>
         <button onClick={handleAllProperties}><span>All Properties</span><span><FcList /></span></button>
         <button onClick={handleContactUsClick}><span>Contact Us</span><span><FcQuestions/></span></button>
         <a href="tel:+919289252999"><span>+91 9289252999</span><span><FcPhone className='phone'/></span></a>
@@ -143,7 +144,7 @@ function PropertyDetail({ property }) {
           <img src={property.frontImage.url} className='pd-banner' alt={property.projectName} />
           <div className='pd-about'>
             <h2>About</h2>
-            <div dangerouslySetInnerHTML={{ __html: property.project_description }} />
+            <div className='pd-desc' dangerouslySetInnerHTML={{ __html: property.project_description }} />
             </div>
         </div>
         <div className='pd-location'>

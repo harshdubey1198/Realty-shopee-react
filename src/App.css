@@ -2543,8 +2543,9 @@ p{
   a{
     color: #eeeeee;
     background: linear-gradient(45deg, rgb(0, 140, 255), rgb(14, 98, 194));
-    margin-right: 20px;
+    /* margin-right: 20px; */
     padding: 10px 15px;
+    font-size: 14px;
     border-radius: 40px;
     text-align: center;
     cursor: pointer;
@@ -2564,6 +2565,7 @@ p{
     display: none;
   }
 }
+
 .pd-div{
   margin-top: 0px;
 }
@@ -2592,6 +2594,10 @@ p{
     object-fit: cover;
   }
 }
+.pd-desc{
+  font-size: 1rem;
+  padding: 0 20px;
+}
 .pd-p1{
   display: flex;
   flex-direction: row;
@@ -2600,7 +2606,7 @@ p{
   margin-top: 40px;
 }
 .pd-banner{
-  width: 40%;
+  width: 30%;
   object-fit: cover;
   border-radius: 20px;
 }
@@ -3169,8 +3175,10 @@ footer{
   }
 }
 .navigators a{
-  font-size: 16px !important;
+  font-size: 15px !important;
+  padding: 3px !important;
 }
+
 .pd-about{
   font-size: 14px;
   width: 100%;
