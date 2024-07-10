@@ -2021,6 +2021,12 @@ p{
 .blog-div p{
   width: 80%;
   padding: 20px;
+  p{
+    width: auto !important
+  }
+  h1,h2,h3,h4{
+    text-align: center !important;
+  }
   }
 .blog-div .blog-d-banner{
   width: 90%;
@@ -2510,6 +2516,7 @@ p{
   display: flex;
   flex-direction: column;
   align-items: center;
+  background: #f0f0f0;
   font-family: math;
 }
 .pd-logo{
@@ -2576,6 +2583,7 @@ p{
   align-items: center;
   position: relative;
   z-index:10;
+  background: #f0f0f0;
   /* margin-top: 60px; */
   .projectname{
     position: absolute;
@@ -2590,6 +2598,8 @@ p{
   }
   img{
     width: auto;
+    max-width: 70%;
+    padding-top: 60px;
     height: auto;
     object-fit: cover;
   }

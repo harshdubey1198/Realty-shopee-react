@@ -2132,32 +2132,31 @@
             "projectAddress": "Sector 63A, Kadarpur Rd",
             "project_description": "Experience the pinnacle of integrated retail and commercial development at AIPL Joy Square in Gurugram, India. Designed by DP Architects, this groundbreaking project captures the spirit of a lively high street marketplace, offering an eclectic mix of shopping outlets, supermarkets, diverse dining options, and serviced apartments. Ideally situated on Golf Course Extension Road in Sector 63A, AIPL Joy Square provides excellent connectivity to the rest of the city, positioning itself as a premier choice among emerging commercial projects in Gurugram. Spanning 2.84 acres and featuring 10 floors (G+9) with extensive basement and surface parking, AIPL Joy Square guarantees a vibrant and dynamic experience. This project redefines high-street retail in Gurugram, setting new standards with AIPL’s expertise.",
             "projectRedefine_Connectivity": [
-                "Built to global standards of high street Shops and Offices."
+                "Golf Course Extn. Road (4.0 km)"
             ],
             "projectRedefine_Entertainment": [
-                "Strategically Located in Sector 90, Gurgaon."
+                "Strategically Located in Sector 63A, Gurgaon."
             ],
             "projectRedefine_Business": [
-                "Intelligently conceived, Beautifully crafted."
+                "St. Xavier’s School (4.9 km)"
             ],
             "projectRedefine_Education": [
-                "Ample parking space with easy access from all locations in Delhi and Gurgaon."
+                "Huda City Centre Metro Station (8.8 km)"
             ],
             "meta_description": "Best Commercial Property in Sector 63A, Gurgaon",
             "meta_title": "AIPL Joy Square - Sector 63A Gurgaon",
             "Amenities": [
                 "Car Parking","Vastu Compliant","24x7 Power Backup","Advanced Security" , "CCTV Camera Security"
             ],
-            "projectBgContent": "SS GROUP SCO PLOTS, SECTOR 90 - GURGAON",
             "projectReraNo": "Applied",
             "type": "SCO Plots",
             "city": "Gurgaon",
-            "builderName": "SS Group",
+            "builderName": "AIPL",
             "AboutDeveloper": "Trust is not bestowed easily but is the result of consistent adherence to promises and a dedication to excellence. SS Group, the foremost real estate developer in Gurgaon with nearly three decades of steadfast dedication, enjoys an impressive history of successfully executing residential and commercial projects within the city. This accomplishment stems from a blend of financial acumen, engineering proficiency, and innovative design. Our company ethos prioritizes the creation of people-centric developments while also upholding environmental responsibility.",
             "projectOverview": "none",
             "project_Status": "underconstruction",
             "schema_type": "project",
-            "project_url": "ss-group-sco-plots",
+            "project_url": "aipl-joy-square",
             "projectGallery": [
                 {
                     "url": "https://res.cloudinary.com/dm5yrsqdc/image/upload/v1710919252/realtyshopee/project/vny3auk4hsjmnurvfvp8.jpg"
@@ -2165,25 +2164,10 @@
             ],
             "BhK_Details": [
                 {
-                    "bhk_type": "SCO Plots",
+                    "bhk_type": "Commercial Shops",
                     "price": "Call for Price",
-                    "bhk_Area": "84 SQ.YD"
-                },
-                {
-                    "bhk_type": "SCO Plots",
-                    "price": "Call for Price",
-                    "bhk_Area": "100 SQ.YD"
-                },
-                {
-                    "bhk_type": "SCO Plots",
-                    "price": "Call for Price",
-                    "bhk_Area": "107 SQ.YD"
-                },
-                {
-                    "bhk_type": "SCO Plots",
-                    "price": "Call for Price",
-                    "bhk_Area": "129 SQ.YD"
-                }
+                    "bhk_Area": "693 - 1065 Sq.ft"
+                }                
             ],
             "highlight": [
                 {
@@ -2200,7 +2184,63 @@
                 }
             ]
            
-        }
+        },
+        {
+            "frontImage": {
+                "url": "https://res.cloudinary.com/dgplzytrq/image/upload/v1716630171/Satya-TheHIve/0034_lqueym.jpg"
+            },
+            "logo":{
+                "url":"https://res.cloudinary.com/dgplzytrq/image/upload/v1720607081/Satya-TheHIve/Pgb_8RW6_400x400_ottker_l53ceu.jpg"
+            },
+            "project_locationImage":{
+                "url":"https://res.cloudinary.com/dgplzytrq/image/upload/v1716630172/Satya-TheHIve/0036_ksoemk.jpg"
+            },
+            "highlightImage":{
+                "url":"https://res.cloudinary.com/dgplzytrq/image/upload/v1716630169/Satya-TheHIve/0002_yaf4tp.jpg"
+            },
+            "project_floorplan_Image":[
+                {
+                    "url":"https://res.cloudinary.com/dgplzytrq/image/upload/v1716630170/Satya-TheHIve/0015_kimzlp.jpg"
+                },
+                {
+                    "url":"https://res.cloudinary.com/dgplzytrq/image/upload/v1720610671/Satya-TheHIve/first-floor_lcupwh.jpg"
+                },
+                {
+                    "url":"https://res.cloudinary.com/dgplzytrq/image/upload/v1716630176/Satya-TheHIve/0017_lcx23y.jpg"
+                }
+            ],
+            "state":"Haryana",
+            "projectName":"Satya The Hive",
+            "projectAddress":"Sector 102 , Dwarka Expressway ",
+            "project_description":"Welcome into an amazing commercial space of Gurgaon Satya The Hive. It is a commercial space by a leading and reputed firm of real estate industry. We always comes with prime project and it is the top project that we ever developed.<br/><br/> It is developed to be the most dynamic business place of Gurgaon and here all the high-standard things is seen. A very interesting business environment is seen in the Satya The Hive Gurgaon .<br/><br/>It is not an ordinary project instead here all the advanced features are available for you. Also, it is one a famous landmark nowadays in Sector 102. Be a part of Gurgaon business industry and make your entry great. Here Success is waiting for you and your are just one step away from it. Invest in Satya The Hive Sector 102 and start making your future more bright & joyful.",
+            "projectRedefine_Connectivity":["Dwarka Expressway Connectivity"],
+            "projectRedefine_Entertainment":["20 minutes far from the Dwarka Metro Station"],
+            "projectRedefine_Business":["30 minutes drive away from our national capital Delhi"],
+            "projectRedefine_Education":["15 minutes drive from the National Highway 8"],
+            "meta_description":"The vibrant hub of activity and innovation brings vision to your life. Spread across multiple floors, Satya Group New Commercial Project offers a diverse range of spaces to suit every need.",
+            "meta_title":"Satya The Hive",
+            "Amenities":[
+                "CCTV Camera Security","Car Parking","Advanced Security","Elevator Lobby","Gym"
+            ],
+            "type":"Commercial Property",
+            "city":"Gurgaon ",
+            "builderName": "Satya Group",
+            "project_Status":"",
+            "project_url":"satya-the-hive",
+            "BhK_Details":[{
+                "bhk_type":"Commercial Shops",
+                "price":"Call for Price",
+                "bhk_Area":"250 - 650 Sq.ft"
+            }],
+            "highlight":[
+                {
+                    "highlight_Point":""
+                },
+                {
+                    "highlight_Point":""
+                }
+            ]
+         }
     
   ]
 }

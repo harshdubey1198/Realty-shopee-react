@@ -13309,9 +13309,63 @@
                 {
                     "highlight_Point": "HRERA No. 65, 66 & 67 of 2024"
                 }
+            ]
+        },
+        {
+            "frontImage": {
+                "url": ""
+            },
+            "logo":{
+                "url":""
+            },
+            "project_locationImage":{
+
+            },
+            "highlightImage":{
+
+            },
+            "project_floorplan_Image":[
+                {
+                    "url":""
+                },
+                {
+                    "url":""
+                },
+                {
+                    "url":""
+                }
             ],
-            "__v": 0
-        }
-         
-    ]
+            "state":"Haryana",
+            "projectName":"",
+            "projectAddress":"",
+            "project_description":"",
+             "projectRedefine_Connectivity":[],
+            "projectRedefine_Entertainment":[],
+            "projectRedefine_Business":[],
+            "projectRedefine_Education":[],
+            "meta_description":"",
+            "meta_title":"",
+            "Amenities":[],
+            "type":"Commercial Property",
+            "city":"Gurgaon",
+            "builderName": "Satya Group",
+            "project_Status":"",
+            "project_url":"",
+            "BhK_Details":[{
+                "bhk_type":"",
+                "price":"",
+                "bhk_Area":""
+            }],
+            "highlight":[
+                {
+                    "highlight_Point":""
+                },
+                {
+                    "highlight_Point":""
+                }
+            ]
+         }
+  ]
 }
+         
+
