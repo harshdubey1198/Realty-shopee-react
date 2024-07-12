@@ -99,6 +99,13 @@ const metaTagsConfig = {
   url: "https://www.realtyshopee.com/allproperties",
   canonical:"https://www.realtyshopee.com/allproperties",
   image: "https://res.cloudinary.com/dgplzytrq/image/upload/v1719492483/Description%20Images/residential-property-in-gurgaon.jpg",
+},
+"/blogs": {
+  title: "Realty Shopee Blogs: Expert Real Estate Insights in Gurgaon",
+  description: "Stay updated with Realty Shopee's latest insights & trends in commercial & residential real estate in Gurgaon. Discover expert advice & the latest property news.",
+  url: "https://www.realtyshopee.com/blogs",
+  canonical:"https://www.realtyshopee.com/blogs",
+  image: "https://res.cloudinary.com/dgplzytrq/image/upload/v1719492483/Description%20Images/residential-property-in-gurgaon.jpg",
 }
 };
 

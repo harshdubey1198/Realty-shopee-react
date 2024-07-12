@@ -40,7 +40,7 @@ function Blogs() {
       <ScrollToTop/>
       <Helmet>
         <link rel="canonical" href={`https://www.realtyshopee.com/blogs`} />
-        <title>Blogs - Realty Shopee</title>
+        <title>Realty Shopee Blogs: Expert Real Estate Insights in Gurgaon</title>
         <link rel="icon" href="https://res.cloudinary.com/dgplzytrq/image/upload/v1720260452/Builders/r_logo_pz8qnp.png" />
       </Helmet>
       <header className='pd-nav blue-nav'>
