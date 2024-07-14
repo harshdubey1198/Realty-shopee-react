@@ -2240,7 +2240,317 @@
                     "highlight_Point":""
                 }
             ]
-         }
+         },
+         {
+            "frontImage": {
+                "url": "https://res.cloudinary.com/dgplzytrq/image/upload/v1720966050/Godrej%20Arista/972fdf1bac24b2f7e70f6e4a9e4fe7_zbgukg.jpg"
+            },
+            "logo": {
+                "url": "https://res.cloudinary.com/dgplzytrq/image/upload/v1720965793/Godrej%20Arista/GPL_Logo_tiak7g.jpg"
+            },
+            "project_locationImage": {
+                "url": "https://res.cloudinary.com/dgplzytrq/image/upload/v1720966194/Godrej%20Arista/godrej-arista-location-advantage_b8momo.jpg"
+            },
+            "highlightImage": {
+                "url": "https://res.cloudinary.com/dgplzytrq/image/upload/v1720966754/Godrej%20Arista/rjt9s45tocfdqro3ylok_hya6yu.jpg"
+            },
+            "projectMaster_plan": {
+                "url": "https://res.cloudinary.com/dgplzytrq/image/upload/v1720966909/Godrej%20Arista/e236381b35b82730623b98fa2b68e0_i5onjs.jpg"
+            },
+            "projectGallery": [],
+            "_id": "65d0471ec396ee78956928e0",
+            "project_floorplan_Image": [
+                {
+                    "url": "https://res.cloudinary.com/dgplzytrq/image/upload/v1720966986/Godrej%20Arista/lwdkpbof4uqwnoiohryf_h8m5yd.jpg"
+                },
+                {
+                    "url": "https://res.cloudinary.com/dgplzytrq/image/upload/v1720966986/Godrej%20Arista/lwdkpbof4uqwnoiohryf_h8m5yd.jpg"
+                },
+                {
+                    "url": "https://res.cloudinary.com/dgplzytrq/image/upload/v1720967006/Godrej%20Arista/lwdkpbof4uqwnoiohryf_cgfss3.jpg"
+                }
+            ],
+            "state": "Haryana",
+            "projectName": "Godrej Arista",
+            "projectAddress": "Sector 79, Dwarka Expressway",
+            "project_description": "Discover luxurious living at Godrej Arista Sector 79 Gurgaon, offering lavish 2 & 3.5 BHK apartments designed for comfort and elegance. Enjoy a host of amenities including a clubhouse, swimming pool, gymnasium, children's play area, landscaped gardens, 24x7 security, and more, ensuring a delightful living experience.",
+            "projectRedefine_Connectivity": [
+                "Dwarka,Expressway"
+            ],
+            "projectRedefine_Entertainment": [
+                "Signature,Global,Signum,79"
+            ],
+            "projectRedefine_Business": [
+                "M3M,Antalya,Hills"
+            ],
+            "projectRedefine_Education": [
+                "L.S.,Convent,School"
+            ],
+            "meta_description": "Godrej Arista Sector 79 Gurgaon offers luxurious 2 and 3.5 BHK apartments. The apartments are designed to provide inhabitants with a comfortable and luxurious living experience.",
+            "meta_title": "Godrej Arista Sector 79 Gurgaon - Godrej New Launch",
+            "Amenities": [
+                "Car Parking","Advanced Security","CCTV Camera Security","Club House","Gym","Jogging Track","Elevator Lobby","Park","24x7 Power Backup","Swimming Pool"
+            ],
+            "projectBgContent": "Godrej Arista Sector 79 Gurgaon - Godrej New Launch",
+            "projectReraNo": "Applied",
+            "type": "Residential Property",
+            "city": "Gurgaon",
+            "builderName": "Godrej",
+            "AboutDeveloper": "Godrej Properties is currently developing residential, commercial and township projects spread across approximately 14 million square meters (147 million square feet) in 12 cities. Godrej Properties brings the Godrej Group philosophy of innovation, sustainability and excellence to the real estate industry. Established in 1990, Godrej Properties Limited is the first real estate company to have ISO certification. Each Godrej Properties development combines a 120-year legacy of excellence and trust with a commitment to cutting-edge design and technology.",
+            "projectOverview": "none",
+            "schema_type": "project",
+            "project_url": "godrej-arista",
+            "BhK_Details": [
+                {
+                    "bhk_type": "2 BHK",
+                    "price": "Call for Price",
+                    "bhk_Area": "1650 SQ.FT."
+                },
+                {
+                    "bhk_type": "2.5 BHK",
+                    "price": "Call for Price",
+                    "bhk_Area": "1700 SQ.FT."
+                },
+                {
+                    "bhk_type": "3 BHK",
+                    "price": "Call for Price",
+                    "bhk_Area": "2100 SQ.FT."
+                },
+                {
+                    "bhk_type": "3.5 BHK",
+                    "price": "Call for Price",
+                    "bhk_Area": "2370 SQ.FT."
+                }
+            ]
+        },  {
+            "frontImage": {
+                "url": "https://res.cloudinary.com/dgplzytrq/image/upload/v1719580115/Anantraj/a7e100e5-72b0-4bf2-a77a-c5e4949ac7da_cover_epkmma.jpg"
+            },
+            "logo": {
+                "url": "https://res.cloudinary.com/dgplzytrq/image/upload/v1720967864/Anantraj/mmkqouf5ptfbuy1xh4i1_ezj2mv.png"
+            },
+            "project_locationImage": {
+                "url": "https://res.cloudinary.com/dgplzytrq/image/upload/v1720967900/Anantraj/aifgtbglcjewde8apvos_lpo0pf.jpg"
+            },
+            "highlightImage": {
+                "url": "https://res.cloudinary.com/dgplzytrq/image/upload/v1720967929/Anantraj/qigswtkptkphz50jrcdq_zulqh2.jpg"
+            },
+            "projectMaster_plan": {
+                "url": "https://res.cloudinary.com/dgplzytrq/image/upload/v1720967960/Anantraj/chivgbqxychtc2qhap8h_hnljfx.jpg"
+            },
+            "_id": "65f15e7a6e0532e1def9db6f",
+            "project_floorplan_Image": [
+                {
+                    "url": "https://res.cloudinary.com/dgplzytrq/image/upload/v1720967988/Anantraj/apwpet1yidhzbwlc1eij_ipvghz.jpg"
+                },
+                {
+                    "url": "https://res.cloudinary.com/dgplzytrq/image/upload/v1720968026/Anantraj/kbk1dkj9z5ka5byuawzv_wgl4s6.jpg"
+                },
+                {
+                    "url": "https://res.cloudinary.com/dgplzytrq/image/upload/v1720968045/Anantraj/cxcgxgeomnwfbxukywyp_zjaqrv.jpg"
+                },
+                {
+                    "url": "https://res.cloudinary.com/dgplzytrq/image/upload/v1720968080/Anantraj/hiqa4h7kw1mp3z2ftctx_httmib.jpg"
+                }
+            ],
+            "state": "Haryana",
+            "projectName": "AnantRaj The Estate",
+            "projectAddress": "Sector 63A, Southern Peripheral Road",
+            "project_description": "The Estate Residences by Anant Raj Limited is a distinctive condominium complex designed to embody Indian values, offering unobstructed views of the protected Aravali Range. Comprising 4 towers with over 30 floors each, it features 248 bespoke units and 750 car parking spaces, meticulously crafted to enhance your quality of life. With amenities like a party lawn, walking garden, outdoor theatre, swing court, and dedicated zones for seniors, every aspect ensures a secure and serene living environment. Located on Golf Course Road, Gurgaon, The Estate Residences promises elegance and comfort, redefining luxury living in a prime location.",
+            "projectRedefine_Connectivity": [
+                "2.4 KMS(6 MINS) HOTEL GRAND HATT"
+            ],
+            "projectRedefine_Entertainment": [
+                "6.4 KMS(15 MINS) SOUTH POINT MALL"
+            ],
+            "projectRedefine_Business": [
+                "3.5 KMS(8 MINS) MARENGO ASIA HOSPITAL"
+            ],
+            "projectRedefine_Education": [
+                "3.6 KMS(10 MINS) RAPID METRO SEC 55-56"
+            ],
+            "meta_description": "4 BHK luxury apartments available in prime location at Golf Course Road, Gurgaon. Contact us for premium luxury properties",
+            "meta_title": "Anantraj The Estate Residences - Sector 63A Gurgaon",
+            "Amenities": [
+               "Mini Theatre","Swimming Pool","Salon","Card Room","Waiting Lounge","Spa","Squash Court","Pool Table","Cafeteria"
+            ],
+            "projectBgContent": "The Estate Residences by Anant Raj Limited",
+            "projectReraNo": "Applied",
+            "type": "Residential Flats",
+            "city": "Gurgaon",
+            "builderName": "Anant Raj Limited",
+            "AboutDeveloper": "Built on 5 decades of tradition and dedicated to revolutionizing the luxury real estate industry, Anant Raj Limited offers revelatory experiences through an exceptional network of skilled agents. One of the leading real estate developers in the country, based out of Delhi, the Anant Raj Group has focused it's philosophy on the Build & Sell approach rather than the Sell & Build approach.",
+            "projectOverview": "none",
+            "schema_type": "project",
+            "project_url": "anantraj-the-estate-residences",
+            "projectGallery": [
+                {
+                    "url": "https://res.cloudinary.com/dm5yrsqdc/image/upload/v1710317172/realtyshopee/project/bwyhkx8mfjdwmq0fzegt.jpg"
+                },
+                {
+                    "url": "https://res.cloudinary.com/dm5yrsqdc/image/upload/v1710317173/realtyshopee/project/x0qmcurehrsbdgjbxkov.jpg"
+                },
+                {
+                    "url": "https://res.cloudinary.com/dm5yrsqdc/image/upload/v1710317174/realtyshopee/project/jgqxmqhazz6n5thlggte.jpg"
+                },
+                {
+                    "url": "https://res.cloudinary.com/dm5yrsqdc/image/upload/v1710317176/realtyshopee/project/w5wzyfmtjjlosafjqtnm.jpg"
+                }
+            ],
+            "BhK_Details": [
+                {
+                    "bhk_type": "Tower 1 - 4 BHK + SR + Lounge",
+                    "price": "Call for Price",
+                    "bhk_Area": "4781 SQ.FT"
+                },
+                {
+                    "bhk_type": "Tower 2 - 4 BHK + SR",
+                    "price": "Call for Price",
+                    "bhk_Area": "3763 SQ.FT"
+                },
+                {
+                    "bhk_type": "Tower 3 - 4 BHK + SR",
+                    "price": "Call for Price",
+                    "bhk_Area": "3710 SQ.FT"
+                },
+                {
+                    "bhk_type": "Tower 4 - 4 BHK + SR",
+                    "price": "Call for Price",
+                    "bhk_Area": "3710 - 3763 SQ.FT"
+                }
+            ],
+            "highlight": [
+                {
+                    "highlight_Point": "TRIPLE HEIGHT GRAND ENTRANCE LOBBY"
+                },
+                {
+                    "highlight_Point": "THE SUNKEN GARDEN BOASTS OF LUSH GREENERY & BEAUTY"
+                },
+                {
+                    "highlight_Point": "UNWIND AT THE CLUE OF GOOD TIMES"
+                },
+                {
+                    "highlight_Point": "SKY LOUNGE RESTAURANT"
+                },
+                {
+                    "highlight_Point": "MASTER BEDROOM WITH A LOCKABLE WALK-IN CLOSET"
+                },
+                {
+                    "highlight_Point": "THE LIFT TAKES YOU TO YOUR APARTMENT DIRECTLY PRIVATE LIFTS"
+                }
+            ]
+        },{
+            "frontImage": {
+                "url": "https://res.cloudinary.com/dgplzytrq/image/upload/v1720968515/Smartworld-the-edition/ybuwhcd9ipm2ouq9ysay_rt7v4x.jpg"
+            },
+            "logo": {
+                "url": "https://res.cloudinary.com/dgplzytrq/image/upload/v1720968542/Smartworld-the-edition/baxeglzgdggocdi1m7gj_zewxj6.jpg"
+            },
+            "project_locationImage": {
+                "url": "https://res.cloudinary.com/dgplzytrq/image/upload/v1720968576/Smartworld-the-edition/ktv7mbubjyyf2ucnt3id_cg7vzl.jpg"
+            },
+            "highlightImage": {
+                "url": "https://res.cloudinary.com/dgplzytrq/image/upload/v1720968612/Smartworld-the-edition/wdn2k8sx7aufhtsttdra_bqnfw1.jpg"
+            },
+            "projectMaster_plan": {
+                "url": "https://res.cloudinary.com/dgplzytrq/image/upload/v1720968642/Smartworld-the-edition/cxozh6vcqsjaojkwnrey_fgv8vt.jpg"
+            },
+            "_id": "65f177097e1280ea13384b6c",
+            "project_floorplan_Image": [
+                {
+                    "url": "https://res.cloudinary.com/dgplzytrq/image/upload/v1720968743/Smartworld-the-edition/ec4v1kgl3cgnbvg5exb8_we9xqn.jpg"
+                },
+                {
+                    "url": "https://res.cloudinary.com/dgplzytrq/image/upload/v1720968752/Smartworld-the-edition/bz9vvzfqdbahemkdphyp_p9gbgt.jpg"
+                },
+                {
+                    "url": "https://res.cloudinary.com/dgplzytrq/image/upload/v1720968759/Smartworld-the-edition/lsqq3wrclausnjaucaqb_zpdutf.jpg"
+                },
+                {
+                    "url": "https://res.cloudinary.com/dgplzytrq/image/upload/v1720968763/Smartworld-the-edition/dcz9lx003aet7ui3o1v3_ndbyug.jpg"
+                }
+            ],
+           
+            "state": "Haryana",
+            "projectName": "Smartworld The Edition",
+            "projectAddress": "Sector 66, Golf Course Extn Road",
+            "project_description": "Introducing Gurgaon's latest skyline marvel - Smartworld The Edition. This development sets a new standard with its blend of modern, contemporary design and luxurious living amenities. Crafted by top-tier architects and design consultants, every detail, from the innovative architecture to the lush landscaped areas and exclusive club interiors, embodies excellence. The striking architectural features and expansive green spaces make this address a true architectural masterpiece, promising a lifestyle of sophistication and comfort in the heart of Gurgaon.",
+            "projectRedefine_Connectivity": [
+                "Near to the Metro Station."
+            ],
+            "projectRedefine_Entertainment": [
+                "Near to NH-8"
+            ],
+            "projectRedefine_Business": [
+                "30 Minute Distance to IGI Airport."
+            ],
+            "projectRedefine_Education": [
+                "Close Proximity to Sohna Road."
+            ],
+            "meta_description": "Smartworld The Edition, an exclusive project located at Sector 66 Gurgaon, offers 3 BHK, 4 BHK Luxury Apartments",
+            "meta_title": "Smartworld The Edition, Luxury Residences Sector 66 Gurgaon",
+            "Amenities": [
+                "24x7 Power Backup","Swimming Pool","Waiting Lounge","Squash Court","Advanced Security"
+            ],
+            "projectBgContent": "Smartworld The Edition - Luxury Residences in Sector 66 Gurgaon",
+            "projectReraNo": "Applied",
+            "type": "Residential Flats",
+            "city": "Gurgaon",
+            "builderName": "Smartworld",
+            "AboutDeveloper": "Smartworld is a real estate company envisioned as the future of real estate in India. It is an organization built on the ethos of bringing in a refreshing change in the real estate industry with honesty, professionalism and transparency being in the DNA of the company. At Smartworld, every aspect from Scale, Humanizing Technology, Business Digitization to Designs, and Evolved Lifescapes has been given the utmost importance to create a perfect, winning combination. The company is an amalgamation of top-notch professionals and proven achievers and has a prolific board that advises the organization on the best-in-class international standards including corporate governance, industry practices and design philosophy. Smartworld combines the vast experience of professionals whose experience of Sales, Marketing, Product Design and Project Management Delivery exceeds over Rs. 50 billion in sales and 1 billion sq. ft. in project execution.",
+            "projectOverview": "featured",
+            "schema_type": "project",
+            "project_url": "smart-world-the-edition",
+            "projectGallery": [
+                {
+                    "url": "https://res.cloudinary.com/dm5yrsqdc/image/upload/v1710323458/realtyshopee/project/gn5bojat7s8wqo6dbrbj.jpg"
+                },
+                {
+                    "url": "https://res.cloudinary.com/dm5yrsqdc/image/upload/v1710323459/realtyshopee/project/avxhzbskzqcdupxi9lcy.jpg"
+                },
+                {
+                    "url": "https://res.cloudinary.com/dm5yrsqdc/image/upload/v1710323460/realtyshopee/project/lvk8iabbqchevkxblfa1.jpg"
+                },
+                {
+                    "url": "https://res.cloudinary.com/dm5yrsqdc/image/upload/v1710323461/realtyshopee/project/b7lodqtqx1z8hzih1wxl.jpg"
+                },
+                {
+                    "url": "https://res.cloudinary.com/dm5yrsqdc/image/upload/v1710323462/realtyshopee/project/ir28md4igsvenh8vysuv.jpg"
+                },
+                {
+                    "url": "https://res.cloudinary.com/dm5yrsqdc/image/upload/v1710323463/realtyshopee/project/sllrstsejc0twcfox7ay.jpg"
+                }
+            ],
+            "BhK_Details": [
+                {
+                    "bhk_type": "3.5 BHK + Utility",
+                    "price": "Call for Price",
+                    "bhk_Area": "2945 SQ.FT"
+                },
+                {
+                    "bhk_type": "4.5 BHK + Utility",
+                    "price": "Call for Price",
+                    "bhk_Area": "3505 SQ.FT"
+                }
+            ],
+            "highlight": [
+                {
+                    "highlight_Point": "Every modern comfort, just 1 minute away"
+                },
+                {
+                    "highlight_Point": "Proximity to top-notch educational & medical facilities."
+                },
+                {
+                    "highlight_Point": "A distinguished neighbourhood of residential & retail development"
+                },
+                {
+                    "highlight_Point": "Observatory Deck with a Panoramic view of the city skyline"
+                },
+                {
+                    "highlight_Point": "Double glazing for energy saving and peaceful living"
+                }
+            ]
+        }
     
   ]
 }
