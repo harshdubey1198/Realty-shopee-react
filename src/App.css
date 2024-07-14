@@ -1966,6 +1966,7 @@ option{
   .fd{
     position: absolute;
     right: 10px;
+    bottom: 0;
     color: #1b4a7c;
   }
 
