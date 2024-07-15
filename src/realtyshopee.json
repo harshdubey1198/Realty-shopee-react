@@ -2550,6 +2550,540 @@
                     "highlight_Point": "Double glazing for energy saving and peaceful living"
                 }
             ]
+        },
+        {
+            "frontImage": {
+                "url": "https://res.cloudinary.com/dgplzytrq/image/upload/v1721050349/Whiteland-the-aspen/zgzmxrzm8s3v159fhi51_zdn7jy.jpg"
+            },
+            "logo": {
+                "url": "https://res.cloudinary.com/dgplzytrq/image/upload/v1721050349/Whiteland-the-aspen/zgzmxrzm8s3v159fhi51_zdn7jy.jpg"
+            },
+            "project_locationImage": {
+                "url": "https://res.cloudinary.com/dgplzytrq/image/upload/v1721050376/Whiteland-the-aspen/hfkb43dsapsbudvumvye_nzujwh.jpg"
+            },
+            "highlightImage": {
+                "url": "https://res.cloudinary.com/dm5yrsqdc/image/upload/v1710742332/100acre/project/mdk2vlwuzi8qxai0hari.webp"
+            },
+            "projectMaster_plan": {
+                "url": "https://res.cloudinary.com/dgplzytrq/image/upload/v1721050397/Whiteland-the-aspen/ni6t6gmktj8vudrdaxkv_cnzs0h.jpg"
+            },
+            "_id": "65f7db418f9c07384cf150ec",
+            "project_floorplan_Image": [
+                {
+                    "url": "https://res.cloudinary.com/dgplzytrq/image/upload/v1721050452/Whiteland-the-aspen/x7yiygf6m2waqdi03srz_ggr8yv.png"
+                },
+                {
+                    "url": "https://res.cloudinary.com/dgplzytrq/image/upload/v1721050464/Whiteland-the-aspen/ykag8fm3qahrg8aak9l6_dubzge.png"
+                }
+            ],
+            "state": "Haryana",
+            "projectName": "Whiteland The Aspen",
+            "projectAddress": "Sector 76, Southern Peripheral Road",
+            "project_description": "Whiteland The Aspen, located in Sector 76, Gurgaon, offers a prestigious residential opportunity in a prime city location. This new project ensures excellent ventilation and natural light throughout its well-planned apartments, designed according to Vaastu principles. Available in various layouts and sizes, Whiteland The Aspen benefits from its proximity to NH-8, offering seamless connectivity via public transport, bus stands, and the rail network. Surrounded by residential neighborhoods, top-notch schools, and renowned hospitals, this development promises a convenient and desirable living environment with access to essential amenities and commercial hubs.",
+            "projectRedefine_Connectivity": [
+                "Southern Peripheral Road -1.5Kms"
+            ],
+            "projectRedefine_Entertainment": [
+                "SRS Hospital & Critical Care Unit - 2.7Kms"
+            ],
+            "projectRedefine_Business": [
+                "Sohna Road-3Kms"
+            ],
+            "projectRedefine_Education": [
+                "Dwarka Expressway - 1.9Kms"
+            ],
+            "meta_description": "Whiteland The Aspen is pre launch presentations of Gurgaon, located at Sector 76. It is a set of Luxurious High Rise Apartments Provided with world-class amenities",
+            "meta_title": "Whiteland The Aspen - Whiteland in Sector 76 Gurgaon",
+            "Amenities": [
+                "VIP LOUNGE"
+            ],
+            "projectBgContent": "Whiteland The Aspen Sector 76 Gurgaon - New Launch",
+            "projectReraNo": "Applied",
+            "type": "Residential Flats",
+            "city": "Gurgaon",
+            "builderName": "Whiteland Corporation",
+            "AboutDeveloper": "Whiteland, a distinguished real estate company in Gurgaon, stands as a premier real estate builder in Gurgaon. With a unique approach that sets us apart from the competition, we specialize in crafting exceptional residential and commercial properties. Collaborating with world-class consultants, our projects reflect superior quality and design, elevating us as a standout player in the market. Transparency, integrity, and unwavering commitment are the cornerstones of our operations. As a leading real estate developer in Gurgaon, we prioritize effective communication and steadfast honesty to cultivate strong relationships founded on trust and honour.",
+            "projectOverview": "none",
+            "project_Status": "underconstruction",
+            "schema_type": "project",
+            "project_url": "whiteland-the-aspen",
+            "projectGallery": [
+                {
+                    "url": "https://res.cloudinary.com/dm5yrsqdc/image/upload/v1710742333/realtyshopee/project/stn1kasouql2v9n5g0if.jpg"
+                },
+                {
+                    "url": "https://res.cloudinary.com/dm5yrsqdc/image/upload/v1710742334/realtyshopee/project/ghwnfl3c71f0hzioi15n.jpg"
+                },
+                {
+                    "url": "https://res.cloudinary.com/dm5yrsqdc/image/upload/v1710742335/realtyshopee/project/otadnporqholmomfplkn.jpg"
+                }
+            ],
+            "BhK_Details": [
+                {
+                    "bhk_type": "3 BHK",
+                    "price": "Call for Price",
+                    "bhk_Area": "2290 - 2937 SQ.FT."
+                },
+                {
+                    "bhk_type": "4 BHK",
+                    "price": "Call for Price",
+                    "bhk_Area": "3243 - 5223 SQ.FT."
+                },
+                {
+                    "bhk_type": "5 BHK",
+                    "price": "Call for Price",
+                    "bhk_Area": "6096 - 7582 SQ.FT."
+                }
+            ],
+            "highlight": [
+                {
+                    "highlight_Point": "High-end Infrastructure with beautiful parks, green belt area and landscaped gardens."
+                },
+                {
+                    "highlight_Point": "Exclusive 5 Star clubhouse of 90,000 Sq.ft. to host various parties with your friends and family."
+                },
+                {
+                    "highlight_Point": "Vastu compliant architecture"
+                },
+                {
+                    "highlight_Point": "Breathtaking views overlooking the Aravali range."
+                },
+                {
+                    "highlight_Point": "Clubhouse offering holistic lifestyle amenities like Swimming pool, gymnasium, sports activity zones, Banquet hall & Restaurant"
+                },
+                {
+                    "highlight_Point": "Dedicated green belts for outdoor play, yoga & meditation sessions."
+                }
+            ]
+        },
+        {
+            "frontImage": {
+                "url": "https://res.cloudinary.com/dgplzytrq/image/upload/v1721051088/ss-cendana/suoe2kwgvx7disi5sytp_hugqwy.jpg"
+            },
+            "logo": {
+                "url": "https://res.cloudinary.com/dgplzytrq/image/upload/v1721051103/ss-cendana/vdbhizd07mnelsazq64e_sfzoml.jpg"
+            },
+            "project_locationImage": {
+                "url": "https://res.cloudinary.com/dgplzytrq/image/upload/v1721051123/ss-cendana/rydvsse8nlnwszpuxmmj_cbx25q.jpg"
+            },
+            "highlightImage": {
+                "url": "https://res.cloudinary.com/dgplzytrq/image/upload/v1721051136/ss-cendana/zltjrdgxujhz5pxoozpe_uz6d8j.jpg"
+            },
+            "projectMaster_plan": {
+                "url": "https://res.cloudinary.com/dgplzytrq/image/upload/v1721051139/ss-cendana/fjcvcwuttxheqdztsq4s_ehyteu.jpg"
+            },
+            "_id": "65f822c48f9c07384cf88a8f",
+            "project_floorplan_Image": [
+                {
+                    "url": "https://res.cloudinary.com/dgplzytrq/image/upload/v1721051162/ss-cendana/zas9cbia8bfztc5xdwtu_prouwk.jpg"
+                },
+                {
+                    "url": "https://res.cloudinary.com/dgplzytrq/image/upload/v1721051165/ss-cendana/kavrcif8pldqlzsvwxxi_nmojun.jpg"
+                }
+            ],
+            "state": "Haryana",
+            "projectName": "SS Group Cendana",
+            "projectAddress": "Sector 83, Northern Peripheral Road",
+            "project_description": "SS Group Cendana is a residential housing project located on NH 8, Gurgaon, offering excellent connectivity to Delhi NCR. Spread across 8 acres of lush greenery, the complex features 3 BHK apartments ranging from 1450 sq. ft. to 1850 sq. ft. Each unit is meticulously designed with laminated wooden flooring in the master bedroom and a modular kitchen equipped with granite countertops and a stainless steel single drain board sink. The project ensures a blend of comfort and elegance, making it an ideal choice for discerning homeowners seeking quality living spaces in a well-connected location.",
+            "projectRedefine_Connectivity": [
+                "Nearby Dwarka Expressway Link Road"
+            ],
+            "projectRedefine_Entertainment": [
+                "15 min to Golf Extension Road and Rapid Metro"
+            ],
+            "projectRedefine_Business": [
+                "10 min to Naharpur and DLF Road"
+            ],
+            "projectRedefine_Education": [
+                "5 min to Southern Peripheral, Pataudi, and Darbaripur Road"
+            ],
+            "meta_description": "SS Group Cendana - SS Group Sector 83 Gurgaon",
+            "meta_title": "SS Group Cendana - SS Group Sector 83 Gurgaon",
+            "Amenities": [
+               "Jogging Track" ,"Swimming Pool","Gymnasium","Club House","Advanced Security","24x7 Power Backup","Car Parking","Elevator Lobby","Vastu Compliant"
+            ],
+            "projectBgContent": "SS Group Cendana at Sector 83 Gurgaon",
+            "projectReraNo": "Applied",
+            "type": "Residential Flats",
+            "city": "Gurgaon",
+            "builderName": "SS Group",
+            "AboutDeveloper": "Trust is not bestowed easily but is the result of consistent adherence to promises and a dedication to excellence. SS Group, the foremost real estate developer in Gurgaon with nearly three decades of steadfast dedication, enjoys an impressive history of successfully executing residential and commercial projects within the city. This accomplishment stems from a blend of financial acumen, engineering proficiency, and innovative design. Our company ethos prioritizes the creation of people-centric developments while also upholding environmental responsibility.",
+            "projectOverview": "none",
+            "project_Status": "underconstruction",
+            "schema_type": "project",
+            "project_url": "ss-group-cendana",
+            "projectGallery": [
+                {
+                    "url": "https://res.cloudinary.com/dm5yrsqdc/image/upload/v1710760642/realtyshopee/project/gq61e4k6qlfvkge6letx.jpg"
+                }
+            ],
+            "BhK_Details": [
+                {
+                    "bhk_type": "3 BHK",
+                    "price": "Call for Price",
+                    "bhk_Area": "1450 SQ.FT."
+                },
+                {
+                    "bhk_type": "3 BHK + Study",
+                    "price": "Call for Price",
+                    "bhk_Area": "1850 SQ.FT."
+                }
+            ],
+            "highlight": [
+                {
+                    "highlight_Point": "Cohesive urban design – street furniture, signages & road lighting"
+                },
+                {
+                    "highlight_Point": "Green areas & tree lined streets"
+                },
+                {
+                    "highlight_Point": "Water features throughout the landscape"
+                },
+                {
+                    "highlight_Point": "Segregation of pedestal & vehicular movement"
+                },
+                {
+                    "highlight_Point": "Environment friendly planning"
+                },
+                {
+                    "highlight_Point": "Choice of independent plots"
+                },
+                {
+                    "highlight_Point": "Exclusive walking & jogging tracks"
+                }
+            ]
+        },
+        {
+            "frontImage": {
+                "url": "https://res.cloudinary.com/dgplzytrq/image/upload/v1721051449/ambience-creacions/ambience-creactions-mobile-banner_ooquti.webp"
+            },
+            "logo": {
+                "url": "https://res.cloudinary.com/dgplzytrq/image/upload/v1721051444/ambience-creacions/ck5t5ztbvfbyz9rek5uc_gjp7r7.jpg"
+            },
+            "project_locationImage": {
+                "url": "https://res.cloudinary.com/dgplzytrq/image/upload/v1721051466/ambience-creacions/jnop6ytojeykhrqxi83r_yxbyda.jpg"
+            },
+            "highlightImage": {
+                "url": "https://res.cloudinary.com/dgplzytrq/image/upload/v1721051473/ambience-creacions/kldak32hhwz8gipqjhrq_m0lvcr.jpg"
+            },
+            "projectMaster_plan": {
+                "url": "https://res.cloudinary.com/dgplzytrq/image/upload/v1721051476/ambience-creacions/v6idzrhssltxtsw9utr8_xmhxrs.jpg"
+            },
+            "_id": "65f8351f8f9c07384cfb6f23",
+            "project_floorplan_Image": [
+                {
+                    "url": "https://res.cloudinary.com/dgplzytrq/image/upload/v1721051507/ambience-creacions/u0femlyhjutxigyvcadu_hv4wpx.jpg"
+                },
+                {
+                    "url": "https://res.cloudinary.com/dgplzytrq/image/upload/v1721051510/ambience-creacions/ygjoj8kj8480mkk0alto_vjcmk4.jpg"
+                }
+            ],
+            "state": "Haryana",
+            "projectName": "Ambience Creacions",
+            "projectAddress": "Sector 22, MG Road",
+            "project_description": "Discover a world of unparalleled luxury where impeccable craftsmanship meets perfection in the heart of Gurgaon! Embrace your dreams at an address that embodies international standards of luxury, crafted by developers renowned for iconic projects like Ambience Mall Gurgaon, Ambience Mall Vasant Kunj, The Leela Ambience Hotel Gurgaon, The Leela Ambience Convention Centre Delhi, Ambience Corporate Tower Gurgaon, Ambience Tower Vasant Kunj, Ambience Public School Gurgaon, and residential landmarks such as Ambience Caitriona and The Lagoon.",
+            "projectRedefine_Connectivity": [
+                "Close Proximity to Cyber Hub and International Airport"
+            ],
+            "projectRedefine_Entertainment": [
+                "Located nearest to South of Delhi on Old Delhi Jaipur Road."
+            ],
+            "projectRedefine_Business": [
+                "Located within a fully developed sector with matching infrastructure"
+            ],
+            "projectRedefine_Education": [
+                "Located within 1 km range from corporates like Sapient, Ernst & Young, Genpact etc"
+            ],
+            "meta_description": "Ambience Creacions in Sector 22, Gurgaon is a ready-to-move housing society. It offers apartments and villas in varied budget range",
+            "meta_title": "Ambience Creacions, Luxury Apartments at Sector 22 Gurgaon",
+            "Amenities": [
+                "CCTV Camera Security","Car Parking","Elevator Lobby","Badminton Court","Kids Play Area","Waiting Lounge","Meditation Area","Yoga Room","Basketball Court"
+            ],
+            "projectBgContent": "Ambience Creacions Sector 22 Gurgaon",
+            "projectReraNo": "Applied",
+            "type": "Residential Flats",
+            "city": "Gurgaon",
+            "builderName": "Ambience Group",
+            "AboutDeveloper": "Since its inception in 1986, Ambience Group distinguished itself from the competition as the developers of premium real estate projects. Ambience commenced its journey of developing premium Residential Apartments in South Delhi, and later acquired a landmark real estate land parcel in Gurgaon, NH-8, zero km from Delhi Border for the development of signature integrated township ‘Ambience Island’. The property comprises of Residential (Ambience Caitriona & Ambience Lagoon), Retail (Ambience Mall), Hotel (Leela Ambience), Commercial (Ambience Corporate Tower), 9 Hole Golf Greens and Community Facilities.",
+            "projectOverview": "none",
+            "project_Status": "readytomove",
+            "schema_type": "project",
+            "project_url": "ambience-creacions",
+            "projectGallery": [
+                {
+                    "url": "https://res.cloudinary.com/dm5yrsqdc/image/upload/v1710765341/realtyshopee/project/ie7w20woydzyxcmg5v4z.jpg"
+                }
+            ],
+            "BhK_Details": [
+                {
+                    "bhk_type": "3 BHK + SR",
+                    "price": "₹ 4,17,15,000",
+                    "bhk_Area": "2781 SQ.FT"
+                },
+                {
+                    "bhk_type": "3 BHK + SR + PW",
+                    "price": "₹ 4,63,50,000",
+                    "bhk_Area": "3090 SQ.FT"
+                },
+                {
+                    "bhk_type": "4 BHK + SR + PW",
+                    "price": "₹ 5,96,40,000",
+                    "bhk_Area": "3976 SQ.FT"
+                },
+                {
+                    "bhk_type": "3 BHK - Simplex Penthouse",
+                    "price": "₹ 7,20,00,000",
+                    "bhk_Area": "4800 SQ.FT"
+                },
+                {
+                    "bhk_type": "4 BHK - Duplex Penthouse",
+                    "price": "₹ 11,55,00,000",
+                    "bhk_Area": "7700 SQ.FT"
+                },
+                {
+                    "bhk_type": "5 BHK - Duplex Penthouse",
+                    "price": "₹ 15,15,75,000",
+                    "bhk_Area": "10105 SQ.FT"
+                },
+                {
+                    "bhk_type": "5 BHK + 2 FL + 2 SR - Villa",
+                    "price": "₹ 16,10,55,000",
+                    "bhk_Area": "10737 SQ.FT"
+                }
+            ],
+            "highlight": [
+                {
+                    "highlight_Point": "Delivery of Apartment to be in ready to ‘move and live-in’ state."
+                },
+                {
+                    "highlight_Point": "Fully furnished kitchen fitted with high-end home appliances."
+                },
+                {
+                    "highlight_Point": "Imported/International Standard bathroom fittings and fixtures."
+                },
+                {
+                    "highlight_Point": "Carefully selected neighbourhood."
+                },
+                {
+                    "highlight_Point": "Hassle-free post possession experience."
+                },
+                {
+                    "highlight_Point": "3-tier international standard security with CCTV and Audio/ Video at the Main Door."
+                },
+                {
+                    "highlight_Point": "Fully Furnished Club with Contemporary Sports Facilities, Swimming Pool, Gymnasium and Party/Meeting rooms."
+                }
+            ]
+        },
+        {
+            "frontImage": {
+                "url": "https://res.cloudinary.com/dgplzytrq/image/upload/v1721051719/Landmark-Avana/xrvaotrkwucqzn6xbahx_rerczn.jpg"
+            },
+            "logo": {
+                "url": "https://res.cloudinary.com/dgplzytrq/image/upload/v1721051724/Landmark-Avana/kbigruxnurmqiyfxh8s8_uj8ugh.jpg"
+            },
+            "project_locationImage": {
+                "url": "https://res.cloudinary.com/dgplzytrq/image/upload/v1721051732/Landmark-Avana/z0qiefd5cx3p27izpocr_btmsqe.jpg"
+            },
+            "highlightImage": {
+                "url": "https://res.cloudinary.com/dgplzytrq/image/upload/v1721051733/Landmark-Avana/o6blbtqourlwzcsm73bl_nexy5k.jpg"
+            },
+            "projectMaster_plan": {
+                "url": "https://res.cloudinary.com/dgplzytrq/image/upload/v1721051737/Landmark-Avana/z5wkamuwer2mnz1czek1_fsbbdm.jpg"
+            },
+            "_id": "65f83fa48f9c07384cfc5791",
+            "project_floorplan_Image": [
+                {
+                    "url": "https://res.cloudinary.com/dgplzytrq/image/upload/v1721051785/Landmark-Avana/lq0jnuw12pj6rntrwh4a_etbd8g.jpg"
+                },
+                {
+                    "url": "https://res.cloudinary.com/dgplzytrq/image/upload/v1721051784/Landmark-Avana/p3dnetrzu6g9dfehg6nn_ghhjok.jpg"
+                },
+                {
+                    "url": "https://res.cloudinary.com/dgplzytrq/image/upload/v1721051788/Landmark-Avana/srg2glj1qzsravrajdjd_pbx5zi.jpg"
+                },
+                {
+                    "url": "https://res.cloudinary.com/dgplzytrq/image/upload/v1721051790/Landmark-Avana/gns3q6fhtzhskuxzmnym_idhnfo.jpg"
+                }
+            ],
+            "state": "Haryana",
+            "projectName": "Landmark Avana",
+            "projectAddress": "Sector 95, New Gurgaon",
+            "project_description": "Landmark Avana, derived from Sanskrit meaning \"Joy and Happiness\" , offers a unique living experience that celebrates life's simple pleasures. It provides a tranquil environment where residents can enjoy the beauty of everyday life, fostering a sense of joy and contentment. This residential development promises to enrich the living experience with its thoughtful design and amenities, catering to both individual preferences and communal well-being. Landmark Avana aims to create a harmonious space where families can thrive amidst a serene and nurturing atmosphere, making it a cherished place to call home.",
+            "projectRedefine_Connectivity": [
+                "Proposed Metro Station: 5 mins"
+            ],
+            "projectRedefine_Entertainment": [
+                "Hero Honda Chowk: 12 mins"
+            ],
+            "projectRedefine_Business": [
+                "IMT Manesar: 10 mins"
+            ],
+            "projectRedefine_Education": [
+                "Dwarka Expressway: 5 mins"
+            ],
+            "meta_description": "Landmark Avana, Luxury Builder Floors Sector 95 Gurgaon",
+            "meta_title": "Landmark Avana, Luxury Builder Floors Sector 95 Gurgaon",
+            "Amenities": [
+                "Car Parking","Meditation Area","Gymnasium","Indoor Games","Yoga Room","Swimming Pool"
+            ],
+            "projectBgContent": "Landmark Avana - Luxury Builder Floors Sector 95 Gurgaon",
+            "projectReraNo": "Applied",
+            "type": "Independent Floors",
+            "city": "Gurgaon",
+            "builderName": "Landmark Group",
+            "AboutDeveloper": "Landmark Group is a company that has made a name for itself in its industry thanks to its impressive portfolio. We deliver the best IT solutions and lifestyle complexes and structures as a company with a perfectionist attitude.",
+            "projectOverview": "none",
+            "project_Status": "underconstruction",
+            "schema_type": "project",
+            "project_url": "landmark-avana",
+            "projectGallery": [
+                {
+                    "url": "https://res.cloudinary.com/dm5yrsqdc/image/upload/v1710768032/realtyshopee/project/z5sskpsgcg5eda9wee5o.jpg"
+                },
+                {
+                    "url": "https://res.cloudinary.com/dm5yrsqdc/image/upload/v1710768033/realtyshopee/project/ydj5ver01mp3euv7c0xb.jpg"
+                },
+                {
+                    "url": "https://res.cloudinary.com/dm5yrsqdc/image/upload/v1710768034/realtyshopee/project/sj89fgbpjxm4sczcx470.jpg"
+                }
+            ],
+            "BhK_Details": [
+                {
+                    "bhk_type": "3 BHK + 2T + Home Office",
+                    "price": "Call for Price",
+                    "bhk_Area": "1511 - 2486 SQ.FT"
+                },
+                {
+                    "bhk_type": "3 BHK + 3T + Home Office",
+                    "price": "Call for Price",
+                    "bhk_Area": "1708 - 2890 SQ.FT"
+                }
+            ],
+            "highlight": [
+                {
+                    "highlight_Point": "A low-rise cluster of independent floors"
+                },
+                {
+                    "highlight_Point": "Spacious and well lit 3BHK apartments with exclusive elevator access"
+                },
+                {
+                    "highlight_Point": "Expansive windows for a well-lit vibrant home"
+                },
+                {
+                    "highlight_Point": "Modern bathrooms with premium fittings and fixtures"
+                },
+                {
+                    "highlight_Point": "Exclusive home office / media room / personal gym space for 1st, 2nd and 3rd Floors"
+                },
+                {
+                    "highlight_Point": "Exclusive car parking slots for each apartment"
+                },
+                {
+                    "highlight_Point": "Spacious balconies overlooking the landscaped outdoors"
+                }
+            ]
+        },
+        {
+            "frontImage": {
+                "url": "https://res.cloudinary.com/dgplzytrq/image/upload/v1721052228/Ocus-Medley/fldpjxxgb6hkw2q7umvz_tqocls.jpg"
+            },
+            "logo": {
+                "url": "https://res.cloudinary.com/dgplzytrq/image/upload/v1721052198/Ocus-Medley/wpho0kratjqplyaxsow7_onekxc.jpg"
+            },
+            "project_locationImage": {
+                "url": "https://res.cloudinary.com/dgplzytrq/image/upload/v1721052179/Ocus-Medley/anaxr1aiu8xgkmh4aar9_p2piqy.jpg"
+            },
+            "highlightImage": {
+                "url": "https://res.cloudinary.com/dgplzytrq/image/upload/v1721052043/Ocus-Medley/eqkt4olgspzpmtx1vy35_azihxg.jpg"
+            },
+            "projectMaster_plan": {
+                "url": "https://res.cloudinary.com/dgplzytrq/image/upload/v1721052034/Ocus-Medley/istqrn9pj7st2znvsadp_pzwgz1.jpg"
+            },
+            "_id": "65fbddd68f9c07384c169f6f",
+            "project_floorplan_Image": [
+                {
+                    "url": "https://res.cloudinary.com/dgplzytrq/image/upload/v1717586036/Floor%20plan%20image/Background_2_rbunqm.png"
+                },
+                {
+                    "url": "https://res.cloudinary.com/dgplzytrq/image/upload/v1717585460/Floor%20plan%20image/Background_1_lqqpwe.png"
+                },
+                {
+                    "url": "https://res.cloudinary.com/dgplzytrq/image/upload/v1717582876/Floor%20plan%20image/Background_cpb7aq.png"
+                }
+            ],
+            "state": "Haryana",
+            "projectName": "Ocus Medley",
+            "projectAddress": "Sector 99, Dwarka Expressway",
+            "project_description": "Introducing Galleria 99 @ Ocus Medley, the most vibrant mixed-use destination on Dwarka Expressway, Gurgaon. This iconic development offers a unique high-street retail experience, seamlessly integrating a retail complex, multiplex, food court, restaurants, and offices. Strategically located amidst densely populated sectors, Galleria 99 @ Ocus Medley presents a lucrative opportunity for brands to thrive. With its prime position and diverse offerings, this mega development is poised to become the epicenter of entertainment, shopping, and business in the city.",
+            "projectRedefine_Connectivity": [
+                "Strategically located bang on Dwarka Expressway - India's widest expressway connecting Dwarka, Gurgaon and IGI Airport"
+            ],
+            "projectRedefine_Entertainment": [
+                "In close vicinity of AIIMS, Jhajjar, Signature - Super Speciality Hospital, Vibrant Hospital and Sheetla Mata Medical College Gurgaon"
+            ],
+            "projectRedefine_Business": [
+                "Surrounded by large number of residential township and premium group housing"
+            ],
+            "projectRedefine_Education": [
+                "15 min from IGI Airport & NH 48 (Delhi - Jaipur Highway)"
+            ],
+            "meta_description": "Part of a mega high-street development bang on Dwarka Expressway - Gurgaon. The Retail Complex at Ocus Medley is a favorite for brands offering them a high-street retail experience, multiplex, food court, restaurants and offices",
+            "meta_title": "Ocus Medley - Galleria 99 at Sector 99 Gurgaon",
+            "Amenities": [
+                "Advanced Security","24x7 Power Backup","Cafeteria","Waiting Lounge","CCTV Camera Security"
+            ],
+            "projectBgContent": "Ocus Medley - Galleria 99 at Sector 99 Gurgaon",
+            "projectReraNo": "Applied",
+            "type": "Commercial Property",
+            "city": "Gurgaon",
+            "builderName": "Ocus Group",
+            "AboutDeveloper": "At 'OCUS,' we don't just create spaces, we create lifestyles.  'You Think, We Create' is the ethos of our Mission.  As we march towards the future, the essence of the OCUS brand is embodied in our powerful new Vision:  'Your Trust, Our Legacy'",
+            "projectOverview": "none",
+            "project_Status": "readytomove",
+            "schema_type": "project",
+            "project_url": "ocus-medley",
+            "projectGallery": [
+                {
+                    "url": "https://res.cloudinary.com/dm5yrsqdc/image/upload/v1711005138/realtyshopee/project/r6tssjeixdbexqwl7hps.jpg"
+                },
+                {
+                    "url": "https://res.cloudinary.com/dm5yrsqdc/image/upload/v1711005139/realtyshopee/project/pzpb2ukzajeqhrd0xpil.jpg"
+                },
+                {
+                    "url": "https://res.cloudinary.com/dm5yrsqdc/image/upload/v1711005140/realtyshopee/project/zuhrq2d8s5o7f4sf3xs1.jpg"
+                }
+            ],
+            "BhK_Details": [
+                {
+                    "bhk_type": "Shop & Retail",
+                    "price": "Call for Price",
+                    "bhk_Area": "500 - 1000 SQ. FT."
+                }
+            ],
+            "highlight": [
+                {
+                    "highlight_Point": "Spread over approx.4.14 acres"
+                },
+                {
+                    "highlight_Point": "Dedicated Anchor space available on Ground, First Floor"
+                },
+                {
+                    "highlight_Point": "Low maintenance module"
+                },
+                {
+                    "highlight_Point": "3 Screen Multiplex, Food Court, Multi-activity Zone, Restaurants & Family Entertainment Zone"
+                },
+                {
+                    "highlight_Point": "Outdoor Patio, Water Bodies & Amphitheater area for entertainment & performance"
+                },
+                {
+                    "highlight_Point": "High-Speed Escalators and Elevators"
+                },
+                {
+                    "highlight_Point": "Ample Visitor Parking at Surface"
+                }
+            ]
         }
     
   ]
