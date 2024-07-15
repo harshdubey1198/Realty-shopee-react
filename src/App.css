@@ -2539,7 +2539,7 @@ p{
   flex-direction: row;
   align-items: center;
   justify-content: space-between;
-  padding: 0 20px;
+  /* padding: 0 20px; */
   z-index: 11;
   h2{
     color: #eeeeee;
