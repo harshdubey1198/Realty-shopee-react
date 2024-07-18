@@ -35,9 +35,9 @@ function BlogDetail() {
   }, [meta_url]);
 
   useEffect(() => {
-    // Update document title when blog changes
     if (blog) {
       document.title = blog.meta_title || blog.title;
+      document.description= blog.meta_description || blog.description;
     }
   }, [blog]);
 

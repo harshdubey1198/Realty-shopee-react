@@ -106,6 +106,132 @@ const metaTagsConfig = {
   url: "https://www.realtyshopee.com/blogs",
   canonical:"https://www.realtyshopee.com/blogs",
   image: "https://res.cloudinary.com/dgplzytrq/image/upload/v1719492483/Description%20Images/residential-property-in-gurgaon.jpg",
+},
+"/blog/latest-trends-in-new-launch-property-in-gurgaon-the-millenium-city": {
+    url: "https://www.realtyshopee.com/blog/latest-trends-in-new-launch-property-in-gurgaon-the-millenium-city",
+    canonical:"https://www.realtyshopee.com/blog/latest-trends-in-new-launch-property-in-gurgaon-the-millenium-city",
+    image: "https://res.cloudinary.com/dgplzytrq/image/upload/v1719492483/Description%20Images/residential-property-in-gurgaon.jpg",
+    additionalMetaTags: [
+        { name: 'canonical', content: 'https://www.realtyshopee.com/blog/latest-trends-in-new-launch-property-in-gurgaon-the-millenium-city' },
+        { property: 'og:site_name', content: 'Realty Shopee' },
+        { property: 'og:type', content: 'blog' },
+        { property: 'og:title', content: 'Latest Trends in New Launch Property in Gurgaon, The Millenium City' },
+        { property: 'og:description', content: 'Discover the latest trends in new launch properties in Gurgaon. Find out what`s new in the market and how it impacts your investment opportunities.' },
+        { property: 'og:url', content: 'https://www.realtyshopee.com/blog/latest-trends-in-new-launch-property-in-gurgaon-the-millenium-city' },
+        { property: 'og:image', content: 'https://res.cloudinary.com/dgplzytrq/image/upload/v1719492483/Description%20Images/residential-property-in-gurgaon.jpg' },
+        { name: 'twitter:card', content: 'https://res.cloudinary.com/dgplzytrq/image/upload/v1719492483/Description%20Images/residential-property-in-gurgaon.jpg' },
+        { name: 'twitter:site', content: 'Realty Shopee' },
+        { name: 'twitter:type', content: 'blog' },
+        { name: 'twitter:title', content: 'Latest Trends in New Launch Property in Gurgaon, The Millenium City' },
+        { name: 'twitter:description', content: 'Discover the latest trends in new launch properties in Gurgaon. Find out what`s new in the market and how it impacts your investment opportunities.' },
+        { name: 'twitter:url', content: 'https://www.realtyshopee.com/blog/latest-trends-in-new-launch-property-in-gurgaon-the-millenium-city' },
+        { name: 'twitter:image', content: 'https://res.cloudinary.com/dgplzytrq/image/upload/v1719492483/Description%20Images/residential-property-in-gurgaon.jpg' }
+      ]
+},
+"/blog/why-residential-property-in-gurgaon-is-a-great-retirement-option": {
+    url: "https://www.realtyshopee.com/blog/why-residential-property-in-gurgaon-is-a-great-retirement-option",
+    canonical:"https://www.realtyshopee.com/blog/why-residential-property-in-gurgaon-is-a-great-retirement-option",
+    image: "https://res.cloudinary.com/dgplzytrq/image/upload/v1719492483/Description%20Images/residential-property-in-gurgaon.jpg",
+    additionalMetaTags: [
+        { name: 'canonical', content: 'https://www.realtyshopee.com/blog/why-residential-property-in-gurgaon-is-a-great-retirement-option' },
+        { property: 'og:site_name', content: 'Realty Shopee' },
+        { property: 'og:type', content: 'blog' },
+        { property: 'og:title', content: 'Why Residential Property in Gurgaon is a Great Retirement Option?' },
+        { property: 'og:description', content: 'Learn why residential property in Gurgaon makes a great retirement option, offering luxury, convenience, and tranquility. Invest in the best residential property in Gurgaon today' },
+        { property: 'og:url', content: 'https://www.realtyshopee.com/blog/why-residential-property-in-gurgaon-is-a-great-retirement-option' },
+        { property: 'og:image', content: 'https://res.cloudinary.com/dgplzytrq/image/upload/v1719492483/Description%20Images/residential-property-in-gurgaon.jpg' },
+        { name: 'twitter:card', content: 'https://res.cloudinary.com/dgplzytrq/image/upload/v1719492483/Description%20Images/residential-property-in-gurgaon.jpg' },
+        { name: 'twitter:site', content: 'Realty Shopee' },
+        { name: 'twitter:type', content: 'blog' },
+        { name: 'twitter:title', content: 'Why Residential Property in Gurgaon is a Great Retirement Option?' },
+        { name: 'twitter:description', content: 'Learn why residential property in Gurgaon makes a great retirement option, offering luxury, convenience, and tranquility. Invest in the best residential property in Gurgaon today' },
+        { name: 'twitter:url', content: 'https://www.realtyshopee.com/blog/why-residential-property-in-gurgaon-is-a-great-retirement-option' },
+        { name: 'twitter:image', content: 'https://res.cloudinary.com/dgplzytrq/image/upload/v1719492483/Description%20Images/residential-property-in-gurgaon.jpg' }
+      ]
+},
+"/blog/the-benefits-of-investing-in-a-commercial-property-in-gurgaon-for-foreign-investors": {
+    url: "https://www.realtyshopee.com/blog/the-benefits-of-investing-in-a-commercial-property-in-gurgaon-for-foreign-investors",
+    canonical:" https://www.realtyshopee.com/blog/the-benefits-of-investing-in-a-commercial-property-in-gurgaon-for-foreign-investors",
+    image: "https://res.cloudinary.com/dgplzytrq/image/upload/v1719492483/Description%20Images/residential-property-in-gurgaon.jpg",
+    additionalMetaTags: [
+        { name: 'canonical', content: 'https://www.realtyshopee.com/blog/the-benefits-of-investing-in-a-commercial-property-in-gurgaon-for-foreign-investors' },
+        { property: 'og:site_name', content: 'Realty Shopee' },
+        { property: 'og:type', content: 'blog' },
+        { property: 'og:title', content: 'The Benefits of Investing in a Commercial Property in Gurgaon for Foreign Investors' },
+        { property: 'og:description', content: 'Learn why residential property in Gurgaon makes a great retirement option, offering luxury, convenience, and tranquility. Invest in the best residential property in Gurgaon today' },
+        { property: 'og:url', content: 'https://www.realtyshopee.com/blog/the-benefits-of-investing-in-a-commercial-property-in-gurgaon-for-foreign-investors' },
+        { property: 'og:image', content: 'https://res.cloudinary.com/dgplzytrq/image/upload/v1719492483/Description%20Images/residential-property-in-gurgaon.jpg' },
+        { name: 'twitter:card', content: 'https://res.cloudinary.com/dgplzytrq/image/upload/v1719492483/Description%20Images/residential-property-in-gurgaon.jpg' },
+        { name: 'twitter:site', content: 'Realty Shopee' },
+        { name: 'twitter:type', content: 'blog' },
+        { name: 'twitter:title', content: 'The Benefits of Investing in a Commercial Property in Gurgaon for Foreign Investors' },
+        { name: 'twitter:description', content: 'Learn why residential property in Gurgaon makes a great retirement option, offering luxury, convenience, and tranquility. Invest in the best residential property in Gurgaon today' },
+        { name: 'twitter:url', content: 'https://www.realtyshopee.com/blog/the-benefits-of-investing-in-a-commercial-property-in-gurgaon-for-foreign-investors' },
+        { name: 'twitter:image', content: 'https://res.cloudinary.com/dgplzytrq/image/upload/v1719492483/Description%20Images/residential-property-in-gurgaon.jpg' }
+      ]
+},
+"/blog/sco-plots-in-gurgaon:-a-better-choice-than-traditional-office-spaces": {
+    url: "https://www.realtyshopee.com/blog/sco-plots-in-gurgaon:-a-better-choice-than-traditional-office-spaces",
+    canonical:"https://www.realtyshopee.com/blog/sco-plots-in-gurgaon:-a-better-choice-than-traditional-office-spaces",
+    image: "https://res.cloudinary.com/dgplzytrq/image/upload/v1719492483/Description%20Images/residential-property-in-gurgaon.jpg",
+    additionalMetaTags: [
+        { name: 'canonical', content: 'https://www.realtyshopee.com/blog/sco-plots-in-gurgaon:-a-better-choice-than-traditional-office-spaces' },
+        { property: 'og:site_name', content: 'Realty Shopee' },
+        { property: 'og:type', content: 'blog' },
+        { property: 'og:title', content: 'Commercial and Residential Property in Gurgaon: Key Insights and Trends from FY24 Land Deals' },
+        { property: 'og:description', content: 'Find SCO plots in Gurgaon within your budget with Realty Shopee, India`s No.1 real estate management company in gurgaon. Get complete details of Shop-cum-offices.' },
+        { property: 'og:url', content: 'https://www.realtyshopee.com/blog/sco-plots-in-gurgaon:-a-better-choice-than-traditional-office-spaces' },
+        { property: 'og:image', content: 'https://res.cloudinary.com/dgplzytrq/image/upload/v1719492483/Description%20Images/residential-property-in-gurgaon.jpg' },
+        { name: 'twitter:card', content: 'https://res.cloudinary.com/dgplzytrq/image/upload/v1719492483/Description%20Images/residential-property-in-gurgaon.jpg' },
+        { name: 'twitter:site', content: 'Realty Shopee' },
+        { name: 'twitter:type', content: 'blog' },
+        { name: 'twitter:title', content: 'Commercial and Residential Property in Gurgaon: Key Insights and Trends from FY24 Land Deals' },
+        { name: 'twitter:description', content: 'Find SCO plots in Gurgaon within your budget with Realty Shopee, India`s No.1 real estate management company in gurgaon. Get complete details of Shop-cum-offices.' },
+        { name: 'twitter:url', content: 'https://www.realtyshopee.com/blog/sco-plots-in-gurgaon:-a-better-choice-than-traditional-office-spaces' },
+        { name: 'twitter:image', content: 'https://res.cloudinary.com/dgplzytrq/image/upload/v1719492483/Description%20Images/residential-property-in-gurgaon.jpg' }
+      ]
+},
+"/blog/commercial-and-residential-property-in-gurgaon:-key-insights-and-trends-from-fy24-land-deals": {
+    url: "https://www.realtyshopee.com/blog/commercial-and-residential-property-in-gurgaon:-key-insights-and-trends-from-fy24-land-deals",
+    canonical:"https://www.realtyshopee.com/blog/commercial-and-residential-property-in-gurgaon:-key-insights-and-trends-from-fy24-land-deals",
+    image: "https://res.cloudinary.com/dgplzytrq/image/upload/v1719492483/Description%20Images/residential-property-in-gurgaon.jpg",
+    additionalMetaTags: [
+        { name: 'canonical', content: 'https://www.realtyshopee.com/blog/commercial-and-residential-property-in-gurgaon:-key-insights-and-trends-from-fy24-land-deals' },
+        { property: 'og:site_name', content: 'Realty Shopee' },
+        { property: 'og:type', content: 'blog' },
+        { property: 'og:title', content: 'Commercial and Residential Property in Gurgaon: Key Insights and Trends from FY24 Land Deals' },
+        { property: 'og:description', content: 'If you`re hunting for commercial and commercial properties in Gurgaon, you`re in the right place! Realty Shopee offers a range of affordable and convenient properties available in Gurugram.' },
+        { property: 'og:url', content: 'https://www.realtyshopee.com/blog/commercial-and-residential-property-in-gurgaon:-key-insights-and-trends-from-fy24-land-deals' },
+        { property: 'og:image', content: 'https://res.cloudinary.com/dgplzytrq/image/upload/v1719492483/Description%20Images/residential-property-in-gurgaon.jpg' },
+        { name: 'twitter:card', content: 'https://res.cloudinary.com/dgplzytrq/image/upload/v1719492483/Description%20Images/residential-property-in-gurgaon.jpg' },
+        { name: 'twitter:site', content: 'Realty Shopee' },
+        { name: 'twitter:type', content: 'blog' },
+        { name: 'twitter:title', content: 'Commercial and Residential Property in Gurgaon: Key Insights and Trends from FY24 Land Deals' },
+        { name: 'twitter:description', content: 'If you`re hunting for commercial and commercial properties in Gurgaon, you`re in the right place! Realty Shopee offers a range of affordable and convenient properties available in Gurugram.' },
+        { name: 'twitter:url', content: 'https://www.realtyshopee.com/blog/commercial-and-residential-property-in-gurgaon:-key-insights-and-trends-from-fy24-land-deals' },
+        { name: 'twitter:image', content: 'https://res.cloudinary.com/dgplzytrq/image/upload/v1719492483/Description%20Images/residential-property-in-gurgaon.jpg' }
+      ]
+},
+"/blog/dwarka-expressway-inauguration:-the-impact-on-residential-&-commercial-property-in-gurgaon": {
+    url: "https://www.realtyshopee.com/blog/dwarka-expressway-inauguration:-the-impact-on-residential-&-commercial-property-in-gurgaon",
+    canonical:"https://www.realtyshopee.com/blog/dwarka-expressway-inauguration:-the-impact-on-residential-&-commercial-property-in-gurgaon",
+    image: "https://res.cloudinary.com/dgplzytrq/image/upload/v1719492483/Description%20Images/residential-property-in-gurgaon.jpg",
+    additionalMetaTags: [
+        { name: 'canonical', content: 'https://www.realtyshopee.com/blog/dwarka-expressway-inauguration:-the-impact-on-residential-&-commercial-property-in-gurgaon' },
+        { property: 'og:site_name', content: 'Realty Shopee' },
+        { property: 'og:type', content: 'blog' },
+        { property: 'og:title', content: 'Dwarka Expressway Inauguration: The Impact on Residential & Commercial Property in Gurgaon' },
+        { property: 'og:description', content: 'Dwarka Expressway boosts connectivity, driving growth in residential & commercial property in Gurgaon. Explore the impact on real estate values & market trends.' },
+        { property: 'og:url', content: 'https://www.realtyshopee.com/blog/dwarka-expressway-inauguration:-the-impact-on-residential-&-commercial-property-in-gurgaon' },
+        { property: 'og:image', content: 'https://res.cloudinary.com/dgplzytrq/image/upload/v1719492483/Description%20Images/residential-property-in-gurgaon.jpg' },
+        { name: 'twitter:card', content: 'https://res.cloudinary.com/dgplzytrq/image/upload/v1719492483/Description%20Images/residential-property-in-gurgaon.jpg' },
+        { name: 'twitter:site', content: 'Realty Shopee' },
+        { name: 'twitter:type', content: 'blog' },
+        { name: 'twitter:title', content: 'Dwarka Expressway Inauguration: The Impact on Residential & Commercial Property in Gurgaon' },
+        { name: 'twitter:description', content: 'Dwarka Expressway boosts connectivity, driving growth in residential & commercial property in Gurgaon. Explore the impact on real estate values & market trends.' },
+        { name: 'twitter:url', content: 'https://www.realtyshopee.com/blog/dwarka-expressway-inauguration:-the-impact-on-residential-&-commercial-property-in-gurgaon' },
+        { name: 'twitter:image', content: 'https://res.cloudinary.com/dgplzytrq/image/upload/v1719492483/Description%20Images/residential-property-in-gurgaon.jpg' }
+      ]
 }
 };
 
