@@ -645,8 +645,10 @@ a {
 }
 .blog-banner{
   width: 100%;
+  padding: 10px 0;
+  border-radius: 10px;
   height: 170px ;
-  object-fit: contain;
+  object-fit:fill;
 }
 
 .blog-opener{
@@ -1919,13 +1921,14 @@ option{
 }
 /* blogs  */
 .blogs-main{
-  min-height: 90vh;
-  height: 100%;position: relative;
+  /* min-height: 90vh; */
+  height: 100%;
+  position: relative;
 }
 .bls{
   position: absolute;
   transform:translate( -50% , 55px);
-  top: 50%;
+  top: 60%;
   left:50%;
   padding: 5px;
   color: white;
@@ -1943,18 +1946,23 @@ option{
 .blog-list{
   display: flex;
   flex-wrap: wrap;
-  margin-top: 65px;
   gap: 20px;
   justify-content: center;
   padding: 20px;
   align-items: center;
-  min-height: 90vh;
+  min-height: 400px;
+  height: 100%;
+}
+.blog-category-header{
+  margin-top: 75px;
+  text-align: center;
+  padding: 0 40px;
 }
 .blog-card{
   background: #daedff;
   width: 300px;
-  height: 310px;
-  padding: 20px 20px 40px 20px;
+  height: 320px;
+  padding: 0px 20px 60px 20px;
   position: relative;
   border-radius: 20px;
   h5{

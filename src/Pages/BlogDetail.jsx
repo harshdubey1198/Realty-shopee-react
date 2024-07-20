@@ -81,9 +81,9 @@ function BlogDetail() {
   const renderCategoryLink = (category) => {
     switch (category) {
       case 'residential':
-        return <Link to="/residential-property-in-gurgaon" style={{ color: 'blue', textDecoration: 'underline' }}>Residential Properties</Link>;
+        return <Link to="/residential-blogs" style={{ color: 'blue', textDecoration: 'underline' }}>Residential Properties</Link>;
       case 'commercial':
-        return <Link to="/commercial-property-in-gurgaon" style={{ color: 'blue', textDecoration: 'underline' }}>Commercial Properties</Link>;
+        return <Link to="/commercial-blogs" style={{ color: 'blue', textDecoration: 'underline' }}>Commercial Properties</Link>;
       case 'sco':
         return <Link to="/SCO-Plots-in-gurgaon" style={{ color: 'blue', textDecoration: 'underline' }}>SCO Properties</Link>;
       default:
