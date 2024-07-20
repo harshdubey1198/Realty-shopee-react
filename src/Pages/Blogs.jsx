@@ -49,7 +49,7 @@ function Blogs() {
         <a href='/contactus' target="_blank"><span>Contact Us</span><span><FcQuestions/></span></a>
         <a href="tel:+919289252999"><span>+91 9289252999</span><span><FcPhone className='phone'/></span></a>
       </header>
-      <div className="blog-list">
+      <div className="blog-list bt-60">
         {blogs.length > 0 ? (
           blogs.map(blog => (
             <BlogCard key={blog._id} blog={blog} />

@@ -1958,6 +1958,9 @@ option{
   text-align: center;
   padding: 0 40px;
 }
+.bt-60{
+  margin-top: 60px !important;
+}
 .blog-card{
   background: #daedff;
   width: 300px;
