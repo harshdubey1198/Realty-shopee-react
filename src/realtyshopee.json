@@ -3406,8 +3406,165 @@
                     "bhk_Area": "2525 SQ.FT."
                 }
             ]
-        }
-
-    
+        },
+        {
+            "frontImage": {
+                "url": "https://res.cloudinary.com/harshdubey1198/image/upload/v1721551430/oh4i3bbpfgjkamuhek1y_gm6mzr.webp"
+            },
+            "logo": {
+                "url": "https://res.cloudinary.com/harshdubey1198/image/upload/v1721551439/a4ykn8mbqes2y071hlc6_yqhh0t.png"
+            },
+            "project_locationImage": {
+                "url": "https://res.cloudinary.com/harshdubey1198/image/upload/v1721551447/tmgs9cdzzbgm5im4srxk_gg8nb1.jpg"
+            },
+            "highlightImage": {
+                "url": "https://res.cloudinary.com/harshdubey1198/image/upload/v1721551456/ioafg9gyxk8avfbdbxed_fz1fh9.jpg"
+            },
+            "projectMaster_plan": {
+                "url": "https://res.cloudinary.com/harshdubey1198/image/upload/v1721551465/tqmpkwhavp1d9sdi9msc_fhehmk.jpg"
+            },
+            "projectGallery": [],
+            "_id": "65cb131beb1f1458ae075478",
+            "project_floorplan_Image": [
+                {
+                    "url": "https://res.cloudinary.com/harshdubey1198/image/upload/v1721551637/btvkdcivpj5vlcuvuw98_ngx5ug.jpg"
+                },
+                {
+                    "url": "https://res.cloudinary.com/harshdubey1198/image/upload/v1721551646/bws7zhbysmcn2og00hft_oi9ylt.jpg"
+                },
+                {
+                    "url": "https://res.cloudinary.com/harshdubey1198/image/upload/v1721551653/hzfwo04nwal2lkrpgj8e_bzrxv3.jpg"
+                },
+                {
+                    "url": "https://res.cloudinary.com/harshdubey1198/image/upload/v1721551670/wtulziueznymqzuyvb7e_yrvr2b.jpg"
+                },
+                {
+                    "url": "https://res.cloudinary.com/harshdubey1198/image/upload/v1721551680/tfpsidzrk78mpucn4tlp_nswcso.jpg"
+                },
+                {
+                    "url": "https://res.cloudinary.com/harshdubey1198/image/upload/v1721551695/o9bqmldeqscgz3jlewuw_hevw9f.jpg"
+                },
+                {
+                    "url": "https://res.cloudinary.com/harshdubey1198/image/upload/v1721551702/s4fxsjupq79j9r9puk4r_u6mqpk.jpg"
+                }
+            ],
+            "state": "Haryana",
+            "projectName": "Godrej Air",
+            "projectAddress": "Sector 85",
+            "project_description": "Discover a world-class lifestyle at Godrej Air Sector 85, Gurgaon, where every aspect is designed for your utmost convenience. Nestled in Sector 85, Gurgaon, Godrej 85 Gurgaon offers premium 2, 3, and 4 BHK residences surrounded by expansive green landscapes. Designed for contemporary living pleasures, these homes are a testament to comfort, offering tranquility away from the city's hustle and bustle. Awarded as the 'Most Promising Upcoming Project of the Year – North India', Godrej Sector 85 Gurgaon stands out for its superior amenities. With 5 elegant towers housing 511 apartments, it is ideally located just 1.5 km from Dwarka Expressway and 400 meters from Pataudi Road, ensuring easy access to every destination. At Godrej Air Gurgaon, we prioritize your well-being with 10X* enriched air quality. Whether indoors or outdoors, every breath you take is imbued with the freshness of purifying plants and the fragrance of flowering trees. Experience the freshest air in Gurgaon at Godrej Air.",
+            "projectRedefine_Connectivity": [
+                "30 minutes away from Rajiv Chowk & Hero Honda Chowk"
+            ],
+            "projectRedefine_Entertainment": [
+                "8 minutes drive time to Sapphire Mall - Sector 83"
+            ],
+            "projectRedefine_Business": [
+                "15 minutes drive time to Eros Corporate Park - Sector 2"
+            ],
+            "projectRedefine_Education": [
+                "6 minutes drive time to Delhi Public School - Sector 84"
+            ],
+            "meta_description": "Godrej Properties Launch New Luxury Project Godrej Air Gurgaon in Sector 85 New Gurgaon, Call 9289252999 for Godrej Air Booking Price n Payment Plan",
+            "meta_title": "Godrej Air Gurgaon New Apartment in Sector 85 Gurgaon",
+            "Amenities": [
+                "Provides","Modern","Amenities"
+            ],
+            "projectBgContent": "Godrej Air Gurgaon",
+            "projectReraNo": "32/2018",
+            "type": "Residential Property",
+            "city": "Gurgaon",
+            "builderName": "Godrej Properties",
+            "AboutDeveloper": "Godrej Properties brings the Godrej Group philosophy of innovation and excellence to the real estate industry. The company is currently developing landmark projects in 12 cities across India. Established in 1990, Godrej Properties Limited is the first real estate company to have ISO certification. With projects that span across the country, the company's upcoming development covers over 8 million square meters. To create landmark structures, Godrej Properties collaborates with outstanding associates and reputed names. The company aims to deliver superior value to all stakeholders through extraordinary and imaginative spaces created out of deep customer focus and insight.",
+            "projectOverview": "none",
+            "schema_type": "project",
+            "project_url": "godrej-air",
+            "BhK_Details": [
+                {
+                    "bhk_type": "2 BHK",
+                    "price": "₹ 0.83 - 0.92 Cr",
+                    "bhk_Area": "1400 SQ.FT"
+                },
+                {
+                    "bhk_type": "3 BHK",
+                    "price": "₹ 1.12 - 1.23 Cr",
+                    "bhk_Area": "1830 SQ.FT"
+                },
+                {
+                    "bhk_type": "3 BHK + Utility",
+                    "price": "₹ 1.41 - 1.49 Cr",
+                    "bhk_Area": "2150 SQ.FT"
+                },
+                {
+                    "bhk_type": "4 BHK + Utility",
+                    "price": "₹ 1.71 - 1.84 Cr",
+                    "bhk_Area": "2600 SQ.FT"
+                }
+            ]
+        },
+        {
+            "frontImage": {
+                "url": "https://res.cloudinary.com/harshdubey1198/image/upload/v1721552376/vchgvzjsuywfzwsgjda0_criihk.jpg"
+            },
+            "logo": {
+                "url": "https://res.cloudinary.com/harshdubey1198/image/upload/v1721552383/ce4eb32sbsppwpahoski_vthepn.jpg"
+            },
+            "project_locationImage": {
+                "url": "https://res.cloudinary.com/harshdubey1198/image/upload/v1721552391/wuwvcgiez0jmatz06abr_kxb0fw.jpg"
+            },
+            "highlightImage": {
+                "url": "https://res.cloudinary.com/harshdubey1198/image/upload/v1721552400/fxadek9fhd0mntuopsyr_j1onhv.jpg"
+            },
+            "projectMaster_plan": {
+                "url": "https://res.cloudinary.com/harshdubey1198/image/upload/v1721552413/eprmk4c4qzrk708l4ot8_qqrmxy.jpg"
+            },
+            "projectGallery": [],
+            "_id": "65cb6d2744c2c2b8e0184fd3",
+            "project_floorplan_Image": [
+                {
+                    "url": "https://res.cloudinary.com/harshdubey1198/image/upload/v1721552474/qknivhwl3x6rm5bsk4dv_shtqcc.jpg"
+                },
+                {
+                    "url": "https://res.cloudinary.com/harshdubey1198/image/upload/v1721552483/ptk4plkzdsi0ii35qths_fxsxhi.jpg"
+                },
+                {
+                    "url": "https://res.cloudinary.com/harshdubey1198/image/upload/v1721552534/uwnwccgdllne4tmyfwqr_u3clhc.jpg"
+                },
+                {
+                    "url": "https://res.cloudinary.com/harshdubey1198/image/upload/v1721552546/x7dddozrqfchp7qkkixk_fmbaha.jpg"
+                }
+            ],
+            "state": "Haryana",
+            "projectName": "M3M Atrium 57",
+            "projectAddress": "Sector 57",
+            "project_description": "Welcome to Gurgaon, a symbol of newly prosperous India, gleaming with shopping malls and five-star hotels. Positioned in the heart of this vibrant city, M3M Atrium Sector 57 Gurgaon epitomizes class and prestige. Surrounded by renowned educational institutions, malls, and hospitals, it offers a prime location for business and leisure. M3M Atrium will host a diverse array of global brands, creating an international shopping experience right at your doorstep. Enjoy easy access to the latest in faon, retail, and dining, all within a structured environment designed to cater to your every need.",
+            "projectRedefine_Connectivity": [
+                "Clover,Leaf,will,connect,NH,48,SPR,and,the,Central,Peripheral,Road,"
+            ],
+            "projectRedefine_Entertainment": [
+                "The,project,is,located,near,residential,neighborhoods,,malls,,and,entertainment,areas,,making,it,the,most,excellent,saleable,property,in,Gurgaon."
+            ],
+            "projectRedefine_Business": [
+                "Gurgaon's,top,commercial,property,is,close,to,the,Golf,Course,Extension,Road,and,Sohna,Road."
+            ],
+            "projectRedefine_Education": [
+                "Medanta,,Medicity,,Fortis,,and,Max,are,just,a,15-minute,drive,from,the,M3M,sector,57,Gurgaon,project."
+            ],
+            "meta_description": "M3M Launch M3M Atrium 57 Luxury Commercial Projects in Sector 57 Gurgaon. M3M Atrium 57 Offer Luxury Commercial Spaces, Retail Shop in Sector 57 Gurgaon",
+            "meta_title": "M3M Atrium 57, Luxury Commercial Space Sector 57 Gurgaon",
+            "Amenities": [
+                "Service / Goods Lift","Security / Fire Alarm","Power Back-up","Lift(s)","ATM","Maintenance Staff","WheelChair Accessibilitiy","CCTV Surveillance","Bank Attached Property","Visitor Parking","Security Personnel","Shopping Centre","Grocery Shop"
+            ],
+            "projectBgContent": "M3M ATRIUM 57 SECTOR 57 GURGAON",
+            "projectReraNo": "81/2021",
+            "type": "Commercial Property",
+            "city": "Gurgaon",
+            "builderName": "M3M India",
+            "AboutDeveloper": "The Brand ‘M3M’ stands for magnificence in the trinity of Men, Materials and Money. Simply put, the Brand ‘M3M’ has a philosophy that strives for excellence, culminating in absolute magnificence in every aspect of its character, ethics and way of doing business. What the brand stands for is in sync with its slogan of “Our Expertise. Your Joy.” The Brand ‘M3M’ firmly believes in achieving brilliance through true professionalism and cutting-edge technology.",
+            "projectOverview": "none",
+            "schema_type": "project",
+            "project_url": "m3m-atrium-57",
+            "BhK_Details": []
+            
+        }    
   ]
 }
