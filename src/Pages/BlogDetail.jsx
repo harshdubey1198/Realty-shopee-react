@@ -151,7 +151,7 @@ function BlogDetail() {
     <div className="blog-detail">
       <Helmet>
         <title>{blog.meta_title || blog.title}</title>
-        <link rel="canonical" href={`https://www.realtyshopee.com/blogs/${meta_url}`} />
+        <link rel="canonical" href={`https://www.realtyshopee.com/blog/${meta_url}`} />
         <meta name="description" content={blog.meta_description || blog.description} />
         <meta name="keywords" content={(blog.meta_keywords || []).join(', ')} />
       </Helmet>
