@@ -55,7 +55,7 @@ function Residential() {
         Residential Properties
         <img src={resIcon} alt="Residential" className='section-icon'/>
       </h4>
-      <a href="/residential-property-in-gurgaon" className='view-all'>View All</a>
+      <a href="/residential-property-in-gurgaon" target="_blank" className='view-all'>View All</a>
       <div className="projects-container">
         {projectData.map((project, index) => (
           <Link key={project.projectName} to={`/property/${project.projectName}`} className='projects-c-a' target="_blank" rel="noopener noreferrer">
