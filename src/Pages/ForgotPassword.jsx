@@ -8,7 +8,7 @@ const ForgotPassword = () => {
 
   const handleSubmit = async (e) => {
     e.preventDefault();
-    const url = 'http://localhost:10/forgot-password';
+    const url = 'https://realty-react-backend.onrender.com/forgot-password';
     try {
       const response = await fetch(url, {
         method: 'POST',

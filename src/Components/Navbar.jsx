@@ -25,7 +25,7 @@ function Navbar() {
     localStorage.removeItem('username');
     setUsername(null);
     navigate('/login');
-    fetch('http://localhost:10/logout', {
+    fetch('https://realty-react-backend.onrender.com/logout', {
       method: 'POST',
     })
       .then(response => response.json())

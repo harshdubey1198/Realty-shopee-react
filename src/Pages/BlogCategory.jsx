@@ -15,7 +15,7 @@ const BlogCategory = ({ category, title, heading, description }) => {
   useEffect(() => {
     const fetchBlogs = async () => {
       try {
-        const response = await axios.get(`http://localhost:10/blogs/category/${category}`);
+        const response = await axios.get(`https://realty-react-backend.onrender.com/blogs/category/${category}`);
         setBlogs(response.data);
       } catch (error) {
         console.error('Error fetching blogs:', error);

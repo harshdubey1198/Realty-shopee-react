@@ -25,7 +25,7 @@ const Overlay = ({ onClose, onFormSubmit }) => {
     event.preventDefault();
 
     try {
-      const response = await fetch('http://localhost:10/query-form', {
+      const response = await fetch('https://realty-react-backend.onrender.com/query-form', {
         method: 'POST',
         headers: {
           'Content-Type': 'application/json'

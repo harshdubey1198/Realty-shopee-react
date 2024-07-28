@@ -24,7 +24,7 @@ function MidForm() {
     
     try {
       const response = await fetch(
-        "http://localhost:10/query-form",
+        "https://realty-react-backend.onrender.com/query-form",
         {
           method: "POST",
           headers: {

@@ -61,7 +61,7 @@ const AddProject =() => {
                 }
             }
 
-            const response = await fetch('http://localhost:10/property/add', {
+            const response = await fetch('https://realty-react-backend.onrender.com/property/add', {
                 method: 'POST',
                 body: formData
             });

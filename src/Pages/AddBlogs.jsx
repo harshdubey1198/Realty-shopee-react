@@ -56,7 +56,7 @@ const AddBlogs = ({ auth }) => {
     e.preventDefault();
 
     try {
-      const response = await axios.post('http://localhost:10/add-blogs', {
+      const response = await axios.post('https://realty-react-backend.onrender.com/add-blogs', {
         title,
         description: JSON.stringify(description),
         featureImage,
@@ -209,7 +209,6 @@ const AddBlogs = ({ auth }) => {
             type="text"
             value={url}
             onChange={(e) => setUrl(e.target.value)}
-            required
           />
         </div>
         <div>

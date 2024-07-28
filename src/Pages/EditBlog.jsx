@@ -30,7 +30,7 @@ const EditBlog = () => {
   useEffect(() => {
     const fetchBlog = async () => {
       try {
-        const response = await axios.get(`http://localhost:10/blogs/${blogTitle}`);
+        const response = await axios.get(`https://realty-react-backend.onrender.com/blogs/${blogTitle}`);
         setBlog(response.data);
         setTitle(response.data.title);
         setDescription(JSON.parse(response.data.description));
@@ -76,7 +76,7 @@ const EditBlog = () => {
     e.preventDefault();
 
     try {
-      const response = await axios.put(`http://localhost:10/blogs/:${blogTitle}`, {
+      const response = await axios.put(`https://realty-react-backend.onrender.com/blogs/:${blogTitle}`, {
         title,
         description: JSON.stringify(description),
         featureImage,
