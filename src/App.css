@@ -2166,6 +2166,12 @@ p{
   }
 }
 /* edit blogs div */
+.editor-section   form {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  align-items: center;
+}
 .editor-section{
   width: 100%;
   display: flex;
