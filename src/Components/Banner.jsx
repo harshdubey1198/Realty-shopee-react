@@ -29,7 +29,7 @@ const Banner = () => {
 
   const handleSuggestionClick = (projectName) => {
     setQuery('');
-    navigate(`/projects/${projectName}`);
+    navigate(`/property/${projectName}`);
   };
 
   return (

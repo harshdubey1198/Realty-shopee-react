@@ -40,7 +40,7 @@ function Blogs() {
       <ScrollToTop/>
       <Helmet>
         <link rel="canonical" href={`https://www.realtyshopee.com/blogs`} />
-        <title>Blogs - Realty Shopee</title>
+        <title>Realty Shopee Blogs: Expert Real Estate Insights in Gurgaon</title>
         <link rel="icon" href="https://res.cloudinary.com/dgplzytrq/image/upload/v1720260452/Builders/r_logo_pz8qnp.png" />
       </Helmet>
       <header className='pd-nav blue-nav'>
@@ -49,7 +49,7 @@ function Blogs() {
         <a href='/contactus' target="_blank"><span>Contact Us</span><span><FcQuestions/></span></a>
         <a href="tel:+919289252999"><span>+91 9289252999</span><span><FcPhone className='phone'/></span></a>
       </header>
-      <div className="blog-list">
+      <div className="blog-list bt-60">
         {blogs.length > 0 ? (
           blogs.map(blog => (
             <BlogCard key={blog._id} blog={blog} />

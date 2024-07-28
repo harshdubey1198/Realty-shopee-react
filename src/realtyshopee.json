@@ -2240,7 +2240,1331 @@
                     "highlight_Point":""
                 }
             ]
-         }
-    
+         },
+         {
+            "frontImage": {
+                "url": "https://res.cloudinary.com/dgplzytrq/image/upload/v1720966050/Godrej%20Arista/972fdf1bac24b2f7e70f6e4a9e4fe7_zbgukg.jpg"
+            },
+            "logo": {
+                "url": "https://res.cloudinary.com/dgplzytrq/image/upload/v1720965793/Godrej%20Arista/GPL_Logo_tiak7g.jpg"
+            },
+            "project_locationImage": {
+                "url": "https://res.cloudinary.com/dgplzytrq/image/upload/v1720966194/Godrej%20Arista/godrej-arista-location-advantage_b8momo.jpg"
+            },
+            "highlightImage": {
+                "url": "https://res.cloudinary.com/dgplzytrq/image/upload/v1720966754/Godrej%20Arista/rjt9s45tocfdqro3ylok_hya6yu.jpg"
+            },
+            "projectMaster_plan": {
+                "url": "https://res.cloudinary.com/dgplzytrq/image/upload/v1720966909/Godrej%20Arista/e236381b35b82730623b98fa2b68e0_i5onjs.jpg"
+            },
+            "projectGallery": [],
+            "_id": "65d0471ec396ee78956928e0",
+            "project_floorplan_Image": [
+                {
+                    "url": "https://res.cloudinary.com/dgplzytrq/image/upload/v1720966986/Godrej%20Arista/lwdkpbof4uqwnoiohryf_h8m5yd.jpg"
+                },
+                {
+                    "url": "https://res.cloudinary.com/dgplzytrq/image/upload/v1720966986/Godrej%20Arista/lwdkpbof4uqwnoiohryf_h8m5yd.jpg"
+                },
+                {
+                    "url": "https://res.cloudinary.com/dgplzytrq/image/upload/v1720967006/Godrej%20Arista/lwdkpbof4uqwnoiohryf_cgfss3.jpg"
+                }
+            ],
+            "state": "Haryana",
+            "projectName": "Godrej Arista",
+            "projectAddress": "Sector 79, Dwarka Expressway",
+            "project_description": "Discover luxurious living at Godrej Arista Sector 79 Gurgaon, offering lavish 2 & 3.5 BHK apartments designed for comfort and elegance. Enjoy a host of amenities including a clubhouse, swimming pool, gymnasium, children's play area, landscaped gardens, 24x7 security, and more, ensuring a delightful living experience.",
+            "projectRedefine_Connectivity": [
+                "Dwarka,Expressway"
+            ],
+            "projectRedefine_Entertainment": [
+                "Signature,Global,Signum,79"
+            ],
+            "projectRedefine_Business": [
+                "M3M,Antalya,Hills"
+            ],
+            "projectRedefine_Education": [
+                "L.S.,Convent,School"
+            ],
+            "meta_description": "Godrej Arista Sector 79 Gurgaon offers luxurious 2 and 3.5 BHK apartments. The apartments are designed to provide inhabitants with a comfortable and luxurious living experience.",
+            "meta_title": "Godrej Arista Sector 79 Gurgaon - Godrej New Launch",
+            "Amenities": [
+                "Car Parking","Advanced Security","CCTV Camera Security","Club House","Gym","Jogging Track","Elevator Lobby","Park","24x7 Power Backup","Swimming Pool"
+            ],
+            "projectBgContent": "Godrej Arista Sector 79 Gurgaon - Godrej New Launch",
+            "projectReraNo": "Applied",
+            "type": "Residential Property",
+            "city": "Gurgaon",
+            "builderName": "Godrej",
+            "AboutDeveloper": "Godrej Properties is currently developing residential, commercial and township projects spread across approximately 14 million square meters (147 million square feet) in 12 cities. Godrej Properties brings the Godrej Group philosophy of innovation, sustainability and excellence to the real estate industry. Established in 1990, Godrej Properties Limited is the first real estate company to have ISO certification. Each Godrej Properties development combines a 120-year legacy of excellence and trust with a commitment to cutting-edge design and technology.",
+            "projectOverview": "none",
+            "schema_type": "project",
+            "project_url": "godrej-arista",
+            "BhK_Details": [
+                {
+                    "bhk_type": "2 BHK",
+                    "price": "Call for Price",
+                    "bhk_Area": "1650 SQ.FT."
+                },
+                {
+                    "bhk_type": "2.5 BHK",
+                    "price": "Call for Price",
+                    "bhk_Area": "1700 SQ.FT."
+                },
+                {
+                    "bhk_type": "3 BHK",
+                    "price": "Call for Price",
+                    "bhk_Area": "2100 SQ.FT."
+                },
+                {
+                    "bhk_type": "3.5 BHK",
+                    "price": "Call for Price",
+                    "bhk_Area": "2370 SQ.FT."
+                }
+            ]
+        },  {
+            "frontImage": {
+                "url": "https://res.cloudinary.com/dgplzytrq/image/upload/v1719580115/Anantraj/a7e100e5-72b0-4bf2-a77a-c5e4949ac7da_cover_epkmma.jpg"
+            },
+            "logo": {
+                "url": "https://res.cloudinary.com/dgplzytrq/image/upload/v1720967864/Anantraj/mmkqouf5ptfbuy1xh4i1_ezj2mv.png"
+            },
+            "project_locationImage": {
+                "url": "https://res.cloudinary.com/dgplzytrq/image/upload/v1720967900/Anantraj/aifgtbglcjewde8apvos_lpo0pf.jpg"
+            },
+            "highlightImage": {
+                "url": "https://res.cloudinary.com/dgplzytrq/image/upload/v1720967929/Anantraj/qigswtkptkphz50jrcdq_zulqh2.jpg"
+            },
+            "projectMaster_plan": {
+                "url": "https://res.cloudinary.com/dgplzytrq/image/upload/v1720967960/Anantraj/chivgbqxychtc2qhap8h_hnljfx.jpg"
+            },
+            "_id": "65f15e7a6e0532e1def9db6f",
+            "project_floorplan_Image": [
+                {
+                    "url": "https://res.cloudinary.com/dgplzytrq/image/upload/v1720967988/Anantraj/apwpet1yidhzbwlc1eij_ipvghz.jpg"
+                },
+                {
+                    "url": "https://res.cloudinary.com/dgplzytrq/image/upload/v1720968026/Anantraj/kbk1dkj9z5ka5byuawzv_wgl4s6.jpg"
+                },
+                {
+                    "url": "https://res.cloudinary.com/dgplzytrq/image/upload/v1720968045/Anantraj/cxcgxgeomnwfbxukywyp_zjaqrv.jpg"
+                },
+                {
+                    "url": "https://res.cloudinary.com/dgplzytrq/image/upload/v1720968080/Anantraj/hiqa4h7kw1mp3z2ftctx_httmib.jpg"
+                }
+            ],
+            "state": "Haryana",
+            "projectName": "AnantRaj The Estate",
+            "projectAddress": "Sector 63A, Southern Peripheral Road",
+            "project_description": "The Estate Residences by Anant Raj Limited is a distinctive condominium complex designed to embody Indian values, offering unobstructed views of the protected Aravali Range. Comprising 4 towers with over 30 floors each, it features 248 bespoke units and 750 car parking spaces, meticulously crafted to enhance your quality of life. With amenities like a party lawn, walking garden, outdoor theatre, swing court, and dedicated zones for seniors, every aspect ensures a secure and serene living environment. Located on Golf Course Road, Gurgaon, The Estate Residences promises elegance and comfort, redefining luxury living in a prime location.",
+            "projectRedefine_Connectivity": [
+                "2.4 KMS(6 MINS) HOTEL GRAND HATT"
+            ],
+            "projectRedefine_Entertainment": [
+                "6.4 KMS(15 MINS) SOUTH POINT MALL"
+            ],
+            "projectRedefine_Business": [
+                "3.5 KMS(8 MINS) MARENGO ASIA HOSPITAL"
+            ],
+            "projectRedefine_Education": [
+                "3.6 KMS(10 MINS) RAPID METRO SEC 55-56"
+            ],
+            "meta_description": "4 BHK luxury apartments available in prime location at Golf Course Road, Gurgaon. Contact us for premium luxury properties",
+            "meta_title": "Anantraj The Estate Residences - Sector 63A Gurgaon",
+            "Amenities": [
+               "Mini Theatre","Swimming Pool","Salon","Card Room","Waiting Lounge","Spa","Squash Court","Pool Table","Cafeteria"
+            ],
+            "projectBgContent": "The Estate Residences by Anant Raj Limited",
+            "projectReraNo": "Applied",
+            "type": "Residential Flats",
+            "city": "Gurgaon",
+            "builderName": "Anant Raj Limited",
+            "AboutDeveloper": "Built on 5 decades of tradition and dedicated to revolutionizing the luxury real estate industry, Anant Raj Limited offers revelatory experiences through an exceptional network of skilled agents. One of the leading real estate developers in the country, based out of Delhi, the Anant Raj Group has focused it's philosophy on the Build & Sell approach rather than the Sell & Build approach.",
+            "projectOverview": "none",
+            "schema_type": "project",
+            "project_url": "anantraj-the-estate-residences",
+            "projectGallery": [
+                {
+                    "url": "https://res.cloudinary.com/dm5yrsqdc/image/upload/v1710317172/realtyshopee/project/bwyhkx8mfjdwmq0fzegt.jpg"
+                },
+                {
+                    "url": "https://res.cloudinary.com/dm5yrsqdc/image/upload/v1710317173/realtyshopee/project/x0qmcurehrsbdgjbxkov.jpg"
+                },
+                {
+                    "url": "https://res.cloudinary.com/dm5yrsqdc/image/upload/v1710317174/realtyshopee/project/jgqxmqhazz6n5thlggte.jpg"
+                },
+                {
+                    "url": "https://res.cloudinary.com/dm5yrsqdc/image/upload/v1710317176/realtyshopee/project/w5wzyfmtjjlosafjqtnm.jpg"
+                }
+            ],
+            "BhK_Details": [
+                {
+                    "bhk_type": "Tower 1 - 4 BHK + SR + Lounge",
+                    "price": "Call for Price",
+                    "bhk_Area": "4781 SQ.FT"
+                },
+                {
+                    "bhk_type": "Tower 2 - 4 BHK + SR",
+                    "price": "Call for Price",
+                    "bhk_Area": "3763 SQ.FT"
+                },
+                {
+                    "bhk_type": "Tower 3 - 4 BHK + SR",
+                    "price": "Call for Price",
+                    "bhk_Area": "3710 SQ.FT"
+                },
+                {
+                    "bhk_type": "Tower 4 - 4 BHK + SR",
+                    "price": "Call for Price",
+                    "bhk_Area": "3710 - 3763 SQ.FT"
+                }
+            ],
+            "highlight": [
+                {
+                    "highlight_Point": "TRIPLE HEIGHT GRAND ENTRANCE LOBBY"
+                },
+                {
+                    "highlight_Point": "THE SUNKEN GARDEN BOASTS OF LUSH GREENERY & BEAUTY"
+                },
+                {
+                    "highlight_Point": "UNWIND AT THE CLUE OF GOOD TIMES"
+                },
+                {
+                    "highlight_Point": "SKY LOUNGE RESTAURANT"
+                },
+                {
+                    "highlight_Point": "MASTER BEDROOM WITH A LOCKABLE WALK-IN CLOSET"
+                },
+                {
+                    "highlight_Point": "THE LIFT TAKES YOU TO YOUR APARTMENT DIRECTLY PRIVATE LIFTS"
+                }
+            ]
+        },{
+            "frontImage": {
+                "url": "https://res.cloudinary.com/dgplzytrq/image/upload/v1720968515/Smartworld-the-edition/ybuwhcd9ipm2ouq9ysay_rt7v4x.jpg"
+            },
+            "logo": {
+                "url": "https://res.cloudinary.com/dgplzytrq/image/upload/v1720968542/Smartworld-the-edition/baxeglzgdggocdi1m7gj_zewxj6.jpg"
+            },
+            "project_locationImage": {
+                "url": "https://res.cloudinary.com/dgplzytrq/image/upload/v1720968576/Smartworld-the-edition/ktv7mbubjyyf2ucnt3id_cg7vzl.jpg"
+            },
+            "highlightImage": {
+                "url": "https://res.cloudinary.com/dgplzytrq/image/upload/v1720968612/Smartworld-the-edition/wdn2k8sx7aufhtsttdra_bqnfw1.jpg"
+            },
+            "projectMaster_plan": {
+                "url": "https://res.cloudinary.com/dgplzytrq/image/upload/v1720968642/Smartworld-the-edition/cxozh6vcqsjaojkwnrey_fgv8vt.jpg"
+            },
+            "_id": "65f177097e1280ea13384b6c",
+            "project_floorplan_Image": [
+                {
+                    "url": "https://res.cloudinary.com/dgplzytrq/image/upload/v1720968743/Smartworld-the-edition/ec4v1kgl3cgnbvg5exb8_we9xqn.jpg"
+                },
+                {
+                    "url": "https://res.cloudinary.com/dgplzytrq/image/upload/v1720968752/Smartworld-the-edition/bz9vvzfqdbahemkdphyp_p9gbgt.jpg"
+                },
+                {
+                    "url": "https://res.cloudinary.com/dgplzytrq/image/upload/v1720968759/Smartworld-the-edition/lsqq3wrclausnjaucaqb_zpdutf.jpg"
+                },
+                {
+                    "url": "https://res.cloudinary.com/dgplzytrq/image/upload/v1720968763/Smartworld-the-edition/dcz9lx003aet7ui3o1v3_ndbyug.jpg"
+                }
+            ],
+           
+            "state": "Haryana",
+            "projectName": "Smartworld The Edition",
+            "projectAddress": "Sector 66, Golf Course Extn Road",
+            "project_description": "Introducing Gurgaon's latest skyline marvel - Smartworld The Edition. This development sets a new standard with its blend of modern, contemporary design and luxurious living amenities. Crafted by top-tier architects and design consultants, every detail, from the innovative architecture to the lush landscaped areas and exclusive club interiors, embodies excellence. The striking architectural features and expansive green spaces make this address a true architectural masterpiece, promising a lifestyle of sophistication and comfort in the heart of Gurgaon.",
+            "projectRedefine_Connectivity": [
+                "Near to the Metro Station."
+            ],
+            "projectRedefine_Entertainment": [
+                "Near to NH-8"
+            ],
+            "projectRedefine_Business": [
+                "30 Minute Distance to IGI Airport."
+            ],
+            "projectRedefine_Education": [
+                "Close Proximity to Sohna Road."
+            ],
+            "meta_description": "Smartworld The Edition, an exclusive project located at Sector 66 Gurgaon, offers 3 BHK, 4 BHK Luxury Apartments",
+            "meta_title": "Smartworld The Edition, Luxury Residences Sector 66 Gurgaon",
+            "Amenities": [
+                "24x7 Power Backup","Swimming Pool","Waiting Lounge","Squash Court","Advanced Security"
+            ],
+            "projectBgContent": "Smartworld The Edition - Luxury Residences in Sector 66 Gurgaon",
+            "projectReraNo": "Applied",
+            "type": "Residential Flats",
+            "city": "Gurgaon",
+            "builderName": "Smartworld",
+            "AboutDeveloper": "Smartworld is a real estate company envisioned as the future of real estate in India. It is an organization built on the ethos of bringing in a refreshing change in the real estate industry with honesty, professionalism and transparency being in the DNA of the company. At Smartworld, every aspect from Scale, Humanizing Technology, Business Digitization to Designs, and Evolved Lifescapes has been given the utmost importance to create a perfect, winning combination. The company is an amalgamation of top-notch professionals and proven achievers and has a prolific board that advises the organization on the best-in-class international standards including corporate governance, industry practices and design philosophy. Smartworld combines the vast experience of professionals whose experience of Sales, Marketing, Product Design and Project Management Delivery exceeds over Rs. 50 billion in sales and 1 billion sq. ft. in project execution.",
+            "projectOverview": "featured",
+            "schema_type": "project",
+            "project_url": "smart-world-the-edition",
+            "projectGallery": [
+                {
+                    "url": "https://res.cloudinary.com/dm5yrsqdc/image/upload/v1710323458/realtyshopee/project/gn5bojat7s8wqo6dbrbj.jpg"
+                },
+                {
+                    "url": "https://res.cloudinary.com/dm5yrsqdc/image/upload/v1710323459/realtyshopee/project/avxhzbskzqcdupxi9lcy.jpg"
+                },
+                {
+                    "url": "https://res.cloudinary.com/dm5yrsqdc/image/upload/v1710323460/realtyshopee/project/lvk8iabbqchevkxblfa1.jpg"
+                },
+                {
+                    "url": "https://res.cloudinary.com/dm5yrsqdc/image/upload/v1710323461/realtyshopee/project/b7lodqtqx1z8hzih1wxl.jpg"
+                },
+                {
+                    "url": "https://res.cloudinary.com/dm5yrsqdc/image/upload/v1710323462/realtyshopee/project/ir28md4igsvenh8vysuv.jpg"
+                },
+                {
+                    "url": "https://res.cloudinary.com/dm5yrsqdc/image/upload/v1710323463/realtyshopee/project/sllrstsejc0twcfox7ay.jpg"
+                }
+            ],
+            "BhK_Details": [
+                {
+                    "bhk_type": "3.5 BHK + Utility",
+                    "price": "Call for Price",
+                    "bhk_Area": "2945 SQ.FT"
+                },
+                {
+                    "bhk_type": "4.5 BHK + Utility",
+                    "price": "Call for Price",
+                    "bhk_Area": "3505 SQ.FT"
+                }
+            ],
+            "highlight": [
+                {
+                    "highlight_Point": "Every modern comfort, just 1 minute away"
+                },
+                {
+                    "highlight_Point": "Proximity to top-notch educational & medical facilities."
+                },
+                {
+                    "highlight_Point": "A distinguished neighbourhood of residential & retail development"
+                },
+                {
+                    "highlight_Point": "Observatory Deck with a Panoramic view of the city skyline"
+                },
+                {
+                    "highlight_Point": "Double glazing for energy saving and peaceful living"
+                }
+            ]
+        },
+        {
+            "frontImage": {
+                "url": "https://res.cloudinary.com/dgplzytrq/image/upload/v1721050349/Whiteland-the-aspen/zgzmxrzm8s3v159fhi51_zdn7jy.jpg"
+            },
+            "logo": {
+                "url": "https://res.cloudinary.com/dgplzytrq/image/upload/v1721050349/Whiteland-the-aspen/zgzmxrzm8s3v159fhi51_zdn7jy.jpg"
+            },
+            "project_locationImage": {
+                "url": "https://res.cloudinary.com/dgplzytrq/image/upload/v1721050376/Whiteland-the-aspen/hfkb43dsapsbudvumvye_nzujwh.jpg"
+            },
+            "highlightImage": {
+                "url": "https://res.cloudinary.com/dm5yrsqdc/image/upload/v1710742332/100acre/project/mdk2vlwuzi8qxai0hari.webp"
+            },
+            "projectMaster_plan": {
+                "url": "https://res.cloudinary.com/dgplzytrq/image/upload/v1721050397/Whiteland-the-aspen/ni6t6gmktj8vudrdaxkv_cnzs0h.jpg"
+            },
+            "_id": "65f7db418f9c07384cf150ec",
+            "project_floorplan_Image": [
+                {
+                    "url": "https://res.cloudinary.com/dgplzytrq/image/upload/v1721050452/Whiteland-the-aspen/x7yiygf6m2waqdi03srz_ggr8yv.png"
+                },
+                {
+                    "url": "https://res.cloudinary.com/dgplzytrq/image/upload/v1721050464/Whiteland-the-aspen/ykag8fm3qahrg8aak9l6_dubzge.png"
+                }
+            ],
+            "state": "Haryana",
+            "projectName": "Whiteland The Aspen",
+            "projectAddress": "Sector 76, Southern Peripheral Road",
+            "project_description": "Whiteland The Aspen, located in Sector 76, Gurgaon, offers a prestigious residential opportunity in a prime city location. This new project ensures excellent ventilation and natural light throughout its well-planned apartments, designed according to Vaastu principles. Available in various layouts and sizes, Whiteland The Aspen benefits from its proximity to NH-8, offering seamless connectivity via public transport, bus stands, and the rail network. Surrounded by residential neighborhoods, top-notch schools, and renowned hospitals, this development promises a convenient and desirable living environment with access to essential amenities and commercial hubs.",
+            "projectRedefine_Connectivity": [
+                "Southern Peripheral Road -1.5Kms"
+            ],
+            "projectRedefine_Entertainment": [
+                "SRS Hospital & Critical Care Unit - 2.7Kms"
+            ],
+            "projectRedefine_Business": [
+                "Sohna Road-3Kms"
+            ],
+            "projectRedefine_Education": [
+                "Dwarka Expressway - 1.9Kms"
+            ],
+            "meta_description": "Whiteland The Aspen is pre launch presentations of Gurgaon, located at Sector 76. It is a set of Luxurious High Rise Apartments Provided with world-class amenities",
+            "meta_title": "Whiteland The Aspen - Whiteland in Sector 76 Gurgaon",
+            "Amenities": [
+                "VIP LOUNGE"
+            ],
+            "projectBgContent": "Whiteland The Aspen Sector 76 Gurgaon - New Launch",
+            "projectReraNo": "Applied",
+            "type": "Residential Flats",
+            "city": "Gurgaon",
+            "builderName": "Whiteland Corporation",
+            "AboutDeveloper": "Whiteland, a distinguished real estate company in Gurgaon, stands as a premier real estate builder in Gurgaon. With a unique approach that sets us apart from the competition, we specialize in crafting exceptional residential and commercial properties. Collaborating with world-class consultants, our projects reflect superior quality and design, elevating us as a standout player in the market. Transparency, integrity, and unwavering commitment are the cornerstones of our operations. As a leading real estate developer in Gurgaon, we prioritize effective communication and steadfast honesty to cultivate strong relationships founded on trust and honour.",
+            "projectOverview": "none",
+            "project_Status": "underconstruction",
+            "schema_type": "project",
+            "project_url": "whiteland-the-aspen",
+            "projectGallery": [
+                {
+                    "url": "https://res.cloudinary.com/dm5yrsqdc/image/upload/v1710742333/realtyshopee/project/stn1kasouql2v9n5g0if.jpg"
+                },
+                {
+                    "url": "https://res.cloudinary.com/dm5yrsqdc/image/upload/v1710742334/realtyshopee/project/ghwnfl3c71f0hzioi15n.jpg"
+                },
+                {
+                    "url": "https://res.cloudinary.com/dm5yrsqdc/image/upload/v1710742335/realtyshopee/project/otadnporqholmomfplkn.jpg"
+                }
+            ],
+            "BhK_Details": [
+                {
+                    "bhk_type": "3 BHK",
+                    "price": "Call for Price",
+                    "bhk_Area": "2290 - 2937 SQ.FT."
+                },
+                {
+                    "bhk_type": "4 BHK",
+                    "price": "Call for Price",
+                    "bhk_Area": "3243 - 5223 SQ.FT."
+                },
+                {
+                    "bhk_type": "5 BHK",
+                    "price": "Call for Price",
+                    "bhk_Area": "6096 - 7582 SQ.FT."
+                }
+            ],
+            "highlight": [
+                {
+                    "highlight_Point": "High-end Infrastructure with beautiful parks, green belt area and landscaped gardens."
+                },
+                {
+                    "highlight_Point": "Exclusive 5 Star clubhouse of 90,000 Sq.ft. to host various parties with your friends and family."
+                },
+                {
+                    "highlight_Point": "Vastu compliant architecture"
+                },
+                {
+                    "highlight_Point": "Breathtaking views overlooking the Aravali range."
+                },
+                {
+                    "highlight_Point": "Clubhouse offering holistic lifestyle amenities like Swimming pool, gymnasium, sports activity zones, Banquet hall & Restaurant"
+                },
+                {
+                    "highlight_Point": "Dedicated green belts for outdoor play, yoga & meditation sessions."
+                }
+            ]
+        },
+        {
+            "frontImage": {
+                "url": "https://res.cloudinary.com/dgplzytrq/image/upload/v1721051088/ss-cendana/suoe2kwgvx7disi5sytp_hugqwy.jpg"
+            },
+            "logo": {
+                "url": "https://res.cloudinary.com/dgplzytrq/image/upload/v1721051103/ss-cendana/vdbhizd07mnelsazq64e_sfzoml.jpg"
+            },
+            "project_locationImage": {
+                "url": "https://res.cloudinary.com/dgplzytrq/image/upload/v1721051123/ss-cendana/rydvsse8nlnwszpuxmmj_cbx25q.jpg"
+            },
+            "highlightImage": {
+                "url": "https://res.cloudinary.com/dgplzytrq/image/upload/v1721051136/ss-cendana/zltjrdgxujhz5pxoozpe_uz6d8j.jpg"
+            },
+            "projectMaster_plan": {
+                "url": "https://res.cloudinary.com/dgplzytrq/image/upload/v1721051139/ss-cendana/fjcvcwuttxheqdztsq4s_ehyteu.jpg"
+            },
+            "_id": "65f822c48f9c07384cf88a8f",
+            "project_floorplan_Image": [
+                {
+                    "url": "https://res.cloudinary.com/dgplzytrq/image/upload/v1721051162/ss-cendana/zas9cbia8bfztc5xdwtu_prouwk.jpg"
+                },
+                {
+                    "url": "https://res.cloudinary.com/dgplzytrq/image/upload/v1721051165/ss-cendana/kavrcif8pldqlzsvwxxi_nmojun.jpg"
+                }
+            ],
+            "state": "Haryana",
+            "projectName": "SS Group Cendana",
+            "projectAddress": "Sector 83, Northern Peripheral Road",
+            "project_description": "SS Group Cendana is a residential housing project located on NH 8, Gurgaon, offering excellent connectivity to Delhi NCR. Spread across 8 acres of lush greenery, the complex features 3 BHK apartments ranging from 1450 sq. ft. to 1850 sq. ft. Each unit is meticulously designed with laminated wooden flooring in the master bedroom and a modular kitchen equipped with granite countertops and a stainless steel single drain board sink. The project ensures a blend of comfort and elegance, making it an ideal choice for discerning homeowners seeking quality living spaces in a well-connected location.",
+            "projectRedefine_Connectivity": [
+                "Nearby Dwarka Expressway Link Road"
+            ],
+            "projectRedefine_Entertainment": [
+                "15 min to Golf Extension Road and Rapid Metro"
+            ],
+            "projectRedefine_Business": [
+                "10 min to Naharpur and DLF Road"
+            ],
+            "projectRedefine_Education": [
+                "5 min to Southern Peripheral, Pataudi, and Darbaripur Road"
+            ],
+            "meta_description": "SS Group Cendana - SS Group Sector 83 Gurgaon",
+            "meta_title": "SS Group Cendana - SS Group Sector 83 Gurgaon",
+            "Amenities": [
+               "Jogging Track" ,"Swimming Pool","Gymnasium","Club House","Advanced Security","24x7 Power Backup","Car Parking","Elevator Lobby","Vastu Compliant"
+            ],
+            "projectBgContent": "SS Group Cendana at Sector 83 Gurgaon",
+            "projectReraNo": "Applied",
+            "type": "Residential Flats",
+            "city": "Gurgaon",
+            "builderName": "SS Group",
+            "AboutDeveloper": "Trust is not bestowed easily but is the result of consistent adherence to promises and a dedication to excellence. SS Group, the foremost real estate developer in Gurgaon with nearly three decades of steadfast dedication, enjoys an impressive history of successfully executing residential and commercial projects within the city. This accomplishment stems from a blend of financial acumen, engineering proficiency, and innovative design. Our company ethos prioritizes the creation of people-centric developments while also upholding environmental responsibility.",
+            "projectOverview": "none",
+            "project_Status": "underconstruction",
+            "schema_type": "project",
+            "project_url": "ss-group-cendana",
+            "projectGallery": [
+                {
+                    "url": "https://res.cloudinary.com/dm5yrsqdc/image/upload/v1710760642/realtyshopee/project/gq61e4k6qlfvkge6letx.jpg"
+                }
+            ],
+            "BhK_Details": [
+                {
+                    "bhk_type": "3 BHK",
+                    "price": "Call for Price",
+                    "bhk_Area": "1450 SQ.FT."
+                },
+                {
+                    "bhk_type": "3 BHK + Study",
+                    "price": "Call for Price",
+                    "bhk_Area": "1850 SQ.FT."
+                }
+            ],
+            "highlight": [
+                {
+                    "highlight_Point": "Cohesive urban design – street furniture, signages & road lighting"
+                },
+                {
+                    "highlight_Point": "Green areas & tree lined streets"
+                },
+                {
+                    "highlight_Point": "Water features throughout the landscape"
+                },
+                {
+                    "highlight_Point": "Segregation of pedestal & vehicular movement"
+                },
+                {
+                    "highlight_Point": "Environment friendly planning"
+                },
+                {
+                    "highlight_Point": "Choice of independent plots"
+                },
+                {
+                    "highlight_Point": "Exclusive walking & jogging tracks"
+                }
+            ]
+        },
+        {
+            "frontImage": {
+                "url": "https://res.cloudinary.com/dgplzytrq/image/upload/v1721051449/ambience-creacions/ambience-creactions-mobile-banner_ooquti.webp"
+            },
+            "logo": {
+                "url": "https://res.cloudinary.com/dgplzytrq/image/upload/v1721051444/ambience-creacions/ck5t5ztbvfbyz9rek5uc_gjp7r7.jpg"
+            },
+            "project_locationImage": {
+                "url": "https://res.cloudinary.com/dgplzytrq/image/upload/v1721051466/ambience-creacions/jnop6ytojeykhrqxi83r_yxbyda.jpg"
+            },
+            "highlightImage": {
+                "url": "https://res.cloudinary.com/dgplzytrq/image/upload/v1721051473/ambience-creacions/kldak32hhwz8gipqjhrq_m0lvcr.jpg"
+            },
+            "projectMaster_plan": {
+                "url": "https://res.cloudinary.com/dgplzytrq/image/upload/v1721051476/ambience-creacions/v6idzrhssltxtsw9utr8_xmhxrs.jpg"
+            },
+            "_id": "65f8351f8f9c07384cfb6f23",
+            "project_floorplan_Image": [
+                {
+                    "url": "https://res.cloudinary.com/dgplzytrq/image/upload/v1721051507/ambience-creacions/u0femlyhjutxigyvcadu_hv4wpx.jpg"
+                },
+                {
+                    "url": "https://res.cloudinary.com/dgplzytrq/image/upload/v1721051510/ambience-creacions/ygjoj8kj8480mkk0alto_vjcmk4.jpg"
+                }
+            ],
+            "state": "Haryana",
+            "projectName": "Ambience Creacions",
+            "projectAddress": "Sector 22, MG Road",
+            "project_description": "Discover a world of unparalleled luxury where impeccable craftsmanship meets perfection in the heart of Gurgaon! Embrace your dreams at an address that embodies international standards of luxury, crafted by developers renowned for iconic projects like Ambience Mall Gurgaon, Ambience Mall Vasant Kunj, The Leela Ambience Hotel Gurgaon, The Leela Ambience Convention Centre Delhi, Ambience Corporate Tower Gurgaon, Ambience Tower Vasant Kunj, Ambience Public School Gurgaon, and residential landmarks such as Ambience Caitriona and The Lagoon.",
+            "projectRedefine_Connectivity": [
+                "Close Proximity to Cyber Hub and International Airport"
+            ],
+            "projectRedefine_Entertainment": [
+                "Located nearest to South of Delhi on Old Delhi Jaipur Road."
+            ],
+            "projectRedefine_Business": [
+                "Located within a fully developed sector with matching infrastructure"
+            ],
+            "projectRedefine_Education": [
+                "Located within 1 km range from corporates like Sapient, Ernst & Young, Genpact etc"
+            ],
+            "meta_description": "Ambience Creacions in Sector 22, Gurgaon is a ready-to-move housing society. It offers apartments and villas in varied budget range",
+            "meta_title": "Ambience Creacions, Luxury Apartments at Sector 22 Gurgaon",
+            "Amenities": [
+                "CCTV Camera Security","Car Parking","Elevator Lobby","Badminton Court","Kids Play Area","Waiting Lounge","Meditation Area","Yoga Room","Basketball Court"
+            ],
+            "projectBgContent": "Ambience Creacions Sector 22 Gurgaon",
+            "projectReraNo": "Applied",
+            "type": "Residential Flats",
+            "city": "Gurgaon",
+            "builderName": "Ambience Group",
+            "AboutDeveloper": "Since its inception in 1986, Ambience Group distinguished itself from the competition as the developers of premium real estate projects. Ambience commenced its journey of developing premium Residential Apartments in South Delhi, and later acquired a landmark real estate land parcel in Gurgaon, NH-8, zero km from Delhi Border for the development of signature integrated township ‘Ambience Island’. The property comprises of Residential (Ambience Caitriona & Ambience Lagoon), Retail (Ambience Mall), Hotel (Leela Ambience), Commercial (Ambience Corporate Tower), 9 Hole Golf Greens and Community Facilities.",
+            "projectOverview": "none",
+            "project_Status": "readytomove",
+            "schema_type": "project",
+            "project_url": "ambience-creacions",
+            "projectGallery": [
+                {
+                    "url": "https://res.cloudinary.com/dm5yrsqdc/image/upload/v1710765341/realtyshopee/project/ie7w20woydzyxcmg5v4z.jpg"
+                }
+            ],
+            "BhK_Details": [
+                {
+                    "bhk_type": "3 BHK + SR",
+                    "price": "₹ 4,17,15,000",
+                    "bhk_Area": "2781 SQ.FT"
+                },
+                {
+                    "bhk_type": "3 BHK + SR + PW",
+                    "price": "₹ 4,63,50,000",
+                    "bhk_Area": "3090 SQ.FT"
+                },
+                {
+                    "bhk_type": "4 BHK + SR + PW",
+                    "price": "₹ 5,96,40,000",
+                    "bhk_Area": "3976 SQ.FT"
+                },
+                {
+                    "bhk_type": "3 BHK - Simplex Penthouse",
+                    "price": "₹ 7,20,00,000",
+                    "bhk_Area": "4800 SQ.FT"
+                },
+                {
+                    "bhk_type": "4 BHK - Duplex Penthouse",
+                    "price": "₹ 11,55,00,000",
+                    "bhk_Area": "7700 SQ.FT"
+                },
+                {
+                    "bhk_type": "5 BHK - Duplex Penthouse",
+                    "price": "₹ 15,15,75,000",
+                    "bhk_Area": "10105 SQ.FT"
+                },
+                {
+                    "bhk_type": "5 BHK + 2 FL + 2 SR - Villa",
+                    "price": "₹ 16,10,55,000",
+                    "bhk_Area": "10737 SQ.FT"
+                }
+            ],
+            "highlight": [
+                {
+                    "highlight_Point": "Delivery of Apartment to be in ready to ‘move and live-in’ state."
+                },
+                {
+                    "highlight_Point": "Fully furnished kitchen fitted with high-end home appliances."
+                },
+                {
+                    "highlight_Point": "Imported/International Standard bathroom fittings and fixtures."
+                },
+                {
+                    "highlight_Point": "Carefully selected neighbourhood."
+                },
+                {
+                    "highlight_Point": "Hassle-free post possession experience."
+                },
+                {
+                    "highlight_Point": "3-tier international standard security with CCTV and Audio/ Video at the Main Door."
+                },
+                {
+                    "highlight_Point": "Fully Furnished Club with Contemporary Sports Facilities, Swimming Pool, Gymnasium and Party/Meeting rooms."
+                }
+            ]
+        },
+        {
+            "frontImage": {
+                "url": "https://res.cloudinary.com/dgplzytrq/image/upload/v1721051719/Landmark-Avana/xrvaotrkwucqzn6xbahx_rerczn.jpg"
+            },
+            "logo": {
+                "url": "https://res.cloudinary.com/dgplzytrq/image/upload/v1721051724/Landmark-Avana/kbigruxnurmqiyfxh8s8_uj8ugh.jpg"
+            },
+            "project_locationImage": {
+                "url": "https://res.cloudinary.com/dgplzytrq/image/upload/v1721051732/Landmark-Avana/z0qiefd5cx3p27izpocr_btmsqe.jpg"
+            },
+            "highlightImage": {
+                "url": "https://res.cloudinary.com/dgplzytrq/image/upload/v1721051733/Landmark-Avana/o6blbtqourlwzcsm73bl_nexy5k.jpg"
+            },
+            "projectMaster_plan": {
+                "url": "https://res.cloudinary.com/dgplzytrq/image/upload/v1721051737/Landmark-Avana/z5wkamuwer2mnz1czek1_fsbbdm.jpg"
+            },
+            "_id": "65f83fa48f9c07384cfc5791",
+            "project_floorplan_Image": [
+                {
+                    "url": "https://res.cloudinary.com/dgplzytrq/image/upload/v1721051785/Landmark-Avana/lq0jnuw12pj6rntrwh4a_etbd8g.jpg"
+                },
+                {
+                    "url": "https://res.cloudinary.com/dgplzytrq/image/upload/v1721051784/Landmark-Avana/p3dnetrzu6g9dfehg6nn_ghhjok.jpg"
+                },
+                {
+                    "url": "https://res.cloudinary.com/dgplzytrq/image/upload/v1721051788/Landmark-Avana/srg2glj1qzsravrajdjd_pbx5zi.jpg"
+                },
+                {
+                    "url": "https://res.cloudinary.com/dgplzytrq/image/upload/v1721051790/Landmark-Avana/gns3q6fhtzhskuxzmnym_idhnfo.jpg"
+                }
+            ],
+            "state": "Haryana",
+            "projectName": "Landmark Avana",
+            "projectAddress": "Sector 95, New Gurgaon",
+            "project_description": "Landmark Avana, derived from Sanskrit meaning \"Joy and Happiness\" , offers a unique living experience that celebrates life's simple pleasures. It provides a tranquil environment where residents can enjoy the beauty of everyday life, fostering a sense of joy and contentment. This residential development promises to enrich the living experience with its thoughtful design and amenities, catering to both individual preferences and communal well-being. Landmark Avana aims to create a harmonious space where families can thrive amidst a serene and nurturing atmosphere, making it a cherished place to call home.",
+            "projectRedefine_Connectivity": [
+                "Proposed Metro Station: 5 mins"
+            ],
+            "projectRedefine_Entertainment": [
+                "Hero Honda Chowk: 12 mins"
+            ],
+            "projectRedefine_Business": [
+                "IMT Manesar: 10 mins"
+            ],
+            "projectRedefine_Education": [
+                "Dwarka Expressway: 5 mins"
+            ],
+            "meta_description": "Landmark Avana, Luxury Builder Floors Sector 95 Gurgaon",
+            "meta_title": "Landmark Avana, Luxury Builder Floors Sector 95 Gurgaon",
+            "Amenities": [
+                "Car Parking","Meditation Area","Gymnasium","Indoor Games","Yoga Room","Swimming Pool"
+            ],
+            "projectBgContent": "Landmark Avana - Luxury Builder Floors Sector 95 Gurgaon",
+            "projectReraNo": "Applied",
+            "type": "Independent Floors",
+            "city": "Gurgaon",
+            "builderName": "Landmark Group",
+            "AboutDeveloper": "Landmark Group is a company that has made a name for itself in its industry thanks to its impressive portfolio. We deliver the best IT solutions and lifestyle complexes and structures as a company with a perfectionist attitude.",
+            "projectOverview": "none",
+            "project_Status": "underconstruction",
+            "schema_type": "project",
+            "project_url": "landmark-avana",
+            "projectGallery": [
+                {
+                    "url": "https://res.cloudinary.com/dm5yrsqdc/image/upload/v1710768032/realtyshopee/project/z5sskpsgcg5eda9wee5o.jpg"
+                },
+                {
+                    "url": "https://res.cloudinary.com/dm5yrsqdc/image/upload/v1710768033/realtyshopee/project/ydj5ver01mp3euv7c0xb.jpg"
+                },
+                {
+                    "url": "https://res.cloudinary.com/dm5yrsqdc/image/upload/v1710768034/realtyshopee/project/sj89fgbpjxm4sczcx470.jpg"
+                }
+            ],
+            "BhK_Details": [
+                {
+                    "bhk_type": "3 BHK + 2T + Home Office",
+                    "price": "Call for Price",
+                    "bhk_Area": "1511 - 2486 SQ.FT"
+                },
+                {
+                    "bhk_type": "3 BHK + 3T + Home Office",
+                    "price": "Call for Price",
+                    "bhk_Area": "1708 - 2890 SQ.FT"
+                }
+            ],
+            "highlight": [
+                {
+                    "highlight_Point": "A low-rise cluster of independent floors"
+                },
+                {
+                    "highlight_Point": "Spacious and well lit 3BHK apartments with exclusive elevator access"
+                },
+                {
+                    "highlight_Point": "Expansive windows for a well-lit vibrant home"
+                },
+                {
+                    "highlight_Point": "Modern bathrooms with premium fittings and fixtures"
+                },
+                {
+                    "highlight_Point": "Exclusive home office / media room / personal gym space for 1st, 2nd and 3rd Floors"
+                },
+                {
+                    "highlight_Point": "Exclusive car parking slots for each apartment"
+                },
+                {
+                    "highlight_Point": "Spacious balconies overlooking the landscaped outdoors"
+                }
+            ]
+        },
+        {
+            "frontImage": {
+                "url": "https://res.cloudinary.com/dgplzytrq/image/upload/v1721052228/Ocus-Medley/fldpjxxgb6hkw2q7umvz_tqocls.jpg"
+            },
+            "logo": {
+                "url": "https://res.cloudinary.com/dgplzytrq/image/upload/v1721052198/Ocus-Medley/wpho0kratjqplyaxsow7_onekxc.jpg"
+            },
+            "project_locationImage": {
+                "url": "https://res.cloudinary.com/dgplzytrq/image/upload/v1721052179/Ocus-Medley/anaxr1aiu8xgkmh4aar9_p2piqy.jpg"
+            },
+            "highlightImage": {
+                "url": "https://res.cloudinary.com/dgplzytrq/image/upload/v1721052043/Ocus-Medley/eqkt4olgspzpmtx1vy35_azihxg.jpg"
+            },
+            "projectMaster_plan": {
+                "url": "https://res.cloudinary.com/dgplzytrq/image/upload/v1721052034/Ocus-Medley/istqrn9pj7st2znvsadp_pzwgz1.jpg"
+            },
+            "_id": "65fbddd68f9c07384c169f6f",
+            "project_floorplan_Image": [
+                {
+                    "url": "https://res.cloudinary.com/dgplzytrq/image/upload/v1717586036/Floor%20plan%20image/Background_2_rbunqm.png"
+                },
+                {
+                    "url": "https://res.cloudinary.com/dgplzytrq/image/upload/v1717585460/Floor%20plan%20image/Background_1_lqqpwe.png"
+                },
+                {
+                    "url": "https://res.cloudinary.com/dgplzytrq/image/upload/v1717582876/Floor%20plan%20image/Background_cpb7aq.png"
+                }
+            ],
+            "state": "Haryana",
+            "projectName": "Ocus Medley",
+            "projectAddress": "Sector 99, Dwarka Expressway",
+            "project_description": "Introducing Galleria 99 @ Ocus Medley, the most vibrant mixed-use destination on Dwarka Expressway, Gurgaon. This iconic development offers a unique high-street retail experience, seamlessly integrating a retail complex, multiplex, food court, restaurants, and offices. Strategically located amidst densely populated sectors, Galleria 99 @ Ocus Medley presents a lucrative opportunity for brands to thrive. With its prime position and diverse offerings, this mega development is poised to become the epicenter of entertainment, shopping, and business in the city.",
+            "projectRedefine_Connectivity": [
+                "Strategically located bang on Dwarka Expressway - India's widest expressway connecting Dwarka, Gurgaon and IGI Airport"
+            ],
+            "projectRedefine_Entertainment": [
+                "In close vicinity of AIIMS, Jhajjar, Signature - Super Speciality Hospital, Vibrant Hospital and Sheetla Mata Medical College Gurgaon"
+            ],
+            "projectRedefine_Business": [
+                "Surrounded by large number of residential township and premium group housing"
+            ],
+            "projectRedefine_Education": [
+                "15 min from IGI Airport & NH 48 (Delhi - Jaipur Highway)"
+            ],
+            "meta_description": "Part of a mega high-street development bang on Dwarka Expressway - Gurgaon. The Retail Complex at Ocus Medley is a favorite for brands offering them a high-street retail experience, multiplex, food court, restaurants and offices",
+            "meta_title": "Ocus Medley - Galleria 99 at Sector 99 Gurgaon",
+            "Amenities": [
+                "Advanced Security","24x7 Power Backup","Cafeteria","Waiting Lounge","CCTV Camera Security"
+            ],
+            "projectBgContent": "Ocus Medley - Galleria 99 at Sector 99 Gurgaon",
+            "projectReraNo": "Applied",
+            "type": "Commercial Property",
+            "city": "Gurgaon",
+            "builderName": "Ocus Group",
+            "AboutDeveloper": "At 'OCUS,' we don't just create spaces, we create lifestyles.  'You Think, We Create' is the ethos of our Mission.  As we march towards the future, the essence of the OCUS brand is embodied in our powerful new Vision:  'Your Trust, Our Legacy'",
+            "projectOverview": "none",
+            "project_Status": "readytomove",
+            "schema_type": "project",
+            "project_url": "ocus-medley",
+            "projectGallery": [
+                {
+                    "url": "https://res.cloudinary.com/dm5yrsqdc/image/upload/v1711005138/realtyshopee/project/r6tssjeixdbexqwl7hps.jpg"
+                },
+                {
+                    "url": "https://res.cloudinary.com/dm5yrsqdc/image/upload/v1711005139/realtyshopee/project/pzpb2ukzajeqhrd0xpil.jpg"
+                },
+                {
+                    "url": "https://res.cloudinary.com/dm5yrsqdc/image/upload/v1711005140/realtyshopee/project/zuhrq2d8s5o7f4sf3xs1.jpg"
+                }
+            ],
+            "BhK_Details": [
+                {
+                    "bhk_type": "Shop & Retail",
+                    "price": "Call for Price",
+                    "bhk_Area": "500 - 1000 SQ. FT."
+                }
+            ],
+            "highlight": [
+                {
+                    "highlight_Point": "Spread over approx.4.14 acres"
+                },
+                {
+                    "highlight_Point": "Dedicated Anchor space available on Ground, First Floor"
+                },
+                {
+                    "highlight_Point": "Low maintenance module"
+                },
+                {
+                    "highlight_Point": "3 Screen Multiplex, Food Court, Multi-activity Zone, Restaurants & Family Entertainment Zone"
+                },
+                {
+                    "highlight_Point": "Outdoor Patio, Water Bodies & Amphitheater area for entertainment & performance"
+                },
+                {
+                    "highlight_Point": "High-Speed Escalators and Elevators"
+                },
+                {
+                    "highlight_Point": "Ample Visitor Parking at Surface"
+                }
+            ]
+        }, {
+            "frontImage": {
+                "url": "https://res.cloudinary.com/dgplzytrq/image/upload/v1721396702/m3m%20route%2065/m41esql0yeetenmmvzc3_fpzxor.jpg"
+            },
+            "logo": {
+                "url": "https://res.cloudinary.com/dgplzytrq/image/upload/v1721396707/m3m%20route%2065/ls5sf1wnuczkvxmojwzi_bspvrt.jpg"
+            },
+            "project_locationImage": {
+                "url": "https://res.cloudinary.com/dgplzytrq/image/upload/v1721396713/m3m%20route%2065/am2yq090zwrentzzber2_evus2y.jpg"
+            },
+            "highlightImage": {
+                "url": "https://res.cloudinary.com/dgplzytrq/image/upload/v1721396720/m3m%20route%2065/rjemtkyfrqcyegt2tfbv_an2ggk.jpg"
+            },
+            "projectMaster_plan": {
+                "url": "https://res.cloudinary.com/dgplzytrq/image/upload/v1721396723/m3m%20route%2065/y4xxl8vkuq0l6veikwdm_toruxs.jpg"
+            },
+            "_id": "66489cb954a1abc22789edee",
+            "project_floorplan_Image": [
+                {
+                    "url": "https://res.cloudinary.com/dgplzytrq/image/upload/v1721396776/m3m%20route%2065/p3yrlq75lzk0kdaugaas_wefgnz.jpg"
+                },
+                {
+                    "url": "https://res.cloudinary.com/dgplzytrq/image/upload/v1721396778/m3m%20route%2065/onmobmbe811hymyxskfr_mvgzyu.jpg"
+                },
+                {
+                    "url": "https://res.cloudinary.com/dgplzytrq/image/upload/v1721396790/m3m%20route%2065/smpyjjmnkyuoucbufdug_ra4w0n.jpg"
+                }
+            ],
+            "state": "Haryana",
+            "projectName": "M3M Route 65",
+            "projectAddress": "Sector 65, Golf Course Extn Road",
+            "project_description": "M3M Route 65 is poised to transform Gurgaon's retail landscape, emerging as the city's most coveted fashion and culinary destination in Sector 65. This prestigious development is designed to surpass expectations, featuring an exquisite array of retail units, anchor shops, hypermarkets, and F&B-enabled spaces, complemented by vibrant kids' play zones. With its futuristic architecture and strategic location, M3M Route 65 boasts a formidable HNI catchment of over 50,000, ensuring unparalleled exposure and connectivity. This iconic project is set to redefine the retail experience in India, offering an unrivaled blend of luxury, convenience, and entertainment.",
+            "projectRedefine_Connectivity": [
+                "Hughes / Amex/ Hewitt/ E&Y/ IBM/ Cairn Energy Residential Projects"
+            ],
+            "projectRedefine_Entertainment": [
+                "Easy access from the Proposed Metro Corridor"
+            ],
+            "projectRedefine_Business": [
+                "40 Minutes Drive Distance From The IGI Airport Delhi"
+            ],
+            "projectRedefine_Education": [
+                "It has located In Sector 65 close to Golf Course Ext. Road, Gurgaon"
+            ],
+            "meta_description": "M3M Route 65 offers commercial retail shops and hypermarkets at Sector 65, Golf Course Extension Road Gurgaon. This is a primary location in Gurgaon",
+            "meta_title": "M3M Route 65, Luxury Commercial Project at Sector 65 Gurgaon",
+            "Amenities": [
+                "Car Parking","Meditation Area","Gymnasium","Indoor Games","Yoga Room","Swimming Pool"
+            ],
+            "projectBgContent": "M3M ROUTE 65 SECTOR 65 GURGAON",
+            "projectReraNo": "RC/REP/HARERA/GGM/605/337/2022/80",
+            "type": "Commercial Property",
+            "city": "Gurgaon",
+            "builderName": "M3M India",
+            "AboutDeveloper": "M3M India means 'Superbness in the Trinity Of Men, Materials and Money'. The aphorism of the organization is \"quality, opportune conveyance and greatness\". Recognizing highlights of M3M inside the business are its inventive, remarkable and unrivalled ideas, multi-dimensional realty arrangements and unparalleled high-help norms. Demonstrating its responsibility towards creating cutting-edge landworks of art, M3M has consistently strived to gather the best ability in the business. The organization has increased important involvement with the land area with different and complimentary gifts from a rich organization of first-class go-betweens, monetary establishments, high-total assets people and probably the most rumoured designers in India.",
+            "projectOverview": "none",
+            "project_Status": "underconstruction",
+            "schema_type": "project",
+            "project_url": "m3m-route-65",
+            "projectGallery": [
+                {
+                    "url": "https://res.cloudinary.com/dgplzytrq/image/upload/v1721396651/m3m%20route%2065/yr6zolapdsih9iprcha4_w0nyl2.jpg"
+                },
+                {
+                    "url": "https://res.cloudinary.com/dgplzytrq/image/upload/v1721396655/m3m%20route%2065/xtgpzwihzviwigjprquz_mqotza.jpg"
+                },
+                {
+                    "url": "https://res.cloudinary.com/dgplzytrq/image/upload/v1721396664/m3m%20route%2065/fpro3lmmis9sfbkphgr1_n4kwtx.jpg"
+                }
+            ],
+            "BhK_Details": [],
+            "highlight": [
+                {
+                    "highlight_Point": "Landscaped plaza"
+                },
+                {
+                    "highlight_Point": "Spread across 4 acres"
+                },
+                {
+                    "highlight_Point": "Open-to-sky courtyards"
+                },
+                {
+                    "highlight_Point": "Anchor Stores at 3 Levels"
+                },
+                {
+                    "highlight_Point": "Strategically planned multiple accesses"
+                },
+                {
+                    "highlight_Point": "Glass façade on both sides giving visibility"
+                },
+                {
+                    "highlight_Point": "Exquisite open dining avenues on terrace level"
+                },
+                {
+                    "highlight_Point": "Premium residences in the vicinity with high catchment"
+                },
+                {
+                    "highlight_Point": "World-class schools include DPS International School and St. Xavier’s High School"
+                }
+            ]
+        },  {
+            "frontImage": {
+                "url": "https://res.cloudinary.com/dgplzytrq/image/upload/v1721397294/m3m-antalya/axam5uv3telszz9uyaqa_nbaasq.jpg"
+            },
+            "logo": {
+                "url": "https://res.cloudinary.com/dgplzytrq/image/upload/v1721397291/m3m-antalya/zgsfyau6ctbzbnpdw4vk_qaiksg.jpg"
+            },
+            "project_locationImage": {
+                "url": "https://res.cloudinary.com/dgplzytrq/image/upload/v1721397285/m3m-antalya/durrmu8c3vkw16aasuu6_nanxyy.jpg"
+            },
+            "highlightImage": {
+                "url": "https://res.cloudinary.com/dgplzytrq/image/upload/v1721397277/m3m-antalya/tg0eyqovwndlpmvhqnnc_qjoicu.jpg"
+            },
+            "projectMaster_plan": {
+                "url": "https://res.cloudinary.com/dgplzytrq/image/upload/v1721397271/m3m-antalya/ywyuhwcrdgl1wabanbdg_mhupm4.jpg"
+            },
+            "_id": "664603225ce6998c9e4772b1",
+            "project_floorplan_Image": [
+                {
+                    "url": "https://res.cloudinary.com/dgplzytrq/image/upload/v1721397349/m3m-antalya/czojv9rbg9bb1gs7mhr5_c6ma0l.jpg"
+                },
+                {
+                    "url": "https://res.cloudinary.com/dgplzytrq/image/upload/v1721397355/m3m-antalya/sc1thafw9yu4cpsa756v_u6elk6.jpg"
+                }
+            ],
+            "state": "Haryana",
+            "projectName": "M3M Antalya Hills",
+            "projectAddress": "Sector 79, Southern Peripheral Road",
+            "project_description": "M3M Antalya Hills is a revolutionary residential haven nestled in the majestic Aravalli Hills, where nature's splendor meets futuristic innovation. This visionary township is carefully crafted to provide an unparalleled luxury living experience, showcasing the perfect synergy of cutting-edge technology and multi-utility design. With its uncompromising focus on aesthetics, work-life balance, and enduring comfort, M3M Antalya Hills offers the ultimate retreat from the chaos of city life. Enjoy the best of both worlds: seamless city access and an idyllic natural habitat, perfectly balanced to rejuvenate your senses and enrich your lifestyle.",
+            "projectRedefine_Connectivity": [
+                "Surrounded by the Aravalli Foot Hills."
+            ],
+            "projectRedefine_Entertainment": [
+                "Next to huge commercial hubs (Sector-74A and 75A, Gurgaon)."
+            ],
+            "projectRedefine_Business": [
+                "30 minutes from IGI Airport."
+            ],
+            "projectRedefine_Education": [
+                "Easy and smooth connectivity from NH-8, Southern Peripheral Road, Dwarka Expressway, KMP Expressway and IGI Airport."
+            ],
+            "meta_description": "Rejuvenate away from the hustle & bustle of  city life, presenting M3M Antalya Hills. Experience a true peaceful haven with the most luxurious amenities.",
+            "meta_title": "M3M Antalya Hills, M3M Sector 79 Gurgaon - Low Rise Floors",
+            "Amenities": [
+                "Multiple Clubhouses"
+            ],
+            "projectBgContent": "M3M Antalya Hills - Low Rise Floors Sector 79 Gurgaon",
+            "projectReraNo": "Applied",
+            "type": "Builder Floors",
+            "city": "Gurgaon",
+            "builderName": "M3M India",
+            "AboutDeveloper": "M3M India means 'Superbness in the Trinity Of Men, Materials and Money'. The aphorism of the organization is \"quality, opportune conveyance and greatness\". Recognizing highlights of M3M inside the business are its inventive, remarkable and unrivalled ideas, multi-dimensional realty arrangements and unparalleled high-help norms. Demonstrating its responsibility towards creating cutting-edge landworks of art, M3M has consistently strived to gather the best ability in the business. The organization has increased important involvement with the land area with different and complimentary gifts from a rich organization of first-class go-betweens, monetary establishments, high-total assets people and probably the most rumoured designers in India.",
+            "projectOverview": "none",
+            "project_Status": "underconstruction",
+            "schema_type": "project",
+            "project_url": "m3m-antalya-hills",
+            "projectGallery": [
+                {
+                    "url": "https://res.cloudinary.com/dm5yrsqdc/image/upload/v1715864347/realtyshopee/project/e8j1bnmi1vokmahelkz0.jpg"
+                },
+                {
+                    "url": "https://res.cloudinary.com/dm5yrsqdc/image/upload/v1715864349/realtyshopee/project/ubqdwzid3ggqdfuxcspp.jpg"
+                },
+                {
+                    "url": "https://res.cloudinary.com/dm5yrsqdc/image/upload/v1715864350/realtyshopee/project/ajfvikj5izwrxkct8uvi.jpg"
+                },
+                {
+                    "url": "https://res.cloudinary.com/dm5yrsqdc/image/upload/v1715864351/realtyshopee/project/oezoutr1etdu809gofar.jpg"
+                },
+                {
+                    "url": "https://res.cloudinary.com/dm5yrsqdc/image/upload/v1715864352/realtyshopee/project/qdpu4kimtvtiuy1pwpyk.jpg"
+                }
+            ],
+            "BhK_Details": [
+                {
+                    "bhk_type": "2 BHK + Study",
+                    "price": "Call for Price",
+                    "bhk_Area": "1193 SQ.FT."
+                },
+                {
+                    "bhk_type": "3 BHK + Study",
+                    "price": "Call for Price",
+                    "bhk_Area": "1534 SQ.FT."
+                }
+            ],
+            "highlight": [
+                {
+                    "highlight_Point": "A unique mix of Low street retail & uber residences"
+                },
+                {
+                    "highlight_Point": "Every modern comfort, just 1 minute away"
+                },
+                {
+                    "highlight_Point": "Floating sauna and Scenic pool"
+                },
+                {
+                    "highlight_Point": "Observatory Deck with a Panoramic view of the city skyline"
+                },
+                {
+                    "highlight_Point": "Healthy and fresh morning walk on the rooftop with jogging track"
+                },
+                {
+                    "highlight_Point": "A distinguished neighbourhood of Residential & Retail development"
+                },
+                {
+                    "highlight_Point": "Energy efficient VRV/VRF Air conditioned apartments"
+                },
+                {
+                    "highlight_Point": "Double glazing for energy saving and peaceful living"
+                }
+            ]
+         },{
+            "frontImage": {
+                "url": "https://res.cloudinary.com/dgplzytrq/image/upload/v1721397603/m3m-crown/zk5zlhi4z37j4asqs6ch_etuw3l.jpg"
+            },
+            "logo": {
+                "url": "https://res.cloudinary.com/dgplzytrq/image/upload/v1721397600/m3m-crown/fl2bcfqsc4fpibncl4uz_aoviyk.jpg"
+            },
+            "project_locationImage": {
+                "url": "https://res.cloudinary.com/dgplzytrq/image/upload/v1721397593/m3m-crown/legamdiwaq6qqhvkj5zd_gnisli.jpg"
+            },
+            "highlightImage": {
+                "url": "https://res.cloudinary.com/dgplzytrq/image/upload/v1721397585/m3m-crown/u7apq3cplomiipp0jahf_xbczrb.jpg"
+            },
+            "projectMaster_plan": {
+                "url": "https://res.cloudinary.com/dgplzytrq/image/upload/v1721397577/m3m-crown/yxnsfzev4jnwjsjwtb1d_pp2utk.jpg"
+            },
+            "_id": "663b2285df6f5a163792467d",
+            "project_floorplan_Image": [
+                {
+                    "url": "https://res.cloudinary.com/dgplzytrq/image/upload/v1721397654/m3m-crown/ejvukqmm23sd74m83dt9_wvtn3n.jpg"
+                },
+                {
+                    "url": "https://res.cloudinary.com/dgplzytrq/image/upload/v1721397661/m3m-crown/qbufvbje76qa11mzqmse_zjtxek.jpg"
+                },
+                {
+                    "url": "https://res.cloudinary.com/dgplzytrq/image/upload/v1721397667/m3m-crown/vvearzaanqsnzm5dgpev_bkbm0n.jpg"
+                },
+                {
+                    "url": "https://res.cloudinary.com/dgplzytrq/image/upload/v1721397675/m3m-crown/xaqoxgejpqljkstwcrsh_xgqeyg.jpg"
+                },
+                {
+                    "url": "https://res.cloudinary.com/dgplzytrq/image/upload/v1721397678/m3m-crown/fvz0ak4wfrqwsu3ne3mr_wn7h8c.jpg"
+                }
+            ],
+            "state": "Haryana",
+            "projectName": "M3M Crown",
+            "projectAddress": "Sector 111, Dwarka Expressway",
+            "project_description": "Nestled along the prestigious Dwarka Expressway, these luxurious residences epitomize refinement and sophistication. Showcasing expansive views of lush greenery and serene water bodies, these architectural masterpieces boast breathtaking design, opulent interiors, and a majestic club lifestyle. Catering to the discerning tastes of those who demand the ultimate in luxury and refinement, these upscale homes offer an unparalleled living experience that redefines the essence of elegance and exclusivity.",
+            "projectRedefine_Connectivity": [
+                "India International Convention CentreIndia’s largest Exhibition and Convention Centre"
+            ],
+            "projectRedefine_Entertainment": [
+                "International Sports Complex - Sports Stadium for cricket and soccer with a sitting capacity of 33,000 people  banner"
+            ],
+            "projectRedefine_Business": [
+                "Bharat Vandana Park - 200 Acres Park with lakes, restaurants, adventure activities and spaces representing various cultures"
+            ],
+            "projectRedefine_Education": [
+                "Diplomatic Enclave II - Exclusively marked zone for International organisations and embassies"
+            ],
+            "meta_description": "M3M Crown, New Residential Property in Sector 111 Gurgaon",
+            "meta_title": "M3M Crown, New Residential Property in Sector 111 Gurgaon",
+            "Amenities": [
+                "GOLF PUTTING",
+                "BOWLING",
+                "SQUASH COURT",
+                "SWIMMING",
+                "LAWN TENNIS",
+                "BOXING RING"
+            ],
+            "projectBgContent": "M3M Crown - Your New Address of Luxury in Sector 111 Gurgaon",
+            "projectReraNo": "GGM/687/419/2023/31",
+            "type": "Residential Flats",
+            "city": "Gurgaon",
+            "builderName": "M3M India",
+            "AboutDeveloper": "M3M India means 'Superbness in the Trinity Of Men, Materials and Money'. The aphorism of the organization is \"quality, opportune conveyance and greatness\". Recognizing highlights of M3M inside the business are its inventive, remarkable and unrivaled ideas, multi-dimensional realty arrangements and unparalleled high help norms. Demonstrating its responsibility towards creating cutting edge land works of art, M3M has consistently strived to gather the best ability in the business. The organization has increased important involvement with the land area with different and complimentary gifts from a rich organization of first class go-betweens, monetary establishments, high-total assets people and probably the most rumored designers in India.",
+            "projectOverview": "none",
+            "project_Status": "underconstruction",
+            "schema_type": "project",
+            "project_url": "m3m-crown",
+            "projectGallery": [
+                {
+                    "url": "https://res.cloudinary.com/dm5yrsqdc/image/upload/v1715151489/realtyshopee/project/sxdpuiwnm4jpjpgmtbf3.jpg"
+                },
+                {
+                    "url": "https://res.cloudinary.com/dm5yrsqdc/image/upload/v1715151490/realtyshopee/project/u4c2mnhip0gvvu4bz7xd.jpg"
+                },
+                {
+                    "url": "https://res.cloudinary.com/dm5yrsqdc/image/upload/v1715151491/realtyshopee/project/swuimsl36b6jlbuonmja.jpg"
+                },
+                {
+                    "url": "https://res.cloudinary.com/dm5yrsqdc/image/upload/v1715151492/realtyshopee/project/our5hg6dro0xljnf7bkh.jpg"
+                }
+            ],
+            "BhK_Details": [
+                {
+                    "bhk_type": "3 BHK",
+                    "price": "Call for Price",
+                    "bhk_Area": "1555 SQ.FT."
+                },
+                {
+                    "bhk_type": "3 BHK + Study",
+                    "price": "Call for Price",
+                    "bhk_Area": "1795 SQ.FT."
+                },
+                {
+                    "bhk_type": "3 BHK + Study + Servent",
+                    "price": "Call for Price",
+                    "bhk_Area": "2050 SQ.FT."
+                },
+                {
+                    "bhk_type": "4 BHK + Servent",
+                    "price": "Call for Price",
+                    "bhk_Area": "2270 SQ.FT."
+                },
+                {
+                    "bhk_type": "4 BHK + Study + Servent",
+                    "price": "Call for Price",
+                    "bhk_Area": "2525 SQ.FT."
+                }
+            ]
+        },
+        {
+            "frontImage": {
+                "url": "https://res.cloudinary.com/harshdubey1198/image/upload/v1721551430/oh4i3bbpfgjkamuhek1y_gm6mzr.webp"
+            },
+            "logo": {
+                "url": "https://res.cloudinary.com/harshdubey1198/image/upload/v1721551439/a4ykn8mbqes2y071hlc6_yqhh0t.png"
+            },
+            "project_locationImage": {
+                "url": "https://res.cloudinary.com/harshdubey1198/image/upload/v1721551447/tmgs9cdzzbgm5im4srxk_gg8nb1.jpg"
+            },
+            "highlightImage": {
+                "url": "https://res.cloudinary.com/harshdubey1198/image/upload/v1721551456/ioafg9gyxk8avfbdbxed_fz1fh9.jpg"
+            },
+            "projectMaster_plan": {
+                "url": "https://res.cloudinary.com/harshdubey1198/image/upload/v1721551465/tqmpkwhavp1d9sdi9msc_fhehmk.jpg"
+            },
+            "projectGallery": [],
+            "_id": "65cb131beb1f1458ae075478",
+            "project_floorplan_Image": [
+                {
+                    "url": "https://res.cloudinary.com/harshdubey1198/image/upload/v1721551637/btvkdcivpj5vlcuvuw98_ngx5ug.jpg"
+                },
+                {
+                    "url": "https://res.cloudinary.com/harshdubey1198/image/upload/v1721551646/bws7zhbysmcn2og00hft_oi9ylt.jpg"
+                },
+                {
+                    "url": "https://res.cloudinary.com/harshdubey1198/image/upload/v1721551653/hzfwo04nwal2lkrpgj8e_bzrxv3.jpg"
+                },
+                {
+                    "url": "https://res.cloudinary.com/harshdubey1198/image/upload/v1721551670/wtulziueznymqzuyvb7e_yrvr2b.jpg"
+                },
+                {
+                    "url": "https://res.cloudinary.com/harshdubey1198/image/upload/v1721551680/tfpsidzrk78mpucn4tlp_nswcso.jpg"
+                },
+                {
+                    "url": "https://res.cloudinary.com/harshdubey1198/image/upload/v1721551695/o9bqmldeqscgz3jlewuw_hevw9f.jpg"
+                },
+                {
+                    "url": "https://res.cloudinary.com/harshdubey1198/image/upload/v1721551702/s4fxsjupq79j9r9puk4r_u6mqpk.jpg"
+                }
+            ],
+            "state": "Haryana",
+            "projectName": "Godrej Air",
+            "projectAddress": "Sector 85 , Dwarka Expressway",
+            "project_description": "Discover a world-class lifestyle at Godrej Air Sector 85, Gurgaon, where every aspect is designed for your utmost convenience. Nestled in Sector 85, Gurgaon, Godrej 85 Gurgaon offers premium 2, 3, and 4 BHK residences surrounded by expansive green landscapes. Designed for contemporary living pleasures, these homes are a testament to comfort, offering tranquility away from the city's hustle and bustle. Awarded as the 'Most Promising Upcoming Project of the Year – North India', Godrej Sector 85 Gurgaon stands out for its superior amenities. With 5 elegant towers housing 511 apartments, it is ideally located just 1.5 km from Dwarka Expressway and 400 meters from Pataudi Road, ensuring easy access to every destination. At Godrej Air Gurgaon, we prioritize your well-being with 10X* enriched air quality. Whether indoors or outdoors, every breath you take is imbued with the freshness of purifying plants and the fragrance of flowering trees. Experience the freshest air in Gurgaon at Godrej Air.",
+            "projectRedefine_Connectivity": [
+                "30 minutes away from Rajiv Chowk & Hero Honda Chowk"
+            ],
+            "projectRedefine_Entertainment": [
+                "8 minutes drive time to Sapphire Mall - Sector 83"
+            ],
+            "projectRedefine_Business": [
+                "15 minutes drive time to Eros Corporate Park - Sector 2"
+            ],
+            "projectRedefine_Education": [
+                "6 minutes drive time to Delhi Public School - Sector 84"
+            ],
+            "meta_description": "Godrej Properties Launch New Luxury Project Godrej Air Gurgaon in Sector 85 New Gurgaon, Call 9289252999 for Godrej Air Booking Price n Payment Plan",
+            "meta_title": "Godrej Air Gurgaon New Apartment in Sector 85 Gurgaon",
+            "Amenities": [
+                "Provides","Modern","Amenities"
+            ],
+            "projectBgContent": "Godrej Air Gurgaon",
+            "projectReraNo": "32/2018",
+            "type": "Residential Property",
+            "city": "Gurgaon",
+            "builderName": "Godrej Properties",
+            "AboutDeveloper": "Godrej Properties brings the Godrej Group philosophy of innovation and excellence to the real estate industry. The company is currently developing landmark projects in 12 cities across India. Established in 1990, Godrej Properties Limited is the first real estate company to have ISO certification. With projects that span across the country, the company's upcoming development covers over 8 million square meters. To create landmark structures, Godrej Properties collaborates with outstanding associates and reputed names. The company aims to deliver superior value to all stakeholders through extraordinary and imaginative spaces created out of deep customer focus and insight.",
+            "projectOverview": "none",
+            "schema_type": "project",
+            "project_url": "godrej-air",
+            "BhK_Details": [
+                {
+                    "bhk_type": "2 BHK",
+                    "price": "₹ 0.83 - 0.92 Cr",
+                    "bhk_Area": "1400 SQ.FT"
+                },
+                {
+                    "bhk_type": "3 BHK",
+                    "price": "₹ 1.12 - 1.23 Cr",
+                    "bhk_Area": "1830 SQ.FT"
+                },
+                {
+                    "bhk_type": "3 BHK + Utility",
+                    "price": "₹ 1.41 - 1.49 Cr",
+                    "bhk_Area": "2150 SQ.FT"
+                },
+                {
+                    "bhk_type": "4 BHK + Utility",
+                    "price": "₹ 1.71 - 1.84 Cr",
+                    "bhk_Area": "2600 SQ.FT"
+                }
+            ]
+        },
+        {
+            "frontImage": {
+                "url": "https://res.cloudinary.com/harshdubey1198/image/upload/v1721552376/vchgvzjsuywfzwsgjda0_criihk.jpg"
+            },
+            "logo": {
+                "url": "https://res.cloudinary.com/harshdubey1198/image/upload/v1721552383/ce4eb32sbsppwpahoski_vthepn.jpg"
+            },
+            "project_locationImage": {
+                "url": "https://res.cloudinary.com/harshdubey1198/image/upload/v1721552391/wuwvcgiez0jmatz06abr_kxb0fw.jpg"
+            },
+            "highlightImage": {
+                "url": "https://res.cloudinary.com/harshdubey1198/image/upload/v1721552400/fxadek9fhd0mntuopsyr_j1onhv.jpg"
+            },
+            "projectMaster_plan": {
+                "url": "https://res.cloudinary.com/harshdubey1198/image/upload/v1721552413/eprmk4c4qzrk708l4ot8_qqrmxy.jpg"
+            },
+            "projectGallery": [],
+            "_id": "65cb6d2744c2c2b8e0184fd3",
+            "project_floorplan_Image": [
+                {
+                    "url": "https://res.cloudinary.com/harshdubey1198/image/upload/v1721552474/qknivhwl3x6rm5bsk4dv_shtqcc.jpg"
+                },
+                {
+                    "url": "https://res.cloudinary.com/harshdubey1198/image/upload/v1721552483/ptk4plkzdsi0ii35qths_fxsxhi.jpg"
+                },
+                {
+                    "url": "https://res.cloudinary.com/harshdubey1198/image/upload/v1721552534/uwnwccgdllne4tmyfwqr_u3clhc.jpg"
+                },
+                {
+                    "url": "https://res.cloudinary.com/harshdubey1198/image/upload/v1721552546/x7dddozrqfchp7qkkixk_fmbaha.jpg"
+                }
+            ],
+            "state": "Haryana",
+            "projectName": "M3M Atrium 57",
+            "projectAddress": "Sector 57 , Golf Course Extn Road",
+            "project_description": "Welcome to Gurgaon, a symbol of newly prosperous India, gleaming with shopping malls and five-star hotels. Positioned in the heart of this vibrant city, M3M Atrium Sector 57 Gurgaon epitomizes class and prestige. Surrounded by renowned educational institutions, malls, and hospitals, it offers a prime location for business and leisure. M3M Atrium will host a diverse array of global brands, creating an international shopping experience right at your doorstep. Enjoy easy access to the latest in faon, retail, and dining, all within a structured environment designed to cater to your every need.",
+            "projectRedefine_Connectivity": [
+                "Clover,Leaf,will,connect,NH,48,SPR,and,the,Central,Peripheral,Road,"
+            ],
+            "projectRedefine_Entertainment": [
+                "The,project,is,located,near,residential,neighborhoods,,malls,,and,entertainment,areas,,making,it,the,most,excellent,saleable,property,in,Gurgaon."
+            ],
+            "projectRedefine_Business": [
+                "Gurgaon's,top,commercial,property,is,close,to,the,Golf,Course,Extension,Road,and,Sohna,Road."
+            ],
+            "projectRedefine_Education": [
+                "Medanta,,Medicity,,Fortis,,and,Max,are,just,a,15-minute,drive,from,the,M3M,sector,57,Gurgaon,project."
+            ],
+            "meta_description": "M3M Launch M3M Atrium 57 Luxury Commercial Projects in Sector 57 Gurgaon. M3M Atrium 57 Offer Luxury Commercial Spaces, Retail Shop in Sector 57 Gurgaon",
+            "meta_title": "M3M Atrium 57, Luxury Commercial Space Sector 57 Gurgaon",
+            "Amenities": [
+                "Service / Goods Lift","Security / Fire Alarm","Power Back-up","Lift(s)","ATM","Maintenance Staff","WheelChair Accessibilitiy","CCTV Surveillance","Bank Attached Property","Visitor Parking","Security Personnel","Shopping Centre","Grocery Shop"
+            ],
+            "projectBgContent": "M3M ATRIUM 57 SECTOR 57 GURGAON",
+            "projectReraNo": "81/2021",
+            "type": "Commercial Property",
+            "city": "Gurgaon",
+            "builderName": "M3M India",
+            "AboutDeveloper": "The Brand ‘M3M’ stands for magnificence in the trinity of Men, Materials and Money. Simply put, the Brand ‘M3M’ has a philosophy that strives for excellence, culminating in absolute magnificence in every aspect of its character, ethics and way of doing business. What the brand stands for is in sync with its slogan of “Our Expertise. Your Joy.” The Brand ‘M3M’ firmly believes in achieving brilliance through true professionalism and cutting-edge technology.",
+            "projectOverview": "none",
+            "schema_type": "project",
+            "project_url": "m3m-atrium-57",
+            "BhK_Details": []
+            
+        }    
   ]
 }

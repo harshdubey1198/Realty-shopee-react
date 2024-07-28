@@ -24,6 +24,7 @@ import BlogAuth from './Components/BlogAuth';
 // import BlogTable from './Components/BlogTable'; 
 import BlogManager from './Components/BlogManager';
 import useMetaTags from './Components/useMetaTags';
+import { CommercialBlogs, ResidentialBlogs, ScoBlogs } from './Pages/BlogCategory';
 
 function App() {
   useMetaTags();
@@ -77,6 +78,9 @@ function App() {
             <Route path="/reset-password/:token" element={<ResetPassword />} />
             <Route path="/add-blogs" element={<AddBlogs auth={auth} />} />
             <Route path="/edit-blogs" element={<BlogManager auth={auth} />} />
+            <Route path="/residential-blogs" element={<ResidentialBlogs />} />
+            <Route path="/commercial-blogs" element={<CommercialBlogs />} />
+            <Route path="/sco-blogs" element={<ScoBlogs />} />
             <Route path="/login-add-blogs" element={<BlogAuth setAuth={setAuth} />} />
             <Route path="/*" element={<NotFound />} />
           </Routes>

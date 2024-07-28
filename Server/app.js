@@ -309,6 +309,17 @@ app.get('/blogs', async (req, res) => {
         res.status(500).json({ message: 'An error occurred. Please try again.' });
     }
 });
+app.get('/blogs/category/:category', async (req, res) => {
+    try {
+        const category = req.params.category;
+        const blogCollection = db.collection('blogs');
+        const blogs = await blogCollection.find({ category: { $regex: new RegExp(`^${category}$`, 'i') } }).toArray();
+        res.status(200).json(blogs);
+    } catch (error) {
+        console.error('Fetch Blogs by Category Error:', error);
+        res.status(500).json({ message: 'An error occurred. Please try again.' });
+    }
+});
 app.get('/blogs/:blogTitle', async (req, res) => {
     try {
         const blogTitle = decodeURIComponent(req.params.blogTitle).replace(/-/g, ' ');
