@@ -41,7 +41,7 @@ const BlogManager = () => {
 
   const fetchBlogs = async () => {
     try {
-      const response = await axios.get('https://realty-react-backend.onrender.com/blogs');
+      const response = await axios.get('http://localhost:10/blogs');
       setBlogs(response.data);
     } catch (error) {
       console.error('Error fetching blogs:', error);
@@ -50,7 +50,7 @@ const BlogManager = () => {
 
   const fetchBlogByMetaUrl = async (metaUrl) => {
     try {
-      const response = await axios.get(`https://realty-react-backend.onrender.com/blogs/meta_url/${metaUrl}`);
+      const response = await axios.get(`http://localhost:10/blogs/meta_url/${metaUrl}`);
       setBlog(response.data);
       setTitle(response.data.title);
       setDescription(JSON.parse(response.data.description));
@@ -70,7 +70,7 @@ const BlogManager = () => {
     
     if (confirmDelete) {
       try {
-        await axios.delete(`https://realty-react-backend.onrender.com/blogs/${id}`);
+        await axios.delete(`http://localhost:10/blogs/${id}`);
         setBlogs(blogs.filter(blog => blog._id !== id));
       } catch (error) {
         console.error('Error deleting blog:', error);
@@ -99,7 +99,7 @@ const BlogManager = () => {
     e.preventDefault();
 
     try {
-      const response = await axios.put(`https://realty-react-backend.onrender.com/blogs/${blog._id}`, {
+      const response = await axios.put(`http://localhost:10/blogs/${blog._id}`, {
         title,
         description: JSON.stringify(description),
         featureImage,

@@ -11,9 +11,22 @@ const AddBlogs = ({ auth }) => {
   const [featureImage, setFeatureImage] = useState('');
   const [category, setCategory] = useState('');
   const [tags, setTags] = useState('');
-  const [meta_Title, setMetaTitle] = useState('');
-  const [meta_Description, setMetaDescription] = useState('');
-  // const [meta_URL, setMetaURL] = useState('');
+  const [metaTitle, setMetaTitle] = useState('');
+  const [metaDescription, setMetaDescription] = useState('');
+  const [url, setUrl] = useState('');
+  const [canonical, setCanonical] = useState('');
+  const [ogSiteName, setOgSiteName] = useState('Realty Shopee');
+  const [ogType, setOgType] = useState('blog');
+  const [ogTitle, setOgTitle] = useState('');
+  const [ogDescription, setOgDescription] = useState('');
+  const [ogImage, setOgImage] = useState('');
+  const [twitterCard, setTwitterCard] = useState('');
+  const [twitterSite, setTwitterSite] = useState('Realty Shopee');
+  const [twitterType, setTwitterType] = useState('blog');
+  const [twitterTitle, setTwitterTitle] = useState('');
+  const [twitterDescription, setTwitterDescription] = useState('');
+  const [twitterImage, setTwitterImage] = useState('');
+
   const navigate = useNavigate();
 
   useEffect(() => {
@@ -26,28 +39,45 @@ const AddBlogs = ({ auth }) => {
   const handleHomeClick = () => {
     navigate('/');
   };
+
   const handleAllBlogs = () => {
     navigate('/blogs');
   };
+
   const handleContactUsClick = () => {
     navigate('/contactus');
   };
+
   const handleEditBlogs = () => {
     navigate('/edit-blogs');
   };
+
   const handleSubmit = async (e) => {
     e.preventDefault();
 
     try {
-      const response = await axios.post('https://realty-react-backend.onrender.com/add-blogs', {
+      const response = await axios.post('http://localhost:10/add-blogs', {
         title,
         description: JSON.stringify(description),
         featureImage,
         category,
         tags,
-        meta_title: meta_Title || title, 
-        meta_description: meta_Description || getDescriptionSummary(),
-        meta_url: generateMetaURL(title) 
+        meta_title: metaTitle || title, 
+        meta_description: metaDescription || getDescriptionSummary(),
+        meta_url: generateMetaURL(title),
+        canonical: canonical,
+        og_site_name: ogSiteName,
+        og_type: ogType,
+        og_title: ogTitle || title,
+        og_description: ogDescription || getDescriptionSummary(),
+        og_url: url || generateMetaURL(title),
+        og_image: ogImage || featureImage,
+        twitter_card: twitterCard || 'summary_large_image',
+        twitter_site: twitterSite,
+        twitter_type: twitterType,
+        twitter_title: twitterTitle || title,
+        twitter_description: twitterDescription || getDescriptionSummary(),
+        twitter_image: twitterImage || featureImage
       }, {
         headers: {
           'Content-Type': 'application/json'
@@ -124,11 +154,20 @@ const AddBlogs = ({ auth }) => {
                 <option value="h2">Heading 2</option>
                 <option value="h3">Heading 3</option>
                 <option value="h4">Heading 4</option>
+                <option value="link">Link</option>
+                <option value="list">Unordered List</option>
+                <option value="list-item">List Item</option>
               </select>
-              {item.type !== 'link' ? (
-                <textarea name="content" value={item.content} onChange={(e) => handleInputChange(e, index)} />
+              {item.type === 'link' ? (
+                <input
+                  type="text"
+                  name="content"
+                  value={item.content}
+                  onChange={(e) => handleInputChange(e, index)}
+                  placeholder="Enter URL"
+                />
               ) : (
-                <input type="text" name="content" value={item.content} onChange={(e) => handleInputChange(e, index)} placeholder="Enter URL" />
+                <textarea name="content" value={item.content} onChange={(e) => handleInputChange(e, index)} />
               )}
               <button type="button" className='btn-red' onClick={() => handleRemoveInput(index)}>Remove</button>
             </div>
@@ -154,18 +193,124 @@ const AddBlogs = ({ auth }) => {
         </div>
         <div>
           <label>Meta Title:</label>
-          <input type="text" value={meta_Title} onChange={(e) => setMetaTitle(e.target.value)} />
+          <input type="text" value={metaTitle} onChange={(e) => setMetaTitle(e.target.value)} />
         </div>
         <div>
           <label>Meta Description:</label>
-          <input value={meta_Description} onChange={(e) => setMetaDescription(e.target.value)} />
+          <input value={metaDescription} onChange={(e) => setMetaDescription(e.target.value)} />
         </div>
         <div>
           <label>Meta URL:</label>
           <input type="text" value={generateMetaURL(title)} readOnly />
         </div>
-        <button type="submit">Add Blog</button>
+        <div>
+          <label>URL:</label>
+          <input
+            type="text"
+            value={url}
+            onChange={(e) => setUrl(e.target.value)}
+            required
+          />
+        </div>
+        <div>
+          <label>Canonical:</label>
+          <input
+            type="text"
+            value={canonical}
+            onChange={(e) => setCanonical(e.target.value)}
+          />
+        </div>
+        <div>
+          <label>og:site_name:</label>
+          <input
+            type="text"
+            value={ogSiteName}
+            onChange={(e) => setOgSiteName(e.target.value)}
+          />
+        </div>
+        <div>
+          <label>og:type:</label>
+          <input
+            type="text"
+            value={ogType}
+            onChange={(e) => setOgType(e.target.value)}
+          />
+        </div>
+        <div>
+          <label>og:title:</label>
+          <input
+            type="text"
+            value={ogTitle}
+            onChange={(e) => setOgTitle(e.target.value)}
+          />
+        </div>
+        <div>
+          <label>og:description:</label>
+          <input
+            type="text"
+            value={ogDescription}
+            onChange={(e) => setOgDescription(e.target.value)}
+          />
+        </div>
+        <div>
+          <label>og:image:</label>
+          <input
+            type="text"
+            value={ogImage}
+            onChange={(e) => setOgImage(e.target.value)}
+          />
+        </div>
+        <div>
+          <label>twitter:card:</label>
+          <input
+            type="text"
+            value={twitterCard}
+            onChange={(e) => setTwitterCard(e.target.value)}
+          />
+        </div>
+        <div>
+          <label>twitter:site:</label>
+          <input
+            type="text"
+            value={twitterSite}
+            onChange={(e) => setTwitterSite(e.target.value)}
+          />
+        </div>
+        <div>
+          <label>twitter:type:</label>
+          <input
+            type="text"
+            value={twitterType}
+            onChange={(e) => setTwitterType(e.target.value)}
+          />
+        </div>
+        <div>
+          <label>twitter:title:</label>
+          <input
+            type="text"
+            value={twitterTitle}
+            onChange={(e) => setTwitterTitle(e.target.value)}
+          />
+        </div>
+        <div>
+          <label>twitter:description:</label>
+          <input
+            type="text"
+            value={twitterDescription}
+            onChange={(e) => setTwitterDescription(e.target.value)}
+          />
+        </div>
+        <div>
+          <label>twitter:image:</label>
+          <input
+            type="text"
+            value={twitterImage}
+            onChange={(e) => setTwitterImage(e.target.value)}
+          />
+        </div>
+        <button type="submit">Submit</button>
         <button onClick={handleEditBlogs}>Edit Blogs </button>
+
       </form>
     </div>
   );

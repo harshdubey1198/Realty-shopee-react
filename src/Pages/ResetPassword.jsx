@@ -16,7 +16,7 @@ const ResetPassword = () => {
 
   const handleSubmit = async (e) => {
     e.preventDefault();
-    const url = 'https://realty-react-backend.onrender.com/reset-password';
+    const url = 'http://localhost:10/reset-password';
     try {
       const response = await fetch(url, {
         method: 'POST',

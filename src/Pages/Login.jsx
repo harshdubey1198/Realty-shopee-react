@@ -20,7 +20,7 @@ const Login = () => {
 
   const handleSignIn = async (e) => {
     e.preventDefault();
-    const url = 'https://realty-react-backend.onrender.com/signin';
+    const url = 'http://localhost:10/signin';
     try {
       const response = await fetch(url, {
         method: 'POST',
@@ -43,7 +43,7 @@ const Login = () => {
 
   const handleSignUp = async (e) => {
     e.preventDefault();
-    const url = 'https://realty-react-backend.onrender.com/signup';
+    const url = 'http://localhost:10/signup';
     try {
       const response = await fetch(url, {
         method: 'POST',
@@ -65,7 +65,7 @@ const Login = () => {
 
   const handleForgotPassword = async (e) => {
     e.preventDefault();
-    const url = 'https://realty-react-backend.onrender.com/forgot-password';
+    const url = 'http://localhost:10/forgot-password';
     try {
       const response = await fetch(url, {
         method: 'POST',

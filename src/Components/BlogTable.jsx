@@ -8,7 +8,7 @@ const BlogTable = () => {
     const navigate = useNavigate();
 
     useEffect(() => {
-        axios.get('https://realty-react-backend.onrender.com/blogs')
+        axios.get('http://localhost:10/blogs')
             .then(response => {
                 setBlogs(response.data);
             })
@@ -19,7 +19,7 @@ const BlogTable = () => {
 
     const handleDelete = async (blogTitle) => {
         try {
-            await axios.delete(`https://realty-react-backend.onrender.com/blogs/${blogTitle}`);
+            await axios.delete(`http://localhost:10/blogs/${blogTitle}`);
             setBlogs(blogs.filter(blog => blog.title !== blogTitle));
         } catch (error) {
             console.error('There was an error deleting the blog!', error);

@@ -21,7 +21,7 @@ function BlogDetail() {
   useEffect(() => {
     const fetchBlog = async () => {
       try {
-        const response = await axios.get(`https://realty-react-backend.onrender.com/blogs/meta_url/${meta_url}`);
+        const response = await axios.get(`http://localhost:10/blogs/meta_url/${meta_url}`);
         setBlog(response.data);
       } catch (error) {
         setError('Blog not found');

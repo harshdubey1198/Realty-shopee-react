@@ -270,7 +270,27 @@ app.get('/resale', async (req, res) => {
 // Add blogs
 app.post('/add-blogs', upload.none(), async (req, res) => {
     try {
-        const { title, description, featureImage, category, tags, meta_title, meta_description, meta_url } = req.body;
+        const {  title,
+            description,
+            featureImage,
+            category,
+            tags,
+            meta_title,
+            meta_description,
+            meta_url,
+            canonical,
+            og_site_name,
+            og_type,
+            og_title,
+            og_description,
+            og_url,
+            og_image,
+            twitter_card,
+            twitter_site,
+            twitter_type,
+            twitter_title,
+            twitter_description,
+            twitter_image } = req.body;
         const blogCollection = db.collection('blogs');
 
         // Ensure tags are converted to an array
@@ -278,13 +298,26 @@ app.post('/add-blogs', upload.none(), async (req, res) => {
 
         const newBlog = {
             title,
-            description,
+            description: JSON.parse(description),  // Parse JSON description
             featureImage,
             category,
             tags: tagsArray,
             meta_title,
             meta_description,
             meta_url,
+            canonical,
+            og_site_name,
+            og_type,
+            og_title,
+            og_description,
+            og_url,
+            og_image,
+            twitter_card,
+            twitter_site,
+            twitter_type,
+            twitter_title,
+            twitter_description,
+            twitter_image,
             createdAt: new Date()
         };
 
