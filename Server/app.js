@@ -298,7 +298,7 @@ app.post('/add-blogs', upload.none(), async (req, res) => {
 
         const newBlog = {
             title,
-            description: JSON.parse(description),  // Parse JSON description
+            description,  // Parse JSON description
             featureImage,
             category,
             tags: tagsArray,

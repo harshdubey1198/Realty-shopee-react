@@ -11,8 +11,8 @@ const AddBlogs = ({ auth }) => {
   const [featureImage, setFeatureImage] = useState('');
   const [category, setCategory] = useState('');
   const [tags, setTags] = useState('');
-  const [metaTitle, setMetaTitle] = useState('');
-  const [metaDescription, setMetaDescription] = useState('');
+  const [meta_Title, setMetaTitle] = useState('');
+  const [meta_Description, setMetaDescription] = useState('');
   const [url, setUrl] = useState('');
   const [canonical, setCanonical] = useState('');
   const [ogSiteName, setOgSiteName] = useState('Realty Shopee');
@@ -62,8 +62,8 @@ const AddBlogs = ({ auth }) => {
         featureImage,
         category,
         tags,
-        meta_title: metaTitle || title, 
-        meta_description: metaDescription || getDescriptionSummary(),
+        meta_title: meta_Title || title, 
+        meta_description: meta_Description || getDescriptionSummary(),
         meta_url: generateMetaURL(title),
         canonical: canonical,
         og_site_name: ogSiteName,
@@ -193,11 +193,11 @@ const AddBlogs = ({ auth }) => {
         </div>
         <div>
           <label>Meta Title:</label>
-          <input type="text" value={metaTitle} onChange={(e) => setMetaTitle(e.target.value)} />
+          <input type="text" value={meta_Title} onChange={(e) => setMetaTitle(e.target.value)} />
         </div>
         <div>
           <label>Meta Description:</label>
-          <input value={metaDescription} onChange={(e) => setMetaDescription(e.target.value)} />
+          <input value={meta_Description} onChange={(e) => setMetaDescription(e.target.value)} />
         </div>
         <div>
           <label>Meta URL:</label>
