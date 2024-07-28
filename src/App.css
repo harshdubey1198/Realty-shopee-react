@@ -2166,6 +2166,11 @@ p{
   }
 }
 /* edit blogs div */
+.editor-section   form  div{
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
 .editor-section   form {
   display: flex;
   flex-direction: column;
