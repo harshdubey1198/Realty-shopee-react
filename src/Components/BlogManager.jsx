@@ -70,8 +70,9 @@ const BlogManager = () => {
     
     if (confirmDelete) {
       try {
-        await axios.delete(`https://realty-react-backend.onrender.com/blogs/${id}`);
+        await axios.delete(`https://realty-react-backend/blogs/${id}`);
         setBlogs(blogs.filter(blog => blog._id !== id));
+        console.log("Blog deleted successfully");
       } catch (error) {
         console.error('Error deleting blog:', error);
       }
