@@ -156,7 +156,7 @@ const metaTagsConfig = {
     url: "https://www.realtyshopee.com/blog/the-benefits-of-investing-in-a-commercial-property-in-gurgaon-for-foreign-investors",
     canonical:" https://www.realtyshopee.com/blog/the-benefits-of-investing-in-a-commercial-property-in-gurgaon-for-foreign-investors",
     image: "https://res.cloudinary.com/dgplzytrq/image/upload/v1719492483/Description%20Images/residential-property-in-gurgaon.jpg",
-    description:"The post-pandemic commercial real estate scene in Gurgaon has seen a significant change. Shop-cum-office or SCO plots are gradually gaining traction and emergin",
+    description:"Investing in commercial property in Gurgaon offers foreign investors profitability and growth. Maximise returns with prime real estate opportunities.",
     additionalMetaTags: [
         { name: 'canonical', content: 'https://www.realtyshopee.com/blog/the-benefits-of-investing-in-a-commercial-property-in-gurgaon-for-foreign-investors' },
         { property: 'og:site_name', content: 'Realty Shopee' },
