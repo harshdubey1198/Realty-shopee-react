@@ -111,6 +111,7 @@ const metaTagsConfig = {
     url: "https://www.realtyshopee.com/blog/latest-trends-in-new-launch-property-in-gurgaon-the-millenium-city",
     canonical:"https://www.realtyshopee.com/blog/latest-trends-in-new-launch-property-in-gurgaon-the-millenium-city",
     image: "https://res.cloudinary.com/dgplzytrq/image/upload/v1719492483/Description%20Images/residential-property-in-gurgaon.jpg",
+    description:"Discover the latest trends in new launch properties in Gurgaon. Find out what's new in the market and how it impacts your investment opportunities.",
     additionalMetaTags: [
         { name: 'canonical', content: 'https://www.realtyshopee.com/blog/latest-trends-in-new-launch-property-in-gurgaon-the-millenium-city' },
         { property: 'og:site_name', content: 'Realty Shopee' },
@@ -132,6 +133,8 @@ const metaTagsConfig = {
     url: "https://www.realtyshopee.com/blog/why-residential-property-in-gurgaon-is-a-great-retirement-option",
     canonical:"https://www.realtyshopee.com/blog/why-residential-property-in-gurgaon-is-a-great-retirement-option",
     image: "https://res.cloudinary.com/dgplzytrq/image/upload/v1719492483/Description%20Images/residential-property-in-gurgaon.jpg",
+    description:"Learn why residential property in Gurgaon makes a great retirement option, offering luxury, convenience, and tranquility. Invest in the best residential property in Gurgaon today.",
+   
     additionalMetaTags: [
         { name: 'canonical', content: 'https://www.realtyshopee.com/blog/why-residential-property-in-gurgaon-is-a-great-retirement-option' },
         { property: 'og:site_name', content: 'Realty Shopee' },
@@ -153,12 +156,13 @@ const metaTagsConfig = {
     url: "https://www.realtyshopee.com/blog/the-benefits-of-investing-in-a-commercial-property-in-gurgaon-for-foreign-investors",
     canonical:" https://www.realtyshopee.com/blog/the-benefits-of-investing-in-a-commercial-property-in-gurgaon-for-foreign-investors",
     image: "https://res.cloudinary.com/dgplzytrq/image/upload/v1719492483/Description%20Images/residential-property-in-gurgaon.jpg",
+    description:"The post-pandemic commercial real estate scene in Gurgaon has seen a significant change. Shop-cum-office or SCO plots are gradually gaining traction and emergin",
     additionalMetaTags: [
         { name: 'canonical', content: 'https://www.realtyshopee.com/blog/the-benefits-of-investing-in-a-commercial-property-in-gurgaon-for-foreign-investors' },
         { property: 'og:site_name', content: 'Realty Shopee' },
         { property: 'og:type', content: 'blog' },
         { property: 'og:title', content: 'The Benefits of Investing in a Commercial Property in Gurgaon for Foreign Investors' },
-        { property: 'og:description', content: 'Learn why residential property in Gurgaon makes a great retirement option, offering luxury, convenience, and tranquility. Invest in the best residential property in Gurgaon today' },
+        { property: 'og:description', content: 'The post-pandemic commercial real estate scene in Gurgaon has seen a significant change. Shop-cum-office or SCO plots are gradually gaining traction and emergin' },
         { property: 'og:url', content: 'https://www.realtyshopee.com/blog/the-benefits-of-investing-in-a-commercial-property-in-gurgaon-for-foreign-investors' },
         { property: 'og:image', content: 'https://res.cloudinary.com/dgplzytrq/image/upload/v1719492483/Description%20Images/residential-property-in-gurgaon.jpg' },
         { name: 'twitter:card', content: 'https://res.cloudinary.com/dgplzytrq/image/upload/v1719492483/Description%20Images/residential-property-in-gurgaon.jpg' },
@@ -174,6 +178,7 @@ const metaTagsConfig = {
     url: "https://www.realtyshopee.com/blog/sco-plots-in-gurgaon:-a-better-choice-than-traditional-office-spaces",
     canonical:"https://www.realtyshopee.com/blog/sco-plots-in-gurgaon:-a-better-choice-than-traditional-office-spaces",
     image: "https://res.cloudinary.com/dgplzytrq/image/upload/v1719492483/Description%20Images/residential-property-in-gurgaon.jpg",
+    description:"Find SCO plots in Gurgaon within your budget with Realty Shopee, India's No.1 real estate management company in gurgaon. Get complete details of Shop-cum-offices.",
     additionalMetaTags: [
         { name: 'canonical', content: 'https://www.realtyshopee.com/blog/sco-plots-in-gurgaon:-a-better-choice-than-traditional-office-spaces' },
         { property: 'og:site_name', content: 'Realty Shopee' },
@@ -195,6 +200,7 @@ const metaTagsConfig = {
     url: "https://www.realtyshopee.com/blog/commercial-and-residential-property-in-gurgaon:-key-insights-and-trends-from-fy24-land-deals",
     canonical:"https://www.realtyshopee.com/blog/commercial-and-residential-property-in-gurgaon:-key-insights-and-trends-from-fy24-land-deals",
     image: "https://res.cloudinary.com/dgplzytrq/image/upload/v1719492483/Description%20Images/residential-property-in-gurgaon.jpg",
+    description:"If you're hunting for commercial and commercial properties in Gurgaon, you're in the right place! Realty Shopee offers a range of affordable and convenient properties available in Gurugram.",   
     additionalMetaTags: [
         { name: 'canonical', content: 'https://www.realtyshopee.com/blog/commercial-and-residential-property-in-gurgaon:-key-insights-and-trends-from-fy24-land-deals' },
         { property: 'og:site_name', content: 'Realty Shopee' },
@@ -216,7 +222,8 @@ const metaTagsConfig = {
     url: "https://www.realtyshopee.com/blog/dwarka-expressway-inauguration:-the-impact-on-residential-&-commercial-property-in-gurgaon",
     canonical:"https://www.realtyshopee.com/blog/dwarka-expressway-inauguration:-the-impact-on-residential-&-commercial-property-in-gurgaon",
     image: "https://res.cloudinary.com/dgplzytrq/image/upload/v1719492483/Description%20Images/residential-property-in-gurgaon.jpg",
-    additionalMetaTags: [
+      description:"Dwarka Expressway boosts connectivity, driving growth in residential, commercial property in Gurgaon. Explore the impact on real estate values, market trends.",
+      additionalMetaTags: [
         { name: 'canonical', content: 'https://www.realtyshopee.com/blog/dwarka-expressway-inauguration:-the-impact-on-residential-&-commercial-property-in-gurgaon' },
         { property: 'og:site_name', content: 'Realty Shopee' },
         { property: 'og:type', content: 'blog' },
