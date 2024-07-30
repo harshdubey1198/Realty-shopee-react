@@ -130,6 +130,7 @@ const metaTagsConfig = {
       ]
 },
 "/blog/why-residential-property-in-gurgaon-is-a-great-retirement-option": {
+    title: "Why Residential Property in Gurgaon is a Great Retirement Option?",
     url: "https://www.realtyshopee.com/blog/why-residential-property-in-gurgaon-is-a-great-retirement-option",
     canonical:"https://www.realtyshopee.com/blog/why-residential-property-in-gurgaon-is-a-great-retirement-option",
     image: "https://res.cloudinary.com/dgplzytrq/image/upload/v1719492483/Description%20Images/residential-property-in-gurgaon.jpg",
@@ -153,6 +154,7 @@ const metaTagsConfig = {
       ]
 },
 "/blog/the-benefits-of-investing-in-a-commercial-property-in-gurgaon-for-foreign-investors": {
+  title: "The Benefits of Investing in a Commercial Property in Gurgaon for Foreign Investors",
     url: "https://www.realtyshopee.com/blog/the-benefits-of-investing-in-a-commercial-property-in-gurgaon-for-foreign-investors",
     canonical:" https://www.realtyshopee.com/blog/the-benefits-of-investing-in-a-commercial-property-in-gurgaon-for-foreign-investors",
     image: "https://res.cloudinary.com/dgplzytrq/image/upload/v1719492483/Description%20Images/residential-property-in-gurgaon.jpg",
@@ -175,6 +177,7 @@ const metaTagsConfig = {
       ]
 },
 "/blog/sco-plots-in-gurgaon:-a-better-choice-than-traditional-office-spaces": {
+    title: "SCO Plots in Gurgaon: A Better Choice Than Traditional Office Spaces",
     url: "https://www.realtyshopee.com/blog/sco-plots-in-gurgaon:-a-better-choice-than-traditional-office-spaces",
     canonical:"https://www.realtyshopee.com/blog/sco-plots-in-gurgaon:-a-better-choice-than-traditional-office-spaces",
     image: "https://res.cloudinary.com/dgplzytrq/image/upload/v1719492483/Description%20Images/residential-property-in-gurgaon.jpg",
@@ -197,6 +200,7 @@ const metaTagsConfig = {
       ]
 },
 "/blog/commercial-and-residential-property-in-gurgaon:-key-insights-and-trends-from-fy24-land-deals": {
+  title: "Commercial and Residential Property in Gurgaon: Key Insights and Trends from FY24 Land Deals",
     url: "https://www.realtyshopee.com/blog/commercial-and-residential-property-in-gurgaon:-key-insights-and-trends-from-fy24-land-deals",
     canonical:"https://www.realtyshopee.com/blog/commercial-and-residential-property-in-gurgaon:-key-insights-and-trends-from-fy24-land-deals",
     image: "https://res.cloudinary.com/dgplzytrq/image/upload/v1719492483/Description%20Images/residential-property-in-gurgaon.jpg",
@@ -219,6 +223,7 @@ const metaTagsConfig = {
       ]
 },
 "/blog/dwarka-expressway-inauguration:-the-impact-on-residential-&-commercial-property-in-gurgaon": {
+  title: "Dwarka Expressway Inauguration: The Impact on Residential & Commercial Property in Gurgaon",
     url: "https://www.realtyshopee.com/blog/dwarka-expressway-inauguration:-the-impact-on-residential-&-commercial-property-in-gurgaon",
     canonical:"https://www.realtyshopee.com/blog/dwarka-expressway-inauguration:-the-impact-on-residential-&-commercial-property-in-gurgaon",
     image: "https://res.cloudinary.com/dgplzytrq/image/upload/v1719492483/Description%20Images/residential-property-in-gurgaon.jpg",
@@ -241,6 +246,7 @@ const metaTagsConfig = {
       ]
 },
 "/blog/the-impact-of-economic-cycles-on-commercial-sco-plots-in-gurgaon": {
+    title:"The Impact of Economic Cycles on Commercial SCO Plots in Gurgaon",
     url: "https://www.realtyshopee.com/blog/the-impact-of-economic-cycles-on-commercial-sco-plots-in-gurgaon",
     canonical:"https://www.realtyshopee.com/blog/the-impact-of-economic-cycles-on-commercial-sco-plots-in-gurgaon",
     image: "https://res.cloudinary.com/dgplzytrq/image/upload/v1719492483/Description%20Images/residential-property-in-gurgaon.jpg",
@@ -263,6 +269,7 @@ const metaTagsConfig = {
       ]
 },
 "/blog/investing-in-the-best-property-in-gurgaon:-risks-&-rewards": {
+    title:"Investing in the Best Property in Gurgaon: Risks & Rewards",
     url: "https://www.realtyshopee.com/blog/investing-in-the-best-property-in-gurgaon:-risks-&-rewards",
     canonical:"https://www.realtyshopee.com/blog/investing-in-the-best-property-in-gurgaon:-risks-&-rewards",
     image: "https://res.cloudinary.com/dgplzytrq/image/upload/v1719492483/Description%20Images/residential-property-in-gurgaon.jpg",
@@ -271,7 +278,7 @@ const metaTagsConfig = {
         { name: 'canonical', content: 'https://www.realtyshopee.com/blog/investing-in-the-best-property-in-gurgaon:-risks-&-rewards' },
         { property: 'og:site_name', content: 'Realty Shopee' },
         { property: 'og:type', content: 'blog' },
-        { property: 'og:title', content: '"Investing in the Best Property in Gurgaon: Risks & Rewards' },
+        { property: 'og:title', content: 'Investing in the Best Property in Gurgaon: Risks & Rewards' },
         { property: 'og:description', content: 'Learn the risks and rewards of investing in the best property in Gurgaon. Discover key insights to make informed decisions in the real estate market.' },
         { property: 'og:url', content: 'https://www.realtyshopee.com/blog/investing-in-the-best-property-in-gurgaon:-risks-&-rewards' },
         { property: 'og:image', content: 'https://res.cloudinary.com/dgplzytrq/image/upload/v1719492483/Description%20Images/residential-property-in-gurgaon.jpg' },
@@ -285,6 +292,7 @@ const metaTagsConfig = {
       ]
 },
 "/blog/why-is-the-best-property-dealer-in-gurgaon-essential-for-nri-investors": {
+    title:"Why is the Best Property Dealer in Gurgaon Essential for NRI Investors ?",
     url: "https://www.realtyshopee.com/blog/why-is-the-best-property-dealer-in-gurgaon-essential-for-nri-investors",
     canonical:"https://www.realtyshopee.com/blog/why-is-the-best-property-dealer-in-gurgaon-essential-for-nri-investors",
     image: "https://res.cloudinary.com/dgplzytrq/image/upload/v1719492483/Description%20Images/residential-property-in-gurgaon.jpg",
