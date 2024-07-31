@@ -297,7 +297,7 @@ const metaTagsConfig = {
     url: "https://www.realtyshopee.com/blog/why-is-the-best-property-dealer-in-gurgaon-essential-for-nri-investors",
     canonical:"https://www.realtyshopee.com/blog/why-is-the-best-property-dealer-in-gurgaon-essential-for-nri-investors",
     image: "https://res.cloudinary.com/dgplzytrq/image/upload/v1719492483/Description%20Images/residential-property-in-gurgaon.jpg",
-    description:"Why is the best property dealer in Gurgaon crucial for NRI investors? Learn how expert guidance can maximize your real estate investments in Gurgaon.",
+    description:"Why is the best property dealer in Gurgaon crucial for NRI investors? Learn how expert guidance can maximize your real estate investments in Gurgaon.",
       additionalMetaTags: [
         { name: 'canonical', content: 'https://www.realtyshopee.com/blog/why-is-the-best-property-dealer-in-gurgaon-essential-for-nri-investors' },
         { property: 'og:site_name', content: 'Realty Shopee' },
