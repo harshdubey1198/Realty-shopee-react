@@ -297,20 +297,20 @@ const metaTagsConfig = {
     url: "https://www.realtyshopee.com/blog/why-is-the-best-property-dealer-in-gurgaon-essential-for-nri-investors",
     canonical:"https://www.realtyshopee.com/blog/why-is-the-best-property-dealer-in-gurgaon-essential-for-nri-investors",
     image: "https://res.cloudinary.com/dgplzytrq/image/upload/v1719492483/Description%20Images/residential-property-in-gurgaon.jpg",
-    description:"Why is the best property dealer in Gurgaon crucial for NRI investors? Learn how expert guidance can maximise your real estate investments in Gurgaon.Learn the risks and rewards of investing in the best property in Gurgaon. Discover key insights to make informed decisions in the real estate market.",
+    description:"Why is the best property dealer in Gurgaon crucial for NRI investors? Learn how expert guidance can maximize your real estate investments in Gurgaon.",
       additionalMetaTags: [
         { name: 'canonical', content: 'https://www.realtyshopee.com/blog/why-is-the-best-property-dealer-in-gurgaon-essential-for-nri-investors' },
         { property: 'og:site_name', content: 'Realty Shopee' },
         { property: 'og:type', content: 'blog' },
         { property: 'og:title', content: 'Why is the Best Property Dealer in Gurgaon Essential for NRI Investors?' },
-        { property: 'og:description', content: 'Alright, NRI investors, let`s cut to the chase. You`ve got your eye on that lucrative Gurgaon real estate market.' },
+        { property: 'og:description', content: 'Why is the best property dealer in Gurgaon crucial for NRI investors? Learn how expert guidance can maximize your real estate investments in Gurgaon.' },
         { property: 'og:url', content: 'https://www.realtyshopee.com/blog/why-is-the-best-property-dealer-in-gurgaon-essential-for-nri-investors' },
         { property: 'og:image', content: 'https://res.cloudinary.com/dgplzytrq/image/upload/v1719492483/Description%20Images/residential-property-in-gurgaon.jpg' },
         { name: 'twitter:card', content: 'https://res.cloudinary.com/dgplzytrq/image/upload/v1719492483/Description%20Images/residential-property-in-gurgaon.jpg' },
         { name: 'twitter:site', content: 'Realty Shopee' },
         { name: 'twitter:type', content: 'blog' },
         { name: 'twitter:title', content: 'Why is the Best Property Dealer in Gurgaon Essential for NRI Investors?' },
-        { name: 'twitter:description', content: 'Alright, NRI investors, let`s cut to the chase. You`ve got your eye on that lucrative Gurgaon real estate market.' },
+        { name: 'twitter:description', content: 'Why is the best property dealer in Gurgaon crucial for NRI investors? Learn how expert guidance can maximize your real estate investments in Gurgaon.' },
         { name: 'twitter:url', content: 'https://www.realtyshopee.com/blog/why-is-the-best-property-dealer-in-gurgaon-essential-for-nri-investors' },
         { name: 'twitter:image', content: 'https://res.cloudinary.com/dgplzytrq/image/upload/v1719492483/Description%20Images/residential-property-in-gurgaon.jpg' }
       ]
