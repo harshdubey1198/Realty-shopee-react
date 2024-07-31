@@ -108,6 +108,7 @@ const metaTagsConfig = {
   image: "https://res.cloudinary.com/dgplzytrq/image/upload/v1719492483/Description%20Images/residential-property-in-gurgaon.jpg",
 },
 "/blog/latest-trends-in-new-launch-property-in-gurgaon-the-millenium-city": {
+  title: "Latest Trends in New Launch Property in Gurgaon, The Millenium City",
     url: "https://www.realtyshopee.com/blog/latest-trends-in-new-launch-property-in-gurgaon-the-millenium-city",
     canonical:"https://www.realtyshopee.com/blog/latest-trends-in-new-launch-property-in-gurgaon-the-millenium-city",
     image: "https://res.cloudinary.com/dgplzytrq/image/upload/v1719492483/Description%20Images/residential-property-in-gurgaon.jpg",
