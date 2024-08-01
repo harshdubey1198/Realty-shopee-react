@@ -343,20 +343,20 @@ const metaTagsConfig = {
     url: "https://www.realtyshopee.com/blog/designing-pet-friendly-space-for-a-new-residential-property-in-gurgaon",
     canonical:"https://www.realtyshopee.com/blog/designing-pet-friendly-space-for-a-new-residential-property-in-gurgaon",
     image: "https://res.cloudinary.com/dgplzytrq/image/upload/v1719492483/Description%20Images/residential-property-in-gurgaon.jpg",
-    description:"Designing Pet-Friendly Space for a New Residential Property in Gurgaon",
+    description:"Create a pet-friendly space at your new residential property in Gurgaon to ensure comfort for both you and your four-legged friends.",
       additionalMetaTags: [
         { name: 'canonical', content: 'https://www.realtyshopee.com/blog/designing-pet-friendly-space-for-a-new-residential-property-in-gurgaon' },
         { property: 'og:site_name', content: 'Realty Shopee' },
         { property: 'og:type', content: 'blog' },
         { property: 'og:title', content: 'Designing Pet-Friendly Space for a New Residential Property in Gurgaon' },
-        { property: 'og:description', content: 'Designing Pet-Friendly Space for a New Residential Property in Gurgaon' },
+        { property: 'og:description', content: 'Create a pet-friendly space at your new residential property in Gurgaon to ensure comfort for both you and your four-legged friends.' },
         { property: 'og:url', content: 'https://www.realtyshopee.com/blog/designing-pet-friendly-space-for-a-new-residential-property-in-gurgaon' },
         { property: 'og:image', content: 'https://res.cloudinary.com/dgplzytrq/image/upload/v1719492483/Description%20Images/residential-property-in-gurgaon.jpg' },
         { name: 'twitter:card', content: 'https://res.cloudinary.com/dgplzytrq/image/upload/v1719492483/Description%20Images/residential-property-in-gurgaon.jpg' },
         { name: 'twitter:site', content: 'Realty Shopee' },
         { name: 'twitter:type', content: 'blog' },
         { name: 'twitter:title', content: 'Designing Pet-Friendly Space for a New Residential Property in Gurgaon' },
-        { name: 'twitter:description', content: 'Designing Pet-Friendly Space for a New Residential Property in Gurgaon' },
+        { name: 'twitter:description', content: 'Create a pet-friendly space at your new residential property in Gurgaon to ensure comfort for both you and your four-legged friends.' },
         { name: 'twitter:url', content: 'https://www.realtyshopee.com/blog/designing-pet-friendly-space-for-a-new-residential-property-in-gurgaon' },
         { name: 'twitter:image', content: 'https://res.cloudinary.com/dgplzytrq/image/upload/v1719492483/Description%20Images/residential-property-in-gurgaon.jpg' }
       ]
