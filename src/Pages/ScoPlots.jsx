@@ -74,13 +74,8 @@ function ResidentialProperties() {
         />
       </div>
       <div className='c-c-d'>
-        <h1>Invest in SCO Plots in Gurugram Right Now</h1>
-        <p>Welcome to <a href="https://www.realtyshopee.com/">Realty Shopee</a>, your premier destination for SCO (Shop-cum-office) properties
-           in Gurgaon. Whether you're looking for commercial ventures, residential options, or
-           investment opportunities, we specialize in catering to your diverse real estate needs across
-           Gurugram. Discover the perfect SCO plots in Gurugram that align with your business
-           aspirations or investment goals, featuring two-sided open layouts and a variety of options
-           tailored to suit different requirements.
+        <h1>Commercial and Residential SCO Plots for Sale in Gurgaon</h1>
+        <p>Welcome to <a href="https://www.realtyshopee.com/">Realty Shopee</a>,  your premier destination for residential and commercial SCO plots in Gurgaon. Whether you're looking for commercial ventures, residential options, or investment opportunities, we specialize in catering to your diverse real estate needs across Gurugram. Discover the perfect commercial and residential SCO plots for sale in Gurgaon that align with your business aspirations or investment goals, featuring two-sided open layouts and a variety of options tailored to suit different requirements.
         </p>
         <h2>SCO Plots in Gurgaon for Commercial Purposes</h2>
         <p>Gurugram, known for its rapid urbanization and robust economic growth, offers a prime
@@ -107,7 +102,7 @@ function ResidentialProperties() {
         )}
       </div>
       <div className='c-c-d'>
-        <h3>Commercial and Residential SCO Plots for Sale in Gurgaon</h3>
+        <h3>Top Residential SCO Plots for Sale in Gurgaon</h3>
         <p>Realty Shopee presents a comprehensive range of residential SCO plots for sale in
            Gurgaon, catering to real estate investors. They also provide commercial SCO plots for sale
            in Gurgaon. Whether you seek a bustling commercial location or a mixed-use development
@@ -127,17 +122,8 @@ function ResidentialProperties() {
            and flexibility, allowing businesses and investors to capitalize on opportunities without
            delays.
         </p>
-        <h4>Prime Commercial SCO Plots for Sale in New Gurugram</h4>
-        <p>Invest in prime commercial SCO plots for sale through Realty Shopee. Benefit from strategic
-           locations, modern amenities, and potential rental income in Gurgaon's thriving commercial
-           districts. Whether you're expanding your business or seeking a lucrative investment, our
-           portfolio includes options that promise long-term growth and profitability.
-           At Realty Shopee, we are committed to delivering exceptional real estate solutions tailored
-           to your unique requirements. Explore our listings of SCO plots in Gurugram, featuring two-
-           side open configurations, commercial and residential options, affordable properties, and
-           ready-to-move-in opportunities. Contact us today to embark on your journey towards
-           acquiring the perfect SCO property in Gurgaon that meets your business aspirations and
-           investment objectives.
+        <h4>Prime Commercial SCO Plots for Sale in Gurgaon</h4>
+        <p>Invest in prime commercial SCO plots for sale in Gurgaon through Realty Shopee. Benefit from strategic locations, modern amenities, and potential rental income in Gurgaon's thriving commercial districts. Whether you're expanding your business or seeking a lucrative investment, our portfolio includes options that promise long-term growth and profitability. At Realty Shopee, we are committed to delivering exceptional real estate solutions tailored to your unique requirements. Explore our listings of SCO plots in Gurgaon, featuring two-side open configurations, commercial and residential options, affordable properties, and ready-to-move-in opportunities. Contact us today to embark on your journey towards acquiring the perfect SCO property in Gurgaon that meets your business aspirations and investment objectives.
         </p>
       </div>
     </div>
