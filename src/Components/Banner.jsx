@@ -53,8 +53,8 @@ const Banner = () => {
             </motion.h1>
           </div>
           <div className="flexColStart secondaryText flexhero-des">
-            <span>Find the best property in Gurgaon that suits you very easily </span>
-            <span> And forget all the difficulties in finding a residence for you.</span>
+            <span>Find the best luxury property in Gurgaon that suits you very easily </span>
+            <span>And forget all the difficulties in finding a residence.</span>
           </div>
 
           <div className="flexCenter search-bar">
