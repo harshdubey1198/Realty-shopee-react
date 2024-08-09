@@ -124,7 +124,7 @@ const CommercialProperties = () => {
           support your business growth from day one.
         </p>  
 
-        <h4>Contact Realty Shopee Today </h4>
+        <h4>Contact Realty Shopee Today for find the Best Commercial Property to Invest in Gurgaon</h4>
         <p>Take the next step towards securing the best commercial property to invest in Gurgaon with
           Realty Shopee. Explore our comprehensive listings, schedule a consultation with our
           experts, and unlock the potential of Gurgaon&#39;s commercial real estate market. Contact us
