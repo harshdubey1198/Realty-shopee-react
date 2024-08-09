@@ -68,27 +68,17 @@ function ResidentialProperties() {
         />
       </div>
       <div className='r-c-d1'>
-        <h1>Explore Residential Property in Gurgaon with Realty Shopee</h1>
-        <p>Buy one of the upcoming residential properties in Gurgaon with <a href="https://www.realtyshopee.com/">Realty Shopee</a>, your trusted
-          partner in real estate. Whether you're seeking a new residence, the most affordable options,
-          or specific locations like Old Gurgaon, Gurgaon Extension, or New Gurgaon, we offer a
-          comprehensive selection of residential properties to suit every lifestyle and budget.
+        <h1>Explore Ready-to-Move Residential Property in Gurgaon</h1>
+        <p>Buy an upcoming ready-to-move residential property in Gurgaon with <a href="https://www.realtyshopee.com/">Realty Shopee</a>, your trusted partner in real estate. Whether you're seeking a new residence, the most affordable options, or specific locations like Old Gurgaon, Gurgaon Extension, or New Gurgaon, we offer a comprehensive selection of residential properties to suit every lifestyle and budget.
         </p>
         <h2>Your Premier Destination for New Residential Property in Gurgaon</h2>
-        <p>Explore the latest developments in Gurgaon with our collection of new residential properties.
-          From modern apartments with state-of-the-art amenities to exclusive gated communities,
-          find your dream home in Gurgaon's burgeoning neighborhoods.
+        <p>Explore our collection of new residential properties in Gurgaon. From modern apartments with state-of-the-art amenities to exclusive gated communities, find your dream home in Gurgaon's burgeoning neighborhoods.  
         </p>
         <h2>Get the Cheapest Residential Property in Gurgaon</h2>
-        <p>We understand the importance of affordability. Our listings provide the most affordable
-          residential houses in Gurgaon, without sacrificing quality or comfort. Whether you're a first-
-          time buyer or looking to invest, Realty Shopee helps you find the perfect balance of price
-          and value.
+        <p>We understand the importance of affordability. Our listings provide the cheapest residential property in Gurgaon, without sacrificing quality or comfort. Whether you're a first- time buyer or looking to invest, Realty Shopee helps you find the perfect balance of price and value.
         </p>
         <h3>Discover Charming Residential Properties in Old Gurgaon</h3>
-        <p>Experience living in Old Gurgaon with our diverse range of residential options. Discover
-          residences that combine heritage and modern life, providing a unique insight into the city's
-          colorful culture.
+        <p>Experience living in Old Gurgaon with our diverse range of residential options. Discover the best residential properties in old Gurgaon that combine heritage and modern life, providing a unique insight into the city's colorful culture.
         </p>
       </div>
 
