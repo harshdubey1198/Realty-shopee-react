@@ -3565,6 +3565,118 @@
             "project_url": "m3m-atrium-57",
             "BhK_Details": []
             
-        }    
+        }    ,
+        {
+            "frontImage": {
+                "url": "https://res.cloudinary.com/harshdubey1198/image/upload/v1723272005/gyn22l6yg0i8xyny1pjf_zy8kjp.jpg"
+            },
+            "logo": {
+                "url": "https://res.cloudinary.com/harshdubey1198/image/upload/v1723272009/ixcr0t1mmv5rnuwbhebk_pujfgb.png"
+            },
+            "project_locationImage": {
+                "url": "https://res.cloudinary.com/harshdubey1198/image/upload/v1723272135/jx0t9uhaumqh0o3je441_x3ezqo.webp"
+            },
+            "highlightImage": {
+                "url": "https://res.cloudinary.com/harshdubey1198/image/upload/v1723272141/f39ahisxac1y1n5ckrxf_fy8haf.jpg"
+            },
+            "projectMaster_plan": {
+                "url": "https://res.cloudinary.com/harshdubey1198/image/upload/v1723272144/cltswdxqdledbo0totn5_l15sjv.jpg"
+            },
+            "_id": "66b3544d191dd760ec6f9346",
+            "project_floorplan_Image": [
+                {
+                    "url": "https://res.cloudinary.com/harshdubey1198/image/upload/v1723272327/Background_2_rbunqm_vvl6q4.png"
+                }
+            ],
+            "state": "Haryana",
+            "projectName": "Smartworld 69",
+            "projectAddress": "Sector 69, Southern Peripheral Road",
+            "project_discripation": "Smart World Sector 69 Gurugram is a premium residential development that offers a luxurious lifestyle with its meticulously designed 2 BHK, 3 BHK, and 4 BHK apartments. This exclusive project is strategically located in one of the most sought-after areas of Gurugram, providing residents with unparalleled connectivity and convenience. The development is a perfect blend of modern architecture and thoughtful planning, ensuring that every aspect of contemporary living is addressed. Each apartment is designed to maximize space and light, creating an ambiance of elegance and comfort. The interiors are adorned with high-quality finishes and fittings, reflecting a sophisticated aesthetic that caters to the tastes of discerning homeowners.",
+            "projectRedefine_Connectivity": [
+                "Adjacent to Transport & communication area"
+            ],
+            "projectRedefine_Entertainment": [
+                "Easy approachability from NH-8 & Dwarka Expressway"
+            ],
+            "projectRedefine_Business": [
+                "Direct Connectivity with Sohna Road & Golf Course Ext. Road"
+            ],
+            "projectRedefine_Education": [
+                "30 minutes from IGI and Domestic Airport"
+            ],
+            "meta_description": "Smartworld Sector 69 Gurgaon - Projects in Gurugram, Luxury Flats in Gurgaon",
+            "meta_title": "Smartworld Sector 69 Gurgaon - Projects in Gurugram",
+            "Amenities": [
+                "Amphitheatre"
+            ],
+            "projectBgContent": "SmartWorld 69 Sector 69 Gurgaon",
+            "projectReraNo": "upcoming",
+            "type": "Residential Flats",
+            "city": "Gurugram",
+            "builderName": "Smartworld",
+            "AboutDeveloper": "Smartworld is a real estate company envisioned as the future of real estate in India. It is an organization built on the ethos of bringing in a refreshing change in the real estate industry with honesty, professionalism and transparency being in the DNA of the company. At Smartworld, every aspect from Scale, Humanizing Technology, Business Digitization to Designs, and Evolved Lifescapes has been given the utmost importance to create a perfect, winning combination. The company is an amalgamation of top-notch professionals and proven achievers and has a prolific board that advises the organization on the best-in-class international standards including corporate governance, industry practices and design philosophy. Smartworld combines the vast experience of professionals whose experience of Sales, Marketing, Product Design and Project Management Delivery exceeds over Rs. 50 billion in sales and 1 billion sq. ft. in project execution.\r\n",
+            "projectOverview": "upcoming",
+            "project_Status": "comingsoon",
+            "schema_type": "project",
+            "project_url": "smart-world-sector-69-gurgaon",
+            "projectGallery": [
+                {
+                    "url": ""
+                },
+                {
+                    "url": ""
+                },
+                {
+                    "url": ""
+                }
+            ],
+            "towerNumber": 6,
+            "totalUnit": 630,
+            "totalLandArea": 12,
+            "launchingDate": "2024-10-01T00:00:00.000Z",
+            "mobileNumber": 9811750130,
+            "possessionDate": "2029-10-01T00:00:00.000Z",
+            "minPrice": 3.65,
+            "maxPrice": 12,
+            "BhK_Details": [
+                {
+                    "bhk_type": "3 BHK",
+                    "price": "₹ 3.65 Cr",
+                    "bhk_Area": "2200 - 2300 SQ.FT"
+                },
+                {
+                    "bhk_type": "3.5 BHK",
+                    "price": "Call for Price",
+                    "bhk_Area": "2500 - 2600 SQ.FT"
+                },
+                {
+                    "bhk_type": "4.5 BHK",
+                    "price": "Call for Price",
+                    "bhk_Area": "3000 - 3200 SQ.FT"
+                },
+                {
+                    "bhk_type": "Penthouse",
+                    "price": "₹ 11 - 12 Cr",
+                    "bhk_Area": "6500 - 7000 SQ.FT"
+                }
+            ],
+            "highlight": [
+                {
+                    "highlight_Point": "Glass Facade like Trump Towers"
+                },
+                {
+                    "highlight_Point": "REPLICA OF MARINA BAY SANDS SINGAPORE"
+                },
+                {
+                    "highlight_Point": "Tower Height - 45 Stories"
+                },
+                {
+                    "highlight_Point": "2.5 Acres Club on Roof Top"
+                },
+                {
+                    "highlight_Point": "1 Lacs SQ.FT Club on Ground Floor"
+                }
+            ]
+        }
   ]
 }
