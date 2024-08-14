@@ -25,6 +25,7 @@ import BlogAuth from './Components/BlogAuth';
 import BlogManager from './Components/BlogManager';
 import useMetaTags from './Components/useMetaTags';
 import { CommercialBlogs, ResidentialBlogs, ScoBlogs } from './Pages/BlogCategory';
+import HighlightedProperty from './Pages/HighlightedProperty';
 
 function App() {
   useMetaTags();
@@ -82,7 +83,8 @@ function App() {
             <Route path="/commercial-blogs" element={<CommercialBlogs />} />
             <Route path="/sco-blogs" element={<ScoBlogs />} />
             <Route path="/login-add-blogs" element={<BlogAuth setAuth={setAuth} />} />
-            <Route path="/*" element={<NotFound />} />
+            <Route path="/highlights/:id" element={<HighlightedProperty />} />
+y            <Route path="/*" element={<NotFound />} />
           </Routes>
         </div>
       </div>

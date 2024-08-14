@@ -1,0 +1,106 @@
+[
+    {
+      "id": "smart-world-sector-69",
+      "name": "Smart World - Sector 69 Gurgaon",
+      "about": "Feel the Luxury - Smartworld Sector 69. Welcome to Smart World Sector 69, Gurugram’s premier residential address where luxury meets contemporary design. This exclusive development is crafted for those who appreciate elegance and comfort. With its state-of-the-art modern architecture and meticulous planning, Smart World redefines upscale living. The 2 BHK, 3 BHK, and 4 BHK apartments are designed to provide unparalleled comfort and style, each reflecting a sophisticated aesthetic with high-quality finishes and attention to detail. The strategic location of Smart World adds to its allure, offering residents both convenience and exclusivity.",
+      "keyFeatures": [
+        "Sophisticated Design: Apartments boast premium finishes and a chic, modern look.",
+        "Strategic Location: Positioned in one of Gurugram’s most coveted areas, providing unmatched convenience and lifestyle benefits."
+      ],
+      "location": "Prime Location in Gurugram’s Elite Neighborhood",
+      "advantages": [
+        "Business Hubs: Proximity to major business districts, ensuring a seamless work-life balance.",
+        "Educational Institutions: Close to top-rated schools and colleges for easy access to quality education.",
+        "Healthcare Facilities: Nearby renowned hospitals and clinics for quick medical assistance.",
+        "Major Roads: Convenient access to NH-48 and Sohna Road, facilitating smooth commutes and connectivity."
+      ],
+      "connectivity": [
+        "Major Roads: Quick access to NH-48 and Sohna Road, simplifying travel across Gurugram and beyond.",
+        "Public Transport: Well-connected with local bus routes and metro stations, enhancing commuting options."
+      ],
+      "nearbyAmenities": [
+        "Shopping Centers: Proximity to upscale malls and retail outlets for all your shopping needs.",
+        "Entertainment: Close to a range of entertainment options, including cinemas, dining, and leisure activities."
+      ],
+      "amenities": [
+        "Clubhouse: A state-of-the-art space for social gatherings and community events.",
+        "Swimming Pool: A sparkling pool for relaxation and recreation.",
+        "Gymnasium: A fully-equipped fitness centre to support your wellness goals.",
+        "Sports Facilities: Various sports amenities to keep you active and engaged.",
+        "Play Areas: Children have areas set aside for play and exploration.",
+        "Parks: Green spaces that are safe for families to enjoy during downtime.",
+        "24/7 Surveillance: Advanced security systems ensuring a safe and secure living environment.",
+        "Controlled Access: Secure entry points and monitored access to the property."
+      ],
+      "bhkDetails": {
+        "2BHK": "Design & Comfort: Tailored for stylish living with functional layouts and premium finishes.",
+        "3.5BHK": "Design & Utility: Perfectly balanced for young professionals and small families, featuring modern kitchens, spacious living areas, and well-appointed bedrooms.",
+        "4BHK": "Luxury & Space: Offers expansive layouts with additional rooms for guests, home offices, or recreational use. Enjoy multiple balconies, spacious living and dining areas, and high-end furnishings."
+      },
+      "developerInfo": {
+        "name": "Smart World Developers",
+        "about": "A rising star in the real estate industry, Smart World Developers is renowned for its dedication to quality and creativity. The developer focuses on delivering projects with integrity, transparency, and professionalism.",
+        "reputation": [
+          "Commitment to Quality: Adheres to high standards of construction and design.",
+          "International Standards: Operated under the guidance of a Singapore-based team, ensuring adherence to global benchmarks and best practices."
+        ]
+      },
+      "images": [
+        "https://res.cloudinary.com/harshdubey1198/image/upload/v1723272144/cltswdxqdledbo0totn5_l15sjv.jpg",
+        "https://res.cloudinary.com/harshdubey1198/image/upload/v1723272005/gyn22l6yg0i8xyny1pjf_zy8kjp.jpg"
+      ],
+      "carousel": [
+        "https://example.com/images/carousel1-1.jpg",
+        "https://example.com/images/carousel1-2.jpg",
+        "https://example.com/images/carousel1-3.jpg"
+      ]
+    },
+    {
+      "id": "smart-world-the-edition",
+      "name": "Smartworld The Edition - Sector 66 Gurgaon",
+      "about": "Welcome to Smartworld The Edition, an exquisite residential development by the esteemed SmartWorld Developer. Renowned for its commitment to quality and innovation, SmartWorld Developer has created a community that stands out in Gurgaon’s competitive real estate market. Smartworld The Edition offers an impressive selection of 2 BHK and 3 BHK apartments, each meticulously designed to combine elegance with functionality. These spacious homes feature expansive windows and balconies that flood the interiors with natural light and offer breathtaking views of the surrounding greenery. The thoughtfully planned layouts maximize living space, ensuring that every inch is used effectively. Residents will enjoy a tranquil environment thanks to the ample open spaces and lush gardens, creating a serene retreat from the bustling city.",
+      "keyFeatures": [
+        "Swimming Pool: Take a refreshing dip in the sparkling swimming pool, perfect for relaxation and leisure.",
+        "Lush Green Gardens: Stroll through beautifully landscaped gardens that offer a peaceful retreat and a connection with nature.",
+        "Well-Equipped Gym: Maintain your fitness regime in the state-of-the-art gym, equipped with the latest exercise equipment.",
+        "Children’s Play Area: A dedicated space for children to play and explore safely, ensuring they have their own fun-filled environment."
+      ],
+      "location": "Located in the heart of Sector 66, Gurgaon, Smartworld The Edition is situated in one of the most vibrant and fast-growing localities of the National Capital Region (NCR). Sector 66 is a prime area known for its well-planned infrastructure and dynamic atmosphere. The locality is a blend of high-rise apartments, modern condominiums, and luxurious villas, catering to a diverse range of residential needs. It is also a commercial hub, with numerous corporate offices, IT parks, and business centers contributing to the region’s economic vitality. The sector’s appeal is further enhanced by its proximity to various parks, shopping centers, and entertainment venues, providing residents with ample recreational opportunities.",
+      "connectivity": [
+        "NH-8: Ensures seamless travel to Delhi and other key areas within the NCR.",
+        "Major Business Districts: Easy access to business districts.",
+        "Educational Institutions: Close proximity to top educational institutions.",
+        "Healthcare Facilities: Nearby world-class healthcare facilities."
+      ],
+      "amenities": [
+        "Swimming Pool: Take a refreshing dip in the sparkling swimming pool, perfect for relaxation and leisure.",
+        "Lush Green Gardens: Stroll through beautifully landscaped gardens.",
+        "Well-Equipped Gym: Maintain your fitness regime in the state-of-the-art gym.",
+        "Children’s Play Area: Dedicated space for children."
+      ],
+      "bhkDetails": {
+        "2BHK": "Designed to provide a balance of comfort and practicality.",
+        "3BHK": "Offers generous living areas, elegant interiors, and enhanced privacy."
+      },
+      "developerInfo": {
+        "name": "SmartWorld Developer",
+        "about": "Renowned for its commitment to quality and innovation.",
+        "reputation": [
+          "Quality: Focuses on high standards of construction and design.",
+          "Innovation: Known for innovative residential solutions."
+        ]
+      },
+      "images": [
+        "https://example.com/images/property2-1.jpg",
+        "https://example.com/images/property2-2.jpg",
+        "https://example.com/images/property2-3.jpg"
+      ],
+      "carousel": [
+        "https://example.com/images/carousel2-1.jpg",
+        "https://example.com/images/carousel2-2.jpg",
+        "https://example.com/images/carousel2-3.jpg"
+      ]
+    }
+
+  ]
+  
