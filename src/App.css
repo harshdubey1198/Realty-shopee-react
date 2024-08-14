@@ -482,11 +482,10 @@ a {
 .gtc{
   padding: 20px;
   gap:  20px;
-  width: 90%;
+  width: 100%;
   height: 100%;
   min-height: 40vh;
   position: relative  ;
-  grid-template-columns: repeat(4, 1fr) !important;
   .property-card{
       max-width: 280px;
       min-width: 280px;
@@ -692,7 +691,7 @@ a {
   }
 }
 
-
+/* Shine Animation CSS */
 .project-card {
   background: #fff;
   border: 1px solid #ddd;
@@ -700,24 +699,24 @@ a {
   overflow: hidden;
   box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
   width: 292px; /* Adjust this width as needed */
-  height: 290px ;
-  /* height: 300px; */
+  height: 290px;
   margin: 8px;
   display: flex;
   flex-direction: column;
+  position: relative; /* Added for shine effect */
+  transition: transform 0.6s;
 }
-.project-card:hover{
+
+.project-card:hover {
   transform: scale(1.08);
-  transition: 0.6s;
 }
+
 .project-image {
   width: 100%;
-  height:10rem;
+  height: 10rem;
   object-fit: cover;
 }
-.mob-nav-dropdown{
-  display: none;
-}
+
 .project-details {
   display: flex;
   flex-direction: column;
@@ -735,31 +734,60 @@ a {
   margin: 4px 0;
   color: #555;
 }
-.inner-div{
+
+.inner-div {
   display: flex;
-  flex-direction:column;
+  flex-direction: column;
   justify-content: space-between;
   align-items: flex-start;
-  h5{
-    font-size: 15px;
-    color: black !important;
-  }
-  p{
-    font-size: .875rem;
-    line-height: 1.25rem;
-  }
-  .possession{
-    font-weight: 600;
-    color: rgb(82, 82, 82) !important;
-    font-size: 13px;
-    
-  }
 }
-.city{
+
+.inner-div h5 {
+  font-size: 15px;
+  color: black !important;
+}
+
+.inner-div p {
+  font-size: .875rem;
+  line-height: 1.25rem;
+}
+
+.possession {
+  font-weight: 600;
+  color: rgb(82, 82, 82) !important;
+  font-size: 13px;
+}
+
+.city {
   font-weight: 800;
   color: rgba(48, 91, 170, 0.733) !important;
   font-size: 14px;
 }
+
+/* Shine Effect */
+.project-card::before {
+  content: '';
+  position: absolute;
+  top: 0;
+  left: -75%;
+  width: 50%;
+  height: 100%;
+  background: linear-gradient(to right, rgba(255,255,255,0) 0%, rgba(255,255,255,0.3) 100%);
+  transform: skewX(-25deg);
+  z-index: 1;
+  pointer-events: none;
+}
+
+.project-card:hover::before {
+  animation: shine 0.75s;
+}
+
+@keyframes shine {
+  100% {
+    left: 125%;
+  }
+}
+
 
 /* upcoming  and trending css*/
 .upcoming-section, .trending-section , .bt{
@@ -1256,7 +1284,6 @@ justify-content: center;
   height: 300px;
   overflow: hidden;
   border-radius: 20px;
-  /* background: #e9e9e9; */
   background: #f1f1f1;
   display: flex;
   flex-direction: column;
@@ -1266,36 +1293,66 @@ justify-content: center;
   margin: 0 auto;
   cursor: pointer;
   position: relative;
+  /* Shine effect styling */
+  position: relative;
+  overflow: hidden;
 }
 
-.pd-fi {
-  height: 12rem;
+.property-card img {
   width: 100%;
-  object-fit: cover; 
+  height: 12rem;
+  object-fit: cover;
   border-top-left-radius: 20px;
   border-top-right-radius: 20px;
 }
 
-.property-link{
+/* Shine effect */
+.property-card::before {
+  content: '';
+  position: absolute;
+  top: 0;
+  left: -75%;
+  z-index: 2;
+  display: block;
+  width: 50%;
+  height: 100%;
+  background: linear-gradient(to right, rgba(255, 255, 255, 0) 0%, rgba(255, 255, 255, 0.3) 100%);
+  transform: skewX(-25deg);
+}
+
+.property-card:hover::before {
+  animation: shine 0.75s;
+}
+
+@keyframes shine {
+  100% {
+    left: 125%;
+  }
+}
+
+.property-link {
   color: black;
-  h4,p{
+  h4, p {
     text-align: left;
     width: 100%;
     margin: 2px;
     margin-left: 10px;
   }
 }
-.ld-nav{
+
+.ld-nav {
   display: flex;
   flex-direction: row;
   justify-content: space-around;
   align-items: center;
   background: #6898c9;
-  h2{
-    color: #cfffc1;
-  }
 }
-.ld-btn,.ld-vd{
+
+.ld-nav h2 {
+  color: #cfffc1;
+}
+
+.ld-btn, .ld-vd {
   background: #c3e2ff;
   border: 2px solid rgba(2, 120, 255, 0.637);
   padding: 5px 10px;
@@ -1303,23 +1360,24 @@ justify-content: center;
   font-size: 14px;
   font-weight: 700;
   box-shadow: 2px 2px 9px #a3c1df;
-  /* transition: transform 0.2s ease; */
 }
-.ld-btn:hover,.ld-vd:hover{
+
+.ld-btn:hover, .ld-vd:hover {
   transform: scale(1.1);
 }
-.ld-vd{
+
+.ld-vd {
   position: absolute;
   bottom: 20px;
   background: #e3f0fd;
   border: 2px solid rgb(129 188 255 / 64%);
-  color:rgb(91 88 88);
+  color: rgb(91, 88, 88);
 }
 
-
-button{
+button {
   cursor: pointer;
 }
+
 /* login and signup */
 
 .main-login {
@@ -2318,7 +2376,7 @@ p{
 }
 @media screen and (min-width:800px) and (max-width:1298px) {
   .projects-container{
-    grid-template-columns: repeat(2 ,1fr);
+    grid-template-columns: repeat(3 ,1fr);
     display: grid;
     gap: 5px;
     width: 100%;
@@ -2970,10 +3028,7 @@ button{
   
   }
 }
-.gtc{
-  padding: 0 !important;
-  grid-template-columns: repeat(1 ,1fr) !important;
-}
+
 .gtc-search{
   width: 70%;
 }
@@ -3390,4 +3445,15 @@ footer{
   .pd-p3 div ul {
     grid-template-columns: repeat(1, 1fr);
   }
+  .gtc{
+    padding: 0 !important;
+    grid-template-columns: repeat(1 ,1fr) !important;
+  }
+}
+@media screen and (min-width: 420px) and (max-width: 971px){
+  .gtc{
+    padding: 0 !important;
+    grid-template-columns: repeat(2 ,1fr) !important;
+  }
+  
 }
