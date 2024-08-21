@@ -1831,7 +1831,7 @@ overlay css */
     text-align: left;
   }
   img{
-    width: 30%;
+    width: 30% !important;
   }
 }
 .description-second{
@@ -3379,7 +3379,7 @@ footer{
 .middiv{
   flex-direction: column-reverse !important;
   img{
-    width: 70%;
+    width: 70% !important;
   }
 }
 .description1-home{
