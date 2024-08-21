@@ -1833,6 +1833,9 @@ overlay css */
   img{
     width: 30% !important;
   }
+  .whyshopee{
+    width: 70% !important;
+  }
 }
 .description-second{
   display: flex;
@@ -3378,6 +3381,9 @@ footer{
 }
 .middiv{
   flex-direction: column-reverse !important;
+  .whyshopee{
+    width: 70% !important;
+  }
   img{
     width: 70% !important;
   }
