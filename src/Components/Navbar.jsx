@@ -101,6 +101,7 @@ function Navbar() {
             <div className="auth-dropdown">
               <span className='wel-user'>{username ? `Welcome, ${username}` : "Guest"}</span>
               <button onClick={() => navigate('/allproperties')}>All Properties</button>
+              
               <button onClick={() => navigate('/contactus')}>Contact Us</button>
               
               {username ? (
@@ -128,6 +129,7 @@ function Navbar() {
               <option value="commercial">Commercial</option>
               <option value="sco">SCO</option>
             </select>
+            <Link to="/blogs" onClick={toggleMobileDropdown}><button>Blogs</button></Link>
             <ScrollLink to="location-wise" smooth={true} duration={1500} offset={-navbarHeight} onClick={toggleMobileDropdown}><button>Location Wise</button></ScrollLink>
             <ScrollLink to="contact-us" smooth={true} duration={1500} offset={-navbarHeight} onClick={toggleMobileDropdown}><button>About Us</button></ScrollLink>
           </div>
