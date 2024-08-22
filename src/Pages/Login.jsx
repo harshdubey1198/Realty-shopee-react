@@ -1,4 +1,4 @@
-import React, { useState } from 'react';
+import React, { useState, useEffect } from 'react';
 import '../App.css';
 import { Helmet } from 'react-helmet';
 
@@ -6,8 +6,17 @@ const Login = () => {
   const [overlayActive, setOverlayActive] = useState(false);
   const [isSignUp, setIsSignUp] = useState(false);
   const [isForgotPassword, setIsForgotPassword] = useState(false);
-  const [form, setForm] = useState({ name: '', email: '',mobile:'', password: '' });
+  const [form, setForm] = useState({ name: '', email: '', mobile: '', password: '' });
   const [email, setEmail] = useState('');
+
+  useEffect(() => {
+    const mainLogin = document.querySelector('.main-login');
+    const bgImage = new Image();
+    bgImage.src = 'https://res.cloudinary.com/dgplzytrq/image/upload/v1718629164/Background%20Images/bg2_b1iiom.jpg';
+    bgImage.onload = () => {
+      mainLogin.style.backgroundImage = `url(${bgImage.src})`;
+    };
+  }, []);
 
   const handleChange = (e) => {
     const { name, value } = e.target;
@@ -89,11 +98,11 @@ const Login = () => {
   return (
     <>
       <div className="main-login">
-      <Helmet>
-        <link rel="canonical" href={`https://www.realtyshopee.com/login`} />
-        <title>Login - Realty Shopee</title>
-        <link rel="icon" href="https://res.cloudinary.com/dgplzytrq/image/upload/v1720260452/Builders/r_logo_pz8qnp.png" />
-      </Helmet>
+        <Helmet>
+          <link rel="canonical" href={`https://www.realtyshopee.com/login`} />
+          <title>Login - Realty Shopee</title>
+          <link rel="icon" href="https://res.cloudinary.com/dgplzytrq/image/upload/v1720260452/Builders/r_logo_pz8qnp.png" />
+        </Helmet>
         <div className={`login-c ${overlayActive ? 'overlay-active' : ''}`}>
           {!isForgotPassword ? (
             <>
