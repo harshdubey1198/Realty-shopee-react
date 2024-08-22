@@ -163,8 +163,10 @@ function BlogDetail() {
         <a href="tel:+919289252999"><span>+91 9289252999</span><span><FcPhone className='phone' /></span></a>
       </header>
       <div className='blog-div'>
-        <h1>{blog.title}</h1>
-        <img src={blog.featureImage} alt={blog.title} className="blog-d-banner" />
+        <div className='banner-blog'> 
+          <h1>{blog.title}</h1>
+          <img src={blog.featureImage} alt={blog.title} className="blog-d-banner" />
+        </div>
         <div className="blog-content">
           {renderContent()}
           <p><b>Category:</b> {renderCategoryLink(blog.category)}</p>

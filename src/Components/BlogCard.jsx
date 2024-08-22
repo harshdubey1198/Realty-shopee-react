@@ -34,13 +34,13 @@ function BlogCard({ blog }) {
 
   const truncatedTitle = truncateContent(blog.title, 15);
   const { firstParagraph } = getFirstHeadingAndParagraph(JSON.parse(blog.description));
-  const truncatedParagraph = truncateContent(firstParagraph, 30);
+  const truncatedParagraph = truncateContent(firstParagraph, 20);
 
   return (
     <div className="blog-card">
       <img src={blog.featureImage} alt={blog.title} className="blog-banner" />
-      <h5>{truncatedTitle}</h5>
-      <p dangerouslySetInnerHTML={{ __html: truncatedParagraph }}></p>
+      <h6>{truncatedTitle}</h6>
+      <p className='text-smaller' dangerouslySetInnerHTML={{ __html: truncatedParagraph }}></p>
       <p className='fd'>{formattedDate}</p>
       <Link to={`/blog/${blog.meta_url}`} className='blog-opener'>Read More</Link> {/* Use blog.meta_url here */}
     </div>
