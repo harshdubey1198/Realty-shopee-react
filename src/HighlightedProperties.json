@@ -7,7 +7,10 @@
         "Sophisticated Design: Apartments boast premium finishes and a chic, modern look.",
         "Strategic Location: Positioned in one of Gurugram’s most coveted areas, providing unmatched convenience and lifestyle benefits."
       ],
-      "location": "Prime Location in Gurugram’s Elite Neighborhood",
+      "location": {
+        "description": "Prime Location in Gurugram’s Elite Neighborhood",
+        "mapLink": "https://res.cloudinary.com/harshdubey1198/image/upload/v1723272135/jx0t9uhaumqh0o3je441_x3ezqo.webp"
+      },
       "advantages": [
         "Business Hubs: Proximity to major business districts, ensuring a seamless work-life balance.",
         "Educational Institutions: Close to top-rated schools and colleges for easy access to quality education.",
