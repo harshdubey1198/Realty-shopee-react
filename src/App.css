@@ -11,22 +11,28 @@ body, html {
   background-color: #f4f4f4 !important;
   overflow-x: hidden;
 }
+
 body{
   position: relative;
 }
 h1{
- font-size: 2rem;
+  font-size: 2rem;
+  /* font-family: 'Roboto', sans-serif; */
 }
 h2 {
   font-size: 1.75rem;
+  /* font-family: 'Roboto', sans-serif; */
 }
 h3 {
   font-size: 1.5rem;
+  /* font-family: 'Roboto', sans-serif; */
 }
 h4 {
   font-size: 1.25rem;
+  /* font-family: 'Roboto', sans-serif; */
 }
 h5 {
+  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
   font-size: 1rem;
 }
 
@@ -139,42 +145,43 @@ nav {
   display: flex;
   flex-direction: row;
   align-items: center;
-
 }
 
-.navigators button, .navigators a , .dropdown-select {
+.navigators button, .navigators a, .dropdown-select {
   margin: 3px;
-  padding: 5px 5px;
+  padding: 5px;
   background-color: transparent;
   border: none;
   cursor: pointer;
   font-size: 20px;
-  font-weight:800;
+  font-weight: 800;
   color: #292929;
-  border: 1px solid white;
   border-radius: 4px;
   font-family: 'Cormorant', serif !important;
-  -webkit-font-smoothing: antialiased;
-  /* box-shadow: 1px 1px 20px rgba(255, 255, 255, 0.852); */
+  position: relative; /* Required for the pseudo-element positioning */
 }
 
-/* .dropdown-select{
-  appearance: none;
-} */
-
-.navigators button:hover, .dropdown-select:hover {
-  /* box-shadow: 1px 1px 20px rgba(255, 255, 255, 0.252); */
-  color: #000000;
-  background: #b8dcff;
+/* Pseudo-element for custom underline effect */
+.navigators button::after, .navigators a::after, .dropdown-select::after {
+  content: '';
+  position: absolute;
+  left: 0;
+  bottom: 0;
+  height: 2px;
+  width: 0;
+  background-color: #000000;
+  transition: width 0.3s ease; /* Smooth transition for the underline */
 }
 
-.dropdown-select {
-  background-color: none;
-  margin: 3px;
-  /* padding: 10px 5px !important; */
-  border-radius: 4px;
-  padding: 5px;
-  border: 1px solid white;
+/* Apply the underline effect on hover */
+.navigators button:hover::after, .navigators a:hover::after, .dropdown-select:hover::after {
+  width: 100%; /* Full width of the element */
+  background-color: #000000; /* Color of the underline */
+}
+
+/* Optional: Adjustments for better spacing */
+.navigators button, .navigators a, .dropdown-select {
+  padding-bottom: 8px; /* Ensure there’s space for the underline */
 }
 
 .logo-div {
@@ -721,7 +728,7 @@ a {
   display: flex;
   flex-direction: column;
   position: relative; /* Added for shine effect */
-  transition: transform 0.6s;
+  transition: transform 0.6s; 
 }
 
 .project-card:hover {
@@ -1051,6 +1058,7 @@ justify-content: center;
   z-index: 1;
   padding-bottom: 2rem;
   background: linear-gradient(135deg, #1e2d4d, #1877ad);
+  /* background-image: url("https://res.cloudinary.com/harshdubey1198/image/upload/v1725099985/modern-city-landscape-buildings-and-architecture-real-estate-silhouette-background-illustration-in-line-simple-geometric-flat-style-vector_bptytf.jpg"); */
 }
 
 
@@ -1146,18 +1154,49 @@ margin-bottom: 25px;
 
 /* right side */
 
+/* Shine Effect for Image Container */
 .image-container {
+  position: relative; /* Required for the pseudo-element positioning */
   width: 30rem;
   height: 29.8rem;
   overflow: hidden;
-  border-radius: 10rem 0 10rem  0;
+  border-radius: 10rem 0 10rem 0;
   border: 8px solid rgba(0, 0, 0, 0.301);
 }
-.image-container>img{
-    width: 100%;
-    height: 100%;
-    object-fit: contain;
+
+/* Apply shine effect to the image inside the container */
+.image-container::before {
+  content: '';
+  position: absolute;
+  top: 0;
+  left: -75%;
+  width: 50%;
+  height: 100%;
+  background: linear-gradient(to right, rgba(255,255,255,0) 0%, rgba(255,255,255,0.3) 100%);
+  transform: skewX(-25deg);
+  z-index: 1;
+  pointer-events: none;
+  transition: opacity 0.3s ease;
 }
+
+/* Trigger shine effect on hover */
+.image-container:hover::before {
+  animation: shine 0.75s;
+}
+
+@keyframes shine {
+  100% {
+    left: 125%;
+  }
+}
+
+/* Ensure the image is positioned correctly */
+.image-container > img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover; /* Use cover to ensure the image covers the container without distortion */
+}
+
 
 /* midform */
 .midform{
