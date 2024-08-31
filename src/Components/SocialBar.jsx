@@ -15,7 +15,7 @@ function SocialBar() {
       <a href="https://www.facebook.com/realtyshopee/" target="_blank" rel="noreferrer"><img src={facebook} alt='facebook'/></a>
       <a href="https://www.linkedin.com/company/14476428" target="_blank" rel="noreferrer"><img src={linkedin} alt="linkedin"/></a>
       <a href="https://twitter.com/Sachin_Gupta_11" target="_blank" rel="noreferrer"><img src={twitter} alt="twitter"/></a>
-      <a href="https://www.instagram.com/realtyshopee54321/" target="_blank" rel="noreferrer"><img src={instagram} alt="instagram"/></a>
+      <a href="https://www.instagram.com/_realty_shopee_/" target="_blank" rel="noreferrer"><img src={instagram} alt="instagram"/></a>
     </div>
   );
 }
