@@ -9,8 +9,8 @@ const Overlay = ({ onClose, onFormSubmit }) => {
     email: '',
     mobile: '',
     whenCanYouPlanAVisit: '',
-    preferredProject: '',
-    message: ''
+    // preferredProject: '',
+    // message: ''
   });
 
   const handleInputChange = (event) => {
@@ -42,8 +42,8 @@ const Overlay = ({ onClose, onFormSubmit }) => {
           email: '',
           mobile: '',
           whenCanYouPlanAVisit: '',
-          preferredProject: '',
-          message: ''
+          // preferredProject: '',
+          // message: ''
         });
         // Close overlay form after successful submission
         onFormSubmit(true);
@@ -111,7 +111,7 @@ const Overlay = ({ onClose, onFormSubmit }) => {
               required
               />
           </div>
-          <div className="form-group">
+          {/* <div className="form-group">
             <label htmlFor="preferredProject">Interested In</label>
             <select
               id="preferredProject"
@@ -136,7 +136,7 @@ const Overlay = ({ onClose, onFormSubmit }) => {
               onChange={handleInputChange}
               required
             />
-          </div>
+          </div> */}
           <button type="submit" className="submit-button">
             Submit
           </button>

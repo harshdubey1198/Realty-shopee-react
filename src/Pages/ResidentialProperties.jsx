@@ -44,6 +44,7 @@ function ResidentialProperties() {
   return (
     <div className='al-center'>
       <Helmet>
+        
         <link rel="canonical" href="https://www.realtyshopee.com/residential-property-in-gurgaon" />
       </Helmet>
       <nav className='all-p-nav'>

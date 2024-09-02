@@ -1,7 +1,8 @@
 /* App.css */
 
 .contact-us-page {
-    padding: 50px;
+    padding: 10px;
+    /* padding-top: 20px !important; */
     background-color: #f9f9f9;
     display: flex;
     flex-direction: column;

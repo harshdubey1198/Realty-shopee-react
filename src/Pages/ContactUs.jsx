@@ -11,8 +11,8 @@ function ContactUs() {
         email: "",
         mobile: "",
         whenCanYouPlanAVisit: "",
-        preferredProject: "",
-        message: ""
+        // preferredProject: "",
+        // message: ""
     });
 
     const handleInputChange = (event) => {
@@ -46,8 +46,8 @@ function ContactUs() {
                     email: "",
                     mobile: "",
                     whenCanYouPlanAVisit: "",
-                    preferredProject: "",
-                    message: ""
+                    // preferredProject: "",
+//                     message: ""
                 });
             } else {
                 console.error("Failed to submit form:", response.statusText);
@@ -120,7 +120,7 @@ function ContactUs() {
                             required
                         />
                     </div>
-                    <div className='form-group'>
+                    {/* <div className='form-group'>
                         <label htmlFor='preferredProject'>Interested In</label>
                         <select
                             id='preferredProject'
@@ -144,7 +144,7 @@ function ContactUs() {
                             onChange={handleInputChange}
                             required
                         />
-                    </div>
+                    </div> */}
                     <button type='submit' className='submit-button'>Submit</button>
                 </div>
             </form>

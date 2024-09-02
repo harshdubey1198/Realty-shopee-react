@@ -15,10 +15,12 @@ function Blogs() {
   const loader = <Loader type="ball-pulse-sync" />;
 
   useEffect(() => {
+    console.log('Fetching blogs...');
     const fetchBlogs = async () => {
       try {
         const response = await axios.get('https://realty-react-backend.onrender.com/blogs');
         setBlogs(response.data);
+        // console.log('Blogs fetched:', response.data);
       } catch (error) {
         console.error('Error fetching blogs:', error);
       }

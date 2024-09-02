@@ -94,7 +94,7 @@ function BlogDetail() {
   if (loading) {
     return (
       <div className='blogloading'>
-        <header className='pd-nav'>
+        <header className='pd-nav blue-nav'>
           <h2>
             <img src="https://www.realtyshopee.com/static/media/Realty%20shopee%20main%20logo.db6affde1f766278cf09.png" className='pd-logo' alt='Realty-Shopee-blogs' />
           </h2>
@@ -111,7 +111,7 @@ function BlogDetail() {
   if (error) {
     return (
       <div className='blognf'>
-        <header className='pd-nav'>
+        <header className='pd-nav blue-nav'>
           <h2>
             <img src="https://www.realtyshopee.com/static/media/Realty%20shopee%20main%20logo.db6affde1f766278cf09.png" className='pd-logo' alt='Realty-Shopee-blogs' />
           </h2>
@@ -133,7 +133,7 @@ function BlogDetail() {
   if (!blog) {
     return (
       <div className='blognf'>
-        <header className='pd-nav'>
+        <header className='pd-nav blue-nav'>
           <h2>
             <img src="https://www.realtyshopee.com/static/media/Realty%20shopee%20main%20logo.db6affde1f766278cf09.png" className='pd-logo' alt='Realty-Shopee-blogs' />
           </h2>
@@ -155,7 +155,7 @@ function BlogDetail() {
         <meta name="description" content={blog.meta_description || blog.description} />
         <meta name="keywords" content={(blog.meta_keywords || []).join(', ')} />
       </Helmet>
-      <header className='pd-nav'>
+      <header className='pd-nav blue-nav'>
         <h2><Link to="https://www.realtyshopee.com" className='r-logo'><img src="https://www.realtyshopee.com/static/media/Realty%20shopee%20main%20logo.db6affde1f766278cf09.png" className='pd-logo' alt='Realty-Shopee-blogs' /></Link></h2>
         <a href="/" target="_blank"><span>Home</span><span><FcHome /></span></a>
         <a href="/blogs" target="_blank"><span>Blogs</span><span><FcDocument /></span></a>
