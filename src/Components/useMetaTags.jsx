@@ -383,7 +383,44 @@ const metaTagsConfig = {
         { name: 'twitter:url', content: 'https://www.realtyshopee.com/blog/the-impact-of-urbanization-on-residential-sco-plots-for-sale-in-gurgaon' },
         { name: 'twitter:image', content: 'https://res.cloudinary.com/dgplzytrq/image/upload/v1719492483/Description%20Images/residential-property-in-gurgaon.jpg' }
       ]
-}
+},
+"/blog/commercial-sco-plots-for-sale-in-gurgaon:-a-smart-investment-for-long-term-wealth-creation":{
+  title:"Commercial SCO Plots for Sale in Gurgaon | Smart Investment Guide",
+  url: "https://www.realtyshopee.com/blog/commercial-sco-plots-for-sale-in-gurgaon:-a-smart-investment-for-long-term-wealth-creation",
+  canonical:"https://www.realtyshopee.com/blog/commercial-sco-plots-for-sale-in-gurgaon:-a-smart-investment-for-long-term-wealth-creation",
+  desciption:"Discover why investing in commercial SCO plots for sale in Gurgaon is a smart move for long-term wealth creation. Get expert insights and key market trends."
+},
+"/blog/the-role-of-commercial-property-dealers-in-gurgaon-in-shaping-the-city's-business-landscape":{
+  title:"Commercial Property Dealers in Gurgaon | Shaping Business Growth",
+  url: "https://www.realtyshopee.com/blog/the-role-of-commercial-property-dealers-in-gurgaon-in-shaping-the-city's-business-landscape",
+  canonical:"https://www.realtyshopee.com/blog/the-role-of-commercial-property-dealers-in-gurgaon-in-shaping-the-city's-business-landscape",
+  desciption:"Explore how Commercial Property Dealers in Gurgaon are pivotal in shaping the city's business landscape. A must-read for real estate investors."
+},
+"/blog/resale-commercial-property-in-gurgaon:-a-strategic-choice-for-e-commerce-businesses":{
+  title:"Resale Commercial Property in Gurgaon: A Strategic Choice for E-Commerce Businesses",
+  url:"https://www.realtyshopee.com/blog/resale-commercial-property-in-gurgaon:-a-strategic-choice-for-e-commerce-businesses",
+  canonical:"https://www.realtyshopee.com/blog/resale-commercial-property-in-gurgaon:-a-strategic-choice-for-e-commerce-businesses",
+  description:"Resale commercial property in Gurgaon offers e-commerce businesses cost-effective, ready-to-use spaces in prime locations, ensuring operational efficiency and growth."
+},
+"/blog/cheap-property-in-gurgaon-for-sale:-how-to-make-an-informed-decision":{
+  url:"https://www.realtyshopee.com/blog/cheap-property-in-gurgaon-for-sale:-how-to-make-an-informed-decision",
+  canonical:"https://www.realtyshopee.com/blog/cheap-property-in-gurgaon-for-sale:-how-to-make-an-informed-decision",
+  title:"Cheap Property in Gurgaon for Sale: How to Make an Informed Decision",
+  description:"Learn to navigate the market and make informed choices when buying cheap property in Gurgaon for sale. Get essential tips for a wise investment decision."
+},
+"/blog/residential-property-in-old-gurgaon:-understanding-property-taxes":{
+  url:"https://www.realtyshopee.com/blog/residential-property-in-old-gurgaon:-understanding-property-taxes",
+  canonical:"https://www.realtyshopee.com/blog/residential-property-in-old-gurgaon:-understanding-property-taxes",
+  title:"Residential Property in Old Gurgaon: Understanding Property Taxes",
+  description:"Understand property taxes for residential property in Old Gurgaon. Make informed investment decisions with our detailed guide to tax components and benefits."
+},
+"/blog/the-strategic-edge-of-ready-to-move-commercial-property-in-gurgaon-for-startups":{
+  url:"https://www.realtyshopee.com/blog/the-strategic-edge-of-ready-to-move-commercial-property-in-gurgaon-for-startups",
+  canonical:"https://www.realtyshopee.com/blog/the-strategic-edge-of-ready-to-move-commercial-property-in-gurgaon-for-startups",
+  title:"The Strategic Edge of Ready to Move Commercial Property in Gurgaon for Startups",
+  description:"Thinking of starting a business in Gurgaon? See why ready-to-move commercial properties are a top choice for startups. Learn about their quick setup, cost savings, and growth opportunities."
+  }
+
 };
 
 const updateMetaTags = (config) => {
