@@ -36,15 +36,15 @@ const HighlightedProperty = () => {
           margin: 0 auto;
           letter-spacing: 0.15em;
           animation: 
-            typewriter 3.5s steps(40, end) infinite,
-            blink 0.75s step-end infinite;
+            typewriter 3.5s steps(20, end) ,
+            blink 0.75s step-end ;
         }
       `}</style>
       
       <HNav />
       <div className="mx-auto p-6">
         <div className="relative overflow-hidden rounded-lg mb-6 w-3/4 mt-10">
-          <img src={property.images[0]} alt={property.name} className="w-3/4 h-96 object-cover" />
+          <img src={property.images[0]} alt={property.name} className="w-screen h-auto object-fill" />
           <div className="absolute top-0 left-[-75%] w-1/2 h-full bg-gradient-to-r from-transparent to-white opacity-30 transform skew-x-[-25deg] animate-shine"></div>
         </div>
         <div className="space-y-6">

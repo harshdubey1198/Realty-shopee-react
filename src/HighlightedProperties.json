@@ -58,52 +58,7 @@
         "https://example.com/images/carousel1-3.jpg"
       ]
     },
-    {
-      "id": "smart-world-the-edition",
-      "name": "Smartworld The Edition - Sector 66 Gurgaon",
-      "about": "Welcome to Smartworld The Edition, an exquisite residential development by the esteemed SmartWorld Developer. Renowned for its commitment to quality and innovation, SmartWorld Developer has created a community that stands out in Gurgaon’s competitive real estate market. Smartworld The Edition offers an impressive selection of 2 BHK and 3 BHK apartments, each meticulously designed to combine elegance with functionality. These spacious homes feature expansive windows and balconies that flood the interiors with natural light and offer breathtaking views of the surrounding greenery. The thoughtfully planned layouts maximize living space, ensuring that every inch is used effectively. Residents will enjoy a tranquil environment thanks to the ample open spaces and lush gardens, creating a serene retreat from the bustling city.",
-      "keyFeatures": [
-        "Swimming Pool: Take a refreshing dip in the sparkling swimming pool, perfect for relaxation and leisure.",
-        "Lush Green Gardens: Stroll through beautifully landscaped gardens that offer a peaceful retreat and a connection with nature.",
-        "Well-Equipped Gym: Maintain your fitness regime in the state-of-the-art gym, equipped with the latest exercise equipment.",
-        "Children’s Play Area: A dedicated space for children to play and explore safely, ensuring they have their own fun-filled environment."
-      ],
-      "location": "Located in the heart of Sector 66, Gurgaon, Smartworld The Edition is situated in one of the most vibrant and fast-growing localities of the National Capital Region (NCR). Sector 66 is a prime area known for its well-planned infrastructure and dynamic atmosphere. The locality is a blend of high-rise apartments, modern condominiums, and luxurious villas, catering to a diverse range of residential needs. It is also a commercial hub, with numerous corporate offices, IT parks, and business centers contributing to the region’s economic vitality. The sector’s appeal is further enhanced by its proximity to various parks, shopping centers, and entertainment venues, providing residents with ample recreational opportunities.",
-      "connectivity": [
-        "NH-8: Ensures seamless travel to Delhi and other key areas within the NCR.",
-        "Major Business Districts: Easy access to business districts.",
-        "Educational Institutions: Close proximity to top educational institutions.",
-        "Healthcare Facilities: Nearby world-class healthcare facilities."
-      ],
-      "amenities": [
-        "Swimming Pool: Take a refreshing dip in the sparkling swimming pool, perfect for relaxation and leisure.",
-        "Lush Green Gardens: Stroll through beautifully landscaped gardens.",
-        "Well-Equipped Gym: Maintain your fitness regime in the state-of-the-art gym.",
-        "Children’s Play Area: Dedicated space for children."
-      ],
-      "bhkDetails": {
-        "2BHK": "Designed to provide a balance of comfort and practicality.",
-        "3BHK": "Offers generous living areas, elegant interiors, and enhanced privacy."
-      },
-      "developerInfo": {
-        "name": "SmartWorld Developer",
-        "about": "Renowned for its commitment to quality and innovation.",
-        "reputation": [
-          "Quality: Focuses on high standards of construction and design.",
-          "Innovation: Known for innovative residential solutions."
-        ]
-      },
-      "images": [
-        "https://res.cloudinary.com/harshdubey1198/image/upload/v1725379965/1_janxep.jpg",
-        "https://example.com/images/property2-2.jpg",
-        "https://example.com/images/property2-3.jpg"
-      ],
-      "carousel": [
-        "https://example.com/images/carousel2-1.jpg",
-        "https://example.com/images/carousel2-2.jpg",
-        "https://example.com/images/carousel2-3.jpg"
-      ]
-    },
+   
       {
         "id": "m3m-golf-hills",
         "name": "M3M Golf Hills - Sector 79 Gurgaon",
@@ -159,6 +114,7 @@
           "https://example.com/images/m3m-carousel3.jpg"
         ]
       },
+      
       {
         "id": "tulip-monsella",
         "name": "Tulip Monsella - Sector 53 Gurgaon",
@@ -204,6 +160,51 @@
           "https://res.cloudinary.com/harshdubey1198/image/upload/v1725379782/banner1_zrljco.jpg",
           "https://example.com/images/tulip-carousel2.jpg",
           "https://example.com/images/tulip-carousel3.jpg"
+        ]
+      }, {
+        "id": "smart-world-the-edition",
+        "name": "Smartworld The Edition - Sector 66 Gurgaon",
+        "about": "Welcome to Smartworld The Edition, an exquisite residential development by the esteemed SmartWorld Developer. Renowned for its commitment to quality and innovation, SmartWorld Developer has created a community that stands out in Gurgaon’s competitive real estate market. Smartworld The Edition offers an impressive selection of 2 BHK and 3 BHK apartments, each meticulously designed to combine elegance with functionality. These spacious homes feature expansive windows and balconies that flood the interiors with natural light and offer breathtaking views of the surrounding greenery. The thoughtfully planned layouts maximize living space, ensuring that every inch is used effectively. Residents will enjoy a tranquil environment thanks to the ample open spaces and lush gardens, creating a serene retreat from the bustling city.",
+        "keyFeatures": [
+          "Swimming Pool: Take a refreshing dip in the sparkling swimming pool, perfect for relaxation and leisure.",
+          "Lush Green Gardens: Stroll through beautifully landscaped gardens that offer a peaceful retreat and a connection with nature.",
+          "Well-Equipped Gym: Maintain your fitness regime in the state-of-the-art gym, equipped with the latest exercise equipment.",
+          "Children’s Play Area: A dedicated space for children to play and explore safely, ensuring they have their own fun-filled environment."
+        ],
+        "location": "Located in the heart of Sector 66, Gurgaon, Smartworld The Edition is situated in one of the most vibrant and fast-growing localities of the National Capital Region (NCR). Sector 66 is a prime area known for its well-planned infrastructure and dynamic atmosphere. The locality is a blend of high-rise apartments, modern condominiums, and luxurious villas, catering to a diverse range of residential needs. It is also a commercial hub, with numerous corporate offices, IT parks, and business centers contributing to the region’s economic vitality. The sector’s appeal is further enhanced by its proximity to various parks, shopping centers, and entertainment venues, providing residents with ample recreational opportunities.",
+        "connectivity": [
+          "NH-8: Ensures seamless travel to Delhi and other key areas within the NCR.",
+          "Major Business Districts: Easy access to business districts.",
+          "Educational Institutions: Close proximity to top educational institutions.",
+          "Healthcare Facilities: Nearby world-class healthcare facilities."
+        ],
+        "amenities": [
+          "Swimming Pool: Take a refreshing dip in the sparkling swimming pool, perfect for relaxation and leisure.",
+          "Lush Green Gardens: Stroll through beautifully landscaped gardens.",
+          "Well-Equipped Gym: Maintain your fitness regime in the state-of-the-art gym.",
+          "Children’s Play Area: Dedicated space for children."
+        ],
+        "bhkDetails": {
+          "2BHK": "Designed to provide a balance of comfort and practicality.",
+          "3BHK": "Offers generous living areas, elegant interiors, and enhanced privacy."
+        },
+        "developerInfo": {
+          "name": "SmartWorld Developer",
+          "about": "Renowned for its commitment to quality and innovation.",
+          "reputation": [
+            "Quality: Focuses on high standards of construction and design.",
+            "Innovation: Known for innovative residential solutions."
+          ]
+        },
+        "images": [
+          "https://res.cloudinary.com/harshdubey1198/image/upload/v1725379965/1_janxep.jpg",
+          "https://example.com/images/property2-2.jpg",
+          "https://example.com/images/property2-3.jpg"
+        ],
+        "carousel": [
+          "https://res.cloudinary.com/harshdubey1198/image/upload/v1725379965/1_janxep.jpg",
+          "https://example.com/images/carousel2-2.jpg",
+          "https://example.com/images/carousel2-3.jpg"
         ]
       }
     
