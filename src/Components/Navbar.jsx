@@ -88,6 +88,7 @@ function Navbar() {
             <option value="residential">Residential</option>
             <option value="commercial">Commercial</option>
             <option value="sco">SCO</option>
+            <option value="highlighted">Highlighted</option>
           </select>
           <ScrollLink to="location-wise" smooth={true} duration={1500} offset={-navbarHeight}>Location Wise</ScrollLink>
           <Link to="/blogs">Blogs</Link>

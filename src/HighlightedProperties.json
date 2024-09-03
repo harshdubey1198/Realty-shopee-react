@@ -94,7 +94,7 @@
         ]
       },
       "images": [
-        "https://example.com/images/property2-1.jpg",
+        "https://res.cloudinary.com/harshdubey1198/image/upload/v1725379965/1_janxep.jpg",
         "https://example.com/images/property2-2.jpg",
         "https://example.com/images/property2-3.jpg"
       ],
@@ -103,7 +103,111 @@
         "https://example.com/images/carousel2-2.jpg",
         "https://example.com/images/carousel2-3.jpg"
       ]
-    }
+    },
+      {
+        "id": "m3m-golf-hills",
+        "name": "M3M Golf Hills - Sector 79 Gurgaon",
+        "about": "Introducing M3M Golf Hills, an elite residential development by M3M Properties that redefines the pinnacle of opulent living. Nestled in the heart of Sector 79, Gurgaon, this exquisite development is a testament to architectural brilliance and modern sophistication...",
+        "keyFeatures": [
+          "Architectural Excellence: M3M Golf Hills stands out with its upscale design and meticulous attention to detail.",
+          "Luxurious Living: The project caters to the discerning tastes of those who seek a refined lifestyle."
+        ],
+        "location": {
+          "description": "Strategically located in Sector 79, Gurgaon, with a picturesque backdrop of the Aravalli hills.",
+          "mapLink": "https://example.com/images/m3m-location-map.jpg"
+        },
+        "advantages": [
+          "Close proximity to reputed schools like GD Goenka School and KRM University.",
+          "Convenient access to top hospitals including Artemis, Fortis, and Max Hospital."
+        ],
+        "connectivity": [
+          "NH-8: Ensures seamless travel to Delhi and other key areas within the NCR.",
+          "Proposed metro station and Dwarka Expressway for enhanced connectivity."
+        ],
+        "nearbyAmenities": [
+          "Nearby shopping centers and entertainment zones for all your needs.",
+          "Access to premium recreational areas like golf courses and parks."
+        ],
+        "amenities": [
+          "Sports Facilities: Enjoy golf putting greens, net cricket, and a futsal court.",
+          "Recreational Areas: Kids' play area, infinity pool, and a multipurpose hall.",
+          "Health and Wellness: Fully equipped gym, yoga centre, and clubhouse.",
+          "Green Spaces: Beautifully landscaped gardens and parks.",
+          "Security: Multi-tier security systems ensuring peace of mind."
+        ],
+        "bhkDetails": {
+          "2.5BHK": "Modern kitchen, luxurious flooring, and spacious balconies with stunning views.",
+          "3.5BHK": "Wooden flooring in the master bedroom and imported marble flooring throughout.",
+          "4.5BHK": "Anodized powder-coated balconies and spacious living areas."
+        },
+        "developerInfo": {
+          "name": "M3M Properties",
+          "about": "Founded in 2007, M3M Properties is renowned for high-quality developments and innovative designs.",
+          "reputation": [
+            "Accolades: Multiple honors including the 'Luxury Project of the Year' for M3M Golf Estate.",
+            "Sustainability: Incorporates eco-friendly designs like rainwater harvesting and solar panels."
+          ]
+        },
+        "images": [
+          "https://res.cloudinary.com/harshdubey1198/image/upload/v1725379902/tcoee8a6miz8jxe6ru2i_hyhypg.jpg",
+          "https://example.com/images/m3m-property2.jpg",
+          "https://example.com/images/m3m-property3.jpg"
+        ],
+        "carousel": [
+          "https://example.com/images/m3m-carousel1.jpg",
+          "https://example.com/images/m3m-carousel2.jpg",
+          "https://example.com/images/m3m-carousel3.jpg"
+        ]
+      },
+      {
+        "id": "tulip-monsella",
+        "name": "Tulip Monsella - Sector 53 Gurgaon",
+        "about": "Tulip Monsella redefines luxury living on Golf Course Road, Sector 53, Gurgaon. Spread over 20 lush acres, this exclusive project features ten sophisticated towers offering 3, 4, and 5-bedroom apartments ranging from 2940 to 4503 sq ft...",
+        "keyFeatures": [
+          "Golf Driving Range: Perfect your swing in style.",
+          "Cycling & Jogging Tracks: Keep fit with scenic routes.",
+          "Top-Tier Security: Enjoy peace of mind with advanced security and home automation."
+        ],
+        "location": {
+          "description": "Sector 53 on Golf Course Road, Gurgaon, nestled among elite schools, hospitals, and luxury shopping.",
+          "mapLink": "https://example.com/images/tulip-location-map.jpg"
+        },
+        "connectivity": [
+          "Direct routes to NH-8 and easy connections to Delhi and the wider NCR.",
+          "Seamless access to major commercial and recreational areas."
+        ],
+        "amenities": [
+          "Sports Pavilion: Golf driving range, putting greens, and sports courts.",
+          "Recreational Areas: Splash pool, outdoor gym, and jogging tracks.",
+          "Skyhub: Library, cards lounge, business center, and yoga deck.",
+          "Clubhouse: Fine dining, bar, mini theatre, and patisserie."
+        ],
+        "bhkDetails": {
+          "3BHK": "Elegant living with a blend of luxury and practicality.",
+          "4BHK": "Expansive space and sophisticated design for modern families.",
+          "5BHK": "The pinnacle of luxury with exclusive, premium residences."
+        },
+        "developerInfo": {
+          "name": "Tulip Infratech",
+          "about": "Tulip Infratech is known for its innovation in residential and commercial spaces across Gurgaon.",
+          "reputation": [
+            "Eco-Friendly Comfort: Energy-efficient designs with sustainable features.",
+            "Award-Winning Projects: Recognized for excellence in real estate development."
+          ]
+        },
+        "images": [
+          "https://res.cloudinary.com/harshdubey1198/image/upload/v1725379782/banner1_zrljco.jpg",
+          "https://example.com/images/tulip-property2.jpg",
+          "https://example.com/images/tulip-property3.jpg"
+        ],
+        "carousel": [
+          "https://res.cloudinary.com/harshdubey1198/image/upload/v1725379782/banner1_zrljco.jpg",
+          "https://example.com/images/tulip-carousel2.jpg",
+          "https://example.com/images/tulip-carousel3.jpg"
+        ]
+      }
+    
+    
 
   ]
   

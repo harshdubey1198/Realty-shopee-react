@@ -16,6 +16,7 @@ import DescriptionFirst from '../Components/DescriptionFirst';
 import DescriptionSecond from '../Components/DescriptionSecond';
 import DescriptionThird from '../Components/DescriptionThird';
 import ScrollToTop from '../Components/ScrollToTop';
+import HighlightedProperties from '../Components/HighlightedProperties';
 
 const Home = () => {
   return (
@@ -56,7 +57,7 @@ const Home = () => {
       <div id="upcoming"><UpcomingProjects /></div>
 
       <div id="descsecond"><DescriptionSecond /></div>
-      
+      <div id="highlighted"><HighlightedProperties /></div>
       <div id="midform"><MidForm /></div>
 
       <div id="residential"><Residential /></div>
