@@ -129,6 +129,7 @@ function Navbar() {
               <option value="residential">Residential</option>
               <option value="commercial">Commercial</option>
               <option value="sco">SCO</option>
+              <option value="highlighted">Highlighted</option>
             </select>
             <Link to="/blogs" onClick={toggleMobileDropdown}><button>Blogs</button></Link>
             <ScrollLink to="location-wise" smooth={true} duration={1500} offset={-navbarHeight} onClick={toggleMobileDropdown}><button>Location Wise</button></ScrollLink>

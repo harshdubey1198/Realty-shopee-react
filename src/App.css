@@ -1074,7 +1074,15 @@ justify-content: center;
 /* left side */
 .hero-left {
   gap: 3rem;
+  width: 40% !important;
 }
+
+@media (width<568px){
+  .hero-left{
+    width: 90% !important;
+  }
+}
+
 .hero-title {
   position: relative;
   z-index: 1;
@@ -1132,7 +1140,7 @@ margin-bottom: 25px;
 
 .stats{
     justify-content: space-between;
-    width: 100%;
+    /* width: 100%; */
     gap: 9px;
 }
 .stat>:nth-child(1)
