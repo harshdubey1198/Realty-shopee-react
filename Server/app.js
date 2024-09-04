@@ -330,18 +330,34 @@ app.post('/add-blogs', upload.none(), async (req, res) => {
 });
 
 
-
-// Blog routes
 app.get('/blogs', async (req, res) => {
     try {
         const blogCollection = db.collection('blogs');
-        const blogs = await blogCollection.find().toArray();
+        const blogs = await blogCollection.find({}, { 
+            projection: { 
+                title: 1, 
+                featureImage: 1, 
+                description: 1,
+                createdAt: 1
+            }
+        }).toArray();
         res.status(200).json(blogs);
     } catch (error) {
         console.error('Fetch Blogs Error:', error);
         res.status(500).json({ message: 'An error occurred. Please try again.' });
     }
 });
+//  Blog routes
+// app.get('/blogs', async (req, res) => {
+//     try {
+//         const blogCollection = db.collection('blogs');
+//         const blogs = await blogCollection.find().toArray();
+//         res.status(200).json(blogs);
+//     } catch (error) {
+//         console.error('Fetch Blogs Error:', error);
+//         res.status(500).json({ message: 'An error occurred. Please try again.' });
+//     }
+// });
 app.get('/blogs/category/:category', async (req, res) => {
     try {
         const category = req.params.category;

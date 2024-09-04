@@ -5,6 +5,7 @@ import { Link as  Element } from 'react-scroll';
 import propertiesData from '../HighlightedProperties.json';
 // import { FaPhoneAlt, FaWhatsapp } from 'react-icons/fa';
 import HNav from '../Components/Hnav';
+import "../../src/App.css"; 
 
 const HighlightedProperty = () => {
   const { id } = useParams();
@@ -84,7 +85,7 @@ const HighlightedProperty = () => {
           <Element name="developerInfo">
             <div>
               <h2 className="text-2xl font-semibold mb-2 typewriter">Developer Information:</h2>
-              <p className="mb-4">{property.developerInfo.about}</p>
+              <p className="mb-4 text-black font-semibold">{property.developerInfo.about}</p>
               <h3 className="text-xl font-semibold mb-2 typewriter">Reputation & Values:</h3>
               <ul className="list-disc pl-5">
                 {property.developerInfo.reputation.map((value, index) => (

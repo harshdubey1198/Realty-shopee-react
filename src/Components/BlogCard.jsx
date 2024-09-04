@@ -25,7 +25,7 @@ function BlogCard({ blog }) {
   };
 
   const truncateContent = (content, maxWords) => {
-    const truncated = truncate(content, maxWords * 7); // Approximate word length with some buffer
+    const truncated = truncate(content, maxWords * 7); 
     return truncated.length < content.length ? truncated + '...' : truncated;
   };
 
@@ -42,7 +42,7 @@ function BlogCard({ blog }) {
       <h6>{truncatedTitle}</h6>
       <p className='text-smaller' dangerouslySetInnerHTML={{ __html: truncatedParagraph }}></p>
       <p className='fd'>{formattedDate}</p>
-      <Link to={`/blog/${blog.meta_url}`} className='blog-opener'>Read More</Link> {/* Use blog.meta_url here */}
+      <Link to={`/blog/${blog.meta_url}`} className='blog-opener'>Read More</Link> 
     </div>
   );
 }
