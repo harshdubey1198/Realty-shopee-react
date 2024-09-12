@@ -3677,6 +3677,325 @@
                     "highlight_Point": "1 Lacs SQ.FT Club on Ground Floor"
                 }
             ]
+        },
+        {
+            "project_floorplan_Image": [
+                {
+                    "url": "https://res.cloudinary.com/divlwzfnz/image/upload/v1726161720/uehtljll1wiocdkomqhu_ffbrnj.jpg"
+                },
+                {
+                    "url": "https://res.cloudinary.com/divlwzfnz/image/upload/v1726161726/ul36tpzeh866zmqij5or_ogpjiy.jpg"
+                },
+                {
+                    "url": "https://res.cloudinary.com/divlwzfnz/image/upload/v1726161736/tzbcywsgizuzc0vbpegw_uhozhl.jpg"
+                },
+                {
+                    "url": "https://res.cloudinary.com/divlwzfnz/image/upload/v1726161758/zkwdtjcgkwvfpj1zqukd_hxdjdh.jpg"
+                }
+            ],
+            "frontImage": {
+                "url": "https://res.cloudinary.com/divlwzfnz/image/upload/v1726161702/efqbxr0qkghggnzxkwin_pb6eqr.webp"
+            },
+            "logo": {
+                "url": "https://res.cloudinary.com/divlwzfnz/image/upload/v1726161674/bdsqszwefsq3hkr8bqq7_ivsf2a.svg"
+            },
+            "project_locationImage": {
+                "url": "https://res.cloudinary.com/divlwzfnz/image/upload/v1726161679/hozrevi2g2xekjzpkt5z_ozgxss.webp"
+            },
+            "state": "Haryana",
+            "projectName": "Silverglades Legacy",
+            "projectAddress": "Sector 63A, Southern Peripheral Road",
+            "project_description": "Silverglades' New Project in Sector 63, Gurgaon offers a sophisticated living experience in the bustling heart of Gurugram. With spacious 3 and 4 BHK apartments, this project is designed to provide a blend of comfort and luxury. The homes feature ample natural light, high-end finishes, and large balconies that offer stunning city views. This development creates an inviting atmosphere, where modern elegance and thoughtful details come together to elevate your everyday living.",
+            "projectRedefine_Connectivity": [
+                " min away from Golf Course Road and Rapid Metro."
+            ],
+            "projectRedefine_Entertainment": [
+                "Adjacent to Hilton Garden INN & Radisson Hotel."
+            ],
+            "projectRedefine_Business": [
+                "Near to Heritage School & Medanta Hospital."
+            ],
+            "projectRedefine_Education": [
+                "Close to Worldmark, Hongkong Bazar."
+            ],
+            "meta_description": "Silverglades Legacy Launch Luxury Residential Property offering 3/4 BHK Apartment at Sector 63A SP Road Gurgaon",
+            "meta_title": "Silverglades Legacy | New Launh 3/4 BHK Luxury Apartment in Sector 63A Gurgaon",
+            "Amenities": [
+                "Badminton Court", "Swimming Pool","CCTV Camera Security","Advanced Security"
+            ],
+            "projectBgContent": "Silverglades Sector 63 New Launch",
+            "projectReraNo": "Applied",
+            "type": "Residential Flats",
+            "city": "Gurugram",
+            "builderName": "Silverglades",
+            "AboutDeveloper": "Silverglades, founded three decades ago in 1988, are the true heralds of luxury real estate with a glorious legacy of creating some of India's very first lifestyle innovations. Fueled by Mr. Pradeep Jain's vision, we are passionate about bringing some of the finest experiences on Indian turf. We are committed to delivering excellence with a process that has grown over the years across a spectrum of segments- luxury residential, unique theme-based resorts, retail, mixed use and much more, and have forged lasting ties with the world's most renowned partners to create an extraordinary league of addresses and iconic urban masterpieces.",
+            "projectOverview": "none",
+            "schema_type": "projects",
+            "project_url": "silverglades-63-gurgaon",
+            "highlightImage": {
+                "url": "https://res.cloudinary.com/divlwzfnz/image/upload/v1726161783/fgxx0sqpjgm8vpszqnj1_bjlfdp.webp"
+            },
+            "projectMaster_plan": {
+                "url": "https://res.cloudinary.com/divlwzfnz/image/upload/v1726161790/ih21szrdwpuh6faqm0oe_ki1nhw.webp"
+            },
+            "projectGallery": [
+                {
+                    "url": "https://res.cloudinary.com/dm5yrsqdc/image/upload/v1724995723/100acre/project/h6sxv3rpyckt4tro2uuk.webp"
+                },
+                {
+                    "url": "https://res.cloudinary.com/dm5yrsqdc/image/upload/v1724995724/100acre/project/cgjluheglrejtvhy2tab.webp"
+                },
+                {
+                    "url": "https://res.cloudinary.com/dm5yrsqdc/image/upload/v1724995725/100acre/project/e8mkirqk1ayauwzzpafj.webp"
+                },
+                {
+                    "url": "https://res.cloudinary.com/dm5yrsqdc/image/upload/v1724995726/100acre/project/jhltigypd1gwv9gsqych.webp"
+                }
+            ],
+            "BhK_Details": [
+                {
+                    "bhk_type": "3 BHK - 4A Core",
+                    "price": "Call for Price",
+                    "bhk_Area": "2800 SQ.FT"
+                },
+                {
+                    "bhk_type": "4 BHK - 2A Core",
+                    "price": "Call for Price",
+                    "bhk_Area": "3800 SQ.FT"
+                }
+            ],
+            "highlight": [
+                {
+                    "highlight_Point": "Total Land - 10.5 Acres"
+                },
+                {
+                    "highlight_Point": "75% Open Area"
+                },
+                {
+                    "highlight_Point": "5 Towers, 410 Units & G+35 Stories"
+                },
+                {
+                    "highlight_Point": "COMFORT OF SECURITY"
+                }
+            ],
+          
+            "project_Status": "newlunch",
+            "launchingDate": "2024-06-01T00:00:00.000Z",
+            "maxPrice": 8.91,
+            "minPrice": 5.81,
+            "possessionDate": "2028-06-01T00:00:00.000Z",
+            "totalLandArea": 10.5,
+            "mobileNumber": 9289252999,
+            "totalUnit": 450,
+            "towerNumber": 5
+        },
+        {
+            "_id": "66bb07fb28c4db0a0d57085a",
+            "project_floorplan_Image": [
+              {
+                "url": "https://res.cloudinary.com/divlwzfnz/image/upload/v1726162411/jg0rcfrkf2vksb1h6bgg_jdbuys.jpg"
+              }
+            ],
+            "frontImage": {
+                "url": "https://res.cloudinary.com/divlwzfnz/image/upload/v1726162415/wf2vs4o559lndgycfeqq_wyxxef.jpg"
+            },
+            "logo": {
+                "url": "https://res.cloudinary.com/divlwzfnz/image/upload/v1726162442/xg95sclhasbdyv4isbqs_dhrmjz.jpg"
+            },
+            "project_locationImage": {
+                "url": "https://res.cloudinary.com/divlwzfnz/image/upload/v1726162460/uwwhbvwmg22azfcegyh5_e9xxh6.jpg"
+            },
+            "state": "Haryana",
+            "projectName": "Tulip Crimson",
+            "projectAddress": "Sector 70, Southern Peripheral Road",
+            "project_description": "Introducing Tulip Crimson – the latest luxury offering from Tulip Group's Platinum Collection. This exclusive addition combines innovative architectural design with the tranquility of nature, redefining luxury living. Tulip Crimson is more than just a residence; it is a private retreat where every amenity is thoughtfully designed for an unparalleled living experience.Located adjacent to the main SPR road, Tulip Crimson provides effortless connectivity to Gurugram’s key destinations while offering a peaceful, serene environment. Discover the elegance of choice and the charm of exclusive living. Welcome to Tulip Crimson, where your next chapter begins in style.",
+            "projectRedefine_Connectivity": [
+                "SPR - 2 Minute Walk"
+            ],
+            "projectRedefine_Entertainment": [
+                "Shri Ram School, Sector 70 - 2 Minute Drive"
+            ],
+            "projectRedefine_Business": [
+                "Indira Gandhi International Airport - 25 minute Drive"
+            ],
+            "projectRedefine_Education": [
+                "Sohna Road - 2 Minute Drive"
+            ],
+            "meta_description": "Tulip Crimson New Launch is a highly anticipated group home project. The striking Tulip Crimson New Launch",
+            "meta_title": "Tulip Crimson Sector 70 Gurgaon - Tulip New Launch in Gurgaon",
+            "Amenities": [
+                "Swimming Pool","Gymnasium","Club House","24x7 Power Backup","Indoor Games","Car Parking","Cafeteria","Jogging Track","ATM"
+            ],
+            "projectBgContent": "New Launch Tulip Crimson Ultra Luxury Residencies",
+            "projectReraNo": "Applied",
+            "type": "Residential Flats",
+            "city": "Gurugram",
+            "builderName": "Tulip Infratech",
+            "AboutDeveloper": "Established as a cornerstone of trust and innovation in the Indian real estate sector,\r\nTulip Infratech has become synonymous with excellence and quality in residential and\r\ncommercial developments. Founded in 2005, we have a commendable record of\r\ndelivering over 5500 homes across 18 projects, developing over 100 acres, reflecting\r\nour commitment to transforming the National Capital Region's skyline.\r\nTulip Infratech prides itself on its punctuality, ensuring that each project is completed\r\nwithin the promised timeline, a testament to our integrity and reliability. We are\r\nknown for creating homes that are more than structures; they are a blend of dreams,\r\naesthetics, and functionality, offering state-of-the-art amenities that ensure a\r\ncomfortable and luxurious lifestyle.",
+            "projectOverview": "none",
+            "project_Status": "newlunch",
+            "schema_type": "project",
+            "project_url": "tulip-crimson",
+            "highlightImage": {
+                "url": "https://res.cloudinary.com/divlwzfnz/image/upload/v1726162965/rqpafq284gtsolzlly19_dvik4u.jpg"
+            },
+            "projectMaster_plan": {
+                "url": "https://res.cloudinary.com/divlwzfnz/image/upload/v1726162972/jglm4xytctro9vau6qv5_urqkco.jpg"
+            },
+            "projectGallery": [
+                {
+                    "url": "https://res.cloudinary.com/dm5yrsqdc/image/upload/v1723533303/100acre/project/kj6fd2bsvtywy1y1cfdj.jpg"
+                }
+            ],
+            "towerNumber": 10,
+            "totalUnit": 700,
+            "totalLandArea": 9.5,
+            "launchingDate": "2024-09-01T00:00:00.000Z",
+            "mobileNumber": 9811750130,
+            "possessionDate": "2029-06-01T00:00:00.000Z",
+            "minPrice": 4.5,
+            "maxPrice": 5.9,
+            "BhK_Details": [
+                {
+                    "bhk_type": "4 BHK + Study + Service",
+                    "price": "Call for Price",
+                    "bhk_Area": "3090 SQ.FT"
+                }
+            ],
+            "highlight": [
+                {
+                    "highlight_Point": "Aravali Facing Towers"
+                },
+                {
+                    "highlight_Point": "3 Passenger & 1 Service Elevators"
+                },
+                {
+                    "highlight_Point": "G +36 Floors"
+                },
+                {
+                    "highlight_Point": "70000 SQ.FT clubhouse area with Luxury Amenities."
+                },
+                {
+                    "highlight_Point": "Entrance from a 60-Meter Wide Road"
+                },
+                {
+                    "highlight_Point": "Top Class Architect & Contractor"
+                },
+                {
+                    "highlight_Point": "Low Density Project"
+                }
+            ]
+            
+        },
+        {
+            "project_floorplan_Image": [
+                {
+                    "url": "https://res.cloudinary.com/divlwzfnz/image/upload/v1726163257/amuouauufrecghcv9mjd_ky8kzh.jpg"
+                },
+                {
+                    "url": "https://res.cloudinary.com/divlwzfnz/image/upload/v1726163271/r2jajvemq2mrncnrq8af_xyyxj9.jpg"
+                },
+                {
+                    "url": "https://res.cloudinary.com/divlwzfnz/image/upload/v1726163288/pyjbynjyxj5dittk6uou_fsjsmy.jpg"
+                },
+                {
+                    "url": "https://res.cloudinary.com/divlwzfnz/image/upload/v1726163293/dygollsmwzjgqtprtswe_zdfecj.jpg"
+                }
+            ],
+            "frontImage": {
+                "url": "https://res.cloudinary.com/divlwzfnz/image/upload/v1726163318/d4toiejfun7dfyxfummw_o3j4qm.jpg"
+            },
+            "logo": {
+                "url": "https://res.cloudinary.com/divlwzfnz/image/upload/v1726163326/pftxni0hpf1bjixfxqrr_jfnmap.png"
+            },
+            "project_locationImage": {
+                "url": "https://res.cloudinary.com/divlwzfnz/image/upload/v1726163330/ynovb5u9teoueedr5rmg_ui79gx.jpg"
+            },
+            "state": "Haryana",
+            "projectName": "4S The Aurum",
+            "projectAddress": "Sector 59, Golf Course Extn Road",
+            "project_description": "The seven towering structures of 4S The Aurum will gracefully ascend over Gurugram, offering stunning views of the lush Aravalli mountain range. Designed as a dynamic and welcoming enclave, 4S The Aurum fosters not just a place to live, but a true sense of community. With a seamless blend of modern luxury and natural beauty, residents can enjoy peace and tranquility in the scenic surroundings while having access to top-notch amenities. This creates a perfect balance between urban convenience and serene, nature-inspired living.",
+            "projectRedefine_Connectivity": [
+                "Golf Course Road in 1 Min Drive"
+            ],
+            "projectRedefine_Entertainment": [
+                "Mumbai Expressway in 10 Min Drive"
+            ],
+            "projectRedefine_Business": [
+                "Dwarka Expressway in 15 Min Drive"
+            ],
+            "projectRedefine_Education": [
+                "CyberHub in 10 Min Drive"
+            ],
+            "meta_description": "4S The Aurrum is a ultra luxury project by 4S Developers. offers premium 3 & 4 BHK apartments on sector 59 Golf Course Extension Road, Gurgaon",
+            "meta_title": "4S The Aurrum | New Residential Launch in Sector 59 Gurgaon",
+            "Amenities": [
+                "Car Parking","24x7 Power Backup","ATM","CCTV Camera Security","Jogging Track"
+            ],
+            "projectBgContent": "4S The Aurrum | 3/4 BHK Ultra Luxury Apartments",
+            "projectReraNo": "Applied",
+            "type": "Residential Flats",
+            "city": "Gurugram",
+            "builderName": "4S Developers",
+            "AboutDeveloper": "4S Developers is more than a real estate firm; we create spaces that inspire and elevate lifestyles. Our team of experienced professionals is dedicated to transforming your dreams into reality, whether it's finding your dream home or creating lucrative investment opportunities.",
+            "projectOverview": "none",
+            "project_Status": "newlaunch",
+            "schema_type": "project",
+            "project_url": "4s-the-aurum",
+            "highlightImage": {
+                "url": "https://res.cloudinary.com/divlwzfnz/image/upload/v1726163542/gxigsigcbta67tpexbg3_fw7jyq.jpg"
+            },
+            "projectMaster_plan": {
+                "url": "https://res.cloudinary.com/divlwzfnz/image/upload/v1726163545/iurisdwe05vue2fhfziw_jx9aw8.jpg"
+            },
+            
+            "towerNumber": 6,
+            "totalUnit": 500,
+            "totalLandArea": 10.5,
+            "launchingDate": "2024-09-01T00:00:00.000Z",
+            "mobileNumber": 9811750130,
+            "possessionDate": "2028-10-01T00:00:00.000Z",
+            "minPrice": 5.28,
+            "maxPrice": 7.92,
+            "BhK_Details": [
+                {
+                    "bhk_type": "3 BHK Small",
+                    "price": "Call for Price",
+                    "bhk_Area": "2407 SQ.FT"
+                },
+                {
+                    "bhk_type": "3 BHK Large",
+                    "price": "Call for Price",
+                    "bhk_Area": "2624 SQ.FT"
+                },
+                {
+                    "bhk_type": "4 BHK Small",
+                    "price": "Call for Price",
+                    "bhk_Area": "3257 SQ.FT"
+                },
+                {
+                    "bhk_type": "4 BHK Large",
+                    "price": "Call for Price",
+                    "bhk_Area": "3562 SQ.FT"
+                }
+            ],
+            "highlight": [
+                {
+                    "highlight_Point": "3 Side Open Residences"
+                },
+                {
+                    "highlight_Point": "Triple Height Lobby"
+                },
+                {
+                    "highlight_Point": "Spacious Sun Decks"
+                },
+                {
+                    "highlight_Point": "2 Private Elevators in Every Tower"
+                },
+                {
+                    "highlight_Point": "Ample Car Parking"
+                }
+            ]
         }
   ]
 }
