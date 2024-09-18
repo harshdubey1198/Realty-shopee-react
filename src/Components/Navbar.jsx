@@ -72,7 +72,7 @@ function Navbar() {
 
   return (
     <nav>
-      <div className='relative'>
+      <div className='relative relative-2'>
         <div className='logo-div'>
           <a href='https://www.realtyshopee.com' target='_blank' rel='noopener noreferrer'>
             <img src={logo} alt='Realty Shopee' />
