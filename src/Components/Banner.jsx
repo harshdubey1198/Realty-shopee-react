@@ -87,7 +87,7 @@ const Banner = () => {
 
           <div className="flex space-x-8 mt-8">
             <div className="text-center">
-              <CountUp start={4750} end={4900} duration={4} className="text-4xl font-semibold" />
+              <CountUp start={4750} end={4900} duration={4} className="text-4xl font-semibold" /> 
               <p className="text-lg text-gray-300">Properties Sold</p>
             </div>
             <div className="text-center">

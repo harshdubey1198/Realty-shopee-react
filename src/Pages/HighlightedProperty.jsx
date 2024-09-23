@@ -44,8 +44,8 @@ const HighlightedProperty = () => {
       
       <HNav />
       <div className="mx-auto p-6">
-        <div className="relative overflow-hidden rounded-lg mb-6 w-3/4 mt-10">
-          <img src={property.images[0]} alt={property.name} className="w-screen h-auto object-fill" />
+        <div className="relative overflow-hidden rounded-lg mb-6  mt-10">
+          <img src={property.images[0]} alt={property.name} className="w-screen h-auto " />
           <div className="absolute top-0 left-[-75%] w-1/2 h-full bg-gradient-to-r from-transparent to-white opacity-30 transform skew-x-[-25deg] animate-shine"></div>
         </div>
         <div className="space-y-6">

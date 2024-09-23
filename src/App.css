@@ -3225,6 +3225,7 @@ button{
     background: #c3e2ff;
     position: fixed;
     top: 52px;
+    
     right: 2px;
     display: flex;
     flex-direction: column;
@@ -3240,14 +3241,7 @@ button{
     border:1px solid white;
     color: black;
   }
-  .mob-dropdown select {
-    border: none;
-    width: 100%;
-    border-radius: 0;
-    margin: 0;
-    border: 0;
-    /* appearance: none; */
-  }
+ 
   .ptype-select{
     padding: 10px 0;
   }
